@@ -1,0 +1,2236 @@
+{
+  "method": "tfidf_vector_similarity",
+  "configuration": {
+    "ngram_range": [
+      1,
+      3
+    ],
+    "max_features": 10000,
+    "similarity_metric": "manhattan",
+    "similarity_threshold": 0.2,
+    "stemming_used": true,
+    "stopwords_removed": true
+  },
+  "reuse_instances": [
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "54",
+      "segment1_text": "51 To a Child; daughter To a Child; daughter To a Child; daughter of T. and AB.",
+      "segment1_metadata": {},
+      "segment1_word_count": 17,
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "60",
+      "segment2_text": "57 And on the elements unchangeable.",
+      "segment2_metadata": {},
+      "segment2_word_count": 6,
+      "tfidf_similarity": 0.2064440246118757,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.2064440246118757,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 6,
+      "total_features_2": 2,
+      "top_shared_features": [
+        "unchang",
+        "element",
+        "child daughter",
+        "daughter",
+        "child daughter child"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "54",
+      "segment1_text": "51 To a Child; daughter To a Child; daughter To a Child; daughter of T. and AB.",
+      "segment1_metadata": {},
+      "segment1_word_count": 17,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "62",
+      "segment2_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment2_metadata": {},
+      "segment2_word_count": 44,
+      "tfidf_similarity": 0.22532388649201884,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.22532388649201884,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 6,
+      "total_features_2": 1,
+      "top_shared_features": [
+        "phosphoru",
+        "child daughter",
+        "daughter",
+        "daughter child",
+        "daughter child daughter"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "60",
+      "segment1_text": "57 And on the elements unchangeable.",
+      "segment1_metadata": {},
+      "segment1_word_count": 6,
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "98",
+      "segment2_text": "95 Seeking the light of Valens morning star.",
+      "segment2_metadata": {},
+      "segment2_word_count": 8,
+      "tfidf_similarity": 0.20886825069486134,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.20886825069486134,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 2,
+      "total_features_2": 6,
+      "top_shared_features": [
+        "unchang",
+        "element",
+        "morn star",
+        "seek light",
+        "seek"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "60",
+      "segment1_text": "57 And on the elements unchangeable.",
+      "segment1_metadata": {},
+      "segment1_word_count": 6,
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "142",
+      "segment2_text": "& with respect to the attempt made by Demagoges whether in newspapers or speeches.",
+      "segment2_metadata": {},
+      "segment2_word_count": 13,
+      "tfidf_similarity": 0.20661731219010115,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.20661731219010115,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 2,
+      "total_features_2": 6,
+      "top_shared_features": [
+        "unchang",
+        "element",
+        "newspap",
+        "respect attempt demagog",
+        "respect attempt"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "60",
+      "segment1_text": "57 And on the elements unchangeable.",
+      "segment1_metadata": {},
+      "segment1_word_count": 6,
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "167",
+      "segment2_text": "Which is the future life beyond the grave. –",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+          }
+        ]
+      },
+      "segment2_word_count": 8,
+      "tfidf_similarity": 0.24496051470343255,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.24496051470343255,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 2,
+      "total_features_2": 3,
+      "top_shared_features": [
+        "unchang",
+        "grave",
+        "element",
+        "futur",
+        "life"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "60",
+      "segment1_text": "57 And on the elements unchangeable.",
+      "segment1_metadata": {},
+      "segment1_word_count": 6,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "55",
+      "segment2_text": "51 by xxxxxxx which in degrading or destroying different countries have carried down different materials.",
+      "segment2_metadata": {},
+      "segment2_word_count": 15,
+      "tfidf_similarity": 0.21661257579512716,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.21661257579512716,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 2,
+      "total_features_2": 5,
+      "top_shared_features": [
+        "unchang",
+        "element",
+        "differ",
+        "countri",
+        "carri"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "60",
+      "segment1_text": "57 And on the elements unchangeable.",
+      "segment1_metadata": {},
+      "segment1_word_count": 6,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "62",
+      "segment2_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment2_metadata": {},
+      "segment2_word_count": 44,
+      "tfidf_similarity": 0.2936105505929108,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.2936105505929108,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 2,
+      "total_features_2": 1,
+      "top_shared_features": [
+        "phosphoru",
+        "unchang",
+        "element"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "60",
+      "segment1_text": "57 And on the elements unchangeable.",
+      "segment1_metadata": {},
+      "segment1_word_count": 6,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "66",
+      "segment2_text": "such as are now produced only in ages.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Guernsey",
+            "description": "One of the Channel Islands in the English Channel near the French coast.",
+            "id": "place_938"
+          },
+          {
+            "name": "Isles of Scilly",
+            "description": "The Scilly Isles are an archipelago off the south western tip of Cornwall.",
+            "id": "place_513"
+          },
+          {
+            "name": "Jersey",
+            "description": "The largest of the Channel Islands, between England and France.",
+            "id": "place_939"
+          },
+          {
+            "name": "England",
+            "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
+            "id": "place_121"
+          },
+          {
+            "name": "Ireland",
+            "description": "",
+            "id": "place_018"
+          },
+          {
+            "name": "Orkney",
+            "description": "An archipelago off the northeastern coast of Scotland.",
+            "id": "place_940"
+          }
+        ]
+      },
+      "segment2_word_count": 8,
+      "tfidf_similarity": 0.21890625984865297,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.21890625984865297,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 2,
+      "total_features_2": 5,
+      "top_shared_features": [
+        "unchang",
+        "element",
+        "produc onli",
+        "produc onli age",
+        "age"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "60",
+      "segment1_text": "57 And on the elements unchangeable.",
+      "segment1_metadata": {},
+      "segment1_word_count": 6,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 2,
+      "segment2_page_key": "80",
+      "segment2_text": "In the rocks of known aqueous origin there is less",
+      "segment2_metadata": {},
+      "segment2_word_count": 10,
+      "tfidf_similarity": 0.24248381816884157,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.24248381816884157,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 2,
+      "total_features_2": 3,
+      "top_shared_features": [
+        "unchang",
+        "origin",
+        "element",
+        "known",
+        "rock"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "60",
+      "segment1_text": "57 And on the elements unchangeable.",
+      "segment1_metadata": {},
+      "segment1_word_count": 6,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "83",
+      "segment2_text": "history or tradition - are not now known to exist.",
+      "segment2_metadata": {},
+      "segment2_word_count": 9,
+      "tfidf_similarity": 0.216988431579257,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.216988431579257,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 2,
+      "total_features_2": 5,
+      "top_shared_features": [
+        "unchang",
+        "element",
+        "histori tradit",
+        "tradit",
+        "histori"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "60",
+      "segment1_text": "57 And on the elements unchangeable.",
+      "segment1_metadata": {},
+      "segment1_word_count": 6,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "89",
+      "segment2_text": "- Sunday - 18 Sunday 18. Sunday 18. Mantua 19 24 Ala - 20 23 } vegetation Riva - 2 x 28 6 days more 6 days more 22",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "DenisPapin",
+            "birth": "",
+            "death": "",
+            "description": "French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.",
+            "id": "person_304"
+          }
+        ],
+        "places": [
+          {
+            "name": "Bagni Caldi",
+            "description": "A village in north-western Italy famous for its thermal baths.",
+            "id": "place_767"
+          },
+          {
+            "name": "Filigare",
+            "description": "Tuscany, Italy.",
+            "id": "place_1004"
+          },
+          {
+            "name": "Lago di Garda",
+            "description": "Lake Garda is the largest lake in Italy.",
+            "id": "place_551"
+          },
+          {
+            "name": "Florence",
+            "description": "The capital city of the Italian region of Tuscany.",
+            "id": "place_1080"
+          },
+          {
+            "name": "Bologna",
+            "description": "A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.",
+            "id": "place_942"
+          },
+          {
+            "name": "Ala",
+            "description": "A comune in Trentino, north-eastern Italy.",
+            "id": "place_948"
+          },
+          {
+            "name": "England",
+            "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
+            "id": "place_121"
+          },
+          {
+            "name": "Mantua",
+            "description": "A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.",
+            "id": "place_947"
+          }
+        ]
+      },
+      "segment2_word_count": 24,
+      "tfidf_similarity": 0.21390633627013264,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.21390633627013264,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 2,
+      "total_features_2": 6,
+      "top_shared_features": [
+        "unchang",
+        "sunday",
+        "element",
+        "sunday sunday",
+        "day day"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "60",
+      "segment1_text": "57 And on the elements unchangeable.",
+      "segment1_metadata": {},
+      "segment1_word_count": 6,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "147",
+      "segment2_text": "- A life in which no faculties are employed: but those of eating & generating",
+      "segment2_metadata": {},
+      "segment2_word_count": 13,
+      "tfidf_similarity": 0.21812118947944062,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.21812118947944062,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 2,
+      "total_features_2": 5,
+      "top_shared_features": [
+        "unchang",
+        "element",
+        "eat",
+        "employ",
+        "faculti"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 0.9999999999999999
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "98",
+      "segment1_text": "95 Seeking the light of Valens morning star.",
+      "segment1_metadata": {},
+      "segment1_word_count": 8,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "62",
+      "segment2_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment2_metadata": {},
+      "segment2_word_count": 44,
+      "tfidf_similarity": 0.22821489650491977,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.22821489650491977,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 6,
+      "total_features_2": 1,
+      "top_shared_features": [
+        "phosphoru",
+        "morn star",
+        "seek light",
+        "seek",
+        "morn"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "141",
+      "segment1_text": "The Meteors blaze lighting the visible universe Is as transient And vainly should we search where",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+          },
+          {
+            "name": "Traunsee",
+            "description": "A lake in the Salzkammergut, Upper Austria, Austria.",
+            "id": "place_972"
+          }
+        ]
+      },
+      "segment1_word_count": 16,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "62",
+      "segment2_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment2_metadata": {},
+      "segment2_word_count": 44,
+      "tfidf_similarity": 0.20901944611650225,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.20901944611650225,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 8,
+      "total_features_2": 1,
+      "top_shared_features": [
+        "phosphoru",
+        "visibl univers",
+        "search",
+        "meteor",
+        "blaze"
+      ],
+      "vector1_norm": 0.9999999999999999,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "142",
+      "segment1_text": "& with respect to the attempt made by Demagoges whether in newspapers or speeches.",
+      "segment1_metadata": {},
+      "segment1_word_count": 13,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "62",
+      "segment2_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment2_metadata": {},
+      "segment2_word_count": 44,
+      "tfidf_similarity": 0.22553033445645146,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.22553033445645146,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 6,
+      "total_features_2": 1,
+      "top_shared_features": [
+        "phosphoru",
+        "newspap",
+        "respect attempt demagog",
+        "respect attempt",
+        "newspap speech"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "157",
+      "segment1_text": "Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "segment1_word_count": 14,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "62",
+      "segment2_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment2_metadata": {},
+      "segment2_word_count": 44,
+      "tfidf_similarity": 0.20391475410403853,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.20391475410403853,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 9,
+      "total_features_2": 1,
+      "top_shared_features": [
+        "phosphoru",
+        "bath lucca",
+        "bath",
+        "lucca",
+        "bath lucca bath"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "157",
+      "segment1_text": "Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "segment1_word_count": 14,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "156",
+      "segment2_text": "when I return } return } . + , 6.12 1 On the road to the Baths of Lucca Baths of Lucca Baths of Lucca layers of Limestone & chert very near each other & almost blended & much twisted",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "segment2_word_count": 34,
+      "tfidf_similarity": 0.252727815659512,
+      "cosine_similarity": 0.7355131417074464,
+      "euclidean_similarity": 0.5789362856485296,
+      "manhattan_similarity": 0.252727815659512,
+      "jaccard_features": 0.3,
+      "overlap_coefficient": 0.6666666666666666,
+      "shared_features": 6,
+      "total_features_1": 9,
+      "total_features_2": 17,
+      "top_shared_features": [
+        "bath lucca",
+        "bath",
+        "lucca",
+        "lucca bath",
+        "bath lucca bath"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "167",
+      "segment1_text": "Which is the future life beyond the grave. –",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+          }
+        ]
+      },
+      "segment1_word_count": 8,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "55",
+      "segment2_text": "51 by xxxxxxx which in degrading or destroying different countries have carried down different materials.",
+      "segment2_metadata": {},
+      "segment2_word_count": 15,
+      "tfidf_similarity": 0.20462102248060082,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.20462102248060082,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 3,
+      "total_features_2": 5,
+      "top_shared_features": [
+        "grave",
+        "futur",
+        "differ",
+        "countri",
+        "carri"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "167",
+      "segment1_text": "Which is the future life beyond the grave. –",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+          }
+        ]
+      },
+      "segment1_word_count": 8,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "62",
+      "segment2_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment2_metadata": {},
+      "segment2_word_count": 44,
+      "tfidf_similarity": 0.2720038601296074,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.2720038601296074,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 3,
+      "total_features_2": 1,
+      "top_shared_features": [
+        "phosphoru",
+        "grave",
+        "futur",
+        "life"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "167",
+      "segment1_text": "Which is the future life beyond the grave. –",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+          }
+        ]
+      },
+      "segment1_word_count": 8,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "66",
+      "segment2_text": "such as are now produced only in ages.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Guernsey",
+            "description": "One of the Channel Islands in the English Channel near the French coast.",
+            "id": "place_938"
+          },
+          {
+            "name": "Isles of Scilly",
+            "description": "The Scilly Isles are an archipelago off the south western tip of Cornwall.",
+            "id": "place_513"
+          },
+          {
+            "name": "Jersey",
+            "description": "The largest of the Channel Islands, between England and France.",
+            "id": "place_939"
+          },
+          {
+            "name": "England",
+            "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
+            "id": "place_121"
+          },
+          {
+            "name": "Ireland",
+            "description": "",
+            "id": "place_018"
+          },
+          {
+            "name": "Orkney",
+            "description": "An archipelago off the northeastern coast of Scotland.",
+            "id": "place_940"
+          }
+        ]
+      },
+      "segment2_word_count": 8,
+      "tfidf_similarity": 0.20666658263938092,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.20666658263938092,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 3,
+      "total_features_2": 5,
+      "top_shared_features": [
+        "grave",
+        "futur",
+        "produc onli",
+        "produc onli age",
+        "life"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "167",
+      "segment1_text": "Which is the future life beyond the grave. –",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+          }
+        ]
+      },
+      "segment1_word_count": 8,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 2,
+      "segment2_page_key": "80",
+      "segment2_text": "In the rocks of known aqueous origin there is less",
+      "segment2_metadata": {},
+      "segment2_word_count": 10,
+      "tfidf_similarity": 0.22755547608069954,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.22755547608069954,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 3,
+      "total_features_2": 3,
+      "top_shared_features": [
+        "grave",
+        "origin",
+        "futur",
+        "known",
+        "rock"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "167",
+      "segment1_text": "Which is the future life beyond the grave. –",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+          }
+        ]
+      },
+      "segment1_word_count": 8,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "83",
+      "segment2_text": "history or tradition - are not now known to exist.",
+      "segment2_metadata": {},
+      "segment2_word_count": 9,
+      "tfidf_similarity": 0.2049563835845689,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.2049563835845689,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 3,
+      "total_features_2": 5,
+      "top_shared_features": [
+        "grave",
+        "futur",
+        "histori tradit",
+        "tradit",
+        "histori"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "167",
+      "segment1_text": "Which is the future life beyond the grave. –",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+          }
+        ]
+      },
+      "segment1_word_count": 8,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "89",
+      "segment2_text": "- Sunday - 18 Sunday 18. Sunday 18. Mantua 19 24 Ala - 20 23 } vegetation Riva - 2 x 28 6 days more 6 days more 22",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "DenisPapin",
+            "birth": "",
+            "death": "",
+            "description": "French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.",
+            "id": "person_304"
+          }
+        ],
+        "places": [
+          {
+            "name": "Bagni Caldi",
+            "description": "A village in north-western Italy famous for its thermal baths.",
+            "id": "place_767"
+          },
+          {
+            "name": "Filigare",
+            "description": "Tuscany, Italy.",
+            "id": "place_1004"
+          },
+          {
+            "name": "Lago di Garda",
+            "description": "Lake Garda is the largest lake in Italy.",
+            "id": "place_551"
+          },
+          {
+            "name": "Florence",
+            "description": "The capital city of the Italian region of Tuscany.",
+            "id": "place_1080"
+          },
+          {
+            "name": "Bologna",
+            "description": "A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.",
+            "id": "place_942"
+          },
+          {
+            "name": "Ala",
+            "description": "A comune in Trentino, north-eastern Italy.",
+            "id": "place_948"
+          },
+          {
+            "name": "England",
+            "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
+            "id": "place_121"
+          },
+          {
+            "name": "Mantua",
+            "description": "A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.",
+            "id": "place_947"
+          }
+        ]
+      },
+      "segment2_word_count": 24,
+      "tfidf_similarity": 0.20220444972118531,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.20220444972118531,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 3,
+      "total_features_2": 6,
+      "top_shared_features": [
+        "grave",
+        "sunday",
+        "futur",
+        "sunday sunday",
+        "life"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "167",
+      "segment1_text": "Which is the future life beyond the grave. –",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+          }
+        ]
+      },
+      "segment1_word_count": 8,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "147",
+      "segment2_text": "- A life in which no faculties are employed: but those of eating & generating",
+      "segment2_metadata": {},
+      "segment2_word_count": 13,
+      "tfidf_similarity": 0.22940151520778726,
+      "cosine_similarity": 0.08891141309937299,
+      "euclidean_similarity": 0.42555356752163204,
+      "manhattan_similarity": 0.22940151520778726,
+      "jaccard_features": 0.14285714285714285,
+      "overlap_coefficient": 0.3333333333333333,
+      "shared_features": 1,
+      "total_features_1": 3,
+      "total_features_2": 5,
+      "top_shared_features": [
+        "grave",
+        "futur",
+        "life",
+        "eat",
+        "employ"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 0.9999999999999999
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "3",
+      "segment1_text": "The last sovereign who claimed the name of Roman Emperor & who Cont renounced that name to purchase",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Caucasus Mountains",
+            "description": "A mountain range at the intersection of Asia and Europe",
+            "id": "place_1149"
+          },
+          {
+            "name": "Rome",
+            "description": "The capital of Italy.",
+            "id": "place_155"
+          },
+          {
+            "name": "Greece",
+            "description": "",
+            "id": "place_167"
+          }
+        ]
+      },
+      "segment1_word_count": 17,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "62",
+      "segment2_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment2_metadata": {},
+      "segment2_word_count": 44,
+      "tfidf_similarity": 0.20786267699709077,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.20786267699709077,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 8,
+      "total_features_2": 1,
+      "top_shared_features": [
+        "phosphoru",
+        "purchas",
+        "renounc",
+        "renounc purchas",
+        "sovereign"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "35",
+      "segment1_text": "as He expresses himself He should be able to succeed if be able to succeed if burn in this exp ts ; - He placed",
+      "segment1_metadata": {},
+      "segment1_word_count": 24,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "62",
+      "segment2_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment2_metadata": {},
+      "segment2_word_count": 44,
+      "tfidf_similarity": 0.20357555787385004,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.20357555787385004,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 10,
+      "total_features_2": 1,
+      "top_shared_features": [
+        "phosphoru",
+        "abl succeed",
+        "abl",
+        "succeed",
+        "exp ts"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "47",
+      "segment1_text": "To determine if the opinion or the facts of Lanley be correct that the cold in",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Carrara",
+            "description": "Carrara is a city in central Italy.",
+            "id": "place_243"
+          },
+          {
+            "name": "Naples",
+            "description": "Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.",
+            "id": "place_156"
+          },
+          {
+            "name": "Rome",
+            "description": "The capital of Italy.",
+            "id": "place_155"
+          },
+          {
+            "name": "Vatican City",
+            "description": "The Vatican City is a city-state surrounded by Rome, Italy.",
+            "id": "place_178"
+          }
+        ]
+      },
+      "segment1_word_count": 16,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "62",
+      "segment2_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment2_metadata": {},
+      "segment2_word_count": 44,
+      "tfidf_similarity": 0.2161273898874787,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.2161273898874787,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 7,
+      "total_features_2": 1,
+      "top_shared_features": [
+        "phosphoru",
+        "opinion fact",
+        "opinion fact lanley",
+        "opinion",
+        "correct"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 2,
+      "segment1_page_key": "54",
+      "segment1_text": "- It may seem incompatible with the existence of living beings in the Ocean that it should contain such substances as these which from",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Rome",
+            "description": "The capital of Italy.",
+            "id": "place_155"
+          }
+        ]
+      },
+      "segment1_word_count": 23,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "62",
+      "segment2_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment2_metadata": {},
+      "segment2_word_count": 44,
+      "tfidf_similarity": 0.2099402600401421,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.2099402600401421,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 8,
+      "total_features_2": 1,
+      "top_shared_features": [
+        "phosphoru",
+        "contain substanc",
+        "ocean contain",
+        "incompat",
+        "substanc"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "55",
+      "segment1_text": "51 by xxxxxxx which in degrading or destroying different countries have carried down different materials.",
+      "segment1_metadata": {},
+      "segment1_word_count": 15,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "62",
+      "segment2_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment2_metadata": {},
+      "segment2_word_count": 44,
+      "tfidf_similarity": 0.23749217900052821,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.23749217900052821,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 5,
+      "total_features_2": 1,
+      "top_shared_features": [
+        "phosphoru",
+        "differ",
+        "countri",
+        "carri",
+        "destroy"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "55",
+      "segment1_text": "51 by xxxxxxx which in degrading or destroying different countries have carried down different materials.",
+      "segment1_metadata": {},
+      "segment1_word_count": 15,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 2,
+      "segment2_page_key": "80",
+      "segment2_text": "In the rocks of known aqueous origin there is less",
+      "segment2_metadata": {},
+      "segment2_word_count": 10,
+      "tfidf_similarity": 0.2028899915688162,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.2028899915688162,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 5,
+      "total_features_2": 3,
+      "top_shared_features": [
+        "origin",
+        "known",
+        "differ",
+        "rock",
+        "countri"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "61",
+      "segment1_text": "57 The alluvial or diluvial The alluvial or diluvial changes in our globe are connected rather with destruction than consolidation than consolidation .",
+      "segment1_metadata": {},
+      "segment1_word_count": 23,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "62",
+      "segment2_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment2_metadata": {},
+      "segment2_word_count": 44,
+      "tfidf_similarity": 0.202323728691853,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.202323728691853,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 10,
+      "total_features_2": 1,
+      "top_shared_features": [
+        "phosphoru",
+        "alluvi",
+        "alluvi diluvi",
+        "diluvi",
+        "consolid"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "62",
+      "segment1_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment1_metadata": {},
+      "segment1_word_count": 44,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "66",
+      "segment2_text": "such as are now produced only in ages.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Guernsey",
+            "description": "One of the Channel Islands in the English Channel near the French coast.",
+            "id": "place_938"
+          },
+          {
+            "name": "Isles of Scilly",
+            "description": "The Scilly Isles are an archipelago off the south western tip of Cornwall.",
+            "id": "place_513"
+          },
+          {
+            "name": "Jersey",
+            "description": "The largest of the Channel Islands, between England and France.",
+            "id": "place_939"
+          },
+          {
+            "name": "England",
+            "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
+            "id": "place_121"
+          },
+          {
+            "name": "Ireland",
+            "description": "",
+            "id": "place_018"
+          },
+          {
+            "name": "Orkney",
+            "description": "An archipelago off the northeastern coast of Scotland.",
+            "id": "place_940"
+          }
+        ]
+      },
+      "segment2_word_count": 8,
+      "tfidf_similarity": 0.24025217458422754,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.24025217458422754,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 1,
+      "total_features_2": 5,
+      "top_shared_features": [
+        "phosphoru",
+        "produc onli age",
+        "produc onli",
+        "age",
+        "onli"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "62",
+      "segment1_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment1_metadata": {},
+      "segment1_word_count": 44,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 2,
+      "segment2_page_key": "80",
+      "segment2_text": "In the rocks of known aqueous origin there is less",
+      "segment2_metadata": {},
+      "segment2_word_count": 10,
+      "tfidf_similarity": 0.2689535340256008,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.2689535340256008,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 1,
+      "total_features_2": 3,
+      "top_shared_features": [
+        "phosphoru",
+        "origin",
+        "known",
+        "rock"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "62",
+      "segment1_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment1_metadata": {},
+      "segment1_word_count": 44,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "83",
+      "segment2_text": "history or tradition - are not now known to exist.",
+      "segment2_metadata": {},
+      "segment2_word_count": 9,
+      "tfidf_similarity": 0.23794406113612662,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.23794406113612662,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 1,
+      "total_features_2": 5,
+      "top_shared_features": [
+        "phosphoru",
+        "histori tradit",
+        "tradit",
+        "histori",
+        "known"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "62",
+      "segment1_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment1_metadata": {},
+      "segment1_word_count": 44,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 2,
+      "segment2_page_key": "88",
+      "segment2_text": "- But on penetrating beneath the surface the character & arrangement of nature is",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bologna",
+            "description": "A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.",
+            "id": "place_942"
+          }
+        ]
+      },
+      "segment2_word_count": 12,
+      "tfidf_similarity": 0.20252020501780055,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.20252020501780055,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 1,
+      "total_features_2": 9,
+      "top_shared_features": [
+        "phosphoru",
+        "penetr beneath surfac",
+        "penetr beneath",
+        "beneath surfac",
+        "penetr"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "62",
+      "segment1_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment1_metadata": {},
+      "segment1_word_count": 44,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "89",
+      "segment2_text": "- Sunday - 18 Sunday 18. Sunday 18. Mantua 19 24 Ala - 20 23 } vegetation Riva - 2 x 28 6 days more 6 days more 22",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "DenisPapin",
+            "birth": "",
+            "death": "",
+            "description": "French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.",
+            "id": "person_304"
+          }
+        ],
+        "places": [
+          {
+            "name": "Bagni Caldi",
+            "description": "A village in north-western Italy famous for its thermal baths.",
+            "id": "place_767"
+          },
+          {
+            "name": "Filigare",
+            "description": "Tuscany, Italy.",
+            "id": "place_1004"
+          },
+          {
+            "name": "Lago di Garda",
+            "description": "Lake Garda is the largest lake in Italy.",
+            "id": "place_551"
+          },
+          {
+            "name": "Florence",
+            "description": "The capital city of the Italian region of Tuscany.",
+            "id": "place_1080"
+          },
+          {
+            "name": "Bologna",
+            "description": "A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.",
+            "id": "place_942"
+          },
+          {
+            "name": "Ala",
+            "description": "A comune in Trentino, north-eastern Italy.",
+            "id": "place_948"
+          },
+          {
+            "name": "England",
+            "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
+            "id": "place_121"
+          },
+          {
+            "name": "Mantua",
+            "description": "A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.",
+            "id": "place_947"
+          }
+        ]
+      },
+      "segment2_word_count": 24,
+      "tfidf_similarity": 0.23424299105158927,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.23424299105158927,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 1,
+      "total_features_2": 6,
+      "top_shared_features": [
+        "phosphoru",
+        "sunday",
+        "sunday sunday",
+        "riva",
+        "day day"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "62",
+      "segment1_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment1_metadata": {},
+      "segment1_word_count": 44,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "129",
+      "segment2_text": "upon the retina &c occasion a sensation of vision but this is expressing nothing more than that the sensation",
+      "segment2_metadata": {},
+      "segment2_word_count": 19,
+      "tfidf_similarity": 0.2042487137614701,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.2042487137614701,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 1,
+      "total_features_2": 9,
+      "top_shared_features": [
+        "phosphoru",
+        "sensat",
+        "occas sensat vision",
+        "occas sensat",
+        "vision thi"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "62",
+      "segment1_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment1_metadata": {},
+      "segment1_word_count": 44,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "139",
+      "segment2_text": "- Chemic : Our language represents only thoughts which belonging to",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "Muhammad",
+            "birth": "",
+            "death": "",
+            "description": "The Holy Prophet and founder of Islam.",
+            "id": "person_114"
+          }
+        ]
+      },
+      "segment2_word_count": 10,
+      "tfidf_similarity": 0.20242089934342097,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.20242089934342097,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 1,
+      "total_features_2": 9,
+      "top_shared_features": [
+        "phosphoru",
+        "repres",
+        "repres onli",
+        "repres onli thought",
+        "thought belong"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "62",
+      "segment1_text": "so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2079 85 397 429 100 70.3 29.7 phosphorus 29 52.9",
+      "segment1_metadata": {},
+      "segment1_word_count": 44,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "147",
+      "segment2_text": "- A life in which no faculties are employed: but those of eating & generating",
+      "segment2_metadata": {},
+      "segment2_word_count": 13,
+      "tfidf_similarity": 0.23930686289362962,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.23930686289362962,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 1,
+      "total_features_2": 5,
+      "top_shared_features": [
+        "phosphoru",
+        "eat",
+        "employ",
+        "faculti",
+        "gener"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 0.9999999999999999
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "66",
+      "segment1_text": "such as are now produced only in ages.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Guernsey",
+            "description": "One of the Channel Islands in the English Channel near the French coast.",
+            "id": "place_938"
+          },
+          {
+            "name": "Isles of Scilly",
+            "description": "The Scilly Isles are an archipelago off the south western tip of Cornwall.",
+            "id": "place_513"
+          },
+          {
+            "name": "Jersey",
+            "description": "The largest of the Channel Islands, between England and France.",
+            "id": "place_939"
+          },
+          {
+            "name": "England",
+            "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
+            "id": "place_121"
+          },
+          {
+            "name": "Ireland",
+            "description": "",
+            "id": "place_018"
+          },
+          {
+            "name": "Orkney",
+            "description": "An archipelago off the northeastern coast of Scotland.",
+            "id": "place_940"
+          }
+        ]
+      },
+      "segment1_word_count": 8,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 2,
+      "segment2_page_key": "80",
+      "segment2_text": "In the rocks of known aqueous origin there is less",
+      "segment2_metadata": {},
+      "segment2_word_count": 10,
+      "tfidf_similarity": 0.2049009184372632,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.2049009184372632,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 5,
+      "total_features_2": 3,
+      "top_shared_features": [
+        "origin",
+        "known",
+        "produc onli",
+        "produc onli age",
+        "rock"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 2,
+      "segment1_page_key": "80",
+      "segment1_text": "In the rocks of known aqueous origin there is less",
+      "segment1_metadata": {},
+      "segment1_word_count": 10,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "83",
+      "segment2_text": "history or tradition - are not now known to exist.",
+      "segment2_metadata": {},
+      "segment2_word_count": 9,
+      "tfidf_similarity": 0.24259805896392747,
+      "cosine_similarity": 0.2442557994358983,
+      "euclidean_similarity": 0.4485459394625826,
+      "manhattan_similarity": 0.24259805896392747,
+      "jaccard_features": 0.14285714285714285,
+      "overlap_coefficient": 0.3333333333333333,
+      "shared_features": 1,
+      "total_features_1": 3,
+      "total_features_2": 5,
+      "top_shared_features": [
+        "known",
+        "origin",
+        "histori tradit",
+        "tradit",
+        "rock"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 2,
+      "segment1_page_key": "80",
+      "segment1_text": "In the rocks of known aqueous origin there is less",
+      "segment1_metadata": {},
+      "segment1_word_count": 10,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "89",
+      "segment2_text": "- Sunday - 18 Sunday 18. Sunday 18. Mantua 19 24 Ala - 20 23 } vegetation Riva - 2 x 28 6 days more 6 days more 22",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "DenisPapin",
+            "birth": "",
+            "death": "",
+            "description": "French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.",
+            "id": "person_304"
+          }
+        ],
+        "places": [
+          {
+            "name": "Bagni Caldi",
+            "description": "A village in north-western Italy famous for its thermal baths.",
+            "id": "place_767"
+          },
+          {
+            "name": "Filigare",
+            "description": "Tuscany, Italy.",
+            "id": "place_1004"
+          },
+          {
+            "name": "Lago di Garda",
+            "description": "Lake Garda is the largest lake in Italy.",
+            "id": "place_551"
+          },
+          {
+            "name": "Florence",
+            "description": "The capital city of the Italian region of Tuscany.",
+            "id": "place_1080"
+          },
+          {
+            "name": "Bologna",
+            "description": "A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.",
+            "id": "place_942"
+          },
+          {
+            "name": "Ala",
+            "description": "A comune in Trentino, north-eastern Italy.",
+            "id": "place_948"
+          },
+          {
+            "name": "England",
+            "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
+            "id": "place_121"
+          },
+          {
+            "name": "Mantua",
+            "description": "A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.",
+            "id": "place_947"
+          }
+        ]
+      },
+      "segment2_word_count": 24,
+      "tfidf_similarity": 0.20051389539531717,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.20051389539531717,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 3,
+      "total_features_2": 6,
+      "top_shared_features": [
+        "sunday",
+        "origin",
+        "known",
+        "sunday sunday",
+        "rock"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 1.0
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 2,
+      "segment1_page_key": "80",
+      "segment1_text": "In the rocks of known aqueous origin there is less",
+      "segment1_metadata": {},
+      "segment1_word_count": 10,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "147",
+      "segment2_text": "- A life in which no faculties are employed: but those of eating & generating",
+      "segment2_metadata": {},
+      "segment2_word_count": 13,
+      "tfidf_similarity": 0.20421293228888843,
+      "cosine_similarity": 0.0,
+      "euclidean_similarity": 0.4142135623730951,
+      "manhattan_similarity": 0.20421293228888843,
+      "jaccard_features": 0.0,
+      "overlap_coefficient": 0.0,
+      "shared_features": 0,
+      "total_features_1": 3,
+      "total_features_2": 5,
+      "top_shared_features": [
+        "origin",
+        "known",
+        "eat",
+        "employ",
+        "faculti"
+      ],
+      "vector1_norm": 1.0,
+      "vector2_norm": 0.9999999999999999
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "99",
+      "segment1_text": "The torrent roaring from the moun- tain Which ravages a hundred fields Conducted tranquil from its fountain Bloom freshness, verdure, plenty yields. H. D 56",
+      "segment1_metadata": {},
+      "segment1_word_count": 25,
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "104",
+      "segment2_text": "Give it its attribute divine But still subdue control repress The torrent roaring from the mountain Which ravages a thousand hundred fields Conducted tranquil from its fountain xxxx Bloom, freshness verdure plenty yeilds",
+      "segment2_metadata": {},
+      "segment2_word_count": 33,
+      "tfidf_similarity": 0.20259707735481078,
+      "cosine_similarity": 0.7028956273965973,
+      "euclidean_similarity": 0.5647007696685031,
+      "manhattan_similarity": 0.20259707735481078,
+      "jaccard_features": 0.56,
+      "overlap_coefficient": 0.8,
+      "shared_features": 28,
+      "total_features_1": 35,
+      "total_features_2": 43,
+      "top_shared_features": [
+        "conduct",
+        "field conduct tranquil",
+        "bloom fresh",
+        "bloom fresh verdur",
+        "fountain bloom"
+      ],
+      "vector1_norm": 0.9999999999999997,
+      "vector2_norm": 0.9999999999999996
+    }
+  ],
+  "summary_metrics": {
+    "total_instances": 44,
+    "total_segments_analyzed": 501,
+    "total_comparisons_made": 125028,
+    "tfidf_similarity_mean": 0.2214678135324032,
+    "tfidf_similarity_std": 0.021355870419740807,
+    "tfidf_similarity_median": 0.2150168630788057,
+    "tfidf_similarity_min": 0.20051389539531717,
+    "tfidf_similarity_max": 0.2936105505929108,
+    "cosine_similarity_mean": 0.040263090491802614,
+    "cosine_similarity_std": 0.15309525076604222,
+    "euclidean_similarity_mean": 0.4224154331187512,
+    "euclidean_similarity_std": 0.03307270670678686,
+    "jaccard_features_mean": 0.02603896103896104,
+    "jaccard_features_std": 0.09706875689698197,
+    "avg_shared_features": 0.8181818181818182,
+    "max_shared_features": 28,
+    "min_shared_features": 0,
+    "high_similarity_count": 0,
+    "medium_similarity_count": 0,
+    "low_similarity_count": 44,
+    "processing_time_seconds": 230.53083562850952,
+    "vectorization_time_seconds": 0.6819674968719482,
+    "similarity_calculation_time_seconds": 210.07349610328674,
+    "comparisons_per_second": 542.3482704998181,
+    "vocabulary_size": 10000,
+    "ngram_range_min": 1,
+    "ngram_range_max": 3,
+    "max_features_limit": 10000,
+    "reuse_rate": 0.00035129740518962077,
+    "similarity_metric": "manhattan",
+    "similarity_threshold": 0.2,
+    "stemming_used": true,
+    "stopwords_removed": true
+  },
+  "feature_analysis": {
+    "top_discriminative_features": [
+      [
+        "phosphoru",
+        21
+      ],
+      [
+        "unchang",
+        11
+      ],
+      [
+        "element",
+        11
+      ],
+      [
+        "known",
+        9
+      ],
+      [
+        "grave",
+        8
+      ],
+      [
+        "futur",
+        8
+      ],
+      [
+        "origin",
+        8
+      ],
+      [
+        "rock",
+        7
+      ],
+      [
+        "life",
+        5
+      ],
+      [
+        "differ",
+        4
+      ],
+      [
+        "countri",
+        4
+      ],
+      [
+        "produc onli",
+        4
+      ],
+      [
+        "produc onli age",
+        4
+      ],
+      [
+        "histori tradit",
+        4
+      ],
+      [
+        "tradit",
+        4
+      ],
+      [
+        "sunday",
+        4
+      ],
+      [
+        "sunday sunday",
+        4
+      ],
+      [
+        "eat",
+        4
+      ],
+      [
+        "employ",
+        4
+      ],
+      [
+        "carri",
+        3
+      ]
+    ],
+    "total_unique_features_used": 87,
+    "feature_usage_distribution": {
+      "unchang": 11,
+      "element": 11,
+      "child daughter": 2,
+      "daughter": 2,
+      "child daughter child": 1,
+      "phosphoru": 21,
+      "daughter child": 1,
+      "daughter child daughter": 1,
+      "morn star": 2,
+      "seek light": 2,
+      "seek": 2,
+      "newspap": 2,
+      "respect attempt demagog": 2,
+      "respect attempt": 2,
+      "grave": 8,
+      "futur": 8,
+      "life": 5,
+      "differ": 4,
+      "countri": 4,
+      "carri": 3,
+      "produc onli": 4,
+      "produc onli age": 4,
+      "age": 2,
+      "origin": 8,
+      "known": 9,
+      "rock": 7,
+      "histori tradit": 4,
+      "tradit": 4,
+      "histori": 3,
+      "sunday": 4,
+      "sunday sunday": 4,
+      "day day": 2,
+      "eat": 4,
+      "employ": 4,
+      "faculti": 3,
+      "morn": 1,
+      "visibl univers": 1,
+      "search": 1,
+      "meteor": 1,
+      "blaze": 1,
+      "newspap speech": 1,
+      "bath lucca": 2,
+      "bath": 2,
+      "lucca": 2,
+      "bath lucca bath": 2,
+      "lucca bath": 1,
+      "purchas": 1,
+      "renounc": 1,
+      "renounc purchas": 1,
+      "sovereign": 1,
+      "abl succeed": 1,
+      "abl": 1,
+      "succeed": 1,
+      "exp ts": 1,
+      "opinion fact": 1,
+      "opinion fact lanley": 1,
+      "opinion": 1,
+      "correct": 1,
+      "contain substanc": 1,
+      "ocean contain": 1,
+      "incompat": 1,
+      "substanc": 1,
+      "destroy": 1,
+      "alluvi": 1,
+      "alluvi diluvi": 1,
+      "diluvi": 1,
+      "consolid": 1,
+      "onli": 1,
+      "penetr beneath surfac": 1,
+      "penetr beneath": 1,
+      "beneath surfac": 1,
+      "penetr": 1,
+      "riva": 1,
+      "sensat": 1,
+      "occas sensat vision": 1,
+      "occas sensat": 1,
+      "vision thi": 1,
+      "repres": 1,
+      "repres onli": 1,
+      "repres onli thought": 1,
+      "thought belong": 1,
+      "gener": 1,
+      "conduct": 1,
+      "field conduct tranquil": 1,
+      "bloom fresh": 1,
+      "bloom fresh verdur": 1,
+      "fountain bloom": 1
+    }
+  },
+  "timestamp": "2025-09-25T10:41:58.021028"
+}

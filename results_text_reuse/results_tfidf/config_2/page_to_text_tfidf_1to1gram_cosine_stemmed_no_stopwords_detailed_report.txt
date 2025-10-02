@@ -1,0 +1,2155 @@
+================================================================================
+TF-IDF TEXT REUSE INSTANCES - PAGE_TO_TEXT_TFIDF_1TO1GRAM_COSINE_STEMMED_NO_STOPWORDS
+================================================================================
+Generated: 2025-09-25 10:38:07
+Configuration: ngram_range=(1, 1), max_features=5000, similarity_metric=cosine, threshold=0.25, stemming=True, stopwords_removed=True
+================================================================================
+
+SUMMARY
+----------------------------------------
+Total text reuse instances found: 127
+Processing time: 288.55 seconds
+Segments analyzed: 505
+Comparisons made: 127033
+Vocabulary size: 3415 features
+Average TF-IDF similarity: 0.347
+Average cosine similarity: 0.347
+TF-IDF similarity range: 0.250 - 0.733
+Average shared features: 8.9
+High similarity instances (≥0.8): 0
+Medium similarity instances (0.5-0.8): 14
+Low similarity instances (<0.5): 113
+Reuse rate: 0.0010
+
+================================================================================
+
+TOP DISCRIMINATIVE FEATURES
+----------------------------------------
+Features most frequently shared between similar segments:
+  1. window               (appears in 14 comparisons)
+  2. room                 (appears in 14 comparisons)
+  3. iron                 (appears in 13 comparisons)
+  4. oxid                 (appears in 13 comparisons)
+  5. acid                 (appears in 13 comparisons)
+  6. bath                 (appears in 12 comparisons)
+  7. carbon               (appears in 12 comparisons)
+  8. lucca                (appears in 10 comparisons)
+  9. small                (appears in 8 comparisons)
+ 10. deposit              (appears in 6 comparisons)
+
+Total unique features used: 376
+
+================================================================================
+
+DETAILED TEXT REUSE INSTANCES
+================================================================================
+Showing all 127 instances (sorted by TF-IDF similarity):
+
+Instance 1:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 101 ↔ 107
+ TF-IDF Similarity: 0.733
+ Shared Features: 26
+ Features in Text 1: 26
+ Features in Text 2: 37
+ Word Counts: 51 ↔ 85
+ Text 1 (14g): From it the poets glories rise Which pass beyond our human being To things of other worlds & skies Carrying the prophets gift of seeing, By it the rud...
+ Text 2 (14g): 103 -. From it the Poets glories rise Which pass beyond our human being - To things of other worlds & skies Kindling Carrying the prophets gift of see...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Top Shared Features: clot, kindl, warrior, ruddi, rule
+--------------------------------------------------------------------------------
+Instance 2:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 100 ↔ 103
+ TF-IDF Similarity: 0.726
+ Shared Features: 25
+ Features in Text 1: 30
+ Features in Text 2: 42
+ Word Counts: 56 ↔ 83
+ Text 1 (14g): Let it on friendships tranquil hours A stedfast may day sunshine beam Making a field of fruits & flowers Such as the Bards elisian dream. To kindness ...
+ Text 2 (14g): 99 Let not this gift which is from heaven Shine as a meteors transient light Or as the lightnings flashes given Amidst the gloom to pain our sight. - ...
+ Top Shared Features: gift, let, kind, hour, tranquil
+--------------------------------------------------------------------------------
+Instance 3:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 99 ↔ 104
+ TF-IDF Similarity: 0.670
+ Shared Features: 12
+ Features in Text 1: 15
+ Features in Text 2: 20
+ Word Counts: 25 ↔ 33
+ Text 1 (14g): The torrent roaring from the moun- tain Which ravages a hundred fields Conducted tranquil from its fountain Bloom freshness, verdure, plenty yields. H...
+ Text 2 (14g): Give it its attribute divine But still subdue control repress The torrent roaring from the mountain Which ravages a thousand hundred fields Conducted ...
+ Top Shared Features: conduct, ravag, fountain, roar, plenti
+--------------------------------------------------------------------------------
+Instance 4:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 157 ↔ 156
+ TF-IDF Similarity: 0.642
+ Shared Features: 2
+ Features in Text 1: 3
+ Features in Text 2: 11
+ Word Counts: 14 ↔ 34
+ Text 1 (14e): Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .
+ Text 2 (14g): when I return } return } . + , 6.12 1 On the road to the Baths of Lucca Baths of Lucca Baths of Lucca layers of Limestone & chert very near each other...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Top Shared Features: bath, lucca, return, aug, twist
+--------------------------------------------------------------------------------
+Instance 5:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 157 ↔ 163
+ TF-IDF Similarity: 0.633
+ Shared Features: 2
+ Features in Text 1: 3
+ Features in Text 2: 12
+ Word Counts: 14 ↔ 42
+ Text 1 (14e): Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .
+ Text 2 (14e): At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We cat...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Top Shared Features: bath, lucca, dream, aug, fainter
+--------------------------------------------------------------------------------
+
+Instance 6:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 99 ↔ 102
+ TF-IDF Similarity: 0.613
+ Shared Features: 21
+ Features in Text 1: 43
+ Features in Text 2: 28
+ Word Counts: 86 ↔ 62
+ Text 1 (14g): 95 And think that life's quick troubled stream Is made more troubled by the blast. - When touched by timid fingers weak Know that Affection's like the...
+ Text 2 (14g): Failings forget & let the beam of charity o'er all be cast And think that lifes quick troubled stream Is made more troubled by the blast 2 When touche...
+ Top Shared Features: troubl, wound, think, timid, finger
+--------------------------------------------------------------------------------
+Instance 7:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 156 ↔ 123
+ TF-IDF Similarity: 0.560
+ Shared Features: 14
+ Features in Text 1: 34
+ Features in Text 2: 17
+ Word Counts: 78 ↔ 38
+ Text 1 (14e): The wasted frame Soon in corporeal strength recruits itself And wounds fill with new flesh So in the mind the death of objects the death of objects Th...
+ Text 2 (14g): 119 So in the mind the death of objects or the loss of hopes is quick succeeded by some new born powers & faculties, brought forth with pangs of labou...
+ Top Shared Features: vigor, pang, death, object, loss
+--------------------------------------------------------------------------------
+Instance 8:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 163 ↔ 22
+ TF-IDF Similarity: 0.558
+ Shared Features: 14
+ Features in Text 1: 26
+ Features in Text 2: 20
+ Word Counts: 60 ↔ 51
+ Text 1 (14e): In infancy The origin of life is lost to memory Yet powers existed of a glorious nature Reason & thought & feeling, How we know not Nor is there aught...
+ Text 2 (14g): Yet power arises Reason & thought & thought & feeling how we know not nor is there aught that teaches in from what xxxxx the immortal flame of human l...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Lucignano', 'description': 'municipality in the Province of Arezzo in the Italian region Tuscany', 'id': 'place_1245'}]
+ Top Shared Features: caught, human, aught, teach, aris
+--------------------------------------------------------------------------------
+Instance 9:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 155 ↔ 27
+ TF-IDF Similarity: 0.555
+ Shared Features: 30
+ Features in Text 1: 36
+ Features in Text 2: 61
+ Word Counts: 60 ↔ 127
+ Text 1 (14e): Nursing those lofty thoughts that in the mind Spontaneous rise, blending their sacred powers With images from moutain & from flood From chesnut groves...
+ Text 2 (14g): 25 To look on Nature with a poets eye Nursing those lofty thoughts which in the mind Spontaneous arise & blending all their power With images from mou...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ravenna', 'description': 'Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.', 'id': 'place_245'}, {'name': 'Serchio', 'description': 'The third longest river in the Italian region of Tuscany at 126 kilometres.', 'id': 'place_932'}, {'name': 'Tiber River', 'description': 'The Tiber River is the third longest river in Italy. Rome is located on its banks.', 'id': 'place_615'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}, {'name': 'Serchio', 'description': 'The third longest river in the Italian region of Tuscany at 126 kilometres.', 'id': 'place_932'}, {'name': 'Tiber River', 'description': 'The Tiber River is the third longest river in Italy. Rome is located on its banks.', 'id': 'place_615'}]
+ Top Shared Features: puriti, nurs, spontan, cystu, lima
+--------------------------------------------------------------------------------
+Instance 10:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 111 ↔ 165
+ TF-IDF Similarity: 0.553
+ Shared Features: 2
+ Features in Text 1: 5
+ Features in Text 2: 8
+ Word Counts: 20 ↔ 28
+ Text 1 (14e): Lord Byron Lord Byron Lord Byron Lord Byron . written Whilst living Whilst living Whilst living Whilst living . – 23.
+ Text 2 (14e): On the death of Lord Byron On the death of Lord Byron On the death of Lord Byron composed at Westhill in the great storm, Nov r .
+ Metadata Text 1 (14e):
+  persons: [{'name': 'George GordonByron', 'birth': '', 'death': '', 'description': 'From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.', 'id': 'person_118'}]
+ Top Shared Features: byron, lord, whilst, death, live
+--------------------------------------------------------------------------------
+
+Instance 11:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 99 ↔ 104
+ TF-IDF Similarity: 0.548
+ Shared Features: 19
+ Features in Text 1: 43
+ Features in Text 2: 28
+ Word Counts: 86 ↔ 59
+ Text 1 (14g): 95 And think that life's quick troubled stream Is made more troubled by the blast. - When touched by timid fingers weak Know that Affection's like the...
+ Text 2 (14g): When the thunder cloud is darkest It is nearest to its fall. And the gloom thou sadly markest Is no inmate of th e y soul Feelings rays when too conce...
+ Top Shared Features: cloud, inmat, attemp, concent, markest
+--------------------------------------------------------------------------------
+Instance 12:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 154 ↔ 27
+ TF-IDF Similarity: 0.537
+ Shared Features: 25
+ Features in Text 1: 45
+ Features in Text 2: 38
+ Word Counts: 81 ↔ 58
+ Text 1 (14e): 151 By the imperial citys fallen walls Laying bare the bones of heroes & the monuments And Of generations of the ages past Or we might rest on that cl...
+ Text 2 (14g): Layin bare the bones of heroes & the monuments And records of the generations past. - Or wilt thou pass to that cloud covered hill Whose marble rocks ...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Apennines', 'description': 'The Apennines are a range of mountains that run down the spine of peninsular Italy.', 'id': 'place_530'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}, {'name': 'Serchio', 'description': 'The third longest river in the Italian region of Tuscany at 126 kilometres.', 'id': 'place_932'}, {'name': 'Tiber River', 'description': 'The Tiber River is the third longest river in Italy. Rome is located on its banks.', 'id': 'place_615'}]
+ Top Shared Features: inhal, bare, scent, cloak, hero
+--------------------------------------------------------------------------------
+Instance 13:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 134 ↔ 165
+ TF-IDF Similarity: 0.518
+ Shared Features: 3
+ Features in Text 1: 13
+ Features in Text 2: 8
+ Word Counts: 29 ↔ 28
+ Text 1 (14e): 131 Supplement to the poem on the death of Lord Byron Lord Byron Lord Byron . Fintl - July 28.27 Now passing near those high & blessed abodes ways. ab...
+ Text 2 (14e): On the death of Lord Byron On the death of Lord Byron On the death of Lord Byron composed at Westhill in the great storm, Nov r .
+ Metadata Text 1 (14e):
+  persons: [{'name': 'Cain', 'birth': '', 'death': '', 'description': 'A biblical figure in the Book of Genesis. He is the firstborn son of Adam and Eve and brother of Abel.', 'id': 'person_956'}, {'name': 'George GordonByron', 'birth': '', 'death': '', 'description': 'From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.', 'id': 'person_118'}]
+ Top Shared Features: byron, lord, death, way, abod
+--------------------------------------------------------------------------------
+Instance 14:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 101 ↔ 108
+ TF-IDF Similarity: 0.508
+ Shared Features: 14
+ Features in Text 1: 43
+ Features in Text 2: 14
+ Word Counts: 85 ↔ 33
+ Text 1 (14g): 97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold &...
+ Text 2 (14g): It wakens in the mother's kiss It breathes profound in lovers sighs Dove like it rests it rests upon the dark abyss And never And never , never dies._...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Metadata Text 2 (14g):
+  persons: [{'name': 'Prometheus', 'birth': None, 'death': None, 'description': 'In Greek mythology, defied the Olympian gods by stealing fire and giving it to humans.', 'id': 'person_275'}]
+ Top Shared Features: rest, abyss, lover, dove, kiss
+--------------------------------------------------------------------------------
+Instance 15:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 2 ↔ 2
+ Pages: 84 ↔ 85
+ TF-IDF Similarity: 0.494
+ Shared Features: 6
+ Features in Text 1: 23
+ Features in Text 2: 12
+ Word Counts: 93 ↔ 76
+ Text 1 (14g): - a few of them owe their formation to well known causes the distinct operation of water or of fire others are of equivocal origin; that afford great ...
+ Text 2 (14g): They may be called hydric in english. They may be called hydric formations. - formations. - 1. Division until formation by known causes 1. Division un...
+ Top Shared Features: format, known, caus, owe, origin
+--------------------------------------------------------------------------------
+
+Instance 16:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 162 ↔ 22
+ TF-IDF Similarity: 0.488
+ Shared Features: 12
+ Features in Text 1: 27
+ Features in Text 2: 28
+ Word Counts: 75 ↔ 75
+ Text 1 (14e): 159 To the fire flies, the same place & summer written in blank verse but not Rhyme in May & June 1827. Ye moving stars that flit along Ye moving star...
+ Text 2 (14g): Ye moving stars, ye animated lamps Ye moving stars, ye animated lamps Ye moving stars that flit across the glade Ye animated lamps that midst the shad...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Serchio', 'description': 'The third longest river in the Italian region of Tuscany at 126 kilometres.', 'id': 'place_932'}, {'name': 'Lucignano', 'description': 'municipality in the Province of Arezzo in the Italian region Tuscany', 'id': 'place_1245'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Lucignano', 'description': 'municipality in the Province of Arezzo in the Italian region Tuscany', 'id': 'place_1245'}]
+ Top Shared Features: ye, flit, star, lamp, anim
+--------------------------------------------------------------------------------
+Instance 17:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 154 ↔ 28
+ TF-IDF Similarity: 0.482
+ Shared Features: 11
+ Features in Text 1: 16
+ Features in Text 2: 30
+ Word Counts: 28 ↔ 50
+ Text 1 (14e): Whose sacred source Hygeia loves. There my weary limbs I have might repose beneath the shade Of chesnuts whose time worn trunks proclaim Their xx of o...
+ Text 2 (14g): But which the wild Bee knows & ever haunts. - And whence descends your balmy influence Ye waters tepid from the sleeping fires Of ancient Appenine who...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Apennines', 'description': 'The Apennines are a range of mountains that run down the spine of peninsular Italy.', 'id': 'place_530'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Apennines', 'description': 'The Apennines are a range of mountains that run down the spine of peninsular Italy.', 'id': 'place_530'}]
+ Top Shared Features: hygeia, trunk, centuri, proclaim, worn
+--------------------------------------------------------------------------------
+Instance 18:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 157 ↔ 101
+ TF-IDF Similarity: 0.465
+ Shared Features: 3
+ Features in Text 1: 3
+ Features in Text 2: 43
+ Word Counts: 14 ↔ 85
+ Text 1 (14e): Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .
+ Text 2 (14g): 97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold &...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Top Shared Features: bath, lucca, aug, earthborn, chao
+--------------------------------------------------------------------------------
+Instance 19:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 153 ↔ 154
+ TF-IDF Similarity: 0.458
+ Shared Features: 6
+ Features in Text 1: 9
+ Features in Text 2: 29
+ Word Counts: 21 ↔ 91
+ Text 1 (14g): 149 To ascertain what Heat will be communicated from one body heated to a certain degree to another through different media.
+ Text 2 (14g): Plan of experiments to ascertain - If the cold of high regions depends upon an increased radiation increased radiation -- 1 st by a stop watch to asce...
+ Top Shared Features: heat, media, ascertain, degre, bodi
+--------------------------------------------------------------------------------
+Instance 20:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 111 ↔ 134
+ TF-IDF Similarity: 0.455
+ Shared Features: 2
+ Features in Text 1: 5
+ Features in Text 2: 13
+ Word Counts: 20 ↔ 29
+ Text 1 (14e): Lord Byron Lord Byron Lord Byron Lord Byron . written Whilst living Whilst living Whilst living Whilst living . – 23.
+ Text 2 (14e): 131 Supplement to the poem on the death of Lord Byron Lord Byron Lord Byron . Fintl - July 28.27 Now passing near those high & blessed abodes ways. ab...
+ Metadata Text 1 (14e):
+  persons: [{'name': 'George GordonByron', 'birth': '', 'death': '', 'description': 'From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.', 'id': 'person_118'}]
+ Metadata Text 2 (14e):
+  persons: [{'name': 'Cain', 'birth': '', 'death': '', 'description': 'A biblical figure in the Book of Genesis. He is the firstborn son of Adam and Eve and brother of Abel.', 'id': 'person_956'}, {'name': 'George GordonByron', 'birth': '', 'death': '', 'description': 'From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.', 'id': 'person_118'}]
+ Top Shared Features: byron, lord, whilst, way, live
+--------------------------------------------------------------------------------
+
+Instance 21:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 89 ↔ 92
+ TF-IDF Similarity: 0.448
+ Shared Features: 16
+ Features in Text 1: 58
+ Features in Text 2: 46
+ Word Counts: 158 ↔ 160
+ Text 1 (14g): 85 water of the Bagni Caldi Bagni Caldi Bagni Caldi & he naturally supposed that the iron was dissolved by Carbonic Acid Carbonic Acid Carbonic Acid b...
+ Text 2 (14g): The thermal water of the Baths of Lucca Baths of Lucca Baths of Lucca where its temperature is the high- est at the Baths called the " Bagni Caldi Bag...
+ Metadata Text 1 (14g):
+  persons: [{'name': 'DenisPapin', 'birth': '', 'death': '', 'description': 'French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.', 'id': 'person_304'}]
+  places: [{'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}, {'name': 'Filigare', 'description': 'Tuscany, Italy.', 'id': 'place_1004'}, {'name': 'Lago di Garda', 'description': 'Lake Garda is the largest lake in Italy.', 'id': 'place_551'}, {'name': 'Florence', 'description': 'The capital city of the Italian region of Tuscany.', 'id': 'place_1080'}, {'name': 'Bologna', 'description': 'A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.', 'id': 'place_942'}, {'name': 'Ala', 'description': 'A comune in Trentino, north-eastern Italy.', 'id': 'place_948'}, {'name': 'England', 'description': 'England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.', 'id': 'place_121'}, {'name': 'Mantua', 'description': 'A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.', 'id': 'place_947'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}]
+ Top Shared Features: iron, oxid, caldi, bagni, bath
+--------------------------------------------------------------------------------
+Instance 22:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 163 ↔ 156
+ TF-IDF Similarity: 0.447
+ Shared Features: 2
+ Features in Text 1: 12
+ Features in Text 2: 11
+ Word Counts: 42 ↔ 34
+ Text 1 (14e): At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We cat...
+ Text 2 (14g): when I return } return } . + , 6.12 1 On the road to the Baths of Lucca Baths of Lucca Baths of Lucca layers of Limestone & chert very near each other...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Top Shared Features: bath, lucca, dream, return, twist
+--------------------------------------------------------------------------------
+Instance 23:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 156 ↔ 124
+ TF-IDF Similarity: 0.444
+ Shared Features: 19
+ Features in Text 1: 31
+ Features in Text 2: 34
+ Word Counts: 58 ↔ 101
+ Text 1 (14e): 153 Rise in a strait gigantic column Rise in a strait gigantic column Stand like a tree above. Een in my heart By sickness weakened & by sorrow chille...
+ Text 2 (14g): By sickness weakened & by sorrow chil'd the balm of calmness seems to enter penetrate enter penetrate Mild & genial soothing in its influence And soot...
+ Top Shared Features: sooth, heroic, penetr, gigant, strait
+--------------------------------------------------------------------------------
+Instance 24:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 122 ↔ 160
+ TF-IDF Similarity: 0.438
+ Shared Features: 16
+ Features in Text 1: 36
+ Features in Text 2: 26
+ Word Counts: 79 ↔ 86
+ Text 1 (14e): So is the rose destroyed by the child Who in his bosom hides the cherished flower. And Nature never feels so strong her powers As in the trusty worth ...
+ Text 2 (14e): 157 Love is the flower of life its brightest its brightest too short its too short its bloom too soon it fades too soon it fades Sooner the fairer are...
+ Top Shared Features: scent, short, sooner, soon, pluck
+--------------------------------------------------------------------------------
+Instance 25:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 82 ↔ 84
+ TF-IDF Similarity: 0.419
+ Shared Features: 14
+ Features in Text 1: 41
+ Features in Text 2: 25
+ Word Counts: 134 ↔ 99
+ Text 1 (14g): Rome Oct r 12 in extensive layers generally divided into vertical columns or in large veins filling chasms in other rocks - The strata which have prob...
+ Text 2 (14g): but by far the greatest portion of the but by far the greatest portion of the which materials of the globe owe their existence which materials of the ...
+ Metadata Text 1 (14g):
+  persons: [{'name': 'Pierre-SimonLaplace', 'birth': '', 'death': '', 'description': 'French mathematician seen as the Newton of France. He met Davy in 1813 and 1820. ForMemRSL.', 'id': 'person_130'}]
+  places: [{'name': 'Rome', 'description': 'The capital of Italy.', 'id': 'place_155'}]
+ Top Shared Features: usual, layer, regular, owe, greatest
+--------------------------------------------------------------------------------
+
+Instance 26:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 8 ↔ 9
+ TF-IDF Similarity: 0.412
+ Shared Features: 12
+ Features in Text 1: 31
+ Features in Text 2: 24
+ Word Counts: 98 ↔ 68
+ Text 1 (14e): 5 still 64. unbroken sunshine. In window in the shade .80 at 2. in window at 1/4 past . 4 83 Went at 1/2 past six in the carriage to a Chateau about 5...
+ Text 2 (14e): 90 at 4 - As the thunder clouds formed, wind & then fell to 78 - at 1/2 past 5 Went to the Traun about 3 miles below the town which was still foul at ...
+ Metadata Text 2 (14e):
+  places: [{'name': 'Traun', 'description': 'Traunfall in Desselbrunn, Upper Austria. Memoirs contains\xa0a poem Davy wrote\xa0about them, also in notebook 14E.', 'id': 'place_182'}, {'name': 'Traun', 'description': 'The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.', 'id': 'place_258'}]
+ Top Shared Features: past, window, fish, wa, caught
+--------------------------------------------------------------------------------
+Instance 27:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 131 ↔ 132
+ TF-IDF Similarity: 0.401
+ Shared Features: 6
+ Features in Text 1: 15
+ Features in Text 2: 25
+ Word Counts: 51 ↔ 114
+ Text 1 (14e): Hopes such as dying truly in truly in bliss And kissing thee I seem to share Thy innocence & happiness Thy innocence & happiness . – And in thy kiss I...
+ Text 2 (14e): Hopes such as sainted Vestals know- Thy virtue is to me as dear Thy virtue is to me as dear As my own life, nay dearer far And in thy Kiss As my own l...
+ Top Shared Features: kiss, share, happi, innoc, thi
+--------------------------------------------------------------------------------
+Instance 28:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 101 ↔ 108
+ TF-IDF Similarity: 0.390
+ Shared Features: 26
+ Features in Text 1: 43
+ Features in Text 2: 46
+ Word Counts: 85 ↔ 131
+ Text 1 (14g): 97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold &...
+ Text 2 (14g): What is these in lifes stormy day To xxxxx please or cheer our sight Save Loves Save Loves Or friendships softer light Or friendships softer light To ...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Metadata Text 2 (14g):
+  persons: [{'name': 'Prometheus', 'birth': None, 'death': None, 'description': 'In Greek mythology, defied the Olympian gods by stealing fire and giving it to humans.', 'id': 'person_275'}]
+ Top Shared Features: mortal, save, kindl, lucca, bath
+--------------------------------------------------------------------------------
+Instance 29:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 2 ↔ 0
+ Pages: 155 ↔ 27
+ TF-IDF Similarity: 0.389
+ Shared Features: 11
+ Features in Text 1: 15
+ Features in Text 2: 61
+ Word Counts: 32 ↔ 127
+ Text 1 (14e): The virgin streams arise of Mountain Tiber Not yet polluted by the lowland rills Or xxxx turbid with the ruins of the plains When in thy that sullen m...
+ Text 2 (14g): 25 To look on Nature with a poets eye Nursing those lofty thoughts which in the mind Spontaneous arise & blending all their power With images from mou...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ravenna', 'description': 'Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.', 'id': 'place_245'}, {'name': 'Serchio', 'description': 'The third longest river in the Italian region of Tuscany at 126 kilometres.', 'id': 'place_932'}, {'name': 'Tiber River', 'description': 'The Tiber River is the third longest river in Italy. Rome is located on its banks.', 'id': 'place_615'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}, {'name': 'Serchio', 'description': 'The third longest river in the Italian region of Tuscany at 126 kilometres.', 'id': 'place_932'}, {'name': 'Tiber River', 'description': 'The Tiber River is the third longest river in Italy. Rome is located on its banks.', 'id': 'place_615'}]
+ Top Shared Features: virgin, tiber, lowland, pollut, ruin
+--------------------------------------------------------------------------------
+Instance 30:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 157 ↔ 126
+ TF-IDF Similarity: 0.385
+ Shared Features: 25
+ Features in Text 1: 58
+ Features in Text 2: 33
+ Word Counts: 107 ↔ 96
+ Text 1 (14e): Quando mia fu la bella Quando mia fu la bella Quando mia fu la bella spera n za ed anche piu Again that lovely orb lamp from half its from half its fr...
+ Text 2 (14g): Yet still, Yet still, Again the lovely orb from half its lamp Sends forth a mellow lustre that pervades The western eastern sky, '& blends promiscuous...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Top Shared Features: sunbeam, half, eve, meet, orb
+--------------------------------------------------------------------------------
+
+Instance 31:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 154 ↔ 28
+ TF-IDF Similarity: 0.385
+ Shared Features: 14
+ Features in Text 1: 45
+ Features in Text 2: 30
+ Word Counts: 81 ↔ 50
+ Text 1 (14e): 151 By the imperial citys fallen walls Laying bare the bones of heroes & the monuments And Of generations of the ages past Or we might rest on that cl...
+ Text 2 (14g): But which the wild Bee knows & ever haunts. - And whence descends your balmy influence Ye waters tepid from the sleeping fires Of ancient Appenine who...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Apennines', 'description': 'The Apennines are a range of mountains that run down the spine of peninsular Italy.', 'id': 'place_530'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Apennines', 'description': 'The Apennines are a range of mountains that run down the spine of peninsular Italy.', 'id': 'place_530'}]
+ Top Shared Features: tepid, bee, balmi, whenc, haunt
+--------------------------------------------------------------------------------
+Instance 32:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 130 ↔ 137
+ TF-IDF Similarity: 0.380
+ Shared Features: 3
+ Features in Text 1: 11
+ Features in Text 2: 6
+ Word Counts: 22 ↔ 10
+ Text 1 (14g): - It appears to me necessary to allow that the process of thought or that our trains of sensations ideas pleasures & pains depend
+ Text 2 (14g): - Besides if you allow a peculiar principle necessary to sensation
+ Metadata Text 1 (14g):
+  persons: [{'name': 'JosephPriestley', 'birth': '', 'death': '', 'description': 'Unitarian and political radical forced into exile in Pennsylvania. As a natural philospher and chemist who retained belief in phlogiston, he discovered oxygen and nitrous oxide though not under those names. FRSL.', 'id': 'person_016'}, {'name': 'Lucretius', 'birth': '', 'death': '', 'description': 'Roman poet and philosopher. His only known work is the materialist philosophical poem De rerum natura.', 'id': 'person_508'}]
+ Top Shared Features: allow, necessari, sensat, peculiar, besid
+--------------------------------------------------------------------------------
+Instance 33:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 70 ↔ 72
+ TF-IDF Similarity: 0.373
+ Shared Features: 8
+ Features in Text 1: 27
+ Features in Text 2: 15
+ Word Counts: 73 ↔ 38
+ Text 1 (14g): which might be supposed to be produced by an elevation of a part of the american continent from the depths of the ocean & of imagining a great force o...
+ Text 2 (14g): for these circumstances except by the supposition that waves or currents from the ocean having with very great force & velocity passed over our land. ...
+ Top Shared Features: veloc, imagin, supposit, forc, produc
+--------------------------------------------------------------------------------
+Instance 34:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 55 ↔ 89
+ TF-IDF Similarity: 0.369
+ Shared Features: 12
+ Features in Text 1: 58
+ Features in Text 2: 58
+ Word Counts: 152 ↔ 158
+ Text 1 (14g): - of Carbonic Acid Carbonic Acid Carbonic Acid in the ocean was much greater & the temperature of the water higher which may be easily imagined if the...
+ Text 2 (14g): 85 water of the Bagni Caldi Bagni Caldi Bagni Caldi & he naturally supposed that the iron was dissolved by Carbonic Acid Carbonic Acid Carbonic Acid b...
+ Metadata Text 2 (14g):
+  persons: [{'name': 'DenisPapin', 'birth': '', 'death': '', 'description': 'French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.', 'id': 'person_304'}]
+  places: [{'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}, {'name': 'Filigare', 'description': 'Tuscany, Italy.', 'id': 'place_1004'}, {'name': 'Lago di Garda', 'description': 'Lake Garda is the largest lake in Italy.', 'id': 'place_551'}, {'name': 'Florence', 'description': 'The capital city of the Italian region of Tuscany.', 'id': 'place_1080'}, {'name': 'Bologna', 'description': 'A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.', 'id': 'place_942'}, {'name': 'Ala', 'description': 'A comune in Trentino, north-eastern Italy.', 'id': 'place_948'}, {'name': 'England', 'description': 'England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.', 'id': 'place_121'}, {'name': 'Mantua', 'description': 'A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.', 'id': 'place_947'}]
+ Top Shared Features: carbon, acid, iron, oxid, muriat
+--------------------------------------------------------------------------------
+Instance 35:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 163 ↔ 22
+ TF-IDF Similarity: 0.364
+ Shared Features: 9
+ Features in Text 1: 12
+ Features in Text 2: 28
+ Word Counts: 42 ↔ 75
+ Text 1 (14e): At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We cat...
+ Text 2 (14g): Ye moving stars, ye animated lamps Ye moving stars, ye animated lamps Ye moving stars that flit across the glade Ye animated lamps that midst the shad...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Lucignano', 'description': 'municipality in the Province of Arezzo in the Italian region Tuscany', 'id': 'place_1245'}]
+ Top Shared Features: dream, bath, lucca, fainter, echo
+--------------------------------------------------------------------------------
+
+Instance 36:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 100 ↔ 107
+ TF-IDF Similarity: 0.362
+ Shared Features: 11
+ Features in Text 1: 34
+ Features in Text 2: 37
+ Word Counts: 76 ↔ 85
+ Text 1 (14g): In it the statesman rules & lives And the low multitude controuls Fixed to the impulse that he gives As the firm earth around its poles. This magic li...
+ Text 2 (14g): 103 -. From it the Poets glories rise Which pass beyond our human being - To things of other worlds & skies Kindling Carrying the prophets gift of see...
+ Top Shared Features: rule, pole, firm, statesman, impuls
+--------------------------------------------------------------------------------
+Instance 37:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 161 ↔ 25
+ TF-IDF Similarity: 0.357
+ Shared Features: 12
+ Features in Text 1: 40
+ Features in Text 2: 27
+ Word Counts: 115 ↔ 63
+ Text 1 (14e): When flowers & fruits together mature alone together grow To visit our rude peaks where still the snow Glitters een in the genial month of flowers But...
+ Text 2 (14g): - Why have Ye left your halcyon streams below - To visit our rude peaks on which the snow still glitters in the summer sun of june - But brightly do y...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Velino', 'description': 'A river in central Italy, a tributary of the Nera.', 'id': 'place_848'}]
+ Top Shared Features: star, kindr, peak, glitter, rude
+--------------------------------------------------------------------------------
+Instance 38:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 94 ↔ 83
+ TF-IDF Similarity: 0.356
+ Shared Features: 2
+ Features in Text 1: 8
+ Features in Text 2: 4
+ Word Counts: 23 ↔ 9
+ Text 1 (14e): And when it is known it is known it ceases to exist With all its weak memorials Light & life Shall be as now –
+ Text 2 (14g): history or tradition - are not now known to exist.
+ Top Shared Features: known, exist, tradit, histori, ceas
+--------------------------------------------------------------------------------
+Instance 39:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 56 ↔ 57
+ TF-IDF Similarity: 0.354
+ Shared Features: 9
+ Features in Text 1: 16
+ Features in Text 2: 51
+ Word Counts: 38 ↔ 156
+ Text 1 (14g): 15 or 20 different strata & states of coal are found alternating with Sandstone , Limestone Basalts & clay. It seems therefore most reasonable to supp...
+ Text 2 (14g): - Formations of coal are found at great depth under strata of Limestone , Sandstone , & even of Basalt which contain the remains of land plants & thos...
+ Metadata Text 2 (14g):
+  persons: [{'name': 'Pluto', 'birth': None, 'death': None, 'description': 'The ruler of the underworld in ancient Greek mythology and religion.', 'id': 'person_263'}]
+  places: [{'name': 'Rome', 'description': 'The capital of Italy.', 'id': 'place_155'}]
+ Top Shared Features: coal, sandston, land, wash, basalt
+--------------------------------------------------------------------------------
+Instance 40:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 59 ↔ 60
+ TF-IDF Similarity: 0.350
+ Shared Features: 7
+ Features in Text 1: 24
+ Features in Text 2: 11
+ Word Counts: 60 ↔ 42
+ Text 1 (14g): In the Neptunian hypothesis it is supposed that the ocean contains ocean contains in solution the different chrystaline materials of the secondary roc...
+ Text 2 (14g): The one the Huttonian or Plutonic the other the Wernerian or neptunian - In the first it is supposed that the materials of the secondary strata have b...
+ Metadata Text 1 (14g):
+  works: [{'name': 'Illustrations of the Huttonian Theory', 'author': 'James Hutton', 'id': 'otherwork_158'}]
+ Metadata Text 2 (14g):
+  persons: [{'name': 'JamesHutton', 'birth': '', 'death': '', 'description': "Scottish geologist, agriculturalist and chemical manufacturer. His Theory of the Earth (1795) is one of the foundations of modern geology. Davy discussed Hutton's theories in his lectures and visited some of the key geological sites that Hutton used in his work.", 'id': 'person_125'}, {'name': 'Abraham GottlobWerner', 'birth': '', 'death': '', 'description': 'German geologist who proposed the theory of Neptunism and who also proposed the chronological sequence found in stratified rocks.', 'id': 'person_267'}]
+ Top Shared Features: neptunian, ocean, shore, secondari, dure
+--------------------------------------------------------------------------------
+
+Instance 41:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 100 ↔ 103
+ TF-IDF Similarity: 0.350
+ Shared Features: 15
+ Features in Text 1: 34
+ Features in Text 2: 42
+ Word Counts: 76 ↔ 83
+ Text 1 (14g): In it the statesman rules & lives And the low multitude controuls Fixed to the impulse that he gives As the firm earth around its poles. This magic li...
+ Text 2 (14g): 99 Let not this gift which is from heaven Shine as a meteors transient light Or as the lightnings flashes given Amidst the gloom to pain our sight. - ...
+ Top Shared Features: gift, let, given, meteor, sight
+--------------------------------------------------------------------------------
+Instance 42:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 21 ↔ 155
+ TF-IDF Similarity: 0.349
+ Shared Features: 3
+ Features in Text 1: 8
+ Features in Text 2: 7
+ Word Counts: 15 ↔ 16
+ Text 1 (14g): 19 of a lake . Roma [four pencil sketches of birds in profile, possibly snipe ]
+ Text 2 (14g): 151 What plan . what source , What object What object [pencil sketches of possibly pyramids]
+ Top Shared Features: pencil, sketch, possibl, object, roma
+--------------------------------------------------------------------------------
+Instance 43:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 7 ↔ 14
+ TF-IDF Similarity: 0.347
+ Shared Features: 11
+ Features in Text 1: 36
+ Features in Text 2: 26
+ Word Counts: 102 ↔ 72
+ Text 1 (14e): & like a fresh run salmon. July 1. T. in room 68 67. at 7 70 in window – cloudy. Left Saltzburg & came on to Transteen 2p 1/4 a good inn stopped a cle...
+ Text 2 (14e): 11 night, thermetr at day 70 in evening at 10 67 68 in room 64 in window Fished in a small stream. & caught a great number of small trout 8 Ther. at 4...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Traunstein', 'description': 'Traunstein is a town in the south-eastern part of Bavaria, Germany, and is the administrative center of a much larger district of the same name.', 'id': 'place_1351'}, {'name': 'Salzburg', 'description': 'Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.', 'id': 'place_197'}, {'name': 'Traun', 'description': 'Traunfall in Desselbrunn, Upper Austria. Memoirs contains\xa0a poem Davy wrote\xa0about them, also in notebook 14E.', 'id': 'place_182'}, {'name': 'Traun', 'description': 'The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.', 'id': 'place_258'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Kochelsee', 'description': 'a picturesque glacial lake covering 2.3 square miles, fringed with mountains & wetlands.', 'id': 'place_1236'}, {'name': 'Bavaria', 'description': 'A German state.', 'id': 'place_1128'}]
+ Top Shared Features: room, small, window, number, caught
+--------------------------------------------------------------------------------
+Instance 44:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 128 ↔ 129
+ TF-IDF Similarity: 0.341
+ Shared Features: 2
+ Features in Text 1: 10
+ Features in Text 2: 7
+ Word Counts: 30 ↔ 19
+ Text 1 (14g): of vision is connected with certain other sensations the sensation itself I suppose itself I suppose . to be composed of indestructible parts, which i...
+ Text 2 (14g): upon the retina &c occasion a sensation of vision but this is expressing nothing more than that the sensation
+ Top Shared Features: sensat, vision, retina, occas, suppos
+--------------------------------------------------------------------------------
+Instance 45:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 81 ↔ 83
+ TF-IDF Similarity: 0.337
+ Shared Features: 3
+ Features in Text 1: 39
+ Features in Text 2: 4
+ Word Counts: 122 ↔ 9
+ Text 1 (14g): - In the phaenomena of the present changes of the solid parts solid parts of the globe, the operation of fire beneath the surface & of water & air & a...
+ Text 2 (14g): history or tradition - are not now known to exist.
+ Top Shared Features: tradit, histori, exist, known, state
+--------------------------------------------------------------------------------
+
+Instance 46:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 89 ↔ 91
+ TF-IDF Similarity: 0.336
+ Shared Features: 17
+ Features in Text 1: 58
+ Features in Text 2: 63
+ Word Counts: 158 ↔ 209
+ Text 1 (14g): 85 water of the Bagni Caldi Bagni Caldi Bagni Caldi & he naturally supposed that the iron was dissolved by Carbonic Acid Carbonic Acid Carbonic Acid b...
+ Text 2 (14g): Though the Oxide of Iron Oxide of Iron Oxide of Iron when collected is a peroxide yet it is most probable that in the water it exists in the state of ...
+ Metadata Text 1 (14g):
+  persons: [{'name': 'DenisPapin', 'birth': '', 'death': '', 'description': 'French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.', 'id': 'person_304'}]
+  places: [{'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}, {'name': 'Filigare', 'description': 'Tuscany, Italy.', 'id': 'place_1004'}, {'name': 'Lago di Garda', 'description': 'Lake Garda is the largest lake in Italy.', 'id': 'place_551'}, {'name': 'Florence', 'description': 'The capital city of the Italian region of Tuscany.', 'id': 'place_1080'}, {'name': 'Bologna', 'description': 'A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.', 'id': 'place_942'}, {'name': 'Ala', 'description': 'A comune in Trentino, north-eastern Italy.', 'id': 'place_948'}, {'name': 'England', 'description': 'England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.', 'id': 'place_121'}, {'name': 'Mantua', 'description': 'A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.', 'id': 'place_947'}]
+ Top Shared Features: iron, oxid, carbon, acid, water
+--------------------------------------------------------------------------------
+Instance 47:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 56 ↔ 57
+ TF-IDF Similarity: 0.330
+ Shared Features: 13
+ Features in Text 1: 34
+ Features in Text 2: 51
+ Word Counts: 121 ↔ 156
+ Text 1 (14g): strata it seems extremely probable that they were formed at a time when the only species of animal life on the globe was marine & at a period when wat...
+ Text 2 (14g): - Formations of coal are found at great depth under strata of Limestone , Sandstone , & even of Basalt which contain the remains of land plants & thos...
+ Metadata Text 2 (14g):
+  persons: [{'name': 'Pluto', 'birth': None, 'death': None, 'description': 'The ruler of the underworld in ancient Greek mythology and religion.', 'id': 'person_263'}]
+  places: [{'name': 'Rome', 'description': 'The capital of Italy.', 'id': 'place_155'}]
+ Top Shared Features: cover, veget, land, coal, matter
+--------------------------------------------------------------------------------
+Instance 48:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 2
+ Pages: 83 ↔ 85
+ TF-IDF Similarity: 0.325
+ Shared Features: 5
+ Features in Text 1: 30
+ Features in Text 2: 12
+ Word Counts: 111 ↔ 76
+ Text 1 (14g): exist - The rocks which certainly owe their origin to fire are called volcanic such productions are constantly formed but a number of these belonging ...
+ Text 2 (14g): They may be called hydric in english. They may be called hydric formations. - formations. - 1. Division until formation by known causes 1. Division un...
+ Top Shared Features: owe, format, origin, rock, caus
+--------------------------------------------------------------------------------
+Instance 49:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 7 ↔ 55
+ TF-IDF Similarity: 0.322
+ Shared Features: 5
+ Features in Text 1: 23
+ Features in Text 2: 58
+ Word Counts: 58 ↔ 152
+ Text 1 (14g): - It would be worth while to try if Carbonic Acid Carbonic Acid Carbonic Acid by heat & heat & pressure will not dissolve silica as Muriatic acid Muri...
+ Text 2 (14g): - of Carbonic Acid Carbonic Acid Carbonic Acid in the ocean was much greater & the temperature of the water higher which may be easily imagined if the...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Foligno', 'description': 'Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.', 'id': 'place_564'}, {'name': 'Spoleto', 'description': 'A city in Umbria, Italy.', 'id': 'place_927'}, {'name': 'Colfiorito', 'description': 'Colfiorito is a village in Umbria, central Italy.', 'id': 'place_561'}]
+ Top Shared Features: acid, carbon, muriat, col, fiorito
+--------------------------------------------------------------------------------
+Instance 50:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 2 ↔ 2
+ Pages: 80 ↔ 85
+ TF-IDF Similarity: 0.322
+ Shared Features: 3
+ Features in Text 1: 4
+ Features in Text 2: 12
+ Word Counts: 10 ↔ 76
+ Text 1 (14g): In the rocks of known aqueous origin there is less
+ Text 2 (14g): They may be called hydric in english. They may be called hydric formations. - formations. - 1. Division until formation by known causes 1. Division un...
+ Top Shared Features: known, origin, aqueou, rock, format
+--------------------------------------------------------------------------------
+
+Instance 51:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 55 ↔ 78
+ TF-IDF Similarity: 0.321
+ Shared Features: 10
+ Features in Text 1: 58
+ Features in Text 2: 25
+ Word Counts: 152 ↔ 52
+ Text 1 (14g): - of Carbonic Acid Carbonic Acid Carbonic Acid in the ocean was much greater & the temperature of the water higher which may be easily imagined if the...
+ Text 2 (14g): { a certain small quantity of alkali in solution . - silicious Sand is sometimes found agglutinated together by a calcareous cement deposited from car...
+ Top Shared Features: carbon, calcar, lime, solut, acid
+--------------------------------------------------------------------------------
+Instance 52:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 20 ↔ 29
+ TF-IDF Similarity: 0.320
+ Shared Features: 5
+ Features in Text 1: 30
+ Features in Text 2: 24
+ Word Counts: 73 ↔ 44
+ Text 1 (14g): imperfect, they are fat & larger than the swifts which precede them - some of them are as large as pizardone I find them in pairs however - The pitzar...
+ Text 2 (14g): - This claim as it was never urged till many months after the safety lamp of Sir Humphry Sir Humphry Sir Humphry Davy was in use & as it was for a lon...
+ Metadata Text 1 (14g):
+  persons: [{'name': 'HumphryDavy', 'birth': '', 'death': '', 'description': '', 'id': 'person_656'}]
+ Metadata Text 2 (14g):
+  persons: [{'name': 'HumphryDavy', 'birth': '', 'death': '', 'description': '', 'id': 'person_656'}, {'name': 'Robert WilliamBrandling', 'birth': '', 'death': '', 'description': 'The chief advocate for and publicist of George Stephenson’s safety lamp, campaigning to have Stephenson recognized, and rewarded, as the original inventor.', 'id': 'person_358'}, {'name': 'JohnBowes', 'birth': '', 'death': '', 'description': '10th Earl of Strathmore and Kinghorne from 1776 (in the Scottish peerage). Owned several Durham collieries, and supported George Stephenson’s priority as inventor of the safety lamp.', 'id': 'person_361'}, {'name': 'ThomasLiddell', 'birth': '', 'death': '', 'description': 'From 1821, 1st Baron Ravensworth. High Sheriff of Northumberland in 1804. He also employed George Stephenson from 1804 at his Killingworth colliery, and encouraged and financed him in the development of steam power.', 'id': 'person_369'}]
+ Top Shared Features: humphri, sir, davi, long, urg
+--------------------------------------------------------------------------------
+Instance 53:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 113 ↔ 134
+ TF-IDF Similarity: 0.320
+ Shared Features: 14
+ Features in Text 1: 39
+ Features in Text 2: 26
+ Word Counts: 80 ↔ 91
+ Text 1 (14e): Corrected Stanza Corrected Stanza to be added to the Poem on the death of L d . byron . Now passing near those high & blessed abodes Where Beings of a...
+ Text 2 (14e): ways, Where beings of a higher nature move Where beings of a higher nature move Where beings of a higher nature move In fields of light & glory & glor...
+ Metadata Text 1 (14e):
+  persons: [{'name': 'George GordonByron', 'birth': '', 'death': '', 'description': 'From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.', 'id': 'person_118'}]
+ Metadata Text 2 (14e):
+  persons: [{'name': 'Cain', 'birth': '', 'death': '', 'description': 'A biblical figure in the Book of Genesis. He is the firstborn son of Adam and Eve and brother of Abel.', 'id': 'person_956'}, {'name': 'George GordonByron', 'birth': '', 'death': '', 'description': 'From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.', 'id': 'person_118'}]
+ Top Shared Features: glori, higher, bless, alli, stanza
+--------------------------------------------------------------------------------
+Instance 54:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 9 ↔ 11
+ TF-IDF Similarity: 0.319
+ Shared Features: 5
+ Features in Text 1: 15
+ Features in Text 2: 21
+ Word Counts: 60 ↔ 71
+ Text 1 (14e): July 3 - Bright sunshine. T in the window shaded at 5 63. in room at 8 69.- Bavarian xxx 100- A 101 100- A 101 - is to Austria as 101 to 100 - Ther. a...
+ Text 2 (14e): a bright 3/4 moon. T in window open at 10. 58. bright moon July 5 T at 7 in window 58. 59. In room 63. light clouds. shall D V D V D V proceed to Muni...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Traun', 'description': 'Traunfall in Desselbrunn, Upper Austria. Memoirs contains\xa0a poem Davy wrote\xa0about them, also in notebook 14E.', 'id': 'place_182'}, {'name': 'Traun', 'description': 'The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.', 'id': 'place_258'}]
+ Metadata Text 2 (14e):
+  persons: [{'name': 'Marcus ElieserBloch', 'birth': '', 'death': '', 'description': 'German physician and naturalist who specialised in the study of fish on which he published a 12 volume work with which Davy was familiar. (presumably in the French translation).', 'id': 'person_235'}, {'name': 'Johann AndreasWagner', 'birth': '', 'death': '', 'description': 'a German palaeontologist, zoologist and archaeologist who wrote several important works on palaeontology.', 'id': 'person_1008'}]
+  places: [{'name': 'Munich', 'description': 'the capital of Bavaria in Germany', 'id': 'place_1264'}]
+ Top Shared Features: window, room, juli, vald, miser
+--------------------------------------------------------------------------------
+Instance 55:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 14 ↔ 16
+ TF-IDF Similarity: 0.318
+ Shared Features: 11
+ Features in Text 1: 26
+ Features in Text 2: 30
+ Word Counts: 72 ↔ 77
+ Text 1 (14e): 11 night, thermetr at day 70 in evening at 10 67 68 in room 64 in window Fished in a small stream. & caught a great number of small trout 8 Ther. at 4...
+ Text 2 (14e): 13 65 in room 66. 67 - July 10. another bright day shall leave DV. Fussen for Kempten . found Kempten very hot & came on to a small inn there, but wit...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Kochelsee', 'description': 'a picturesque glacial lake covering 2.3 square miles, fringed with mountains & wetlands.', 'id': 'place_1236'}, {'name': 'Bavaria', 'description': 'A German state.', 'id': 'place_1128'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Röthenbach an der Pegnitz', 'description': 'a town that would be on the route from Kempten to Bregenz', 'id': 'place_1241'}, {'name': 'Kempten', 'description': 'a town in Allgäu, about 28 miles from Füssen', 'id': 'place_1240'}, {'name': 'Bregenz', 'description': 'Today, a town in Austria on the shores of the Obersee.', 'id': 'place_1242'}, {'name': 'Tyrol', 'description': 'Tyrol is a historical region in the Alps located in northern Italy and western Austria.', 'id': 'place_328'}, {'name': 'Füssen', 'description': 'a town in Bavaria, Germany, just north of the Austrian border.', 'id': 'place_1238'}, {'name': 'Appenzell', 'description': 'a canton in the northeast of Switzerland, the southern part of which is mountainous', 'id': 'place_1243'}]
+ Top Shared Features: room, kempten, bad, window, small
+--------------------------------------------------------------------------------
+
+Instance 56:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 33 ↔ 39
+ TF-IDF Similarity: 0.313
+ Shared Features: 11
+ Features in Text 1: 44
+ Features in Text 2: 20
+ Word Counts: 133 ↔ 64
+ Text 1 (14g): 31 them or one of them by causing the air deteriorated by the combustion of candles to pass upon them & that His plan for preserving the lives of the ...
+ Text 2 (14g): 37 firedamp pass into it from a bladder filled with it opened below it - It is clear that Stevenson's plan as expressed by his friend & patron Brandli...
+ Metadata Text 2 (14g):
+  persons: [{'name': 'GeorgeStephenson', 'birth': '', 'death': '', 'description': "Colliery and railway engineer in North East England. He and Davy conducted a virulent controversy over who had invented the miners' safety lamp. He also designed early railway locomatives.", 'id': 'person_320'}, {'name': 'Robert WilliamBrandling', 'birth': '', 'death': '', 'description': 'The chief advocate for and publicist of George Stephenson’s safety lamp, campaigning to have Stephenson recognized, and rewarded, as the original inventor.', 'id': 'person_358'}]
+ Top Shared Features: detach, firedamp, portion, plan, conic
+--------------------------------------------------------------------------------
+Instance 57:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 157 ↔ 92
+ TF-IDF Similarity: 0.313
+ Shared Features: 2
+ Features in Text 1: 3
+ Features in Text 2: 46
+ Word Counts: 14 ↔ 160
+ Text 1 (14e): Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .
+ Text 2 (14g): The thermal water of the Baths of Lucca Baths of Lucca Baths of Lucca where its temperature is the high- est at the Baths called the " Bagni Caldi Bag...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}]
+ Top Shared Features: bath, lucca, iron, oxid, aug
+--------------------------------------------------------------------------------
+Instance 58:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 35 ↔ 37
+ TF-IDF Similarity: 0.312
+ Shared Features: 4
+ Features in Text 1: 8
+ Features in Text 2: 18
+ Word Counts: 24 ↔ 61
+ Text 1 (14g): as He expresses himself He should be able to succeed if be able to succeed if burn in this exp ts ; - He placed
+ Text 2 (14g): That this is the simple statement of the case is easily proved by exp ts by exp ts Whoever will try any two of his first three inventions in an explos...
+ Top Shared Features: ts, exp, abl, burn, succeed
+--------------------------------------------------------------------------------
+Instance 59:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 163 ↔ 101
+ TF-IDF Similarity: 0.311
+ Shared Features: 3
+ Features in Text 1: 12
+ Features in Text 2: 43
+ Word Counts: 42 ↔ 85
+ Text 1 (14e): At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We cat...
+ Text 2 (14g): 97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold &...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Top Shared Features: bath, lucca, dream, fainter, life
+--------------------------------------------------------------------------------
+Instance 60:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 56 ↔ 85
+ TF-IDF Similarity: 0.309
+ Shared Features: 8
+ Features in Text 1: 34
+ Features in Text 2: 29
+ Word Counts: 121 ↔ 77
+ Text 1 (14g): strata it seems extremely probable that they were formed at a time when the only species of animal life on the globe was marine & at a period when wat...
+ Text 2 (14g): is one in their locality or place in the different parts of the globe. - The exterior surface of the globe in its natural state in its natural state c...
+ Top Shared Features: cover, consist, veget, surfac, globe
+--------------------------------------------------------------------------------
+
+Instance 61:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 78 ↔ 79
+ TF-IDF Similarity: 0.309
+ Shared Features: 8
+ Features in Text 1: 25
+ Features in Text 2: 52
+ Word Counts: 52 ↔ 157
+ Text 1 (14g): { a certain small quantity of alkali in solution . - silicious Sand is sometimes found agglutinated together by a calcareous cement deposited from car...
+ Text 2 (14g): 75 variety, by far the greater proportion of them being are Calcareous & deposited from water, which by being impregnated with Carbonic Acid Carbonic ...
+ Metadata Text 2 (14g):
+  places: [{'name': 'The Colosseum', 'description': 'The Colosseum, the largest amphitheatre ever built, is located in the centre of Rome. Now a ruin, its construction began 2,000 years ago.', 'id': 'place_199'}, {'name': "St. Peter's", 'description': "St Peter's is a church built in the Renaissance style located in the Vatican City, west of the River Tiber.", 'id': 'place_154'}, {'name': 'Paestum', 'description': 'Paestum was an ancient Greek city on the coast of southern Italy.', 'id': 'place_180'}, {'name': 'Apennines', 'description': 'The Apennines are a range of mountains that run down the spine of peninsular Italy.', 'id': 'place_530'}, {'name': 'Ischia', 'description': 'An island in the Gulf of Naples, Italy.', 'id': 'place_708'}, {'name': 'Italy', 'description': '', 'id': 'place_097'}]
+ Top Shared Features: carbon, lime, deposit, calcar, silici
+--------------------------------------------------------------------------------
+Instance 62:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 157 ↔ 163
+ TF-IDF Similarity: 0.308
+ Shared Features: 1
+ Features in Text 1: 3
+ Features in Text 2: 7
+ Word Counts: 14 ↔ 53
+ Text 1 (14e): Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .
+ Text 2 (14g): x + x/50 =10000 51 ) 100000( 19 7 51 490 100 19 4 5 4 5 4 2 1 50 x + y = 100 00 1 x . y 501 317 - 4 30 50y = 10= Gioacchino y = x/50 20 pettini in cas...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14g):
+  persons: [{'name': 'Gioacchino', 'birth': None, 'death': None, 'description': 'Unidentified.', 'id': 'person_782'}]
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Top Shared Features: lucca, bath, di, bagni, aug
+--------------------------------------------------------------------------------
+Instance 63:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 9 ↔ 14
+ TF-IDF Similarity: 0.307
+ Shared Features: 5
+ Features in Text 1: 15
+ Features in Text 2: 26
+ Word Counts: 60 ↔ 72
+ Text 1 (14e): July 3 - Bright sunshine. T in the window shaded at 5 63. in room at 8 69.- Bavarian xxx 100- A 101 100- A 101 - is to Austria as 101 to 100 - Ther. a...
+ Text 2 (14e): 11 night, thermetr at day 70 in evening at 10 67 68 in room 64 in window Fished in a small stream. & caught a great number of small trout 8 Ther. at 4...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Traun', 'description': 'Traunfall in Desselbrunn, Upper Austria. Memoirs contains\xa0a poem Davy wrote\xa0about them, also in notebook 14E.', 'id': 'place_182'}, {'name': 'Traun', 'description': 'The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.', 'id': 'place_258'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Kochelsee', 'description': 'a picturesque glacial lake covering 2.3 square miles, fringed with mountains & wetlands.', 'id': 'place_1236'}, {'name': 'Bavaria', 'description': 'A German state.', 'id': 'place_1128'}]
+ Top Shared Features: room, window, ther, sunshin, shade
+--------------------------------------------------------------------------------
+Instance 64:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 7 ↔ 19
+ TF-IDF Similarity: 0.305
+ Shared Features: 4
+ Features in Text 1: 23
+ Features in Text 2: 29
+ Word Counts: 58 ↔ 94
+ Text 1 (14g): - It would be worth while to try if Carbonic Acid Carbonic Acid Carbonic Acid by heat & heat & pressure will not dissolve silica as Muriatic acid Muri...
+ Text 2 (14g): 17 a yellow one with a green beak not larger than a Jack Snipe Jack Snipe Jack Snipe - a spotted one with a red eye & a grey beak of the size of a lar...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Foligno', 'description': 'Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.', 'id': 'place_564'}, {'name': 'Spoleto', 'description': 'A city in Umbria, Italy.', 'id': 'place_927'}, {'name': 'Colfiorito', 'description': 'Colfiorito is a village in Umbria, central Italy.', 'id': 'place_561'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Italy', 'description': '', 'id': 'place_097'}, {'name': 'Colfiorito', 'description': 'Colfiorito is a village in Umbria, central Italy.', 'id': 'place_561'}]
+ Top Shared Features: col, fiorito, acid, yellow, muriat
+--------------------------------------------------------------------------------
+Instance 65:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 2
+ Pages: 131 ↔ 132
+ TF-IDF Similarity: 0.303
+ Shared Features: 7
+ Features in Text 1: 15
+ Features in Text 2: 21
+ Word Counts: 51 ↔ 68
+ Text 1 (14e): Hopes such as dying truly in truly in bliss And kissing thee I seem to share Thy innocence & happiness Thy innocence & happiness . – And in thy kiss I...
+ Text 2 (14e): So bright mild so pure so soft so clear Is of that fire not meant to die Which never glitters through a tear The Vestals fire, or sacred light Its sou...
+ Top Shared Features: kiss, bliss, innoc, bright, share
+--------------------------------------------------------------------------------
+
+Instance 66:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 91 ↔ 92
+ TF-IDF Similarity: 0.303
+ Shared Features: 13
+ Features in Text 1: 63
+ Features in Text 2: 46
+ Word Counts: 209 ↔ 160
+ Text 1 (14g): Though the Oxide of Iron Oxide of Iron Oxide of Iron when collected is a peroxide yet it is most probable that in the water it exists in the state of ...
+ Text 2 (14g): The thermal water of the Baths of Lucca Baths of Lucca Baths of Lucca where its temperature is the high- est at the Baths called the " Bagni Caldi Bag...
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}]
+ Top Shared Features: oxid, iron, bath, deposit, silica
+--------------------------------------------------------------------------------
+Instance 67:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 55 ↔ 91
+ TF-IDF Similarity: 0.302
+ Shared Features: 15
+ Features in Text 1: 58
+ Features in Text 2: 63
+ Word Counts: 152 ↔ 209
+ Text 1 (14g): - of Carbonic Acid Carbonic Acid Carbonic Acid in the ocean was much greater & the temperature of the water higher which may be easily imagined if the...
+ Text 2 (14g): Though the Oxide of Iron Oxide of Iron Oxide of Iron when collected is a peroxide yet it is most probable that in the water it exists in the state of ...
+ Top Shared Features: carbon, oxid, iron, acid, lime
+--------------------------------------------------------------------------------
+Instance 68:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 7 ↔ 9
+ TF-IDF Similarity: 0.302
+ Shared Features: 6
+ Features in Text 1: 36
+ Features in Text 2: 15
+ Word Counts: 102 ↔ 60
+ Text 1 (14e): & like a fresh run salmon. July 1. T. in room 68 67. at 7 70 in window – cloudy. Left Saltzburg & came on to Transteen 2p 1/4 a good inn stopped a cle...
+ Text 2 (14e): July 3 - Bright sunshine. T in the window shaded at 5 63. in room at 8 69.- Bavarian xxx 100- A 101 100- A 101 - is to Austria as 101 to 100 - Ther. a...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Traunstein', 'description': 'Traunstein is a town in the south-eastern part of Bavaria, Germany, and is the administrative center of a much larger district of the same name.', 'id': 'place_1351'}, {'name': 'Salzburg', 'description': 'Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.', 'id': 'place_197'}, {'name': 'Traun', 'description': 'Traunfall in Desselbrunn, Upper Austria. Memoirs contains\xa0a poem Davy wrote\xa0about them, also in notebook 14E.', 'id': 'place_182'}, {'name': 'Traun', 'description': 'The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.', 'id': 'place_258'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Traun', 'description': 'Traunfall in Desselbrunn, Upper Austria. Memoirs contains\xa0a poem Davy wrote\xa0about them, also in notebook 14E.', 'id': 'place_182'}, {'name': 'Traun', 'description': 'The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.', 'id': 'place_258'}]
+ Top Shared Features: window, room, juli, shade, thunder
+--------------------------------------------------------------------------------
+Instance 69:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 156 ↔ 124
+ TF-IDF Similarity: 0.301
+ Shared Features: 14
+ Features in Text 1: 34
+ Features in Text 2: 34
+ Word Counts: 78 ↔ 101
+ Text 1 (14e): The wasted frame Soon in corporeal strength recruits itself And wounds fill with new flesh So in the mind the death of objects the death of objects Th...
+ Text 2 (14g): By sickness weakened & by sorrow chil'd the balm of calmness seems to enter penetrate enter penetrate Mild & genial soothing in its influence And soot...
+ Top Shared Features: wound, recruit, flesh, pang, corpor
+--------------------------------------------------------------------------------
+Instance 70:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 101 ↔ 156
+ TF-IDF Similarity: 0.299
+ Shared Features: 2
+ Features in Text 1: 43
+ Features in Text 2: 11
+ Word Counts: 85 ↔ 34
+ Text 1 (14g): 97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold &...
+ Text 2 (14g): when I return } return } . + , 6.12 1 On the road to the Baths of Lucca Baths of Lucca Baths of Lucca layers of Limestone & chert very near each other...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Top Shared Features: lucca, bath, return, twist, chert
+--------------------------------------------------------------------------------
+
+Instance 71:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 7 ↔ 16
+ TF-IDF Similarity: 0.299
+ Shared Features: 10
+ Features in Text 1: 36
+ Features in Text 2: 30
+ Word Counts: 102 ↔ 77
+ Text 1 (14e): & like a fresh run salmon. July 1. T. in room 68 67. at 7 70 in window – cloudy. Left Saltzburg & came on to Transteen 2p 1/4 a good inn stopped a cle...
+ Text 2 (14e): 13 65 in room 66. 67 - July 10. another bright day shall leave DV. Fussen for Kempten . found Kempten very hot & came on to a small inn there, but wit...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Traunstein', 'description': 'Traunstein is a town in the south-eastern part of Bavaria, Germany, and is the administrative center of a much larger district of the same name.', 'id': 'place_1351'}, {'name': 'Salzburg', 'description': 'Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.', 'id': 'place_197'}, {'name': 'Traun', 'description': 'Traunfall in Desselbrunn, Upper Austria. Memoirs contains\xa0a poem Davy wrote\xa0about them, also in notebook 14E.', 'id': 'place_182'}, {'name': 'Traun', 'description': 'The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.', 'id': 'place_258'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Röthenbach an der Pegnitz', 'description': 'a town that would be on the route from Kempten to Bregenz', 'id': 'place_1241'}, {'name': 'Kempten', 'description': 'a town in Allgäu, about 28 miles from Füssen', 'id': 'place_1240'}, {'name': 'Bregenz', 'description': 'Today, a town in Austria on the shores of the Obersee.', 'id': 'place_1242'}, {'name': 'Tyrol', 'description': 'Tyrol is a historical region in the Alps located in northern Italy and western Austria.', 'id': 'place_328'}, {'name': 'Füssen', 'description': 'a town in Bavaria, Germany, just north of the Austrian border.', 'id': 'place_1238'}, {'name': 'Appenzell', 'description': 'a canton in the northeast of Switzerland, the southern part of which is mountainous', 'id': 'place_1243'}]
+ Top Shared Features: inn, room, juli, kempten, small
+--------------------------------------------------------------------------------
+Instance 72:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 2 ↔ 0
+ Pages: 132 ↔ 138
+ TF-IDF Similarity: 0.297
+ Shared Features: 3
+ Features in Text 1: 21
+ Features in Text 2: 9
+ Word Counts: 68 ↔ 16
+ Text 1 (14e): So bright mild so pure so soft so clear Is of that fire not meant to die Which never glitters through a tear The Vestals fire, or sacred light Its sou...
+ Text 2 (14e): 135 She raises from the earth their hopes sublime To higher heavenly bliss above the skies.
+ Metadata Text 2 (14e):
+  places: [{'name': 'Salzburg', 'description': 'Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.', 'id': 'place_197'}]
+ Top Shared Features: bliss, heavenli, hope, sublim, higher
+--------------------------------------------------------------------------------
+Instance 73:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 58 ↔ 78
+ TF-IDF Similarity: 0.297
+ Shared Features: 5
+ Features in Text 1: 32
+ Features in Text 2: 25
+ Word Counts: 81 ↔ 52
+ Text 1 (14g): Whilst the record allowing the data explains the phenomena of consolidation of consolidation with greater facility: for it is much more easy to suppos...
+ Text 2 (14g): { a certain small quantity of alkali in solution . - silicious Sand is sometimes found agglutinated together by a calcareous cement deposited from car...
+ Top Shared Features: carbon, lime, deposit, calcar, quantiti
+--------------------------------------------------------------------------------
+Instance 74:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 47 ↔ 54
+ TF-IDF Similarity: 0.296
+ Shared Features: 7
+ Features in Text 1: 25
+ Features in Text 2: 28
+ Word Counts: 84 ↔ 108
+ Text 1 (14g): 45 of the day it rose to 72° F Objects of experiments at Rome & Naples & Naples 1819 - 1 st to ascertain if the water found in Rock chrystal Rock chry...
+ Text 2 (14g): & the cause of the precipitation the cause of the precipitation may in the action of the substances Note It will be an important object of experiment ...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Carrara', 'description': 'Carrara is a city in central Italy.', 'id': 'place_243'}, {'name': 'Naples', 'description': 'Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.', 'id': 'place_156'}, {'name': 'Rome', 'description': 'The capital of Italy.', 'id': 'place_155'}, {'name': 'Vatican City', 'description': 'The Vatican City is a city-state surrounded by Rome, Italy.', 'id': 'place_178'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Rome', 'description': 'The capital of Italy.', 'id': 'place_155'}]
+ Top Shared Features: chrystal, ascertain, vatican, experi, rock
+--------------------------------------------------------------------------------
+Instance 75:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 4 ↔ 8
+ TF-IDF Similarity: 0.295
+ Shared Features: 10
+ Features in Text 1: 31
+ Features in Text 2: 31
+ Word Counts: 82 ↔ 98
+ Text 1 (14e): 1 1827 28 June. Mondsee . T. 60 in room at 8. 56 in window made preparations to go to the river which joins Mondsee & Cammersee . After a morning of b...
+ Text 2 (14e): 5 still 64. unbroken sunshine. In window in the shade .80 at 2. in window at 1/4 past . 4 83 Went at 1/2 past six in the carriage to a Chateau about 5...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ager River', 'description': 'The Ager River in Austria is a tributary of the Traun.', 'id': 'place_268'}, {'name': 'Mondsee', 'description': 'Mondsee is a town in Upper Austria located on the shore of the lake, Mondsee.', 'id': 'place_272'}, {'name': 'Kammersee', 'description': 'The Kammersee, or Attersee, is a lake in Upper Austria.', 'id': 'place_269'}, {'name': 'Unterach am Attersee', 'description': 'Unterach is a village in the Austria state of Upper Austria on the southern shore of lake Attersee in the centre of the Salzkammergut region.', 'id': 'place_1350'}]
+ Top Shared Features: fish, grayl, river, window, lb
+--------------------------------------------------------------------------------
+
+Instance 76:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 153 ↔ 155
+ TF-IDF Similarity: 0.294
+ Shared Features: 12
+ Features in Text 1: 37
+ Features in Text 2: 32
+ Word Counts: 70 ↔ 81
+ Text 1 (14e): addition to the thought on youth. on youth. & invocation to urania composed the road copied Laybach . April 20 - 27. For time has withered all the lov...
+ Text 2 (14e): Ravenna April 7 Oh couldst thou be with me daughter of Oh couldst thou be with me daughter of Oh couldst thou be with me daughter of heavn Urania. I h...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ljubljana', 'description': 'Also known as Laybach or Laibach. Ljubljana is the capital city of Slovenia.', 'id': 'place_216'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Ravenna', 'description': 'Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.', 'id': 'place_245'}, {'name': 'Serchio', 'description': 'The third longest river in the Italian region of Tuscany at 126 kilometres.', 'id': 'place_932'}, {'name': 'Tiber River', 'description': 'The Tiber River is the third longest river in Italy. Rome is located on its banks.', 'id': 'place_615'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Top Shared Features: youth, couldst, april, coronet, urania
+--------------------------------------------------------------------------------
+Instance 77:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 17 ↔ 19
+ TF-IDF Similarity: 0.293
+ Shared Features: 6
+ Features in Text 1: 20
+ Features in Text 2: 29
+ Word Counts: 65 ↔ 94
+ Text 1 (14g): 15 in weighing nearly twice as much, in having a spotted & red & white breast - a shorter beak shorter beak - & white feathers in the tail . The time ...
+ Text 2 (14g): 17 a yellow one with a green beak not larger than a Jack Snipe Jack Snipe Jack Snipe - a spotted one with a red eye & a grey beak of the size of a lar...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Rome', 'description': 'The capital of Italy.', 'id': 'place_155'}, {'name': 'Italy', 'description': '', 'id': 'place_097'}, {'name': 'Colfiorito', 'description': 'Colfiorito is a village in Umbria, central Italy.', 'id': 'place_561'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Italy', 'description': '', 'id': 'place_097'}, {'name': 'Colfiorito', 'description': 'Colfiorito is a village in Umbria, central Italy.', 'id': 'place_561'}]
+ Top Shared Features: fiorito, beak, col, april, kill
+--------------------------------------------------------------------------------
+Instance 78:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 136 ↔ 146
+ TF-IDF Similarity: 0.291
+ Shared Features: 5
+ Features in Text 1: 28
+ Features in Text 2: 20
+ Word Counts: 80 ↔ 62
+ Text 1 (14g): it must exist throughout animated Nature. The elephant approaches nearer to Man in intellectual powers than the oister does to the elephant & a chain ...
+ Text 2 (14g): would approach to that of a an oister a Polypus a Polypus or even a fungus & it is only to suppose a simple kind of perception connected with the arra...
+ Top Shared Features: polypu, approach, percept, oister, perfect
+--------------------------------------------------------------------------------
+Instance 79:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 89 ↔ 92
+ TF-IDF Similarity: 0.290
+ Shared Features: 7
+ Features in Text 1: 58
+ Features in Text 2: 22
+ Word Counts: 158 ↔ 49
+ Text 1 (14g): 85 water of the Bagni Caldi Bagni Caldi Bagni Caldi & he naturally supposed that the iron was dissolved by Carbonic Acid Carbonic Acid Carbonic Acid b...
+ Text 2 (14g): The silica when the Oxide of Iron Oxide of Iron Oxide of Iron is separa- -ted by a weak acid appears as a gelati- -nous mass & the deposit before it i...
+ Metadata Text 1 (14g):
+  persons: [{'name': 'DenisPapin', 'birth': '', 'death': '', 'description': 'French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.', 'id': 'person_304'}]
+  places: [{'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}, {'name': 'Filigare', 'description': 'Tuscany, Italy.', 'id': 'place_1004'}, {'name': 'Lago di Garda', 'description': 'Lake Garda is the largest lake in Italy.', 'id': 'place_551'}, {'name': 'Florence', 'description': 'The capital city of the Italian region of Tuscany.', 'id': 'place_1080'}, {'name': 'Bologna', 'description': 'A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.', 'id': 'place_942'}, {'name': 'Ala', 'description': 'A comune in Trentino, north-eastern Italy.', 'id': 'place_948'}, {'name': 'England', 'description': 'England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.', 'id': 'place_121'}, {'name': 'Mantua', 'description': 'A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.', 'id': 'place_947'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}]
+ Top Shared Features: iron, oxid, acid, silica, carbon
+--------------------------------------------------------------------------------
+Instance 80:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 32 ↔ 39
+ TF-IDF Similarity: 0.289
+ Shared Features: 6
+ Features in Text 1: 22
+ Features in Text 2: 20
+ Word Counts: 65 ↔ 64
+ Text 1 (14g): It appears evident from the statements of this person himself & of workmen in the same mine that all the experiments, if they could be so called if th...
+ Text 2 (14g): 37 firedamp pass into it from a bladder filled with it opened below it - It is clear that Stevenson's plan as expressed by his friend & patron Brandli...
+ Metadata Text 1 (14g):
+  persons: [{'name': 'Robert WilliamBrandling', 'birth': '', 'death': '', 'description': 'The chief advocate for and publicist of George Stephenson’s safety lamp, campaigning to have Stephenson recognized, and rewarded, as the original inventor.', 'id': 'person_358'}]
+ Metadata Text 2 (14g):
+  persons: [{'name': 'GeorgeStephenson', 'birth': '', 'death': '', 'description': "Colliery and railway engineer in North East England. He and Davy conducted a virulent controversy over who had invented the miners' safety lamp. He also designed early railway locomatives.", 'id': 'person_320'}, {'name': 'Robert WilliamBrandling', 'birth': '', 'death': '', 'description': 'The chief advocate for and publicist of George Stephenson’s safety lamp, campaigning to have Stephenson recognized, and rewarded, as the original inventor.', 'id': 'person_358'}]
+ Top Shared Features: detach, firedamp, small, set, stream
+--------------------------------------------------------------------------------
+
+Instance 81:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 102 ↔ 115
+ TF-IDF Similarity: 0.284
+ Shared Features: 2
+ Features in Text 1: 12
+ Features in Text 2: 3
+ Word Counts: 25 ↔ 6
+ Text 1 (14e): 99 Such are the Eternal laws, acting in power As if Eternal justice was their end. So the forms of animated nature changing changeable .
+ Text 2 (14g): & security of the laws of nature. -
+ Metadata Text 2 (14g):
+  persons: [{'name': 'Georges-Louis Leclerc, Comte deBuffon', 'birth': '', 'death': '', 'description': 'French naturalist, mathematician and cosmologist. His Histoire Naturelle, published in 1789, ran to 37 volumes. ForMemRSL.', 'id': 'person_266'}]
+ Top Shared Features: law, secur, natur, etern, changeabl
+--------------------------------------------------------------------------------
+Instance 82:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 113 ↔ 134
+ TF-IDF Similarity: 0.283
+ Shared Features: 8
+ Features in Text 1: 39
+ Features in Text 2: 13
+ Word Counts: 80 ↔ 29
+ Text 1 (14e): Corrected Stanza Corrected Stanza to be added to the Poem on the death of L d . byron . Now passing near those high & blessed abodes Where Beings of a...
+ Text 2 (14e): 131 Supplement to the poem on the death of Lord Byron Lord Byron Lord Byron . Fintl - July 28.27 Now passing near those high & blessed abodes ways. ab...
+ Metadata Text 1 (14e):
+  persons: [{'name': 'George GordonByron', 'birth': '', 'death': '', 'description': 'From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.', 'id': 'person_118'}]
+ Metadata Text 2 (14e):
+  persons: [{'name': 'Cain', 'birth': '', 'death': '', 'description': 'A biblical figure in the Book of Genesis. He is the firstborn son of Adam and Eve and brother of Abel.', 'id': 'person_956'}, {'name': 'George GordonByron', 'birth': '', 'death': '', 'description': 'From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.', 'id': 'person_118'}]
+ Top Shared Features: byron, abod, lord, poem, way
+--------------------------------------------------------------------------------
+Instance 83:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 127 ↔ 157
+ TF-IDF Similarity: 0.282
+ Shared Features: 4
+ Features in Text 1: 27
+ Features in Text 2: 16
+ Word Counts: 50 ↔ 43
+ Text 1 (14e): Poetic visions rise with all the power of prophecy. The Soul is present past & future to itself The Image of the Eternal deity . Carrara Two hundred c...
+ Text 2 (14g): 153 On the road to Carrara is a quarry of mill stones where the mill stone appears as if naturally formed of its proper size [sketch of four birds] It...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Carrara', 'description': 'Carrara is a city in central Italy.', 'id': 'place_243'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Carrara', 'description': 'Carrara is a city in central Italy.', 'id': 'place_243'}]
+ Top Shared Features: stone, quarri, carrara, breccia, size
+--------------------------------------------------------------------------------
+Instance 84:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 15 ↔ 16
+ TF-IDF Similarity: 0.281
+ Shared Features: 9
+ Features in Text 1: 25
+ Features in Text 2: 30
+ Word Counts: 74 ↔ 77
+ Text 1 (14e): perhaps the Chiem see Chiem see Chiem see . In returning caught some small trout in a brook we crossed. The fisherman says there are Hucho both in the...
+ Text 2 (14e): 13 65 in room 66. 67 - July 10. another bright day shall leave DV. Fussen for Kempten . found Kempten very hot & came on to a small inn there, but wit...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Lech', 'description': 'The river that runs through Füssen, and flows into the Forggensee.', 'id': 'place_1239'}, {'name': 'Füssen', 'description': 'a town in Bavaria, Germany, just north of the Austrian border.', 'id': 'place_1238'}, {'name': 'Chiemsee', 'description': 'picturesque lake in Bavaria', 'id': 'place_1237'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Röthenbach an der Pegnitz', 'description': 'a town that would be on the route from Kempten to Bregenz', 'id': 'place_1241'}, {'name': 'Kempten', 'description': 'a town in Allgäu, about 28 miles from Füssen', 'id': 'place_1240'}, {'name': 'Bregenz', 'description': 'Today, a town in Austria on the shores of the Obersee.', 'id': 'place_1242'}, {'name': 'Tyrol', 'description': 'Tyrol is a historical region in the Alps located in northern Italy and western Austria.', 'id': 'place_328'}, {'name': 'Füssen', 'description': 'a town in Bavaria, Germany, just north of the Austrian border.', 'id': 'place_1238'}, {'name': 'Appenzell', 'description': 'a canton in the northeast of Switzerland, the southern part of which is mountainous', 'id': 'place_1243'}]
+ Top Shared Features: fussen, room, chiem, kempten, brook
+--------------------------------------------------------------------------------
+Instance 85:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 161 ↔ 162
+ TF-IDF Similarity: 0.281
+ Shared Features: 6
+ Features in Text 1: 18
+ Features in Text 2: 15
+ Word Counts: 85 ↔ 90
+ Text 1 (14g): 157 (reversed) [vertical rule] At C asi ol xxxx fior Vetturino paid 8 Crowns 25 Basic At Perugia 15 Contra Per Pergo 2.1 2 . 2 15 S 13 ' 3 Foligno 1. ...
+ Text 2 (14g): 1 Naples 1 Naples D o D o D o Paid up to Nov r 14 exclusive 1 2 xxxx R x N - 3 P to 8 1 2 xxxx R x N - 3 P to 8 Foligno Advanced to the Vetturino 13 c...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Foligno', 'description': 'Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.', 'id': 'place_564'}, {'name': 'Terni', 'description': 'Terni is a city in the southern portion of the region of Umbria in central Italy.', 'id': 'place_565'}, {'name': 'Perugia', 'description': 'Perugia is the capital city of Umbria in central Italy, crossed by the River Tiber, and of the province of Perugia.', 'id': 'place_562'}, {'name': 'Arezzo', 'description': 'Arezzo is a city and comune in Italy and the capital of the province of the same name located in Tuscany.', 'id': 'place_567'}]
+ Metadata Text 2 (14g):
+  persons: [{'name': 'JamesWard', 'birth': '', 'death': '', 'description': 'Landscape and animal painter. Royal Academician.', 'id': 'person_638'}]
+  places: [{'name': 'Foligno', 'description': 'Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.', 'id': 'place_564'}, {'name': 'Terni', 'description': 'Terni is a city in the southern portion of the region of Umbria in central Italy.', 'id': 'place_565'}, {'name': 'Perugia', 'description': 'Perugia is the capital city of Umbria in central Italy, crossed by the River Tiber, and of the province of Perugia.', 'id': 'place_562'}, {'name': 'Naples', 'description': 'Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.', 'id': 'place_156'}, {'name': 'Rome', 'description': 'The capital of Italy.', 'id': 'place_155'}]
+ Top Shared Features: paid, perugia, paul, fior, foligno
+--------------------------------------------------------------------------------
+
+Instance 86:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 55 ↔ 79
+ TF-IDF Similarity: 0.281
+ Shared Features: 13
+ Features in Text 1: 58
+ Features in Text 2: 52
+ Word Counts: 152 ↔ 157
+ Text 1 (14g): - of Carbonic Acid Carbonic Acid Carbonic Acid in the ocean was much greater & the temperature of the water higher which may be easily imagined if the...
+ Text 2 (14g): 75 variety, by far the greater proportion of them being are Calcareous & deposited from water, which by being impregnated with Carbonic Acid Carbonic ...
+ Metadata Text 2 (14g):
+  places: [{'name': 'The Colosseum', 'description': 'The Colosseum, the largest amphitheatre ever built, is located in the centre of Rome. Now a ruin, its construction began 2,000 years ago.', 'id': 'place_199'}, {'name': "St. Peter's", 'description': "St Peter's is a church built in the Renaissance style located in the Vatican City, west of the River Tiber.", 'id': 'place_154'}, {'name': 'Paestum', 'description': 'Paestum was an ancient Greek city on the coast of southern Italy.', 'id': 'place_180'}, {'name': 'Apennines', 'description': 'The Apennines are a range of mountains that run down the spine of peninsular Italy.', 'id': 'place_530'}, {'name': 'Ischia', 'description': 'An island in the Gulf of Naples, Italy.', 'id': 'place_708'}, {'name': 'Italy', 'description': '', 'id': 'place_097'}]
+ Top Shared Features: carbon, acid, lime, calcar, deposit
+--------------------------------------------------------------------------------
+Instance 87:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 33 ↔ 34
+ TF-IDF Similarity: 0.280
+ Shared Features: 12
+ Features in Text 1: 44
+ Features in Text 2: 34
+ Word Counts: 133 ↔ 85
+ Text 1 (14g): 31 them or one of them by causing the air deteriorated by the combustion of candles to pass upon them & that His plan for preserving the lives of the ...
+ Text 2 (14g): flame from passing into - It appears likewise in actual trial, that He made his tube at the suggestion of a Foreman half an inch in diameter & furnish...
+ Top Shared Features: detach, ga, blower, portion, diamet
+--------------------------------------------------------------------------------
+Instance 88:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 90 ↔ 92
+ TF-IDF Similarity: 0.280
+ Shared Features: 11
+ Features in Text 1: 63
+ Features in Text 2: 46
+ Word Counts: 184 ↔ 160
+ Text 1 (14g): when it arrives within the influence of the atmosphere & that its temperature which is 130° F where it issues from the ground is much higher in the in...
+ Text 2 (14g): The thermal water of the Baths of Lucca Baths of Lucca Baths of Lucca where its temperature is the high- est at the Baths called the " Bagni Caldi Bag...
+ Metadata Text 1 (14g):
+  persons: [{'name': 'Giovan BattistaTessandori', 'birth': '', 'death': None, 'description': 'Member of the Lucca Academy. Davy described his discoveries in evaporation experiments.', 'id': 'person_777'}, {'name': 'Jöns JacobBerzelius', 'birth': '', 'death': '', 'description': "Swedish chemist. He discovered the chemical elements cerium and selenium, and was the first to isolate silicon, thorium, titanium, and zirconium. A rival of Davy's whom he met a few times.", 'id': 'person_349'}, {'name': 'JamesSmithson', 'birth': '', 'death': '', 'description': "Born Jacques-Louis Macie in Paris; became James Louis Macie upon naturalizing to Britain and in 1800 adopted his father's original surname of Smithson. Wealthy natural son of the Duke of Nothumberland. Proprietor of the Royal Institution who wrote on chemistry. Bequeathed his money to the United States to found the Smithsonian Institution. FRSL.", 'id': 'person_611'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}]
+ Top Shared Features: iron, oxid, silica, caldi, deposit
+--------------------------------------------------------------------------------
+Instance 89:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 90 ↔ 92
+ TF-IDF Similarity: 0.279
+ Shared Features: 7
+ Features in Text 1: 63
+ Features in Text 2: 22
+ Word Counts: 184 ↔ 49
+ Text 1 (14g): when it arrives within the influence of the atmosphere & that its temperature which is 130° F where it issues from the ground is much higher in the in...
+ Text 2 (14g): The silica when the Oxide of Iron Oxide of Iron Oxide of Iron is separa- -ted by a weak acid appears as a gelati- -nous mass & the deposit before it i...
+ Metadata Text 1 (14g):
+  persons: [{'name': 'Giovan BattistaTessandori', 'birth': '', 'death': None, 'description': 'Member of the Lucca Academy. Davy described his discoveries in evaporation experiments.', 'id': 'person_777'}, {'name': 'Jöns JacobBerzelius', 'birth': '', 'death': '', 'description': "Swedish chemist. He discovered the chemical elements cerium and selenium, and was the first to isolate silicon, thorium, titanium, and zirconium. A rival of Davy's whom he met a few times.", 'id': 'person_349'}, {'name': 'JamesSmithson', 'birth': '', 'death': '', 'description': "Born Jacques-Louis Macie in Paris; became James Louis Macie upon naturalizing to Britain and in 1800 adopted his father's original surname of Smithson. Wealthy natural son of the Duke of Nothumberland. Proprietor of the Royal Institution who wrote on chemistry. Bequeathed his money to the United States to found the Smithsonian Institution. FRSL.", 'id': 'person_611'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}]
+ Top Shared Features: iron, oxid, silica, acid, chemic
+--------------------------------------------------------------------------------
+Instance 90:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 161 ↔ 24
+ TF-IDF Similarity: 0.278
+ Shared Features: 9
+ Features in Text 1: 34
+ Features in Text 2: 23
+ Word Counts: 66 ↔ 48
+ Text 1 (14e): Has brought you here to cheer our tardy spring Oft had I seen you midst the orange trees bowers That Cloak Parthenope & where Velino pours In thunderi...
+ Text 2 (14g): how by the olive groves & midst the vines that xxxxxxx over the flood Of foaming Serchio here a mountain stream Oft had I seen you midst the orange gr...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Velino', 'description': 'A river in central Italy, a tributary of the Nera.', 'id': 'place_848'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Serchio', 'description': 'The third longest river in the Italian region of Tuscany at 126 kilometres.', 'id': 'place_932'}, {'name': 'Velino', 'description': 'A river in central Italy, a tributary of the Nera.', 'id': 'place_848'}]
+ Top Shared Features: midst, parthenop, oft, orang, velino
+--------------------------------------------------------------------------------
+
+Instance 91:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 10 ↔ 15
+ TF-IDF Similarity: 0.278
+ Shared Features: 5
+ Features in Text 1: 28
+ Features in Text 2: 25
+ Word Counts: 64 ↔ 74
+ Text 1 (14e): 7 lightning & rain continuing – July 4. Rain & lightning all night & still continues at 8. T fallen to 63, 62 in window & in room 65. - Left traunstei...
+ Text 2 (14e): perhaps the Chiem see Chiem see Chiem see . In returning caught some small trout in a brook we crossed. The fisherman says there are Hucho both in the...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Traunstein', 'description': 'Traunstein is a town in the south-eastern part of Bavaria, Germany, and is the administrative center of a much larger district of the same name.', 'id': 'place_1351'}, {'name': 'Chiemsee', 'description': 'picturesque lake in Bavaria', 'id': 'place_1237'}, {'name': 'Bad Aibling', 'description': 'Bad Aibling is a spa town and former district seat in Bavaria on the river Mangfall, located some 56 km southeast of Munich.', 'id': 'place_1352'}, {'name': 'Munich', 'description': 'the capital of Bavaria in Germany', 'id': 'place_1264'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Lech', 'description': 'The river that runs through Füssen, and flows into the Forggensee.', 'id': 'place_1239'}, {'name': 'Füssen', 'description': 'a town in Bavaria, Germany, just north of the Austrian border.', 'id': 'place_1238'}, {'name': 'Chiemsee', 'description': 'picturesque lake in Bavaria', 'id': 'place_1237'}]
+ Top Shared Features: chiem, room, window, fussen, rain
+--------------------------------------------------------------------------------
+Instance 92:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 89 ↔ 90
+ TF-IDF Similarity: 0.277
+ Shared Features: 13
+ Features in Text 1: 58
+ Features in Text 2: 63
+ Word Counts: 158 ↔ 184
+ Text 1 (14g): 85 water of the Bagni Caldi Bagni Caldi Bagni Caldi & he naturally supposed that the iron was dissolved by Carbonic Acid Carbonic Acid Carbonic Acid b...
+ Text 2 (14g): when it arrives within the influence of the atmosphere & that its temperature which is 130° F where it issues from the ground is much higher in the in...
+ Metadata Text 1 (14g):
+  persons: [{'name': 'DenisPapin', 'birth': '', 'death': '', 'description': 'French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.', 'id': 'person_304'}]
+  places: [{'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}, {'name': 'Filigare', 'description': 'Tuscany, Italy.', 'id': 'place_1004'}, {'name': 'Lago di Garda', 'description': 'Lake Garda is the largest lake in Italy.', 'id': 'place_551'}, {'name': 'Florence', 'description': 'The capital city of the Italian region of Tuscany.', 'id': 'place_1080'}, {'name': 'Bologna', 'description': 'A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.', 'id': 'place_942'}, {'name': 'Ala', 'description': 'A comune in Trentino, north-eastern Italy.', 'id': 'place_948'}, {'name': 'England', 'description': 'England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.', 'id': 'place_121'}, {'name': 'Mantua', 'description': 'A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.', 'id': 'place_947'}]
+ Metadata Text 2 (14g):
+  persons: [{'name': 'Giovan BattistaTessandori', 'birth': '', 'death': None, 'description': 'Member of the Lucca Academy. Davy described his discoveries in evaporation experiments.', 'id': 'person_777'}, {'name': 'Jöns JacobBerzelius', 'birth': '', 'death': '', 'description': "Swedish chemist. He discovered the chemical elements cerium and selenium, and was the first to isolate silicon, thorium, titanium, and zirconium. A rival of Davy's whom he met a few times.", 'id': 'person_349'}, {'name': 'JamesSmithson', 'birth': '', 'death': '', 'description': "Born Jacques-Louis Macie in Paris; became James Louis Macie upon naturalizing to Britain and in 1800 adopted his father's original surname of Smithson. Wealthy natural son of the Duke of Nothumberland. Proprietor of the Royal Institution who wrote on chemistry. Bequeathed his money to the United States to found the Smithsonian Institution. FRSL.", 'id': 'person_611'}]
+ Top Shared Features: iron, oxid, acid, silica, water
+--------------------------------------------------------------------------------
+Instance 93:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 7 ↔ 89
+ TF-IDF Similarity: 0.277
+ Shared Features: 7
+ Features in Text 1: 23
+ Features in Text 2: 58
+ Word Counts: 58 ↔ 158
+ Text 1 (14g): - It would be worth while to try if Carbonic Acid Carbonic Acid Carbonic Acid by heat & heat & pressure will not dissolve silica as Muriatic acid Muri...
+ Text 2 (14g): 85 water of the Bagni Caldi Bagni Caldi Bagni Caldi & he naturally supposed that the iron was dissolved by Carbonic Acid Carbonic Acid Carbonic Acid b...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Foligno', 'description': 'Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.', 'id': 'place_564'}, {'name': 'Spoleto', 'description': 'A city in Umbria, Italy.', 'id': 'place_927'}, {'name': 'Colfiorito', 'description': 'Colfiorito is a village in Umbria, central Italy.', 'id': 'place_561'}]
+ Metadata Text 2 (14g):
+  persons: [{'name': 'DenisPapin', 'birth': '', 'death': '', 'description': 'French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.', 'id': 'person_304'}]
+  places: [{'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}, {'name': 'Filigare', 'description': 'Tuscany, Italy.', 'id': 'place_1004'}, {'name': 'Lago di Garda', 'description': 'Lake Garda is the largest lake in Italy.', 'id': 'place_551'}, {'name': 'Florence', 'description': 'The capital city of the Italian region of Tuscany.', 'id': 'place_1080'}, {'name': 'Bologna', 'description': 'A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.', 'id': 'place_942'}, {'name': 'Ala', 'description': 'A comune in Trentino, north-eastern Italy.', 'id': 'place_948'}, {'name': 'England', 'description': 'England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.', 'id': 'place_121'}, {'name': 'Mantua', 'description': 'A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.', 'id': 'place_947'}]
+ Top Shared Features: acid, carbon, muriat, col, fiorito
+--------------------------------------------------------------------------------
+Instance 94:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 94 ↔ 25
+ TF-IDF Similarity: 0.276
+ Shared Features: 10
+ Features in Text 1: 41
+ Features in Text 2: 27
+ Word Counts: 82 ↔ 63
+ Text 1 (14e): 91 What if the stars themselves Be but a different animated world Of which our narrow intellect can form No just conception. What if each bright orb I...
+ Text 2 (14g): - Why have Ye left your halcyon streams below - To visit our rude peaks on which the snow still glitters in the summer sun of june - But brightly do y...
+ Top Shared Features: concept, star, just, narrow, intellect
+--------------------------------------------------------------------------------
+Instance 95:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 10 ↔ 17
+ TF-IDF Similarity: 0.275
+ Shared Features: 6
+ Features in Text 1: 29
+ Features in Text 2: 13
+ Word Counts: 81 ↔ 42
+ Text 1 (14e): & then was fine views of the mountains with clouded intervals - reached Aibling at 4 oClock two rivers join one was clear but without fish at lunch fo...
+ Text 2 (14e): The Rhine a grand river where it joins the two lakes. went in a boat & fished but saw nothing at Constance evening 70. 71. at Constance evening 70. 71...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Traunstein', 'description': 'Traunstein is a town in the south-eastern part of Bavaria, Germany, and is the administrative center of a much larger district of the same name.', 'id': 'place_1351'}, {'name': 'Chiemsee', 'description': 'picturesque lake in Bavaria', 'id': 'place_1237'}, {'name': 'Bad Aibling', 'description': 'Bad Aibling is a spa town and former district seat in Bavaria on the river Mangfall, located some 56 km southeast of Munich.', 'id': 'place_1352'}, {'name': 'Munich', 'description': 'the capital of Bavaria in Germany', 'id': 'place_1264'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Rhine', 'description': "The Rhine is one of Europe's major rivers. It rises in Switzerland, flows through Germany, and enters the North Sea in the Netherlands.", 'id': 'place_266'}, {'name': 'Lake Constance', 'description': 'an Alpine lake', 'id': 'place_1244'}]
+ Top Shared Features: constanc, fish, went, saw, join
+--------------------------------------------------------------------------------
+
+Instance 96:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 7 ↔ 10
+ TF-IDF Similarity: 0.275
+ Shared Features: 9
+ Features in Text 1: 36
+ Features in Text 2: 28
+ Word Counts: 102 ↔ 64
+ Text 1 (14e): & like a fresh run salmon. July 1. T. in room 68 67. at 7 70 in window – cloudy. Left Saltzburg & came on to Transteen 2p 1/4 a good inn stopped a cle...
+ Text 2 (14e): 7 lightning & rain continuing – July 4. Rain & lightning all night & still continues at 8. T fallen to 63, 62 in window & in room 65. - Left traunstei...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Traunstein', 'description': 'Traunstein is a town in the south-eastern part of Bavaria, Germany, and is the administrative center of a much larger district of the same name.', 'id': 'place_1351'}, {'name': 'Salzburg', 'description': 'Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.', 'id': 'place_197'}, {'name': 'Traun', 'description': 'Traunfall in Desselbrunn, Upper Austria. Memoirs contains\xa0a poem Davy wrote\xa0about them, also in notebook 14E.', 'id': 'place_182'}, {'name': 'Traun', 'description': 'The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.', 'id': 'place_258'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Traunstein', 'description': 'Traunstein is a town in the south-eastern part of Bavaria, Germany, and is the administrative center of a much larger district of the same name.', 'id': 'place_1351'}, {'name': 'Chiemsee', 'description': 'picturesque lake in Bavaria', 'id': 'place_1237'}, {'name': 'Bad Aibling', 'description': 'Bad Aibling is a spa town and former district seat in Bavaria on the river Mangfall, located some 56 km southeast of Munich.', 'id': 'place_1352'}, {'name': 'Munich', 'description': 'the capital of Bavaria in Germany', 'id': 'place_1264'}]
+ Top Shared Features: chiem, rain, juli, room, lightn
+--------------------------------------------------------------------------------
+Instance 97:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 5 ↔ 9
+ TF-IDF Similarity: 0.274
+ Shared Features: 3
+ Features in Text 1: 25
+ Features in Text 2: 37
+ Word Counts: 71 ↔ 91
+ Text 1 (14g): 3 ancient Italy - in travelling through the Sabine country I found even the woods purple from the profusion of a tree with a leaf like the Lime tree &...
+ Text 2 (14g): 7 The end of May the Snow clad mountains above from which the Velino rises are bold & rugged but the hills want wood & the green freshness of Styria o...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Foligno', 'description': 'Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.', 'id': 'place_564'}, {'name': 'Sabina', 'description': 'Also called the Sabine Hills, a region in central Italy.', 'id': 'place_926'}, {'name': 'Spoleto', 'description': 'A city in Umbria, Italy.', 'id': 'place_927'}, {'name': 'Italy', 'description': '', 'id': 'place_097'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Aterno-Pescara', 'description': 'The Aterno-Pescara is a river system in Abruzzo, eastern central Italy. The river is known as the Aterno near its source in the mountains, but takes the name Pescara, actually a tributary, nearer the city of Pescara and the Adriatic Sea.', 'id': 'place_1151'}, {'name': 'Styria', 'description': 'Styria is a state in the south-east of Austria.', 'id': 'place_196'}, {'name': 'Switzerland', 'description': '', 'id': 'place_198'}, {'name': 'Velino', 'description': 'A river in central Italy, a tributary of the Nera.', 'id': 'place_848'}]
+ Top Shared Features: rosso, antico, bold, foligno, wood
+--------------------------------------------------------------------------------
+Instance 98:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 7 ↔ 9
+ TF-IDF Similarity: 0.273
+ Shared Features: 8
+ Features in Text 1: 36
+ Features in Text 2: 24
+ Word Counts: 102 ↔ 68
+ Text 1 (14e): & like a fresh run salmon. July 1. T. in room 68 67. at 7 70 in window – cloudy. Left Saltzburg & came on to Transteen 2p 1/4 a good inn stopped a cle...
+ Text 2 (14e): 90 at 4 - As the thunder clouds formed, wind & then fell to 78 - at 1/2 past 5 Went to the Traun about 3 miles below the town which was still foul at ...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Traunstein', 'description': 'Traunstein is a town in the south-eastern part of Bavaria, Germany, and is the administrative center of a much larger district of the same name.', 'id': 'place_1351'}, {'name': 'Salzburg', 'description': 'Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.', 'id': 'place_197'}, {'name': 'Traun', 'description': 'Traunfall in Desselbrunn, Upper Austria. Memoirs contains\xa0a poem Davy wrote\xa0about them, also in notebook 14E.', 'id': 'place_182'}, {'name': 'Traun', 'description': 'The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.', 'id': 'place_258'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Traun', 'description': 'Traunfall in Desselbrunn, Upper Austria. Memoirs contains\xa0a poem Davy wrote\xa0about them, also in notebook 14E.', 'id': 'place_182'}, {'name': 'Traun', 'description': 'The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.', 'id': 'place_258'}]
+ Top Shared Features: traun, small, window, caught, trout
+--------------------------------------------------------------------------------
+Instance 99:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 68 ↔ 70
+ TF-IDF Similarity: 0.273
+ Shared Features: 4
+ Features in Text 1: 15
+ Features in Text 2: 13
+ Word Counts: 28 ↔ 30
+ Text 1 (14g): - A volcanic eruption sufficiently great to have raised waves raised waves thrown the ocean over the mountains of the ancient continent must likewise ...
+ Text 2 (14g): - When the island of Santorini was raised by volcanic explosions the waves rose upon the neighbor. &c c - so high & such an effect here Is produced by...
+ Top Shared Features: rais, wave, volcan, produc, santorini
+--------------------------------------------------------------------------------
+Instance 100:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 90 ↔ 91
+ TF-IDF Similarity: 0.273
+ Shared Features: 16
+ Features in Text 1: 63
+ Features in Text 2: 63
+ Word Counts: 184 ↔ 209
+ Text 1 (14g): when it arrives within the influence of the atmosphere & that its temperature which is 130° F where it issues from the ground is much higher in the in...
+ Text 2 (14g): Though the Oxide of Iron Oxide of Iron Oxide of Iron when collected is a peroxide yet it is most probable that in the water it exists in the state of ...
+ Metadata Text 1 (14g):
+  persons: [{'name': 'Giovan BattistaTessandori', 'birth': '', 'death': None, 'description': 'Member of the Lucca Academy. Davy described his discoveries in evaporation experiments.', 'id': 'person_777'}, {'name': 'Jöns JacobBerzelius', 'birth': '', 'death': '', 'description': "Swedish chemist. He discovered the chemical elements cerium and selenium, and was the first to isolate silicon, thorium, titanium, and zirconium. A rival of Davy's whom he met a few times.", 'id': 'person_349'}, {'name': 'JamesSmithson', 'birth': '', 'death': '', 'description': "Born Jacques-Louis Macie in Paris; became James Louis Macie upon naturalizing to Britain and in 1800 adopted his father's original surname of Smithson. Wealthy natural son of the Duke of Nothumberland. Proprietor of the Royal Institution who wrote on chemistry. Bequeathed his money to the United States to found the Smithsonian Institution. FRSL.", 'id': 'person_611'}]
+ Top Shared Features: oxid, iron, water, silica, atmospher
+--------------------------------------------------------------------------------
+
+Instance 101:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 100 ↔ 102
+ TF-IDF Similarity: 0.273
+ Shared Features: 8
+ Features in Text 1: 30
+ Features in Text 2: 28
+ Word Counts: 56 ↔ 62
+ Text 1 (14g): Let it on friendships tranquil hours A stedfast may day sunshine beam Making a field of fruits & flowers Such as the Bards elisian dream. To kindness ...
+ Text 2 (14g): Failings forget & let the beam of charity o'er all be cast And think that lifes quick troubled stream Is made more troubled by the blast 2 When touche...
+ Top Shared Features: let, chariti, beam, forget, cast
+--------------------------------------------------------------------------------
+Instance 102:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 59 ↔ 60
+ TF-IDF Similarity: 0.271
+ Shared Features: 2
+ Features in Text 1: 16
+ Features in Text 2: 11
+ Word Counts: 63 ↔ 42
+ Text 1 (14g): 55 debris or rains of a former land which in the course of ages has been xxxx destroyed, & that they have been xxxx consolidated by the action of fire...
+ Text 2 (14g): The one the Huttonian or Plutonic the other the Wernerian or neptunian - In the first it is supposed that the materials of the secondary strata have b...
+ Metadata Text 1 (14g):
+  works: [{'name': 'Illustrations of the Huttonian Theory', 'author': 'James Hutton', 'id': 'otherwork_158'}]
+ Metadata Text 2 (14g):
+  persons: [{'name': 'JamesHutton', 'birth': '', 'death': '', 'description': "Scottish geologist, agriculturalist and chemical manufacturer. His Theory of the Earth (1795) is one of the foundations of modern geology. Davy discussed Hutton's theories in his lectures and visited some of the key geological sites that Hutton used in his work.", 'id': 'person_125'}, {'name': 'Abraham GottlobWerner', 'birth': '', 'death': '', 'description': 'German geologist who proposed the theory of Neptunism and who also proposed the chronological sequence found in stratified rocks.', 'id': 'person_267'}]
+ Top Shared Features: huttonian, suppos, pluton, wernerian, neptunian
+--------------------------------------------------------------------------------
+Instance 103:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 33 ↔ 36
+ TF-IDF Similarity: 0.270
+ Shared Features: 14
+ Features in Text 1: 44
+ Features in Text 2: 39
+ Word Counts: 133 ↔ 127
+ Text 1 (14g): 31 them or one of them by causing the air deteriorated by the combustion of candles to pass upon them & that His plan for preserving the lives of the ...
+ Text 2 (14g): a canal with holes in it around his wick; - It is perfectly evident that when his trials were directed to burn the gas from large blowers by means of ...
+ Top Shared Features: carburet, blower, hydrogen, larg, glass
+--------------------------------------------------------------------------------
+Instance 104:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 14 ↔ 15
+ TF-IDF Similarity: 0.270
+ Shared Features: 7
+ Features in Text 1: 26
+ Features in Text 2: 25
+ Word Counts: 72 ↔ 74
+ Text 1 (14e): 11 night, thermetr at day 70 in evening at 10 67 68 in room 64 in window Fished in a small stream. & caught a great number of small trout 8 Ther. at 4...
+ Text 2 (14e): perhaps the Chiem see Chiem see Chiem see . In returning caught some small trout in a brook we crossed. The fisherman says there are Hucho both in the...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Kochelsee', 'description': 'a picturesque glacial lake covering 2.3 square miles, fringed with mountains & wetlands.', 'id': 'place_1236'}, {'name': 'Bavaria', 'description': 'A German state.', 'id': 'place_1128'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Lech', 'description': 'The river that runs through Füssen, and flows into the Forggensee.', 'id': 'place_1239'}, {'name': 'Füssen', 'description': 'a town in Bavaria, Germany, just north of the Austrian border.', 'id': 'place_1238'}, {'name': 'Chiemsee', 'description': 'picturesque lake in Bavaria', 'id': 'place_1237'}]
+ Top Shared Features: room, window, chiem, small, ther
+--------------------------------------------------------------------------------
+Instance 105:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 157 ↔ 125
+ TF-IDF Similarity: 0.269
+ Shared Features: 17
+ Features in Text 1: 58
+ Features in Text 2: 33
+ Word Counts: 107 ↔ 93
+ Text 1 (14e): Quando mia fu la bella Quando mia fu la bella Quando mia fu la bella spera n za ed anche piu Again that lovely orb lamp from half its from half its fr...
+ Text 2 (14g): 121 Being the Helmed pine - or raising high xxxx Their marble columns, or their crowned with grassy slopes crowned with grassy slopes Green from Green...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Lima River', 'description': 'Also Limia, runs west from the autonomous community of Galicia in Spain to Portugal.', 'id': 'place_953'}]
+ Top Shared Features: lima, turbid, grassi, slope, lap
+--------------------------------------------------------------------------------
+
+Instance 106:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 55 ↔ 90
+ TF-IDF Similarity: 0.269
+ Shared Features: 14
+ Features in Text 1: 58
+ Features in Text 2: 63
+ Word Counts: 152 ↔ 184
+ Text 1 (14g): - of Carbonic Acid Carbonic Acid Carbonic Acid in the ocean was much greater & the temperature of the water higher which may be easily imagined if the...
+ Text 2 (14g): when it arrives within the influence of the atmosphere & that its temperature which is 130° F where it issues from the ground is much higher in the in...
+ Metadata Text 2 (14g):
+  persons: [{'name': 'Giovan BattistaTessandori', 'birth': '', 'death': None, 'description': 'Member of the Lucca Academy. Davy described his discoveries in evaporation experiments.', 'id': 'person_777'}, {'name': 'Jöns JacobBerzelius', 'birth': '', 'death': '', 'description': "Swedish chemist. He discovered the chemical elements cerium and selenium, and was the first to isolate silicon, thorium, titanium, and zirconium. A rival of Davy's whom he met a few times.", 'id': 'person_349'}, {'name': 'JamesSmithson', 'birth': '', 'death': '', 'description': "Born Jacques-Louis Macie in Paris; became James Louis Macie upon naturalizing to Britain and in 1800 adopted his father's original surname of Smithson. Wealthy natural son of the Duke of Nothumberland. Proprietor of the Royal Institution who wrote on chemistry. Bequeathed his money to the United States to found the Smithsonian Institution. FRSL.", 'id': 'person_611'}]
+ Top Shared Features: iron, oxid, acid, solut, carbon
+--------------------------------------------------------------------------------
+Instance 107:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 48 ↔ 160
+ TF-IDF Similarity: 0.268
+ Shared Features: 1
+ Features in Text 1: 14
+ Features in Text 2: 5
+ Word Counts: 45 ↔ 135
+ Text 1 (14g): the cellars under Monte Testaccio Monte Testaccio Monte Testaccio is greater than elsewhere in Rome & if the cause be the radiation from the Potsherds...
+ Text 2 (14g): } 16.1 31 .1 x 5 Monte 1. 8 1. 8 2 Barrina 1 0 9 1 0 9 Varlo 31. 3.. 5 Monte Varlo Monte Varlo 14. Wednesday 15 . 16 F 17 S 18 S 31. 3. 5. 19. M. 20 T...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Rome', 'description': 'The capital of Italy.', 'id': 'place_155'}, {'name': 'Monte Testaccio', 'description': 'Monte Testaccio or Monte Testaceo, also known as Monte dei Cocci, is an artificial mound in Rome composed almost entirely of testae - fragments of broken ancient Roman pottery.', 'id': 'place_546'}]
+ Top Shared Features: mont, varlo, testaccio, cellar, barrina
+--------------------------------------------------------------------------------
+Instance 108:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 100 ↔ 106
+ TF-IDF Similarity: 0.264
+ Shared Features: 5
+ Features in Text 1: 34
+ Features in Text 2: 12
+ Word Counts: 76 ↔ 27
+ Text 1 (14g): In it the statesman rules & lives And the low multitude controuls Fixed to the impulse that he gives As the firm earth around its poles. This magic li...
+ Text 2 (14g): Its failing lifes are of the earth But its excess still breathing of heaven -. Too much of the etherial birth To mortal man is rarely given
+ Top Shared Features: excess, given, heaven, earth, fail
+--------------------------------------------------------------------------------
+Instance 109:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 69 ↔ 73
+ TF-IDF Similarity: 0.263
+ Shared Features: 1
+ Features in Text 1: 31
+ Features in Text 2: 2
+ Word Counts: 96 ↔ 5
+ Text 1 (14g): 65 In favour of the second proposition it can only be argued that it may be made to account for the phaenomena but we have nothing in the history of t...
+ Text 2 (14g): It is impossible to account
+ Top Shared Features: account, imposs, soon, combin, graviti
+--------------------------------------------------------------------------------
+Instance 110:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 33 ↔ 39
+ TF-IDF Similarity: 0.262
+ Shared Features: 7
+ Features in Text 1: 44
+ Features in Text 2: 17
+ Word Counts: 133 ↔ 33
+ Text 1 (14g): 31 them or one of them by causing the air deteriorated by the combustion of candles to pass upon them & that His plan for preserving the lives of the ...
+ Text 2 (14g): 0 & that air deteriorated by combustion prevented extinguished flame thought that He might separate a large blower into small streams of fire damp & t...
+ Metadata Text 2 (14g):
+  persons: [{'name': 'GeorgeStephenson', 'birth': '', 'death': '', 'description': "Colliery and railway engineer in North East England. He and Davy conducted a virulent controversy over who had invented the miners' safety lamp. He also designed early railway locomatives.", 'id': 'person_320'}, {'name': 'Robert WilliamBrandling', 'birth': '', 'death': '', 'description': 'The chief advocate for and publicist of George Stephenson’s safety lamp, campaigning to have Stephenson recognized, and rewarded, as the original inventor.', 'id': 'person_358'}]
+ Top Shared Features: prevent, blower, deterior, larg, combust
+--------------------------------------------------------------------------------
+
+Instance 111:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 140 ↔ 142
+ TF-IDF Similarity: 0.260
+ Shared Features: 5
+ Features in Text 1: 14
+ Features in Text 2: 33
+ Word Counts: 41 ↔ 100
+ Text 1 (14g): - I do not see the correctness of the analogy that you endeavour to establish between dreams & a variety of independent existences though dreams have ...
+ Text 2 (14g): deriving ideas from them moving as it were in circles of identical existence quitting for a time some trains some trains to return to others ; but alw...
+ Top Shared Features: dream, connect, varieti, exist, analog
+--------------------------------------------------------------------------------
+Instance 112:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 52 ↔ 54
+ TF-IDF Similarity: 0.259
+ Shared Features: 6
+ Features in Text 1: 29
+ Features in Text 2: 25
+ Word Counts: 66 ↔ 75
+ Text 1 (14g): It is scarcely possible to adopt the idea of the secondary strata being formed by fire: for the degree of heat necessary to agglutinate siliceous Sand...
+ Text 2 (14g): so that the chrystalline matter found cementing together deposits of the same nature may owe its existence to this cause But the flints & xxxxxx & xxx...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Durham, England', 'description': 'a city in northeast England, south of Newcastle upon Tyne.', 'id': 'place_1029'}, {'name': 'High Force', 'description': 'High Force is a waterfall on the River Tees, near Middleton-in-Teesdale, Teesdale, England.', 'id': 'place_545'}, {'name': 'River Tees', 'description': 'The River Tees, in England, rises on the eastern slope of Cross Fell in the North Pennines and flows eastwards for 85 miles to reach the North Sea in the North East of England.', 'id': 'place_1363'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Rome', 'description': 'The capital of Italy.', 'id': 'place_155'}]
+ Top Shared Features: chalk, flint, strata, deposit, fluid
+--------------------------------------------------------------------------------
+Instance 113:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 4 ↔ 10
+ TF-IDF Similarity: 0.259
+ Shared Features: 7
+ Features in Text 1: 31
+ Features in Text 2: 29
+ Word Counts: 82 ↔ 81
+ Text 1 (14e): 1 1827 28 June. Mondsee . T. 60 in room at 8. 56 in window made preparations to go to the river which joins Mondsee & Cammersee . After a morning of b...
+ Text 2 (14e): & then was fine views of the mountains with clouded intervals - reached Aibling at 4 oClock two rivers join one was clear but without fish at lunch fo...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ager River', 'description': 'The Ager River in Austria is a tributary of the Traun.', 'id': 'place_268'}, {'name': 'Mondsee', 'description': 'Mondsee is a town in Upper Austria located on the shore of the lake, Mondsee.', 'id': 'place_272'}, {'name': 'Kammersee', 'description': 'The Kammersee, or Attersee, is a lake in Upper Austria.', 'id': 'place_269'}, {'name': 'Unterach am Attersee', 'description': 'Unterach is a village in the Austria state of Upper Austria on the southern shore of lake Attersee in the centre of the Salzkammergut region.', 'id': 'place_1350'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Traunstein', 'description': 'Traunstein is a town in the south-eastern part of Bavaria, Germany, and is the administrative center of a much larger district of the same name.', 'id': 'place_1351'}, {'name': 'Chiemsee', 'description': 'picturesque lake in Bavaria', 'id': 'place_1237'}, {'name': 'Bad Aibling', 'description': 'Bad Aibling is a spa town and former district seat in Bavaria on the river Mangfall, located some 56 km southeast of Munich.', 'id': 'place_1352'}, {'name': 'Munich', 'description': 'the capital of Bavaria in Germany', 'id': 'place_1264'}]
+ Top Shared Features: room, join, fish, river, saw
+--------------------------------------------------------------------------------
+Instance 114:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 61 ↔ 84
+ TF-IDF Similarity: 0.259
+ Shared Features: 5
+ Features in Text 1: 38
+ Features in Text 2: 9
+ Word Counts: 109 ↔ 65
+ Text 1 (14g): - And except in planter beds which seem to have been formed from Lakes xxxx containing water holding in solution xxx Sulphate of lime Sulphate of lime...
+ Text 2 (14g): They may called secondary rocks. They may be with some propriety be called xxxxxx be with some propriety be called xxxxxx Others from their containing...
+ Top Shared Features: rock, remain, chrystalin, contain, proprieti
+--------------------------------------------------------------------------------
+Instance 115:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 8 ↔ 9
+ TF-IDF Similarity: 0.259
+ Shared Features: 5
+ Features in Text 1: 31
+ Features in Text 2: 15
+ Word Counts: 98 ↔ 60
+ Text 1 (14e): 5 still 64. unbroken sunshine. In window in the shade .80 at 2. in window at 1/4 past . 4 83 Went at 1/2 past six in the carriage to a Chateau about 5...
+ Text 2 (14e): July 3 - Bright sunshine. T in the window shaded at 5 63. in room at 8 69.- Bavarian xxx 100- A 101 100- A 101 - is to Austria as 101 to 100 - Ther. a...
+ Metadata Text 2 (14e):
+  places: [{'name': 'Traun', 'description': 'Traunfall in Desselbrunn, Upper Austria. Memoirs contains\xa0a poem Davy wrote\xa0about them, also in notebook 14E.', 'id': 'place_182'}, {'name': 'Traun', 'description': 'The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.', 'id': 'place_258'}]
+ Top Shared Features: window, shade, past, thunder, room
+--------------------------------------------------------------------------------
+
+Instance 116:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 119 ↔ 147
+ TF-IDF Similarity: 0.259
+ Shared Features: 1
+ Features in Text 1: 8
+ Features in Text 2: 5
+ Word Counts: 20 ↔ 13
+ Text 1 (14g): He was contented to employ was contented to employ intellectual powers which might have commanded objects of the highest 115
+ Text 2 (14g): - A life in which no faculties are employed: but those of eating & generating
+ Top Shared Features: employ, content, eat, faculti, gener
+--------------------------------------------------------------------------------
+Instance 117:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 55 ↔ 58
+ TF-IDF Similarity: 0.257
+ Shared Features: 12
+ Features in Text 1: 58
+ Features in Text 2: 32
+ Word Counts: 152 ↔ 81
+ Text 1 (14g): - of Carbonic Acid Carbonic Acid Carbonic Acid in the ocean was much greater & the temperature of the water higher which may be easily imagined if the...
+ Text 2 (14g): Whilst the record allowing the data explains the phenomena of consolidation of consolidation with greater facility: for it is much more easy to suppos...
+ Top Shared Features: carbon, lime, acid, consolid, greater
+--------------------------------------------------------------------------------
+Instance 118:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 11 ↔ 16
+ TF-IDF Similarity: 0.256
+ Shared Features: 8
+ Features in Text 1: 21
+ Features in Text 2: 30
+ Word Counts: 71 ↔ 77
+ Text 1 (14e): a bright 3/4 moon. T in window open at 10. 58. bright moon July 5 T at 7 in window 58. 59. In room 63. light clouds. shall D V D V D V proceed to Muni...
+ Text 2 (14e): 13 65 in room 66. 67 - July 10. another bright day shall leave DV. Fussen for Kempten . found Kempten very hot & came on to a small inn there, but wit...
+ Metadata Text 1 (14e):
+  persons: [{'name': 'Marcus ElieserBloch', 'birth': '', 'death': '', 'description': 'German physician and naturalist who specialised in the study of fish on which he published a 12 volume work with which Davy was familiar. (presumably in the French translation).', 'id': 'person_235'}, {'name': 'Johann AndreasWagner', 'birth': '', 'death': '', 'description': 'a German palaeontologist, zoologist and archaeologist who wrote several important works on palaeontology.', 'id': 'person_1008'}]
+  places: [{'name': 'Munich', 'description': 'the capital of Bavaria in Germany', 'id': 'place_1264'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Röthenbach an der Pegnitz', 'description': 'a town that would be on the route from Kempten to Bregenz', 'id': 'place_1241'}, {'name': 'Kempten', 'description': 'a town in Allgäu, about 28 miles from Füssen', 'id': 'place_1240'}, {'name': 'Bregenz', 'description': 'Today, a town in Austria on the shores of the Obersee.', 'id': 'place_1242'}, {'name': 'Tyrol', 'description': 'Tyrol is a historical region in the Alps located in northern Italy and western Austria.', 'id': 'place_328'}, {'name': 'Füssen', 'description': 'a town in Bavaria, Germany, just north of the Austrian border.', 'id': 'place_1238'}, {'name': 'Appenzell', 'description': 'a canton in the northeast of Switzerland, the southern part of which is mountainous', 'id': 'place_1243'}]
+ Top Shared Features: room, juli, moon, kempten, window
+--------------------------------------------------------------------------------
+Instance 119:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 114 ↔ 118
+ TF-IDF Similarity: 0.255
+ Shared Features: 3
+ Features in Text 1: 4
+ Features in Text 2: 39
+ Word Counts: 6 ↔ 87
+ Text 1 (14g): In his conversations he was clear
+ Text 2 (14g): 113 & had the art so rare in modern times of making himself comprehensible to the meanest capacities, - As a critical philosopher his judment was clea...
+ Metadata Text 1 (14g):
+  persons: [{'name': 'JohnPlayfair', 'birth': '', 'death': '', 'description': "Professor of Natural Philosophy at Edinburgh University. His Illustrations of the Huttonian Theory of the Earth (1802) gave strong support to James Hutton's theory of uniformitarianism. FRSL.", 'id': 'person_162'}]
+  places: [{'name': 'Edinburgh', 'description': 'The capital city of Scotland.', 'id': 'place_284'}]
+ Top Shared Features: clear, convers, hi, wa, understand
+--------------------------------------------------------------------------------
+Instance 120:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 9 ↔ 14
+ TF-IDF Similarity: 0.253
+ Shared Features: 7
+ Features in Text 1: 24
+ Features in Text 2: 26
+ Word Counts: 68 ↔ 72
+ Text 1 (14e): 90 at 4 - As the thunder clouds formed, wind & then fell to 78 - at 1/2 past 5 Went to the Traun about 3 miles below the town which was still foul at ...
+ Text 2 (14e): 11 night, thermetr at day 70 in evening at 10 67 68 in room 64 in window Fished in a small stream. & caught a great number of small trout 8 Ther. at 4...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Traun', 'description': 'Traunfall in Desselbrunn, Upper Austria. Memoirs contains\xa0a poem Davy wrote\xa0about them, also in notebook 14E.', 'id': 'place_182'}, {'name': 'Traun', 'description': 'The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.', 'id': 'place_258'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Kochelsee', 'description': 'a picturesque glacial lake covering 2.3 square miles, fringed with mountains & wetlands.', 'id': 'place_1236'}, {'name': 'Bavaria', 'description': 'A German state.', 'id': 'place_1128'}]
+ Top Shared Features: window, ther, small, caught, night
+--------------------------------------------------------------------------------
+
+Instance 121:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 62 ↔ 90
+ TF-IDF Similarity: 0.253
+ Shared Features: 14
+ Features in Text 1: 59
+ Features in Text 2: 39
+ Word Counts: 118 ↔ 92
+ Text 1 (14e): 59 The plants around the little cradle grew In full luxuriance The fishes sported on the waves Myriads of lovely insects filled the air And all was li...
+ Text 2 (14e): 87 Cast thine eyes upwards in the vault of heaven Ten thousand stars pour forth their brilliant light That mingle in the ether Look at the brightest o...
+ Top Shared Features: star, heritag, mingl, thine, cast
+--------------------------------------------------------------------------------
+Instance 122:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 155 ↔ 24
+ TF-IDF Similarity: 0.253
+ Shared Features: 7
+ Features in Text 1: 36
+ Features in Text 2: 23
+ Word Counts: 60 ↔ 48
+ Text 1 (14e): Nursing those lofty thoughts that in the mind Spontaneous rise, blending their sacred powers With images from moutain & from flood From chesnut groves...
+ Text 2 (14g): how by the olive groves & midst the vines that xxxxxxx over the flood Of foaming Serchio here a mountain stream Oft had I seen you midst the orange gr...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ravenna', 'description': 'Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.', 'id': 'place_245'}, {'name': 'Serchio', 'description': 'The third longest river in the Italian region of Tuscany at 126 kilometres.', 'id': 'place_932'}, {'name': 'Tiber River', 'description': 'The Tiber River is the third longest river in Italy. Rome is located on its banks.', 'id': 'place_615'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Serchio', 'description': 'The third longest river in the Italian region of Tuscany at 126 kilometres.', 'id': 'place_932'}, {'name': 'Velino', 'description': 'A river in central Italy, a tributary of the Nera.', 'id': 'place_848'}]
+ Top Shared Features: grove, midst, foam, serchio, flood
+--------------------------------------------------------------------------------
+Instance 123:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 68 ↔ 70
+ TF-IDF Similarity: 0.252
+ Shared Features: 6
+ Features in Text 1: 15
+ Features in Text 2: 27
+ Word Counts: 28 ↔ 73
+ Text 1 (14g): - A volcanic eruption sufficiently great to have raised waves raised waves thrown the ocean over the mountains of the ancient continent must likewise ...
+ Text 2 (14g): which might be supposed to be produced by an elevation of a part of the american continent from the depths of the ocean & of imagining a great force o...
+ Top Shared Features: contin, wave, suffici, produc, rais
+--------------------------------------------------------------------------------
+Instance 124:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 81 ↔ 141
+ TF-IDF Similarity: 0.252
+ Shared Features: 8
+ Features in Text 1: 39
+ Features in Text 2: 22
+ Word Counts: 122 ↔ 47
+ Text 1 (14g): - In the phaenomena of the present changes of the solid parts solid parts of the globe, the operation of fire beneath the surface & of water & air & a...
+ Text 2 (14g): - That its present operations may prepare it after it has quitted the bundle aggregation of sensations called organs & matter & this terrestrial unive...
+ Top Shared Features: exist, state, oper, present, tradit
+--------------------------------------------------------------------------------
+Instance 125:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 34 ↔ 36
+ TF-IDF Similarity: 0.251
+ Shared Features: 10
+ Features in Text 1: 34
+ Features in Text 2: 39
+ Word Counts: 85 ↔ 127
+ Text 1 (14g): flame from passing into - It appears likewise in actual trial, that He made his tube at the suggestion of a Foreman half an inch in diameter & furnish...
+ Text 2 (14g): a canal with holes in it around his wick; - It is perfectly evident that when his trials were directed to burn the gas from large blowers by means of ...
+ Top Shared Features: gass, ga, blower, hi, trial
+--------------------------------------------------------------------------------
+
+Instance 126:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 7 ↔ 15
+ TF-IDF Similarity: 0.250
+ Shared Features: 8
+ Features in Text 1: 36
+ Features in Text 2: 25
+ Word Counts: 102 ↔ 74
+ Text 1 (14e): & like a fresh run salmon. July 1. T. in room 68 67. at 7 70 in window – cloudy. Left Saltzburg & came on to Transteen 2p 1/4 a good inn stopped a cle...
+ Text 2 (14e): perhaps the Chiem see Chiem see Chiem see . In returning caught some small trout in a brook we crossed. The fisherman says there are Hucho both in the...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Traunstein', 'description': 'Traunstein is a town in the south-eastern part of Bavaria, Germany, and is the administrative center of a much larger district of the same name.', 'id': 'place_1351'}, {'name': 'Salzburg', 'description': 'Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.', 'id': 'place_197'}, {'name': 'Traun', 'description': 'Traunfall in Desselbrunn, Upper Austria. Memoirs contains\xa0a poem Davy wrote\xa0about them, also in notebook 14E.', 'id': 'place_182'}, {'name': 'Traun', 'description': 'The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.', 'id': 'place_258'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Lech', 'description': 'The river that runs through Füssen, and flows into the Forggensee.', 'id': 'place_1239'}, {'name': 'Füssen', 'description': 'a town in Bavaria, Germany, just north of the Austrian border.', 'id': 'place_1238'}, {'name': 'Chiemsee', 'description': 'picturesque lake in Bavaria', 'id': 'place_1237'}]
+ Top Shared Features: room, window, chiem, small, fussen
+--------------------------------------------------------------------------------
+Instance 127:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 47 ↔ 92
+ TF-IDF Similarity: 0.250
+ Shared Features: 3
+ Features in Text 1: 25
+ Features in Text 2: 22
+ Word Counts: 84 ↔ 49
+ Text 1 (14g): 45 of the day it rose to 72° F Objects of experiments at Rome & Naples & Naples 1819 - 1 st to ascertain if the water found in Rock chrystal Rock chry...
+ Text 2 (14g): The silica when the Oxide of Iron Oxide of Iron Oxide of Iron is separa- -ted by a weak acid appears as a gelati- -nous mass & the deposit before it i...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Carrara', 'description': 'Carrara is a city in central Italy.', 'id': 'place_243'}, {'name': 'Naples', 'description': 'Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.', 'id': 'place_156'}, {'name': 'Rome', 'description': 'The capital of Italy.', 'id': 'place_155'}, {'name': 'Vatican City', 'description': 'The Vatican City is a city-state surrounded by Rome, Italy.', 'id': 'place_178'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}]
+ Top Shared Features: iron, oxid, vatican, chrystal, napl
+--------------------------------------------------------------------------------
+
+END OF DETAILED REPORT
+================================================================================

@@ -1,0 +1,3697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-10221</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-10221</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/2/B/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Lectures</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/2/B/1</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent> pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1778-12-17"
+                                   notAfter="1829-05-29"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-10221-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="4172px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00001"
+                  width="5412px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5411"
+               lry="4171"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="3075px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00002"
+                  width="5150px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5149"
+               lry="3074"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="3030px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00003"
+                  width="5150px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5149"
+               lry="3029"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="4163px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00004"
+                  width="5711px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5710"
+               lry="4162"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="4145px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00005"
+                  width="5385px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5384"
+               lry="4144"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="3057px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00006"
+                  width="5240px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5239"
+               lry="3056"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="3057px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00007"
+                  width="5240px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5239"
+               lry="3056"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="4145px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00008"
+                  width="5358px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5357"
+               lry="4144"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="4163px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00009"
+                  width="5385px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5384"
+               lry="4162"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="3048px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00010"
+                  width="5104px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5103"
+               lry="3047"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+      <surface n="11" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="3057px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00011"
+                  width="5104px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5103"
+               lry="3056"
+               rotate="0"
+               xml:id="i11z1"/>
+      </surface>
+      <surface n="12" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="4154px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00012"
+                  width="5385px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5384"
+               lry="4153"
+               rotate="0"
+               xml:id="i12z1"/>
+      </surface>
+      <surface n="13" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="4154px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00013"
+                  width="5448px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5447"
+               lry="4153"
+               rotate="0"
+               xml:id="i13z1"/>
+      </surface>
+      <surface n="14" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="3048px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00014"
+                  width="5177px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5176"
+               lry="3047"
+               rotate="0"
+               xml:id="i14z1"/>
+      </surface>
+      <surface n="15" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="3039px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00015"
+                  width="5177px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5176"
+               lry="3038"
+               rotate="0"
+               xml:id="i15z1"/>
+      </surface>
+      <surface n="16" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="4154px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00016"
+                  width="5430px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5429"
+               lry="4153"
+               rotate="0"
+               xml:id="i16z1"/>
+      </surface>
+      <surface n="17" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="4172px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00017"
+                  width="5349px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5348"
+               lry="4171"
+               rotate="0"
+               xml:id="i17z1"/>
+      </surface>
+      <surface n="18" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="3066px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00018"
+                  width="5041px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5040"
+               lry="3065"
+               rotate="0"
+               xml:id="i18z1"/>
+      </surface>
+      <surface n="19" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="3075px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00019"
+                  width="5041px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5040"
+               lry="3074"
+               rotate="0"
+               xml:id="i19z1"/>
+      </surface>
+      <surface n="20" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="4182px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00020"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="4181"
+               rotate="0"
+               xml:id="i20z1"/>
+      </surface>
+      <surface n="21" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="4136px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00021"
+                  width="5421px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5420"
+               lry="4135"
+               rotate="0"
+               xml:id="i21z1"/>
+      </surface>
+      <surface n="22" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="3038px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00022"
+                  width="5132px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5131"
+               lry="3037"
+               rotate="0"
+               xml:id="i22z1"/>
+      </surface>
+      <surface n="23" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="3039px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00023"
+                  width="5132px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5131"
+               lry="3038"
+               rotate="0"
+               xml:id="i23z1"/>
+      </surface>
+      <surface n="24" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="4109px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00024"
+                  width="5411px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5410"
+               lry="4108"
+               rotate="0"
+               xml:id="i24z1"/>
+      </surface>
+      <surface n="25" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="4154px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00025"
+                  width="5277px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5276"
+               lry="4153"
+               rotate="0"
+               xml:id="i25z1"/>
+      </surface>
+      <surface n="26" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="4181px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00026"
+                  width="5267px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5266"
+               lry="4180"
+               rotate="0"
+               xml:id="i26z1"/>
+      </surface>
+      <surface n="27" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="4135px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00027"
+                  width="5494px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5493"
+               lry="4134"
+               rotate="0"
+               xml:id="i27z1"/>
+      </surface>
+      <surface n="28" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="4145px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00028"
+                  width="5502px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5501"
+               lry="4144"
+               rotate="0"
+               xml:id="i28z1"/>
+      </surface>
+      <surface n="29" xml:id="i29">
+         <graphic decls="#downloadImageRights #download"
+                  height="4154px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00029"
+                  width="5304px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5303"
+               lry="4153"
+               rotate="0"
+               xml:id="i29z1"/>
+      </surface>
+      <surface n="30" xml:id="i30">
+         <graphic decls="#downloadImageRights #download"
+                  height="3112px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00030"
+                  width="5122px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5121"
+               lry="3111"
+               rotate="0"
+               xml:id="i30z1"/>
+      </surface>
+      <surface n="31" xml:id="i31">
+         <graphic decls="#downloadImageRights #download"
+                  height="3111px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00031"
+                  width="5122px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5121"
+               lry="3110"
+               rotate="0"
+               xml:id="i31z1"/>
+      </surface>
+      <surface n="32" xml:id="i32">
+         <graphic decls="#downloadImageRights #download"
+                  height="4163px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00032"
+                  width="5303px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5302"
+               lry="4162"
+               rotate="0"
+               xml:id="i32z1"/>
+      </surface>
+      <surface n="33" xml:id="i33">
+         <graphic decls="#downloadImageRights #download"
+                  height="4172px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00033"
+                  width="5312px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5311"
+               lry="4171"
+               rotate="0"
+               xml:id="i33z1"/>
+      </surface>
+      <surface n="34" xml:id="i34">
+         <graphic decls="#downloadImageRights #download"
+                  height="3112px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00034"
+                  width="5005px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5004"
+               lry="3111"
+               rotate="0"
+               xml:id="i34z1"/>
+      </surface>
+      <surface n="35" xml:id="i35">
+         <graphic decls="#downloadImageRights #download"
+                  height="3129px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00035"
+                  width="5005px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5004"
+               lry="3128"
+               rotate="0"
+               xml:id="i35z1"/>
+      </surface>
+      <surface n="36" xml:id="i36">
+         <graphic decls="#downloadImageRights #download"
+                  height="4172px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00036"
+                  width="5312px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5311"
+               lry="4171"
+               rotate="0"
+               xml:id="i36z1"/>
+      </surface>
+      <surface n="37" xml:id="i37">
+         <graphic decls="#downloadImageRights #download"
+                  height="4227px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00037"
+                  width="5077px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5076"
+               lry="4226"
+               rotate="0"
+               xml:id="i37z1"/>
+      </surface>
+      <surface n="38" xml:id="i38">
+         <graphic decls="#downloadImageRights #download"
+                  height="4227px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00038"
+                  width="5077px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5076"
+               lry="4226"
+               rotate="0"
+               xml:id="i38z1"/>
+      </surface>
+      <surface n="39" xml:id="i39">
+         <graphic decls="#downloadImageRights #download"
+                  height="4154px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00039"
+                  width="5186px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5185"
+               lry="4153"
+               rotate="0"
+               xml:id="i39z1"/>
+      </surface>
+      <surface n="40" xml:id="i40">
+         <graphic decls="#downloadImageRights #download"
+                  height="4154px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00040"
+                  width="5222px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5221"
+               lry="4153"
+               rotate="0"
+               xml:id="i40z1"/>
+      </surface>
+      <surface n="41" xml:id="i41">
+         <graphic decls="#downloadImageRights #download"
+                  height="4163px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00041"
+                  width="5375px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5374"
+               lry="4162"
+               rotate="0"
+               xml:id="i41z1"/>
+      </surface>
+      <surface n="42" xml:id="i42">
+         <graphic decls="#downloadImageRights #download"
+                  height="3075px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00042"
+                  width="5104px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5103"
+               lry="3074"
+               rotate="0"
+               xml:id="i42z1"/>
+      </surface>
+      <surface n="43" xml:id="i43">
+         <graphic decls="#downloadImageRights #download"
+                  height="3075px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00043"
+                  width="5104px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5103"
+               lry="3074"
+               rotate="0"
+               xml:id="i43z1"/>
+      </surface>
+      <surface n="44" xml:id="i44">
+         <graphic decls="#downloadImageRights #download"
+                  height="4154px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00044"
+                  width="5348px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5347"
+               lry="4153"
+               rotate="0"
+               xml:id="i44z1"/>
+      </surface>
+      <surface n="45" xml:id="i45">
+         <graphic decls="#downloadImageRights #download"
+                  height="4154px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00045"
+                  width="5403px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5402"
+               lry="4153"
+               rotate="0"
+               xml:id="i45z1"/>
+      </surface>
+      <surface n="46" xml:id="i46">
+         <graphic decls="#downloadImageRights #download"
+                  height="3048px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00046"
+                  width="4987px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4986"
+               lry="3047"
+               rotate="0"
+               xml:id="i46z1"/>
+      </surface>
+      <surface n="47" xml:id="i47">
+         <graphic decls="#downloadImageRights #download"
+                  height="3048px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00047"
+                  width="4987px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4986"
+               lry="3047"
+               rotate="0"
+               xml:id="i47z1"/>
+      </surface>
+      <surface n="48" xml:id="i48">
+         <graphic decls="#downloadImageRights #download"
+                  height="4172px"
+                  rend="landscape"
+                  url="MS-DAVY-10221-000-00048"
+                  width="5339px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5338"
+               lry="4171"
+               rotate="0"
+               xml:id="i48z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_484" type="description">
+            <term id="misc_484-term">Alburnum</term>
+            <gloss id="misc_484-gloss" target="#misc_484-term">
+               <p>sapwood; the soft, newer wood in the trunk of a tree found between the bark and the hardened heartwood.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_192" type="description">
+            <term id="misc_192-term">Mucilage</term>
+            <gloss id="misc_192-gloss" target="#misc_192-term">
+               <p>Mucilage is a thick gluey substance produced by nearly all plants and some microorganisms. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_485" type="description">
+            <term id="misc_485-term">Birdlime</term>
+            <gloss id="misc_485-gloss" target="#misc_485-term">
+               <p>an adhesive substance used in trapping birds. A popular form in Europe was made from holly bark, boiled for 10 to 12 hours. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_198" type="description">
+            <term id="misc_198-term">Tannin</term>
+            <gloss id="misc_198-gloss" target="#misc_198-term">
+               <p>Biiter and astringent compounds found in plants. They include Ellagic acid, gallic acid, and pyrogallic acid which were first discovered by Braconnot in 1831.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_282" type="description">
+            <term id="misc_282-term">oak bark or galls</term>
+            <gloss id="misc_282-gloss" target="#misc_282-term">
+               <p>Galls' are growths on the branches, leaves or twigs of plants and/or trees. They are caused by mites or insects, or occur as responses to infection.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_199" type="description">
+            <term id="misc_199-term">Peruvian Yellow Bark </term>
+            <gloss id="misc_199-gloss" target="#misc_199-term">
+               <p>(Cinchona); Cinchona has been historically sought after for its medicinal value, as the bark of several species yields quinine and other alkaloids. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_488" type="description">
+            <term id="misc_488-term">Gentian</term>
+            <gloss id="misc_488-gloss" target="#misc_488-term">
+               <p>A family of flowering plants notable for their mostly large trumpet-shaped flowers, which are often of an intense blue hue. Their roots and leaves are used medicinally and for brewing beverages. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_489" type="description">
+            <term id="misc_489-term">Mimosa</term>
+            <gloss id="misc_489-gloss" target="#misc_489-term">
+               <p>Davy is referring to Acacia trees, particularly Acacia catechu, which are no longer classified as belonging to the mimosa genus.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_490" type="description">
+            <term id="misc_490-term">Spirit of Lavender</term>
+            <gloss id="misc_490-gloss" target="#misc_490-term">
+               <p>A mixture of oil of lavender flowers and alcohol.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_057" type="description">
+            <term id="misc_057-term">the Proteus</term>
+            <gloss id="misc_057-gloss" target="#misc_057-term">
+               <p>Known as the olm, a cave salamandera, which Davy sent specimens of to the natural historian Sir Everard Home.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_211" type="description">
+            <term id="misc_211-term">Genii</term>
+            <gloss id="misc_211-gloss" target="#misc_211-term">
+               <p>plural form of genie, supernatural characters in early pre-Islamic Arabian and later Islamic mythology and theology</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_483" type="description">
+            <term id="misc_483-term">Radicle</term>
+            <gloss id="misc_483-gloss" target="#misc_483-term">
+               <p>In botany, the radicle is the first part of a seedling to emerge from the seed during the process of germination.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listPlace>
+         <place xml:id="place_878">
+            <placeName>United States</placeName>
+            <location>
+               <geo decls="#WGS84">40.14226510979611,  -103.988989801965</geo>
+            </location>
+            <note>The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean.</note>
+         </place>
+         <place xml:id="place_159">
+            <placeName>United Kingdom</placeName>
+            <location>
+               <geo decls="#WGS84">54.06171310994435,  -1.7434214141764799</geo>
+            </location>
+         </place>
+         <place xml:id="place_531">
+            <placeName>India</placeName>
+            <location>
+               <geo decls="#WGS84">21.021002369595717,  77.784400651531399</geo>
+            </location>
+         </place>
+      </listPlace>
+      <listBibl>
+         <bibl xml:id="otherwork_068">
+            <author>Erasmus Darwin</author>
+            <title level="j">The Botanic Garden</title>
+            <date when="1791">1791</date>
+         </bibl>
+         <bibl xml:id="otherwork_265">
+            <author>Louis-Nicolas Vauquelin</author>
+            <title level="j">Annales de Chimie</title>
+            <title level="a" type="main">Extrait d'un Mémoire du cit. Vauquelin, sur les sèves des végetaux</title>
+            <date when="1799">1799</date>
+            <biblScope unit="volume">31</biblScope>
+            <biblScope unit="page" from="25" to="40">25-40</biblScope>
+         </bibl>
+         <bibl xml:id="otherwork_058">
+            <author>Thomas Thomson</author>
+            <title level="j">A System of Chemistry (4th edn)</title>
+            <date when="1810">1810</date>
+         </bibl>
+         <bibl xml:id="otherwork_136">
+            <author>William Sothby's Translations of Virgil's Georgics</author>
+            <title level="j">The georgics of Virgil translated: by William Sotheby. Esq.</title>
+            <date when="1800">1800</date>
+         </bibl>
+      </listBibl>
+      <listPerson>
+         <person xml:id="person_020">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Nehemiah</forename>
+               <surname>Grew</surname>
+            </persName>
+            <birth when="1641"/>
+            <death when="1712"/>
+            <note>English plant anatomist and physiologist, known as the 'Father of Plant Anatomy'. FRSL.</note>
+         </person>
+         <person xml:id="person_033">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Torbern Olaf</forename>
+               <surname>Bergman</surname>
+            </persName>
+            <birth when="1735"/>
+            <death when="1784"/>
+            <note>Swedish chemist and mineralogist. At some point Davy acquired a set of letters from Bergman to Franz Schwediaur written in the 1780s which are retained in the Royal Institution (RI MS HD/27/A). ForMemRSL.</note>
+         </person>
+         <person xml:id="person_050">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Louis Nicolas</forename>
+               <surname>Vauquelin</surname>
+            </persName>
+            <birth when="1763"/>
+            <death when="1829"/>
+            <note>French pharmacist and chemist who met Davy in Paris in 1813. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_226">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Thomas</forename>
+               <surname>Thomson</surname>
+            </persName>
+            <birth when="1773"/>
+            <death when="1852"/>
+            <note>Scottish chemist and mineralogist whose writings contributed to the early spread of Dalton's atomic theory. FRSL.</note>
+         </person>
+         <person xml:id="person_240">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Erasmus</forename>
+               <surname>Darwin</surname>
+            </persName>
+            <birth when="1731"/>
+            <death when="1802"/>
+            <note>Physician and natural philosopher who was member of the Lunar Society and friend of Priestley and Watt; also a correspondent with Beddoes. FRSL.</note>
+         </person>
+         <person xml:id="person_024">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Thomas Andrew</forename>
+               <surname>Knight</surname>
+            </persName>
+            <birth when="1759"/>
+            <death when="1838"/>
+            <note>Knight was a botanist and horticulturalist. He was the second president of the Royal Horticulture Society. Davy frequently fished on Knight's esates in the Welsh Marches. FRSL.</note>
+         </person>
+         <person xml:id="person_022">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Henri-Louis</forename>
+               <surname>Duhamel du Monceau</surname>
+            </persName>
+            <birth when="1700"/>
+            <death when="1782"/>
+            <note>French physician, naval engineer and botanist. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_124">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Francis</forename>
+               <surname>Bacon</surname>
+            </persName>
+            <birth when="1561"/>
+            <death when="1626"/>
+            <note>English lawyer, politician and natural philosopher. His influential writings encouraged experimentation and the use of induction in investigating the natural world. He also recommended establishing institutions to promote collaborative research. </note>
+         </person>
+         <person xml:id="person_937">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Jay</surname>
+            </persName>
+            <birth when="1745"/>
+            <death when="1829"/>
+            <note>American statesman, patriot, diplomat, abolitionist, signatory of the Treaty of Paris, and a Founding Father of the United States. Davy quotes him as the author of a letter on a species of apple with one sweet and one sour side.</note>
+         </person>
+         <person xml:id="person_936">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Henry VIII</forename>
+            </persName>
+            <birth when="1491"/>
+            <death when="1547"/>
+            <note>King of England from 22 April 1509 until his death in 1547. </note>
+         </person>
+      </listPerson>
+      <listNym type="chemical">
+         <nym xml:id="chemical_167">
+            <form>saline</form>
+            <def>
+               <p>Symbol/formula: NaCl</p>
+               <p>Sodium chloride in solution.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_030">
+            <form>potash</form>
+            <def>
+               <p>An alkaline substance consisting largely of impure potassium carbonate. In October 1807, Davy decomposed potash using electricity, revealing the previously unknown element potassium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_010">
+            <form>lime</form>
+            <def>
+               <p>Symbol/formula: CaO</p>
+               <p>Commonly known as quicklime or burnt lime, calcium oxide is a widely used chemical compound. It is a white, caustic, alkaline, crystalline solid at room temperature.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_140">
+            <form>charcoal</form>
+            <def>
+               <p>A lightweight black carbon residue produced by strongly heating wood (or other animal and plant materials) in minimal oxygen to remove all water and volatile constituents.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_007">
+            <form>hydrogene</form>
+            <def>
+               <p>Symbol/formula: H</p>
+               <p>Now known as hydrogen. Hydrogen is the lightest element and, at standard conditions, is a gas of diatomic molecules. It is colourless, odourless, tasteless, non-toxic, and highly combustible.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_340">
+            <form>gum</form>
+            <def>
+               <p>In botany, gum is found in the woody elements of plants or in seed coatings.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_017">
+            <form>nitrogene</form>
+            <def>
+               <p>Symbol/formula: N</p>
+               <p>Now known as nitrogen. A colourless and odourless gas, nitrogen is non-combustible and non-toxic. Davy also refers to this as azote.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_176">
+            <form>isinglass</form>
+            <def>
+               <p>A substance obtained from the dried swim-bladders of fish. It is a form of collagen used mainly for the clarification or fining of some beer and wine.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_492">
+            <form>alum</form>
+            <def>
+               <p>Symbol/formula: xAl(SO4)2·12 H</p>
+               <p>A hydrated double sulphate salt of aluminium and another element such as potassium (potassium alum, or simply alum, KAl(SO4)2·12 H) or sodium (sodium alum, NaAl(SO4)2·12 H). </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_083">
+            <form>pearl ash</form>
+            <def>
+               <p>Symbol/formula: K2CO3</p>
+               <p>Potassium carbonate. It is a white salt, which is soluble in water and forms a strongly alkaline solution.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_168">
+            <form>acetous acid</form>
+            <def>
+               <p>Symbol/formula: CH3COOH</p>
+               <p>Diluted acetic acid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_079">
+            <form>gallic acid</form>
+            <def>
+               <p>Symbol/formula: C7H6O5</p>
+               <p>A crystalline acid prepared from the oak-gall and other vegetable products, used as a tanning agent.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_352">
+            <form>green vitriol</form>
+            <def>
+               <p>Symbol/formula: FeSO4</p>
+               <p>Iron(II) sulphate, also known as ferrous sulphate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_470">
+            <form>Gum Arabic</form>
+            <def>
+               <p>a natural gum originally consisting of the hardened sap of two species of the Acacia tree, Senegalia senegal and Vachellia seyal.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_277">
+            <form>Bengal Cutch</form>
+            <def>
+               <p>Also known as catechu. An extract of acacia trees used variously as a food additive, astringent, tannin, and dye.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_106">
+            <form>flint</form>
+            <def>
+               <p>Occasionally flintstone. A sedimentary cryptocrystalline form of the mineral quartz, categorised as the variety of chert that occurs in chalk or marly limestone.</p>
+            </def>
+         </nym>
+      </listNym>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+25<lb/>
+Veg. Chem?<lb/>
+Lect. 3 for 1806<lb/>
+There are few appearances more<lb/>
+impressive in external nature<lb/>
+than the rapid growth &amp;<lb/>
+expansion of Vegetable germs.<lb/>
+A minute &amp; apparently<lb/>
+a lifeless seed in the course<lb/>
+of a few weeks extends<lb/>
+into a beautiful assemblage<lb/>
+of living forms; continually<lb/>
+becoming more perfect in<lb/>
+structure &amp; in functions -<lb/>
+Water: the inert matter<lb/>
+of the soil; the elastic substances<lb/>
+of the Atmosphere <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxxx</unclear>
+            </del> constitute<lb/>
+under <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">new</hi> arrangements<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the organs of life - &amp; undergoe</hi>
+            <lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">most remarkable alterations</hi>
+            <lb/>
+The solid becomes dissolved &amp; fluid<lb/>
+This <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in the sap</add> pellucid liquid is rendered<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">firm</hi> &amp; opaque; in the wood &amp;<lb/>
+leaves; &amp; the transparent &amp;<lb/>
+colourless air becomes a<lb/>
+tinging <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">material</hi> a source<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of colour &amp;</del> of beauty in the<lb/>
+the flower. -<lb/>
+-'these changes' are objects<lb/>
+of refined study - This part<lb/>
+of the Chemistry of<lb/>
+Nature offers very curious<lb/>
+&amp; important views, &amp; very<lb/>
+noble investigations; - Little<lb/>
+is known with regard to<lb/>
+it - but what is known<lb/>
+is simple &amp; intelligible -<lb/>
+|_&amp; the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">present state</hi> of the<lb/>
+Science evidently shews that<lb/>
+a new era of discovery<lb/>
+is advancing with regard<lb/>
+to the conversion of dead<lb/>
+into living matter.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+26<lb/>
+In all <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">organised</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">vegetable</add> structures " <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the growth</hi>"<lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">development of the</hi> vital<lb/>
+powers, "depend," upon the<lb/>
+mutual <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">action</hi> &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">reaction</hi> of<lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">solid</hi> &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">fluid</hi> parts.-<lb/>
++ the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Sap</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">as</del> as I mentioned<lb/>
+in the last lecture is the<lb/>
+great nutritive fluid - &amp;<lb/>
+it performs "for the plant"<lb/>
+the same functions as the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Blood</hi> performs for the animal<lb/>
+distributing to every part of<lb/>
+the system its active &amp;<lb/>
+vivifying materials.-<lb/>
+- The "Sap Vessels" you saw are<lb/>
+almost universally distributed through<lb/>
+the living organs- From the Roots<lb/>
+through the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag1">
+          Alburnum
+        </term>
+            </rs> to the<lb/>
+extremity of the leaves &amp;<lb/>
+flowers; &amp; from the leaves &amp;<lb/>
+flowers to the minutest terminations<lb/>
+of the Bark.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">When in the full</hi> vigour<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Vegetation</hi> any of the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">sap vessels are wounded</hi> or<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">broken so as to open</hi>
+            <lb/>
+into <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the atmosphere; - a</hi> limpid<lb/>
+fluid <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">is always emitted from</hi>
+            <lb/>
+them, <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">which may be collected</hi>
+            <lb/>
+in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">certain cases</hi> in considerable<lb/>
+quantities.<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">In <rs xml:id="ttag2" ref="#place_878" type="place">
+                  <name xml:id="tag2" type="place">
+          America
+        </name>
+               </rs>
+               <del rend="strikethrough">
+                  <add>by making a small perforation in the <rs xml:id="ttag3" ref="#misc_484" type="miscellaneous">
+                        <term xml:id="tag3">
+          Alburnum
+        </term>
+                     </rs>
+                  </add>
+               </del> a sweet</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">sap is obtained which gives</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">sugar on evaporation</del>
+            <lb/>
+The sap of the Birch<lb/>
+procured in this way is<lb/>
+employed in many parts<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag4"
+                ref="#place_159"
+                type="place">
+               <name xml:id="tag4" type="place">
+          Britain
+        </name>
+            </rs> for making<lb/>
+a <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">pe</del> beverage which is used<lb/>
+as wine. - The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag5"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag5">
+          Alburnum
+        </term>
+            </rs>
+            <lb/>
+is perforated in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the ear</del> spring<lb/>
+&amp; a pipe is fixed in the<lb/>
+aperture |_ treated in this<lb/>
+manner a large birch tree<lb/>
+will yield <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">several</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">some</add> gallons<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+27<lb/>
+of sap in the course of a few<lb/>
+days -<lb/>
+Sugar is made in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag6"
+                ref="#place_878"
+                type="place">
+               <name xml:id="tag6" type="place">
+          America
+        </name>
+            </rs>
+            <lb/>
+from the sap of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Maple</hi> tree<lb/>
+obtained in a similar manner<lb/>
+Acer saccharinum / mature in 20 years / 2 to 3 feet / 40 feet - 20 to 30 gallons of sap<lb/>
+&amp; whenever the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag7" ref="#misc_484" type="miscellaneous">
+                  <term xml:id="tag7">
+          Alburnum
+        </term>
+               </rs>
+            </hi> in any<lb/>
+trees or shrubs is<lb/>
+perforated under proper circumstances<lb/>
+(<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">that is</add> when when the buds first begin<lb/>
+to expand &amp; when the weather<lb/>
+is warm) Sap may be<lb/>
+constantly procured. -<lb/>
+This is the ascending Sap<lb/>
+but by the perforation of the<lb/>
+Bark <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">alone</hi> the descending<lb/>
+sap which has been modified<lb/>
+in the leaves may likewise<lb/>
+be obtained; but it flows<lb/>
+much less freely &amp; even<lb/>
+in the most vigorous trees<lb/>
+only in very small quantities<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">sap</hi> always contains considerable<lb/>
+quantities of solid materials dissolved<lb/>
+in it. - &amp; as its agencies are of<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">By far</del> the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">greatest</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">merit</del> importance<lb/>
+in the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag8"
+                ref="#otherwork_068"
+                type="otherwork">
+               <bibl xml:id="tag8">
+            Oeconomy of Vegetation
+        </bibl>
+            </rs>,<lb/>
+it is necessary to take a<lb/>
+view of its chemical constitution<lb/>
+as far as it has been<lb/>
+accurately investigated. -<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag9"
+                ref="#person_020"
+                type="person">
+               <name xml:id="tag9" type="person">
+          D<hi rend="superscript">r</hi> Grew
+        </name>
+            </rs> attempted the analysis<lb/>
+of the sap in the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">17</del> 1660, but <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">as I said before</add> in<lb/>
+his time the chemical Art<lb/>
+was hardly rescued from the<lb/>
+Alchemists; - &amp; his failure was<lb/>
+not from a deficiency either<lb/>
+of sagacity or of ardour; but<lb/>
+from a want of instruments<lb/>
+&amp; refined methods of research<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag10"
+                ref="#person_033"
+                type="person">
+               <name xml:id="tag10" type="person">
+          Bergman of Upsal
+        </name>
+            </rs> in 1752<lb/>
+pointed out to chemists<lb/>
+the general properties of the sap<lb/>
+in forest trees; &amp; recommended<lb/>
+the subject as worthy of<lb/>
+a minute series of exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+28<lb/>
+but this illustrious man himself<lb/>
+relinquished the enquiry.<lb/>
+The only investigation that has<lb/>
+been published " on this most<lb/>
+curious subject since the great<lb/>
+improvements have been made<lb/>
+in the analytical Art. - is by<lb/>
+M. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag11"
+                ref="#person_050"
+                type="person">
+               <name xml:id="tag11" type="person">
+          Vauquelin
+        </name>
+            </rs> - <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag12"
+                ref="#otherwork_265"
+                type="otherwork">
+               <bibl xml:id="tag12">
+            An extract
+        </bibl>
+            </rs> from<lb/>
+his paper may be found in the<lb/>
+last number published of the journals<lb/>
+of this institution. He made<lb/>
+his experiments upon five different<lb/>
+trees - the Elm, the Hornbeam,<lb/>
+the Birch, the Chesnut &amp; the<lb/>
+Beech. In the four first<lb/>
+instances the ascertained the<lb/>
+presence of saccharine matter<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag13"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag13">
+          Mucilage
+        </term>
+            </rs>, extract &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag14"
+                ref="#chemical_167"
+                type="chemical">
+               <term xml:id="tag14">
+          saline
+          
+        </term>
+            </rs> matter<lb/>
+&amp; in the last instance in that<lb/>
+of the Beech similar substances<lb/>
+appeared to be present with<lb/>
+the addition of astringent matter<lb/>
+&amp; free acid matter -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+You will easily conceive from<lb/>
+the great difference in their uses<lb/>
+&amp; functions that there must be<lb/>
+great differences in the chemical<lb/>
+Nature &amp; constitution of the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">sap</hi> in the Bark &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of that</hi> in<lb/>
+the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag15"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag15">
+          Alburnum
+        </term>
+            </rs>. I wish it was<lb/>
+in my power to state to you<lb/>
+perfect elucidations of this<lb/>
+interesting subject; but as yet<lb/>
+it has been very little an<lb/>
+object of enquiry - what<lb/>
+is known &amp; what I have been able<lb/>
+to observe will at least <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">however</add> offer<lb/>
+some general principles.<lb/>
+-. The watery part of the Sap<lb/>
+of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag16"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag16">
+          Alburnum
+        </term>
+            </rs>
+            <lb/>
+is always its most abundant<lb/>
+ingredient &amp; the solid materials<lb/>
+dissolved in it when in their<lb/>
+greatest <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">abundance</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">quantity</add> never I<lb/>
+beleive exceed 1/5 part. The<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="9"
+                xml:id="pb-9"
+                facs="#i9"/>
+            <lb/>
+29<lb/>
+the sugar cane, they are nearly<lb/>
+in this proportion; but in<lb/>
+fruit &amp; forest trees. - The <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">dissolved</del>
+            <lb/>
+soluble substances even in the most<lb/>
+favorable seasons <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">do not</del> seldom exceed<lb/>
+1/<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">50</del> 40 of the weight of the water. -<lb/>
+the Maple<lb/>
+The beech according to the experiments<lb/>
+of M. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag17"
+                ref="#person_050"
+                type="person">
+               <name xml:id="tag17" type="person">
+          Vauquelin
+        </name>
+            </rs> gives <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">from the <rs xml:id="ttag18" ref="#misc_484" type="miscellaneous">
+                  <term xml:id="tag18">
+          Alburnum
+        </term>
+               </rs>
+            </add> a sap<lb/>
+containing scarcely 1/42 The Elm<lb/>
+1/88 part &amp; the Birch 1/189 part.<lb/>
+The materials dissolved<lb/>
+in the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">ascending</add> sap of different trees<lb/>
+differ <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">something</hi> in their nature<lb/>
+&amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">more</hi> in their proportions<lb/>
+|_ Sugar &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag19"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag19">
+          Mucilage
+        </term>
+            </rs> have I beleive<lb/>
+been found in all cases &amp; extractive<lb/>
+matter, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag20" ref="#chemical_167" type="chemical">
+                  <term xml:id="tag20">
+          saline
+          
+        </term>
+               </rs>
+            </del> &amp; salts of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag21"
+                ref="#chemical_030"
+                type="chemical">
+               <term xml:id="tag21">
+          potash
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag22"
+                ref="#chemical_010"
+                type="chemical">
+               <term xml:id="tag22">
+          Lime
+          
+        </term>
+            </rs>
+            <lb/>
+are pretty generally <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">found</del> present<lb/>
+Gluten <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">an astringent matter</del>
+            </add> likewise occurs <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">but rarely</hi>.<lb/>
+|_ As in giving an account<lb/>
+of the Anatomical structure of<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="10"
+                xml:id="pb-10"
+                facs="#i10"/>
+            <lb/>
+plants it was necessary to describe<lb/>
+the different parts in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">detail</hi>;<lb/>
+so in the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">History of the</add> chemical arrange=<lb/>
+=ments of their elements, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">it</del> a<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">will be essential</del> description of the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">differ</del> various<lb/>
+substances in their simple<lb/>
+forms &amp; as to their <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">characteristic</hi>
+            <lb/>
+properties will be equally essential.<lb/>
+In the Science of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">analysis</hi>, the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">analytical</hi> method must never<lb/>
+be neglected.-<lb/>
+-The <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">saccharine</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">principle</del>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">constituent</hi> or<lb/>
+Sugar is <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the most generally</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">is one of the best known</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">diffused principle in the Sap</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">of chemical substances</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of the <rs xml:id="ttag23" ref="#misc_484" type="miscellaneous">
+                  <term xml:id="tag23">
+          Alburnum
+        </term>
+               </rs>.</del> - in the<lb/>
+sensible properties of it <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">this substance</del>
+            <lb/>
+I need make no observations<lb/>
+It is soluble in water &amp; in<lb/>
+spirit - <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">burns</hi> in a strong fire<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Heat</del> &amp; is converted by<lb/>
+being heated strongly in distillation<lb/>
+into water, gazeous matter,<lb/>
+&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag24"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag24">
+          charcoal
+          
+        </term>
+            </rs>. Of course It is <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">itself</add> a compound<lb/>
+but in the present state of our<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="11"
+                xml:id="pb-11"
+                facs="#i11"/>
+            <lb/>
+"enquiry" on the immediate constituents<lb/>
+of the sap it would prematurely<lb/>
+involve long and tedious discussions<lb/>
+to enter into the history of<lb/>
+its "elementary" nature –<lb/>
+That it is compound a very simple<lb/>
+experiment will <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">shew</hi>
+            <lb/>
+Retort. - Instance. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag25"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag25">
+          Hy
+          
+        </term>
+            </rs>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag27"
+                ref="#chemical_22"
+                type="chemical">
+               <term xml:id="tag27">
+                  <choice>
+                     <sic>
+                        <rs xml:id="ttag27" ref="##{tagvalue[1]!}" type="chemical">
+                           <term xml:id="tag27" xml:lang="{tagvalue[8]!}">
+                              <choice>
+                                 <sic>chemical_022</sic>
+                                 <corr>chemical_022</corr>
+                              </choice>
+                           </term>
+                           <gloss target="#tag27">chemical_022</gloss>
+                        </rs>
+                     </sic>
+                     <corr>oxy<hi rend="superscript">e</hi>[/chemical]</corr>
+                  </choice>
+               </term>
+            </rs>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag28"
+                ref="#chemical_30"
+                type="chemical">
+               <term xml:id="tag28">
+          Pot<hi rend="superscript">h</hi>
+               </term>
+            </rs>. Sugar<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag29"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag29">
+                  <hi rend="underline">charcoal</hi>
+               </term>
+            </rs> remains, Elastic matter<lb/>
+is <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">evolved</hi> - this phenomenon<lb/>
+will prepare <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">you</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">the mind</add> for the more refined<lb/>
+History of its composition. In<lb/>
+saying this I address myself to<lb/>
+the uninitiated part of my audience<lb/>
+similar xp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi> have been often<lb/>
+exhibited in this room. This is<lb/>
+the most striking I am acquainted<lb/>
+with &amp; it certainly is not<lb/>
+less demonstrative because it<lb/>
+is brilliant -<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag30"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag30">
+                  <hi rend="underline">Mucilage</hi>
+               </term>
+            </rs> is the same substance<lb/>
+which exudes from a number<lb/>
+of trees in the form of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag31" ref="#chemical_340" type="chemical">
+                  <term xml:id="tag31">
+          Gum
+          
+        </term>
+               </rs>
+            </hi>
+            <lb/>
+It is the principal part of the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">starch of grain</hi> existing in a<lb/>
+coagulated state - pure <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag32"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag32">
+          Mucilage
+        </term>
+            </rs>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="12"
+                xml:id="pb-12"
+                facs="#i12"/>
+            <lb/>
+is almost tasteless - &amp; inodorous -<lb/>
+it is soluble in water &amp; insoluble<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">in Spirit</hi> - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 type="over">
+               <hi rend="underline">Instance</hi>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 type="over">
+      &amp; it
+    </add> is detached<lb/>
+from water by <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Spirit</hi> -<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi> -<lb/>
+It burns but not so readily as<lb/>
+sugar; &amp; it consists of the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">same Elements</hi> but in different<lb/>
+proportions - a larger quantity<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag33"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag33">
+          charcoal
+          
+        </term>
+            </rs> &amp; less gaseous<lb/>
+matter. -<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Gluten</hi> is the same in its nature<lb/>
+as <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag34"
+                ref="#misc_485"
+                type="miscellaneous">
+               <term xml:id="tag34">
+                  <hi rend="underline">Birdlime</hi>
+               </term>
+            </rs>. It is the glutinous<lb/>
+substance which remains when<lb/>
+wheat is masticated. &amp; it<lb/>
+may be obtained from Wheat<lb/>
+by washing out all the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag35"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag35">
+          Mucilage
+        </term>
+            </rs> with warm water<lb/>
+It is <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">more</add>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">soluble</hi> in spirit than<lb/>
+in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">water</hi> &amp; water takes up<lb/>
+scarcely 1/00 p<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi> of its weight<lb/>
+Its aqueous sol<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">n</hi> is precip: by sol: oak bark<lb/>
+It burns with a smell like<lb/>
+feathers &amp; contains much <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag36"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag36">
+          charcoal
+          
+        </term>
+            </rs>
+            <lb/>
+&amp; - <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">the same</add> gaseous matter <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">different</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="13"
+                xml:id="pb-13"
+                facs="#i13"/>
+            <lb/>
+31<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">as</del> as the other vegetable products; but<lb/>
+likewise a different gaseous matter<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag37"
+                ref="#chemical_017"
+                type="chemical">
+               <term xml:id="tag37">
+          Nitrogene
+          
+        </term>
+            </rs>. -<lb/>
+- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Extractive matter</hi> is soluble like<lb/>
+Sugar is always coloured - &amp;<lb/>
+when in its pure form has<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">generally a</del> a feeble <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">bitter</del> subastringent <lb/>
+taste. It has no effect on<lb/>
+solution of Glue or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag38"
+                ref="#chemical_176"
+                type="chemical">
+               <term xml:id="tag38">
+          isinglass
+          
+        </term>
+            </rs>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">which</del> as<lb/>
+the astringent principle has -<lb/>
+but it renders the Sol: of<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag39"
+                ref="#chemical_492"
+                type="chemical">
+               <term xml:id="tag39">
+          alum
+          
+        </term>
+            </rs> turbid.-<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">In Instance</hi>
+            <lb/>
+- The <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">salts</hi> in the Saps principally<lb/>
+consist of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag40"
+                ref="#chemical_010"
+                type="chemical">
+               <term xml:id="tag40">
+          Lime
+          
+        </term>
+            </rs>, &amp; the pure<lb/>
+matter of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag41"
+                ref="#chemical_083"
+                type="chemical">
+               <term xml:id="tag41">
+          Pearl ash
+          
+        </term>
+            </rs> united<lb/>
+to the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag42"
+                ref="#chemical_417+chemical_168"
+                type="chemical">
+               <term xml:id="tag42">
+          Sulphuric &amp; acetous<lb/>acids
+          
+        </term>
+            </rs>.<lb/>
+- In igniting the residuum of<lb/>
+the saps the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag43"
+                ref="#chemical_168"
+                type="chemical">
+               <term xml:id="tag43">
+          acetous acid
+          
+        </term>
+            </rs> is<lb/>
+decomposed into the same<lb/>
+elements as the other Vegetable<lb/>
+substances &amp; in this case<lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">alkaline</hi> salt remains. -<lb/>
+The existence of these<lb/>
+different substances in the same fluid<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="14"
+                xml:id="pb-14"
+                facs="#i14"/>
+            <lb/>
+is in consequence " of the common "<lb/>
+laws of chemical Attraction -<lb/>
+Their particles are so arranged<lb/>
+as not to interfere with each<lb/>
+other; &amp; in their state of<lb/>
+solution they are admirably<lb/>
+fitted - to change - to<lb/>
+combine with, or to modify<lb/>
+the solid parts -<lb/>
+" The Sugar &amp; the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag44"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag44">
+          Mucilage
+        </term>
+            </rs>
+            <lb/>
+of the Sap seem to be the<lb/>
+great nutritive principles<lb/>
+in the Vegetable Kingdom _<lb/>
+-: They " produce the first<lb/>
+expansion of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">germ</hi>; &amp;<lb/>
+they are found abundantly<lb/>
+in the interior of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">flower</hi>.<lb/>
+- And there is a beautiful analogy<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">order</del> in this respect between<lb/>
+Vegetable &amp; animal life -<lb/>
+- The grasses which are y<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">e</hi> food<lb/>
+of such an enormous number<lb/>
+of animals, abound in saccharine<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="15"
+                xml:id="pb-15"
+                facs="#i15"/>
+            <lb/>
+32<lb/>
+&amp; mucilageous fluid - Our common<lb/>
+edible fruits owe to them the<lb/>
+delicacy &amp; sweetness of their<lb/>
+tastes; - so that plants the<lb/>
+intermediate links, between<lb/>
+animated &amp; inorganic nature;-<lb/>
+have their<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"> own</add> wellbeing &amp; existence<lb/>
+immediately dependant upon<lb/>
+the production of y<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">e</hi> substances which<lb/>
+render them a proper support<lb/>
+for animals.-<lb/>
+- In forest trees as would<lb/>
+appear from the exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi> of the<lb/>
+able Chemists just now mentioned<lb/>
+extractive &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag45"
+                ref="#chemical_167"
+                type="chemical">
+               <term xml:id="tag45">
+          saline
+          
+        </term>
+            </rs> matter<lb/>
+bear a much greater proportion<lb/>
+to the whole of the solid<lb/>
+contents of the saps than in<lb/>
+shrubs &amp; the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">succulent</del> succulent<lb/>
+Vegetables; but even in these<lb/>
+cases <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag46"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag46">
+          Mucilage
+        </term>
+            </rs> &amp; sugar still<lb/>
+predominate; |_ In the elaboration<lb/>
+of the fluid from ye soil<lb/>
+they are develloped as the<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="16"
+                xml:id="pb-16"
+                facs="#i16"/>
+            <lb/>
+most essential products; &amp; the most<lb/>
+active sources of growth &amp; assimilation<lb/>
+- No <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">chemical</add> experiments have as yet<lb/>
+been published upon the descending<lb/>
+sap the sap of the Bark.-<lb/>
+- |_ But much indirect information<lb/>
+may be gained upon the<lb/>
+subject from the researches<lb/>
+that have been made upon<lb/>
+the soluble ingredients in<lb/>
+the bark itself - The<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Tanning properties</hi> of Barks,<lb/>
+their being absolutely necessary<lb/>
+to the important &amp; expensive<lb/>
+manufacture of leather have<lb/>
+rendered them objects of<lb/>
+much attention &amp; various<lb/>
+minute enquiries have been<lb/>
+made upon the<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ir</del> chemical<lb/>
+constitution of different<lb/>
+species -<lb/>
+When a piece of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Bark</hi> is stripped<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="17"
+                xml:id="pb-17"
+                facs="#i17"/>
+            <lb/>
+33<lb/>
+from an oak or chesnut or other<lb/>
+forest tree at the time the<lb/>
+Sap is in vigorous motion; &amp;<lb/>
+immediately cut into pieces &amp;<lb/>
+infused in warm water, it<lb/>
+will afford <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">soluble principles</hi>.<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of which the greatest portion</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">existed dissolved in the Sap.-</del>
+            <lb/>
+- To make this exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">t </hi>in an<lb/>
+unexceptionable way, the Epidermis<lb/>
+&amp; y<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">e</hi> old <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">bark</del> &amp; dead cortical layers<lb/>
+ought to be first removed &amp;<lb/>
+only the interior of y<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">e</hi> living<lb/>
+part submitted to the action<lb/>
+of the Water - In this the<lb/>
+Vessels are full of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">juices</hi> &amp;<lb/>
+the sap which was descending<lb/>
+mixes with the fluid.-<lb/>
+- The Sap of the Bark<lb/>
+(it would appear from all the<lb/>
+experiments that have been made)<lb/>
+contains considerably more solid<lb/>
+matter dissolved in it than the<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="18"
+                xml:id="pb-18"
+                facs="#i18"/>
+            <lb/>
+sap of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag47"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag47">
+          Alburnum
+        </term>
+            </rs>. The<lb/>
+Interior layer of the Bark of<lb/>
+the young oak affords nearly<lb/>
+1/8 of its weight of soluble<lb/>
+matter; - the same substance<lb/>
+in the Spanish chesnut 1/10<lb/>
+&amp; in the Leicester willow 1/7 . -<lb/>
+&amp; that this material principally<lb/>
+exists in the fluid form is<lb/>
+evident from the circumstance<lb/>
+that similar Barks cut when<lb/>
+the sap is not circulating<lb/>
+in Winter - give <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">four</del> a <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">or</del> quantity<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">five times</del> four or five times less.-<lb/>
+|_ It is very easy to conceive why<lb/>
+so much more solid matter <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <add>the same ingredients exist</add>
+            </del>
+            <lb/>
+exists in the sap of the Bark<lb/>
+than in the sap of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag48"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag48">
+          Alburnum
+        </term>
+            </rs>,<lb/>
+an immense quantity of water<lb/>
+is dissipated by Evaporation<lb/>
+from "the leaves" - infinitely<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="19"
+                xml:id="pb-19"
+                facs="#i19"/>
+            <lb/>
+34<lb/>
+less fluid descends - &amp; the Sap<lb/>
+after being modified by the<lb/>
+action of Heat, light &amp; Air<lb/>
+if less abundant in quantity<lb/>
+is <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">more saturated</hi> with active<lb/>
+ingredients. -<lb/>
+- The <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">descending sap</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">fluid obtained in this way</add> differs<lb/>
+exceedingly in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">all</del> its sensible<lb/>
+properties from the ascending sap -<lb/>
+- The ascending sap <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">as I mentioned</add> in by far the<lb/>
+greater number of instances <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> has<lb/>
+a feeble sweet or sub acid taste,<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">but if the </del> The sap in the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">bark</hi> is generally<lb/>
+astringent or acrid &amp; sometimes<lb/>
+strongly bitter - . <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">This effect h</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">may be perceived by some</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the Oak</del> If the vessels in the<lb/>
+Bark of the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Oak</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Beech</add> be <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">wounded</hi>
+            <lb/>
+(for instance) / the fluid which ouses<lb/>
+out is coloured brown &amp; has<lb/>
+a stiptic taste... - The bark of<lb/>
+the plum treated in the same<lb/>
+way gives an acrid fluid &amp;<lb/>
+the bark of the willow a bitter one.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="20"
+                xml:id="pb-20"
+                facs="#i20"/>
+            <lb/>
+- The <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">astringent principle</hi> is found<lb/>
+in larger or smaller quantities<lb/>
+in almost all the barks that<lb/>
+have been <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">examined</hi>.- It is called<lb/>
+by chemists <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag49"
+                ref="#misc_198"
+                type="miscellaneous">
+               <term xml:id="tag49">
+                  <hi rend="underline">Tannin</hi>
+               </term>
+            </rs>. &amp; in its<lb/>
+pure state is a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">solid easily</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">fusible</hi> &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">combustible</hi>.- It dissolves<lb/>
+both in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">water &amp; in spirit</hi> &amp;<lb/>
+has the characteristic property<lb/>
+of precipitating a solution of<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Glue or <rs xml:id="ttag50" ref="#chemical_176" type="chemical">
+                  <term xml:id="tag50">
+          isinglass
+          
+        </term>
+               </rs>
+            </hi> - <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi> -<lb/>
+It is <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">this</add> property on which its tanning<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">agency depends</hi> - Glue is merely<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">skin</hi> broken down &amp; dissolved<lb/>
+by <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">boiling water</hi>:- &amp; when Solid<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">skin</hi> is infused in a solution<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag51"
+                ref="#misc_198"
+                type="miscellaneous">
+               <term xml:id="tag51">
+                  <hi rend="underline">Tannin</hi>
+               </term>
+            </rs> it retains its organized<lb/>
+form &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">texture</hi> unites to the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag52"
+                ref="#misc_198"
+                type="miscellaneous">
+               <term xml:id="tag52">
+          Tannin
+        </term>
+            </rs>, renders the water tasteless<lb/>
+increases in weight &amp; if the<lb/>
+process is slowly and properly conducted<lb/>
+becomes good leather - leather<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">capable of</del> impermeable to water<lb/>
+fit for making de<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi> shoes.<lb/>
+On the causes which have operated on the progress<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="21"
+                xml:id="pb-21"
+                facs="#i21"/>
+            <lb/>
+35<lb/>
+In a great number of cases,<lb/>
+the Tanning principle is associated<lb/>
+with <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">a body</hi> resembling it<lb/>
+in some of its properties called<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag53"
+                ref="#chemical_079"
+                type="chemical">
+               <term xml:id="tag53">
+          gallic acid
+          
+        </term>
+            </rs>.- This substance<lb/>
+abounds in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag54"
+                ref="#misc_282"
+                type="miscellaneous">
+               <term xml:id="tag54">
+          "Nutgalls"
+        </term>
+            </rs> whence its<lb/>
+name - It may be obtained from<lb/>
+Galls by Heating them gently, the<lb/>
+acid sublimes &amp; if a proper<lb/>
+vessel be placed above the galls<lb/>
+it will adhere to the vessel<lb/>
+in the form of fine transparent<lb/>
+chrystals - <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag55"
+                ref="#chemical_079"
+                type="chemical">
+               <term xml:id="tag55">
+                  <hi rend="underline">Gallic acid</hi>
+               </term>
+            </rs> is soluble<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">in water &amp; spirit</hi>. It differs<lb/>
+from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag56"
+                ref="#misc_198"
+                type="miscellaneous">
+               <term xml:id="tag56">
+          Tannin
+        </term>
+            </rs> in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">not</del> being soluble<lb/>
+in oils. It does not precipitate<lb/>
+the Solution of Glue, but it<lb/>
+renders the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">common</add> Sol:<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">s</hi> of iron black.-<lb/>
+This property is likewise possessed by<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag57"
+                ref="#misc_198"
+                type="miscellaneous">
+               <term xml:id="tag57">
+                  <hi rend="underline">Tannin</hi>
+               </term>
+            </rs>; &amp; all good writing<lb/>
+inks contain the compound of<lb/>
+the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag58"
+                ref="#chemical_079"
+                type="chemical">
+               <term xml:id="tag58">
+          gallic acid
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag59"
+                ref="#misc_198"
+                type="miscellaneous">
+               <term xml:id="tag59">
+          Tannin
+        </term>
+            </rs>, &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag60"
+                ref="#chemical_352"
+                type="chemical">
+               <term xml:id="tag60">
+          sulphate<lb/>of iron
+          
+        </term>
+            </rs> with excess of base diffused<lb/>
+through a <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag61"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag61">
+          mucilaginous
+        </term>
+            </rs> fluid.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="22"
+                xml:id="pb-22"
+                facs="#i22"/>
+            <lb/>
+- The bitter principle is known<lb/>
+by its taste. it is extremely<lb/>
+soluble; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in</del> &amp; affects none of<lb/>
+the substances by which the<lb/>
+other vegetable materials of<lb/>
+the sap are altered. - Its<lb/>
+sensible properties are more<lb/>
+obvious than its chemical<lb/>
+properties. <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">It seems to be</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">susceptible of many modifications</del>
+            <lb/>
+Of all vegetable principles it<lb/>
+has the least tendency to<lb/>
+decomposition &amp; it prevents<lb/>
+other vegetable principles from<lb/>
+undergoing change. - It is the<lb/>
+bitter principle of the Hop<lb/>
+which preserves our Beer; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">or at least</add>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">it ought to be</add> in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag62"
+                ref="#misc_199"
+                type="miscellaneous">
+               <term xml:id="tag62">
+          Peruvian Bark
+        </term>
+            </rs>, in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag63"
+                ref="#misc_488"
+                type="miscellaneous">
+               <term xml:id="tag63">
+          Gentian
+        </term>
+            </rs>,<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in <del rend="strikethrough">
+                  <rs xml:id="ttag64" ref="#misc_488" type="miscellaneous">
+                     <term xml:id="tag64">
+          Gentian
+        </term>
+                  </rs>
+               </del>
+            </add> it is the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">principle</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">material</add> on<lb/>
+which <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">their</del> the antiseptic properties<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">of these substances</add> &amp; probably their febrifuge powers<lb/>
+depend.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="23"
+                xml:id="pb-23"
+                facs="#i23"/>
+            <lb/>
+36<lb/>
+-"Besides these principles which as it were<lb/>
+characterise the sap in its<lb/>
+descent &amp; which exist either<lb/>
+together or singly in almost<lb/>
+every instance <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in trees</add> - |_ Extractive<lb/>
+Matter - <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag65"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag65">
+          Mucilage
+        </term>
+            </rs> sugar<lb/>
+&amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">different <rs xml:id="ttag66" ref="#chemical_167" type="chemical">
+                  <term xml:id="tag66">
+          saline
+          
+        </term>
+               </rs>
+            </hi> matters<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">likewise occur</hi> . Extractive matter<lb/>
+is often combined with <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag67"
+                ref="#misc_198"
+                type="miscellaneous">
+               <term xml:id="tag67">
+          Tannin
+        </term>
+            </rs>
+            <lb/>
+as in the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">barks of ye</add> Oak, the Chesnut, the Alder<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag68"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag68">
+          Mucilage
+        </term>
+            </rs> often occurs with<lb/>
+this substance . <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; sugar</del> as in the<lb/>
+bark of the Elm.- &amp; Sugar<lb/>
+sometimes, as in the different<lb/>
+species of the Willow - In<lb/>
+the bark of the common Willow<lb/>
+I found both the bitter principle<lb/>
+&amp; the saccharine principle.-<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Though the astringent matters</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; <add>
+                  <rs xml:id="ttag69" ref="#chemical_079" type="chemical">
+                     <term xml:id="tag69">
+          gallic acid
+          
+        </term>
+                  </rs>
+               </add> bitter principle</del>
+            <lb/>
+The sap of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag70"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag70">
+          Alburnum
+        </term>
+            </rs>
+            <lb/>
+&amp; the Sap of bark <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">then</del>
+            </add> contain, then<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="24"
+                xml:id="pb-24"
+                facs="#i24"/>
+            <lb/>
+certain common principles which<lb/>
+might reasonably expected when<lb/>
+it is considered that the<lb/>
+latter is derived from the former;<lb/>
+And to pursue an idea started just now<lb/>
+- They may be said to bear<lb/>
+an analogy to each other<lb/>
+similar to <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">that existing between</add> the Venous &amp;<lb/>
+arterial blood in the animal<lb/>
+system - &amp; as the Venous<lb/>
+blood gains its highly<lb/>
+stimulating &amp; active powers by<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in passing through the</del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">as being exposed</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">exposure</add> to air<lb/>
+in passing through the lungs.<lb/>
+So the Sap seems to be<lb/>
+elaborated &amp; rendered more<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">energetic</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">active</add> &amp; nutritive during<lb/>
+its exposure to the Atmosphere<lb/>
+in the leaves. -<lb/>
+- In the trees &amp; shrubs<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of the</del> indigenous in this Country<lb/>
+there are comparatively few<lb/>
+instances <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">on record</add> of the ascending sap<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="25"
+                xml:id="pb-25"
+                facs="#i25"/>
+            <lb/>
+31<lb/>
+"containing" the same astringent<lb/>
+materials as the bark" but<lb/>
+in the trees of the Hot climates<lb/>
+this often happens - the ascending<lb/>
+saps of various species of the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag71"
+                ref="#misc_489"
+                type="miscellaneous">
+               <term xml:id="tag71">
+          Mimosa
+        </term>
+            </rs>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">is astrin</del> particularly that<lb/>
+kind whence the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag72"
+                ref="#chemical_470"
+                type="chemical">
+               <term xml:id="tag72">
+          Gum Arabic
+          
+        </term>
+            </rs>
+            <lb/>
+is procured is astringent - &amp;<lb/>
+the wood of this tree is boiled<lb/>
+in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag73"
+                ref="#place_531"
+                type="place">
+               <name xml:id="tag73" type="place">
+          India
+        </name>
+            </rs> for the purpose of<lb/>
+affording the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag74"
+                ref="#chemical_277"
+                type="chemical">
+               <term xml:id="tag74">
+          "Catechu"
+          
+        </term>
+            </rs> which<lb/>
+contains 1/2 its weight of the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Tanning principle</hi> &amp; which I have<lb/>
+ventured to recommend as<lb/>
+an article of importation for<lb/>
+tanning -<lb/>
+I had an opportunity , <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <add>the las</add>
+            </del> when in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the Country last</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">spring</hi> of comparing the ascending<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> sap &amp; the sap of the<lb/>
+Bark in the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Oak</hi> - My<lb/>
+means was not very complete<lb/>
+but it was impossible to doubt<lb/>
+the general result.-<lb/>
+I removed a piece of Bark about<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="26"
+                xml:id="pb-26"
+                facs="#i26"/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">On the</del>
+            <lb/>
+the size of half a crown from<lb/>
+a oak of 14 years standing -<lb/>
+- I made a perforation in the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag75"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag75">
+          Alburnum
+        </term>
+            </rs>, taking care not <lb/>
+to pierce beyond the new<lb/>
+wood &amp; I introduced a<lb/>
+curved glass tube - In this<lb/>
+way I collected in a warm<lb/>
+day more than half an<lb/>
+oz of sap - It was slightly<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">sweet to the taste</hi> - when<lb/>
+evaporated furnished <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag76"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag76">
+          Mucilage
+        </term>
+            </rs> -<lb/>
+It did not precipitate a solution<lb/>
+of glue; - but rendered slightly<lb/>
+turbid a solution of iron.<lb/>
+which might have depended<lb/>
+upon the presence of a small<lb/>
+quantity of extractive matter.<lb/>
+- To examine the sap of<lb/>
+the Bark I laid bare the interior<lb/>
+cortical layers in the uper part<lb/>
+of the tree &amp; introduced a<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">small</del> similar tube - a pale<lb/>
+yellow fluid slowly oused forth<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="27"
+                xml:id="pb-27"
+                facs="#i27"/>
+            <lb/>
+38<lb/>
+Its taste was astringent - It<lb/>
+precipitated the solution of glue<lb/>
+&amp; blackened the alls of iron.-<lb/>
+- Much depends <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">upon</del> in such<lb/>
+experiments upon the period<lb/>
+|_ There seems to be a communication<lb/>
+between the bark &amp; the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag77"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag77">
+          Alburnum
+        </term>
+            </rs>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <add>by the lateral vess</add>
+            </del> by means of the perforated<lb/>
+tubes, - &amp; when the rise<lb/>
+of the sap is not very<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">vigorous</del> rapid. There is probably<lb/>
+a mixture <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">between the fluids</hi>
+            <lb/>
+in the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag78"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag78">
+          Alburnum
+        </term>
+            </rs> &amp; the Bark<lb/>
+so that astringent matter <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">under certain circumstances</add> may be<lb/>
+found in the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag79"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag79">
+          Alburnum
+        </term>
+            </rs> which<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">were</del> originally belonged to<lb/>
+the bark &amp; saccharine matter<lb/>
+may occur in the bark which<lb/>
+was formed in the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag80"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag80">
+          Alburnum
+        </term>
+            </rs>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">A number of new researches</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">are required to elucidate the</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="28"
+                xml:id="pb-28"
+                facs="#i28"/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">obser</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">curious</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough"> part of the Enquiry.</del>-<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">A number of</del> Numerous researches <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">are wanting</add> in this most<lb/>
+interesting subject, &amp; they might<lb/>
+be very easily made. - |_ <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">A serie</hi>s<lb/>
+of experiments upon the saps of different<lb/>
+trees at different times in its<lb/>
+ascent through the roots, in its<lb/>
+passage through the leaves &amp;<lb/>
+in its progress through the Bark<lb/>
+could not fail of throwing the<lb/>
+most important light on the<lb/>
+Physiology of Vegetation -<lb/>
+such an <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">undertaking</hi> would require<lb/>
+scarcely any apparatus - |_ <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">Laboratory</hi> is <add>would be</add> the system of the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">plant; the materials are provided</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">by nature </del>. - - The object <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">would</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">would</add>
+            <lb/>
+be general &amp; no minute<lb/>
+attention to quantities necessary.-<lb/>
+The smallest portions <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">might</del>
+            <lb/>
+of the different kinds of fluid<lb/>
+would be sufficient for examination<lb/>
+&amp; the chemical agents are such as<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="29"
+                xml:id="pb-29"
+                facs="#i29"/>
+            <lb/>
+39<lb/>
+might be always procured;-<lb/>
+- By making a little perforation in<lb/>
+the bark or the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag81"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag81">
+          Alburnum
+        </term>
+            </rs> by<lb/>
+a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">penknife</hi>;- by introducing a<lb/>
+little tube of glass &amp; making<lb/>
+an exhaustion. a small quantity<lb/>
+of fluid might be easily procured.<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">if it contained sugar it would</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">be indicated by its sweet taste.</del>
+            <lb/>
+- A watch glass is an excellent<lb/>
+apparatus for examination<lb/>
+~ Sugar ~<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag82"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag82">
+          Mucilage
+        </term>
+            </rs> by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag83"
+                ref="#misc_490"
+                type="miscellaneous">
+               <term xml:id="tag83">
+                  <hi rend="underline">Spirit of Lavender</hi>
+               </term>
+            </rs>:<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag84"
+                ref="#misc_198"
+                type="miscellaneous">
+               <term xml:id="tag84">
+          Tannin
+        </term>
+            </rs> - by a drop of warm<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag85"
+                ref="#chemical_079"
+                type="chemical">
+               <term xml:id="tag85">
+          gallic acid
+          
+        </term>
+            </rs> by placing it on<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a penknife</del> the blade of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">a Knife</hi>
+            <lb/>
+- The general quantity even of<lb/>
+the solid <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">material</hi> might be known<lb/>
+none of the vegetable products are<lb/>
+more than 1 1/2 as heavy as<lb/>
+Water; - &amp; it would not<lb/>
+be difficult to guess, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">whether two</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; drops of the <add>different</add> sap left by</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">being evaporated " a quantity of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">solid matter greater</del>
+            <lb/>
+what were the relations<lb/>
+between the quantities of solid<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="30"
+                xml:id="pb-30"
+                facs="#i30"/>
+            <lb/>
+matter left by two different<lb/>
+kinds of Sap.-<lb/>
+Such Experiments Experiments so<lb/>
+humble in their means would<lb/>
+be of the highest importance<lb/>
+in their applications - If<lb/>
+(for instance) it should be<lb/>
+found that during the<lb/>
+opening of the buds - the<lb/>
+ascending sap below a bud<lb/>
+contained much more <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag86"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag86">
+          Mucilage
+        </term>
+            </rs>
+            <lb/>
+&amp; saccharine principle than the<lb/>
+sap above it - &amp; that the<lb/>
+descending sap above it contained<lb/>
+more astringent &amp; extractive matter<lb/>
+than the descending sap below.-<lb/>
+It would be a fair inference<lb/>
+that "the principles" which had<lb/>
+disappeared had combined to<lb/>
+form the new matter of the<lb/>
+stalk &amp; leaves: &amp; such<lb/>
+a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">conclusion</hi> would be<lb/>
+a beautiful <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">general principle</hi>
+            <lb/>
+- A <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">great</hi> variety of similar<lb/>
+objects might be pointed<lb/>
+out in this <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">beautiful</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">delightful</add> &amp;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="31"
+                xml:id="pb-31"
+                facs="#i31"/>
+            <lb/>
+40<lb/>
+almost untouched field of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">research</del> -<lb/>
+Investigation - |_ And it must be<lb/>
+an additional seduction to the<lb/>
+pursuit - "That no labour is<lb/>
+required, but merely refined<lb/>
+observation - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The</del> That the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">laboratory</hi> would be the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">grove</del>
+            <lb/>
+the Wood the Garden or<lb/>
+the greenhouse <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">&amp; the materials provided by Nature</add> that there<lb/>
+would be no burning the<lb/>
+fingers or blackening the<lb/>
+hands <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">as in some chemical exp<hi rend="superscript">ts</hi>, all the operations would be elegant &amp; delicate - never would be no</add> No unhealthy fumes<lb/>
+or disagreeable chemical vapours;<lb/>
+but the pure air of the country,<lb/>
+the freshness of dewy vegetation<lb/>
+&amp; the balmy fragrance of<lb/>
+flowers.-<lb/>
+- I have not given a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">minute</hi>
+            <lb/>
+account of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">chemical</hi> History<lb/>
+of the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del> different substances<lb/>
+found in the sap - |_ I conceive<lb/>
+it would be premature at<lb/>
+this period of the enquiry - |_ To<lb/>
+go over the list of their<lb/>
+attractions &amp; agencies would<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="32"
+                xml:id="pb-32"
+                facs="#i32"/>
+            <lb/>
+tend to obscure the subject &amp; would<lb/>
+provokingly carry away the attention<lb/>
+from the phaenomena of Vegetation -<lb/>
+There are numerous modifications<lb/>
+of the different <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">vegetable</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">substances</hi> known to chemists -<lb/>
+&amp; they are all exceedingly liable<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to change</hi> to pass into<lb/>
+each other - |_ &amp; hence it<lb/>
+is very difficult to give<lb/>
+a clear &amp; distinct account<lb/>
+of them - |_ Organized compounds<lb/>
+like <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag87"
+                ref="#misc_057"
+                type="miscellaneous">
+               <term xml:id="tag87">
+          the Proteus
+        </term>
+            </rs> of Antiquity<lb/>
+or the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag88"
+                ref="#misc_211"
+                type="miscellaneous">
+               <term xml:id="tag88">
+          Genii
+        </term>
+            </rs> of Arabian Romance;<lb/>
+are continually exhibiting new<lb/>
+powers &amp; appearing under new<lb/>
+forms &amp; when they are <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">as</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">it</del> confined &amp; as it were chained<lb/>
+in one shape - they often<lb/>
+escape in another; &amp; from<lb/>
+solids pass rapidly into fluids<lb/>
+&amp; from fluids into gasses -<lb/>
+- This is my apology for<lb/>
+waving at this time a<lb/>
+minute discussion on their<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="33"
+                xml:id="pb-33"
+                facs="#i33"/>
+            <lb/>
+41<lb/>
+composition, |_ It will belong more<lb/>
+properly to an advanced<lb/>
+period of the lectures - I<lb/>
+shall state however that there is<lb/>
+a very good dissertation on<lb/>
+this subject in the fourth<lb/>
+volume of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag89"
+                ref="#otherwork_058"
+                type="otherwork">
+               <bibl xml:id="tag89">
+                  <hi rend="underline">Thomsons Chemistry</hi>
+               </bibl>
+            </rs>
+            <lb/>
+the book that I quoted<lb/>
+in the introductory lecture<lb/>
+- He has described the different<lb/>
+vegetable substances, in detail<lb/>
+&amp; without any perplexity - In<lb/>
+recommending his general Views<lb/>
+- I must however make <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">an exception</hi>
+            <lb/>
+to one of his analytical methods<lb/>
+which I shall state as it is of<lb/>
+some importance in the enquiry<lb/>
+I have just been recommending<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag90"
+                ref="#person_226"
+                type="person">
+               <name xml:id="tag90" type="person">
+          D<hi rend="superscript">r</hi> Thomson
+        </name>
+            </rs> proposes a solution<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of <rs xml:id="ttag91" ref="#chemical_106" type="chemical">
+                  <term xml:id="tag91">
+          Flint
+          
+        </term>
+               </rs>
+            </hi> in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag92"
+                ref="#chemical_030"
+                type="chemical">
+               <term xml:id="tag92">
+          potash
+          
+        </term>
+            </rs> as a test<lb/>
+for the presence of very small<lb/>
+quantities of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag93"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag93">
+                  <hi rend="underline">Mucilage</hi>
+               </term>
+            </rs>. - Now<lb/>
+this test appears to me very<lb/>
+inadequate &amp; very much<lb/>
+inferior even to Spirit - D<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="34"
+                xml:id="pb-34"
+                facs="#i34"/>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag94"
+                ref="#person_226"
+                type="person">
+               <name xml:id="tag94" type="person">
+          Thomson
+        </name>
+            </rs> justly states that it is<lb/>
+rendered turbid <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">by</hi>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag95"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag95">
+          Mucilage
+        </term>
+            </rs>; but<lb/>
+it is likewise precipitated by<lb/>
+all acids &amp; by a number<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag96"
+                ref="#chemical_167"
+                type="chemical">
+               <term xml:id="tag96">
+          saline
+          
+        </term>
+            </rs> substances &amp; these<lb/>
+bodies are constantly found<lb/>
+in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Vegetables</hi> - Such a practice<lb/>
+might lead to the most<lb/>
+erroneous conclusions - &amp;<lb/>
+I <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">feel</del> am convinced that the<lb/>
+enlightened Historian of our<lb/>
+Science will feel obliged<lb/>
+to me for pointing out the<lb/>
+circumstance - |_ It would almost<lb/>
+exceed the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">limits of</hi> possibility<lb/>
+that there should be no<lb/>
+mistakes in so great &amp;<lb/>
+extensive a work; it is<lb/>
+astonishing that they are<lb/>
+so rare, it reflects the<lb/>
+highest credit on the patience<lb/>
+accuracy &amp; judgement of the<lb/>
+Author.-<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">I <hi rend="underline">shall include</hi>
+            </del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="35"
+                xml:id="pb-35"
+                facs="#i35"/>
+            <lb/>
+- |_ The relation " of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">engrafting</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">by</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">inoculation</del> to the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">subject</hi>
+            <lb/>
+of the chemical composition of<lb/>
+the Sap is very obvious &amp; well<lb/>
+worthy of attention |_ With<lb/>
+this enquiry I shall conclude<lb/>
+for the time is too much<lb/>
+advanced to admit of the<lb/>
+discussion of the causes of the<lb/>
+motion of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">sap</hi> - it involves<lb/>
+much argumentative &amp; some<lb/>
+experimental matter - I shall<lb/>
+reserve it as a part of the<lb/>
+next lecture.-<lb/>
+|_ When the branch of a tree<lb/>
+of a tree in full vigour, is<lb/>
+cut off; &amp; placed in the<lb/>
+ground in such a way that<lb/>
+some of its incipient buds<lb/>
+or germens are covered by<lb/>
+moist soil - it almost<lb/>
+always throws out <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag97"
+                ref="#misc_483"
+                type="miscellaneous">
+               <term xml:id="tag97">
+          radicles
+        </term>
+            </rs>
+            <lb/>
+which become roots; &amp; if the<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="36"
+                xml:id="pb-36"
+                facs="#i36"/>
+            <lb/>
+proper season is <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">chosen</del> selected;-<lb/>
+this mode of multiplying trees as<lb/>
+by cutting <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <hi rend="underline">is well</hi> known</add> is very effectual -<lb/>
+- But instead of being planted<lb/>
+in the ground the - <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">branch</hi>
+            <lb/>
+may be transferred to another<lb/>
+tree; - <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">from which</hi> a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">similar</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">branch has been removed</hi>;-<lb/>
+&amp; by adapting <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the incisions</hi>;<lb/>
+&amp; defending <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">them</del> from the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">action of the air</hi>, by a<lb/>
+cement of clay or other<lb/>
+adhesive substance; an union<lb/>
+will take place |_ &amp; if the<lb/>
+proper circumstances are observed<lb/>
+the branch will grow vigorously<lb/>
+in its new situation; will<lb/>
+become as it were parasitical<lb/>
+&amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">free</del> be supported by the<lb/>
+sap of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the stock</hi> on which<lb/>
+it <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">is fixed.</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Graft</hi> examined found<lb/>
+to communicate by the common<lb/>
+tubes.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="37"
+                xml:id="pb-37"
+                facs="#i37"/>
+            <lb/>
+43<lb/>
+- In the adherence of the graft<lb/>
+to the tree, there is merely an<lb/>
+inosculation of the fibres of the new<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">tree</del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag98"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag98">
+          Alburnum
+        </term>
+            </rs> &amp; barks |_ &amp; the<lb/>
+communication of the Sap is<lb/>
+through the common tubes &amp; the porous<lb/>
+tubes, which being so generally<lb/>
+diffused, must necessarily correspond<lb/>
+in many parts.-<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag99"
+                ref="#person_240"
+                type="person">
+               <name xml:id="tag99" type="person">
+          Dr Darwin
+        </name>
+            </rs> supposes in the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag100"
+                ref="#otherwork_90"
+                type="otherwork">
+               <bibl xml:id="tag100">
+            Phytologia
+        </bibl>
+            </rs>
+            <lb/>
+that the engrafted bud sends down<lb/>
+its own fibrils <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">from the</del> as <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag101"
+                ref="#misc_483"
+                type="miscellaneous">
+               <term xml:id="tag101">
+          radicles
+        </term>
+            </rs>
+            <lb/>
+to the soil; but <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag102"
+                ref="#person_024"
+                type="person">
+               <name xml:id="tag102" type="person">
+          Mr Knight
+        </name>
+            </rs> has<lb/>
+shewn that this cannot happen.<lb/>
+&amp; the line between the old wood<lb/>
+&amp; the engrafted wood is always<lb/>
+marked &amp; the new wood of the<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">their substances</del>
+            </add>
+            <lb/>
+graft never spreads <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <hi rend="underline">downwards</hi>
+            </add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">more than a few</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">times</del> beyond the point of original junction<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="38"
+                xml:id="pb-38"
+                facs="#i38"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="39"
+                xml:id="pb-39"
+                facs="#i39"/>
+            <lb/>
+44<lb/>
+- The Art of Grafting was well known<lb/>
+to the ancients. It has been<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">translated by</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">beautifully</add> described by Virgil<lb/>
+in his <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag103"
+                ref="#otherwork_136"
+                type="otherwork">
+               <bibl xml:id="tag103">
+            Georgics
+        </bibl>
+            </rs> - I shall read the<lb/>
+passage in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag104"
+                ref="#otherwork_136"
+                type="otherwork">
+               <bibl xml:id="tag104">
+            M<hi rend="superscript">r</hi> Sothebys tra
+        </bibl>
+            </rs>
+            <lb/>
+Experienced art, by varying culture knows<lb/>
+to graft <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the cion</hi>, or the but enclose. -<lb/>
+- |_ Where the swoln gem, in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">vernal vigour</hi> bold<lb/>
+Bursts through the bark; and breaks each yielding fold,<lb/>
+slit the mid knot; and, on the wound confined<lb/>
+Teach the strange bud to wed the bleeding rind:<lb/>
+Or cut the knotless bole, and fix the spray<lb/>
+where mid the wood, deep wedges, force thier way.<lb/>
+Fill<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">d</hi> with new life, erelong the tree ascends<lb/>
+And far and wide its branching pomp extends<lb/>
+Waves its aerial brow, to Heaven, aspires<lb/>
+And its <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">new</hi> leaves, and <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">foreign fruit</hi>, admires.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="40"
+                xml:id="pb-40"
+                facs="#i40"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="41"
+                xml:id="pb-41"
+                facs="#i41"/>
+            <lb/>
+45<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The</del>- Ingrafting can be only successfully<lb/>
+performed upon trees the ascending<lb/>
+&amp; descending sap of which are<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">respectively</add> similar - |_ <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag105"
+                ref="#person_022"
+                type="person">
+               <name xml:id="tag105" type="person">
+          Du Hamel
+        </name>
+            </rs> found<lb/>
+that <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">branches of</add> the pear, the Apple<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> the plum, &amp; the Peach<lb/>
+speedily died when attached<lb/>
+to the oak, the elm &amp; other<lb/>
+forest trees;- both the<lb/>
+juices of the bark &amp; the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag106"
+                ref="#misc_484"
+                type="miscellaneous">
+               <term xml:id="tag106">
+          Alburnum
+        </term>
+            </rs> are different &amp;<lb/>
+their habits with regard<lb/>
+to germination &amp; blossoming<lb/>
+altogether unlike.-<lb/>
+- In gardening, in general this<lb/>
+operation is only performed<lb/>
+upon varieties of the same species;<lb/>
+but it will succeed even with<lb/>
+different species in the same<lb/>
+natural family.- Thus the<lb/>
+peach may be successfully<lb/>
+engrafted upon the plum. - Their<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">juices are alike</hi> &amp; they part<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="42"
+                xml:id="pb-42"
+                facs="#i42"/>
+            <lb/>
+forth their blossoms under similar<lb/>
+circumstances nearly in the same<lb/>
+time<lb/>
+46<lb/>
+- The graft is <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">only nourished</hi>, by<lb/>
+the sap of the tree to which<lb/>
+it is transferred, its properties<lb/>
+are not changed by it;<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">fruit is of the same</del> leaves, blossoms &amp; fruits<lb/>
+are of the same kind as<lb/>
+if it had vegetated upon<lb/>
+its parent stock - |_ The only<lb/>
+advantage <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">is</del> to be gained in<lb/>
+this way, is the affording<lb/>
+to a graft from an old<lb/>
+tree a more plentiful &amp;<lb/>
+healthy food than it could<lb/>
+have procured in its natural<lb/>
+state, it is rendered for<lb/>
+a time more vigorous; &amp; produces<lb/>
+fairer blossoms &amp; richer fruits.<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">This process was know to the Romans</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; beautifully expressed by Virgil in his</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag107" ref="#otherwork_136" type="otherwork">
+                  <bibl xml:id="tag107">
+            Georgics
+        </bibl>
+               </rs>
+            </del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="43"
+                xml:id="pb-43"
+                facs="#i43"/>
+            <lb/>
+Many ridiculous ideas <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">formerly</add> prevailed<lb/>
+amongst <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the old</del> Gardeners on<lb/>
+the subject <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">of change by ingrafting</add> It <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">has also</del> been<lb/>
+supposed that mixed<lb/>
+fruits would be procured<lb/>
+in this way |_ &amp; though <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag108"
+                ref="#person_124"
+                type="person">
+               <name xml:id="tag108" type="person">
+                  <hi rend="underline">Lord</hi>
+                  <lb/>
+                  <hi rend="underline">Bacon</hi>
+               </name>
+            </rs> with that strength<lb/>
+of reason &amp; sagacity of<lb/>
+observation which so<lb/>
+peculiarly belonged to him<lb/>
+denied the possibility of<lb/>
+such a circumstance; yet<lb/>
+the idea has been <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">lately</add> revived<lb/>
+Thus in the first volume<lb/>
+of the Com<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">s</hi> to the B.A. Mr<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag109"
+                ref="#person_937"
+                type="person">
+               <name xml:id="tag109" type="person">
+          Jay
+        </name>
+            </rs> "states that there is an<lb/>
+apple <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in an</del> existing at New York<lb/>
+sweet on one side &amp; sour on<lb/>
+the other-" produced by grafting<lb/>
+two <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">slit scions</hi> one from a<lb/>
+tree <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">producing</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">yielding</add> sweet fruit<lb/>
+the other from a tree <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">producing</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">yielding</add>
+            <lb/>
+sour fruit on the same<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">stock</hi>" - &amp; I have<lb/>
+ heard " the warm &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">frequent</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">bitter</add>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="44"
+                xml:id="pb-44"
+                facs="#i44"/>
+            <lb/>
+qualities of some cherries steeped<lb/>
+in Brandy ascribed to their<lb/>
+having been produced from<lb/>
+a graft in a laurel tree.<lb/>
+Such alterations are<lb/>
+impossible / "the stock giveth<lb/>
+aliment but no notion to<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the graft"</hi> - |_&amp; the Graft<lb/>
+partakes not merely of the obvious<lb/>
+properties; but likewise<lb/>
+of the infirmities, &amp;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">dispositions to old</hi> age<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">&amp; decay</hi>; of the tree<lb/>
+whence it sprang, -<lb/>
+- This seems to be<lb/>
+distinctly shown by the<lb/>
+observations &amp; experiments<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag110"
+                ref="#person_024"
+                type="person">
+               <name xml:id="tag110" type="person">
+          M<hi rend="superscript">r</hi> Knight
+        </name>
+            </rs> -<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag111"
+                ref="#person_024"
+                type="person">
+               <name xml:id="tag111" type="person">
+          M<hi rend="superscript">r</hi> Knight
+        </name>
+            </rs> has in a<lb/>
+number of instances transferred<lb/>
+the young scions &amp; healthy<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="45"
+                xml:id="pb-45"
+                facs="#i45"/>
+            <lb/>
+48<lb/>
+"Shoots" from old esteemed fruit<lb/>
+bearing trees to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">young seedlings</hi>. -<lb/>
+They flourished for two or three<lb/>
+years, but they soon became<lb/>
+diseased &amp; sickly like their<lb/>
+parent trees - . -<lb/>
+- |_ It is from this cause <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">"</hi> that<lb/>
+so many of the apples formerly<lb/>
+celebrated for their taste,<lb/>
+&amp; their <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">uses in the</hi> manufacture<lb/>
+of cyder, are gradually<lb/>
+deteriorating &amp; many will<lb/>
+soon disappear. - <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">The golden</hi>
+            <lb/>
+pippin, the red streak &amp;<lb/>
+the moil so <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">famous</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">excellent</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">celebrated</del>
+            <lb/>
+in the beginning of the<lb/>
+last century are now in<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">last</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">extremest</add> stage of their decay.<lb/>
+&amp; however carefully they are<lb/>
+engrafted; they merely tend to<lb/>
+multiply a sickly <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">&amp; worn out</add> species. -<lb/>
+- The Apple is merely an<lb/>
+improved <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">species</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">breed</add> of our indigenous<lb/>
+plant the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">crab</hi> - - many of<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="46"
+                xml:id="pb-46"
+                facs="#i46"/>
+            <lb/>
+of the principal varieties of<lb/>
+these which we now possess<lb/>
+appear to have been<lb/>
+introduced about the<lb/>
+time of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag112"
+                ref="#person_936"
+                type="person">
+               <name xml:id="tag112" type="person">
+                  <hi rend="underline">Henry the Eighth</hi>
+               </name>
+            </rs> |_; &amp;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">they</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">such</add> have <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">nearly</add> lived their<lb/>
+time; &amp; however multiplied<lb/>
+or in whatever soils<lb/>
+will <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">probably all</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">die in less than another</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">century</del> yield to<lb/>
+the general operation of<lb/>
+Natural causes -<lb/>
+|_ We may produce new<lb/>
+&amp; perhaps, more excellent<lb/>
+varieties by means of<lb/>
+seeds; but it is quite<lb/>
+impossible for us to<lb/>
+preserve the old ones -<lb/>
+|_ Vegetable like animal<lb/>
+life has its limits<lb/>
+fixed &amp; definite; - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">immortality belongs to</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">no <unclear>produ</unclear>
+            </del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="47"
+                xml:id="pb-47"
+                facs="#i47"/>
+            <lb/>
+49<lb/>
+|_ The <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">oak</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">cedar</add>, the being of a thousand<lb/>
+years, at length yields<lb/>
+to decay. - As well as<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the <del rend="strikethrough">Musroom</del>
+               <add>Fungus</add>
+            </hi> that exists<lb/>
+only for as <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">many hours</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">few days</del>
+            <lb/>
+The <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">general</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">common</add> law <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">must</hi> be<lb/>
+obeyed. - <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Generation</hi> succeeds<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to generation</hi> &amp; the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">same</del>
+            <lb/>
+grand feattures <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">only</add> are preserved.<lb/>
+Art may improve but<lb/>
+cannot render immutable<lb/>
+&amp; immortality is <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">equally</hi>
+            <lb/>
+denied, to all the productions<lb/>
+of the Earth. -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The address to the <hi rend="underline">
+                  <unclear>twilean</unclear> Oak</hi>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">as he</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="48"
+                xml:id="pb-48"
+                facs="#i48"/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-11309</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-11309</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/13/I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Notebook containing poetry, chemical and scientific notes, and calculations (dated around 1810-1812) with some earlier material (concerning sodium and potassium) c. autumn 1807</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/13/I</title>
+                     <textLang mainLang="eng">English</textLang>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="7" to="13"/>
+                        <tei:title>Poem: "Thou to whom heaven its noblest gifts assigned"</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                 from="15"
+                                 to="20">
+                        <tei:title>Poem: "Oh were I rich in nature's lore"</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="21" to="24"/>
+                        <tei:title>Poem: "Rude Winter! iron sceptred power"</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="25" to="26"/>
+                        <tei:title>Poem: "How oft the little sportive child"</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="27" to="29"/>
+                        <tei:title>Poem: "Lost scenes by thee so sweetly traced"</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="31" to="31"/>
+                        <tei:title>Poem: "With thee for ever could I stay"</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="32" to="32"/>
+                        <tei:title>Poem: "Whene'er you speak, heav'n how the listening throng"</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="33" to="34"/>
+                        <tei:title>Poem: "Lo! once again with jocund sway"</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="35" to="37"/>
+                        <tei:title>Poem: "Thou that dost this scroll survey"</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="39" to="43"/>
+                        <tei:title>Experiments to ascertain "if oxygene exists or can be detected in oxymuriatic acid"; <tei:date when="1810-06-30">30 June 1810</tei:date>
+                        </tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="45" to="53"/>
+                        <tei:title>Notes on ammonia</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="54" to="54"/>
+                        <tei:title>Sketch</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="55" to="106"/>
+                        <tei:title>Unused</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="107" to="112"/>
+                        <tei:title>Poem: "Hail loved one to thy natal morn"; <tei:date when="1812-02-04">4 Feb. 1812</tei:date>
+                        </tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="118" to="123"/>
+                        <tei:title>Notes on ammonia and calculations</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="124" to="128"/>
+                        <tei:title>Decomposition of water</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="130" to="134"/>
+                        <tei:title>Ammonia</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="135" to="137"/>
+                        <tei:title>Combustion of potash</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="139" to="140"/>
+                        <tei:title>On gases</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="141" to="147"/>
+                        <tei:title>Calculations</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="148" to="148"/>
+                        <tei:title>Notes on diamond</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="149" to="150"/>
+                        <tei:title>Notes on copper pyrites</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="152" to="154"/>
+                        <tei:title>Notes on the decomposition of granites</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="155" to="156"/>
+                        <tei:title>Notes on the absorption of mercury</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="156" to="157"/>
+                        <tei:title>Notes on the quantity of hydrogen in acids and gases</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="158" to="158"/>
+                        <tei:title>Notes on the expansion of gases</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="159" to="159"/>
+                        <tei:title>Calculations</tei:title>
+                     </tei:msItem>
+                     <tei:msItem xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:locus from="160" to="160"/>
+                        <tei:title>Draft poetry</tei:title>
+                     </tei:msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent>159 pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <p>Black leather</p>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1807-09-01"
+                                   notAfter="1812-12-31">1807-1812</tei:origDate>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+</TEI>

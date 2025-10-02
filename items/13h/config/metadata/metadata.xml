@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<man:metadata
+   xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+>
+  <man:meta id="MS-DAVY-11308">
+    <author id="humphry_davy" href="authors"/>
+    <binding>Brown hardcover</binding>
+    <foliation/>
+    <hand/>
+    <height>7in</height>
+    <id>RI MS HD/13/H</id>
+    <origDate>
+      <!-- Confirm date range -->
+      <tei:origDate notBefore="1795-01-01" notAfter="1800-12-31">Early</tei:origDate>
+    </origDate>
+    <pages>77</pages>
+    <provenance>Royal Institution</provenance>
+    <summary>Notebook containing poetry and scientific notes</summary>
+    <title>RI MS HD/13/H</title>
+    <width>4.5in</width>
+    <contents><!--
+      <tei:msItem>
+        <tei:locus from="" to=""/>
+        <tei:title></tei:title>
+      </tei:msItem>
+    --></contents>
+  </man:meta>
+</man:metadata>

@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standOff>
+      <listAnnotation type="nonenglish">
+         <note xml:id="nonenglish_100" type="description">
+            <term id="nonenglish_100-term">Vide</term>
+            <gloss id="nonenglish_100-gloss" target="#nonenglish_100-term">
+               <p>See; consult; refer to (Latin)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_331" type="description">
+            <term id="nonenglish_331-term">Kolpoi</term>
+            <gloss id="nonenglish_331-gloss" target="#nonenglish_331-term">
+               <p>bosoms (Greek)</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listPerson>
+         <person xml:id="person_031">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Milton</surname>
+            </persName>
+            <birth when="1608"/>
+            <death when="1674"/>
+            <note>Milton was a poet and polemicist. He wrote the epic poem Paradise Lost.</note>
+         </person>
+         <person xml:id="person_064">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>William III</surname>
+            </persName>
+            <birth when="1650"/>
+            <death when="1702"/>
+            <note>Stadholder of the United Provinces, 1672-1688 who married Mary, daughter of the English king, James II. Following a plot to overthrow James, William invaded England in 1688 and ultimately secured the English, Scottish and Irish thrones - the 'Glorious Revolution'. </note>
+         </person>
+         <person xml:id="person_065">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Horatio</forename>
+               <surname>Nelson</surname>
+            </persName>
+            <birth when="1758"/>
+            <death when="1805"/>
+            <note>Perhaps the most famous naval officer of the day, commanding the victorious Royal Navy fleets in battles such as the Nile, Copenhagen and Trafalgar where he was killed in action.</note>
+         </person>
+         <person xml:id="person_003">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">William</forename>
+               <surname>Allen</surname>
+            </persName>
+            <birth when="1770"/>
+            <death when="1843"/>
+            <note>Allen was a Quaker who worked in the pharmaceutical industry. Davy asked him to give lectures on natural philosophy at the RI. FRSL.</note>
+         </person>
+         <person xml:id="person_074">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Franz Josef</forename>
+               <surname>Gall</surname>
+            </persName>
+            <birth when="1758"/>
+            <death when="1828"/>
+            <note>German-born, he later worked in Paris on phrenology.</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="place_007">
+            <placeName>Limerick</placeName>
+            <location>
+               <geo decls="#WGS84">52.663569089110098 -8.6276092502425108</geo>
+            </location>
+            <note>Limerick is a city in Ireland, set in Munster province in the south of the country.</note>
+         </place>
+         <place xml:id="place_008">
+            <placeName>Rathkeale</placeName>
+            <location>
+               <geo decls="#WGS84">52.521530563135201 -8.9365647423138395</geo>
+            </location>
+            <note>Rathkeale is a town in west County Limerick, in Ireland.</note>
+         </place>
+         <place xml:id="place_009">
+            <placeName>Adare</placeName>
+            <location>
+               <geo decls="#WGS84">52.563664468553803 -8.7925168186646996</geo>
+            </location>
+            <note>Adare is a village in County Limerick, Ireland, located south-west of the city of Limerick.</note>
+         </place>
+         <place xml:id="place_142">
+            <placeName>River Shannon</placeName>
+            <location>
+               <geo decls="#WGS84">53.489530326189374,  -7.7107261210257798</geo>
+            </location>
+            <note>A major river in the island of Ireland, and the longest river in the British Isles.</note>
+         </place>
+         <place xml:id="place_825">
+            <placeName>River Thames</placeName>
+            <location>
+               <geo decls="#WGS84">51.62396010661668,  -0.33459504952244401</geo>
+            </location>
+            <note>The River Thames, known alternatively in parts as the River Isis, is a river that flows through southern England including London.</note>
+         </place>
+         <place xml:id="place_914">
+            <placeName>River Severn</placeName>
+            <location>
+               <geo decls="#WGS84">52.522460, -3.2715190000000001</geo>
+            </location>
+            <note>At 220 miles long, the longest river in Great Britain.</note>
+         </place>
+         <place xml:id="place_071">
+            <placeName>London</placeName>
+            <location>
+               <geo decls="#WGS84">51.5081324796122 -0.12769117806126601</geo>
+            </location>
+            <note>The capital city of England and the United Kingdom.</note>
+         </place>
+         <place xml:id="place_106">
+            <placeName>Lakes of Killarney</placeName>
+            <note>Three lakes (Lough Leane, Muckross Lake - also called Middle Lake, and Upper Lake) surrounded by the MacGillycuddy's Reeks and now part of Killarney National Park.</note>
+         </place>
+         <place xml:id="place_032">
+            <placeName>Abbeyfeale</placeName>
+            <location>
+               <geo decls="#WGS84">52.385431185287501 -9.3004667103444305</geo>
+            </location>
+            <note>Abbeyfeale is a market town in County Limerick, Ireland.</note>
+         </place>
+         <place xml:id="place_1199">
+            <placeName>Kerry</placeName>
+            <location>
+               <geo decls="#WGS84">52.27188746099673, -9.7009384203937294</geo>
+            </location>
+            <note>County in the peninsular southwest of Ireland.</note>
+         </place>
+         <place xml:id="place_102">
+            <placeName>Ross Island</placeName>
+            <location>
+               <geo decls="#WGS84">52.040885066033795,  -9.5427360343787608</geo>
+            </location>
+            <note>Probably Ross Island, Killarney, Ireland, a claw-shaped peninsular in Killarney. Ross Castle is located here.</note>
+         </place>
+         <place xml:id="place_144">
+            <placeName>Keeper Hill</placeName>
+            <location>
+               <geo decls="#WGS84">52.751808044910625,  -8.2612841963044197</geo>
+            </location>
+            <note>One of the Silvermine Mountains of County Tipperary, Ireland.</note>
+         </place>
+         <place xml:id="place_036">
+            <placeName>Kildare</placeName>
+            <location>
+               <geo decls="#WGS84">53.158919351196502 -6.9093559973079302</geo>
+            </location>
+            <note>Kildare is a town in County Kildare, Ireland.</note>
+         </place>
+         <place xml:id="place_035">
+            <placeName>Carlow</placeName>
+            <location>
+               <geo decls="#WGS84">52.835736329964298 -6.9327705636054997</geo>
+            </location>
+            <note>Carlow is the county town of County Carlow, in the south-east of Ireland.</note>
+         </place>
+         <place xml:id="place_010">
+            <placeName>Nenagh</placeName>
+            <location>
+               <geo decls="#WGS84">52.865951299161601 -8.1976462415509204</geo>
+            </location>
+            <note>Nenagh is the county town of County Tipperary in Ireland.</note>
+         </place>
+         <place xml:id="place_018">
+            <placeName>Ireland</placeName>
+            <location>
+               <geo decls="#WGS84">53.155810906848316,  -8.0218848181146107</geo>
+            </location>
+         </place>
+         <place xml:id="place_399">
+            <placeName>Dublin</placeName>
+            <location>
+               <geo decls="#WGS84">53.3498220590485,  -6.2752551753614902</geo>
+            </location>
+            <note>The capital city of the Republic of Ireland.</note>
+         </place>
+         <place xml:id="place_121">
+            <placeName>England</placeName>
+            <location>
+               <geo decls="#WGS84">52.12544136722214, -1.7566152421063299</geo>
+            </location>
+            <note>England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.</note>
+         </place>
+         <place xml:id="place_043">
+            <placeName>Edgeworthstown</placeName>
+            <location>
+               <geo decls="#WGS84">53.696104897302099 -7.6060039103835999</geo>
+            </location>
+            <note>Edgeworthstown is a town in County Longford, Ireland. It is named after the Edgeworth family, who lived on an estate there. It was the home of Richard Lovell Edgeworth, Associate at the Medical Pneumatic Institution, and his daughter Anna Beddoes, née Edgeworth. </note>
+         </place>
+         <place xml:id="place_038">
+            <placeName>Athlone</placeName>
+            <location>
+               <geo decls="#WGS84">53.423935521208897 -7.9412039175075204</geo>
+            </location>
+            <note>Athlone is a town in central Ireland.</note>
+         </place>
+         <place xml:id="place_039">
+            <placeName>Portumna</placeName>
+            <location>
+               <geo decls="#WGS84">53.093180057390803 -8.2174677164261603</geo>
+            </location>
+            <note>Portumna is a market town in the south-east of County Galway, Ireland, on the border with and linked by a bridge to County Tipperary.</note>
+         </place>
+         <place xml:id="place_040">
+            <placeName>Banagher</placeName>
+            <location>
+               <geo decls="#WGS84">53.190586342195502 -7.9840449635382296</geo>
+            </location>
+            <note>Banagher is a town in Ireland, located in the midlands, on the western edge of County Offaly in the province of Leinster, on the banks of the River Shannon.</note>
+         </place>
+         <place xml:id="place_042">
+            <placeName>River Inny</placeName>
+            <location>
+               <geo decls="#WGS84">53.560436956956103 -7.7645964228568296</geo>
+            </location>
+            <note>The River Inny is a river within the Shannon River Basin in Ireland.</note>
+         </place>
+         <place xml:id="place_041">
+            <placeName>Ballymahon</placeName>
+            <location>
+               <geo decls="#WGS84">53.564897580413501 -7.7628798091386804</geo>
+            </location>
+            <note>Ballymahon on the River Inny is a town in the southern part of County Longford, Ireland.</note>
+         </place>
+         <place xml:id="place_1326">
+            <placeName>Westmeath</placeName>
+            <location>
+               <geo decls="#WGS84">53.524301789598105, -7.3377587580700903</geo>
+            </location>
+            <note>a county in Ireland, in the province of Leinster.</note>
+         </place>
+         <place xml:id="place_044">
+            <placeName>Wicklow</placeName>
+            <location>
+               <geo decls="#WGS84">52.980855128495101 -6.0443808248316202</geo>
+            </location>
+            <note>County Wicklow is a county in Ireland on the east coast, south of Dublin.</note>
+         </place>
+         <place xml:id="place_046">
+            <placeName>Longford</placeName>
+            <location>
+               <geo decls="#WGS84">53.727600994052501 -7.7927707783395697</geo>
+            </location>
+            <note>A county in Ireland, Longford is also the name of the county town.</note>
+         </place>
+         <place xml:id="place_047">
+            <placeName>Donegal</placeName>
+            <location>
+               <geo decls="#WGS84">54.653882599705597 -8.1098371878967299</geo>
+            </location>
+            <note>Donegal is a town at the mouth of the River Eske, in north-west Ireland.</note>
+         </place>
+         <place xml:id="place_048">
+            <placeName>Belturbet</placeName>
+            <location>
+               <geo decls="#WGS84">54.1024334741522 -7.44808003232668</geo>
+            </location>
+            <note>Belturbet is a town in County Cavan, Ireland.</note>
+         </place>
+         <place xml:id="place_049">
+            <placeName>Enniskillen</placeName>
+            <location>
+               <geo decls="#WGS84">54.343827754791803 7.6307857832633097</geo>
+            </location>
+            <note>Enniskillen is the largest town in County Fermanagh, Northern Ireland. It is in the middle of the county, between the Upper and Lower sections of Lough Erne.</note>
+         </place>
+         <place xml:id="place_051">
+            <placeName>Lough Erne</placeName>
+            <location>
+               <geo decls="#WGS84">54.40721197936 -7.6830441671752796</geo>
+            </location>
+            <note>Lough Erne is the name of two connected lakes in County Fermanagh, Northern Ireland. It is the second-biggest lake system in Northern Ireland and Ulster, and the fourth biggest in Ireland.</note>
+         </place>
+         <place xml:id="place_052">
+            <placeName>Ballyshannon</placeName>
+            <location>
+               <geo decls="#WGS84">54.503461162909701 -8.19006749424398</geo>
+            </location>
+            <note>Ballyshannon is a town in County Donegal, Ireland.</note>
+         </place>
+         <place xml:id="place_1327">
+            <placeName>Church Hill</placeName>
+            <location>
+               <geo decls="#WGS84">54.44982358417012, -7.8262225714569604</geo>
+            </location>
+            <note>a small village in Enniskillen, Ireland.</note>
+         </place>
+         <place xml:id="place_053">
+            <placeName>Sligo</placeName>
+            <location>
+               <geo decls="#WGS84">54.276544386190103 -8.4757518702674197</geo>
+            </location>
+            <note>The town of Sligo, in the north of Ireland, straddles the Garavogue River where it meets Sligo Bay.</note>
+         </place>
+         <place xml:id="place_140">
+            <placeName>Leitrim</placeName>
+            <location>
+               <geo decls="#WGS84">54.14901523257833,  -8.0251346740334295</geo>
+            </location>
+            <note>A county in the north of Ireland.</note>
+         </place>
+         <place xml:id="place_054">
+            <placeName>Fermanagh</placeName>
+            <location>
+               <geo decls="#WGS84">54.350996997522699 -7.6324701174198202</geo>
+            </location>
+            <note>County Fermanagh is one of the thirty-two counties of Ireland, one of the nine counties of Ulster and one of six counties of Northern Ireland.</note>
+         </place>
+         <place xml:id="place_050">
+            <placeName>River Erne</placeName>
+            <note>Located in the north-west of the island of Ireland; the second-longest river in Ulster.</note>
+         </place>
+         <place xml:id="place_056">
+            <placeName>Atlantic</placeName>
+            <location>
+               <geo decls="#WGS84">34.89766653071247, -40.753620806566801</geo>
+            </location>
+         </place>
+         <place xml:id="place_057">
+            <placeName>Benbulbin</placeName>
+            <location>
+               <geo decls="#WGS84">54.367041232847903 -8.4726848710088891</geo>
+            </location>
+            <note>Benbulben or Ben Bulben, a large flat-topped nunatak rock formation in County Sligo. Davy refers to the formation as 'benvallin'.</note>
+         </place>
+         <place xml:id="place_058">
+            <placeName>Cape Frelling</placeName>
+            <note>Untraced.</note>
+         </place>
+         <place xml:id="place_1328">
+            <placeName>River Eske</placeName>
+            <location>
+               <geo decls="#WGS84">54.651971206649534,  -8.1139088291038099</geo>
+            </location>
+            <note>The River Eske is a river in County Donegal, Ireland. It begins at Lough Eske in the southeast of the county before flowing mainly westwards to the town of Donegal and into the Atlantic Ocean via Donegal Bay. Donegal Town is the only major settlement through which it flows. Although Davy omits the final "e" it is clear from context he means this river, rather than the English or Scottish rivers spelt "Esk". </note>
+         </place>
+         <place xml:id="place_059">
+            <placeName>Ramelton</placeName>
+            <location>
+               <geo decls="#WGS84">55.037338449324402 -7.6502349539724301</geo>
+            </location>
+            <note>Also known as Rathmelton. A town and townland in County Donegal, Ireland.</note>
+         </place>
+         <place xml:id="place_060">
+            <placeName>Cavan</placeName>
+            <location>
+               <geo decls="#WGS84">53.989646813574502 -7.3632726616539896</geo>
+            </location>
+            <note>County Cavan is a county in Ireland. It is in the province of Ulster and is part of the Northern and Western Region. </note>
+         </place>
+         <place xml:id="place_1329">
+            <placeName>Ballinagh</placeName>
+            <location>
+               <geo decls="#WGS84">53.93070370601831,  -7.40956190546237</geo>
+            </location>
+            <note>It is possible that Davy is referring to Ballinagh (also known as Bellananagh) in County Cavan, Ireland</note>
+         </place>
+         <place xml:id="place_061">
+            <placeName>Ballybofey</placeName>
+            <location>
+               <geo decls="#WGS84">54.801672597170501 -7.7754030580662201</geo>
+            </location>
+            <note>Ballybofey is a town located on the south bank of the River Finn, County Donegal, Ireland. </note>
+         </place>
+         <place xml:id="place_062">
+            <placeName>River Finn</placeName>
+            <note>The River Finn is a river in the west of Ulster, the northern province in Ireland. The river mainly flows through County Donegal.</note>
+         </place>
+         <place xml:id="place_063">
+            <placeName>Letterkenny</placeName>
+            <location>
+               <geo decls="#WGS84">54.955722154937099 -7.7319015365486896</geo>
+            </location>
+            <note>Letterkenny is a large town in County Donegal, Ireland, on the River Swilly in the north-west of Ulster.</note>
+         </place>
+         <place xml:id="place_064">
+            <placeName>Arakil</placeName>
+            <note>Arokil is the Errigal mountain of the same range; the handwriting on page 69 in notebook 15B was reproduced by John Davy along with the poem 'Mucrish and Arokil, ye pair...' in Tait's Edinburgh Magazine for 1836, vol. iii, p. 252. See also Memoirs, vol. 1, pp. 287 ff.</note>
+         </place>
+         <place xml:id="place_070">
+            <placeName>Mucrish</placeName>
+            <note>Muckish, one of the Derryveagh Mountains. See the poem 'Mucrish and Arokil, ye pair...' in Tait's Edinburgh Magazine for 1836, vol. iii, p. 252. See also Memoirs, vol. 1, pp. 287 ff.</note>
+         </place>
+         <place xml:id="place_065">
+            <placeName>Swilly</placeName>
+            <location>
+               <geo decls="#WGS84">55.173502051159502 -7.5386478424927104</geo>
+            </location>
+            <note>Lough Swilly, a glacial fjord or sea inlet, in County Donegal, Ireland.</note>
+         </place>
+         <place xml:id="place_243">
+            <placeName>Carrara</placeName>
+            <location>
+               <geo decls="#WGS84">44.050626541922924,  10.055862959490501</geo>
+            </location>
+            <note>Carrara is a city in central Italy.</note>
+         </place>
+         <place xml:id="place_067">
+            <placeName>Loch Fern</placeName>
+            <location>
+               <geo decls="#WGS84">55.058729546252103 -7.7167673012953397</geo>
+            </location>
+            <note>Loch Fern, or Lough Fern, a lake in County Donegal, Ireland.</note>
+         </place>
+         <place xml:id="place_068">
+            <placeName>Loch Salt</placeName>
+            <location>
+               <geo decls="#WGS84">55.084316897127998 -7.8034944371096797</geo>
+            </location>
+            <note>Loch Salt, Lough Salt, a lake in County Donegal, Ireland.</note>
+         </place>
+         <place xml:id="place_069">
+            <placeName>Kilmacrennan</placeName>
+            <location>
+               <geo decls="#WGS84">55.030662044545402 -7.7771654175313598</geo>
+            </location>
+            <note>Also known as Kilmacrennan, a village, town and civil parish in County Donegal, Ireland.</note>
+         </place>
+         <place xml:id="place_072">
+            <placeName>Limavady</placeName>
+            <location>
+               <geo decls="#WGS84">55.045645108691502 -6.9337092193149399</geo>
+            </location>
+            <note>A market town in County Londonderry, Ireland.</note>
+         </place>
+         <place xml:id="place_073">
+            <placeName>Raphoe</placeName>
+            <location>
+               <geo decls="#WGS84">54.87426507899 -7.5992233232873803</geo>
+            </location>
+            <note>A market town in County Donegal, Ireland.</note>
+         </place>
+         <place xml:id="place_074">
+            <placeName>Derry</placeName>
+            <location>
+               <geo decls="#WGS84">54.995815069255798 -7.3109605016136898</geo>
+            </location>
+            <note>Also known as Londonderry, a city on the River Foyle in Northern Ireland.</note>
+         </place>
+         <place xml:id="place_075">
+            <placeName>River Foyle</placeName>
+            <location>
+               <geo decls="#WGS84">54.95495636973568,  -7.3625261539856703</geo>
+            </location>
+            <note>The River Foyle is a river in west Ulster in the north-west of the island of Ireland, which flows from the confluence of the Rivers Finn and Mourne at the towns of Lifford in County Donegal and Strabane in County Tyrone.</note>
+         </place>
+         <place xml:id="place_076">
+            <placeName>Magilligan</placeName>
+            <location>
+               <geo decls="#WGS84">55.147913446956402 -6.8945046419726701</geo>
+            </location>
+            <note>A peninsula in north-west County Londonderry in Northern Ireland.</note>
+         </place>
+         <place xml:id="place_235">
+            <placeName>Scotland</placeName>
+            <location>
+               <geo decls="#WGS84">56.23014782410645,  -4.1646793652431802</geo>
+            </location>
+         </place>
+         <place xml:id="place_077">
+            <placeName>Belfast</placeName>
+            <location>
+               <geo decls="#WGS84">54.597644366832398 -5.9345303874930497</geo>
+            </location>
+            <note>Belfast is the capital city of Northern Ireland.</note>
+         </place>
+         <place xml:id="place_1330">
+            <placeName>Lough Foyle</placeName>
+            <location>
+               <geo decls="#WGS84">55.11312588337178, -7.0878750851730299</geo>
+            </location>
+            <note>Lough Foyle, sometimes Loch Foyle, is the estuary of the River Foyle, on the north coast of Ireland.</note>
+         </place>
+         <place xml:id="place_066">
+            <placeName>Mucruss</placeName>
+            <location>
+               <geo decls="#WGS84">55.1074024057922 -7.9566071527251001</geo>
+            </location>
+            <note>Now Mount Muckish, in County Donegal, Ireland.</note>
+         </place>
+         <place xml:id="place_1081">
+            <placeName>Binevenagh</placeName>
+            <location>
+               <geo decls="#WGS84">55.114573274947624,  -6.9151597127007198</geo>
+            </location>
+            <note type="certainty">Possibly Davy is mispelling Binevenagh here, a Basaltic mountain in County Derry, Northern Ireland, which was used to by French geologist Nicolas Desmarest in the debate between Neptunists and the Plutonists.</note>
+         </place>
+         <place xml:id="place_089">
+            <placeName>parish of Innlocherde</placeName>
+            <note>Untraced.</note>
+         </place>
+         <place xml:id="place_146">
+            <placeName>Portrush</placeName>
+            <location>
+               <geo decls="#WGS84">55.203654007496745,  -6.6539044997203503</geo>
+            </location>
+            <note>A small seaside town on north coast of County Antrim, Northern Ireland.</note>
+         </place>
+         <place xml:id="place_480">
+            <placeName>Coleraine</placeName>
+            <location>
+               <geo decls="#WGS84">55.13060038879702, -6.6666188792893797</geo>
+            </location>
+            <note>Coleraine is a town in County Derry, Northern Ireland.</note>
+         </place>
+         <place xml:id="place_093">
+            <placeName>Skerries</placeName>
+            <location>
+               <geo decls="#WGS84">55.223963068247798 -6.6303225365362204</geo>
+            </location>
+            <note>The Skerries are a group of islands off the Antrim coast of Northern Ireland, near Portrush.</note>
+         </place>
+         <place xml:id="place_126">
+            <placeName>Giant's Causeway</placeName>
+            <location>
+               <geo decls="#WGS84">55.240838095312654, -6.5136581682688197</geo>
+            </location>
+            <note>The Giant's Causeway is an extensive area of columnar basalt in County Antrim, Northern Ireland, formed by an ancient volcanic fissure eruption.</note>
+         </place>
+         <place xml:id="place_324">
+            <placeName>Germany</placeName>
+            <location>
+               <geo decls="#WGS84">51.189579071880495,  10.618914269201101</geo>
+            </location>
+         </place>
+      </listPlace>
+      <listNym type="chemical">
+         <nym xml:id="chemical_088">
+            <form>sandstone</form>
+            <def>
+               <p>A sedimentary rock consisting of sand or quartz grains cemented together, typically red, yellow, or brown in colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_120">
+            <form>shist</form>
+            <def>
+               <p>Or schist. Any metamorphic rock that can be split into thin layers because of its thin bands of micaceous minerals, with mineral grains.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_090">
+            <form>limestone</form>
+            <def>
+               <p>A sedimentary rock composed mainly of calcium carbonate (CaCO3).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_398">
+            <form>slate </form>
+            <def>
+               <p>Slate is a fine-grained, foliated, homogeneous, metamorphic rock derived from an original shale-type sedimentary rock composed of clay or volcanic ash through low-grade, regional metamorphism</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_099">
+            <form>greywacke</form>
+            <def>
+               <p>Greywacke or graywacke is a type of sandstone.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_397">
+            <form>shale</form>
+            <def>
+               <p>Shale is a fine-grained, clastic sedimentary rock formed from mud that is a mix of flakes of clay minerals and tiny fragments of other minerals, especially quartz and calcite.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_089">
+            <form>malachite</form>
+            <def>
+               <p>Symbol/formula: Cu2CO3(OH)2</p>
+               <p>A bright green mineral consisting of hydrated basic copper carbonate, which typically occurs in masses and fibrous aggregates.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_032">
+            <form>pyrites</form>
+            <def>
+               <p>A generic term for sulphide minerals.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_322">
+            <form>fluorspar</form>
+            <def>
+               <p>Symbol/formula: CaF2</p>
+               <p>Fluorite (also called fluorspar) is the mineral form of calcium fluoride.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_092">
+            <form>granite</form>
+            <def>
+               <p>A coarse-grained intrusive igneous rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_097">
+            <form>sienite</form>
+            <def>
+               <p>Syenite. A coarse-grained intrusive igneous rock with a general composition similar to that of granite, but deficient in quartz, which, if present at all, occurs in relatively small concentrations.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_096">
+            <form>magnesian</form>
+            <def>
+               <p>Of rocks and minerals: containing or relatively rich in magnesium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_102">
+            <form>quartz</form>
+            <def>
+               <p>Symbol/formula: SiO2</p>
+               <p>A hard, crystalline mineral composed of silica (silicon dioxide).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_070">
+            <form>copper</form>
+            <def>
+               <p>Symbol/formula: Cu</p>
+               <p>A soft, malleable, and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a pinkish-orange colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_125">
+            <form>porphyry</form>
+            <def>
+               <p>A hard, igneous purplish-red rock in which crystals of feldspar are embedded in a fine-grained groundmass.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_104">
+            <form>feldspar</form>
+            <def>
+               <p>An abundant rock-forming mineral typically occurring as colourless or pale-coloured crystals and consisting of aluminosilicates of potassium, sodium, and calcium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_074">
+            <form>chlorite</form>
+            <def>
+               <p>Green hydrous silicates of magnesia and alumina occuring in ancient rock formations.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_101">
+            <form>mica</form>
+            <def>
+               <p>A shiny silicate mineral with a layered structure, found as minute scales in granite and other rocks, or as crystals.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_095">
+            <form>micaceous shist</form>
+            <def>
+               <p>A rock composed of mica and quartz.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_010">
+            <form>lime</form>
+            <def>
+               <p>Symbol/formula: CaO</p>
+               <p>Commonly known as quicklime or burnt lime, calcium oxide is a widely used chemical compound. It is a white, caustic, alkaline, crystalline solid at room temperature.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_105">
+            <form>basalt</form>
+            <def>
+               <p>A dark grey to black dense to fine-grained igneous rock that consists of basic plagioclase, augite, and usually magnetite. More than 90% of volcanic rock on earth is basaltic.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_100">
+            <form>gneis</form>
+            <def>
+               <p>Gneiss is a common type of metamorphic rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_183">
+            <form>trass</form>
+            <def>
+               <p>A grey or cream-coloured fragmental rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_406">
+            <form>calcite</form>
+            <def>
+               <p>Symbol/formula: CaCO3</p>
+               <p>Calcite is a carbonate mineral and the most stable polymorph of calcium carbonate. Davy refers to it as Calcareous Spar.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_109">
+            <form>carbonate of lime</form>
+            <def>
+               <p>Symbol/formula: CaCO3</p>
+               <p>Calcium carbonate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_122">
+            <form>silicious</form>
+            <def>
+               <p>Symbol/formula: SiO2</p>
+               <p>Siliceous rocks: any of a group of sedimentary rocks that consist largely or almost entirely of silicon dioxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_075">
+            <form>serpentine</form>
+            <def>
+               <p>A metamorphic rock containing one or more of the serpentine group minerals.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_103">
+            <form>hornblende</form>
+            <def>
+               <p>A dark brown, black, or green mineral consisting of a silicate of calcium, magnesium, and iron, occurring in many igneous and metamorphic rocks.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_119">
+            <form>zeolite</form>
+            <def>
+               <p>Any member of a family of hydrated aluminosilicate minerals that contain alkali and alkaline-earth metals.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_421">
+            <form>agate</form>
+            <def>
+               <p>A type of quartz primarily formed within metamorphic and volcanic rocks. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_106">
+            <form>flint</form>
+            <def>
+               <p>Occasionally flintstone. A sedimentary cryptocrystalline form of the mineral quartz, categorised as the variety of chert that occurs in chalk or marly limestone.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_223">
+            <form>columnar basalt</form>
+            <def>
+               <p>Columnar basalt, like that found at the Giant's Causeway, County Antrim, Northern Ireland, is formed by the cooling process of the basalt lava flow.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_146">
+            <form>zeolitic basalt</form>
+            <def>
+               <p>Zeolites (minerals that contain mainly aluminum and silicon compounds) within basalt.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_121">
+            <form>augite</form>
+            <def>
+               <p>The most common pyroxene mineral (a silicate of calcium, magnesium, iron, titanium, and aluminum).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_493">
+            <form>Lapis Lydius</form>
+            <def>
+               <p>touch-stone; basanite; a variety of siliceous slate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_224">
+            <form>Portrush basalt</form>
+            <def>
+               <p>Portrush basalt is a blend of mudstone (with fossils) and an igneous intrusion of dolerite. It was first identified in 1799.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_459">
+            <form>chert </form>
+            <def>
+               <p>A hard, dark, opaque rock composed of silica with an amorphous or microscopically fine-grained texture.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_494">
+            <form>Analcime</form>
+            <def>
+               <p>Symbol/formula: NaAlSi₂O₆ · H₂O</p>
+               <p>Analcime or analcite is a white, gray, or colorless tectosilicate mineral. Analcime consists of hydrated sodium aluminium silicate in cubic crystalline form.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_034">
+            <form>silex</form>
+            <def>
+               <p>Symbol/formula: SiO2</p>
+               <p>Silica, an oxide of silicon.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_108">
+            <form>alumine</form>
+            <def>
+               <p>Symbol/formula: AL2O3</p>
+               <p>Alumine is an archaic name for alumina, which is aluminium oxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_140">
+            <form>charcoal</form>
+            <def>
+               <p>A lightweight black carbon residue produced by strongly heating wood (or other animal and plant materials) in minimal oxygen to remove all water and volatile constituents.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_124">
+            <form>jasper</form>
+            <def>
+               <p>Symbol/formula: SiO2</p>
+               <p>An opaque reddish-brown semi-precious stone consisting of a variety of chalcedony.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_184">
+            <form>shell limestone</form>
+            <def>
+               <p>A type of limestone composed largely of shells.</p>
+            </def>
+         </nym>
+      </listNym>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_697" type="description">
+            <term id="misc_697-term">Hill of Arder/Arden</term>
+            <gloss id="misc_697-gloss" target="#misc_697-term">
+               <p>Hill near Edgeworthstown, Ireland. We could not trace its exact location. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_542" type="description">
+            <term id="misc_542-term">Puddingstone</term>
+            <gloss id="misc_542-gloss" target="#misc_542-term">
+               <p>A popular name applied to a conglomerate that consists of distinctly rounded pebbles whose colours contrast sharply with the colour of the finer-grained, often sandy, matrix or cement surrounding them</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_800" type="description">
+            <term id="misc_800-term">Dike</term>
+            <gloss id="misc_800-gloss" target="#misc_800-term">
+               <p>A dike or dyke is a sheet of rock that is formed in a fracture of a pre-existing rock body. Dikes can be either magmatic or sedimentary in origin. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_583" type="description">
+            <term id="misc_583-term">Fionn mac Cumhaill</term>
+            <gloss id="misc_583-gloss" target="#misc_583-term">
+               <p>Finn McCool. A hero in Irish mythology, as well as in later Scottish and Manx folklore. Legend has it he built the Giant's Causeway as stepping-stones to Scotland, so as not to get his feet wet.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_698" type="description">
+            <term id="misc_698-term">Feague</term>
+            <gloss id="misc_698-gloss" target="#misc_698-term">
+               <p>An Irish dialect word recorded by Davy. He does not give a meaning, but it is possibly related to the Irish Feach (to see).</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_699" type="description">
+            <term id="misc_699-term">Covenanters</term>
+            <gloss id="misc_699-gloss" target="#misc_699-term">
+               <p>Covenanters were members of a 17th-century Scottish religious and political movement, who supported a Presbyterian Church of Scotland and the primacy of its leaders in religious affairs. It originated in disputes with James VI and his son Charles I over church organisation and doctrine, but expanded into political conflict over the limits of Royal authority.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_700" type="description">
+            <term id="misc_700-term">Cockle</term>
+            <gloss id="misc_700-gloss" target="#misc_700-term">
+               <p>A cockle is an edible marine bivalve mollusc. Although many small edible bivalves are loosely called cockles, true cockles are species in the family Cardiidae.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_701" type="description">
+            <term id="misc_701-term">Entrochi</term>
+            <gloss id="misc_701-gloss" target="#misc_701-term">
+               <p>A fossil joint of a crinoid stem.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listBibl>
+         <bibl xml:id="otherwork_031">
+            <author>Maria Edgeworth</author>
+            <title level="j">Castle Rackrent</title>
+            <date when="1800">1800</date>
+         </bibl>
+         <bibl xml:id="otherwork_097">
+            <author>James Hutton</author>
+            <title level="j">Theory of the Earth</title>
+            <date when="1794">1794</date>
+         </bibl>
+      </listBibl>
+   </standOff>
+</TEI>

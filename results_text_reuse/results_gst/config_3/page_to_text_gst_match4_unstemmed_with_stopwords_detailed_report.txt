@@ -1,0 +1,274 @@
+================================================================================
+GST TEXT REUSE DETECTION RESULTS - PAGE_TO_TEXT_GST_MATCH4_UNSTEMMED_WITH_STOPWORDS
+Analysis Date: 2025-09-25 11:05:29
+Method: GST (Greedy String Tiling) Algorithm
+Minimum Match Length: 4
+Similarity Threshold: 0.35
+Stemming Used: False
+Stopwords Removed: False
+================================================================================
+
+SUMMARY
+----------------------------------------
+Total text reuse instances found: 15
+Processing time: 29.00 seconds
+Segments analyzed: 499
+Comparisons made: 124029
+Average GST similarity: 0.470
+GST similarity range: 0.357 - 0.678
+Average matches per instance: 2.9
+Average match length: 22.8 tokens
+Total matches found: 43
+High similarity instances (≥0.8): 0
+Medium similarity instances (0.5-0.8): 4
+Low similarity instances (<0.5): 11
+Reuse rate: 0.0001
+
+================================================================================
+
+DETAILED TEXT REUSE INSTANCES
+================================================================================
+Showing all 15 instances (sorted by GST similarity):
+
+Instance 1:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 101 ↔ 107
+ GST Similarity: 0.678
+ Total Match Length: 43 tokens
+ Matches Found: 5
+ Average Match Length: 8.6 tokens
+ Max Match Length: 18 tokens
+ Text 1 (14g): From it the poets glories rise Which pass beyond our human being To things of other worlds & skies Carrying the prophets gift of seeing, By it the rud...
+ Text 2 (14g): 103 -. From it the Poets glories rise Which pass beyond our human being - To things of other worlds & skies Kindling Carrying the prophets gift of see...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+--------------------------------------------------------------------------------
+Instance 2:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 100 ↔ 103
+ GST Similarity: 0.562
+ Total Match Length: 37 tokens
+ Matches Found: 5
+ Average Match Length: 7.4 tokens
+ Max Match Length: 10 tokens
+ Text 1 (14g): Let it on friendships tranquil hours A stedfast may day sunshine beam Making a field of fruits & flowers Such as the Bards elisian dream. To kindness ...
+ Text 2 (14g): 99 Let not this gift which is from heaven Shine as a meteors transient light Or as the lightnings flashes given Amidst the gloom to pain our sight. - ...
+--------------------------------------------------------------------------------
+Instance 3:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 157 ↔ 163
+ GST Similarity: 0.536
+ Total Match Length: 10 tokens
+ Matches Found: 1
+ Average Match Length: 10.0 tokens
+ Max Match Length: 10 tokens
+ Text 1 (14e): Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .
+ Text 2 (14e): At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We cat...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+--------------------------------------------------------------------------------
+Instance 4:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 157 ↔ 156
+ GST Similarity: 0.520
+ Total Match Length: 9 tokens
+ Matches Found: 1
+ Average Match Length: 9.0 tokens
+ Max Match Length: 9 tokens
+ Text 1 (14e): Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .
+ Text 2 (14g): when I return } return } . + , 6.12 1 On the road to the Baths of Lucca Baths of Lucca Baths of Lucca layers of Limestone & chert very near each other...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+--------------------------------------------------------------------------------
+Instance 5:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 99 ↔ 104
+ GST Similarity: 0.486
+ Total Match Length: 13 tokens
+ Matches Found: 2
+ Average Match Length: 6.5 tokens
+ Max Match Length: 8 tokens
+ Text 1 (14g): The torrent roaring from the moun- tain Which ravages a hundred fields Conducted tranquil from its fountain Bloom freshness, verdure, plenty yields. H...
+ Text 2 (14g): Give it its attribute divine But still subdue control repress The torrent roaring from the mountain Which ravages a thousand hundred fields Conducted ...
+--------------------------------------------------------------------------------
+
+Instance 6:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 163 ↔ 22
+ GST Similarity: 0.478
+ Total Match Length: 26 tokens
+ Matches Found: 3
+ Average Match Length: 8.7 tokens
+ Max Match Length: 15 tokens
+ Text 1 (14e): At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We cat...
+ Text 2 (14g): Ye moving stars, ye animated lamps Ye moving stars, ye animated lamps Ye moving stars that flit across the glade Ye animated lamps that midst the shad...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Lucignano', 'description': 'municipality in the Province of Arezzo in the Italian region Tuscany', 'id': 'place_1245'}]
+--------------------------------------------------------------------------------
+Instance 7:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 155 ↔ 27
+ GST Similarity: 0.473
+ Total Match Length: 39 tokens
+ Matches Found: 5
+ Average Match Length: 7.8 tokens
+ Max Match Length: 21 tokens
+ Text 1 (14e): Nursing those lofty thoughts that in the mind Spontaneous rise, blending their sacred powers With images from moutain & from flood From chesnut groves...
+ Text 2 (14g): 25 To look on Nature with a poets eye Nursing those lofty thoughts which in the mind Spontaneous arise & blending all their power With images from mou...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ravenna', 'description': 'Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.', 'id': 'place_245'}, {'name': 'Serchio', 'description': 'The third longest river in the Italian region of Tuscany at 126 kilometres.', 'id': 'place_932'}, {'name': 'Tiber River', 'description': 'The Tiber River is the third longest river in Italy. Rome is located on its banks.', 'id': 'place_615'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}, {'name': 'Serchio', 'description': 'The third longest river in the Italian region of Tuscany at 126 kilometres.', 'id': 'place_932'}, {'name': 'Tiber River', 'description': 'The Tiber River is the third longest river in Italy. Rome is located on its banks.', 'id': 'place_615'}]
+--------------------------------------------------------------------------------
+Instance 8:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 154 ↔ 27
+ GST Similarity: 0.471
+ Total Match Length: 32 tokens
+ Matches Found: 5
+ Average Match Length: 6.4 tokens
+ Max Match Length: 11 tokens
+ Text 1 (14e): 151 By the imperial citys fallen walls Laying bare the bones of heroes & the monuments And Of generations of the ages past Or we might rest on that cl...
+ Text 2 (14g): Layin bare the bones of heroes & the monuments And records of the generations past. - Or wilt thou pass to that cloud covered hill Whose marble rocks ...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Apennines', 'description': 'The Apennines are a range of mountains that run down the spine of peninsular Italy.', 'id': 'place_530'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}, {'name': 'Serchio', 'description': 'The third longest river in the Italian region of Tuscany at 126 kilometres.', 'id': 'place_932'}, {'name': 'Tiber River', 'description': 'The Tiber River is the third longest river in Italy. Rome is located on its banks.', 'id': 'place_615'}]
+--------------------------------------------------------------------------------
+Instance 9:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 99 ↔ 104
+ GST Similarity: 0.443
+ Total Match Length: 31 tokens
+ Matches Found: 2
+ Average Match Length: 15.5 tokens
+ Max Match Length: 19 tokens
+ Text 1 (14g): 95 And think that life's quick troubled stream Is made more troubled by the blast. - When touched by timid fingers weak Know that Affection's like the...
+ Text 2 (14g): When the thunder cloud is darkest It is nearest to its fall. And the gloom thou sadly markest Is no inmate of th e y soul Feelings rays when too conce...
+--------------------------------------------------------------------------------
+Instance 10:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 101 ↔ 108
+ GST Similarity: 0.434
+ Total Match Length: 21 tokens
+ Matches Found: 4
+ Average Match Length: 5.2 tokens
+ Max Match Length: 9 tokens
+ Text 1 (14g): 97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold &...
+ Text 2 (14g): It wakens in the mother's kiss It breathes profound in lovers sighs Dove like it rests it rests upon the dark abyss And never And never , never dies._...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Metadata Text 2 (14g):
+  persons: [{'name': 'Prometheus', 'birth': None, 'death': None, 'description': 'In Greek mythology, defied the Olympian gods by stealing fire and giving it to humans.', 'id': 'person_275'}]
+--------------------------------------------------------------------------------
+
+Instance 11:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 157 ↔ 101
+ GST Similarity: 0.429
+ Total Match Length: 9 tokens
+ Matches Found: 1
+ Average Match Length: 9.0 tokens
+ Max Match Length: 9 tokens
+ Text 1 (14e): Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .
+ Text 2 (14g): 97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold &...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+--------------------------------------------------------------------------------
+Instance 12:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 163 ↔ 22
+ GST Similarity: 0.411
+ Total Match Length: 23 tokens
+ Matches Found: 3
+ Average Match Length: 7.7 tokens
+ Max Match Length: 10 tokens
+ Text 1 (14e): In infancy The origin of life is lost to memory Yet powers existed of a glorious nature Reason & thought & feeling, How we know not Nor is there aught...
+ Text 2 (14g): Yet power arises Reason & thought & thought & feeling how we know not nor is there aught that teaches in from what xxxxx the immortal flame of human l...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Lucignano', 'description': 'municipality in the Province of Arezzo in the Italian region Tuscany', 'id': 'place_1245'}]
+--------------------------------------------------------------------------------
+Instance 13:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 157 ↔ 92
+ GST Similarity: 0.405
+ Total Match Length: 9 tokens
+ Matches Found: 1
+ Average Match Length: 9.0 tokens
+ Max Match Length: 9 tokens
+ Text 1 (14e): Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .
+ Text 2 (14g): The thermal water of the Baths of Lucca Baths of Lucca Baths of Lucca where its temperature is the high- est at the Baths called the " Bagni Caldi Bag...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}]
+--------------------------------------------------------------------------------
+Instance 14:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 154 ↔ 28
+ GST Similarity: 0.373
+ Total Match Length: 14 tokens
+ Matches Found: 2
+ Average Match Length: 7.0 tokens
+ Max Match Length: 10 tokens
+ Text 1 (14e): Whose sacred source Hygeia loves. There my weary limbs I have might repose beneath the shade Of chesnuts whose time worn trunks proclaim Their xx of o...
+ Text 2 (14g): But which the wild Bee knows & ever haunts. - And whence descends your balmy influence Ye waters tepid from the sleeping fires Of ancient Appenine who...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Apennines', 'description': 'The Apennines are a range of mountains that run down the spine of peninsular Italy.', 'id': 'place_530'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Apennines', 'description': 'The Apennines are a range of mountains that run down the spine of peninsular Italy.', 'id': 'place_530'}]
+--------------------------------------------------------------------------------
+Instance 15:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 99 ↔ 102
+ GST Similarity: 0.357
+ Total Match Length: 26 tokens
+ Matches Found: 3
+ Average Match Length: 8.7 tokens
+ Max Match Length: 10 tokens
+ Text 1 (14g): 95 And think that life's quick troubled stream Is made more troubled by the blast. - When touched by timid fingers weak Know that Affection's like the...
+ Text 2 (14g): Failings forget & let the beam of charity o'er all be cast And think that lifes quick troubled stream Is made more troubled by the blast 2 When touche...
+--------------------------------------------------------------------------------
+
+END OF DETAILED REPORT
+================================================================================

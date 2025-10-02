@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standOff>
+      <listPerson>
+         <person xml:id="person_421">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Sigmund</forename>
+               <surname>Zois</surname>
+            </persName>
+            <birth when="1747"/>
+            <death when="1819"/>
+            <note>Wealthy mining magnate in what is now Slovenia. A influential intellectual  and keen amateur mineralogist.</note>
+         </person>
+         <person xml:id="person_143">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Benjamin</forename>
+               <surname>Thompson</surname>
+            </persName>
+            <birth when="1753"/>
+            <death when="1814"/>
+            <note>Born in Massachusetts, he served in the British and Bavarian armies. Knighted by George III in 1787, the Elector of Bavaria created him Reichsgraf von Rumford of the Holy Roman Empire in 1792. His appointment in the late 1790s as Bavarian ambassador to London created a minor diplomatic incident, during which he helped establish and manage the Royal Institution, in the course of which he appointed Davy to lecture there. Later he married Lavoisier's widow and lived unhappily ever after. FRSL.</note>
+         </person>
+         <person xml:id="person_784">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Daniel Gabriel</forename>
+               <surname>Fahrenheit</surname>
+            </persName>
+            <birth when="1686"/>
+            <death when="1736"/>
+            <note>German physicist, inventor, and scientific instrument maker, who invented the mercury-in-glass thermometer. The temperature scale he proposed is named after him. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_368">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Horace Bénédict de</forename>
+               <surname>Saussure</surname>
+            </persName>
+            <birth when="1740"/>
+            <death when="1799"/>
+            <note>Genevan geologist, meteorologist, physicist, mountaineer and Alpine expolorer. Often referred to as the founder of Alpinism and modern meteorology.</note>
+         </person>
+         <person xml:id="person_349">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jöns Jacob</forename>
+               <surname>Berzelius</surname>
+            </persName>
+            <birth when="1779"/>
+            <death when="1848"/>
+            <note>Swedish chemist. He discovered the chemical elements cerium and selenium, and was the first to isolate silicon, thorium, titanium, and zirconium. A rival of Davy's whom he met a few times.</note>
+         </person>
+         <person xml:id="person_183">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Nickolas</forename>
+               <surname>Esterhazy</surname>
+            </persName>
+            <birth when="1765"/>
+            <death when="1833"/>
+            <note>Hungarian prince and patron of the arts, especially music. Davy presented him with a copy of Salmonia.</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="place_216">
+            <placeName>Ljubljana</placeName>
+            <location>
+               <geo decls="#WGS84">46.0499115316446,  14.5106411196598</geo>
+            </location>
+            <note>Also known as Laybach or Laibach. Ljubljana is the capital city of Slovenia.</note>
+         </place>
+         <place xml:id="place_519">
+            <placeName>Trieste</placeName>
+            <location>
+               <geo decls="#WGS84">45.64914024195718,  13.7783404473657</geo>
+            </location>
+            <note>Trieste is the capital city of the Friuli Venezia Giulia region in north-east Italy. A port city, it occupies a thin strip of land between the Adriatic coast and Slovenia’s border on the limestone-dominated Karst Plateau.</note>
+         </place>
+         <place xml:id="place_688">
+            <placeName>Regensburg</placeName>
+            <location>
+               <geo decls="#WGS84">49.016509464292604, 12.106049271122201</geo>
+            </location>
+            <note>Also known as Ratisbon. Regensburg is a city in Bavaria at the confluence of the Danube, Naab, and Regen rivers.</note>
+         </place>
+         <place xml:id="place_898">
+            <placeName>Vienna</placeName>
+            <location>
+               <geo decls="#WGS84">48.206831, 16.372845000000002</geo>
+            </location>
+            <note>Austria’s capital, lies in the country’s east on the Danube River. </note>
+         </place>
+         <place xml:id="place_217">
+            <placeName>River Danube</placeName>
+            <location>
+               <geo decls="#WGS84">44.80660983492613,  21.293850285131601</geo>
+            </location>
+            <note>The Danube is the second longest river in Europe. It flows through central and south eastern Europe into the Black Sea.</note>
+         </place>
+         <place xml:id="place_686">
+            <placeName>Passau</placeName>
+            <location>
+               <geo decls="#WGS84">48.56660455351225,  13.432741815292299</geo>
+            </location>
+            <note>Passau, a German city on the Austrian border, lies at the confluence of the Danube, Inn, and Ilz Rivers. Known as the Three Rivers City, it is overlooked by the Veste Oberhaus, a 13th-century hilltop fortress.</note>
+         </place>
+         <place xml:id="place_687">
+            <placeName>Linz</placeName>
+            <location>
+               <geo decls="#WGS84">48.306598392029095,  14.2862062699283</geo>
+            </location>
+            <note>Linz is a city in Upper Austria, straddling the Danube River midway between Salzburg and Vienna.</note>
+         </place>
+         <place xml:id="place_841">
+            <placeName>Dürnstein Castle</placeName>
+            <location>
+               <geo decls="#WGS84">48.39600869648065,  15.515646405832999</geo>
+            </location>
+            <note>Dürnstein Castle is the ruin of a medieval rock castle in Austria, and where Richard I, English King, was once held captive. It is located in Dürnstein, in the Lower Austrian Wachau region on the Danube River.</note>
+         </place>
+         <place xml:id="place_899">
+            <placeName>Stein</placeName>
+            <location>
+               <geo decls="#WGS84">46.998732,  16.083957000000002</geo>
+            </location>
+            <note>A former municipality in the district of Hartberg-Fürstenfeld in Styria, Austria.</note>
+         </place>
+         <place xml:id="place_1027">
+            <placeName>Hungary</placeName>
+            <location>
+               <geo decls="#WGS84">46.97032814103613,  19.472080165728201</geo>
+            </location>
+            <note>a landlocked country in Central Europe. Its capital, Budapest, is bisected by the Danube River.</note>
+         </place>
+         <place xml:id="place_165">
+            <placeName>Mont Blanc</placeName>
+            <location>
+               <geo decls="#WGS84">45.844209518234798 6.8679950620143497</geo>
+            </location>
+            <note>Mont Blanc is the highest mountain in the Alps and Western Europe, and the highest mountain in Europe outside the Caucasus Mountains.</note>
+         </place>
+         <place xml:id="place_556">
+            <placeName>Eisenerz</placeName>
+            <location>
+               <geo decls="#WGS84">47.54313468495402,  14.8847365353379</geo>
+            </location>
+            <note>Eisenerz is an old mining and market town in the Austrian state of Styria.</note>
+         </place>
+         <place xml:id="place_196">
+            <placeName>Styria</placeName>
+            <location>
+               <geo decls="#WGS84">47.05040684581984,  15.438371606128401</geo>
+            </location>
+            <note>Styria is a state in the south-east of Austria.</note>
+         </place>
+         <place xml:id="place_675">
+            <placeName>St. Gallen</placeName>
+            <location>
+               <geo decls="#WGS84">47.722694911020064,  14.6529365179683</geo>
+            </location>
+            <note>Saint Gallen is a town in the Austrian state of Styria.</note>
+         </place>
+         <place xml:id="place_900">
+            <placeName>Grimming</placeName>
+            <location>
+               <geo decls="#WGS84">47.516374,  14.016495000000001</geo>
+            </location>
+            <note>An isolated peak in the Dachstein Mountains of Austria and one of the few ultra-prominent mountains of the Alps. </note>
+         </place>
+         <place xml:id="place_652">
+            <placeName>Buchstein</placeName>
+            <location>
+               <geo decls="#WGS84">47.600028304246564, 14.583290380012199</geo>
+            </location>
+            <note>Grosser Buchstein is a mountain in Styria, Austria.</note>
+         </place>
+         <place xml:id="place_901">
+            <placeName>Hallein</placeName>
+            <location>
+               <geo decls="#WGS84">47.681435, 13.100291</geo>
+            </location>
+            <note>A historic town in the Austrian state of Salzburg. It is the capital of Hallein district.</note>
+         </place>
+         <place xml:id="place_259">
+            <placeName>Hallstätter See</placeName>
+            <location>
+               <geo decls="#WGS84">47.56279953636864,  13.649374431815</geo>
+            </location>
+            <note>Hallstatter is a lake in Austria named after the small town on its shore.</note>
+         </place>
+         <place xml:id="place_229">
+            <placeName>Bad Aussee</placeName>
+            <location>
+               <geo decls="#WGS84">47.609085203379486,  13.784228468196799</geo>
+            </location>
+            <note>In Styria (Bad Aussee). Bad Aussee is a town in the Austrian state of Styria located at the confluence of the three sources of the Traun River.</note>
+         </place>
+         <place xml:id="place_902">
+            <placeName>Hallstatt</placeName>
+            <location>
+               <geo decls="#WGS84">47.557307,  13.644603</geo>
+            </location>
+            <note>A village on Lake Hallstatt's western shore in Austria's mountainous Salzkammergut region.</note>
+         </place>
+         <place xml:id="place_085">
+            <placeName>Derbyshire</placeName>
+            <location>
+               <geo decls="#WGS84">52.921826207569474, -1.4773493148619199</geo>
+            </location>
+            <note>Derbyshire is a county in the East Midlands and includes part of the Peak District.</note>
+         </place>
+         <place xml:id="place_235">
+            <placeName>Scotland</placeName>
+            <location>
+               <geo decls="#WGS84">56.23014782410645,  -4.1646793652431802</geo>
+            </location>
+         </place>
+         <place xml:id="place_018">
+            <placeName>Ireland</placeName>
+            <location>
+               <geo decls="#WGS84">53.155810906848316,  -8.0218848181146107</geo>
+            </location>
+         </place>
+         <place xml:id="place_162">
+            <placeName>Devon</placeName>
+            <location>
+               <geo decls="#WGS84">50.7831111085829,  -3.8387768410054801</geo>
+            </location>
+            <note>A county in south-west England.</note>
+         </place>
+         <place xml:id="place_555">
+            <placeName>Graz</placeName>
+            <location>
+               <geo decls="#WGS84">47.07078370179335,  15.442304884110699</geo>
+            </location>
+            <note>Graz is Austria's second largest city.</note>
+         </place>
+         <place xml:id="place_197">
+            <placeName>Salzburg</placeName>
+            <location>
+               <geo decls="#WGS84">47.809491749246575,  13.055914715861899</geo>
+            </location>
+            <note>Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps. </note>
+         </place>
+         <place xml:id="place_677">
+            <placeName>Berchtesgaden</placeName>
+            <location>
+               <geo decls="#WGS84">47.6298939863413, 13.0003811073124</geo>
+            </location>
+            <note>Berchtesgaden is a town in Bavaria, close to the border with Austria.</note>
+         </place>
+         <place xml:id="place_317">
+            <placeName>Salza River</placeName>
+            <location>
+               <geo decls="#WGS84">47.71177031436089,  14.8328113332614</geo>
+            </location>
+            <note>The Salza River is an eastern tributary to the Enns River in Lower Austria.</note>
+         </place>
+         <place xml:id="place_329">
+            <placeName>Carinthia</placeName>
+            <location>
+               <geo decls="#WGS84">47.71177031436089,  14.8328113332614</geo>
+            </location>
+            <note>Carinthia is the southernmost Austrian State.</note>
+         </place>
+         <place xml:id="place_680">
+            <placeName>Radstadt</placeName>
+            <location>
+               <geo decls="#WGS84">47.3863245180106, 13.465758622324801</geo>
+            </location>
+            <note>Radstadt is a town in the Austrian state of Salzburg.</note>
+         </place>
+         <place xml:id="place_843">
+            <placeName>Kirchberg</placeName>
+            <location>
+               <geo decls="#WGS84">47.538778841079,  12.530360940701</geo>
+            </location>
+            <note>In Styria, Austria.</note>
+         </place>
+         <place xml:id="place_685">
+            <placeName>New Holland</placeName>
+            <location>
+               <geo decls="#WGS84">-25.03184972275345, 136.06930009894401</geo>
+            </location>
+            <note>New Holland was the name first given to Australia by the Dutch seafarer, Abel Tasman.</note>
+         </place>
+         <place xml:id="place_1337">
+            <placeName>Watzmann</placeName>
+            <location>
+               <geo decls="#WGS84">47.55204273899712,  12.9205829063346</geo>
+            </location>
+            <note>a mountain in the Berchtesgaden Alps south of the village of Berchtesgaden. It is the third highest in Germany, and the highest located entirely on German territory.</note>
+         </place>
+         <place xml:id="place_260">
+            <placeName>Drava River</placeName>
+            <location>
+               <geo decls="#WGS84">46.61613332375922,  14.969751846645201</geo>
+            </location>
+            <note>The Drava is a river in central southern Europe and is the fifth longest tributary of the Danube.</note>
+         </place>
+         <place xml:id="place_427">
+            <placeName>Madelena Grotto</placeName>
+            <location>
+               <geo decls="#WGS84">45.783145771619814,  14.2044747013333</geo>
+            </location>
+            <note>Probably Maddalena Cave, a part of the larger Postojna Cave in Slovenia.</note>
+         </place>
+         <place xml:id="place_181">
+            <placeName>Carniola</placeName>
+            <location>
+               <geo decls="#WGS84">46.12155655886422,  14.508615407320001</geo>
+            </location>
+            <note>The Alpine region whose capital was Laybach (now Ljubljana). In 1827, Carniola was a Duchy within the Austrian Kingdom of Illyria.</note>
+         </place>
+         <place xml:id="place_674">
+            <placeName>Klagenfurt</placeName>
+            <location>
+               <geo decls="#WGS84">46.6224422006652, 14.300221347881999</geo>
+            </location>
+            <note>Klagenfurt is the capital city of the Austrian state of Carinthia.</note>
+         </place>
+         <place xml:id="place_689">
+            <placeName>Hainfeld</placeName>
+            <location>
+               <geo decls="#WGS84">48.034030330021245, 15.773379318148599</geo>
+            </location>
+            <note>Hainfeld is a town in Lower Austria.</note>
+         </place>
+         <place xml:id="place_693">
+            <placeName>Raab</placeName>
+            <location>
+               <geo decls="#WGS84">48.352428283713266, 13.6470234386925</geo>
+            </location>
+            <note>Raab is a town in Upper Austria.</note>
+         </place>
+         <place xml:id="place_261">
+            <placeName>Admont</placeName>
+            <location>
+               <geo decls="#WGS84">47.57321737705793,  14.4623080167958</geo>
+            </location>
+            <note>Admont is a town in the Austrian state of Styria. </note>
+         </place>
+         <place xml:id="place_691">
+            <placeName>Lackenbach</placeName>
+            <location>
+               <geo decls="#WGS84">47.59248776860229, 16.4641724620212</geo>
+            </location>
+            <note>Lackenbach is a town in eastern Austria.</note>
+         </place>
+         <place xml:id="place_692">
+            <placeName>Bovey Formation (Devon)</placeName>
+            <location>
+               <geo decls="#WGS84">50.64650224978943, -3.7954498145753601</geo>
+            </location>
+            <note>The Bovey Formation in Devon contains lignite, a poor brown coal with a visibly woody structure.</note>
+         </place>
+         <place xml:id="place_903">
+            <placeName>Kaposvár</placeName>
+            <location>
+               <geo decls="#WGS84">46.357371, 17.796241999999999</geo>
+            </location>
+            <note>A city with county rights in the southwestern part of Hungary, south of Lake Balaton.</note>
+         </place>
+         <place xml:id="place_904">
+            <placeName>Lake Neusiedl</placeName>
+            <location>
+               <geo decls="#WGS84">47.856259,  16.778607000000001</geo>
+            </location>
+            <note>The largest endorheic lake in Central Europe, straddling the Austrian–Hungarian border. </note>
+         </place>
+         <place xml:id="place_695">
+            <placeName>Solfatara di Pomezia</placeName>
+            <location>
+               <geo decls="#WGS84">41.70528297819038, 12.5388768699293</geo>
+            </location>
+            <note>Solfatara di Pomezia is part of a nature reserve near Rome, Italy.</note>
+         </place>
+         <place xml:id="place_780">
+            <placeName>Enns</placeName>
+            <location>
+               <geo decls="#WGS84">48.16646020110663,  14.481477776347999</geo>
+            </location>
+            <note>A tributary of the Danube River, and once a major iron-ore transport route.</note>
+         </place>
+         <place xml:id="place_184">
+            <placeName>Mount Etna</placeName>
+            <location>
+               <geo decls="#WGS84">37.751123181461516,  14.9934134370738</geo>
+            </location>
+            <note>Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.</note>
+         </place>
+         <place xml:id="place_097">
+            <placeName>Italy</placeName>
+            <location>
+               <geo decls="#WGS84">43.01250014383429, 12.4664638037258</geo>
+            </location>
+         </place>
+         <place xml:id="place_199">
+            <placeName>The Colosseum</placeName>
+            <location>
+               <geo decls="#WGS84">41.8902820604661, 12.4922201699321</geo>
+            </location>
+            <note>The Colosseum, the largest amphitheatre ever built, is located in the centre of Rome. Now a ruin, its construction began 2,000 years ago.</note>
+         </place>
+         <place xml:id="place_612">
+            <placeName>Campagna</placeName>
+            <location>
+               <geo decls="#WGS84">42.01386289561676,  12.580516600159299</geo>
+            </location>
+            <note>The Roman Campagna is an area of low-lying countryside surrounding Rome, where both the Tiber and Aniene Rivers flow.</note>
+         </place>
+         <place xml:id="place_156">
+            <placeName>Naples</placeName>
+            <location>
+               <geo decls="#WGS84">40.85176026322066,  14.2037545535986</geo>
+            </location>
+            <note>Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.</note>
+         </place>
+         <place xml:id="place_530">
+            <placeName>Apennines</placeName>
+            <location>
+               <geo decls="#WGS84">43.34059414141849,  12.5189918024249</geo>
+            </location>
+            <note>The Apennines are a range of mountains that run down the spine of peninsular Italy.</note>
+         </place>
+         <place xml:id="place_407">
+            <placeName>Pompeii</placeName>
+            <location>
+               <geo decls="#WGS84">40.747249521286264, 14.4988069931492</geo>
+            </location>
+            <note>An ancient city located in what is now the comune of Pompei near Naples in the Campania region of Italy. Pompeii was buried in volcanic ash in the Eruption of Mount Vesuvius in 79 CE. </note>
+         </place>
+         <place xml:id="place_906">
+            <placeName>Caspian sea</placeName>
+            <location>
+               <geo decls="#WGS84">42.186029,  50.828941</geo>
+            </location>
+            <note>The world's largest inland body of water, often described as the world's largest lake or a full-fledged sea.</note>
+         </place>
+         <place xml:id="place_266">
+            <placeName>Rhine</placeName>
+            <location>
+               <geo decls="#WGS84">50.77075749149334,  7.07110845726082</geo>
+            </location>
+            <note>The Rhine is one of Europe's major rivers. It rises in Switzerland, flows through Germany, and enters the North Sea in the Netherlands.</note>
+         </place>
+         <place xml:id="place_704">
+            <placeName>Bay of Naples</placeName>
+            <location>
+               <geo decls="#WGS84">40.69465257318306, 14.145487978446299</geo>
+            </location>
+            <note>The Bay (or Gulf) of Naples is located on the south-western coast of Italy, with Naples to the north, Vesuvius to the east, and the Sorrento Peninsula to the south.</note>
+         </place>
+         <place xml:id="place_1191">
+            <placeName>Mediterranean Sea</placeName>
+            <note>Connected to the Atlantic Ocean and almost completely surrounded by land.</note>
+         </place>
+         <place xml:id="place_908">
+            <placeName>Land's End</placeName>
+            <location>
+               <geo decls="#WGS84">50.065700,  -5.7132420000000002</geo>
+            </location>
+            <note>A headland in western Cornwall, the most westerly point of mainland England.</note>
+         </place>
+         <place xml:id="place_909">
+            <placeName>Lake Como</placeName>
+            <location>
+               <geo decls="#WGS84">46.007932,  9.2601130000000005</geo>
+            </location>
+            <note>A lake of glacial origin in Lombardy, Italy.</note>
+         </place>
+         <place xml:id="place_106">
+            <placeName>Lakes of Killarney</placeName>
+            <note>Three lakes (Lough Leane, Muckross Lake - also called Middle Lake, and Upper Lake) surrounded by the MacGillycuddy's Reeks and now part of Killarney National Park.</note>
+         </place>
+         <place xml:id="place_910">
+            <placeName>Celano</placeName>
+            <location>
+               <geo decls="#WGS84">42.081046,  13.544888</geo>
+            </location>
+            <note>A town and comune in the Province of L'Aquila, central Italy.</note>
+         </place>
+         <place xml:id="place_911">
+            <placeName>Niger</placeName>
+            <location>
+               <geo decls="#WGS84">14.228642,  -4.5024319999999998</geo>
+            </location>
+            <note>The main river of West Africa, extending about 4,180 km.</note>
+         </place>
+         <place xml:id="place_222">
+            <placeName>Africa</placeName>
+            <note>The world's second-largest and second-most populous continent.</note>
+         </place>
+         <place xml:id="place_657">
+            <placeName>Canigou</placeName>
+            <location>
+               <geo decls="#WGS84">42.51954599649726, 2.4566130846557601</geo>
+            </location>
+            <note>A mountain peak located in the Pyrenees of southern France. Davy made sketches and wrote a poem about The Canigou in notebook 14I.</note>
+         </place>
+         <place xml:id="place_809">
+            <placeName>Pyrénées-Orientales</placeName>
+            <location>
+               <geo decls="#WGS84">42.548520736836814, 2.2997684437160002</geo>
+            </location>
+            <note>The Eastern Pyrenees, also known as North Catalonia.</note>
+         </place>
+         <place xml:id="place_823">
+            <placeName>Hungary</placeName>
+            <location>
+               <geo decls="#WGS84">47.76855367305988,  18.959956623970001</geo>
+            </location>
+            <note>The North Hungarian Mountains stretch along the north-easten border of Hungary.</note>
+         </place>
+         <place xml:id="place_698">
+            <placeName>Flanders' Rhine</placeName>
+            <location>
+               <geo decls="#WGS84">51.621837655720896, 4.0224023469708801</geo>
+            </location>
+            <note>This is possibly the complex river delta that in corporates the Scheldt and Hollands Diep (the estuary of the Rhine and Meusse Rivers).</note>
+         </place>
+         <place xml:id="place_1204">
+            <placeName>Po Valley</placeName>
+            <location>
+               <geo decls="#WGS84">45.00102934404373,  10.503347199511699</geo>
+            </location>
+            <note>A vast plain area in Northern Italy, featuring the Po River.</note>
+         </place>
+         <place xml:id="place_169">
+            <placeName>Mount Vesuvius</placeName>
+            <location>
+               <geo decls="#WGS84">40.82295082311693,  14.4286697656167</geo>
+            </location>
+            <note>Mount Vesuvius is a somma-stratovolcano located on the Gulf of Naples in Campania, Italy.</note>
+         </place>
+      </listPlace>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_740" type="description">
+            <term id="misc_740-term">Rhind</term>
+            <gloss id="misc_740-gloss" target="#misc_740-term">
+               <p>Unidentified river. The third river at this confluence, besides the Danube and the Inn which Davy mentions is the Ilz.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_239" type="description">
+            <term id="misc_239-term">goitres</term>
+            <gloss id="misc_239-gloss" target="#misc_239-term">
+               <p>A lump or swelling at the front of the neck and enlargement of the thyroid in the neck which used to affect large parts of the population in the Alpine region, due to a lack of iodine in the Alpine soil and consequently in crops and fruit. Davy sometimes also uses this term to describe geological features.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_057" type="description">
+            <term id="misc_057-term">the Proteus</term>
+            <gloss id="misc_057-gloss" target="#misc_057-term">
+               <p>Known as the olm, a cave salamandera, which Davy sent specimens of to the natural historian Sir Everard Home.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_324" type="description">
+            <term id="misc_324-term">The Réaumur scale</term>
+            <gloss id="misc_324-gloss" target="#misc_324-term">
+               <p>A temperature scale for which the melting and boiling points of water are defined as 0 and 80 degrees respectively.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_744" type="description">
+            <term id="misc_744-term">If matter cannot be destroyed/The living mind can never die</term>
+            <gloss id="misc_744-gloss" target="#misc_744-term">
+               <p>John Davy published these lines as part of a poem in his Memoirs; see Collected Works, vol. 1, p.234.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_745" type="description">
+            <term id="misc_745-term">The things; that glorious on the earth [...] eternal sun arise</term>
+            <gloss id="misc_745-gloss" target="#misc_745-term">
+               <p>John Davy published these lines as part of a poem in his Memoirs; see Collected Works, vol. 1, p.234. In the first line, John replaces "The"with "All" and transcribes "most" instead of "that".</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_746" type="description">
+            <term id="misc_746-term">The transient rainbow tints of heaven</term>
+            <gloss id="misc_746-gloss" target="#misc_746-term">
+               <p>John Davy published this line as part of a poem in his Memoirs; see Collected Works, vol. 1, p.234. He replaces "transient rainbow" with " evanescent". </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_105" type="description">
+            <term id="misc_105-term">travertine</term>
+            <gloss id="misc_105-gloss" target="#misc_105-term">
+               <p>A form of terrestrial limestone deposited around mineral springs, especially hot springs.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listBibl>
+         <bibl xml:id="otherwork_310">
+            <author>Horace Bénédict de Saussure</author>
+            <title level="j">Voyages dans les Alpes</title>
+            <date when="1796">1796</date>
+            <note>an accompanying number indicates the paragraph in one of the four volumes: Vol 1: §§ 1 - 606, Vol 2: §§ 606 - 1156, Vol 3: §§ 1157 - 1793, Vol 4: §§ 1794 - 2327</note>
+         </bibl>
+      </listBibl>
+      <listNym type="chemical">
+         <nym xml:id="chemical_022">
+            <form>oxygene</form>
+            <def>
+               <p>Symbol/formula: O</p>
+               <p>Now known as oxygen. Oxygen is a colourless, odourless, tasteless gas essential to living organisms.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_017">
+            <form>nitrogene</form>
+            <def>
+               <p>Symbol/formula: N</p>
+               <p>Now known as nitrogen. A colourless and odourless gas, nitrogen is non-combustible and non-toxic. Davy also refers to this as azote.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_058">
+            <form>carbonic acid</form>
+            <def>
+               <p>Symbol/formula: CO2 or H2CO3 </p>
+               <p>Now known as Carbon dioxide (CO2), or a solution of carbon dioxide in water (H2CO3). </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_078">
+            <form>elastic fluid</form>
+            <def>
+               <p>A descriptive term for a gas, emphasising its elastic quality of spontaneous expansion.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_303">
+            <form>Chlorine</form>
+            <def>
+               <p>Symbol/formula: Cl</p>
+               <p>Davy named chlorine in 1810 and insisted it was an element and not a compound. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_424">
+            <form>Iodine</form>
+            <def>
+               <p>Symbol/formula: I</p>
+               <p>An element and the heaviest of the group of stable halogens. Bernard Courtois was the first to isolate the substance. Whilst in Paris Davy investigated the substance, and proved it to be a chemical element describing his results in a paper sent to the Royal Society. This caused disputes between Davy and Joseph Louis Gay-Lussac, who had also been researching the element.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_037">
+            <form>sulphur</form>
+            <def>
+               <p>Symbol/formula: S</p>
+               <p>Pure sulphur is a tasteless, odourless, brittle solid that is pale yellow in colour, a poor conductor of electricity, and insoluble in water.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_362">
+            <form>selenium </form>
+            <def>
+               <p>Symbol/formula: Se</p>
+               <p>Chemical element; discovered in 1817 by Jöns Jacob Berzelius.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_140">
+            <form>charcoal</form>
+            <def>
+               <p>A lightweight black carbon residue produced by strongly heating wood (or other animal and plant materials) in minimal oxygen to remove all water and volatile constituents.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_370">
+            <form>cast iron</form>
+            <def>
+               <p>A class of iron–carbon alloys with a carbon content more than 2% and silicon content around 1-3%.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_060">
+            <form>manganese</form>
+            <def>
+               <p>Symbol/formula: Mn</p>
+               <p>A hard, brittle, silvery metal, often found in minerals in combination with iron. Manganese was first isolated in the 1770s.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_323">
+            <form>steel</form>
+            <def>
+               <p>Steel is an alloy of iron and carbon with improved strength and fracture resistance compared to other forms of iron.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_417">
+            <form>sulphuric acid</form>
+            <def>
+               <p>Symbol/formula: H2SO3</p>
+               <p>A mineral acid composed of the elements sulphur, oxygen, and hydrogen. It is a colourless, odourless, and viscous liquid that is miscible with water.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_081">
+            <form>calcareous</form>
+            <def>
+               <p>Composed of, or containing, lime or limestone.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_120">
+            <form>shist</form>
+            <def>
+               <p>Or schist. Any metamorphic rock that can be split into thin layers because of its thin bands of micaceous minerals, with mineral grains.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_099">
+            <form>greywacke</form>
+            <def>
+               <p>Greywacke or graywacke is a type of sandstone.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_095">
+            <form>micaceous shist</form>
+            <def>
+               <p>A rock composed of mica and quartz.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_090">
+            <form>limestone</form>
+            <def>
+               <p>A sedimentary rock composed mainly of calcium carbonate (CaCO3).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_505">
+            <form>Stalactite</form>
+            <def>
+               <p>An icicle shaped mineral formation which hands from the ceiling - or protrudes from the sides - of caves. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_175">
+            <form>bitumen</form>
+            <def>
+               <p>A sticky, black, highly viscous liquid or semi-solid form of petroleum.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_116">
+            <form>whinstone</form>
+            <def>
+               <p>A term used to describe any hard dark-coloured rock, examples of which include igneous rocks and basalt.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_148">
+            <form>tufa</form>
+            <def>
+               <p>A variety of limestone formed when carbonate minerals precipitate out of water at ambient temperature.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_102">
+            <form>quartz</form>
+            <def>
+               <p>Symbol/formula: SiO2</p>
+               <p>A hard, crystalline mineral composed of silica (silicon dioxide).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_105">
+            <form>basalt</form>
+            <def>
+               <p>A dark grey to black dense to fine-grained igneous rock that consists of basic plagioclase, augite, and usually magnetite. More than 90% of volcanic rock on earth is basaltic.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_363">
+            <form>tiburtinum</form>
+            <def>
+               <p>Carbonate rock, more commonly known as travertine. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_397">
+            <form>shale</form>
+            <def>
+               <p>Shale is a fine-grained, clastic sedimentary rock formed from mud that is a mix of flakes of clay minerals and tiny fragments of other minerals, especially quartz and calcite.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_007">
+            <form>hydrogene</form>
+            <def>
+               <p>Symbol/formula: H</p>
+               <p>Now known as hydrogen. Hydrogen is the lightest element and, at standard conditions, is a gas of diatomic molecules. It is colourless, odourless, tasteless, non-toxic, and highly combustible.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_364">
+            <form>alluvium</form>
+            <def>
+               <p>Loose clay, silt, sand, or gravel that has been deposited by running water</p>
+            </def>
+         </nym>
+      </listNym>
+      <listAnnotation type="nonenglish">
+         <note xml:id="nonenglish_009" type="description">
+            <term id="nonenglish_009-term">quere</term>
+            <gloss id="nonenglish_009-gloss" target="#nonenglish_009-term">
+               <p>query; to enquire (Latin)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_167" type="description">
+            <term id="nonenglish_167-term">Terra felix</term>
+            <gloss id="nonenglish_167-gloss" target="#nonenglish_167-term">
+               <p>fertile land (Latin)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_168" type="description">
+            <term id="nonenglish_168-term">omne ab ovo</term>
+            <gloss id="nonenglish_168-gloss" target="#nonenglish_168-term">
+               <p>everything from the egg</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_170" type="description">
+            <term id="nonenglish_170-term">pietra</term>
+            <gloss id="nonenglish_170-gloss" target="#nonenglish_170-term">
+               <p>rock; stone (Italian)</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

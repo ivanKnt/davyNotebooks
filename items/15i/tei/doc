@@ -1,0 +1,4523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-11509</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-11509</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/15/I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Notebook containing geological drawings, some coloured, done in Ireland; with explantory notes</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/15/I</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent>124 pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <p>Marbled cover</p>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1806-01-01"
+                                   notAfter="1806-12-31">1806</tei:origDate>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-11509-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="3295px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00001"
+                  width="4045px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4044"
+               lry="3294"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="3315px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00002"
+                  width="4109px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4108"
+               lry="3314"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="3287px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00003"
+                  width="4109px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4108"
+               lry="3286"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="3243px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00004"
+                  width="4091px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4090"
+               lry="3242"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="3243px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00005"
+                  width="4091px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4090"
+               lry="3242"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="3243px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00006"
+                  width="4099px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4098"
+               lry="3242"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="3225px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00007"
+                  width="4099px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4098"
+               lry="3224"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="3252px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00008"
+                  width="4090px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4089"
+               lry="3251"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="3225px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00009"
+                  width="4090px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4089"
+               lry="3224"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="3252px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00010"
+                  width="4108px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4107"
+               lry="3251"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+      <surface n="11" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="3234px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00011"
+                  width="4108px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4107"
+               lry="3233"
+               rotate="0"
+               xml:id="i11z1"/>
+      </surface>
+      <surface n="12" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="3234px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00012"
+                  width="4090px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4089"
+               lry="3233"
+               rotate="0"
+               xml:id="i12z1"/>
+      </surface>
+      <surface n="13" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="3243px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00013"
+                  width="4090px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4089"
+               lry="3242"
+               rotate="0"
+               xml:id="i13z1"/>
+      </surface>
+      <surface n="14" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="3225px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00014"
+                  width="4108px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4107"
+               lry="3224"
+               rotate="0"
+               xml:id="i14z1"/>
+      </surface>
+      <surface n="15" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="3279px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00015"
+                  width="4108px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4107"
+               lry="3278"
+               rotate="0"
+               xml:id="i15z1"/>
+      </surface>
+      <surface n="16" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="3243px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00016"
+                  width="4108px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4107"
+               lry="3242"
+               rotate="0"
+               xml:id="i16z1"/>
+      </surface>
+      <surface n="17" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="3252px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00017"
+                  width="4117px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4116"
+               lry="3251"
+               rotate="0"
+               xml:id="i17z1"/>
+      </surface>
+      <surface n="18" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="3297px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00018"
+                  width="4117px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4116"
+               lry="3296"
+               rotate="0"
+               xml:id="i18z1"/>
+      </surface>
+      <surface n="19" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="3279px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00019"
+                  width="4099px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4098"
+               lry="3278"
+               rotate="0"
+               xml:id="i19z1"/>
+      </surface>
+      <surface n="20" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="3270px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00020"
+                  width="4099px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4098"
+               lry="3269"
+               rotate="0"
+               xml:id="i20z1"/>
+      </surface>
+      <surface n="21" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="3287px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00021"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3286"
+               rotate="0"
+               xml:id="i21z1"/>
+      </surface>
+      <surface n="22" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="3288px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00022"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3287"
+               rotate="0"
+               xml:id="i22z1"/>
+      </surface>
+      <surface n="23" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="3287px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00023"
+                  width="4118px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4117"
+               lry="3286"
+               rotate="0"
+               xml:id="i23z1"/>
+      </surface>
+      <surface n="24" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="3288px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00024"
+                  width="4118px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4117"
+               lry="3287"
+               rotate="0"
+               xml:id="i24z1"/>
+      </surface>
+      <surface n="25" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="3305px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00025"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3304"
+               rotate="0"
+               xml:id="i25z1"/>
+      </surface>
+      <surface n="26" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="3279px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00026"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3278"
+               rotate="0"
+               xml:id="i26z1"/>
+      </surface>
+      <surface n="27" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="3279px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00027"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3278"
+               rotate="0"
+               xml:id="i27z1"/>
+      </surface>
+      <surface n="28" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="3324px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00028"
+                  width="4172px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4171"
+               lry="3323"
+               rotate="0"
+               xml:id="i28z1"/>
+      </surface>
+      <surface n="29" xml:id="i29">
+         <graphic decls="#downloadImageRights #download"
+                  height="3305px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00029"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3304"
+               rotate="0"
+               xml:id="i29z1"/>
+      </surface>
+      <surface n="30" xml:id="i30">
+         <graphic decls="#downloadImageRights #download"
+                  height="3251px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00030"
+                  width="4172px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4171"
+               lry="3250"
+               rotate="0"
+               xml:id="i30z1"/>
+      </surface>
+      <surface n="31" xml:id="i31">
+         <graphic decls="#downloadImageRights #download"
+                  height="3306px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00031"
+                  width="4136px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4135"
+               lry="3305"
+               rotate="0"
+               xml:id="i31z1"/>
+      </surface>
+      <surface n="32" xml:id="i32">
+         <graphic decls="#downloadImageRights #download"
+                  height="3260px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00032"
+                  width="4136px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4135"
+               lry="3259"
+               rotate="0"
+               xml:id="i32z1"/>
+      </surface>
+      <surface n="33" xml:id="i33">
+         <graphic decls="#downloadImageRights #download"
+                  height="3306px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00033"
+                  width="4136px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4135"
+               lry="3305"
+               rotate="0"
+               xml:id="i33z1"/>
+      </surface>
+      <surface n="34" xml:id="i34">
+         <graphic decls="#downloadImageRights #download"
+                  height="3287px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00034"
+                  width="4136px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4135"
+               lry="3286"
+               rotate="0"
+               xml:id="i34z1"/>
+      </surface>
+      <surface n="35" xml:id="i35">
+         <graphic decls="#downloadImageRights #download"
+                  height="3315px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00035"
+                  width="4154px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4153"
+               lry="3314"
+               rotate="0"
+               xml:id="i35z1"/>
+      </surface>
+      <surface n="36" xml:id="i36">
+         <graphic decls="#downloadImageRights #download"
+                  height="3287px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00036"
+                  width="4154px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4153"
+               lry="3286"
+               rotate="0"
+               xml:id="i36z1"/>
+      </surface>
+      <surface n="37" xml:id="i37">
+         <graphic decls="#downloadImageRights #download"
+                  height="3324px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00037"
+                  width="4145px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4144"
+               lry="3323"
+               rotate="0"
+               xml:id="i37z1"/>
+      </surface>
+      <surface n="38" xml:id="i38">
+         <graphic decls="#downloadImageRights #download"
+                  height="3269px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00038"
+                  width="4145px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4144"
+               lry="3268"
+               rotate="0"
+               xml:id="i38z1"/>
+      </surface>
+      <surface n="39" xml:id="i39">
+         <graphic decls="#downloadImageRights #download"
+                  height="3342px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00039"
+                  width="4199px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4198"
+               lry="3341"
+               rotate="0"
+               xml:id="i39z1"/>
+      </surface>
+      <surface n="40" xml:id="i40">
+         <graphic decls="#downloadImageRights #download"
+                  height="3242px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00040"
+                  width="4199px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4198"
+               lry="3241"
+               rotate="0"
+               xml:id="i40z1"/>
+      </surface>
+      <surface n="41" xml:id="i41">
+         <graphic decls="#downloadImageRights #download"
+                  height="3324px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00041"
+                  width="4173px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4172"
+               lry="3323"
+               rotate="0"
+               xml:id="i41z1"/>
+      </surface>
+      <surface n="42" xml:id="i42">
+         <graphic decls="#downloadImageRights #download"
+                  height="3270px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00042"
+                  width="4173px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4172"
+               lry="3269"
+               rotate="0"
+               xml:id="i42z1"/>
+      </surface>
+      <surface n="43" xml:id="i43">
+         <graphic decls="#downloadImageRights #download"
+                  height="3333px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00043"
+                  width="4182px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4181"
+               lry="3332"
+               rotate="0"
+               xml:id="i43z1"/>
+      </surface>
+      <surface n="44" xml:id="i44">
+         <graphic decls="#downloadImageRights #download"
+                  height="3243px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00044"
+                  width="4182px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4181"
+               lry="3242"
+               rotate="0"
+               xml:id="i44z1"/>
+      </surface>
+      <surface n="45" xml:id="i45">
+         <graphic decls="#downloadImageRights #download"
+                  height="3324px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00045"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3323"
+               rotate="0"
+               xml:id="i45z1"/>
+      </surface>
+      <surface n="46" xml:id="i46">
+         <graphic decls="#downloadImageRights #download"
+                  height="3252px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00046"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3251"
+               rotate="0"
+               xml:id="i46z1"/>
+      </surface>
+      <surface n="47" xml:id="i47">
+         <graphic decls="#downloadImageRights #download"
+                  height="3324px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00047"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3323"
+               rotate="0"
+               xml:id="i47z1"/>
+      </surface>
+      <surface n="48" xml:id="i48">
+         <graphic decls="#downloadImageRights #download"
+                  height="3261px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00048"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3260"
+               rotate="0"
+               xml:id="i48z1"/>
+      </surface>
+      <surface n="49" xml:id="i49">
+         <graphic decls="#downloadImageRights #download"
+                  height="3333px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00049"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3332"
+               rotate="0"
+               xml:id="i49z1"/>
+      </surface>
+      <surface n="50" xml:id="i50">
+         <graphic decls="#downloadImageRights #download"
+                  height="3252px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00050"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3251"
+               rotate="0"
+               xml:id="i50z1"/>
+      </surface>
+      <surface n="51" xml:id="i51">
+         <graphic decls="#downloadImageRights #download"
+                  height="3351px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00051"
+                  width="4172px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4171"
+               lry="3350"
+               rotate="0"
+               xml:id="i51z1"/>
+      </surface>
+      <surface n="52" xml:id="i52">
+         <graphic decls="#downloadImageRights #download"
+                  height="3243px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00052"
+                  width="4172px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4171"
+               lry="3242"
+               rotate="0"
+               xml:id="i52z1"/>
+      </surface>
+      <surface n="53" xml:id="i53">
+         <graphic decls="#downloadImageRights #download"
+                  height="3342px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00053"
+                  width="4172px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4171"
+               lry="3341"
+               rotate="0"
+               xml:id="i53z1"/>
+      </surface>
+      <surface n="54" xml:id="i54">
+         <graphic decls="#downloadImageRights #download"
+                  height="3270px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00054"
+                  width="4172px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4171"
+               lry="3269"
+               rotate="0"
+               xml:id="i54z1"/>
+      </surface>
+      <surface n="55" xml:id="i55">
+         <graphic decls="#downloadImageRights #download"
+                  height="3333px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00055"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3332"
+               rotate="0"
+               xml:id="i55z1"/>
+      </surface>
+      <surface n="56" xml:id="i56">
+         <graphic decls="#downloadImageRights #download"
+                  height="3243px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00056"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3242"
+               rotate="0"
+               xml:id="i56z1"/>
+      </surface>
+      <surface n="57" xml:id="i57">
+         <graphic decls="#downloadImageRights #download"
+                  height="3360px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00057"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3359"
+               rotate="0"
+               xml:id="i57z1"/>
+      </surface>
+      <surface n="58" xml:id="i58">
+         <graphic decls="#downloadImageRights #download"
+                  height="3243px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00058"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3242"
+               rotate="0"
+               xml:id="i58z1"/>
+      </surface>
+      <surface n="59" xml:id="i59">
+         <graphic decls="#downloadImageRights #download"
+                  height="3342px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00059"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3341"
+               rotate="0"
+               xml:id="i59z1"/>
+      </surface>
+      <surface n="60" xml:id="i60">
+         <graphic decls="#downloadImageRights #download"
+                  height="3252px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00060"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3251"
+               rotate="0"
+               xml:id="i60z1"/>
+      </surface>
+      <surface n="61" xml:id="i61">
+         <graphic decls="#downloadImageRights #download"
+                  height="3378px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00061"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3377"
+               rotate="0"
+               xml:id="i61z1"/>
+      </surface>
+      <surface n="62" xml:id="i62">
+         <graphic decls="#downloadImageRights #download"
+                  height="3225px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00062"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3224"
+               rotate="0"
+               xml:id="i62z1"/>
+      </surface>
+      <surface n="63" xml:id="i63">
+         <graphic decls="#downloadImageRights #download"
+                  height="3360px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00063"
+                  width="4118px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4117"
+               lry="3359"
+               rotate="0"
+               xml:id="i63z1"/>
+      </surface>
+      <surface n="64" xml:id="i64">
+         <graphic decls="#downloadImageRights #download"
+                  height="3234px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00064"
+                  width="4118px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4117"
+               lry="3233"
+               rotate="0"
+               xml:id="i64z1"/>
+      </surface>
+      <surface n="65" xml:id="i65">
+         <graphic decls="#downloadImageRights #download"
+                  height="3360px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00065"
+                  width="4118px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4117"
+               lry="3359"
+               rotate="0"
+               xml:id="i65z1"/>
+      </surface>
+      <surface n="66" xml:id="i66">
+         <graphic decls="#downloadImageRights #download"
+                  height="3243px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00066"
+                  width="4118px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4117"
+               lry="3242"
+               rotate="0"
+               xml:id="i66z1"/>
+      </surface>
+      <surface n="67" xml:id="i67">
+         <graphic decls="#downloadImageRights #download"
+                  height="3342px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00067"
+                  width="4154px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4153"
+               lry="3341"
+               rotate="0"
+               xml:id="i67z1"/>
+      </surface>
+      <surface n="68" xml:id="i68">
+         <graphic decls="#downloadImageRights #download"
+                  height="3225px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00068"
+                  width="4154px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4153"
+               lry="3224"
+               rotate="0"
+               xml:id="i68z1"/>
+      </surface>
+      <surface n="69" xml:id="i69">
+         <graphic decls="#downloadImageRights #download"
+                  height="3360px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00069"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3359"
+               rotate="0"
+               xml:id="i69z1"/>
+      </surface>
+      <surface n="70" xml:id="i70">
+         <graphic decls="#downloadImageRights #download"
+                  height="3207px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00070"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3206"
+               rotate="0"
+               xml:id="i70z1"/>
+      </surface>
+      <surface n="71" xml:id="i71">
+         <graphic decls="#downloadImageRights #download"
+                  height="3387px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00071"
+                  width="4181px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4180"
+               lry="3386"
+               rotate="0"
+               xml:id="i71z1"/>
+      </surface>
+      <surface n="72" xml:id="i72">
+         <graphic decls="#downloadImageRights #download"
+                  height="3207px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00072"
+                  width="4181px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4180"
+               lry="3206"
+               rotate="0"
+               xml:id="i72z1"/>
+      </surface>
+      <surface n="73" xml:id="i73">
+         <graphic decls="#downloadImageRights #download"
+                  height="3342px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00073"
+                  width="4181px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4180"
+               lry="3341"
+               rotate="0"
+               xml:id="i73z1"/>
+      </surface>
+      <surface n="74" xml:id="i74">
+         <graphic decls="#downloadImageRights #download"
+                  height="3234px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00074"
+                  width="4181px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4180"
+               lry="3233"
+               rotate="0"
+               xml:id="i74z1"/>
+      </surface>
+      <surface n="75" xml:id="i75">
+         <graphic decls="#downloadImageRights #download"
+                  height="3387px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00075"
+                  width="4191px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4190"
+               lry="3386"
+               rotate="0"
+               xml:id="i75z1"/>
+      </surface>
+      <surface n="76" xml:id="i76">
+         <graphic decls="#downloadImageRights #download"
+                  height="3207px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00076"
+                  width="4191px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4190"
+               lry="3206"
+               rotate="0"
+               xml:id="i76z1"/>
+      </surface>
+      <surface n="77" xml:id="i77">
+         <graphic decls="#downloadImageRights #download"
+                  height="3397px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00077"
+                  width="4208px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4207"
+               lry="3396"
+               rotate="0"
+               xml:id="i77z1"/>
+      </surface>
+      <surface n="78" xml:id="i78">
+         <graphic decls="#downloadImageRights #download"
+                  height="3252px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00078"
+                  width="4208px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4207"
+               lry="3251"
+               rotate="0"
+               xml:id="i78z1"/>
+      </surface>
+      <surface n="79" xml:id="i79">
+         <graphic decls="#downloadImageRights #download"
+                  height="3406px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00079"
+                  width="4217px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4216"
+               lry="3405"
+               rotate="0"
+               xml:id="i79z1"/>
+      </surface>
+      <surface n="80" xml:id="i80">
+         <graphic decls="#downloadImageRights #download"
+                  height="3234px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00080"
+                  width="4217px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4216"
+               lry="3233"
+               rotate="0"
+               xml:id="i80z1"/>
+      </surface>
+      <surface n="81" xml:id="i81">
+         <graphic decls="#downloadImageRights #download"
+                  height="3342px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00081"
+                  width="4136px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4135"
+               lry="3341"
+               rotate="0"
+               xml:id="i81z1"/>
+      </surface>
+      <surface n="82" xml:id="i82">
+         <graphic decls="#downloadImageRights #download"
+                  height="3270px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00082"
+                  width="4136px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4135"
+               lry="3269"
+               rotate="0"
+               xml:id="i82z1"/>
+      </surface>
+      <surface n="83" xml:id="i83">
+         <graphic decls="#downloadImageRights #download"
+                  height="3296px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00083"
+                  width="4100px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4099"
+               lry="3295"
+               rotate="0"
+               xml:id="i83z1"/>
+      </surface>
+      <surface n="84" xml:id="i84">
+         <graphic decls="#downloadImageRights #download"
+                  height="3288px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00084"
+                  width="4100px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4099"
+               lry="3287"
+               rotate="0"
+               xml:id="i84z1"/>
+      </surface>
+      <surface n="85" xml:id="i85">
+         <graphic decls="#downloadImageRights #download"
+                  height="3388px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00085"
+                  width="4145px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4144"
+               lry="3387"
+               rotate="0"
+               xml:id="i85z1"/>
+      </surface>
+      <surface n="86" xml:id="i86">
+         <graphic decls="#downloadImageRights #download"
+                  height="3224px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00086"
+                  width="4145px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4144"
+               lry="3223"
+               rotate="0"
+               xml:id="i86z1"/>
+      </surface>
+      <surface n="87" xml:id="i87">
+         <graphic decls="#downloadImageRights #download"
+                  height="3324px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00087"
+                  width="4145px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4144"
+               lry="3323"
+               rotate="0"
+               xml:id="i87z1"/>
+      </surface>
+      <surface n="88" xml:id="i88">
+         <graphic decls="#downloadImageRights #download"
+                  height="3269px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00088"
+                  width="4145px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4144"
+               lry="3268"
+               rotate="0"
+               xml:id="i88z1"/>
+      </surface>
+      <surface n="89" xml:id="i89">
+         <graphic decls="#downloadImageRights #download"
+                  height="3379px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00089"
+                  width="4154px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4153"
+               lry="3378"
+               rotate="0"
+               xml:id="i89z1"/>
+      </surface>
+      <surface n="90" xml:id="i90">
+         <graphic decls="#downloadImageRights #download"
+                  height="3215px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00090"
+                  width="4154px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4153"
+               lry="3214"
+               rotate="0"
+               xml:id="i90z1"/>
+      </surface>
+      <surface n="91" xml:id="i91">
+         <graphic decls="#downloadImageRights #download"
+                  height="3388px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00091"
+                  width="4136px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4135"
+               lry="3387"
+               rotate="0"
+               xml:id="i91z1"/>
+      </surface>
+      <surface n="92" xml:id="i92">
+         <graphic decls="#downloadImageRights #download"
+                  height="3215px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00092"
+                  width="4136px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4135"
+               lry="3214"
+               rotate="0"
+               xml:id="i92z1"/>
+      </surface>
+      <surface n="93" xml:id="i93">
+         <graphic decls="#downloadImageRights #download"
+                  height="3397px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00093"
+                  width="4172px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4171"
+               lry="3396"
+               rotate="0"
+               xml:id="i93z1"/>
+      </surface>
+      <surface n="94" xml:id="i94">
+         <graphic decls="#downloadImageRights #download"
+                  height="3224px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00094"
+                  width="4172px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4171"
+               lry="3223"
+               rotate="0"
+               xml:id="i94z1"/>
+      </surface>
+      <surface n="95" xml:id="i95">
+         <graphic decls="#downloadImageRights #download"
+                  height="3388px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00095"
+                  width="4136px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4135"
+               lry="3387"
+               rotate="0"
+               xml:id="i95z1"/>
+      </surface>
+      <surface n="96" xml:id="i96">
+         <graphic decls="#downloadImageRights #download"
+                  height="3224px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00096"
+                  width="4136px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4135"
+               lry="3223"
+               rotate="0"
+               xml:id="i96z1"/>
+      </surface>
+      <surface n="97" xml:id="i97">
+         <graphic decls="#downloadImageRights #download"
+                  height="3388px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00097"
+                  width="4136px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4135"
+               lry="3387"
+               rotate="0"
+               xml:id="i97z1"/>
+      </surface>
+      <surface n="98" xml:id="i98">
+         <graphic decls="#downloadImageRights #download"
+                  height="3224px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00098"
+                  width="4136px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4135"
+               lry="3223"
+               rotate="0"
+               xml:id="i98z1"/>
+      </surface>
+      <surface n="99" xml:id="i99">
+         <graphic decls="#downloadImageRights #download"
+                  height="3370px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00099"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3369"
+               rotate="0"
+               xml:id="i99z1"/>
+      </surface>
+      <surface n="100" xml:id="i100">
+         <graphic decls="#downloadImageRights #download"
+                  height="3197px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00100"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3196"
+               rotate="0"
+               xml:id="i100z1"/>
+      </surface>
+      <surface n="101" xml:id="i101">
+         <graphic decls="#downloadImageRights #download"
+                  height="3406px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00101"
+                  width="4181px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4180"
+               lry="3405"
+               rotate="0"
+               xml:id="i101z1"/>
+      </surface>
+      <surface n="102" xml:id="i102">
+         <graphic decls="#downloadImageRights #download"
+                  height="3197px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00102"
+                  width="4181px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4180"
+               lry="3196"
+               rotate="0"
+               xml:id="i102z1"/>
+      </surface>
+      <surface n="103" xml:id="i103">
+         <graphic decls="#downloadImageRights #download"
+                  height="3397px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00103"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3396"
+               rotate="0"
+               xml:id="i103z1"/>
+      </surface>
+      <surface n="104" xml:id="i104">
+         <graphic decls="#downloadImageRights #download"
+                  height="3179px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00104"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3178"
+               rotate="0"
+               xml:id="i104z1"/>
+      </surface>
+      <surface n="105" xml:id="i105">
+         <graphic decls="#downloadImageRights #download"
+                  height="3415px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00105"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3414"
+               rotate="0"
+               xml:id="i105z1"/>
+      </surface>
+      <surface n="106" xml:id="i106">
+         <graphic decls="#downloadImageRights #download"
+                  height="3179px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00106"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3178"
+               rotate="0"
+               xml:id="i106z1"/>
+      </surface>
+      <surface n="107" xml:id="i107">
+         <graphic decls="#downloadImageRights #download"
+                  height="3414px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00107"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3413"
+               rotate="0"
+               xml:id="i107z1"/>
+      </surface>
+      <surface n="108" xml:id="i108">
+         <graphic decls="#downloadImageRights #download"
+                  height="3197px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00108"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3196"
+               rotate="0"
+               xml:id="i108z1"/>
+      </surface>
+      <surface n="109" xml:id="i109">
+         <graphic decls="#downloadImageRights #download"
+                  height="3396px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00109"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3395"
+               rotate="0"
+               xml:id="i109z1"/>
+      </surface>
+      <surface n="110" xml:id="i110">
+         <graphic decls="#downloadImageRights #download"
+                  height="3396px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00110"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3395"
+               rotate="0"
+               xml:id="i110z1"/>
+      </surface>
+      <surface n="111" xml:id="i111">
+         <graphic decls="#downloadImageRights #download"
+                  height="3215px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00111"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3214"
+               rotate="0"
+               xml:id="i111z1"/>
+      </surface>
+      <surface n="112" xml:id="i112">
+         <graphic decls="#downloadImageRights #download"
+                  height="3233px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00112"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3232"
+               rotate="0"
+               xml:id="i112z1"/>
+      </surface>
+      <surface n="113" xml:id="i113">
+         <graphic decls="#downloadImageRights #download"
+                  height="3351px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00113"
+                  width="4118px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4117"
+               lry="3350"
+               rotate="0"
+               xml:id="i113z1"/>
+      </surface>
+      <surface n="114" xml:id="i114">
+         <graphic decls="#downloadImageRights #download"
+                  height="3243px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00114"
+                  width="4118px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4117"
+               lry="3242"
+               rotate="0"
+               xml:id="i114z1"/>
+      </surface>
+      <surface n="115" xml:id="i115">
+         <graphic decls="#downloadImageRights #download"
+                  height="3379px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00115"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3378"
+               rotate="0"
+               xml:id="i115z1"/>
+      </surface>
+      <surface n="116" xml:id="i116">
+         <graphic decls="#downloadImageRights #download"
+                  height="3215px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00116"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3214"
+               rotate="0"
+               xml:id="i116z1"/>
+      </surface>
+      <surface n="117" xml:id="i117">
+         <graphic decls="#downloadImageRights #download"
+                  height="3351px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00117"
+                  width="4154px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4153"
+               lry="3350"
+               rotate="0"
+               xml:id="i117z1"/>
+      </surface>
+      <surface n="118" xml:id="i118">
+         <graphic decls="#downloadImageRights #download"
+                  height="3224px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00118"
+                  width="4154px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4153"
+               lry="3223"
+               rotate="0"
+               xml:id="i118z1"/>
+      </surface>
+      <surface n="119" xml:id="i119">
+         <graphic decls="#downloadImageRights #download"
+                  height="3396px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00119"
+                  width="4109px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4108"
+               lry="3395"
+               rotate="0"
+               xml:id="i119z1"/>
+      </surface>
+      <surface n="120" xml:id="i120">
+         <graphic decls="#downloadImageRights #download"
+                  height="3197px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00120"
+                  width="4109px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4108"
+               lry="3196"
+               rotate="0"
+               xml:id="i120z1"/>
+      </surface>
+      <surface n="121" xml:id="i121">
+         <graphic decls="#downloadImageRights #download"
+                  height="3423px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00121"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3422"
+               rotate="0"
+               xml:id="i121z1"/>
+      </surface>
+      <surface n="122" xml:id="i122">
+         <graphic decls="#downloadImageRights #download"
+                  height="3188px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00122"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3187"
+               rotate="0"
+               xml:id="i122z1"/>
+      </surface>
+      <surface n="123" xml:id="i123">
+         <graphic decls="#downloadImageRights #download"
+                  height="3378px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00123"
+                  width="4208px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4207"
+               lry="3377"
+               rotate="0"
+               xml:id="i123z1"/>
+      </surface>
+      <surface n="124" xml:id="i124">
+         <graphic decls="#downloadImageRights #download"
+                  height="3224px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00124"
+                  width="4208px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4207"
+               lry="3223"
+               rotate="0"
+               xml:id="i124z1"/>
+      </surface>
+      <surface n="125" xml:id="i125">
+         <graphic decls="#downloadImageRights #download"
+                  height="3448px"
+                  rend="landscape"
+                  url="MS-DAVY-11509-000-00125"
+                  width="4299px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4298"
+               lry="3447"
+               rotate="0"
+               xml:id="i125z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listPlace>
+         <place xml:id="place_018">
+            <placeName>Ireland</placeName>
+            <location>
+               <geo decls="#WGS84">53.155810906848316,  -8.0218848181146107</geo>
+            </location>
+         </place>
+         <place xml:id="place_091">
+            <placeName>Waterford</placeName>
+            <location>
+               <geo decls="#WGS84">52.25449354750288,  -7.1215271876354302</geo>
+            </location>
+            <note>A city in County Waterford in the south-east of Ireland. It is located within the province of Munster. The city is situated at the head of Waterford Harbour. It is the oldest and the fifth most populous city in the Republic of Ireland.</note>
+         </place>
+         <place xml:id="place_021">
+            <placeName>Cornwall</placeName>
+            <location>
+               <geo decls="#WGS84">50.25090807161931,  -5.1326462442719603</geo>
+            </location>
+            <note>Cornwall is a county in south-west England, birthplace of Humphry Davy.</note>
+         </place>
+         <place xml:id="place_087">
+            <placeName>River Suire</placeName>
+            <note>Probably now known as the River Suir, a river in Ireland that flows into the Atlantic Ocean with its mouth in Waterford Harbour.</note>
+         </place>
+         <place xml:id="place_092">
+            <placeName>Monavoullagagh. Mountains</placeName>
+            <location>
+               <geo decls="#WGS84">52.27899960661996,  -7.5664103576707902</geo>
+            </location>
+            <note>The Monavoullagagh mountain range or Monavullagh Mountains, County Waterford, is a name now rarely used for the south of the plateau of mountains more commonly refered to as the Comeragh Mountains.</note>
+         </place>
+         <place xml:id="place_096">
+            <placeName>Cahir</placeName>
+            <location>
+               <geo decls="#WGS84">52.374620798861805,  -7.92539720369557</geo>
+            </location>
+            <note>Cahir is a town in County Tipperary in Ireland.</note>
+         </place>
+         <place xml:id="place_051">
+            <placeName>Lough Erne</placeName>
+            <location>
+               <geo decls="#WGS84">54.40721197936 -7.6830441671752796</geo>
+            </location>
+            <note>Lough Erne is the name of two connected lakes in County Fermanagh, Northern Ireland. It is the second-biggest lake system in Northern Ireland and Ulster, and the fourth biggest in Ireland.</note>
+         </place>
+         <place xml:id="place_098">
+            <placeName>Millstreet</placeName>
+            <location>
+               <geo decls="#WGS84">52.16280741672431,  -7.7480469127615503</geo>
+            </location>
+            <note>A hamlet in County Waterford, Ireland.</note>
+         </place>
+         <place xml:id="place_106">
+            <placeName>Lakes of Killarney</placeName>
+            <note>Three lakes (Lough Leane, Muckross Lake - also called Middle Lake, and Upper Lake) surrounded by the MacGillycuddy's Reeks and now part of Killarney National Park.</note>
+         </place>
+         <place xml:id="place_1199">
+            <placeName>Kerry</placeName>
+            <location>
+               <geo decls="#WGS84">52.27188746099673, -9.7009384203937294</geo>
+            </location>
+            <note>County in the peninsular southwest of Ireland.</note>
+         </place>
+         <place xml:id="place_099">
+            <placeName>Paps</placeName>
+            <location>
+               <geo decls="#WGS84">52.015528416198045,  -9.2695746957451295</geo>
+            </location>
+            <note>Paps of Anu, literally 'the breasts of Anu', are a pair of mountains near Killarney, in County Kerry, Ireland.</note>
+         </place>
+         <place xml:id="place_1357">
+            <placeName>MacGillycuddy's Reeks</placeName>
+            <location>
+               <geo decls="#WGS84">52.01038252196836,  -9.6999356269875996</geo>
+            </location>
+            <note>Sandstone and siltstone mountain range in the Iveragh Peninsula, County Kerry, Ireland.</note>
+         </place>
+         <place xml:id="place_101">
+            <placeName>Castle Blarney</placeName>
+            <location>
+               <geo decls="#WGS84">51.92966115423414,  -8.5712494804035408</geo>
+            </location>
+            <note>Probably Blarney Castle, Ireland, near Cork.</note>
+         </place>
+         <place xml:id="place_741">
+            <placeName>Siena</placeName>
+            <location>
+               <geo decls="#WGS84">43.313831453223585, 11.336877873455</geo>
+            </location>
+            <note>A city in Tuscany, and the capital of the Province of Siena.</note>
+         </place>
+         <place xml:id="place_102">
+            <placeName>Ross Island</placeName>
+            <location>
+               <geo decls="#WGS84">52.040885066033795,  -9.5427360343787608</geo>
+            </location>
+            <note>Probably Ross Island, Killarney, Ireland, a claw-shaped peninsular in Killarney. Ross Castle is located here.</note>
+         </place>
+         <place xml:id="place_108">
+            <placeName>Croghan</placeName>
+            <location>
+               <geo decls="#WGS84">51.99446512649936,  -9.3838902473414905</geo>
+            </location>
+            <note>Crohane, a mountain in County Kerry. In Irish, it's called An Cruachán.</note>
+         </place>
+         <place xml:id="place_107">
+            <placeName>Gap of Dunloe</placeName>
+            <location>
+               <geo decls="#WGS84">52.01710198739001,  -9.6333547576707907</geo>
+            </location>
+            <note> A narrow mountain pass running north to south in County Kerry, Ireland, separating the MacGillycuddy's Reeks mountain range from the Purple Mountain Group.</note>
+         </place>
+         <place xml:id="place_109">
+            <placeName>Bantry Bay</placeName>
+            <location>
+               <geo decls="#WGS84">51.661120354540294,  -9.7191062556920595</geo>
+            </location>
+            <note>A bay in County Cork, Ireland.</note>
+         </place>
+         <place xml:id="place_110">
+            <placeName>Sugar Loaf</placeName>
+            <location>
+               <geo decls="#WGS84">51.72637769498821,  -9.6312183883539806</geo>
+            </location>
+            <note>Sugarloaf Mountain, County Cork, one of the Caha Mountains.</note>
+         </place>
+         <place xml:id="place_111">
+            <placeName>Hungry Hill</placeName>
+            <location>
+               <geo decls="#WGS84">51.68744544705214,  -9.7923427269876093</geo>
+            </location>
+            <note>One of the Caha Mountains, County Cork, Ireland.</note>
+         </place>
+         <place xml:id="place_112">
+            <placeName>Maguiresbridge</placeName>
+            <location>
+               <geo decls="#WGS84">54.295142022915066,  -7.4653260343787604</geo>
+            </location>
+            <note>Maguiresbridge is a small village in County Fermanagh, Northern Ireland. The village is named after the bridge over the Colebrooke River, first built by the local Maguire family about 1760.</note>
+         </place>
+         <place xml:id="place_049">
+            <placeName>Enniskillen</placeName>
+            <location>
+               <geo decls="#WGS84">54.343827754791803 7.6307857832633097</geo>
+            </location>
+            <note>Enniskillen is the largest town in County Fermanagh, Northern Ireland. It is in the middle of the county, between the Upper and Lower sections of Lough Erne.</note>
+         </place>
+         <place xml:id="place_113">
+            <placeName>Severn Estuary</placeName>
+            <location>
+               <geo decls="#WGS84">51.45865614892228,  -3.0646917701946199</geo>
+            </location>
+            <note>The Severn Estuary is the estuary of the River Severn, flowing into the Bristol Channel between south-west England and south Wales.</note>
+         </place>
+         <place xml:id="place_114">
+            <placeName>Milford Haven</placeName>
+            <location>
+               <geo decls="#WGS84">51.71384765746206,  -5.0343035982017401</geo>
+            </location>
+            <note>Milford Haven is both a town and a community in Pembrokeshire, Wales. It is situated on the north side of the Milford Haven Waterway, an estuary forming a natural harbour that has been used as a port since the Middle Ages.</note>
+         </place>
+         <place xml:id="place_115">
+            <placeName>Carmarthen</placeName>
+            <location>
+               <geo decls="#WGS84">51.85794562059912,  -4.3104014335398197</geo>
+            </location>
+            <note>Carmarthen is the county town of Carmarthenshire in South Wales.</note>
+         </place>
+         <place xml:id="place_118">
+            <placeName>River Wye</placeName>
+            <location>
+               <geo decls="#WGS84">52.09173956860893,  -3.1802998560858202</geo>
+            </location>
+            <note>The River Wye is the fourth-longest river in the UK, stretching from its source on Plynlimon in mid-Wales to the Severn Estuary. For much of its length the river forms part of the border between England and Wales.</note>
+         </place>
+         <place xml:id="place_116">
+            <placeName>Builth Wells</placeName>
+            <location>
+               <geo decls="#WGS84">52.14989925035512,  -3.40514566276459</geo>
+            </location>
+            <note>Builth Wells is a market town and community in the county of Powys and historic county of Brecknockshire, mid-Wales, lying at the confluence of Rivers Wye and Irfon, in the Welsh part of the Wye Valley.</note>
+         </place>
+         <place xml:id="place_119">
+            <placeName>Ludlow</placeName>
+            <location>
+               <geo decls="#WGS84">52.36787940790396,  -2.71418294621107</geo>
+            </location>
+            <note>Ludlow is a market town and civil parish in Shropshire, England.</note>
+         </place>
+         <place xml:id="place_120">
+            <placeName>Leintwardine</placeName>
+            <location>
+               <geo decls="#WGS84">52.36173683486443, -2.8730651190371601</geo>
+            </location>
+            <note>Leintwardine is a village on the River Teme, near Leominster, north Herefordshire.</note>
+         </place>
+      </listPlace>
+      <listNym type="chemical">
+         <nym xml:id="chemical_120">
+            <form>shist</form>
+            <def>
+               <p>Or schist. Any metamorphic rock that can be split into thin layers because of its thin bands of micaceous minerals, with mineral grains.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_090">
+            <form>limestone</form>
+            <def>
+               <p>A sedimentary rock composed mainly of calcium carbonate (CaCO3).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_105">
+            <form>basalt</form>
+            <def>
+               <p>A dark grey to black dense to fine-grained igneous rock that consists of basic plagioclase, augite, and usually magnetite. More than 90% of volcanic rock on earth is basaltic.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_099">
+            <form>greywacke</form>
+            <def>
+               <p>Greywacke or graywacke is a type of sandstone.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_088">
+            <form>sandstone</form>
+            <def>
+               <p>A sedimentary rock consisting of sand or quartz grains cemented together, typically red, yellow, or brown in colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_092">
+            <form>granite</form>
+            <def>
+               <p>A coarse-grained intrusive igneous rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_125">
+            <form>porphyry</form>
+            <def>
+               <p>A hard, igneous purplish-red rock in which crystals of feldspar are embedded in a fine-grained groundmass.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_097">
+            <form>sienite</form>
+            <def>
+               <p>Syenite. A coarse-grained intrusive igneous rock with a general composition similar to that of granite, but deficient in quartz, which, if present at all, occurs in relatively small concentrations.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_104">
+            <form>feldspar</form>
+            <def>
+               <p>An abundant rock-forming mineral typically occurring as colourless or pale-coloured crystals and consisting of aluminosilicates of potassium, sodium, and calcium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_103">
+            <form>hornblende</form>
+            <def>
+               <p>A dark brown, black, or green mineral consisting of a silicate of calcium, magnesium, and iron, occurring in many igneous and metamorphic rocks.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_397">
+            <form>shale</form>
+            <def>
+               <p>Shale is a fine-grained, clastic sedimentary rock formed from mud that is a mix of flakes of clay minerals and tiny fragments of other minerals, especially quartz and calcite.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_081">
+            <form>calcareous</form>
+            <def>
+               <p>Composed of, or containing, lime or limestone.</p>
+            </def>
+         </nym>
+      </listNym>
+      <listPerson>
+         <person xml:id="person_070">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jane</forename>
+               <surname>Davy</surname>
+            </persName>
+            <birth when="1780"/>
+            <death when="1855"/>
+            <note>Daughter of Charles Kerr, an Antiguan merchant who made his fortune in highly dubious circumstances. Following his death she moved to Britain where she married Schukbrugh Apreece who died in 1807. After running a successful literary salon in Edinburgh she moved to London where she met Davy and they married on 11 April 1812 two days after he had been knighted by the Prince Regent.</note>
+         </person>
+      </listPerson>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_153" type="description">
+            <term id="misc_153-term">Carmarthen</term>
+            <gloss id="misc_153-gloss" target="#misc_153-term">
+               <p>The Carmarthen was an East India Company ship.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+1/82<lb/>
+15i<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag1" ref="#place_018" type="place">
+                  <name xml:id="tag1" type="place">
+          Ireland
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+[Faint pencil sketch lines indicative of rock formations and/or cliffs]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+1<lb/>
+Landing place near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag2"
+                ref="#place_091"
+                type="place">
+               <name xml:id="tag2" type="place">
+          Waterford
+        </name>
+            </rs> -<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Rocks <rs xml:id="ttag3" ref="#chemical_120" type="chemical">
+                  <term xml:id="tag3">
+          Shist
+          
+        </term>
+               </rs>
+            </hi> of the same formation<lb/>
+as the <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">metalliferous</unclear>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag4"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag4">
+          Shist
+          
+        </term>
+            </rs> of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag5"
+                ref="#place_021"
+                type="place">
+               <name xml:id="tag5" type="place">
+          Cornwall
+        </name>
+            </rs>
+            <lb/>
+            <milestone xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                       unit="section"
+                       rend="line"/>
+            <lb/>
+Landing Place<lb/>
+near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag6"
+                ref="#place_091"
+                type="place">
+               <name xml:id="tag6" type="place">
+          Waterford
+        </name>
+            </rs>. <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <unclear>Rocks</unclear>
+            </hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag7"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag7">
+                  <hi rend="underline">Shist</hi>
+               </term>
+            </rs> of the same<lb/>
+formation<lb/>
+[Pencil sketch of cliffs with inlet in the middle and a three-mast ship sailing down the centre; church in bottom right corner on the shore. Some parts of the image, mostly the hills, cliff structures, vegetation, and vegetation on the left hand side, have been inked in]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+[Blank page]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+1<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <hi rend="superscript">a</hi>
+            </hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag8"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag8">
+          Shist
+          
+        </term>
+            </rs> on the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag9"
+                ref="#place_087"
+                type="place">
+               <name xml:id="tag9" type="place">
+          Suire
+        </name>
+            </rs> above <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag10"
+                ref="#place_091"
+                type="place">
+               <name xml:id="tag10" type="place">
+          Waterford
+        </name>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag11" ref="#chemical_120" type="chemical">
+                  <term xml:id="tag11">
+          Shist
+          
+        </term>
+               </rs> on the River <rs xml:id="ttag12" ref="#place_087" type="place">
+                  <name xml:id="tag12" type="place">
+          Suire
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">above <rs xml:id="ttag13" ref="#place_091" type="place">
+                  <name xml:id="tag13" type="place">
+          Waterford
+        </name>
+               </rs> Bridge</hi> -<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag14"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag14">
+          Shist
+          
+        </term>
+            </rs> on the River<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag15"
+                ref="#place_087"
+                type="place">
+               <name xml:id="tag15" type="place">
+          Suire
+        </name>
+            </rs> above <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag16"
+                ref="#place_091"
+                type="place">
+               <name xml:id="tag16" type="place">
+          Waterford
+        </name>
+            </rs>
+            <lb/>
+Bridge <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag17" ref="#person_070" type="person">
+                  <name xml:id="tag17" type="person">
+          J.D
+        </name>
+               </rs>.</hi>
+            <lb/>
+[Pencil sketch of cliffs and hills on both banks of a river. Two small houses perch on the far side, with a couple of trees beside them. A boat floats upon the river. Details of the cliffs, houses, and vegetation have been inked over]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+[Blank page]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+3<lb/>
+A fore ground of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag18"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag18">
+          Shist
+          
+        </term>
+            </rs> - near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag19"
+                ref="#place_091"
+                type="place">
+               <name xml:id="tag19" type="place">
+          Waterford
+        </name>
+            </rs>
+            <lb/>
+A Foreground of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag20"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag20">
+          Shist
+          
+        </term>
+            </rs>
+            <lb/>
+near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag21"
+                ref="#place_091"
+                type="place">
+               <name xml:id="tag21" type="place">
+          Waterford
+        </name>
+            </rs>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag22" ref="#person_070" type="person">
+                  <name xml:id="tag22" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+[Pencil sketch of cliffs with vegetation, partially inked over]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+[Blank page]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="9"
+                xml:id="pb-9"
+                facs="#i9"/>
+            <lb/>
+5<lb/>
+Mountain Chain South West of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag23"
+                ref="#place_091"
+                type="place">
+               <name xml:id="tag23" type="place">
+          Waterford
+        </name>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag24" ref="#person_070" type="person">
+                  <name xml:id="tag24" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag25" ref="#place_092" type="place">
+                  <name xml:id="tag25" type="place">
+          Monavoullagagh. Mountains
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+Mountain Chain South west<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag26"
+                ref="#place_091"
+                type="place">
+               <name xml:id="tag26" type="place">
+          Waterford
+        </name>
+            </rs>
+            <lb/>
+[Pencil sketch of hills/mountains beside a river; some shading, and the outlines have been inked over]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="10"
+                xml:id="pb-10"
+                facs="#i10"/>
+            <lb/>
+[Pencil sketch of hills/mountains, possibly beside a river; some pencil shading, and the outlines have been inked over]<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">2 0.</unclear> 8.<lb/>
+2.29<lb/>
+{7}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="11"
+                xml:id="pb-11"
+                facs="#i11"/>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag27"
+                ref="#place_092"
+                type="place">
+               <name xml:id="tag27" type="place">
+          The same Chain West of Waterford
+        </name>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag28" ref="#person_070" type="person">
+                  <name xml:id="tag28" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">The Same Chain</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">West of <rs xml:id="ttag29" ref="#place_091" type="place">
+                  <name xml:id="tag29" type="place">
+          Waterford
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+[Pencil sketch of hills/mountains possible beside a river; some shading, and the outlines have been inked over]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="12"
+                xml:id="pb-12"
+                facs="#i12"/>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="13"
+                xml:id="pb-13"
+                facs="#i13"/>
+            <lb/>
+9<lb/>
+Forey Hill - <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag30"
+                ref="#place_091"
+                type="place">
+               <name xml:id="tag30" type="place">
+          near Wat.
+        </name>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag31"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag31">
+          Shist
+          
+        </term>
+            </rs> &amp; pebblestone top<lb/>
+[Pencil sketch of the outline of a steep, cone-topped hill]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="14"
+                xml:id="pb-14"
+                facs="#i14"/>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="15"
+                xml:id="pb-15"
+                facs="#i15"/>
+            <lb/>
+[Pencil sketch of ruined castle with two crumble-topped towers and an arched doorway between them. A small hut or house is in the foreground on the right. Some vegetation, but overall sketch has minimal detail]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="16"
+                xml:id="pb-16"
+                facs="#i16"/>
+            <lb/>
+[Page full of short horizontal pencil lines in a kind of pattern. Some shapes to either side suggest foliage, but are too poorly defined to accurately determine]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="17"
+                xml:id="pb-17"
+                facs="#i17"/>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">11a</unclear>
+            <lb/>
+[Pencil sketch lines drawn horizontally across the page, as well as some practice lines of foliage, and a small tree. Lower down there is an outline edge of foliage]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="18"
+                xml:id="pb-18"
+                facs="#i18"/>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="19"
+                xml:id="pb-19"
+                facs="#i19"/>
+            <lb/>
+13 of rolling hills. Three in the background are bare. The one hill in the front is covered with trees on the left side and along the lower section. Rocks line the left foreground with an open field or body of water in the right foreground.<lb/>
+Hill of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag32"
+                ref="#place_087"
+                type="place">
+               <name xml:id="tag32" type="place">
+          Suire
+        </name>
+            </rs>
+            <lb/>
+above <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag33"
+                ref="#place_096"
+                type="place">
+               <name xml:id="tag33" type="place">
+          Caher
+        </name>
+            </rs>.<lb/>
+Hill on the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag34"
+                ref="#place_087"
+                type="place">
+               <name xml:id="tag34" type="place">
+          Suire
+        </name>
+            </rs> above - <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Cahir.</hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag35"
+                ref="#chemical_090"
+                type="chemical">
+               <term xml:id="tag35">
+          Limestone
+          
+        </term>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag36" ref="#person_070" type="person">
+                  <name xml:id="tag36" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="20"
+                xml:id="pb-20"
+                facs="#i20"/>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="21"
+                xml:id="pb-21"
+                facs="#i21"/>
+            <lb/>
+15<lb/>
+[Pencil sketch of rolling hills beside a river, their slopes decorated with vegetation. Thicker bushes run along the far river bank. On the near side, in the foreground, more bushes]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="22"
+                xml:id="pb-22"
+                facs="#i22"/>
+            <lb/>
+[Pencil sketch of the outlines of rock formations; minimal detail]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="23"
+                xml:id="pb-23"
+                facs="#i23"/>
+            <lb/>
+17<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag37"
+                ref="#place_092"
+                type="place">
+               <name xml:id="tag37" type="place">
+          Monavou<del rend="strikethrough">la</del>
+                  <add>lla</add>yough -Mountains
+        </name>
+            </rs>
+            <lb/>
+tumblers from there <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag38"
+                ref="#chemical_090"
+                type="chemical">
+               <term xml:id="tag38">
+          Limestone
+          
+        </term>
+            </rs>
+            <lb/>
+[Pencil sketch of mountains and a river, with a person fishing, with detailed sketches of foliage, labelled Monavoullayough - Mountains, now called the Monavullagh Mountains near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag39"
+                ref="#place_091"
+                type="place">
+               <name xml:id="tag39" type="place">
+          Waterford
+        </name>
+            </rs>]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="24"
+                xml:id="pb-24"
+                facs="#i24"/>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxxxxxx</unclear>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag40"
+                ref="#chemical_105"
+                type="chemical">
+               <term xml:id="tag40">
+          Basalt
+          
+        </term>
+            </rs>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag41"
+                ref="#place_051"
+                type="place">
+               <name xml:id="tag41" type="place">
+          L Erne
+        </name>
+            </rs>
+            <lb/>
+[Pencil sketch of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag42"
+                ref="#chemical_105"
+                type="chemical">
+               <term xml:id="tag42">
+          Basalt
+          
+        </term>
+            </rs> near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag43"
+                ref="#place_051"
+                type="place">
+               <name xml:id="tag43" type="place">
+          Loch Erne
+        </name>
+            </rs>]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="25"
+                xml:id="pb-25"
+                facs="#i25"/>
+            <lb/>
+19<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag44"
+                ref="#chemical_099"
+                type="chemical">
+               <term xml:id="tag44">
+          Grau Sandstone
+          
+        </term>
+            </rs>
+            <lb/>
+near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag45"
+                ref="#place_098"
+                type="place">
+               <name xml:id="tag45" type="place">
+          millstreet
+        </name>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag46" ref="#person_070" type="person">
+                  <name xml:id="tag46" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag47"
+                ref="#chemical_099"
+                type="chemical">
+               <term xml:id="tag47">
+          Grau Sandstone
+          
+        </term>
+            </rs> near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag48"
+                ref="#place_098"
+                type="place">
+               <name xml:id="tag48" type="place">
+          millstreet
+        </name>
+            </rs>
+            <lb/>
+[Watercolour painting of mountains, using green, grey and blue colours]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="26"
+                xml:id="pb-26"
+                facs="#i26"/>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="27"
+                xml:id="pb-27"
+                facs="#i27"/>
+            <lb/>
+21<lb/>
+[Watercolour painting of mountains, unlabelled]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="28"
+                xml:id="pb-28"
+                facs="#i28"/>
+            <lb/>
+22<lb/>
+4 4 4<lb/>
+[Pencil sketch of the outlines of rock formations]<lb/>
+B<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="29"
+                xml:id="pb-29"
+                facs="#i29"/>
+            <lb/>
+21a<lb/>
+Paps<lb/>
+Grauwackae <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag49"
+                ref="#chemical_088"
+                type="chemical">
+               <term xml:id="tag49">
+          Sandstone
+          
+        </term>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag50" ref="#person_070" type="person">
+                  <name xml:id="tag50" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+Paps <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag51"
+                ref="#chemical_099"
+                type="chemical">
+               <term xml:id="tag51">
+          grauwacke
+          
+        </term>
+            </rs> Sand<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">e</hi>
+            <lb/>
+[Watercolour showing a pair of mountains, labelled as 'Paps', and probably the Paps of Anu, breast-shaped hills near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag52"
+                ref="#place_106"
+                type="place">
+               <name xml:id="tag52" type="place">
+          Killarney
+        </name>
+            </rs> in County <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag53"
+                ref="#place_1199"
+                type="place">
+               <name xml:id="tag53" type="place">
+          Kerry
+        </name>
+            </rs>]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="30"
+                xml:id="pb-30"
+                facs="#i30"/>
+            <lb/>
+21b<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="31"
+                xml:id="pb-31"
+                facs="#i31"/>
+            <lb/>
+23<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag54"
+                ref="#place_099"
+                type="place">
+               <name xml:id="tag54" type="place">
+          Mountains about Killarney
+        </name>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag55" ref="#person_070" type="person">
+                  <name xml:id="tag55" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag56" ref="#place_099" type="place">
+                  <name xml:id="tag56" type="place">
+          Mountains about Killarney
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+[Watercolour showing the shape of mountains around <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag57"
+                ref="#place_106"
+                type="place">
+               <name xml:id="tag57" type="place">
+          Killarney
+        </name>
+            </rs>, in grey green]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="32"
+                xml:id="pb-32"
+                facs="#i32"/>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag58"
+                ref="#place_099"
+                type="place">
+               <name xml:id="tag58" type="place">
+          Mountains about Killarney
+        </name>
+            </rs> Gilly Mucruss<lb/>
+-Gil<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag59"
+                ref="#place_099"
+                type="place">
+               <name xml:id="tag59" type="place">
+          Mountains about Killarney
+        </name>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag60" ref="#person_070" type="person">
+                  <name xml:id="tag60" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+Gilly Muc<lb/>
+[A pencil sketch showing a mountain range with some shading, perhaps this is the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag61"
+                ref="#place_1357"
+                type="place">
+               <name xml:id="tag61" type="place">
+          MacGillycuddy's Reeks
+        </name>
+            </rs> mountain range]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="33"
+                xml:id="pb-33"
+                facs="#i33"/>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">25</unclear>
+            <lb/>
+[A pencil sketch showing the bare outline of mountains or hills, with very little detail]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="34"
+                xml:id="pb-34"
+                facs="#i34"/>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="35"
+                xml:id="pb-35"
+                facs="#i35"/>
+            <lb/>
+27<lb/>
+[Pencil sketch showing mountains or hills in the background, with a lake and trees and foliage in the foreground, unlabelled]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="36"
+                xml:id="pb-36"
+                facs="#i36"/>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="37"
+                xml:id="pb-37"
+                facs="#i37"/>
+            <lb/>
+29<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag62"
+                ref="#place_101"
+                type="place">
+               <name xml:id="tag62" type="place">
+          Castle Blarney
+        </name>
+            </rs>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag63" ref="#place_101" type="place">
+                  <name xml:id="tag63" type="place">
+          Castle Blarney
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">J. D</hi>
+            <lb/>
+[Detailed pencil sketch of Blarney Castle and the trees and river beside it. Foreground depicts the near bank with trees, vegetation and a small house]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="38"
+                xml:id="pb-38"
+                facs="#i38"/>
+            <lb/>
+[Pencil sketch of the outlines of hills and mountains facing onto a lake, sea or river from which rises clumped rock formations]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="39"
+                xml:id="pb-39"
+                facs="#i39"/>
+            <lb/>
+31<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag64"
+                ref="#place_1357"
+                type="place">
+               <name xml:id="tag64" type="place">
+          M.<hi rend="superscript">c</hi> Gilly - Cuddy's <unclear>Reeks</unclear>/ Gull ' Macudd's reeks
+        </name>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">J. D</hi>
+            <lb/>
+[Pencil sketch of river winding through mountains, rocky landscape. Vegetation crowds the rocky banks, and a tree on the right-hand foreground rock formation has been partially watercolour in shades of green touched with a <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag65"
+                ref="#place_741"
+                type="place">
+               <name xml:id="tag65" type="place">
+          Sienna
+        </name>
+            </rs> brown]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="40"
+                xml:id="pb-40"
+                facs="#i40"/>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="41"
+                xml:id="pb-41"
+                facs="#i41"/>
+            <lb/>
+33<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="42"
+                xml:id="pb-42"
+                facs="#i42"/>
+            <lb/>
+[Pencil sketch of a rock formation]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="43"
+                xml:id="pb-43"
+                facs="#i43"/>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">35</unclear>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag66"
+                ref="#place_102"
+                type="place">
+               <name xml:id="tag66" type="place">
+          Ross Island
+        </name>
+            </rs>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag67" ref="#place_102" type="place">
+                  <name xml:id="tag67" type="place">
+          Ross Island
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag68" ref="#person_070" type="person">
+                  <name xml:id="tag68" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+[Pencil sketch of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag69"
+                ref="#place_102"
+                type="place">
+               <name xml:id="tag69" type="place">
+          Ross Island
+        </name>
+            </rs>, backgrounded by hills/mountains. Island features steep cliffs to the left crowded with vegetation. A castle rises in the middle, followed by more vegetation on the right]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="44"
+                xml:id="pb-44"
+                facs="#i44"/>
+            <lb/>
+Purple<lb/>
+Purple<lb/>
+grey<lb/>
+[Pencil sketch of mountains with foliage below and then a castle. Lower still a river rushing over a fairly straight line of smaller rocks, angled towards the viewer]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="45"
+                xml:id="pb-45"
+                facs="#i45"/>
+            <lb/>
+39<lb/>
+[Pencil sketch of landscape with mountain in the background and trees and river in the foreground; continuation of picture on the other half of the double-page spread]<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag70"
+                ref="#place_108"
+                type="place">
+               <name xml:id="tag70" type="place">
+          Cruahan
+        </name>
+            </rs>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag71" ref="#person_070" type="person">
+                  <name xml:id="tag71" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag72"
+                ref="#place_108"
+                type="place">
+               <name xml:id="tag72" type="place">
+          Cruahan
+        </name>
+            </rs>
+            <lb/>
+Purple<lb/>
+purple<lb/>
+purple<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="46"
+                xml:id="pb-46"
+                facs="#i46"/>
+            <lb/>
+[Pencil sketch showing mountains/ hills and some foliage]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="47"
+                xml:id="pb-47"
+                facs="#i47"/>
+            <lb/>
+[Pencil sketch showing a bridge, mountains/ hills, and foliage, continues from the double page spread on the previous page]<lb/>
+39<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="48"
+                xml:id="pb-48"
+                facs="#i48"/>
+            <lb/>
+Another side<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">J. D</hi>
+            <lb/>
+Another side<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="49"
+                xml:id="pb-49"
+                facs="#i49"/>
+            <lb/>
+41<lb/>
+[Pencil sketch part of the full page spread on page 39, labelled 'another side']<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="50"
+                xml:id="pb-50"
+                facs="#i50"/>
+            <lb/>
+[Pencil sketch of a small bush or shrub]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="51"
+                xml:id="pb-51"
+                facs="#i51"/>
+            <lb/>
+43<lb/>
+The Turk The Turk<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">J. D</hi>
+            <lb/>
+[Pencil sketch showing a mountain with detailed shading, and trees and foliage, labelled as 'The Turk']<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="52"
+                xml:id="pb-52"
+                facs="#i52"/>
+            <lb/>
+[Pencil sketch showing a mountain range, with bush trees and possibly some water]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="53"
+                xml:id="pb-53"
+                facs="#i53"/>
+            <lb/>
+View between the two Lakes.<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">J. D</hi>
+            <lb/>
+View between the two<lb/>
+Lakes<lb/>
+Godwillys<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="54"
+                xml:id="pb-54"
+                facs="#i54"/>
+            <lb/>
+[Pencil sketch showing two mountains, lots of shrubby bushes and a lake]<lb/>
+45a<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="55"
+                xml:id="pb-55"
+                facs="#i55"/>
+            <lb/>
+The upper Lake<lb/>
+The upper Lake<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">J. D</hi>
+            <lb/>
+[Pencil sketch showing mountains with a lake in the foreground]<lb/>
+44a<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="56"
+                xml:id="pb-56"
+                facs="#i56"/>
+            <lb/>
+45b<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="57"
+                xml:id="pb-57"
+                facs="#i57"/>
+            <lb/>
+[Ink or paint smudges, black, red and green]<lb/>
+[Pencil sketch with similarities to previous few sketches, showing a lake, mountains in background and a bushy outcrop]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="58"
+                xml:id="pb-58"
+                facs="#i58"/>
+            <lb/>
+46<lb/>
+[Pencil sketch of an outline of mountains or hills, unlabelled]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="59"
+                xml:id="pb-59"
+                facs="#i59"/>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag73" ref="#place_107" type="place">
+                  <name xml:id="tag73" type="place">
+          Gap Dunlo
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+[Pencil sketch of a very rocky landscape with what appears to be a bridge of rock and rocky cliffs]<lb/>
+47a<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="60"
+                xml:id="pb-60"
+                facs="#i60"/>
+            <lb/>
+[Pencil sketch of outline of mountains/hills, with possibly some water in the foreground, covered partly by a blue paint smudge]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="61"
+                xml:id="pb-61"
+                facs="#i61"/>
+            <lb/>
+49<lb/>
+[A pencil sketch with rough outlines and some shading detailing the shapes of a rocky landscape, possibly with clouds towards the top of the sketch]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="62"
+                xml:id="pb-62"
+                facs="#i62"/>
+            <lb/>
+[A pencil sketch of a mountainous rocks, with detailed shading and texture marks, perhaps representing foliage on one of the mountains/ hills]<lb/>
+L<lb/>
+L<lb/>
+L<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="63"
+                xml:id="pb-63"
+                facs="#i63"/>
+            <lb/>
+51<lb/>
+[Pencil sketch - part of a double-page spread continued from the previous page - showing mountains]<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">P</hi>
+            <lb/>
+Cruachan<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="64"
+                xml:id="pb-64"
+                facs="#i64"/>
+            <lb/>
+[A pencil line, which appears to be part of a double-page spread continuing onto the next page]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="65"
+                xml:id="pb-65"
+                facs="#i65"/>
+            <lb/>
+[A pencil sketch that is a very loose outline of the shape of a mountain range or group of hills]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="66"
+                xml:id="pb-66"
+                facs="#i66"/>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">1</unclear>
+            <lb/>
+[Pencil sketch of what looks like a mountain range with shading, part of a double-page spread, unlabelled]<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">1</unclear>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="67"
+                xml:id="pb-67"
+                facs="#i67"/>
+            <lb/>
+53<lb/>
+M. C<lb/>
+2<lb/>
+2<lb/>
+[Pencil sketch of a mountain range, with shading, continues from previous page]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="68"
+                xml:id="pb-68"
+                facs="#i68"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="69"
+                xml:id="pb-69"
+                facs="#i69"/>
+            <lb/>
+55<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Cruachan</hi>
+            <lb/>
+Cruachan<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">J. D</hi>
+            <lb/>
+[Pencil sketch of an outline of Cruachan, probably Crohane/An Cruachán in County <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag74"
+                ref="#place_1199"
+                type="place">
+               <name xml:id="tag74" type="place">
+          Kerry
+        </name>
+            </rs>]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="70"
+                xml:id="pb-70"
+                facs="#i70"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="71"
+                xml:id="pb-71"
+                facs="#i71"/>
+            <lb/>
+57<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="72"
+                xml:id="pb-72"
+                facs="#i72"/>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag75"
+                ref="#place_109"
+                type="place">
+               <name xml:id="tag75" type="place">
+          Bantry Bay
+        </name>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag76"
+                ref="#place_109"
+                type="place">
+               <name xml:id="tag76" type="place">
+          Bantry Bay
+        </name>
+            </rs>.<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag77"
+                ref="#place_110"
+                type="place">
+               <name xml:id="tag77" type="place">
+          Sugar Loaf
+        </name>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag78"
+                ref="#place_110"
+                type="place">
+               <name xml:id="tag78" type="place">
+          Sugar Loaf
+        </name>
+            </rs>.<lb/>
+[Pencil sketch showing <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag79"
+                ref="#place_109"
+                type="place">
+               <name xml:id="tag79" type="place">
+          Bantry Bay
+        </name>
+            </rs> and Sugarloaf Mountain, Co Cork, with trees or foliage, showing the bay and marks on sugarloaf mountain]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="73"
+                xml:id="pb-73"
+                facs="#i73"/>
+            <lb/>
+59<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag80"
+                ref="#place_111"
+                type="place">
+               <name xml:id="tag80" type="place">
+          Hungry Hill
+        </name>
+            </rs>
+            <lb/>
+Hanging <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Stile</unclear>
+            <lb/>
+[Pencil sketch of the Caha Mountain Range, which looks to be continued on from page 58]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="74"
+                xml:id="pb-74"
+                facs="#i74"/>
+            <lb/>
+There are persons who . suppose that<lb/>
+Science cannot be pursued<lb/>
+without a Theory - Some)<lb/>
+who ridicule the idea of<lb/>
+a pursuit without Hypotheses<lb/>
+but this is exceedingly unfair<lb/>
+Humanity is liable to<lb/>
+Vices; but it is not<lb/>
+necessary that in this<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxxxx</unclear> we should adopt<lb/>
+a vice or make a merit<lb/>
+of the imperfection or weakness<lb/>
+of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">humanit</del> our nature -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="75"
+                xml:id="pb-75"
+                facs="#i75"/>
+            <lb/>
+61<lb/>
+All the changes which have produced<lb/>
+our strata <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">may</hi> have taken place<lb/>
+when our globe was part of another<lb/>
+system; but geological Theory<lb/>
+is of the same use in Science<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">That</del> as Fable &amp; Romance in<lb/>
+Morals - It releives the<lb/>
+dryness of discussion. It<lb/>
+enlivens by presenting pictures<lb/>
+to the imagination. <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> it imprints<lb/>
+facts more deeply in the memory<lb/>
+&amp; there is no necessary<lb/>
+discordance between the Art of<lb/>
+instructing &amp; the Art of amusing -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="76"
+                xml:id="pb-76"
+                facs="#i76"/>
+            <lb/>
+The Geological Theorist may indeed<lb/>
+sometimes attempt what He never<lb/>
+can accomplish, but this were<lb/>
+failure can be no crime<lb/>
+&amp; where <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the attempt</del> even <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">notion</unclear>
+            <lb/>
+is a virtue cannot possibly<lb/>
+be a mortification<lb/>
+[Pencil sketches of leaves or part of a bush or tree]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="77"
+                xml:id="pb-77"
+                facs="#i77"/>
+            <lb/>
+63<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="78"
+                xml:id="pb-78"
+                facs="#i78"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="79"
+                xml:id="pb-79"
+                facs="#i79"/>
+            <lb/>
+65<lb/>
+Mountains about <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag81"
+                ref="#place_051"
+                type="place">
+               <name xml:id="tag81" type="place">
+          Loch Erne
+        </name>
+            </rs>
+            <lb/>
+Mountains about <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag82"
+                ref="#place_051"
+                type="place">
+               <name xml:id="tag82" type="place">
+          Loch Erne
+        </name>
+            </rs>
+            <lb/>
+[Pencil sketch showing the outline of a mountain range, with bushy trees or foliage in the foreground, labelled]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="80"
+                xml:id="pb-80"
+                facs="#i80"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="81"
+                xml:id="pb-81"
+                facs="#i81"/>
+            <lb/>
+67<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="82"
+                xml:id="pb-82"
+                facs="#i82"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="83"
+                xml:id="pb-83"
+                facs="#i83"/>
+            <lb/>
+69<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="84"
+                xml:id="pb-84"
+                facs="#i84"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="85"
+                xml:id="pb-85"
+                facs="#i85"/>
+            <lb/>
+71<lb/>
+[Pencil sketch showing a mountain range and water]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="86"
+                xml:id="pb-86"
+                facs="#i86"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="87"
+                xml:id="pb-87"
+                facs="#i87"/>
+            <lb/>
+73<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">alternates</unclear>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="88"
+                xml:id="pb-88"
+                facs="#i88"/>
+            <lb/>
+[Pencil sketch showing the outline of a hill or mountain with foliage or trees as outlines]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="89"
+                xml:id="pb-89"
+                facs="#i89"/>
+            <lb/>
+75<lb/>
+[Pencil sketch showing rocky mountain or promontory, unlabeled, with a possible tree for scale]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="90"
+                xml:id="pb-90"
+                facs="#i90"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="91"
+                xml:id="pb-91"
+                facs="#i91"/>
+            <lb/>
+77<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="92"
+                xml:id="pb-92"
+                facs="#i92"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="93"
+                xml:id="pb-93"
+                facs="#i93"/>
+            <lb/>
+79<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="94"
+                xml:id="pb-94"
+                facs="#i94"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="95"
+                xml:id="pb-95"
+                facs="#i95"/>
+            <lb/>
+81<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">HD<unclear>avy</unclear>
+            </del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="96"
+                xml:id="pb-96"
+                facs="#i96"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="97"
+                xml:id="pb-97"
+                facs="#i97"/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">83</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="98"
+                xml:id="pb-98"
+                facs="#i98"/>
+            <lb/>
+Between <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag83"
+                ref="#place_112"
+                type="place">
+               <name xml:id="tag83" type="place">
+          Macguires bridge
+        </name>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag84"
+                ref="#place_049"
+                type="place">
+               <name xml:id="tag84" type="place">
+          Enniskillen
+        </name>
+            </rs>
+            <lb/>
+tumblers in the roads of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag85"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag85">
+          Granite
+          
+        </term>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag86"
+                ref="#chemical_125"
+                type="chemical">
+               <term xml:id="tag86">
+          porphyry
+          
+        </term>
+            </rs>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag87"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag87">
+          Shist
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag88"
+                ref="#chemical_099"
+                type="chemical">
+               <term xml:id="tag88">
+          grauwacke
+          
+        </term>
+            </rs> - 12 July<lb/>
+orange Boys-<lb/>
+Wednesday.<lb/>
+Thursday.<lb/>
+Friday.<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Friday.</del>
+            <lb/>
+Saturday.<lb/>
+Scenery of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag89"
+                ref="#place_051"
+                type="place">
+               <name xml:id="tag89" type="place">
+          Loch Erne
+        </name>
+            </rs>
+            <lb/>
+            <milestone xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                       unit="section"
+                       rend="line"/>
+            <lb/>
+Mountains about <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag90"
+                ref="#place_051"
+                type="place">
+               <name xml:id="tag90" type="place">
+          L Erne
+        </name>
+            </rs>
+            <lb/>
+Mountains about (<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">above</hi>) <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag91"
+                ref="#place_051"
+                type="place">
+               <name xml:id="tag91" type="place">
+          Lake Erne
+        </name>
+            </rs>
+            <lb/>
+[Pencil sketch - perhaps in graphite pencil - showing mountains, which are heavily shaded, with trees]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="99"
+                xml:id="pb-99"
+                facs="#i99"/>
+            <lb/>
+85<lb/>
+{The mighty navy - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">raised the stubborn oak</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; whose island power</del>
+            <lb/>
+raised the stubborn oak.<lb/>
+-a cultivated Country - Trees rare<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxx</unclear> smooth Hill very<lb/>
+green. blue mountains<lb/>
+possessing fine forms in the<lb/>
+distance.- a lake beautifully<lb/>
+studded with Islands<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">x</unclear>}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="100"
+                xml:id="pb-100"
+                facs="#i100"/>
+            <lb/>
+{- On the fair <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">margin</unclear> - In the morning light<lb/>
+Oft<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">en</del> have I stood in silent ecstacy-<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">And viewed the <unclear>mov</unclear>
+            </del>
+            <lb/>
+&amp; witnessed <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>all</unclear>
+            </del> the <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">motion</unclear> stir &amp; joy -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxxx</unclear>
+            </del> The Year awakning from its winters sleep-<lb/>
+There <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">was <add>sweet</add>
+            </del> music <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">moves</add> in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the waters</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">every torrents</add> sound -<lb/>
+There <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">was a</del> balmy sweetness <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in the air</del>
+            <lb/>
+dwells in every breeze<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">And every sunbeam seemed to minister</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">To animation</del>
+            <lb/>
+And every sunbeam ministers to life<lb/>
+-.<lb/>
+He rises from the waters,- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>raised</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">And</add> His wings<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Scatters the dew as mist</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The dew that's sparkling</del>- on this armed<lb/>
+head-<lb/>
+The sun beam sparkles" --. <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Every movement speaks</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Of matchless strength</del>
+            <lb/>
+such his power.- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">He moves</del>
+            <lb/>
+He moves against the whirlwinds blast<lb/>
+Where strength has shattered on the<lb/>
+yielding wave}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="101"
+                xml:id="pb-101"
+                facs="#i101"/>
+            <lb/>
+87<lb/>
+-"The midnight revelry"<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="102"
+                xml:id="pb-102"
+                facs="#i102"/>
+            <lb/>
+{-"Whether the deep &amp; hidden properties<lb/>
+            <lb/>
+- Of earthly Natures - to the sages view<lb/>
+  .More disclosed - or in the unbounded<lb/>
+  skies<lb/>
+  The <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>bod</unclear>
+            </del> History of planets &amp; of worlds -<lb/>
+- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The body</del>
+            <lb/>
+  " These are the noblest exercises of Him<lb/>
+  Whose <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">power</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">strength</add> is reason &amp; whose <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">life</hi> is thought<lb/>
+  " Yes there are those to whom the harmony<lb/>
+  Of Nature speaks not "those those whose <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del>
+            <lb/>
+  leaden eyes<lb/>
+  Turn from the wood - the meadow &amp; stream<lb/>
+  In listless apathy - scorning the forms<lb/>
+  Of Life &amp; beauty - Such alone resort<lb/>
+  To the abodes of <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Riot</unclear> - love alone<lb/>
+  The noisy croud - the Cities dusty<lb/>
+  walks.}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="103"
+                xml:id="pb-103"
+                facs="#i103"/>
+            <lb/>
+89<lb/>
+{strength<lb/>
+And unsubdued activity arise<lb/>
+From this <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">conviction</unclear>...- Hence its <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxxx</unclear>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxx</unclear> -.<lb/>
+Embraces all <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">that Natures </del>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">fi</unclear>
+            <lb/>
+that <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">bounteous Nature gives</add>
+            <lb/>
+In the wide world of Knowledge-<lb/>
+In the heavens<lb/>
+And in the Earth. The varying forms of<lb/>
+things<lb/>
+Whether the fair, decorous or sublime<lb/>
+Whether the painters or the poets <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">stores</unclear>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">By young imagination pictured forth</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">In <del rend="strikethrough">lovlier</del> images far loveli</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">In tints far lovelier, from the genius</del>
+            <lb/>
+light<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear>
+            </del> Lovely themselves, but by the Kindley<lb/>
+power<lb/>
+Of young imagination <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">age</del>
+            </add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">made the <unclear>so illumed</unclear>
+            </del>
+            <lb/>
+lovelier made}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="104"
+                xml:id="pb-104"
+                facs="#i104"/>
+            <lb/>
+{- Tis not the high &amp; boasted attribute<lb/>
+Stamping divinity upon the mind-<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Reason</del>
+            <lb/>
+That rules alone. <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; <unclear>xxx</unclear>
+            </del> It is not power<lb/>
+Though <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">strong</add> &amp; turbulent <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">passions <del rend="strikethrough">
+                  <unclear>xxxx xxxx</unclear>
+               </del>
+            </add> as is the <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">rush</unclear>
+            <lb/>
+Of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag92"
+                ref="#place_113"
+                type="place">
+               <name xml:id="tag92" type="place">
+          severns Waters
+        </name>
+            </rs> - when at once<lb/>
+The blast<lb/>
+&amp; tide &amp; stream urge them resistless on<lb/>
+"Habits &amp; Circumstances"- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>pattern</unclear>
+            </del>
+            <lb/>
+And by a powerful, &amp; magic spell <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">act their part.</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Influence the strongest &amp; subdue the weak</del>
+            <lb/>
+Subdue the weak &amp; influence the strong<lb/>
+            <lb/>
+- A Unity pervades the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>living</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Human</add> soul.<lb/>
+  Its parts are all harmonious. From its birth<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">In its birth its life is sensibility</del>
+            <lb/>
+  It claims the living &amp; moving <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">world-</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">All in its heritage -</del>
+            <lb/>
+  As its inheritage .-. &amp; power &amp;}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="105"
+                xml:id="pb-105"
+                facs="#i105"/>
+            <lb/>
+91<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="106"
+                xml:id="pb-106"
+                facs="#i106"/>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag93"
+                ref="#place_114"
+                type="place">
+               <name xml:id="tag93" type="place">
+          Milford Haven
+        </name>
+            </rs>. <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag94" ref="#person_070" type="person">
+                  <name xml:id="tag94" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag95"
+                ref="#place_114"
+                type="place">
+               <name xml:id="tag95" type="place">
+          Milford Haven
+        </name>
+            </rs>
+            <lb/>
+W<lb/>
+W<lb/>
+S S<lb/>
+[Pencil sketch of the outline of what appears to be a promontory, with water and other land masses, labelled <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag96"
+                ref="#place_114"
+                type="place">
+               <name xml:id="tag96" type="place">
+          Milford Haven
+        </name>
+            </rs>]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="107"
+                xml:id="pb-107"
+                facs="#i107"/>
+            <lb/>
+93<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="108"
+                xml:id="pb-108"
+                facs="#i108"/>
+            <lb/>
+Quarry in the Road not far from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag97"
+                ref="#misc_153"
+                type="miscellaneous">
+               <term xml:id="tag97">
+          Carmarthen
+        </term>
+            </rs> in which Sand=<lb/>
+stone &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag98"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag98">
+          Shist
+          
+        </term>
+            </rs> are placed in vertical &amp; alternate Strata<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag99" ref="#person_070" type="person">
+                  <name xml:id="tag99" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+Quarry in the road not far from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag100"
+                ref="#place_115"
+                type="place">
+               <name xml:id="tag100" type="place">
+          Cuarmarthen
+        </name>
+            </rs>.<lb/>
+in which <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag101"
+                ref="#chemical_088"
+                type="chemical">
+               <term xml:id="tag101">
+          Sandstone
+          
+        </term>
+            </rs>, &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag102"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag102">
+          Shist
+          
+        </term>
+            </rs> are <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">placed</hi>
+            <lb/>
+in Vertical &amp; alternate strata<lb/>
+[Pencil sketch of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag103"
+                ref="#chemical_088"
+                type="chemical">
+               <term xml:id="tag103">
+          Sandstone
+          
+        </term>
+            </rs> and <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag104"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag104">
+          Shist
+          
+        </term>
+            </rs> in vertical and alternate Strata with a carriage and some outlines of foliage]<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>
+                  <rs xml:id="ttag105" ref="#chemical_088" type="chemical">
+                     <term xml:id="tag105">
+          Sandstone
+          
+        </term>
+                  </rs>
+               </unclear>
+            </del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="109"
+                xml:id="pb-109"
+                facs="#i109"/>
+            <lb/>
+95<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="110"
+                xml:id="pb-110"
+                facs="#i110"/>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag106" ref="#place_118" type="place">
+                  <name xml:id="tag106" type="place">
+          wye
+        </name>
+               </rs> near <rs xml:id="ttag107" ref="#place_116" type="place">
+                  <name xml:id="tag107" type="place">
+          Builth
+        </name>
+               </rs>
+            </hi>-.<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag108"
+                ref="#place_118"
+                type="place">
+               <name xml:id="tag108" type="place">
+          wye
+        </name>
+            </rs> near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag109"
+                ref="#place_116"
+                type="place">
+               <name xml:id="tag109" type="place">
+          Built
+        </name>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag110" ref="#person_070" type="person">
+                  <name xml:id="tag110" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+[Pencil sketch showing mountains or hills in the background and detailed sketches of trees in the foreground, labelled as <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag111"
+                ref="#place_118"
+                type="place">
+               <name xml:id="tag111" type="place">
+          wye
+        </name>
+            </rs> near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag112"
+                ref="#place_116"
+                type="place">
+               <name xml:id="tag112" type="place">
+          Built
+        </name>
+            </rs>, probably with the shading representing the River <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag113"
+                ref="#place_118"
+                type="place">
+               <name xml:id="tag113" type="place">
+          wye
+        </name>
+            </rs> in the foreground]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="111"
+                xml:id="pb-111"
+                facs="#i111"/>
+            <lb/>
+97<lb/>
+[Pencil sketch showing only trees and foliage]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="112"
+                xml:id="pb-112"
+                facs="#i112"/>
+            <lb/>
+96a<lb/>
+Mountains NE of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag114"
+                ref="#place_116"
+                type="place">
+               <name xml:id="tag114" type="place">
+          Built
+        </name>
+            </rs>
+            <lb/>
+[Pencil sketch showing mountains and lots of detailed sketching of trees and foliage, labelled]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="113"
+                xml:id="pb-113"
+                facs="#i113"/>
+            <lb/>
+97a<lb/>
+[Pencil sketch of mountains]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="114"
+                xml:id="pb-114"
+                facs="#i114"/>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag115"
+                ref="#chemical_099"
+                type="chemical">
+               <term xml:id="tag115">
+                  <del rend="strikethrough">Grauwacke</del>
+               </term>
+            </rs>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <rs xml:id="ttag116" ref="#chemical_125" type="chemical">
+                  <term xml:id="tag116">
+          Porphyry
+          
+        </term>
+               </rs>
+            </add> near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag117"
+                ref="#place_116"
+                type="place">
+               <name xml:id="tag117" type="place">
+          Builth
+        </name>
+            </rs>
+            <lb/>
+Mountain A about<lb/>
+500 feet above the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag118"
+                ref="#place_118"
+                type="place">
+               <name xml:id="tag118" type="place">
+          wye
+        </name>
+            </rs>. <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag119" ref="#person_070" type="person">
+                  <name xml:id="tag119" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag120"
+                ref="#chemical_125"
+                type="chemical">
+               <term xml:id="tag120">
+          Porphyry
+          
+        </term>
+            </rs> near<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag121"
+                ref="#place_116"
+                type="place">
+               <name xml:id="tag121" type="place">
+          Built
+        </name>
+            </rs>
+            <lb/>
+Mountain A about 500 feet above<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag122" ref="#place_118" type="place">
+                  <name xml:id="tag122" type="place">
+          the Wye
+        </name>
+               </rs>
+            </hi> -<lb/>
+A<lb/>
+[Ink and pencil sketch showing a mountain with rocks, shrubs and trees or foliage, with label 'Mountain A']<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="115"
+                xml:id="pb-115"
+                facs="#i115"/>
+            <lb/>
+99<lb/>
+The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag123"
+                ref="#chemical_125"
+                type="chemical">
+               <term xml:id="tag123">
+          Porphyry
+          
+        </term>
+            </rs> forming the Peak &amp;<lb/>
+            <lb/>
+- the - hill below. is in a state of decomposition<lb/>
+  at the foot of the Mountain are a number<lb/>
+  of Bolderstones. of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag124"
+                ref="#chemical_097"
+                type="chemical">
+               <term xml:id="tag124">
+          Sienite
+          
+        </term>
+            </rs> composed of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag125"
+                ref="#chemical_104"
+                type="chemical">
+               <term xml:id="tag125">
+          feldspar
+          
+        </term>
+            </rs>
+            <lb/>
+  &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag126"
+                ref="#chemical_103"
+                type="chemical">
+               <term xml:id="tag126">
+          Horblende
+          
+        </term>
+            </rs> - at the base in the bed of<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag127"
+                ref="#place_118"
+                type="place">
+               <name xml:id="tag127" type="place">
+          the Wye
+        </name>
+            </rs> the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag128"
+                ref="#chemical_397"
+                type="chemical">
+               <term xml:id="tag128">
+          shale
+          
+        </term>
+            </rs> which consists principally<lb/>
+  of a fine grained <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag129"
+                ref="#chemical_099"
+                type="chemical">
+               <term xml:id="tag129">
+          grauwacke
+          
+        </term>
+            </rs> soft &amp; decomposable<lb/>
+  is perceived &amp; this <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag130"
+                ref="#chemical_397"
+                type="chemical">
+               <term xml:id="tag130">
+          shale
+          
+        </term>
+            </rs> forms the<lb/>
+  greatest part of the mountains over which We<lb/>
+  passed from <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag131" ref="#place_119" type="place">
+                  <name xml:id="tag131" type="place">
+          ludlow
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="116"
+                xml:id="pb-116"
+                facs="#i116"/>
+            <lb/>
+Form of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag132"
+                ref="#chemical_125"
+                type="chemical">
+               <term xml:id="tag132">
+          Porphyry
+          
+        </term>
+            </rs> near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag133"
+                ref="#place_116"
+                type="place">
+               <name xml:id="tag133" type="place">
+          Builth
+        </name>
+            </rs>
+            <lb/>
+Forms of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag134"
+                ref="#chemical_125"
+                type="chemical">
+               <term xml:id="tag134">
+          Porphyry
+          
+        </term>
+            </rs> near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag135"
+                ref="#place_116"
+                type="place">
+               <name xml:id="tag135" type="place">
+          Built
+        </name>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag136" ref="#person_070" type="person">
+                  <name xml:id="tag136" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+[Pencil and ink sketch which show detailed depictions of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag137"
+                ref="#chemical_125"
+                type="chemical">
+               <term xml:id="tag137">
+          porphyry
+          
+        </term>
+            </rs> rock, and trees and foliage, perhaps the ink was added later. maybe by Jane or the hand on p. 99]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="117"
+                xml:id="pb-117"
+                facs="#i117"/>
+            <lb/>
+101<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="118"
+                xml:id="pb-118"
+                facs="#i118"/>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag138"
+                ref="#place_120"
+                type="place">
+               <name xml:id="tag138" type="place">
+          Lanterine
+        </name>
+            </rs>. May 30<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">th.</hi> 1806<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag139" ref="#place_120" type="place">
+                  <name xml:id="tag139" type="place">
+          Leintwardine
+        </name>
+               </rs>
+            </hi> correct<lb/>
+[Pencil sketch showing landscape include two lovely trees, and foliage, labelled]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="119"
+                xml:id="pb-119"
+                facs="#i119"/>
+            <lb/>
+103<lb/>
+[Pencil sketches of what looks like leaves or foliage, and two outlines, possibly if rock types of structures]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="120"
+                xml:id="pb-120"
+                facs="#i120"/>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Hills N of <rs xml:id="ttag140" ref="#place_120" type="place">
+                  <name xml:id="tag140" type="place">
+          Lantorine
+        </name>
+               </rs>
+            </hi> - May 30.<lb/>
+[Pencil sketch containing two linked sketches showing hills, the first including a small building, with a line from two parts labelled 'H' to another]<lb/>
+H<lb/>
+Hills NW. of L<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">e</hi>.<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">This is a <rs xml:id="ttag141" ref="#chemical_081" type="chemical">
+                  <term xml:id="tag141">
+          Calcareous 
+          
+        </term>
+               </rs>&amp; <rs xml:id="ttag142" ref="#chemical_088" type="chemical">
+                  <term xml:id="tag142">
+          Sandstone
+          
+        </term>
+               </rs> country</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="121"
+                xml:id="pb-121"
+                facs="#i121"/>
+            <lb/>
+105<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="122"
+                xml:id="pb-122"
+                facs="#i122"/>
+            <lb/>
+Near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag143"
+                ref="#place_119"
+                type="place">
+               <name xml:id="tag143" type="place">
+          ludlow
+        </name>
+            </rs> in the carriage- May 26<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">th</hi> 1806<lb/>
+Near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag144"
+                ref="#place_119"
+                type="place">
+               <name xml:id="tag144" type="place">
+          ludlow
+        </name>
+            </rs> in the carriage - May 26<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">th</hi> 1806<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag145" ref="#person_070" type="person">
+                  <name xml:id="tag145" type="person">
+          J.D
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+[Pencil sketch showing hills or mountains, with trees on top, layers of rocks and foliage, labelled]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="123"
+                xml:id="pb-123"
+                facs="#i123"/>
+            <lb/>
+107<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="124"
+                xml:id="pb-124"
+                facs="#i124"/>
+            <lb/>
+108<lb/>
+[Pencil sketch of a castle, probably <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag146"
+                ref="#place_119"
+                type="place">
+               <name xml:id="tag146" type="place">
+          ludlow
+        </name>
+            </rs> Castle, with details of foliage or trees]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="125"
+                xml:id="pb-125"
+                facs="#i125"/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

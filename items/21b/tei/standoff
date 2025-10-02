@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standOff>
+      <listAnnotation type="nonenglish">
+         <note xml:id="nonenglish_009" type="description">
+            <term id="nonenglish_009-term">quere</term>
+            <gloss id="nonenglish_009-gloss" target="#nonenglish_009-term">
+               <p>query; to enquire (Latin)</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listPerson>
+         <person xml:id="person_091">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Hugh</forename>
+               <surname>Latimer</surname>
+            </persName>
+            <birth when="1487"/>
+            <death when="1555"/>
+            <note>A supporter of the Reformation and sometime Bishop of Worcester, he was burned in Oxford for heresy in 1555 during the reign of Mary I.</note>
+         </person>
+         <person xml:id="person_092">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Nicholas</forename>
+               <surname>Ridley</surname>
+            </persName>
+            <birth when="c. 1500"/>
+            <death when="1555"/>
+            <note>A supporter of the Reformation and sometime Bishop of London, he was burned in Oxford for heresy in 1555 during the reign of Mary I.</note>
+         </person>
+         <person xml:id="person_951">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jesus</forename>
+               <surname>Christ</surname>
+            </persName>
+            <birth when="c. 6-4 BC"/>
+            <death when="AD 30 or 33"/>
+            <note>The central figure of Christianity; a first-century Jewish preacher and religious leader.</note>
+         </person>
+         <person xml:id="person_814">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Marcus Atilius</forename>
+               <surname>Regulus</surname>
+            </persName>
+            <birth when="299 BCE"/>
+            <death when="250 BCE "/>
+            <note>Roman statesman and general who was a consul of the Roman Republic in 267 BC and 256 BC. Much of his career was spent fighting the Carthaginians during the first Punic War.</note>
+         </person>
+         <person xml:id="person_093">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">William Augustus</forename>
+               <surname>Cane</surname>
+            </persName>
+            <birth when="1755"/>
+            <death when="1843"/>
+            <note>Perpetual Curate of Doddington, Northumberland, who inhaled nitous oxide at the Medical Pneumatic Institution.</note>
+         </person>
+         <person xml:id="person_029">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Thomas</forename>
+               <surname>Beddoes</surname>
+            </persName>
+            <birth when="1760"/>
+            <death when="1808"/>
+            <note>A politically radical (Jacobin) chemist and physician who in the 1790s established the Medical Pneumatic Institution in Bristol to investigate the physiological and possible curative effects of all the gases discovered during the eighteenth century. Between late 1798 and early 1801 he employed Davy as Superintendent of the Institution.</note>
+         </person>
+         <person xml:id="person_094">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Moloch</surname>
+            </persName>
+            <note>Canaanite god, associated with sacrifice.</note>
+         </person>
+         <person xml:id="person_016">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Joseph</forename>
+               <surname>Priestley</surname>
+            </persName>
+            <birth when="1733"/>
+            <death when="1804"/>
+            <note>Unitarian and political radical forced into exile in Pennsylvania. As a natural philospher and chemist who retained belief in phlogiston, he discovered oxygen and nitrous oxide though not under those names. FRSL.</note>
+         </person>
+         <person xml:id="person_023">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Richard</forename>
+               <surname>Kirwan</surname>
+            </persName>
+            <birth when="1733"/>
+            <death when="1812"/>
+            <note>Irish chemist, mineralogist and geologist who accused fellow geologist, James Hutton, of athiesm following publication of his Theory of the Earth (1788). FRSL</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="place_152">
+            <placeName>Hotwell Road</placeName>
+            <note>A major road running through Bristol</note>
+         </place>
+      </listPlace>
+      <listNym type="chemical">
+         <nym xml:id="chemical_048">
+            <form>nitrous oxide</form>
+            <def>
+               <p>Symbol/formula: N2O</p>
+               <p>Later known as 'laughing gas'. Davy discovered that nitrous oxide was respirable when not contaminated with nitric oxide (NO). Davy researched into the physiological effects of nitrous oxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_143">
+            <form>nitric acid</form>
+            <def>
+               <p>Symbol/formula: HNO3</p>
+               <p>A highly corrosive mineral acid. The compound is colourless, but samples tend to acquire a yellow cast over time due to decomposition into oxides of nitrogen</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_050">
+            <form>sulphurated hydrogen</form>
+            <def>
+               <p>Symbol/formula: H2S</p>
+               <p>Hydrogen sulphide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_003">
+            <form>ammonia</form>
+            <def>
+               <p>Symbol/formula: NH3</p>
+               <p>An inorganic chemical compound of nitrogen and hydrogen. Ammonia is a colourless gas with a distinct pungent smell.</p>
+            </def>
+         </nym>
+      </listNym>
+   </standOff>
+</TEI>

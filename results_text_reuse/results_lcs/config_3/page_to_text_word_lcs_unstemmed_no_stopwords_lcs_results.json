@@ -1,0 +1,3218 @@
+{
+  "method": "lcs_library_based",
+  "configuration": {
+    "similarity_threshold": 0.2,
+    "granularity": "word",
+    "use_stemming": false,
+    "remove_stopwords": true,
+    "min_segment_length": 30,
+    "min_words": 5,
+    "min_lcs_length": 4
+  },
+  "reuse_instances": [
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "4",
+      "segment1_text": "1 1827 28 June. Mondsee . T. 60 in room at 8. 56 in window made preparations to go to the river which joins Mondsee & Cammersee . After a morning of bright sunshine at 3 in room 62°. Went to Underact where the river joins Mondsee & Cammer see. a large stream nearly half the size of the Agger with a greener tint, saw many coarse fish & fished a little in the sunshine Caught two Grayling only & many xxxx 1 about a lb.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Ager River",
+            "description": "The Ager River in Austria is a tributary of the Traun.",
+            "id": "place_268"
+          },
+          {
+            "name": "Mondsee",
+            "description": "Mondsee is a town in Upper Austria located on the shore of the lake, Mondsee.",
+            "id": "place_272"
+          },
+          {
+            "name": "Kammersee",
+            "description": "The Kammersee, or Attersee, is a lake in Upper Austria.",
+            "id": "place_269"
+          },
+          {
+            "name": "Unterach am Attersee",
+            "description": "Unterach is a village in the Austria state of Upper Austria on the southern shore of lake Attersee in the centre of the Salzkammergut region.",
+            "id": "place_1350"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "8",
+      "segment2_text": "5 still 64. unbroken sunshine. In window in the shade .80 at 2. in window at 1/4 past . 4 83 Went at 1/2 past six in the carriage to a Chateau about 5 miles off on the river & fished, the thunder storm of last night had raised the water & it was tinted though not muddy. very few fish rose. I caught two or three small Trout & one large Grayling I should think 15 inches. It was 15 3/4 by 8 2/10 15.75. 8.2 weighed 1 lb 6 oz 12lb It was 15 3/4 by 8 2/10 15.75.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.11650485436893204,
+      "lcs_dice": 0.20869565217391303,
+      "lcs_ratio": 0.20869565217391303,
+      "containment_1_in_2": 0.21818181818181817,
+      "containment_2_in_1": 0.2,
+      "max_containment": 0.21818181818181817,
+      "lcs_length": 12,
+      "lcs_text": ". window . went river . fish caught two grayling lb .",
+      "seq1_length": 55,
+      "seq2_length": 60,
+      "coverage_ratio": 0.2
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "6",
+      "segment1_text": "in room at one 68.69. bright sun after a heavy shower a 4 in the morning.. Headache & inf eyes Temper x appli. 4 Hirud. appli. 4 Hirud. appli. 4 Hirud. - Hottest day I have yet felt. Th. in window in shade 78. 79 at 6 in sun 108. In room approaching c. 70. Had a sabling for dinner from Aussee 3/4 of a lb & full of curd",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bad Aussee",
+            "description": "In Styria (Bad Aussee). Bad Aussee is a town in the Austrian state of Styria located at the confluence of the three sources of the Traun River.",
+            "id": "place_229"
+          },
+          {
+            "name": "Gorizia",
+            "description": "Gorizia is a town and comune in north-eastern Italy, in the autonomous region of Friuli Venezia Giulia.",
+            "id": "place_586"
+          },
+          {
+            "name": "Vienna",
+            "description": "Austria’s capital, lies in the country’s east on the Danube River.",
+            "id": "place_898"
+          },
+          {
+            "name": "Salzburg",
+            "description": "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.",
+            "id": "place_197"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "16",
+      "segment2_text": "13 65 in room 66. 67 - July 10. another bright day shall leave DV. Fussen for Kempten . found Kempten very hot & came on to a small inn there, but with bad eating midway between Kempten & Rothenbach . - a breezy day though with unclouded sky Th in room 73. at 4 in inn at 4 in inn at night 9 65. & in window below 60. - a beautiful moon. Caught in the brook a trout & B another – 11.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Röthenbach an der Pegnitz",
+            "description": "a town that would be on the route from Kempten to Bregenz",
+            "id": "place_1241"
+          },
+          {
+            "name": "Kempten",
+            "description": "a town in Allgäu, about 28 miles from Füssen",
+            "id": "place_1240"
+          },
+          {
+            "name": "Bregenz",
+            "description": "Today, a town in Austria on the shores of the Obersee.",
+            "id": "place_1242"
+          },
+          {
+            "name": "Tyrol",
+            "description": "Tyrol is a historical region in the Alps located in northern Italy and western Austria.",
+            "id": "place_328"
+          },
+          {
+            "name": "Füssen",
+            "description": "a town in Bavaria, Germany, just north of the Austrian border.",
+            "id": "place_1238"
+          },
+          {
+            "name": "Appenzell",
+            "description": "a canton in the northeast of Switzerland, the southern part of which is mountainous",
+            "id": "place_1243"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.11494252873563218,
+      "lcs_dice": 0.20618556701030927,
+      "lcs_ratio": 0.20618556701030927,
+      "containment_1_in_2": 0.21739130434782608,
+      "containment_2_in_1": 0.19607843137254902,
+      "max_containment": 0.21739130434782608,
+      "lcs_length": 10,
+      "lcs_text": "room bright . . . day th . window .",
+      "seq1_length": 46,
+      "seq2_length": 51,
+      "coverage_ratio": 0.19607843137254902
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "6",
+      "segment1_text": "in room at one 68.69. bright sun after a heavy shower a 4 in the morning.. Headache & inf eyes Temper x appli. 4 Hirud. appli. 4 Hirud. appli. 4 Hirud. - Hottest day I have yet felt. Th. in window in shade 78. 79 at 6 in sun 108. In room approaching c. 70. Had a sabling for dinner from Aussee 3/4 of a lb & full of curd",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bad Aussee",
+            "description": "In Styria (Bad Aussee). Bad Aussee is a town in the Austrian state of Styria located at the confluence of the three sources of the Traun River.",
+            "id": "place_229"
+          },
+          {
+            "name": "Gorizia",
+            "description": "Gorizia is a town and comune in north-eastern Italy, in the autonomous region of Friuli Venezia Giulia.",
+            "id": "place_586"
+          },
+          {
+            "name": "Vienna",
+            "description": "Austria’s capital, lies in the country’s east on the Danube River.",
+            "id": "place_898"
+          },
+          {
+            "name": "Salzburg",
+            "description": "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.",
+            "id": "place_197"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "88",
+      "segment2_text": "Bologna casa Martinetta . Sep r 30. 1819 Bologna casa Martinetta . Sep r 30. 1819 On the structure On the structure of the Solid the Solid parts of the Globe. parts of the Globe. or Geology. or Geology.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bologna",
+            "description": "A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.",
+            "id": "place_942"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.125,
+      "lcs_dice": 0.2222222222222222,
+      "lcs_ratio": 0.2222222222222222,
+      "containment_1_in_2": 0.17391304347826086,
+      "containment_2_in_1": 0.3076923076923077,
+      "max_containment": 0.3076923076923077,
+      "lcs_length": 8,
+      "lcs_text": ". . . . . . . .",
+      "seq1_length": 46,
+      "seq2_length": 26,
+      "coverage_ratio": 0.17391304347826086
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "6",
+      "segment1_text": "in room at one 68.69. bright sun after a heavy shower a 4 in the morning.. Headache & inf eyes Temper x appli. 4 Hirud. appli. 4 Hirud. appli. 4 Hirud. - Hottest day I have yet felt. Th. in window in shade 78. 79 at 6 in sun 108. In room approaching c. 70. Had a sabling for dinner from Aussee 3/4 of a lb & full of curd",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bad Aussee",
+            "description": "In Styria (Bad Aussee). Bad Aussee is a town in the Austrian state of Styria located at the confluence of the three sources of the Traun River.",
+            "id": "place_229"
+          },
+          {
+            "name": "Gorizia",
+            "description": "Gorizia is a town and comune in north-eastern Italy, in the autonomous region of Friuli Venezia Giulia.",
+            "id": "place_586"
+          },
+          {
+            "name": "Vienna",
+            "description": "Austria’s capital, lies in the country’s east on the Danube River.",
+            "id": "place_898"
+          },
+          {
+            "name": "Salzburg",
+            "description": "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.",
+            "id": "place_197"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "160",
+      "segment2_text": "} 16.1 31 .1 x 5 Monte 1. 8 1. 8 2 Barrina 1 0 9 1 0 9 Varlo 31. 3.. 5 Monte Varlo Monte Varlo 14. Wednesday 15 . 16 F 17 S 18 S 31. 3. 5. 19. M. 20 T 30 . 19 21 W 22 T 9 23 F 12.5 24 S 11. 4 5 11. 4 5 25 S 26 M 27 T 4 7 5 28 W 29 T 1 . 4 . 5 1 . 4 . 5 30 F 4 3 1 S 2 S 3 M 39 6 39 6 4 T 36. 5 05 5. W 9. S. 10 M 11 T 6 T 12 W. 13 T 14 F 15 S 16 S 17 M 17 M 18 Tuesday 7 F 2 8 S",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.14754098360655737,
+      "lcs_dice": 0.2571428571428571,
+      "lcs_ratio": 0.2571428571428571,
+      "containment_1_in_2": 0.1956521739130435,
+      "containment_2_in_1": 0.375,
+      "max_containment": 0.375,
+      "lcs_length": 9,
+      "lcs_text": ". . . . . . . . .",
+      "seq1_length": 46,
+      "seq2_length": 24,
+      "coverage_ratio": 0.1956521739130435
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "6",
+      "segment1_text": "in room at one 68.69. bright sun after a heavy shower a 4 in the morning.. Headache & inf eyes Temper x appli. 4 Hirud. appli. 4 Hirud. appli. 4 Hirud. - Hottest day I have yet felt. Th. in window in shade 78. 79 at 6 in sun 108. In room approaching c. 70. Had a sabling for dinner from Aussee 3/4 of a lb & full of curd",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bad Aussee",
+            "description": "In Styria (Bad Aussee). Bad Aussee is a town in the Austrian state of Styria located at the confluence of the three sources of the Traun River.",
+            "id": "place_229"
+          },
+          {
+            "name": "Gorizia",
+            "description": "Gorizia is a town and comune in north-eastern Italy, in the autonomous region of Friuli Venezia Giulia.",
+            "id": "place_586"
+          },
+          {
+            "name": "Vienna",
+            "description": "Austria’s capital, lies in the country’s east on the Danube River.",
+            "id": "place_898"
+          },
+          {
+            "name": "Salzburg",
+            "description": "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.",
+            "id": "place_197"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "161",
+      "segment2_text": "157 (reversed) [vertical rule] At C asi ol xxxx fior Vetturino paid 8 Crowns 25 Basic At Perugia 15 Contra Per Pergo 2.1 2 . 2 15 S 13 ' 3 Foligno 1. 5x Or . 2 Terni 1. 6. 8. 8 Col. Fior 28. 25 Col. Fior 28. 25 8 \" 8 Perugia . 1 . 5+ Caselli - 5 31 ' 1 S 15 \" 5 0 , 0 ,, ' 5 e 5 e Genova paid Genova paid 1 ' 5 Arezzo 1 . 1 . 1 18 1",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Foligno",
+            "description": "Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.",
+            "id": "place_564"
+          },
+          {
+            "name": "Terni",
+            "description": "Terni is a city in the southern portion of the region of Umbria in central Italy.",
+            "id": "place_565"
+          },
+          {
+            "name": "Perugia",
+            "description": "Perugia is the capital city of Umbria in central Italy, crossed by the River Tiber, and of the province of Perugia.",
+            "id": "place_562"
+          },
+          {
+            "name": "Arezzo",
+            "description": "Arezzo is a city and comune in Italy and the capital of the province of the same name located in Tuscany.",
+            "id": "place_567"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.11688311688311688,
+      "lcs_dice": 0.20930232558139536,
+      "lcs_ratio": 0.20930232558139536,
+      "containment_1_in_2": 0.1956521739130435,
+      "containment_2_in_1": 0.225,
+      "max_containment": 0.225,
+      "lcs_length": 9,
+      "lcs_text": ". . . . . . . . .",
+      "seq1_length": 46,
+      "seq2_length": 40,
+      "coverage_ratio": 0.1956521739130435
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "7",
+      "segment1_text": "& like a fresh run salmon. July 1. T. in room 68 67. at 7 70 in window – cloudy. Left Saltzburg & came on to Transteen 2p 1/4 a good inn stopped a clear small xxxxxxx small xxxxxxx the Traun but a miniature of the great Traun - a fine evening with much lightning & thunder but no rain - fished & caught a number of small trout under half a pound. 15 or 20. Thermometer from 1/2 past 1 till 6. 70. At nine on my return under 70. & in window 68. At 10 in room 68 July 2. A bright day. T in room at 10.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Traunstein",
+            "description": "Traunstein is a town in the south-eastern part of Bavaria, Germany, and is the administrative center of a much larger district of the same name.",
+            "id": "place_1351"
+          },
+          {
+            "name": "Salzburg",
+            "description": "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.",
+            "id": "place_197"
+          },
+          {
+            "name": "Traun",
+            "description": "Traunfall in Desselbrunn, Upper Austria. Memoirs contains a poem Davy wrote about them, also in notebook 14E.",
+            "id": "place_182"
+          },
+          {
+            "name": "Traun",
+            "description": "The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.",
+            "id": "place_258"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "14",
+      "segment2_text": "11 night, thermetr at day 70 in evening at 10 67 68 in room 64 in window Fished in a small stream. & caught a great number of small trout 8 Ther. at 4 55 in window at 6 58, - a bright sunshine in room at 7 65 shall pursue my journey. had yesterday for dinner Shellies and lavants which being fresh fried were not bad. Th. here in room 68 69 .",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Kochelsee",
+            "description": "a picturesque glacial lake covering 2.3 square miles, fringed with mountains & wetlands.",
+            "id": "place_1236"
+          },
+          {
+            "name": "Bavaria",
+            "description": "A German state.",
+            "id": "place_1128"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.14285714285714285,
+      "lcs_dice": 0.25,
+      "lcs_ratio": 0.25,
+      "containment_1_in_2": 0.22413793103448276,
+      "containment_2_in_1": 0.2826086956521739,
+      "max_containment": 0.2826086956521739,
+      "lcs_length": 13,
+      "lcs_text": "room window . great number small trout . window room . room .",
+      "seq1_length": 58,
+      "seq2_length": 46,
+      "coverage_ratio": 0.22413793103448276
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "7",
+      "segment1_text": "& like a fresh run salmon. July 1. T. in room 68 67. at 7 70 in window – cloudy. Left Saltzburg & came on to Transteen 2p 1/4 a good inn stopped a clear small xxxxxxx small xxxxxxx the Traun but a miniature of the great Traun - a fine evening with much lightning & thunder but no rain - fished & caught a number of small trout under half a pound. 15 or 20. Thermometer from 1/2 past 1 till 6. 70. At nine on my return under 70. & in window 68. At 10 in room 68 July 2. A bright day. T in room at 10.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Traunstein",
+            "description": "Traunstein is a town in the south-eastern part of Bavaria, Germany, and is the administrative center of a much larger district of the same name.",
+            "id": "place_1351"
+          },
+          {
+            "name": "Salzburg",
+            "description": "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.",
+            "id": "place_197"
+          },
+          {
+            "name": "Traun",
+            "description": "Traunfall in Desselbrunn, Upper Austria. Memoirs contains a poem Davy wrote about them, also in notebook 14E.",
+            "id": "place_182"
+          },
+          {
+            "name": "Traun",
+            "description": "The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.",
+            "id": "place_258"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "15",
+      "segment2_text": "perhaps the Chiem see Chiem see Chiem see . In returning caught some small trout in a brook we crossed. The fisherman says there are Hucho both in the Lake & the large river that feeds it – ,T in window 61 at 10 In room 65 June 9. - Ther. at 55 in window at 5 in room at 6. 63.- I intend to proceed to Fussen . A sunshiny day. - came on to Fussen .",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lech",
+            "description": "The river that runs through Füssen, and flows into the Forggensee.",
+            "id": "place_1239"
+          },
+          {
+            "name": "Füssen",
+            "description": "a town in Bavaria, Germany, just north of the Austrian border.",
+            "id": "place_1238"
+          },
+          {
+            "name": "Chiemsee",
+            "description": "picturesque lake in Bavaria",
+            "id": "place_1237"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.12631578947368421,
+      "lcs_dice": 0.22429906542056074,
+      "lcs_ratio": 0.22429906542056074,
+      "containment_1_in_2": 0.20689655172413793,
+      "containment_2_in_1": 0.24489795918367346,
+      "max_containment": 0.24489795918367346,
+      "lcs_length": 12,
+      "lcs_text": ". caught small trout . . . window room day . .",
+      "seq1_length": 58,
+      "seq2_length": 49,
+      "coverage_ratio": 0.20689655172413793
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "8",
+      "segment1_text": "5 still 64. unbroken sunshine. In window in the shade .80 at 2. in window at 1/4 past . 4 83 Went at 1/2 past six in the carriage to a Chateau about 5 miles off on the river & fished, the thunder storm of last night had raised the water & it was tinted though not muddy. very few fish rose. I caught two or three small Trout & one large Grayling I should think 15 inches. It was 15 3/4 by 8 2/10 15.75. 8.2 weighed 1 lb 6 oz 12lb It was 15 3/4 by 8 2/10 15.75.",
+      "segment1_metadata": {},
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "9",
+      "segment2_text": "July 3 - Bright sunshine. T in the window shaded at 5 63. in room at 8 69.- Bavarian xxx 100- A 101 100- A 101 - is to Austria as 101 to 100 - Ther. at 2 in room 70 1/2 in window 84 in perfect shade. at 3. 85 in window at 1/2 past 3 87. & before the formation of thunder clouds.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Traun",
+            "description": "Traunfall in Desselbrunn, Upper Austria. Memoirs contains a poem Davy wrote about them, also in notebook 14E.",
+            "id": "place_182"
+          },
+          {
+            "name": "Traun",
+            "description": "The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.",
+            "id": "place_258"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.11538461538461539,
+      "lcs_dice": 0.20689655172413793,
+      "lcs_ratio": 0.20689655172413793,
+      "containment_1_in_2": 0.15,
+      "containment_2_in_1": 0.3333333333333333,
+      "max_containment": 0.3333333333333333,
+      "lcs_length": 9,
+      "lcs_text": "sunshine . window shade window past . thunder .",
+      "seq1_length": 60,
+      "seq2_length": 27,
+      "coverage_ratio": 0.15
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "9",
+      "segment1_text": "July 3 - Bright sunshine. T in the window shaded at 5 63. in room at 8 69.- Bavarian xxx 100- A 101 100- A 101 - is to Austria as 101 to 100 - Ther. at 2 in room 70 1/2 in window 84 in perfect shade. at 3. 85 in window at 1/2 past 3 87. & before the formation of thunder clouds.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Traun",
+            "description": "Traunfall in Desselbrunn, Upper Austria. Memoirs contains a poem Davy wrote about them, also in notebook 14E.",
+            "id": "place_182"
+          },
+          {
+            "name": "Traun",
+            "description": "The Traun is a river in Upper Bavaria, Germany. The nearly 29 kilometer long river is formed by the confluence of the Weiße Traun and the Rote Traun near Siegsdorf. It passes through Traunstein and Traunreut, and flows into the Alz near Altenmarkt an der Alz.",
+            "id": "place_258"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "88",
+      "segment2_text": "Bologna casa Martinetta . Sep r 30. 1819 Bologna casa Martinetta . Sep r 30. 1819 On the structure On the structure of the Solid the Solid parts of the Globe. parts of the Globe. or Geology. or Geology.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bologna",
+            "description": "A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.",
+            "id": "place_942"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.1276595744680851,
+      "lcs_dice": 0.22641509433962265,
+      "lcs_ratio": 0.22641509433962265,
+      "containment_1_in_2": 0.2222222222222222,
+      "containment_2_in_1": 0.23076923076923078,
+      "max_containment": 0.23076923076923078,
+      "lcs_length": 6,
+      "lcs_text": ". . . . . .",
+      "seq1_length": 27,
+      "seq2_length": 26,
+      "coverage_ratio": 0.2222222222222222
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "11",
+      "segment1_text": "a bright 3/4 moon. T in window open at 10. 58. bright moon July 5 T at 7 in window 58. 59. In room 63. light clouds. shall D V D V D V proceed to Munich . Found it hot & disagreeable. T 70 in room. Vald. miser. Vald. miser. Vald. miser. xx Hir. temp. - July 6 a fine & cool night T 62 in window at 7 - 68 69. in room.",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "Marcus ElieserBloch",
+            "birth": "",
+            "death": "",
+            "description": "German physician and naturalist who specialised in the study of fish on which he published a 12 volume work with which Davy was familiar. (presumably in the French translation).",
+            "id": "person_235"
+          },
+          {
+            "name": "Johann AndreasWagner",
+            "birth": "",
+            "death": "",
+            "description": "a German palaeontologist, zoologist and archaeologist who wrote several important works on palaeontology.",
+            "id": "person_1008"
+          }
+        ],
+        "places": [
+          {
+            "name": "Munich",
+            "description": "the capital of Bavaria in Germany",
+            "id": "place_1264"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "88",
+      "segment2_text": "Bologna casa Martinetta . Sep r 30. 1819 Bologna casa Martinetta . Sep r 30. 1819 On the structure On the structure of the Solid the Solid parts of the Globe. parts of the Globe. or Geology. or Geology.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bologna",
+            "description": "A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.",
+            "id": "place_942"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.11764705882352941,
+      "lcs_dice": 0.21052631578947367,
+      "lcs_ratio": 0.21052631578947367,
+      "containment_1_in_2": 0.16,
+      "containment_2_in_1": 0.3076923076923077,
+      "max_containment": 0.3076923076923077,
+      "lcs_length": 8,
+      "lcs_text": ". . . . . . . .",
+      "seq1_length": 50,
+      "seq2_length": 26,
+      "coverage_ratio": 0.16
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "11",
+      "segment1_text": "a bright 3/4 moon. T in window open at 10. 58. bright moon July 5 T at 7 in window 58. 59. In room 63. light clouds. shall D V D V D V proceed to Munich . Found it hot & disagreeable. T 70 in room. Vald. miser. Vald. miser. Vald. miser. xx Hir. temp. - July 6 a fine & cool night T 62 in window at 7 - 68 69. in room.",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "Marcus ElieserBloch",
+            "birth": "",
+            "death": "",
+            "description": "German physician and naturalist who specialised in the study of fish on which he published a 12 volume work with which Davy was familiar. (presumably in the French translation).",
+            "id": "person_235"
+          },
+          {
+            "name": "Johann AndreasWagner",
+            "birth": "",
+            "death": "",
+            "description": "a German palaeontologist, zoologist and archaeologist who wrote several important works on palaeontology.",
+            "id": "person_1008"
+          }
+        ],
+        "places": [
+          {
+            "name": "Munich",
+            "description": "the capital of Bavaria in Germany",
+            "id": "place_1264"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "160",
+      "segment2_text": "} 16.1 31 .1 x 5 Monte 1. 8 1. 8 2 Barrina 1 0 9 1 0 9 Varlo 31. 3.. 5 Monte Varlo Monte Varlo 14. Wednesday 15 . 16 F 17 S 18 S 31. 3. 5. 19. M. 20 T 30 . 19 21 W 22 T 9 23 F 12.5 24 S 11. 4 5 11. 4 5 25 S 26 M 27 T 4 7 5 28 W 29 T 1 . 4 . 5 1 . 4 . 5 30 F 4 3 1 S 2 S 3 M 39 6 39 6 4 T 36. 5 05 5. W 9. S. 10 M 11 T 6 T 12 W. 13 T 14 F 15 S 16 S 17 M 17 M 18 Tuesday 7 F 2 8 S",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.2542372881355932,
+      "lcs_dice": 0.40540540540540543,
+      "lcs_ratio": 0.40540540540540543,
+      "containment_1_in_2": 0.3,
+      "containment_2_in_1": 0.625,
+      "max_containment": 0.625,
+      "lcs_length": 15,
+      "lcs_text": ". . . . . . . . . . . . . . .",
+      "seq1_length": 50,
+      "seq2_length": 24,
+      "coverage_ratio": 0.3
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "11",
+      "segment1_text": "a bright 3/4 moon. T in window open at 10. 58. bright moon July 5 T at 7 in window 58. 59. In room 63. light clouds. shall D V D V D V proceed to Munich . Found it hot & disagreeable. T 70 in room. Vald. miser. Vald. miser. Vald. miser. xx Hir. temp. - July 6 a fine & cool night T 62 in window at 7 - 68 69. in room.",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "Marcus ElieserBloch",
+            "birth": "",
+            "death": "",
+            "description": "German physician and naturalist who specialised in the study of fish on which he published a 12 volume work with which Davy was familiar. (presumably in the French translation).",
+            "id": "person_235"
+          },
+          {
+            "name": "Johann AndreasWagner",
+            "birth": "",
+            "death": "",
+            "description": "a German palaeontologist, zoologist and archaeologist who wrote several important works on palaeontology.",
+            "id": "person_1008"
+          }
+        ],
+        "places": [
+          {
+            "name": "Munich",
+            "description": "the capital of Bavaria in Germany",
+            "id": "place_1264"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "161",
+      "segment2_text": "157 (reversed) [vertical rule] At C asi ol xxxx fior Vetturino paid 8 Crowns 25 Basic At Perugia 15 Contra Per Pergo 2.1 2 . 2 15 S 13 ' 3 Foligno 1. 5x Or . 2 Terni 1. 6. 8. 8 Col. Fior 28. 25 Col. Fior 28. 25 8 \" 8 Perugia . 1 . 5+ Caselli - 5 31 ' 1 S 15 \" 5 0 , 0 ,, ' 5 e 5 e Genova paid Genova paid 1 ' 5 Arezzo 1 . 1 . 1 18 1",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Foligno",
+            "description": "Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.",
+            "id": "place_564"
+          },
+          {
+            "name": "Terni",
+            "description": "Terni is a city in the southern portion of the region of Umbria in central Italy.",
+            "id": "place_565"
+          },
+          {
+            "name": "Perugia",
+            "description": "Perugia is the capital city of Umbria in central Italy, crossed by the River Tiber, and of the province of Perugia.",
+            "id": "place_562"
+          },
+          {
+            "name": "Arezzo",
+            "description": "Arezzo is a city and comune in Italy and the capital of the province of the same name located in Tuscany.",
+            "id": "place_567"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.15384615384615385,
+      "lcs_dice": 0.26666666666666666,
+      "lcs_ratio": 0.26666666666666666,
+      "containment_1_in_2": 0.24,
+      "containment_2_in_1": 0.3,
+      "max_containment": 0.3,
+      "lcs_length": 12,
+      "lcs_text": ". . . . . . . . . . . .",
+      "seq1_length": 50,
+      "seq2_length": 40,
+      "coverage_ratio": 0.24
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "15",
+      "segment1_text": "perhaps the Chiem see Chiem see Chiem see . In returning caught some small trout in a brook we crossed. The fisherman says there are Hucho both in the Lake & the large river that feeds it – ,T in window 61 at 10 In room 65 June 9. - Ther. at 55 in window at 5 in room at 6. 63.- I intend to proceed to Fussen . A sunshiny day. - came on to Fussen .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Lech",
+            "description": "The river that runs through Füssen, and flows into the Forggensee.",
+            "id": "place_1239"
+          },
+          {
+            "name": "Füssen",
+            "description": "a town in Bavaria, Germany, just north of the Austrian border.",
+            "id": "place_1238"
+          },
+          {
+            "name": "Chiemsee",
+            "description": "picturesque lake in Bavaria",
+            "id": "place_1237"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "88",
+      "segment2_text": "Bologna casa Martinetta . Sep r 30. 1819 Bologna casa Martinetta . Sep r 30. 1819 On the structure On the structure of the Solid the Solid parts of the Globe. parts of the Globe. or Geology. or Geology.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bologna",
+            "description": "A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.",
+            "id": "place_942"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.11940298507462686,
+      "lcs_dice": 0.21333333333333335,
+      "lcs_ratio": 0.21333333333333335,
+      "containment_1_in_2": 0.16326530612244897,
+      "containment_2_in_1": 0.3076923076923077,
+      "max_containment": 0.3076923076923077,
+      "lcs_length": 8,
+      "lcs_text": ". . . . . . . .",
+      "seq1_length": 49,
+      "seq2_length": 26,
+      "coverage_ratio": 0.16326530612244897
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "15",
+      "segment1_text": "perhaps the Chiem see Chiem see Chiem see . In returning caught some small trout in a brook we crossed. The fisherman says there are Hucho both in the Lake & the large river that feeds it – ,T in window 61 at 10 In room 65 June 9. - Ther. at 55 in window at 5 in room at 6. 63.- I intend to proceed to Fussen . A sunshiny day. - came on to Fussen .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Lech",
+            "description": "The river that runs through Füssen, and flows into the Forggensee.",
+            "id": "place_1239"
+          },
+          {
+            "name": "Füssen",
+            "description": "a town in Bavaria, Germany, just north of the Austrian border.",
+            "id": "place_1238"
+          },
+          {
+            "name": "Chiemsee",
+            "description": "picturesque lake in Bavaria",
+            "id": "place_1237"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "160",
+      "segment2_text": "} 16.1 31 .1 x 5 Monte 1. 8 1. 8 2 Barrina 1 0 9 1 0 9 Varlo 31. 3.. 5 Monte Varlo Monte Varlo 14. Wednesday 15 . 16 F 17 S 18 S 31. 3. 5. 19. M. 20 T 30 . 19 21 W 22 T 9 23 F 12.5 24 S 11. 4 5 11. 4 5 25 S 26 M 27 T 4 7 5 28 W 29 T 1 . 4 . 5 1 . 4 . 5 30 F 4 3 1 S 2 S 3 M 39 6 39 6 4 T 36. 5 05 5. W 9. S. 10 M 11 T 6 T 12 W. 13 T 14 F 15 S 16 S 17 M 17 M 18 Tuesday 7 F 2 8 S",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.12307692307692308,
+      "lcs_dice": 0.2191780821917808,
+      "lcs_ratio": 0.2191780821917808,
+      "containment_1_in_2": 0.16326530612244897,
+      "containment_2_in_1": 0.3333333333333333,
+      "max_containment": 0.3333333333333333,
+      "lcs_length": 8,
+      "lcs_text": ". . . . . . . .",
+      "seq1_length": 49,
+      "seq2_length": 24,
+      "coverage_ratio": 0.16326530612244897
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "16",
+      "segment1_text": "13 65 in room 66. 67 - July 10. another bright day shall leave DV. Fussen for Kempten . found Kempten very hot & came on to a small inn there, but with bad eating midway between Kempten & Rothenbach . - a breezy day though with unclouded sky Th in room 73. at 4 in inn at 4 in inn at night 9 65. & in window below 60. - a beautiful moon. Caught in the brook a trout & B another – 11.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Röthenbach an der Pegnitz",
+            "description": "a town that would be on the route from Kempten to Bregenz",
+            "id": "place_1241"
+          },
+          {
+            "name": "Kempten",
+            "description": "a town in Allgäu, about 28 miles from Füssen",
+            "id": "place_1240"
+          },
+          {
+            "name": "Bregenz",
+            "description": "Today, a town in Austria on the shores of the Obersee.",
+            "id": "place_1242"
+          },
+          {
+            "name": "Tyrol",
+            "description": "Tyrol is a historical region in the Alps located in northern Italy and western Austria.",
+            "id": "place_328"
+          },
+          {
+            "name": "Füssen",
+            "description": "a town in Bavaria, Germany, just north of the Austrian border.",
+            "id": "place_1238"
+          },
+          {
+            "name": "Appenzell",
+            "description": "a canton in the northeast of Switzerland, the southern part of which is mountainous",
+            "id": "place_1243"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "88",
+      "segment2_text": "Bologna casa Martinetta . Sep r 30. 1819 Bologna casa Martinetta . Sep r 30. 1819 On the structure On the structure of the Solid the Solid parts of the Globe. parts of the Globe. or Geology. or Geology.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bologna",
+            "description": "A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.",
+            "id": "place_942"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.11594202898550725,
+      "lcs_dice": 0.2077922077922078,
+      "lcs_ratio": 0.2077922077922078,
+      "containment_1_in_2": 0.1568627450980392,
+      "containment_2_in_1": 0.3076923076923077,
+      "max_containment": 0.3076923076923077,
+      "lcs_length": 8,
+      "lcs_text": ". . . . . . . .",
+      "seq1_length": 51,
+      "seq2_length": 26,
+      "coverage_ratio": 0.1568627450980392
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "16",
+      "segment1_text": "13 65 in room 66. 67 - July 10. another bright day shall leave DV. Fussen for Kempten . found Kempten very hot & came on to a small inn there, but with bad eating midway between Kempten & Rothenbach . - a breezy day though with unclouded sky Th in room 73. at 4 in inn at 4 in inn at night 9 65. & in window below 60. - a beautiful moon. Caught in the brook a trout & B another – 11.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Röthenbach an der Pegnitz",
+            "description": "a town that would be on the route from Kempten to Bregenz",
+            "id": "place_1241"
+          },
+          {
+            "name": "Kempten",
+            "description": "a town in Allgäu, about 28 miles from Füssen",
+            "id": "place_1240"
+          },
+          {
+            "name": "Bregenz",
+            "description": "Today, a town in Austria on the shores of the Obersee.",
+            "id": "place_1242"
+          },
+          {
+            "name": "Tyrol",
+            "description": "Tyrol is a historical region in the Alps located in northern Italy and western Austria.",
+            "id": "place_328"
+          },
+          {
+            "name": "Füssen",
+            "description": "a town in Bavaria, Germany, just north of the Austrian border.",
+            "id": "place_1238"
+          },
+          {
+            "name": "Appenzell",
+            "description": "a canton in the northeast of Switzerland, the southern part of which is mountainous",
+            "id": "place_1243"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "160",
+      "segment2_text": "} 16.1 31 .1 x 5 Monte 1. 8 1. 8 2 Barrina 1 0 9 1 0 9 Varlo 31. 3.. 5 Monte Varlo Monte Varlo 14. Wednesday 15 . 16 F 17 S 18 S 31. 3. 5. 19. M. 20 T 30 . 19 21 W 22 T 9 23 F 12.5 24 S 11. 4 5 11. 4 5 25 S 26 M 27 T 4 7 5 28 W 29 T 1 . 4 . 5 1 . 4 . 5 30 F 4 3 1 S 2 S 3 M 39 6 39 6 4 T 36. 5 05 5. W 9. S. 10 M 11 T 6 T 12 W. 13 T 14 F 15 S 16 S 17 M 17 M 18 Tuesday 7 F 2 8 S",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.11940298507462686,
+      "lcs_dice": 0.21333333333333335,
+      "lcs_ratio": 0.21333333333333335,
+      "containment_1_in_2": 0.1568627450980392,
+      "containment_2_in_1": 0.3333333333333333,
+      "max_containment": 0.3333333333333333,
+      "lcs_length": 8,
+      "lcs_text": ". . . . . . . .",
+      "seq1_length": 51,
+      "seq2_length": 24,
+      "coverage_ratio": 0.1568627450980392
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "77",
+      "segment1_text": "The ethereal fire Which from the furthest star descends Through the immensity of space, Its course, by worlds attractive bends.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "99",
+      "segment2_text": "The torrent roaring from the moun- tain Which ravages a hundred fields Conducted tranquil from its fountain Bloom freshness, verdure, plenty yields. H. D 56",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.14705882352941177,
+      "lcs_dice": 0.2564102564102564,
+      "lcs_ratio": 0.2564102564102564,
+      "containment_1_in_2": 0.2777777777777778,
+      "containment_2_in_1": 0.23809523809523808,
+      "max_containment": 0.2777777777777778,
+      "lcs_length": 5,
+      "lcs_text": "which from , , .",
+      "seq1_length": 18,
+      "seq2_length": 21,
+      "coverage_ratio": 0.23809523809523808
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "94",
+      "segment1_text": "91 What if the stars themselves Be but a different animated world Of which our narrow intellect can form No just conception. What if each bright orb In the act of pouring forth its flood of light Should feel intensest pleasure & the globes That dance in everlasting circles cor round Should in the attractive power which moves them onward Feel a holy glow like that of purest love. Light & life profusely were before our little globe An atom in the universe appeared.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "25",
+      "segment2_text": "- Why have Ye left your halcyon streams below - To visit our rude peaks on which the snow still glitters in the summer sun of june - But brightly do ye danse along the glade; As if the kindred of the evening stars -. May not the stars themselves Be but a different animated world Of which our narrow intellect can form no just conception",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.16,
+      "lcs_dice": 0.27586206896551724,
+      "lcs_ratio": 0.27586206896551724,
+      "containment_1_in_2": 0.23529411764705882,
+      "containment_2_in_1": 0.3333333333333333,
+      "max_containment": 0.3333333333333333,
+      "lcs_length": 16,
+      "lcs_text": "if stars themselves be different animated world which our narrow intellect can form no just conception",
+      "seq1_length": 68,
+      "seq2_length": 48,
+      "coverage_ratio": 0.23529411764705882
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "94",
+      "segment1_text": "And when it is known it is known it ceases to exist With all its weak memorials Light & life Shall be as now –",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "141",
+      "segment2_text": "137 them indeed it is in the nature of our present existence that its past or former being should be forgotten as the earliest part or the useless part of its present being when the child was in the womb of the mother.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.1111111111111111,
+      "lcs_dice": 0.2,
+      "lcs_ratio": 0.2,
+      "containment_1_in_2": 0.25,
+      "containment_2_in_1": 0.16666666666666666,
+      "max_containment": 0.25,
+      "lcs_length": 5,
+      "lcs_text": "it is its be as",
+      "seq1_length": 20,
+      "seq2_length": 30,
+      "coverage_ratio": 0.16666666666666666
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "94",
+      "segment1_text": "And when it is known it is known it ceases to exist With all its weak memorials Light & life Shall be as now –",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "152",
+      "segment2_text": "Continuations of Chemical Continuations of Chemical Dialogues. . 1 Though it is extremely Though it is extremely But however But however difficult it may be it may be to define the exact nature of the chemical process of separation; yet the effect of it & its connection with the function of life are sufficiently striking.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.12727272727272726,
+      "lcs_dice": 0.22580645161290322,
+      "lcs_ratio": 0.22580645161290322,
+      "containment_1_in_2": 0.35,
+      "containment_2_in_1": 0.16666666666666666,
+      "max_containment": 0.35,
+      "lcs_length": 7,
+      "lcs_text": "it is it is it its life",
+      "seq1_length": 20,
+      "seq2_length": 42,
+      "coverage_ratio": 0.16666666666666666
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "111",
+      "segment1_text": "Lord Byron Lord Byron Lord Byron Lord Byron . written Whilst living Whilst living Whilst living Whilst living . – 23.",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "George GordonByron",
+            "birth": "",
+            "death": "",
+            "description": "From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.",
+            "id": "person_118"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "134",
+      "segment2_text": "131 Supplement to the poem on the death of Lord Byron Lord Byron Lord Byron . Fintl - July 28.27 Now passing near those high & blessed abodes ways. abodes ways.",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "Cain",
+            "birth": "",
+            "death": "",
+            "description": "A biblical figure in the Book of Genesis. He is the firstborn son of Adam and Eve and brother of Abel.",
+            "id": "person_956"
+          },
+          {
+            "name": "George GordonByron",
+            "birth": "",
+            "death": "",
+            "description": "From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.",
+            "id": "person_118"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.2571428571428571,
+      "lcs_dice": 0.4090909090909091,
+      "lcs_ratio": 0.4090909090909091,
+      "containment_1_in_2": 0.45,
+      "containment_2_in_1": 0.375,
+      "max_containment": 0.45,
+      "lcs_length": 9,
+      "lcs_text": "lord byron lord byron lord byron . . .",
+      "seq1_length": 20,
+      "seq2_length": 24,
+      "coverage_ratio": 0.375
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "111",
+      "segment1_text": "Lord Byron Lord Byron Lord Byron Lord Byron . written Whilst living Whilst living Whilst living Whilst living . – 23.",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "George GordonByron",
+            "birth": "",
+            "death": "",
+            "description": "From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.",
+            "id": "person_118"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "165",
+      "segment2_text": "On the death of Lord Byron On the death of Lord Byron On the death of Lord Byron composed at Westhill in the great storm, Nov r .",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.2413793103448276,
+      "lcs_dice": 0.3888888888888889,
+      "lcs_ratio": 0.3888888888888889,
+      "containment_1_in_2": 0.35,
+      "containment_2_in_1": 0.4375,
+      "max_containment": 0.4375,
+      "lcs_length": 7,
+      "lcs_text": "lord byron lord byron lord byron .",
+      "seq1_length": 20,
+      "seq2_length": 16,
+      "coverage_ratio": 0.35
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "113",
+      "segment1_text": "Corrected Stanza Corrected Stanza to be added to the Poem on the death of L d . byron . Now passing near those high & blessed abodes Where Beings of a higher nobler nature move In fields of purest light. Where intellectual brightest rays of Glory shine. In power allied to Gods Whose minds etherial & undying prove that Truth in its brightness, & Eternal blaze ^ Which man sees dimly xxxxxxx Which man sees dimly xxxxxxx Whose hearts are warm with everlasting love.",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "George GordonByron",
+            "birth": "",
+            "death": "",
+            "description": "From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.",
+            "id": "person_118"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "134",
+      "segment2_text": "131 Supplement to the poem on the death of Lord Byron Lord Byron Lord Byron . Fintl - July 28.27 Now passing near those high & blessed abodes ways. abodes ways.",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "Cain",
+            "birth": "",
+            "death": "",
+            "description": "A biblical figure in the Book of Genesis. He is the firstborn son of Adam and Eve and brother of Abel.",
+            "id": "person_956"
+          },
+          {
+            "name": "George GordonByron",
+            "birth": "",
+            "death": "",
+            "description": "From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.",
+            "id": "person_118"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.17105263157894737,
+      "lcs_dice": 0.29213483146067415,
+      "lcs_ratio": 0.29213483146067415,
+      "containment_1_in_2": 0.2,
+      "containment_2_in_1": 0.5416666666666666,
+      "max_containment": 0.5416666666666666,
+      "lcs_length": 13,
+      "lcs_text": "poem death byron . now passing near those high blessed abodes . .",
+      "seq1_length": 65,
+      "seq2_length": 24,
+      "coverage_ratio": 0.2
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "113",
+      "segment1_text": "Corrected Stanza Corrected Stanza to be added to the Poem on the death of L d . byron . Now passing near those high & blessed abodes Where Beings of a higher nobler nature move In fields of purest light. Where intellectual brightest rays of Glory shine. In power allied to Gods Whose minds etherial & undying prove that Truth in its brightness, & Eternal blaze ^ Which man sees dimly xxxxxxx Which man sees dimly xxxxxxx Whose hearts are warm with everlasting love.",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "George GordonByron",
+            "birth": "",
+            "death": "",
+            "description": "From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.",
+            "id": "person_118"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "134",
+      "segment2_text": "ways, Where beings of a higher nature move Where beings of a higher nature move Where beings of a higher nature move In fields of light & glory & glory , when intellectual xx rays cold like cold like Of xxxxxxx xxxxx xxx a constant xxxx Of xxxxxxx xxxxx xxx xxxxxxx xxxxx xxx a constant xxxx of glory upon thee of glory upon thee Surround their blessed heads Surround their blessed heads , whose minds shall prove A glory shone around them around them In power allied designed to gods power A xxxx undying intellectual Rage.",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "Cain",
+            "birth": "",
+            "death": "",
+            "description": "A biblical figure in the Book of Genesis. He is the firstborn son of Adam and Eve and brother of Abel.",
+            "id": "person_956"
+          },
+          {
+            "name": "George GordonByron",
+            "birth": "",
+            "death": "",
+            "description": "From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.",
+            "id": "person_118"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.12605042016806722,
+      "lcs_dice": 0.22388059701492538,
+      "lcs_ratio": 0.22388059701492538,
+      "containment_1_in_2": 0.23076923076923078,
+      "containment_2_in_1": 0.21739130434782608,
+      "max_containment": 0.23076923076923078,
+      "lcs_length": 15,
+      "lcs_text": "where beings higher nature move fields light intellectual rays glory power allied gods undying .",
+      "seq1_length": 65,
+      "seq2_length": 69,
+      "coverage_ratio": 0.21739130434782608
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "122",
+      "segment1_text": "So is the rose destroyed by the child Who in his bosom hides the cherished flower. And Nature never feels so strong her powers As in the trusty worth of buds & flowers Love is the flower of life. too short its bloom lovelier its tint the sweeter its perfume Shorter the richer are its scents & hues scents & hues & scents And He that plucks it hastens its sad doom, And soon that He has xxxxxxx so fair a thing repents.",
+      "segment1_metadata": {},
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "160",
+      "segment2_text": "157 Love is the flower of life its brightest its brightest too short its too short its bloom too soon it fades too soon it fades Sooner the fairer are its changeful Sooner the fairer are its changeful Shortest when brightest richest & most rich most rich hues The sooner, when most rich its tints & The sooner, when most rich its tints & its scents its scents & scents And he that plucks it hastens its sad doom And soon that He has spoilt so bright a thing repents.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.25,
+      "lcs_dice": 0.4,
+      "lcs_ratio": 0.4,
+      "containment_1_in_2": 0.4393939393939394,
+      "containment_2_in_1": 0.3670886075949367,
+      "max_containment": 0.4393939393939394,
+      "lcs_length": 29,
+      "lcs_text": "love is flower life too short its bloom are its scents scents scents he that plucks it hastens its sad doom soon that he has so thing repents .",
+      "seq1_length": 66,
+      "seq2_length": 79,
+      "coverage_ratio": 0.3670886075949367
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "124",
+      "segment1_text": "the Natural All living forms to death. the Natural Destroyed the xxx e'er xxx happy that life of love But of a moment born as if for death But of a moment born as if for death was passed full of the joy of life full of the joy of life Thought enjoying e'en in death.",
+      "segment1_metadata": {},
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 2,
+      "segment2_page_key": "157",
+      "segment2_text": "Still Hushed is the air in silence The smoke moves upwards & its curling waves Mem. xxx as if Mem. xxx as if Mem. xxx as if",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.11764705882352941,
+      "lcs_dice": 0.21052631578947367,
+      "lcs_ratio": 0.21052631578947367,
+      "containment_1_in_2": 0.17647058823529413,
+      "containment_2_in_1": 0.2608695652173913,
+      "max_containment": 0.2608695652173913,
+      "lcs_length": 6,
+      "lcs_text": ". as if as if .",
+      "seq1_length": 34,
+      "seq2_length": 23,
+      "coverage_ratio": 0.17647058823529413
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "134",
+      "segment1_text": "131 Supplement to the poem on the death of Lord Byron Lord Byron Lord Byron . Fintl - July 28.27 Now passing near those high & blessed abodes ways. abodes ways.",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "Cain",
+            "birth": "",
+            "death": "",
+            "description": "A biblical figure in the Book of Genesis. He is the firstborn son of Adam and Eve and brother of Abel.",
+            "id": "person_956"
+          },
+          {
+            "name": "George GordonByron",
+            "birth": "",
+            "death": "",
+            "description": "From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.",
+            "id": "person_118"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "165",
+      "segment2_text": "On the death of Lord Byron On the death of Lord Byron On the death of Lord Byron composed at Westhill in the great storm, Nov r .",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.25,
+      "lcs_dice": 0.4,
+      "lcs_ratio": 0.4,
+      "containment_1_in_2": 0.3333333333333333,
+      "containment_2_in_1": 0.5,
+      "max_containment": 0.5,
+      "lcs_length": 8,
+      "lcs_text": "death lord byron lord byron lord byron .",
+      "seq1_length": 24,
+      "seq2_length": 16,
+      "coverage_ratio": 0.3333333333333333
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "153",
+      "segment1_text": "addition to the thought on youth. on youth. & invocation to urania composed the road copied Laybach . April 20 - 27. For time has withered all the lovely flowers That once adorned my youthful coronet And death has cut & utterly destroyed That beauteous tree which for two xxxxxx bore Perennial roses having all the hues & scents Of vernal flowers, yet like the amaranth Blooming in wintry frost & summer heat. April 19. 1827.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Ljubljana",
+            "description": "Also known as Laybach or Laibach. Ljubljana is the capital city of Slovenia.",
+            "id": "place_216"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "155",
+      "segment2_text": "Ravenna April 7 Oh couldst thou be with me daughter of Oh couldst thou be with me daughter of Oh couldst thou be with me daughter of heavn Urania. I have now no other love. For time & death have withered all the flowers That once adorned my youthful coronet. with thee I still may live a little space And hope for better intellectual light With thee I may e'en still in xxxxx vernal times Look upon nature with a poets eye.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+          },
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Tiber River",
+            "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
+            "id": "place_615"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.12962962962962962,
+      "lcs_dice": 0.22950819672131148,
+      "lcs_ratio": 0.22950819672131148,
+      "containment_1_in_2": 0.2413793103448276,
+      "containment_2_in_1": 0.21875,
+      "max_containment": 0.2413793103448276,
+      "lcs_length": 14,
+      "lcs_text": ". . time withered all flowers that once adorned my youthful coronet vernal .",
+      "seq1_length": 58,
+      "seq2_length": 64,
+      "coverage_ratio": 0.21875
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "154",
+      "segment1_text": "151 By the imperial citys fallen walls Laying bare the bones of heroes & the monuments And Of generations of the ages past Or we might rest on that cloud covered hill Whose marble rocks are cloaked with brightest green. Where thousand flowers of unknown hues & names Scent the cool air, rarely by human breath inhaled But which the wild bee knows & ever haunts And whence descends the balmy influence Of those bright waters tepid from the fires Of ancient Appenine .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Apennines",
+            "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+            "id": "place_530"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "27",
+      "segment2_text": "Layin bare the bones of heroes & the monuments And records of the generations past. - Or wilt thou pass to that cloud covered hill Whose marble rocks are cloaked with brightest verdure green Where Flora reigns in mountain majesty Where a thousand flowers of nameless unknown sweets hues & virtues & virtues Scent the cool air rarely by human breath inhaled",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          },
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Tiber River",
+            "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
+            "id": "place_615"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.3815789473684211,
+      "lcs_dice": 0.5523809523809524,
+      "lcs_ratio": 0.5523809523809524,
+      "containment_1_in_2": 0.48333333333333334,
+      "containment_2_in_1": 0.6444444444444445,
+      "max_containment": 0.6444444444444445,
+      "lcs_length": 29,
+      "lcs_text": "bare bones heroes monuments generations past that cloud covered hill whose marble rocks are cloaked brightest green where thousand flowers unknown hues scent cool air rarely human breath inhaled",
+      "seq1_length": 60,
+      "seq2_length": 45,
+      "coverage_ratio": 0.48333333333333334
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "154",
+      "segment1_text": "151 By the imperial citys fallen walls Laying bare the bones of heroes & the monuments And Of generations of the ages past Or we might rest on that cloud covered hill Whose marble rocks are cloaked with brightest green. Where thousand flowers of unknown hues & names Scent the cool air, rarely by human breath inhaled But which the wild bee knows & ever haunts And whence descends the balmy influence Of those bright waters tepid from the fires Of ancient Appenine .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Apennines",
+            "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+            "id": "place_530"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "28",
+      "segment2_text": "But which the wild Bee knows & ever haunts. - And whence descends your balmy influence Ye waters tepid from the sleeping fires Of ancient Appenine whose source Hygeia loves, & midst the coolness Of the mountain xxxxx & neath the shade of chesnuts whose time worn trunks proclaim Their age of other centuries. -",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Apennines",
+            "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+            "id": "place_530"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.2,
+      "lcs_dice": 0.3333333333333333,
+      "lcs_ratio": 0.3333333333333333,
+      "containment_1_in_2": 0.2833333333333333,
+      "containment_2_in_1": 0.40476190476190477,
+      "max_containment": 0.40476190476190477,
+      "lcs_length": 17,
+      "lcs_text": "which wild bee knows ever haunts whence descends balmy influence waters tepid from fires ancient appenine .",
+      "seq1_length": 60,
+      "seq2_length": 42,
+      "coverage_ratio": 0.2833333333333333
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "154",
+      "segment1_text": "Whose sacred source Hygeia loves. There my weary limbs I have might repose beneath the shade Of chesnuts whose time worn trunks proclaim Their xx of other centuries.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Apennines",
+            "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+            "id": "place_530"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "28",
+      "segment2_text": "But which the wild Bee knows & ever haunts. - And whence descends your balmy influence Ye waters tepid from the sleeping fires Of ancient Appenine whose source Hygeia loves, & midst the coolness Of the mountain xxxxx & neath the shade of chesnuts whose time worn trunks proclaim Their age of other centuries. -",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Apennines",
+            "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+            "id": "place_530"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.2830188679245283,
+      "lcs_dice": 0.4411764705882353,
+      "lcs_ratio": 0.4411764705882353,
+      "containment_1_in_2": 0.5769230769230769,
+      "containment_2_in_1": 0.35714285714285715,
+      "max_containment": 0.5769230769230769,
+      "lcs_length": 15,
+      "lcs_text": "whose source hygeia loves shade chesnuts whose time worn trunks proclaim their other centuries .",
+      "seq1_length": 26,
+      "seq2_length": 42,
+      "coverage_ratio": 0.35714285714285715
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "155",
+      "segment1_text": "Nursing those lofty thoughts that in the mind Spontaneous rise, blending their sacred powers With images from moutain & from flood From chesnut groves amidst the broken rocks Where the blue Lima pours to meet the wave Of foaming Serchio or midst the odrus heath And cystus flowers that clothe the stream worn sides Of the green hills whence in purity.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+          },
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Tiber River",
+            "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
+            "id": "place_615"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "27",
+      "segment2_text": "25 To look on Nature with a poets eye Nursing those lofty thoughts which in the mind Spontaneous arise & blending all their power With images from mountain & from flood From chesnut groves amidst the broken rocks Where the blue Lima pours to meet the wave of foaming Serchio , or midst the odorous heath And cystus flowers Which cloaks the stream-worn sides of the green hills Whence rise in mountain xxxx & mountain xxxx mountain xxxx & mountain virgin purity virgin purity Thy limpid waves of mountain Tiber Not polluted yet, by mixture with the lowland muddy rills Or turbid with the ruins of the plains When then murmerest by of ancient Latium Washing Where thou murmurest by Where thou murmurest by the falling walls of the imperial city.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          },
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Tiber River",
+            "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
+            "id": "place_615"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.36,
+      "lcs_dice": 0.5294117647058824,
+      "lcs_ratio": 0.5294117647058824,
+      "containment_1_in_2": 0.7659574468085106,
+      "containment_2_in_1": 0.4044943820224719,
+      "max_containment": 0.7659574468085106,
+      "lcs_length": 36,
+      "lcs_text": "nursing those lofty thoughts mind spontaneous blending their images from from flood from chesnut groves amidst broken rocks where blue lima pours meet wave foaming serchio midst heath cystus flowers sides green hills whence purity .",
+      "seq1_length": 47,
+      "seq2_length": 89,
+      "coverage_ratio": 0.4044943820224719
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 2,
+      "segment1_page_key": "155",
+      "segment1_text": "The virgin streams arise of Mountain Tiber Not yet polluted by the lowland rills Or xxxx turbid with the ruins of the plains When in thy that sullen majesty xxxx He murmurs",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+          },
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Tiber River",
+            "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
+            "id": "place_615"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "27",
+      "segment2_text": "25 To look on Nature with a poets eye Nursing those lofty thoughts which in the mind Spontaneous arise & blending all their power With images from mountain & from flood From chesnut groves amidst the broken rocks Where the blue Lima pours to meet the wave of foaming Serchio , or midst the odorous heath And cystus flowers Which cloaks the stream-worn sides of the green hills Whence rise in mountain xxxx & mountain xxxx mountain xxxx & mountain virgin purity virgin purity Thy limpid waves of mountain Tiber Not polluted yet, by mixture with the lowland muddy rills Or turbid with the ruins of the plains When then murmerest by of ancient Latium Washing Where thou murmurest by Where thou murmurest by the falling walls of the imperial city.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          },
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Tiber River",
+            "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
+            "id": "place_615"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.11224489795918367,
+      "lcs_dice": 0.2018348623853211,
+      "lcs_ratio": 0.2018348623853211,
+      "containment_1_in_2": 0.55,
+      "containment_2_in_1": 0.12359550561797752,
+      "max_containment": 0.55,
+      "lcs_length": 11,
+      "lcs_text": "virgin mountain tiber not yet lowland rills turbid ruins plains when",
+      "seq1_length": 20,
+      "seq2_length": 89,
+      "coverage_ratio": 0.12359550561797752
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "156",
+      "segment1_text": "153 Rise in a strait gigantic column Rise in a strait gigantic column Stand like a tree above. Een in my heart By sickness weakened & by sorrow chilled The balm of kindness calmness seems to penetrate Mild soothing genial in its influence Again I feel a freshness & a power As in my youthful days & hopes & thoughts Heroical & high.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "124",
+      "segment2_text": "By sickness weakened & by sorrow chil'd the balm of calmness seems to enter penetrate enter penetrate Mild & genial soothing in its influence And soothing And soothing Again I feel a freshness & a power & a power As in my youthful days & hopes & thoughts & hopes & thoughts Heroical of & Heroical of & high - is it that in the mind is it that in the mind in the mind As in the Body wound through when healed As in the Body wound through when healed when healed - Till with - Till with - The wasted frame Soon in corporeal strength recruits itself And wounds fill with new flesh",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.25555555555555554,
+      "lcs_dice": 0.40707964601769914,
+      "lcs_ratio": 0.40707964601769914,
+      "containment_1_in_2": 0.5348837209302325,
+      "containment_2_in_1": 0.32857142857142857,
+      "max_containment": 0.5348837209302325,
+      "lcs_length": 23,
+      "lcs_text": "sickness weakened sorrow balm calmness seems penetrate mild soothing its influence again feel freshness power as my youthful days hopes thoughts heroical high",
+      "seq1_length": 43,
+      "seq2_length": 70,
+      "coverage_ratio": 0.32857142857142857
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "156",
+      "segment1_text": "The wasted frame Soon in corporeal strength recruits itself And wounds fill with new flesh So in the mind the death of objects the death of objects The death of objects & the loss of hopes Are xx in the end succeeded by some births Of new creative faculties & powers Brought forth with pangs pains , such as the mother E'en with her first born: feels but like xx vigorous child Repaying by their its beauty for the pang.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "123",
+      "segment2_text": "119 So in the mind the death of objects or the loss of hopes is quick succeeded by some new born powers & faculties, brought forth with pangs of labour; but vigorous & strong - But vigorous & strong But vigorous & strong",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.21212121212121213,
+      "lcs_dice": 0.35,
+      "lcs_ratio": 0.35,
+      "containment_1_in_2": 0.25925925925925924,
+      "containment_2_in_1": 0.5384615384615384,
+      "max_containment": 0.5384615384615384,
+      "lcs_length": 14,
+      "lcs_text": "so mind death objects loss hopes succeeded some new faculties brought forth pangs vigorous",
+      "seq1_length": 54,
+      "seq2_length": 26,
+      "coverage_ratio": 0.25925925925925924
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "157",
+      "segment1_text": "Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "163",
+      "segment2_text": "At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We catch the feeble echoes as it were Of other fainter dreams.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.25806451612903225,
+      "lcs_dice": 0.41025641025641024,
+      "lcs_ratio": 0.41025641025641024,
+      "containment_1_in_2": 0.8888888888888888,
+      "containment_2_in_1": 0.26666666666666666,
+      "max_containment": 0.8888888888888888,
+      "lcs_length": 8,
+      "lcs_text": "baths lucca baths lucca baths lucca . .",
+      "seq1_length": 9,
+      "seq2_length": 30,
+      "coverage_ratio": 0.26666666666666666
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "157",
+      "segment1_text": "Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "101",
+      "segment2_text": "97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold & earthborn clay Save feelings heavenly light. This is the spirit which subdues The Chaos of our mortal doom Gives it creations loveliest hues And kindles brightness midst the gloom It wakens in the mothers kiss It breathes profound in lovers sighs Dove like upon the dark abyss Of Life it rests & never dies.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.11940298507462686,
+      "lcs_dice": 0.21333333333333335,
+      "lcs_ratio": 0.21333333333333335,
+      "containment_1_in_2": 0.8888888888888888,
+      "containment_2_in_1": 0.12121212121212122,
+      "max_containment": 0.8888888888888888,
+      "lcs_length": 8,
+      "lcs_text": "baths lucca baths lucca baths lucca . .",
+      "seq1_length": 9,
+      "seq2_length": 66,
+      "coverage_ratio": 0.12121212121212122
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "157",
+      "segment1_text": "Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "156",
+      "segment2_text": "when I return } return } . + , 6.12 1 On the road to the Baths of Lucca Baths of Lucca Baths of Lucca layers of Limestone & chert very near each other & almost blended & much twisted",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.23076923076923078,
+      "lcs_dice": 0.375,
+      "lcs_ratio": 0.375,
+      "containment_1_in_2": 0.6666666666666666,
+      "containment_2_in_1": 0.2608695652173913,
+      "max_containment": 0.6666666666666666,
+      "lcs_length": 6,
+      "lcs_text": "baths lucca baths lucca baths lucca",
+      "seq1_length": 9,
+      "seq2_length": 23,
+      "coverage_ratio": 0.2608695652173913
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "157",
+      "segment1_text": "Quando mia fu la bella Quando mia fu la bella Quando mia fu la bella spera n za ed anche piu Again that lovely orb lamp from half its from half its from half its orb Sends forth a mellow lustre that pervades The eastern sky & meets the rosy light Of the last sunbeams dying in the west The mountains all above are clear & bright Their giant forms distinctly visible Crested with shaggy chesnuts, or erect Bearing the helmed pine, or raising high Their marble columns crowned with grassy slopes From rock to rock the foaming Lima pours Full from the thunder storm, rapid & strong And turbid.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "125",
+      "segment2_text": "121 Being the Helmed pine - or raising high xxxx Their marble columns, or their crowned with grassy slopes crowned with grassy slopes Green from Green from From rock to rock the foaming Lima laps Lima laps Lima laps Lima laps Full from the thunder storm & rapid & strong & turbid & turbid And turbid - Still is the air And silent, was alone was alone & the Cicada sings not & the Cicada sings not The smoke moves upwards & its curling waves & its curling waves Feel not a breath of air E'en in my heart E'en in my heart",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lima River",
+            "description": "Also Limia, runs west from the autonomous community of Galicia in Spain to Portugal.",
+            "id": "place_953"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.1527777777777778,
+      "lcs_dice": 0.26506024096385544,
+      "lcs_ratio": 0.26506024096385544,
+      "containment_1_in_2": 0.23655913978494625,
+      "containment_2_in_1": 0.3013698630136986,
+      "max_containment": 0.3013698630136986,
+      "lcs_length": 22,
+      "lcs_text": "helmed pine raising high their marble columns crowned grassy slopes from rock rock foaming lima full from thunder storm rapid strong turbid",
+      "seq1_length": 93,
+      "seq2_length": 73,
+      "coverage_ratio": 0.23655913978494625
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "157",
+      "segment1_text": "Quando mia fu la bella Quando mia fu la bella Quando mia fu la bella spera n za ed anche piu Again that lovely orb lamp from half its from half its from half its orb Sends forth a mellow lustre that pervades The eastern sky & meets the rosy light Of the last sunbeams dying in the west The mountains all above are clear & bright Their giant forms distinctly visible Crested with shaggy chesnuts, or erect Bearing the helmed pine, or raising high Their marble columns crowned with grassy slopes From rock to rock the foaming Lima pours Full from the thunder storm, rapid & strong And turbid.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "126",
+      "segment2_text": "Yet still, Yet still, Again the lovely orb from half its lamp Sends forth a mellow lustre that pervades The western eastern sky, '& blends promiscuous '& blends promiscuous & meets the dying[ sun sunbeam & meets the dying[ sun sunbeam sun sunbeam With the light of Eve With the light of Eve With the light of Eve rosy light twilight Of the last sunbeams Of the last sunbeams Dying in the west - The Mountains all are clear all are clear And all And all their giant forms distinctly visible Bold in their Bold in their Crested with shaggy chestnuts.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.2462686567164179,
+      "lcs_dice": 0.39520958083832336,
+      "lcs_ratio": 0.39520958083832336,
+      "containment_1_in_2": 0.3548387096774194,
+      "containment_2_in_1": 0.44594594594594594,
+      "max_containment": 0.44594594594594594,
+      "lcs_length": 33,
+      "lcs_text": "again lovely orb from half its sends forth mellow lustre that pervades eastern sky meets rosy light last sunbeams dying west mountains all are clear their giant forms distinctly visible crested shaggy .",
+      "seq1_length": 93,
+      "seq2_length": 74,
+      "coverage_ratio": 0.3548387096774194
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "161",
+      "segment1_text": "Has brought you here to cheer our tardy spring Oft had I seen you midst the orange trees bowers That Cloak Parthenope & where Velino pours In thundering cataracts; But ne’er before So high upon the mountains where ye soar Een in mid air, leaving your halcyons Why have ye left your halcy Why have ye left your halcy on plains Where spring or summer everlasting reigns.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Velino",
+            "description": "A river in central Italy, a tributary of the Nera.",
+            "id": "place_848"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "24",
+      "segment2_text": "how by the olive groves & midst the vines that xxxxxxx over the flood Of foaming Serchio here a mountain stream Oft had I seen you midst the orange groves That cloathe Parthenope ; & neath The Cataract where old Velino Thunders midst the rocks formed from his foaming waters.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Velino",
+            "description": "A river in central Italy, a tributary of the Nera.",
+            "id": "place_848"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.14285714285714285,
+      "lcs_dice": 0.25,
+      "lcs_ratio": 0.25,
+      "containment_1_in_2": 0.20689655172413793,
+      "containment_2_in_1": 0.3157894736842105,
+      "max_containment": 0.3157894736842105,
+      "lcs_length": 12,
+      "lcs_text": "here oft had seen you midst orange that parthenope where velino .",
+      "seq1_length": 58,
+      "seq2_length": 38,
+      "coverage_ratio": 0.20689655172413793
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "161",
+      "segment1_text": "When flowers & fruits together mature alone together grow To visit our rude peaks where still the snow Glitters een in the genial month of flowers But brightly do ye move in fiery showers Seen like the falling meteor from afar Not of Not of like the kindred of the evening star the kindred of the evening star the kindred of the evening star May not the stars themselves in orbits whil whirled in orbits whil whirled be but be but Be but - a different animated world In which a high & lofty breath of life xxxx xx xxxx xx xxxx xx Of worlds & insects calms the xxxxx the xxxxx the wakening strife the wakening strife strife.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Velino",
+            "description": "A river in central Italy, a tributary of the Nera.",
+            "id": "place_848"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "25",
+      "segment2_text": "- Why have Ye left your halcyon streams below - To visit our rude peaks on which the snow still glitters in the summer sun of june - But brightly do ye danse along the glade; As if the kindred of the evening stars -. May not the stars themselves Be but a different animated world Of which our narrow intellect can form no just conception",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.17757009345794392,
+      "lcs_dice": 0.30158730158730157,
+      "lcs_ratio": 0.30158730158730157,
+      "containment_1_in_2": 0.24358974358974358,
+      "containment_2_in_1": 0.3958333333333333,
+      "max_containment": 0.3958333333333333,
+      "lcs_length": 19,
+      "lcs_text": "visit our rude peaks still glitters brightly do kindred evening may not stars themselves be different animated world which",
+      "seq1_length": 78,
+      "seq2_length": 48,
+      "coverage_ratio": 0.24358974358974358
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "162",
+      "segment1_text": "159 To the fire flies, the same place & summer written in blank verse but not Rhyme in May & June 1827. Ye moving stars that flit along Ye moving stars that flit along Ye moving stars that flit along the glade Ye animated lamps that midst the shade Of ancient chesnuts on the lofty hills Of Lucignano , by the foaming rills xxxx Which feed Blue Serchio Blue Serchio Blue Serchio , in the evening play.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "22",
+      "segment2_text": "Ye moving stars, ye animated lamps Ye moving stars, ye animated lamps Ye moving stars that flit across the glade Ye animated lamps that midst the shade Of ancient chesnuts on the lofty hills of Liugrand . And may not all this varied life of man Be but a single longer dream - Sometimes in dreams We catch the feeble echoes as it were Of other fainter dreams - In xxxxxx The origin of thought life is lost.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.18,
+      "lcs_dice": 0.3050847457627119,
+      "lcs_ratio": 0.3050847457627119,
+      "containment_1_in_2": 0.3103448275862069,
+      "containment_2_in_1": 0.3,
+      "max_containment": 0.3103448275862069,
+      "lcs_length": 18,
+      "lcs_text": ", ye moving stars that flit glade ye animated lamps that midst shade ancient chesnuts lofty hills .",
+      "seq1_length": 58,
+      "seq2_length": 60,
+      "coverage_ratio": 0.3
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "162",
+      "segment1_text": "Making the twilight your Making the twilight your So bright your light that in the unbroken ray Of the meridian moon meridian moon meridian moon it brightly shines How lightly gaily do ye pass beneath the vines Which clothe our nearest slopes Now through the groves Of Lucca do ye dance, the breeze that moves Their silver leaves, a mountain Zephyrs xxxxx wing",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "23",
+      "segment2_text": "So bright your light that in the unbroken beam unbroken beam Of the meridian moon, it shines its lustre scarcely dimmed lustre scarcely dimmed how your course ye bend your Ye moving stars ye animated lamps In the dark shades of eternal groves That crown the hills of Lucignand hills of Lucignand",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.1625,
+      "lcs_dice": 0.27956989247311825,
+      "lcs_ratio": 0.27956989247311825,
+      "containment_1_in_2": 0.25,
+      "containment_2_in_1": 0.3170731707317073,
+      "max_containment": 0.3170731707317073,
+      "lcs_length": 13,
+      "lcs_text": "so bright your light that unbroken meridian moon it shines how groves that",
+      "seq1_length": 52,
+      "seq2_length": 41,
+      "coverage_ratio": 0.25
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "163",
+      "segment1_text": "At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We catch the feeble echoes as it were Of other fainter dreams.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "22",
+      "segment2_text": "Ye moving stars, ye animated lamps Ye moving stars, ye animated lamps Ye moving stars that flit across the glade Ye animated lamps that midst the shade Of ancient chesnuts on the lofty hills of Liugrand . And may not all this varied life of man Be but a single longer dream - Sometimes in dreams We catch the feeble echoes as it were Of other fainter dreams - In xxxxxx The origin of thought life is lost.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.3235294117647059,
+      "lcs_dice": 0.4888888888888889,
+      "lcs_ratio": 0.4888888888888889,
+      "containment_1_in_2": 0.7333333333333333,
+      "containment_2_in_1": 0.36666666666666664,
+      "max_containment": 0.7333333333333333,
+      "lcs_length": 22,
+      "lcs_text": ". may not all varied life man be dream sometimes dreams we catch feeble echoes as it were other fainter dreams .",
+      "seq1_length": 30,
+      "seq2_length": 60,
+      "coverage_ratio": 0.36666666666666664
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "163",
+      "segment1_text": "At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We catch the feeble echoes as it were Of other fainter dreams.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "156",
+      "segment2_text": "when I return } return } . + , 6.12 1 On the road to the Baths of Lucca Baths of Lucca Baths of Lucca layers of Limestone & chert very near each other & almost blended & much twisted",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.15217391304347827,
+      "lcs_dice": 0.2641509433962264,
+      "lcs_ratio": 0.2641509433962264,
+      "containment_1_in_2": 0.23333333333333334,
+      "containment_2_in_1": 0.30434782608695654,
+      "max_containment": 0.30434782608695654,
+      "lcs_length": 7,
+      "lcs_text": "baths lucca baths lucca baths lucca other",
+      "seq1_length": 30,
+      "seq2_length": 23,
+      "coverage_ratio": 0.23333333333333334
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "163",
+      "segment1_text": "In infancy The origin of life is lost to memory Yet powers existed of a glorious nature Reason & thought & feeling, How we know not Nor is there aught that teaches from what lamp The flame of human life had caught its fire So dreams have no connection, yet the past Arises sometimes in them And they may Image the future.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "22",
+      "segment2_text": "Yet power arises Reason & thought & thought & feeling how we know not nor is there aught that teaches in from what xxxxx the immortal flame of human life had burnt before burnt before caught its fire caught its fire So dreams have no connection - Yet the course Of human life & human accident",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.4264705882352941,
+      "lcs_dice": 0.5979381443298969,
+      "lcs_ratio": 0.5979381443298969,
+      "containment_1_in_2": 0.5686274509803921,
+      "containment_2_in_1": 0.6304347826086957,
+      "max_containment": 0.6304347826086957,
+      "lcs_length": 29,
+      "lcs_text": "yet reason thought feeling how we know not nor is there aught that teaches from what flame human life had caught its fire so dreams have no connection yet",
+      "seq1_length": 51,
+      "seq2_length": 46,
+      "coverage_ratio": 0.5686274509803921
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "7",
+      "segment1_text": "From the manner in which the red and yellow Limestone of the Appenines are deposited with red & yellow chert, I have no doubt that they were deposited from the same fluid.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Foligno",
+            "description": "Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.",
+            "id": "place_564"
+          },
+          {
+            "name": "Spoleto",
+            "description": "A city in Umbria, Italy.",
+            "id": "place_927"
+          },
+          {
+            "name": "Colfiorito",
+            "description": "Colfiorito is a village in Umbria, central Italy.",
+            "id": "place_561"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "86",
+      "segment2_text": "Mineralogy is the Science which teaches the distinctions of minerals or inorganized bodies - Geology relates to their arrangement position in the globe, the changes that they undergo & that they have undergone.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.11363636363636363,
+      "lcs_dice": 0.20408163265306123,
+      "lcs_ratio": 0.20408163265306123,
+      "containment_1_in_2": 0.20833333333333334,
+      "containment_2_in_1": 0.2,
+      "max_containment": 0.20833333333333334,
+      "lcs_length": 5,
+      "lcs_text": "which , that they .",
+      "seq1_length": 24,
+      "seq2_length": 25,
+      "coverage_ratio": 0.2
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "21",
+      "segment1_text": "19 of a lake . Roma [four pencil sketches of birds in profile, possibly snipe ]",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "155",
+      "segment2_text": "151 What plan . what source , What object What object [pencil sketches of possibly pyramids]",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.19047619047619047,
+      "lcs_dice": 0.32,
+      "lcs_ratio": 0.32,
+      "containment_1_in_2": 0.36363636363636365,
+      "containment_2_in_1": 0.2857142857142857,
+      "max_containment": 0.36363636363636365,
+      "lcs_length": 4,
+      "lcs_text": ". pencil sketches possibly",
+      "seq1_length": 11,
+      "seq2_length": 14,
+      "coverage_ratio": 0.2857142857142857
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "52",
+      "segment1_text": "It is scarcely possible to adopt the idea of the secondary strata being formed by fire: for the degree of heat necessary to agglutinate siliceous Sandstone must have been sufficient to have condensed perfectly fluid carbonate of Lime & the regular manner in which strata of flints were deposited is incompatible with the idea that they were injected by an explosive force amongst chalk or Limestone strata.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Durham, England",
+            "description": "a city in northeast England, south of Newcastle upon Tyne.",
+            "id": "place_1029"
+          },
+          {
+            "name": "High Force",
+            "description": "High Force is a waterfall on the River Tees, near Middleton-in-Teesdale, Teesdale, England.",
+            "id": "place_545"
+          },
+          {
+            "name": "River Tees",
+            "description": "The River Tees, in England, rises on the eastern slope of Cross Fell in the North Pennines and flows eastwards for 85 miles to reach the North Sea in the North East of England.",
+            "id": "place_1363"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "60",
+      "segment2_text": "The one the Huttonian or Plutonic the other the Wernerian or neptunian - In the first it is supposed that the materials of the secondary strata have been deposited at the bottom or on the shores of the ocean & that they are the",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "JamesHutton",
+            "birth": "",
+            "death": "",
+            "description": "Scottish geologist, agriculturalist and chemical manufacturer. His Theory of the Earth (1795) is one of the foundations of modern geology. Davy discussed Hutton's theories in his lectures and visited some of the key geological sites that Hutton used in his work.",
+            "id": "person_125"
+          },
+          {
+            "name": "Abraham GottlobWerner",
+            "birth": "",
+            "death": "",
+            "description": "German geologist who proposed the theory of Neptunism and who also proposed the chronological sequence found in stratified rocks.",
+            "id": "person_267"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.140625,
+      "lcs_dice": 0.2465753424657534,
+      "lcs_ratio": 0.2465753424657534,
+      "containment_1_in_2": 0.18,
+      "containment_2_in_1": 0.391304347826087,
+      "max_containment": 0.391304347826087,
+      "lcs_length": 9,
+      "lcs_text": "it is secondary strata have been deposited that they",
+      "seq1_length": 50,
+      "seq2_length": 23,
+      "coverage_ratio": 0.18
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 2,
+      "segment1_page_key": "54",
+      "segment1_text": "- It may seem incompatible with the existence of living beings in the Ocean that it should contain such substances as these which from",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Rome",
+            "description": "The capital of Italy.",
+            "id": "place_155"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "141",
+      "segment2_text": "137 them indeed it is in the nature of our present existence that its past or former being should be forgotten as the earliest part or the useless part of its present being when the child was in the womb of the mother.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.11627906976744186,
+      "lcs_dice": 0.20833333333333334,
+      "lcs_ratio": 0.20833333333333334,
+      "containment_1_in_2": 0.2777777777777778,
+      "containment_2_in_1": 0.16666666666666666,
+      "max_containment": 0.2777777777777778,
+      "lcs_length": 5,
+      "lcs_text": "it existence that should as",
+      "seq1_length": 18,
+      "seq2_length": 30,
+      "coverage_ratio": 0.16666666666666666
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "59",
+      "segment1_text": "In the Neptunian hypothesis it is supposed that the ocean contains ocean contains in solution the different chrystaline materials of the secondary rocks & that they were deposited gradually & at the time that life and matter during a life and matter during a life and matter during a the ocean was peopled with living beings & xxx its shores covered with aquatic plants.",
+      "segment1_metadata": {
+        "works": [
+          {
+            "name": "Illustrations of the Huttonian Theory",
+            "author": "James Hutton",
+            "id": "otherwork_158"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "60",
+      "segment2_text": "The one the Huttonian or Plutonic the other the Wernerian or neptunian - In the first it is supposed that the materials of the secondary strata have been deposited at the bottom or on the shores of the ocean & that they are the",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "JamesHutton",
+            "birth": "",
+            "death": "",
+            "description": "Scottish geologist, agriculturalist and chemical manufacturer. His Theory of the Earth (1795) is one of the foundations of modern geology. Davy discussed Hutton's theories in his lectures and visited some of the key geological sites that Hutton used in his work.",
+            "id": "person_125"
+          },
+          {
+            "name": "Abraham GottlobWerner",
+            "birth": "",
+            "death": "",
+            "description": "German geologist who proposed the theory of Neptunism and who also proposed the chronological sequence found in stratified rocks.",
+            "id": "person_267"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.15789473684210525,
+      "lcs_dice": 0.2727272727272727,
+      "lcs_ratio": 0.2727272727272727,
+      "containment_1_in_2": 0.20930232558139536,
+      "containment_2_in_1": 0.391304347826087,
+      "max_containment": 0.391304347826087,
+      "lcs_length": 9,
+      "lcs_text": "neptunian it is supposed that materials secondary that they",
+      "seq1_length": 43,
+      "seq2_length": 23,
+      "coverage_ratio": 0.20930232558139536
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "88",
+      "segment1_text": "Bologna casa Martinetta . Sep r 30. 1819 Bologna casa Martinetta . Sep r 30. 1819 On the structure On the structure of the Solid the Solid parts of the Globe. parts of the Globe. or Geology. or Geology.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bologna",
+            "description": "A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.",
+            "id": "place_942"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "160",
+      "segment2_text": "} 16.1 31 .1 x 5 Monte 1. 8 1. 8 2 Barrina 1 0 9 1 0 9 Varlo 31. 3.. 5 Monte Varlo Monte Varlo 14. Wednesday 15 . 16 F 17 S 18 S 31. 3. 5. 19. M. 20 T 30 . 19 21 W 22 T 9 23 F 12.5 24 S 11. 4 5 11. 4 5 25 S 26 M 27 T 4 7 5 28 W 29 T 1 . 4 . 5 1 . 4 . 5 30 F 4 3 1 S 2 S 3 M 39 6 39 6 4 T 36. 5 05 5. W 9. S. 10 M 11 T 6 T 12 W. 13 T 14 F 15 S 16 S 17 M 17 M 18 Tuesday 7 F 2 8 S",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.19047619047619047,
+      "lcs_dice": 0.32,
+      "lcs_ratio": 0.32,
+      "containment_1_in_2": 0.3076923076923077,
+      "containment_2_in_1": 0.3333333333333333,
+      "max_containment": 0.3333333333333333,
+      "lcs_length": 8,
+      "lcs_text": ". . . . . . . .",
+      "seq1_length": 26,
+      "seq2_length": 24,
+      "coverage_ratio": 0.3076923076923077
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "88",
+      "segment1_text": "Bologna casa Martinetta . Sep r 30. 1819 Bologna casa Martinetta . Sep r 30. 1819 On the structure On the structure of the Solid the Solid parts of the Globe. parts of the Globe. or Geology. or Geology.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bologna",
+            "description": "A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.",
+            "id": "place_942"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "161",
+      "segment2_text": "157 (reversed) [vertical rule] At C asi ol xxxx fior Vetturino paid 8 Crowns 25 Basic At Perugia 15 Contra Per Pergo 2.1 2 . 2 15 S 13 ' 3 Foligno 1. 5x Or . 2 Terni 1. 6. 8. 8 Col. Fior 28. 25 Col. Fior 28. 25 8 \" 8 Perugia . 1 . 5+ Caselli - 5 31 ' 1 S 15 \" 5 0 , 0 ,, ' 5 e 5 e Genova paid Genova paid 1 ' 5 Arezzo 1 . 1 . 1 18 1",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Foligno",
+            "description": "Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.",
+            "id": "place_564"
+          },
+          {
+            "name": "Terni",
+            "description": "Terni is a city in the southern portion of the region of Umbria in central Italy.",
+            "id": "place_565"
+          },
+          {
+            "name": "Perugia",
+            "description": "Perugia is the capital city of Umbria in central Italy, crossed by the River Tiber, and of the province of Perugia.",
+            "id": "place_562"
+          },
+          {
+            "name": "Arezzo",
+            "description": "Arezzo is a city and comune in Italy and the capital of the province of the same name located in Tuscany.",
+            "id": "place_567"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.13793103448275862,
+      "lcs_dice": 0.24242424242424243,
+      "lcs_ratio": 0.24242424242424243,
+      "containment_1_in_2": 0.3076923076923077,
+      "containment_2_in_1": 0.2,
+      "max_containment": 0.3076923076923077,
+      "lcs_length": 8,
+      "lcs_text": ". . . . . . . .",
+      "seq1_length": 26,
+      "seq2_length": 40,
+      "coverage_ratio": 0.2
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "89",
+      "segment1_text": "85 water of the Bagni Caldi Bagni Caldi Bagni Caldi & he naturally supposed that the iron was dissolved by Carbonic Acid Carbonic Acid Carbonic Acid but there is no Carbonic Acid Carbonic Acid Carbonic Acid in this water & on evaporating a large quantity of the water & washing out the sulphates & muriates I obtained a minute portion of a substance exactly the same as the deposit & consisting of Oxide of Iron Oxide of Iron Oxide of Iron & silica & Oxide of Iron Oxide of Iron Oxide of Iron likewise exist in the waters of Bath in England & they are probably in the water in chemical combinations What may be the effects of such a substance on the human constitu- -tion is for medical men to determine by experience Probably such a union may be artificially produced by heat under pressure as in Papins digester Riva 22 Wednesday 14 Florence Thursday - 15 Filigare A Solar month Friday - 16 Bologna - Saturday - 17.",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "DenisPapin",
+            "birth": "",
+            "death": "",
+            "description": "French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.",
+            "id": "person_304"
+          }
+        ],
+        "places": [
+          {
+            "name": "Bagni Caldi",
+            "description": "A village in north-western Italy famous for its thermal baths.",
+            "id": "place_767"
+          },
+          {
+            "name": "Filigare",
+            "description": "Tuscany, Italy.",
+            "id": "place_1004"
+          },
+          {
+            "name": "Lago di Garda",
+            "description": "Lake Garda is the largest lake in Italy.",
+            "id": "place_551"
+          },
+          {
+            "name": "Florence",
+            "description": "The capital city of the Italian region of Tuscany.",
+            "id": "place_1080"
+          },
+          {
+            "name": "Bologna",
+            "description": "A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.",
+            "id": "place_942"
+          },
+          {
+            "name": "Ala",
+            "description": "A comune in Trentino, north-eastern Italy.",
+            "id": "place_948"
+          },
+          {
+            "name": "England",
+            "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
+            "id": "place_121"
+          },
+          {
+            "name": "Mantua",
+            "description": "A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.",
+            "id": "place_947"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "92",
+      "segment2_text": "The thermal water of the Baths of Lucca Baths of Lucca Baths of Lucca where its temperature is the high- est at the Baths called the \" Bagni Caldi Bagni Caldi Bagni Caldi carries with it from its source a considera- ble quantity of a yellowish brown deposit having collected different specimens of this deposit I submitted them to chemical examination & found that they consisted of red oxide of iron red oxide of iron red oxide of iron & silica Not having an accurate balance I was not able to determine the exact proportions but in the statical exp t that I made the Oxide of Iron Oxide of Iron Oxide of Iron was in the largest quantity & to the silica nearly as 4 to 3 That y e Oxide of Iron Oxide of Iron Oxide of Iron & silica had been dissolved together in the water & deposited at the same time is very probable from the state in which they are found.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Bagni Caldi",
+            "description": "A village in north-western Italy famous for its thermal baths.",
+            "id": "place_767"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.1134020618556701,
+      "lcs_dice": 0.2037037037037037,
+      "lcs_ratio": 0.2037037037037037,
+      "containment_1_in_2": 0.2037037037037037,
+      "containment_2_in_1": 0.2037037037037037,
+      "max_containment": 0.2037037037037037,
+      "lcs_length": 22,
+      "lcs_text": "water bagni caldi bagni caldi bagni caldi that iron was quantity as oxide iron oxide iron oxide iron silica they are .",
+      "seq1_length": 108,
+      "seq2_length": 108,
+      "coverage_ratio": 0.2037037037037037
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "90",
+      "segment1_text": "when it arrives within the influence of the atmosphere & that its temperature which is 130° F where it issues from the ground is much higher in the interior & probably far above that of boiling water The analogy that I established long ago in my researches on the decomposition of the alkalies earths & the acids not before decomposed between the silicious & borasic bases & the facts pointed out by M. Smithson M. Smithson M. Smithson Berzelius & others entitle silica in its chemical powers to be classed as an acid & it seems extremely probable that the oxide of iron existed in solution with the silica & was deposited with it in consequence of the cooling of the water If this explanation be admitted it will apply to the solution of some diffi -culties which have occurred with respect to the causes of the existence of Oxide of Iron Oxide of Iron Oxide of Iron in mineral waters Signore Battista Te- -ssandori Signore Battista Te- -ssandori Signore Battista Te- -ssandori had already detected a minute quantity of Oxide of Iron Oxide of Iron Oxide of Iron & silica in the",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "Giovan BattistaTessandori",
+            "birth": "",
+            "death": null,
+            "description": "Member of the Lucca Academy. Davy described his discoveries in evaporation experiments.",
+            "id": "person_777"
+          },
+          {
+            "name": "Jöns JacobBerzelius",
+            "birth": "",
+            "death": "",
+            "description": "Swedish chemist. He discovered the chemical elements cerium and selenium, and was the first to isolate silicon, thorium, titanium, and zirconium. A rival of Davy's whom he met a few times.",
+            "id": "person_349"
+          },
+          {
+            "name": "JamesSmithson",
+            "birth": "",
+            "death": "",
+            "description": "Born Jacques-Louis Macie in Paris; became James Louis Macie upon naturalizing to Britain and in 1800 adopted his father's original surname of Smithson. Wealthy natural son of the Duke of Nothumberland. Proprietor of the Royal Institution who wrote on chemistry. Bequeathed his money to the United States to found the Smithsonian Institution. FRSL.",
+            "id": "person_611"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "92",
+      "segment2_text": "The thermal water of the Baths of Lucca Baths of Lucca Baths of Lucca where its temperature is the high- est at the Baths called the \" Bagni Caldi Bagni Caldi Bagni Caldi carries with it from its source a considera- ble quantity of a yellowish brown deposit having collected different specimens of this deposit I submitted them to chemical examination & found that they consisted of red oxide of iron red oxide of iron red oxide of iron & silica Not having an accurate balance I was not able to determine the exact proportions but in the statical exp t that I made the Oxide of Iron Oxide of Iron Oxide of Iron was in the largest quantity & to the silica nearly as 4 to 3 That y e Oxide of Iron Oxide of Iron Oxide of Iron & silica had been dissolved together in the water & deposited at the same time is very probable from the state in which they are found.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Bagni Caldi",
+            "description": "A village in north-western Italy famous for its thermal baths.",
+            "id": "place_767"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.11707317073170732,
+      "lcs_dice": 0.2096069868995633,
+      "lcs_ratio": 0.2096069868995633,
+      "containment_1_in_2": 0.19834710743801653,
+      "containment_2_in_1": 0.2222222222222222,
+      "max_containment": 0.2222222222222222,
+      "lcs_length": 24,
+      "lcs_text": "its temperature is it from that oxide iron silica was oxide iron oxide iron oxide iron quantity oxide iron oxide iron oxide iron silica",
+      "seq1_length": 121,
+      "seq2_length": 108,
+      "coverage_ratio": 0.19834710743801653
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "99",
+      "segment1_text": "95 And think that life's quick troubled stream Is made more troubled by the blast. - When touched by timid fingers weak Know that Affection's like the rose It wounds but press its thorns they break And all its odour sweeter flows. When the thunder cloud is darkest It is nearest to its fall And the gloom though sadly markest To no inmate of thy soul. Passions beams rays when too concentered Raise a tempest in the mind But by rain & clouds attempered They leave fertility behind.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "102",
+      "segment2_text": "Failings forget & let the beam of charity o'er all be cast And think that lifes quick troubled stream Is made more troubled by the blast 2 When touched by timid fingers weak Think that affections like the rose but if you but if you It wounds; but It wounds; but press its thorns they break And all its odour strong sweeter flows",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.32967032967032966,
+      "lcs_dice": 0.49586776859504134,
+      "lcs_ratio": 0.49586776859504134,
+      "containment_1_in_2": 0.4225352112676056,
+      "containment_2_in_1": 0.6,
+      "max_containment": 0.6,
+      "lcs_length": 30,
+      "lcs_text": "think that quick troubled stream is made more troubled blast when touched timid fingers weak that like rose it wounds press its thorns they break all its odour sweeter flows",
+      "seq1_length": 71,
+      "seq2_length": 50,
+      "coverage_ratio": 0.4225352112676056
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "99",
+      "segment1_text": "95 And think that life's quick troubled stream Is made more troubled by the blast. - When touched by timid fingers weak Know that Affection's like the rose It wounds but press its thorns they break And all its odour sweeter flows. When the thunder cloud is darkest It is nearest to its fall And the gloom though sadly markest To no inmate of thy soul. Passions beams rays when too concentered Raise a tempest in the mind But by rain & clouds attempered They leave fertility behind.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "104",
+      "segment2_text": "When the thunder cloud is darkest It is nearest to its fall. And the gloom thou sadly markest Is no inmate of th e y soul Feelings rays when too concentered Raise a tempest in the mind But by rain & clouds attempered They leave fertility behind . - That magic charm of feelings thine And oh regret not its excess.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.3563218390804598,
+      "lcs_dice": 0.5254237288135594,
+      "lcs_ratio": 0.5254237288135594,
+      "containment_1_in_2": 0.43661971830985913,
+      "containment_2_in_1": 0.6595744680851063,
+      "max_containment": 0.6595744680851063,
+      "lcs_length": 31,
+      "lcs_text": "when thunder cloud is darkest it is nearest its fall gloom sadly markest no inmate soul rays when too concentered raise tempest mind rain clouds attempered they leave fertility behind .",
+      "seq1_length": 71,
+      "seq2_length": 47,
+      "coverage_ratio": 0.43661971830985913
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "99",
+      "segment1_text": "The torrent roaring from the moun- tain Which ravages a hundred fields Conducted tranquil from its fountain Bloom freshness, verdure, plenty yields. H. D 56",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "104",
+      "segment2_text": "Give it its attribute divine But still subdue control repress The torrent roaring from the mountain Which ravages a thousand hundred fields Conducted tranquil from its fountain xxxx Bloom, freshness verdure plenty yeilds",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.47058823529411764,
+      "lcs_dice": 0.64,
+      "lcs_ratio": 0.64,
+      "containment_1_in_2": 0.7619047619047619,
+      "containment_2_in_1": 0.5517241379310345,
+      "max_containment": 0.7619047619047619,
+      "lcs_length": 16,
+      "lcs_text": "torrent roaring from which ravages hundred fields conducted tranquil from its fountain bloom freshness verdure plenty",
+      "seq1_length": 21,
+      "seq2_length": 29,
+      "coverage_ratio": 0.5517241379310345
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "100",
+      "segment1_text": "In it the statesman rules & lives And the low multitude controuls Fixed to the impulse that he gives As the firm earth around its poles. This magic light of life is thine And what if given in excess? It is excess of fire divine Which reason always can repress. Let not this gift which is from heaven Shine as a meteors transient light Or as the lightnings flashes given Amidst the gloom to pain our sight.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "103",
+      "segment2_text": "99 Let not this gift which is from heaven Shine as a meteors transient light Or as the lightnings flashes given Amidst the gloom to pain our sight. - Let it on friendships verdant meads tranquil hours tranquil hours A stedfast may day sunshine beam Making a field of fruit & flowers Such as the Bards elisian dream To kindness professed kindness give And fresher will the feelings flow The marks of The marks of Affections offered gifts receive And still more precious gifts bestow",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.21904761904761905,
+      "lcs_dice": 0.359375,
+      "lcs_ratio": 0.359375,
+      "containment_1_in_2": 0.36507936507936506,
+      "containment_2_in_1": 0.35384615384615387,
+      "max_containment": 0.36507936507936506,
+      "lcs_length": 23,
+      "lcs_text": "let not this gift which is from heaven shine as meteors transient light as lightnings flashes given amidst gloom pain our sight .",
+      "seq1_length": 63,
+      "seq2_length": 65,
+      "coverage_ratio": 0.35384615384615387
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "100",
+      "segment1_text": "In it the statesman rules & lives And the low multitude controuls Fixed to the impulse that he gives As the firm earth around its poles. This magic light of life is thine And what if given in excess? It is excess of fire divine Which reason always can repress. Let not this gift which is from heaven Shine as a meteors transient light Or as the lightnings flashes given Amidst the gloom to pain our sight.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "107",
+      "segment2_text": "103 -. From it the Poets glories rise Which pass beyond our human being - To things of other worlds & skies Kindling Carrying the prophets gift of seeing. - By it the clotted ruddy blood that stains The Heroe's laurels glow like flame Or kindles in the warriors veins A never dying love of fame. By it the statesman xxxx & rules xxxx & rules xxxx & rules & lives rules & lives And the loud multitude controuls Fixed to the impulse that He gives. As the firm earth around its poles.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.16363636363636364,
+      "lcs_dice": 0.28125,
+      "lcs_ratio": 0.28125,
+      "containment_1_in_2": 0.2857142857142857,
+      "containment_2_in_1": 0.27692307692307694,
+      "max_containment": 0.2857142857142857,
+      "lcs_length": 18,
+      "lcs_text": "it statesman rules lives multitude controuls fixed impulse that he gives as firm earth around its poles .",
+      "seq1_length": 63,
+      "seq2_length": 65,
+      "coverage_ratio": 0.27692307692307694
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "100",
+      "segment1_text": "Let it on friendships tranquil hours A stedfast may day sunshine beam Making a field of fruits & flowers Such as the Bards elisian dream. To kindness proferred kindness give And fresher will the feeling flow Affections offered gifts receive And still more precious gifts bestow. Failings forget & let the beam Of charity on all be cast",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "103",
+      "segment2_text": "99 Let not this gift which is from heaven Shine as a meteors transient light Or as the lightnings flashes given Amidst the gloom to pain our sight. - Let it on friendships verdant meads tranquil hours tranquil hours A stedfast may day sunshine beam Making a field of fruit & flowers Such as the Bards elisian dream To kindness professed kindness give And fresher will the feelings flow The marks of The marks of Affections offered gifts receive And still more precious gifts bestow",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.4230769230769231,
+      "lcs_dice": 0.5945945945945946,
+      "lcs_ratio": 0.5945945945945946,
+      "containment_1_in_2": 0.717391304347826,
+      "containment_2_in_1": 0.5076923076923077,
+      "max_containment": 0.717391304347826,
+      "lcs_length": 33,
+      "lcs_text": "let it friendships tranquil hours stedfast may day sunshine beam making field flowers such as bards elisian dream kindness kindness give fresher will flow affections offered gifts receive still more precious gifts bestow",
+      "seq1_length": 46,
+      "seq2_length": 65,
+      "coverage_ratio": 0.5076923076923077
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "101",
+      "segment1_text": "97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold & earthborn clay Save feelings heavenly light. This is the spirit which subdues The Chaos of our mortal doom Gives it creations loveliest hues And kindles brightness midst the gloom It wakens in the mothers kiss It breathes profound in lovers sighs Dove like upon the dark abyss Of Life it rests & never dies.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "108",
+      "segment2_text": "What is these in lifes stormy day To xxxxx please or cheer our sight Save Loves Save Loves Or friendships softer light Or friendships softer light To warm our cold & earth born clay Save feelings heavenly light This is the true promethean flame This is the true promethean flame This is the true promethean flame This is the true promethean flame That one makes only branch That one makes only branch Who kindles eon is Who kindles eon is Which This is the spirit which awakes controuls subdues The chao a s of the mind soul the mind soul mortality doom has change has change has change has change our mortal soul state our mortal soul state mortal soul state Gives it creations loveliest hues And kindles brightness midst the gloom.",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "Prometheus",
+            "birth": null,
+            "death": null,
+            "description": "In Greek mythology, defied the Olympian gods by stealing fire and giving it to humans.",
+            "id": "person_275"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.22602739726027396,
+      "lcs_dice": 0.3687150837988827,
+      "lcs_ratio": 0.3687150837988827,
+      "containment_1_in_2": 0.5,
+      "containment_2_in_1": 0.2920353982300885,
+      "max_containment": 0.5,
+      "lcs_length": 33,
+      "lcs_text": "what is stormy day please cheer our sight warm our cold clay save feelings heavenly light this is spirit which subdues our mortal gives it creations loveliest hues kindles brightness midst gloom .",
+      "seq1_length": 66,
+      "seq2_length": 113,
+      "coverage_ratio": 0.2920353982300885
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "101",
+      "segment1_text": "97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold & earthborn clay Save feelings heavenly light. This is the spirit which subdues The Chaos of our mortal doom Gives it creations loveliest hues And kindles brightness midst the gloom It wakens in the mothers kiss It breathes profound in lovers sighs Dove like upon the dark abyss Of Life it rests & never dies.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "108",
+      "segment2_text": "It wakens in the mother's kiss It breathes profound in lovers sighs Dove like it rests it rests upon the dark abyss And never And never , never dies._ Of life it rests &",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "Prometheus",
+            "birth": null,
+            "death": null,
+            "description": "In Greek mythology, defied the Olympian gods by stealing fire and giving it to humans.",
+            "id": "person_275"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.2077922077922078,
+      "lcs_dice": 0.34408602150537637,
+      "lcs_ratio": 0.34408602150537637,
+      "containment_1_in_2": 0.24242424242424243,
+      "containment_2_in_1": 0.5925925925925926,
+      "max_containment": 0.5925925925925926,
+      "lcs_length": 16,
+      "lcs_text": "it wakens kiss it breathes profound lovers sighs dove like upon dark abyss life it rests",
+      "seq1_length": 66,
+      "seq2_length": 27,
+      "coverage_ratio": 0.24242424242424243
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "101",
+      "segment1_text": "From it the poets glories rise Which pass beyond our human being To things of other worlds & skies Carrying the prophets gift of seeing, By it the ruddy clotted blood that stains The Hero's laurels glow s like flame Or kindles in the warriors veins The never dying love of fame",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "107",
+      "segment2_text": "103 -. From it the Poets glories rise Which pass beyond our human being - To things of other worlds & skies Kindling Carrying the prophets gift of seeing. - By it the clotted ruddy blood that stains The Heroe's laurels glow like flame Or kindles in the warriors veins A never dying love of fame. By it the statesman xxxx & rules xxxx & rules xxxx & rules & lives rules & lives And the loud multitude controuls Fixed to the impulse that He gives. As the firm earth around its poles.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.5147058823529411,
+      "lcs_dice": 0.6796116504854369,
+      "lcs_ratio": 0.6796116504854369,
+      "containment_1_in_2": 0.9210526315789473,
+      "containment_2_in_1": 0.5384615384615384,
+      "max_containment": 0.9210526315789473,
+      "lcs_length": 35,
+      "lcs_text": "from it poets glories rise which pass beyond our human being things other worlds skies carrying prophets gift seeing it ruddy blood that stains laurels glow like flame kindles warriors veins never dying love fame",
+      "seq1_length": 38,
+      "seq2_length": 65,
+      "coverage_ratio": 0.5384615384615384
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 2,
+      "segment1_page_key": "128",
+      "segment1_text": "&, which is called organization is nothing more than a system in which thought & feeling are constantly in motion - The existence of something independent of intellectual existence is quite xxxxx uncertain - It may be said that a chair & a table or the whole of",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "129",
+      "segment2_text": "upon the retina &c occasion a sensation of vision but this is expressing nothing more than that the sensation",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.12195121951219512,
+      "lcs_dice": 0.21739130434782608,
+      "lcs_ratio": 0.21739130434782608,
+      "containment_1_in_2": 0.15151515151515152,
+      "containment_2_in_1": 0.38461538461538464,
+      "max_containment": 0.38461538461538464,
+      "lcs_length": 5,
+      "lcs_text": "is nothing more than that",
+      "seq1_length": 33,
+      "seq2_length": 13,
+      "coverage_ratio": 0.15151515151515152
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "153",
+      "segment1_text": "149 To ascertain what Heat will be communicated from one body heated to a certain degree to another through different media.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "154",
+      "segment2_text": "Plan of experiments to ascertain - If the cold of high regions depends upon an increased radiation increased radiation -- 1 st by a stop watch to ascertain what difference of time is required to heat to the same degree bodies in dense & rare air - 2 What will be the difference of the maximum of the effect of a very small lens under the same circumstances in dense & rare media . 3. What will be the times of cooling of the same body heated to the same degree in dense & rare media. - 4.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.14705882352941177,
+      "lcs_dice": 0.2564102564102564,
+      "lcs_ratio": 0.2564102564102564,
+      "containment_1_in_2": 0.5882352941176471,
+      "containment_2_in_1": 0.16393442622950818,
+      "max_containment": 0.5882352941176471,
+      "lcs_length": 10,
+      "lcs_text": "ascertain what heat will be body heated degree media .",
+      "seq1_length": 17,
+      "seq2_length": 61,
+      "coverage_ratio": 0.16393442622950818
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "153",
+      "segment1_text": "149 To ascertain what Heat will be communicated from one body heated to a certain degree to another through different media.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "154",
+      "segment2_text": "To ascertain what will be the times of cooling of the same thermometer when its surface is xxx covered with quick & slow & slow radiating surfaces.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.16129032258064516,
+      "lcs_dice": 0.2777777777777778,
+      "lcs_ratio": 0.2777777777777778,
+      "containment_1_in_2": 0.29411764705882354,
+      "containment_2_in_1": 0.2631578947368421,
+      "max_containment": 0.29411764705882354,
+      "lcs_length": 5,
+      "lcs_text": "ascertain what will be .",
+      "seq1_length": 17,
+      "seq2_length": 19,
+      "coverage_ratio": 0.2631578947368421
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "156",
+      "segment1_text": "when I return } return } . + , 6.12 1 On the road to the Baths of Lucca Baths of Lucca Baths of Lucca layers of Limestone & chert very near each other & almost blended & much twisted",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "163",
+      "segment2_text": "x + x/50 =10000 51 ) 100000( 19 7 51 490 100 19 4 5 4 5 4 2 1 50 x + y = 100 00 1 x . y 501 317 - 4 30 50y = 10= Gioacchino y = x/50 20 pettini in casa Valero bagni di Lucca bagni di Lucca bagni di Lucca bagni di Lucca",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "Gioacchino",
+            "birth": null,
+            "death": null,
+            "description": "Unidentified.",
+            "id": "person_782"
+          }
+        ],
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.1111111111111111,
+      "lcs_dice": 0.2,
+      "lcs_ratio": 0.2,
+      "containment_1_in_2": 0.17391304347826086,
+      "containment_2_in_1": 0.23529411764705882,
+      "max_containment": 0.23529411764705882,
+      "lcs_length": 4,
+      "lcs_text": ". lucca lucca lucca",
+      "seq1_length": 23,
+      "seq2_length": 17,
+      "coverage_ratio": 0.17391304347826086
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "160",
+      "segment1_text": "} 16.1 31 .1 x 5 Monte 1. 8 1. 8 2 Barrina 1 0 9 1 0 9 Varlo 31. 3.. 5 Monte Varlo Monte Varlo 14. Wednesday 15 . 16 F 17 S 18 S 31. 3. 5. 19. M. 20 T 30 . 19 21 W 22 T 9 23 F 12.5 24 S 11. 4 5 11. 4 5 25 S 26 M 27 T 4 7 5 28 W 29 T 1 . 4 . 5 1 . 4 . 5 30 F 4 3 1 S 2 S 3 M 39 6 39 6 4 T 36. 5 05 5. W 9. S. 10 M 11 T 6 T 12 W. 13 T 14 F 15 S 16 S 17 M 17 M 18 Tuesday 7 F 2 8 S",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "161",
+      "segment2_text": "157 (reversed) [vertical rule] At C asi ol xxxx fior Vetturino paid 8 Crowns 25 Basic At Perugia 15 Contra Per Pergo 2.1 2 . 2 15 S 13 ' 3 Foligno 1. 5x Or . 2 Terni 1. 6. 8. 8 Col. Fior 28. 25 Col. Fior 28. 25 8 \" 8 Perugia . 1 . 5+ Caselli - 5 31 ' 1 S 15 \" 5 0 , 0 ,, ' 5 e 5 e Genova paid Genova paid 1 ' 5 Arezzo 1 . 1 . 1 18 1",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Foligno",
+            "description": "Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.",
+            "id": "place_564"
+          },
+          {
+            "name": "Terni",
+            "description": "Terni is a city in the southern portion of the region of Umbria in central Italy.",
+            "id": "place_565"
+          },
+          {
+            "name": "Perugia",
+            "description": "Perugia is the capital city of Umbria in central Italy, crossed by the River Tiber, and of the province of Perugia.",
+            "id": "place_562"
+          },
+          {
+            "name": "Arezzo",
+            "description": "Arezzo is a city and comune in Italy and the capital of the province of the same name located in Tuscany.",
+            "id": "place_567"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.16363636363636364,
+      "lcs_dice": 0.28125,
+      "lcs_ratio": 0.28125,
+      "containment_1_in_2": 0.375,
+      "containment_2_in_1": 0.225,
+      "max_containment": 0.375,
+      "lcs_length": 9,
+      "lcs_text": ". . . . . . . . .",
+      "seq1_length": 24,
+      "seq2_length": 40,
+      "coverage_ratio": 0.225
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "161",
+      "segment1_text": "157 (reversed) [vertical rule] At C asi ol xxxx fior Vetturino paid 8 Crowns 25 Basic At Perugia 15 Contra Per Pergo 2.1 2 . 2 15 S 13 ' 3 Foligno 1. 5x Or . 2 Terni 1. 6. 8. 8 Col. Fior 28. 25 Col. Fior 28. 25 8 \" 8 Perugia . 1 . 5+ Caselli - 5 31 ' 1 S 15 \" 5 0 , 0 ,, ' 5 e 5 e Genova paid Genova paid 1 ' 5 Arezzo 1 . 1 . 1 18 1",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Foligno",
+            "description": "Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.",
+            "id": "place_564"
+          },
+          {
+            "name": "Terni",
+            "description": "Terni is a city in the southern portion of the region of Umbria in central Italy.",
+            "id": "place_565"
+          },
+          {
+            "name": "Perugia",
+            "description": "Perugia is the capital city of Umbria in central Italy, crossed by the River Tiber, and of the province of Perugia.",
+            "id": "place_562"
+          },
+          {
+            "name": "Arezzo",
+            "description": "Arezzo is a city and comune in Italy and the capital of the province of the same name located in Tuscany.",
+            "id": "place_567"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "162",
+      "segment2_text": "1 Naples 1 Naples D o D o D o Paid up to Nov r 14 exclusive 1 2 xxxx R x N - 3 P to 8 1 2 xxxx R x N - 3 P to 8 Foligno Advanced to the Vetturino 13 crowns 3 Pauls - He paid for me 2 Crowns 1 1/2 - Poggio 15 Pauls Terni Foligno - 16 Pauls Advanced at Case Nov o Advanced at Case Nov o 2 Pauls more. - 8 . Scudi 8 Pauls . 16 Past Perugia 8.8 11 9L 100. 465. 9 41.85",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "JamesWard",
+            "birth": "",
+            "death": "",
+            "description": "Landscape and animal painter. Royal Academician.",
+            "id": "person_638"
+          }
+        ],
+        "places": [
+          {
+            "name": "Foligno",
+            "description": "Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.",
+            "id": "place_564"
+          },
+          {
+            "name": "Terni",
+            "description": "Terni is a city in the southern portion of the region of Umbria in central Italy.",
+            "id": "place_565"
+          },
+          {
+            "name": "Perugia",
+            "description": "Perugia is the capital city of Umbria in central Italy, crossed by the River Tiber, and of the province of Perugia.",
+            "id": "place_562"
+          },
+          {
+            "name": "Naples",
+            "description": "Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.",
+            "id": "place_156"
+          },
+          {
+            "name": "Rome",
+            "description": "The capital of Italy.",
+            "id": "place_155"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.14925373134328357,
+      "lcs_dice": 0.2597402597402597,
+      "lcs_ratio": 0.2597402597402597,
+      "containment_1_in_2": 0.25,
+      "containment_2_in_1": 0.2702702702702703,
+      "max_containment": 0.2702702702702703,
+      "lcs_length": 10,
+      "lcs_text": "vetturino paid crowns foligno . . . perugia . .",
+      "seq1_length": 40,
+      "seq2_length": 37,
+      "coverage_ratio": 0.25
+    }
+  ],
+  "summary_metrics": {
+    "total_instances": 71,
+    "total_segments_analyzed": 500,
+    "total_comparisons_made": 124527,
+    "lcs_ratio_mean": 0.31309500940281,
+    "lcs_ratio_std": 0.11901482172849528,
+    "lcs_ratio_median": 0.26666666666666666,
+    "lcs_ratio_min": 0.2,
+    "lcs_ratio_max": 0.6796116504854369,
+    "lcs_jaccard_mean": 0.19218105045553607,
+    "lcs_jaccard_std": 0.0935778589330141,
+    "max_containment_mean": 0.4186874233220936,
+    "max_containment_std": 0.18159479652063348,
+    "lcs_length_mean": 14.126760563380282,
+    "lcs_length_std": 8.748327127755305,
+    "lcs_length_max": 36,
+    "high_similarity_count": 0,
+    "medium_similarity_count": 7,
+    "low_similarity_count": 64,
+    "processing_time_seconds": 5.4170966148376465,
+    "lcs_computation_time_seconds": 4.738563776016235,
+    "similarity_calculation_time_seconds": 1.1155619621276855,
+    "comparisons_per_second": 22987.775344252772,
+    "reuse_rate": 0.0005691382765531062,
+    "granularity": "word",
+    "similarity_threshold": 0.2,
+    "stemming_used": false,
+    "stopwords_removed": true,
+    "min_lcs_length": 4
+  },
+  "timestamp": "2025-09-25T09:34:02.500864"
+}

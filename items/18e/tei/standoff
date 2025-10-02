@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standOff>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_822" type="description">
+            <term id="misc_822-term">By ploughing which offers the most simple</term>
+            <gloss id="misc_822-gloss" target="#misc_822-term">
+               <p>This lecture on husbandry was first given on Friday 27th May 1803 and repeated on Friday 10th June 1803, at 2.30pm. The notebook is written in the hand of an amanuensis. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_109" type="description">
+            <term id="misc_109-term">aeriform</term>
+            <gloss id="misc_109-gloss" target="#misc_109-term">
+               <p>Meaning having the form or nature of air; gaseous. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_264" type="description">
+            <term id="misc_264-term">Board of Agriculture</term>
+            <gloss id="misc_264-gloss" target="#misc_264-term">
+               <p>The Board of Agriculture (1793-1822) was a British voluntary association founded to promote agricultural improvement. Davy gave an annual course of lectures to the Board 1803-1812. Davy's career there was pushed by Joseph Banks.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_122" type="description">
+            <term id="misc_122-term">Furze</term>
+            <gloss id="misc_122-gloss" target="#misc_122-term">
+               <p>A term for gorse.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_192" type="description">
+            <term id="misc_192-term">Mucilage</term>
+            <gloss id="misc_192-gloss" target="#misc_192-term">
+               <p>Mucilage is a thick gluey substance produced by nearly all plants and some microorganisms. </p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listNym type="chemical">
+         <nym xml:id="chemical_010">
+            <form>lime</form>
+            <def>
+               <p>Symbol/formula: CaO</p>
+               <p>Commonly known as quicklime or burnt lime, calcium oxide is a widely used chemical compound. It is a white, caustic, alkaline, crystalline solid at room temperature.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_034">
+            <form>silex</form>
+            <def>
+               <p>Symbol/formula: SiO2</p>
+               <p>Silica, an oxide of silicon.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_108">
+            <form>alumine</form>
+            <def>
+               <p>Symbol/formula: AL2O3</p>
+               <p>Alumine is an archaic name for alumina, which is aluminium oxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_111">
+            <form>silicious earth</form>
+            <def>
+               <p>Containing or consisting of silica.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_081">
+            <form>calcareous</form>
+            <def>
+               <p>Composed of, or containing, lime or limestone.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_122">
+            <form>silicious</form>
+            <def>
+               <p>Symbol/formula: SiO2</p>
+               <p>Siliceous rocks: any of a group of sedimentary rocks that consist largely or almost entirely of silicon dioxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_112">
+            <form>marl</form>
+            <def>
+               <p>Or marle. A loose, unconsolidated earthy deposit, consisting of clay mixed with calcium carbonate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_118">
+            <form>chalk</form>
+            <def>
+               <p>A common, porous, sedimentary carbonate rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_072">
+            <form>hydrocarbonate </form>
+            <def>
+               <p>Symbol/formula: H2 + CO</p>
+               <p>Hydrogen mixed with carbon monoxide. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_058">
+            <form>carbonic acid</form>
+            <def>
+               <p>Symbol/formula: CO2 or H2CO3 </p>
+               <p>Now known as Carbon dioxide (CO2), or a solution of carbon dioxide in water (H2CO3). </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_054">
+            <form>carbon</form>
+            <def>
+               <p>Symbol/formula: C</p>
+               <p>A non-metallic and tetravalent element. Well-known allotropes include graphite, diamond, amorphous carbon, and fullerenes.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_167">
+            <form>saline</form>
+            <def>
+               <p>Symbol/formula: NaCl</p>
+               <p>Sodium chloride in solution.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_163">
+            <form>gypsum</form>
+            <def>
+               <p>Symbol/formula: CaSO4·2H2O</p>
+               <p>A soft white or grey mineral consisting of hydrated calcium sulphate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_091">
+            <form>Caustic lime</form>
+            <def>
+               <p>Symbol/formula: CaO</p>
+               <p>Quicklime, or calcium oxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_044">
+            <form>nitre</form>
+            <def>
+               <p>Symbol/formula: KNO3</p>
+               <p>Potassium nitrate. The mineral form is saltpetre, which was useful as a fertiliser and for making gunpowder.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_022">
+            <form>oxygene</form>
+            <def>
+               <p>Symbol/formula: O</p>
+               <p>Now known as oxygen. Oxygen is a colourless, odourless, tasteless gas essential to living organisms.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_014">
+            <form>muriate of lime</form>
+            <def>
+               <p>Symbol/formula: CaCl2</p>
+               <p>An inorganic compound and a white crystalline solid at room temperature. Calcium chloride is highly soluble in water, and can be created by neutralising hydrochloric acid with calcium hydroxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_339">
+            <form>plumule</form>
+            <def>
+               <p>In botany, the primary bud of a plant embryo.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_109">
+            <form>carbonate of lime</form>
+            <def>
+               <p>Symbol/formula: CaCO3</p>
+               <p>Calcium carbonate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_011">
+            <form>magnesia</form>
+            <def>
+               <p>Symbol/formula: MgO</p>
+               <p>A white hygroscopic solid mineral that occurs naturally as periclase and is a source of magnesium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_003">
+            <form>ammonia</form>
+            <def>
+               <p>Symbol/formula: NH3</p>
+               <p>An inorganic chemical compound of nitrogen and hydrogen. Ammonia is a colourless gas with a distinct pungent smell.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_196">
+            <form>carbonate of potash</form>
+            <def>
+               <p>Symbol/formula: K2CO3</p>
+               <p>Potassium carbonate. It is a white salt, which is soluble in water and forms a strongly alkaline solution.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_030">
+            <form>potash</form>
+            <def>
+               <p>An alkaline substance consisting largely of impure potassium carbonate. In October 1807, Davy decomposed potash using electricity, revealing the previously unknown element potassium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_015">
+            <form>muriate of soda</form>
+            <def>
+               <p>Symbol/formula: NaCl</p>
+               <p>Also known as sodium chloride, or common salt.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_068">
+            <form>sulphite</form>
+            <def>
+               <p>Symbol/formula: SO</p>
+               <p>Any salt or ester of sulphurous acid, containing the ions SO32- or HSO3- (hydrogen sulphite) or the groups -SO3 or -HSO3. The salts are usually soluble crystalline compounds.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_042">
+            <form>baryte</form>
+            <def>
+               <p>Symbol/formula: BaSO4</p>
+               <p>A mineral consisting of barium sulphate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_179">
+            <form>sulphate of lime</form>
+            <def>
+               <p>Symbol/formula: CaSO4</p>
+               <p>Calcium sulphate, gypsum.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_140">
+            <form>charcoal</form>
+            <def>
+               <p>A lightweight black carbon residue produced by strongly heating wood (or other animal and plant materials) in minimal oxygen to remove all water and volatile constituents.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_166">
+            <form>iron oxide </form>
+            <def>
+               <p>Symbol/formula: Fe2O3</p>
+               <p>Oxide of iron. A dark red solid which occurs as the mineral haematite and as the main component of rust.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_078">
+            <form>elastic fluid</form>
+            <def>
+               <p>A descriptive term for a gas, emphasising its elastic quality of spontaneous expansion.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_035">
+            <form>soda</form>
+            <def>
+               <p>An alkaline substance obtained from the ashes of marine or salt-impregnated plants, especially species of Salsola. Davy decomposed soda to reveal its elemental sodium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_077">
+            <form>sulphate of potash</form>
+            <def>
+               <p>Symbol/formula: K2SO4</p>
+               <p>Potassium sulphate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_051">
+            <form>phosphate of lime</form>
+            <def>
+               <p>Symbol/formula: Ca3(PO4)2</p>
+               <p>Tricalcium phosphate (sometimes abbreviated TCP) is a calcium salt of phosphoric acid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_151">
+            <form>phosphorus</form>
+            <def>
+               <p>Symbol/formula: P</p>
+               <p>A non-metallic chemical element of the nitrogen family. A colourless, semitransparent, soft, waxy solid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_017">
+            <form>nitrogene</form>
+            <def>
+               <p>Symbol/formula: N</p>
+               <p>Now known as nitrogen. A colourless and odourless gas, nitrogen is non-combustible and non-toxic. Davy also refers to this as azote.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_092">
+            <form>granite</form>
+            <def>
+               <p>A coarse-grained intrusive igneous rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_120">
+            <form>shist</form>
+            <def>
+               <p>Or schist. Any metamorphic rock that can be split into thin layers because of its thin bands of micaceous minerals, with mineral grains.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_090">
+            <form>limestone</form>
+            <def>
+               <p>A sedimentary rock composed mainly of calcium carbonate (CaCO3).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_038">
+            <form>tin</form>
+            <def>
+               <p>Symbol/formula: Sn</p>
+               <p>A silvery-coloured metal, tin is soft enough to be cut with little force, and a bar of tin can be bent by hand with little effort.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_070">
+            <form>copper</form>
+            <def>
+               <p>Symbol/formula: Cu</p>
+               <p>A soft, malleable, and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a pinkish-orange colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_184">
+            <form>shell limestone</form>
+            <def>
+               <p>A type of limestone composed largely of shells.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_088">
+            <form>sandstone</form>
+            <def>
+               <p>A sedimentary rock consisting of sand or quartz grains cemented together, typically red, yellow, or brown in colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_105">
+            <form>basalt</form>
+            <def>
+               <p>A dark grey to black dense to fine-grained igneous rock that consists of basic plagioclase, augite, and usually magnetite. More than 90% of volcanic rock on earth is basaltic.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_201">
+            <form>zinc</form>
+            <def>
+               <p>Symbol/formula: Zn</p>
+               <p>A a slightly brittle metal at room temperature and has a shiny-greyish appearance when oxidation is removed.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_116">
+            <form>whinstone</form>
+            <def>
+               <p>A term used to describe any hard dark-coloured rock, examples of which include igneous rocks and basalt.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_185">
+            <form>ironstone</form>
+            <def>
+               <p>A sedimentary rock, either deposited directly as a ferruginous sediment or created by chemical replacement, that contains a substantial proportion of an iron ore compound.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_254">
+            <form>common air</form>
+            <def>
+               <p>The air of the lower stratum of the atmosphere, or the air that we breathe, which is a mixture of several gases, including oxygen (O2), nitrogen (N2) and carbon dioxide (CO2).</p>
+            </def>
+         </nym>
+      </listNym>
+      <listPlace>
+         <place xml:id="place_160">
+            <placeName>Somerset</placeName>
+            <location>
+               <geo decls="#WGS84">51.11108439911385, -3.2865818073214901</geo>
+            </location>
+            <note>A county in south-west England.</note>
+         </place>
+         <place xml:id="place_161">
+            <placeName>Sussex</placeName>
+            <location>
+               <geo decls="#WGS84">50.93916058319065, -0.46511525862418701</geo>
+            </location>
+            <note>A county in southern England.</note>
+         </place>
+         <place xml:id="place_085">
+            <placeName>Derbyshire</placeName>
+            <location>
+               <geo decls="#WGS84">52.921826207569474, -1.4773493148619199</geo>
+            </location>
+            <note>Derbyshire is a county in the East Midlands and includes part of the Peak District.</note>
+         </place>
+         <place xml:id="place_284">
+            <placeName>Edinburgh</placeName>
+            <location>
+               <geo decls="#WGS84">55.952743168058966,  -3.1904042104473902</geo>
+            </location>
+            <note>The capital city of Scotland.</note>
+         </place>
+         <place xml:id="place_308">
+            <placeName>Gloucestershire</placeName>
+            <location>
+               <geo decls="#WGS84">51.86437133165311,  -2.23762020083621</geo>
+            </location>
+            <note>A county in the west of England. The county town is Gloucester.</note>
+         </place>
+         <place xml:id="place_418">
+            <placeName>River Kennet</placeName>
+            <location>
+               <geo decls="#WGS84">51.42147641602535,  -1.1259604910393199</geo>
+            </location>
+            <note>The River Kennet is an English chalk stream, a tributary to the River Thames.</note>
+         </place>
+         <place xml:id="place_286">
+            <placeName>Leicestershire</placeName>
+            <location>
+               <geo decls="#WGS84">52.63659600718076, -1.1383822004633799</geo>
+            </location>
+            <note>A county in the East Midlands of England.</note>
+         </place>
+         <place xml:id="place_419">
+            <placeName>Mount's Bay</placeName>
+            <location>
+               <geo decls="#WGS84">50.11945233373559,  -5.4699152798174699</geo>
+            </location>
+            <note>A bay on the English Channel coast of Cornwall, England, stretching from the Lizard Point to Gwennap Head.</note>
+         </place>
+         <place xml:id="place_021">
+            <placeName>Cornwall</placeName>
+            <location>
+               <geo decls="#WGS84">50.25090807161931,  -5.1326462442719603</geo>
+            </location>
+            <note>Cornwall is a county in south-west England, birthplace of Humphry Davy.</note>
+         </place>
+         <place xml:id="place_159">
+            <placeName>United Kingdom</placeName>
+            <location>
+               <geo decls="#WGS84">54.06171310994435,  -1.7434214141764799</geo>
+            </location>
+         </place>
+         <place xml:id="place_235">
+            <placeName>Scotland</placeName>
+            <location>
+               <geo decls="#WGS84">56.23014782410645,  -4.1646793652431802</geo>
+            </location>
+         </place>
+         <place xml:id="place_122">
+            <placeName>Wales</placeName>
+            <location>
+               <geo decls="#WGS84">52.46831117075778,  -3.41760903752037</geo>
+            </location>
+            <note>Wales is a country in southwest Great Britain known for its rugged coastline, mountainous national parks, distinctive Welsh language and Celtic culture.</note>
+         </place>
+         <place xml:id="place_079">
+            <placeName>Cumberland</placeName>
+            <location>
+               <geo decls="#WGS84">54.68622247111847, -3.3331803501037101</geo>
+            </location>
+            <note>Cumberland is a historic county in the far north-west of England.</note>
+         </place>
+         <place xml:id="place_162">
+            <placeName>Devon</placeName>
+            <location>
+               <geo decls="#WGS84">50.7831111085829,  -3.8387768410054801</geo>
+            </location>
+            <note>A county in south-west England.</note>
+         </place>
+         <place xml:id="place_121">
+            <placeName>England</placeName>
+            <location>
+               <geo decls="#WGS84">52.12544136722214, -1.7566152421063299</geo>
+            </location>
+            <note>England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.</note>
+         </place>
+      </listPlace>
+      <listPerson>
+         <person xml:id="person_336">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Giambattista</forename>
+               <surname>Scandella</surname>
+            </persName>
+            <birth when="1770"/>
+            <death when="1798"/>
+            <note>Venetian physician, natural philosopher and diplomat who worked in agricultural chemistry. Spent his final years in the United States.</note>
+         </person>
+         <person xml:id="person_784">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Daniel Gabriel</forename>
+               <surname>Fahrenheit</surname>
+            </persName>
+            <birth when="1686"/>
+            <death when="1736"/>
+            <note>German physicist, inventor, and scientific instrument maker, who invented the mercury-in-glass thermometer. The temperature scale he proposed is named after him. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_337">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Boys</surname>
+            </persName>
+            <birth when="1749"/>
+            <death when="1824"/>
+            <note>English agriculturalist who worked with Arthur Young and wrote the Kent volume for the Board of Agriculture. An Annual Subscriber to the Royal Institution.</note>
+         </person>
+         <person xml:id="person_253">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">George Howland</forename>
+               <surname>Beaumont</surname>
+            </persName>
+            <birth when="1753"/>
+            <death when="1827"/>
+            <note>From 1762, 7th Baronet of Colerton Hall, Leicestershire. Landowner, politician and landscape painter; patron of artists and poets including Wordsworth and Coleridge. A subscriber to the Royal Institution.</note>
+         </person>
+         <person xml:id="person_240">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Erasmus</forename>
+               <surname>Darwin</surname>
+            </persName>
+            <birth when="1731"/>
+            <death when="1802"/>
+            <note>Physician and natural philosopher who was member of the Lunar Society and friend of Priestley and Watt; also a correspondent with Beddoes. FRSL.</note>
+         </person>
+         <person xml:id="person_044">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Arthur</forename>
+               <surname>Young</surname>
+            </persName>
+            <birth when="1741"/>
+            <death when="1820"/>
+            <note>Agricultural writer and Secretary to the Board of Agriculture. FRSL.</note>
+         </person>
+         <person xml:id="person_476">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Binder</surname>
+            </persName>
+            <note>A farmer at Varfel (the Davy family small holding) in Cornwall; details untraced.  </note>
+         </person>
+         <person xml:id="person_271">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Alexander von</forename>
+               <surname>Humboldt</surname>
+            </persName>
+            <birth when="1769"/>
+            <death when="1859"/>
+            <note>German geographer, naturalist and explorer. ForMemRSL.</note>
+         </person>
+      </listPerson>
+   </standOff>
+</TEI>

@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standOff>
+      <listAnnotation type="nonenglish">
+         <note xml:id="nonenglish_100" type="description">
+            <term id="nonenglish_100-term">Vide</term>
+            <gloss id="nonenglish_100-gloss" target="#nonenglish_100-term">
+               <p>See; consult; refer to (Latin)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_370" type="description">
+            <term id="nonenglish_370-term">Rotfisch</term>
+            <gloss id="nonenglish_370-gloss" target="#nonenglish_370-term">
+               <p>Red Fish (German)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_009" type="description">
+            <term id="nonenglish_009-term">quere</term>
+            <gloss id="nonenglish_009-gloss" target="#nonenglish_009-term">
+               <p>query; to enquire (Latin)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_097" type="description">
+            <term id="nonenglish_097-term">Joketten</term>
+            <gloss id="nonenglish_097-gloss" target="#nonenglish_097-term">
+               <p>Davy phonetically transcribes 'ciochetta' in Lombard dialect. It is Gallinago media, or, the Great Snipe (Italian)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_201" type="description">
+            <term id="nonenglish_201-term">pizzardone</term>
+            <gloss id="nonenglish_201-gloss" target="#nonenglish_201-term">
+               <p>Davy phonetically transcribes this type of snipe, the 'pizzardone' (Italian)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_171" type="description">
+            <term id="nonenglish_171-term">cacciatore</term>
+            <gloss id="nonenglish_171-gloss" target="#nonenglish_171-term">
+               <p>hunter (Italian)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_172" type="description">
+            <term id="nonenglish_172-term">Paludes</term>
+            <gloss id="nonenglish_172-gloss" target="#nonenglish_172-term">
+               <p>swamp (italian) </p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_203" type="description">
+            <term id="nonenglish_203-term">Unclear Italian Poem</term>
+            <gloss id="nonenglish_203-gloss" target="#nonenglish_203-term">
+               <p>The legible words in this poem translate as "When... bed/ by... a small crevice/ he said that.../ and at nine that where/ sleeping safely/ I will not pay for such..." It seems to be a tale about someone staying overnight and refusing to pay but the writing is too unclear to be more specific.  </p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_109" type="description">
+            <term id="nonenglish_109-term">Dies irae</term>
+            <gloss id="nonenglish_109-gloss" target="#nonenglish_109-term">
+               <p>Day of Wrath or Judgment Day (Latin)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_110" type="description">
+            <term id="nonenglish_110-term">che pensi</term>
+            <gloss id="nonenglish_110-gloss" target="#nonenglish_110-term">
+               <p>What do you think? (Italian)</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listPlace>
+         <place xml:id="place_894">
+            <placeName>Kortrijk</placeName>
+            <location>
+               <geo decls="#WGS84">50.82853088911272,  3.2572489895036898</geo>
+            </location>
+            <note>Kortrijk sometimes known in English as Courtrai or Courtray is a Belgian city and municipality in the Flemish province of West Flanders.</note>
+         </place>
+         <place xml:id="place_849">
+            <placeName>Lake Solfatara</placeName>
+            <location>
+               <geo decls="#WGS84">41.6084736328153, 13.554331041091601</geo>
+            </location>
+            <note>The lake is in the Campagna of Rome, Italy, near Tivoli.</note>
+         </place>
+         <place xml:id="place_121">
+            <placeName>England</placeName>
+            <location>
+               <geo decls="#WGS84">52.12544136722214, -1.7566152421063299</geo>
+            </location>
+            <note>England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.</note>
+         </place>
+         <place xml:id="place_650">
+            <placeName>Donauwörth</placeName>
+            <location>
+               <geo decls="#WGS84">48.715735282096986,  10.7810709463787</geo>
+            </location>
+            <note>Donauworth is a town in Bavaria, Germany, located where the Danube and Wornitz Rivers meet.</note>
+         </place>
+         <place xml:id="place_251">
+            <placeName>Wornitz River</placeName>
+            <location>
+               <geo decls="#WGS84">48.718793246174705,  10.7714579090734</geo>
+            </location>
+            <note>Wornitz River runs through Bavaria and is a tributary of the Danube.</note>
+         </place>
+         <place xml:id="place_217">
+            <placeName>River Danube</placeName>
+            <location>
+               <geo decls="#WGS84">44.80660983492613,  21.293850285131601</geo>
+            </location>
+            <note>The Danube is the second longest river in Europe. It flows through central and south eastern Europe into the Black Sea.</note>
+         </place>
+         <place xml:id="place_250">
+            <placeName>Schellenberg</placeName>
+            <location>
+               <geo decls="#WGS84">47.230883295941936,  9.5469079282232894</geo>
+            </location>
+            <note>Schellenberg is a town in Liechtenstein located on the banks of the Rhine.</note>
+         </place>
+         <place xml:id="place_252">
+            <placeName>Blenheim</placeName>
+            <location>
+               <geo decls="#WGS84">48.63182836508751,  10.619878868050201</geo>
+            </location>
+            <note>Blenheim is the English name for the village of Blindheim in Bavaria, Germany. It is the site of the Battle of Blenheim fought in 1704.</note>
+         </place>
+         <place xml:id="place_651">
+            <placeName>Landshut</placeName>
+            <location>
+               <geo decls="#WGS84">48.5426564120571, 12.1616742362721</geo>
+            </location>
+            <note>Landshut is a town in Bavaria, Germany, located on the banks of the Isar River.</note>
+         </place>
+         <place xml:id="place_688">
+            <placeName>Regensburg</placeName>
+            <location>
+               <geo decls="#WGS84">49.016509464292604, 12.106049271122201</geo>
+            </location>
+            <note>Also known as Ratisbon. Regensberg is a city in Bavaria at the confluence of the Danube, Naab, and Regen rivers.</note>
+         </place>
+         <place xml:id="place_267">
+            <placeName>Vöcklabruck</placeName>
+            <location>
+               <geo decls="#WGS84">48.00408714605478,  13.6536209080798</geo>
+            </location>
+            <note>A town in the western part of Upper Austria, which has the River Vöckla running through it.</note>
+         </place>
+         <place xml:id="place_270">
+            <placeName>Vockla River</placeName>
+            <location>
+               <geo decls="#WGS84">48.00336796165905,  13.670572394121001</geo>
+            </location>
+            <note>The Vockla River runs through Upper Austria and is a tributary of the Ager River.</note>
+         </place>
+         <place xml:id="place_270">
+            <placeName>Voecla</placeName>
+            <location>
+               <geo decls="#WGS84">48.00336796165905,  13.670572394121001</geo>
+            </location>
+            <note>The Vockla River runs through Upper Austria and is a tributary of the Ager River.</note>
+         </place>
+         <place xml:id="place_268">
+            <placeName>Ager River</placeName>
+            <location>
+               <geo decls="#WGS84">48.08775245194384,  13.8583738689959</geo>
+            </location>
+            <note>The Ager River in Austria is a tributary of the Traun.</note>
+         </place>
+         <place xml:id="place_666">
+            <placeName>Lambach</placeName>
+            <location>
+               <geo decls="#WGS84">48.091209407625364, 13.8739986701015</geo>
+            </location>
+            <note>Lambach is a town in Upper Austria located at the confluence of the Ager and Traun Rivers.</note>
+         </place>
+         <place xml:id="place_844">
+            <placeName>Judenburg</placeName>
+            <location>
+               <geo decls="#WGS84">47.16872427905737,  14.6600708562775</geo>
+            </location>
+            <note>Judenburg is a historic town in Styria, Austria. It is the administrative centre of the Murtal district.</note>
+         </place>
+         <place xml:id="place_216">
+            <placeName>Ljubljana</placeName>
+            <location>
+               <geo decls="#WGS84">46.0499115316446,  14.5106411196598</geo>
+            </location>
+            <note>Also known as Laybach or Laibach. Ljubljana is the capital city of Slovenia.</note>
+         </place>
+         <place xml:id="place_314">
+            <placeName>Manhart</placeName>
+            <location>
+               <geo decls="#WGS84">46.44006166266365,  13.6549999952777</geo>
+            </location>
+            <note>Mangart is a mountain in the Julian Alps on the border between Austria and Slovenia.</note>
+         </place>
+         <place xml:id="place_915">
+            <placeName>Feistritz an der Gail</placeName>
+            <location>
+               <geo decls="#WGS84">46.51891054886725,  14.171815091837599</geo>
+            </location>
+            <note>Feistritz im Rosental, often referred to as simply Feistritz, is a market town in the district of Klagenfurt-Land in the Austrian state of Carinthia.</note>
+         </place>
+         <place xml:id="place_558">
+            <placeName>Lake Bohinj</placeName>
+            <location>
+               <geo decls="#WGS84">46.28423214557046,  13.8554534786839</geo>
+            </location>
+            <note>Lake Bohinj is the largest permanent lake in Slovenia.</note>
+         </place>
+         <place xml:id="place_214">
+            <placeName>Sava River</placeName>
+            <location>
+               <geo decls="#WGS84">45.356812793700186,  16.950461138598101</geo>
+            </location>
+            <note>The Sava River, 990km in length, rises in Slovenia (Carnolia) and is the largest tributary of the Danube by volume of water.</note>
+         </place>
+         <place xml:id="place_1344">
+            <placeName>Bled</placeName>
+            <location>
+               <geo decls="#WGS84">46.368082546088125,  14.114143155632799</geo>
+            </location>
+            <note>a Slovenian resort town in the foothills of the Julian Alps alongside Lake Bled</note>
+         </place>
+         <place xml:id="place_256">
+            <placeName>Wurzen Pass</placeName>
+            <location>
+               <geo decls="#WGS84">46.52384189803392,  13.751394743999001</geo>
+            </location>
+            <note>Wurzen Pass is a mountain pass in a col of the Karawanks Mountain range between the Austrian state of Carinthia and the the Slovenian Kranjska Gora. It is named after the town of Podkoren (Wurzen).</note>
+         </place>
+         <place xml:id="place_193">
+            <placeName>Noric Alps</placeName>
+            <location>
+               <geo decls="#WGS84">46.577149808448226, 12.2080778376144</geo>
+            </location>
+            <note>The Noric Alps is a collective term for a group of mountain ranges in the Eastern Alps.</note>
+         </place>
+         <place xml:id="place_247">
+            <placeName>Alps </placeName>
+            <location>
+               <geo decls="#WGS84">46.91855850327627,  9.6255793068951494</geo>
+            </location>
+            <note>The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.</note>
+         </place>
+         <place xml:id="place_097">
+            <placeName>Italy</placeName>
+            <location>
+               <geo decls="#WGS84">43.01250014383429, 12.4664638037258</geo>
+            </location>
+         </place>
+         <place xml:id="place_917">
+            <placeName>Lake Predil</placeName>
+            <location>
+               <geo decls="#WGS84">46.4211547643914,  13.5654323481654</geo>
+            </location>
+            <note>a lake near Cave del Predil, part of the Tarvisio municipality in the Province of Udine, in the Italian region of Friuli Venezia Giulia.</note>
+         </place>
+         <place xml:id="place_583">
+            <placeName>Soča River</placeName>
+            <location>
+               <geo decls="#WGS84">46.08287937807772,  13.6880023945471</geo>
+            </location>
+            <note>The Soča is river that flows through western Slovenia and north-eastern Italy.</note>
+         </place>
+         <place xml:id="place_198">
+            <placeName>Switzerland</placeName>
+            <location>
+               <geo decls="#WGS84">46.96573205519196, 8.3202673078412506</geo>
+            </location>
+         </place>
+         <place xml:id="place_922">
+            <placeName>Udine</placeName>
+            <location>
+               <geo decls="#WGS84">46.071419954207855,  13.2355785957548</geo>
+            </location>
+            <note>a province in the autonomous region Friuli Venezia Giulia of Italy, bordering Austria and Slovenia, with the capital in the city of Udine.</note>
+         </place>
+         <place xml:id="place_586">
+            <placeName>Gorizia</placeName>
+            <location>
+               <geo decls="#WGS84">45.940569474876156,  13.6187978539194</geo>
+            </location>
+            <note>Gorizia is a town and comune in north-eastern Italy, in the autonomous region of Friuli Venezia Giulia.</note>
+         </place>
+         <place xml:id="place_229">
+            <placeName>Bad Aussee</placeName>
+            <location>
+               <geo decls="#WGS84">47.609085203379486,  13.784228468196799</geo>
+            </location>
+            <note>In Styria (Bad Aussee). Bad Aussee is a town in the Austrian state of Styria located at the confluence of the three sources of the Traun River.</note>
+         </place>
+         <place xml:id="place_1053">
+            <placeName>Spittal an der Drau</placeName>
+            <location>
+               <geo decls="#WGS84">46.829672748311424,  13.5571505162424</geo>
+            </location>
+            <note>A town in the Austrian state of Carinthia.</note>
+         </place>
+         <place xml:id="place_598">
+            <placeName>Millstätter See</placeName>
+            <location>
+               <geo decls="#WGS84">46.79257290766286,  13.584197363047901</geo>
+            </location>
+            <note>Lake Millstatt is a lake in Carinthia, Austria.</note>
+         </place>
+         <place xml:id="place_257">
+            <placeName>Gmunden</placeName>
+            <location>
+               <geo decls="#WGS84">47.920590734753965,  13.800522519413599</geo>
+            </location>
+            <note>Gmunden is a town in Upper Austria, frequented as a health and summer resort.</note>
+         </place>
+         <place xml:id="place_260">
+            <placeName>Drava River</placeName>
+            <location>
+               <geo decls="#WGS84">46.61613332375922,  14.969751846645201</geo>
+            </location>
+            <note>The Drava is a river in central southern Europe and is the fifth longest tributary of the Danube.</note>
+         </place>
+         <place xml:id="place_661">
+            <placeName>Gröbming</placeName>
+            <location>
+               <geo decls="#WGS84">47.44449212821029, 13.901893953019099</geo>
+            </location>
+            <note>Grobming is a municipality in Styria, Austria.</note>
+         </place>
+         <place xml:id="place_780">
+            <placeName>Enns</placeName>
+            <location>
+               <geo decls="#WGS84">48.16646020110663,  14.481477776347999</geo>
+            </location>
+            <note>A tributary of the Danube River, and once a major iron-ore transport route.</note>
+         </place>
+         <place xml:id="place_261">
+            <placeName>Admont</placeName>
+            <location>
+               <geo decls="#WGS84">47.57321737705793,  14.4623080167958</geo>
+            </location>
+            <note>Admont is a town in the Austrian state of Styria. </note>
+         </place>
+         <place xml:id="place_264">
+            <placeName>Grundlsee</placeName>
+            <location>
+               <geo decls="#WGS84">47.62522746547479,  13.8336622800139</geo>
+            </location>
+            <note>Grundlsee is a municipality in Styria, Austria.</note>
+         </place>
+         <place xml:id="place_941">
+            <placeName>Odense</placeName>
+            <location>
+               <geo decls="#WGS84">47.561252546390065,  13.8207538339338</geo>
+            </location>
+            <note>A small lake in the Austrian Salzkammergut</note>
+         </place>
+         <place xml:id="place_259">
+            <placeName>Hallstätter See</placeName>
+            <location>
+               <geo decls="#WGS84">47.56279953636864,  13.649374431815</geo>
+            </location>
+            <note>Hallstatter is a lake in Austria named after the small town on its shore.</note>
+         </place>
+         <place xml:id="place_182">
+            <placeName>Traun</placeName>
+            <location>
+               <geo decls="#WGS84">48.019900696032686,  13.799557766308199</geo>
+            </location>
+            <note>Traunfall in Desselbrunn, Upper Austria. Memoirs contains a poem Davy wrote about them, also in notebook 14E.</note>
+         </place>
+         <place xml:id="place_916">
+            <placeName>Cave del Predil</placeName>
+            <location>
+               <geo decls="#WGS84">46.43894180010133, 13.5373788540972</geo>
+            </location>
+            <note>Cave del Predil (German: Raibl, Slovene: Rabelj) is a frazione subdivision of the comune of Tarvisio in the Province of Udine, in the Friuli Venezia Giulia region of northeastern Italy.</note>
+         </place>
+         <place xml:id="place_269">
+            <placeName>Kammersee</placeName>
+            <location>
+               <geo decls="#WGS84">47.64847054483171,  13.9436624070179</geo>
+            </location>
+            <note>The Kammersee, or Attersee, is a lake in Upper Austria.</note>
+         </place>
+         <place xml:id="place_424">
+            <placeName>Lake Toplitz</placeName>
+            <location>
+               <geo decls="#WGS84">47.64339272085604,  13.930495202912301</geo>
+            </location>
+            <note>A lake in a dense forest high in the Austrian Alps.</note>
+         </place>
+         <place xml:id="place_943">
+            <placeName>Wolfgangsee</placeName>
+            <location>
+               <geo decls="#WGS84">47.75087736321316,  13.3883557533862</geo>
+            </location>
+            <note>Lake Wolfgang is a lake in Austria that lies mostly within the state of Salzburg and is one of the best known lakes in the Salzkammergut resort region.</note>
+         </place>
+         <place xml:id="place_774">
+            <placeName>Bad Ischl</placeName>
+            <location>
+               <geo decls="#WGS84">47.71252452837274,  13.620861222476799</geo>
+            </location>
+            <note>Bad Ischl is a spa town in Austria. It lies in the southern part of Upper Austria, at the River Traun in the centre of the Salzkammergut region.</note>
+         </place>
+         <place xml:id="place_662">
+            <placeName>Rottenbach</placeName>
+            <location>
+               <geo decls="#WGS84">50.6971749618151, 11.1342277390538</geo>
+            </location>
+            <note>The Rottenbach River flows through Thuringia in Germany. It is a tributary to the Rhine.</note>
+         </place>
+         <place xml:id="place_944">
+            <placeName>Lauffen am Neckar</placeName>
+            <location>
+               <geo decls="#WGS84">47.67285190574479,  13.614981455486999</geo>
+            </location>
+            <note>Lauffen is in the district Gmunden within the central Salzkammergut in southern Upper Austria.</note>
+         </place>
+         <place xml:id="place_199">
+            <placeName>The Colosseum</placeName>
+            <location>
+               <geo decls="#WGS84">41.8902820604661, 12.4922201699321</geo>
+            </location>
+            <note>The Colosseum, the largest amphitheatre ever built, is located in the centre of Rome. Now a ruin, its construction began 2,000 years ago.</note>
+         </place>
+         <place xml:id="place_989">
+            <placeName>Calais</placeName>
+            <location>
+               <geo decls="#WGS84">50.947507143062445,  1.8516436009820501</geo>
+            </location>
+            <note>A port city in North-West France</note>
+         </place>
+         <place xml:id="place_667">
+            <placeName>Heidelberg</placeName>
+            <location>
+               <geo decls="#WGS84">49.40940904095588, 8.6777773705005892</geo>
+            </location>
+            <note>Heidelberg is a German city located on the banks of the Neckar River.</note>
+         </place>
+         <place xml:id="place_671">
+            <placeName>Neumarkt im Hausruckkreis</placeName>
+            <location>
+               <geo decls="#WGS84">48.27292693967749, 13.7279997377318</geo>
+            </location>
+            <note>Neumarkt im Hausruckkreis is a town in Upper Austria.</note>
+         </place>
+         <place xml:id="place_674">
+            <placeName>Klagenfurt</placeName>
+            <location>
+               <geo decls="#WGS84">46.6224422006652, 14.300221347881999</geo>
+            </location>
+            <note>Klagenfurt is the capital city of the Austrian state of Carinthia.</note>
+         </place>
+         <place xml:id="place_673">
+            <placeName>Dro, Trentino</placeName>
+            <location>
+               <geo decls="#WGS84">46.792029150448606, 13.493334060158601</geo>
+            </location>
+            <note>Drau is a town in the Austian state of Carinthia, located on the banks of the Drava River.</note>
+         </place>
+      </listPlace>
+      <listNym type="chemical">
+         <nym xml:id="chemical_054">
+            <form>carbon</form>
+            <def>
+               <p>Symbol/formula: C</p>
+               <p>A non-metallic and tetravalent element. Well-known allotropes include graphite, diamond, amorphous carbon, and fullerenes.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_058">
+            <form>carbonic acid</form>
+            <def>
+               <p>Symbol/formula: CO2 or H2CO3 </p>
+               <p>Now known as Carbon dioxide (CO2), or a solution of carbon dioxide in water (H2CO3). </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_323">
+            <form>steel</form>
+            <def>
+               <p>Steel is an alloy of iron and carbon with improved strength and fracture resistance compared to other forms of iron.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_424">
+            <form>Iodine</form>
+            <def>
+               <p>Symbol/formula: I</p>
+               <p>An element and the heaviest of the group of stable halogens. Bernard Courtois was the first to isolate the substance. Whilst in Paris Davy investigated the substance, and proved it to be a chemical element describing his results in a paper sent to the Royal Society. This caused disputes between Davy and Joseph Louis Gay-Lussac, who had also been researching the element.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_340">
+            <form>gum</form>
+            <def>
+               <p>In botany, gum is found in the woody elements of plants or in seed coatings.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_185">
+            <form>ironstone</form>
+            <def>
+               <p>A sedimentary rock, either deposited directly as a ferruginous sediment or created by chemical replacement, that contains a substantial proportion of an iron ore compound.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_370">
+            <form>cast iron</form>
+            <def>
+               <p>A class of iron–carbon alloys with a carbon content more than 2% and silicon content around 1-3%.</p>
+            </def>
+         </nym>
+      </listNym>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_339" type="description">
+            <term id="misc_339-term">Pitcoal</term>
+            <gloss id="misc_339-gloss" target="#misc_339-term">
+               <p>Coal mined from the earth - distinguished from charcoal.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_271" type="description">
+            <term id="misc_271-term"/>
+            <gloss id="misc_271-gloss" target="#misc_271-term">
+               <p>any of various threadlike green algae, esp any of the genus Tribonema, typically occurring in fresh water. Davy is likely referring to Cladophora rivulari.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_105" type="description">
+            <term id="misc_105-term">travertine</term>
+            <gloss id="misc_105-gloss" target="#misc_105-term">
+               <p>A form of terrestrial limestone deposited around mineral springs, especially hot springs.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_246" type="description">
+            <term id="misc_246-term">Schill</term>
+            <gloss id="misc_246-gloss" target="#misc_246-term">
+               <p>A German name for the pike-perch/zander (Sander lucioperca), found in Lake Ammersee.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_306" type="description">
+            <term id="misc_306-term">Spigula</term>
+            <gloss id="misc_306-gloss" target="#misc_306-term">
+               <p>Spigola, or European Seabass</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_355" type="description">
+            <term id="misc_355-term">Huco </term>
+            <gloss id="misc_355-gloss" target="#misc_355-term">
+               <p>A large species of freshwater fish in the family Salmonidae.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_309" type="description">
+            <term id="misc_309-term">Perca Zingel</term>
+            <gloss id="misc_309-gloss" target="#misc_309-term">
+               <p>Zingel zingel, a species of freshwater ray-finned fish in the family Percidae. It is found in fast-flowing streams in southeastern Europe.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_307" type="description">
+            <term id="misc_307-term">Huco</term>
+            <gloss id="misc_307-gloss" target="#misc_307-term">
+               <p>Hucho, a genus of large piscivorous salmonid fish known as taimens, and is closely related to Pacific trout and lenoks. Native to the cold rivers and other freshwater habitats in Eurasia</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_330" type="description">
+            <term id="misc_330-term">Schreber</term>
+            <gloss id="misc_330-gloss" target="#misc_330-term">
+               <p>Possibly Schneider, Alburnoides bipunctatus, a species of small (9-cm average length) freshwater fish in the family Cyprinidae</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_310" type="description">
+            <term id="misc_310-term">Gudgeon</term>
+            <gloss id="misc_310-gloss" target="#misc_310-term">
+               <p>Gobio gobio. The gudgeon is a bottom-dwelling fish, similar to the stone loach</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_331" type="description">
+            <term id="misc_331-term">Berchling</term>
+            <gloss id="misc_331-gloss" target="#misc_331-term">
+               <p>Possiby Breitling, the German word for bream</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_140" type="description">
+            <term id="misc_140-term">Ahrimanes</term>
+            <gloss id="misc_140-gloss" target="#misc_140-term">
+               <p>Zoarastrianism's destructive or evil spirit.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_141" type="description">
+            <term id="misc_141-term">Ormutz </term>
+            <gloss id="misc_141-gloss" target="#misc_141-term">
+               <p>(Ahura Mazda); Zoarastrianism's creative spirit of wisdom.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_347" type="description">
+            <term id="misc_347-term">Parr</term>
+            <gloss id="misc_347-gloss" target="#misc_347-term">
+               <p>Davy likely means Parr, a juvenile trout of less than a year distinguished by its markings</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_426" type="description">
+            <term id="misc_426-term">Quails</term>
+            <gloss id="misc_426-gloss" target="#misc_426-term">
+               <p>A type of small gamebird belonging to the same order as turkeys and chickens; often killed for sport and food.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_238" type="description">
+            <term id="misc_238-term">Double Snipe </term>
+            <gloss id="misc_238-gloss" target="#misc_238-term">
+               <p>An old name for a type of snipe.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_340" type="description">
+            <term id="misc_340-term">snipe</term>
+            <gloss id="misc_340-gloss" target="#misc_340-term">
+               <p>Medium sized, skulking wading birds with short legs and long, straight bills.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_810" type="description">
+            <term id="misc_810-term">Silk</term>
+            <gloss id="misc_810-gloss" target="#misc_810-term">
+               <p>A natural protein fibre formed by certain insects when they produce cocooons. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_704" type="description">
+            <term id="misc_704-term">Ephemera (genus)</term>
+            <gloss id="misc_704-gloss" target="#misc_704-term">
+               <p>Mayfly</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_313" type="description">
+            <term id="misc_313-term">Grayling</term>
+            <gloss id="misc_313-gloss" target="#misc_313-term">
+               <p>The grayling Thymallus thymallus belongs in a cold-water fish family of 6 species distributed across parts of the Northern hemisphere</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_226" type="description">
+            <term id="misc_226-term">sterlet</term>
+            <gloss id="misc_226-gloss" target="#misc_226-term">
+               <p>The sterlet (Acipenser ruthenus) is a relatively small species of sturgeon from Eurasia native to large rivers that flow into the Black Sea, Azov Sea, and Caspian Sea, as well as rivers in Siberia as far east as Yenisei.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_326" type="description">
+            <term id="misc_326-term">Chub</term>
+            <gloss id="misc_326-gloss" target="#misc_326-term">
+               <p>A general name for several types of ray-finned fish</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_353" type="description">
+            <term id="misc_353-term">Tranteverne</term>
+            <gloss id="misc_353-gloss" target="#misc_353-term">
+               <p>Davy may have intended 'Transteverene' in reference to an area of Rome whose inhabitants claimed descent from the ancient Romans.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_672" type="description">
+            <term id="misc_672-term">Venus</term>
+            <gloss id="misc_672-gloss" target="#misc_672-term">
+               <p>a Roman goddess, whose functions encompass love, beauty, desire, sex, fertility, prosperity, and victory</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_332" type="description">
+            <term id="misc_332-term">Fletzbach</term>
+            <gloss id="misc_332-gloss" target="#misc_332-term">
+               <p>A tributary stream of the Isonzo according to Tobin's Journal of a Tour in the Years 1828-1829. It has not been identified on a map.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_333" type="description">
+            <term id="misc_333-term">Flitscher forelle</term>
+            <gloss id="misc_333-gloss" target="#misc_333-term">
+               <p>A trout found near Flitsch (Bovec)</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_334" type="description">
+            <term id="misc_334-term">Gillaroo</term>
+            <gloss id="misc_334-gloss" target="#misc_334-term">
+               <p>A species of trout which eats primarily snails and is only proven to inhabit Lough Melvin in Ireland</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_345" type="description">
+            <term id="misc_345-term">lachsforelle</term>
+            <gloss id="misc_345-gloss" target="#misc_345-term">
+               <p>Salmon Trout</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_346" type="description">
+            <term id="misc_346-term">Monad</term>
+            <gloss id="misc_346-gloss" target="#misc_346-term">
+               <p>The term monad is used in some cosmic philosophy and cosmogony to refer to a most basic or original substance. According to some philosophers of the early modern period, most notably Gottfried Wilhelm Leibniz, there are infinite monads, which are the basic and immaterial elementary particles, or simplest units, that make up the universe.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_431" type="description">
+            <term id="misc_431-term">Fred D'or</term>
+            <gloss id="misc_431-gloss" target="#misc_431-term">
+               <p>Possible abbreviation for the Friedrich d'or, a Prussian gold coin used from 1741-1855.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listPerson>
+         <person xml:id="person_233">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Churchill</surname>
+            </persName>
+            <birth when="1650"/>
+            <death when="1722"/>
+            <note>Senior army commander and politician under Queen Anne. Created 1st Duke of Marlborough in 1702, he commanded the army at the Battle of Blenheim (1704). For that victory Parliament voted funds to build Blenheim Palace.</note>
+         </person>
+         <person xml:id="person_234">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Filippo</forename>
+               <surname>Caviolini</surname>
+            </persName>
+            <birth when="1756"/>
+            <death when="1810"/>
+            <note>Professor of Zoology at the University of Naples; specialised in marine life.</note>
+         </person>
+         <person xml:id="person_235">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Marcus Elieser</forename>
+               <surname>Bloch</surname>
+            </persName>
+            <birth when="1723"/>
+            <death when="1799"/>
+            <note>German physician and naturalist who specialised in the study of fish on which he published a 12 volume work with which Davy was familiar. (presumably in the French translation).</note>
+         </person>
+         <person xml:id="person_088">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Samuel</forename>
+               <surname>Johnson</surname>
+            </persName>
+            <birth when="1709"/>
+            <death when="1784"/>
+            <note>Johnson was a poet, novelist, essayist, playwright and lexicographer. </note>
+         </person>
+         <person xml:id="person_191">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John James</forename>
+               <surname>Tobin</surname>
+            </persName>
+            <birth when="1808"/>
+            <note>Son of Davy's old friend James Webbe Tobin, he trained as a physician before accompanying Davy in 1828 and 1829 as his companion, secretary, and amanuensis during his tour of Italy and the Alps. Davy's name for Tobin was Wildeman or 'wild man'. </note>
+         </person>
+         <person xml:id="person_103">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Robert</forename>
+               <surname>Boyle</surname>
+            </persName>
+            <birth when="1627"/>
+            <death when="1691"/>
+            <note>Irish-born chemist and one of the founders of modern chemistry. FRSL.</note>
+         </person>
+         <person xml:id="person_101">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Ambrosio</surname>
+            </persName>
+            <note>A fictional character in Humphry Davy's Consolations in Travel (1830).</note>
+         </person>
+         <person xml:id="person_108">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Onuphrio</surname>
+            </persName>
+            <note>Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.</note>
+         </person>
+         <person xml:id="person_115">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Moses</surname>
+            </persName>
+            <birth when="Probably mythical"/>
+            <note>According to the Old Testament Hebrew prophet who is considered the most important prophet in Judaism and one of the most important prophets in Christianity and other religions. </note>
+         </person>
+         <person xml:id="person_564">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Alaric</surname>
+            </persName>
+            <birth when="c. 370 CE"/>
+            <death when="411 CE"/>
+            <note>Leader of the Visigoths who led the sack of Rome in 410 CE.</note>
+         </person>
+         <person xml:id="person_577">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Friedrich Heinrich</forename>
+               <surname>von der Leyen</surname>
+            </persName>
+            <birth when="1769"/>
+            <death when="1825"/>
+            <note>Prominent German silk manufacturer.</note>
+         </person>
+      </listPerson>
+   </standOff>
+</TEI>

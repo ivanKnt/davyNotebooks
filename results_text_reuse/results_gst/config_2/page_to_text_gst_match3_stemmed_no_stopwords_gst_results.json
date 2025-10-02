@@ -1,0 +1,760 @@
+{
+  "method": "gst_greedy_string_tiling",
+  "configuration": {
+    "min_match_length": 3,
+    "similarity_threshold": 0.3,
+    "stemming_used": true,
+    "stopwords_removed": true
+  },
+  "reuse_instances": [
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "111",
+      "segment1_text": "Lord Byron Lord Byron Lord Byron Lord Byron . written Whilst living Whilst living Whilst living Whilst living . – 23.",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "George GordonByron",
+            "birth": "",
+            "death": "",
+            "description": "From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.",
+            "id": "person_118"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "134",
+      "segment2_text": "131 Supplement to the poem on the death of Lord Byron Lord Byron Lord Byron . Fintl - July 28.27 Now passing near those high & blessed abodes ways. abodes ways.",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "Cain",
+            "birth": "",
+            "death": "",
+            "description": "A biblical figure in the Book of Genesis. He is the firstborn son of Adam and Eve and brother of Abel.",
+            "id": "person_956"
+          },
+          {
+            "name": "George GordonByron",
+            "birth": "",
+            "death": "",
+            "description": "From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.",
+            "id": "person_118"
+          }
+        ]
+      },
+      "gst_similarity": 0.3208333333333333,
+      "total_match_length": 7,
+      "matches_found": 1,
+      "avg_match_length": 7.0,
+      "max_match_length": 7
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "122",
+      "segment1_text": "So is the rose destroyed by the child Who in his bosom hides the cherished flower. And Nature never feels so strong her powers As in the trusty worth of buds & flowers Love is the flower of life. too short its bloom lovelier its tint the sweeter its perfume Shorter the richer are its scents & hues scents & hues & scents And He that plucks it hastens its sad doom, And soon that He has xxxxxxx so fair a thing repents.",
+      "segment1_metadata": {},
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "160",
+      "segment2_text": "157 Love is the flower of life its brightest its brightest too short its too short its bloom too soon it fades too soon it fades Sooner the fairer are its changeful Sooner the fairer are its changeful Shortest when brightest richest & most rich most rich hues The sooner, when most rich its tints & The sooner, when most rich its tints & its scents its scents & scents And he that plucks it hastens its sad doom And soon that He has spoilt so bright a thing repents.",
+      "segment2_metadata": {},
+      "gst_similarity": 0.333716915995397,
+      "total_match_length": 24,
+      "matches_found": 5,
+      "avg_match_length": 4.8,
+      "max_match_length": 9
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "154",
+      "segment1_text": "151 By the imperial citys fallen walls Laying bare the bones of heroes & the monuments And Of generations of the ages past Or we might rest on that cloud covered hill Whose marble rocks are cloaked with brightest green. Where thousand flowers of unknown hues & names Scent the cool air, rarely by human breath inhaled But which the wild bee knows & ever haunts And whence descends the balmy influence Of those bright waters tepid from the fires Of ancient Appenine .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Apennines",
+            "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+            "id": "place_530"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "27",
+      "segment2_text": "Layin bare the bones of heroes & the monuments And records of the generations past. - Or wilt thou pass to that cloud covered hill Whose marble rocks are cloaked with brightest verdure green Where Flora reigns in mountain majesty Where a thousand flowers of nameless unknown sweets hues & virtues & virtues Scent the cool air rarely by human breath inhaled",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          },
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Tiber River",
+            "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
+            "id": "place_615"
+          }
+        ]
+      },
+      "gst_similarity": 0.4666666666666667,
+      "total_match_length": 24,
+      "matches_found": 5,
+      "avg_match_length": 4.8,
+      "max_match_length": 10
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "154",
+      "segment1_text": "Whose sacred source Hygeia loves. There my weary limbs I have might repose beneath the shade Of chesnuts whose time worn trunks proclaim Their xx of other centuries.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Apennines",
+            "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+            "id": "place_530"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "28",
+      "segment2_text": "But which the wild Bee knows & ever haunts. - And whence descends your balmy influence Ye waters tepid from the sleeping fires Of ancient Appenine whose source Hygeia loves, & midst the coolness Of the mountain xxxxx & neath the shade of chesnuts whose time worn trunks proclaim Their age of other centuries. -",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Apennines",
+            "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+            "id": "place_530"
+          }
+        ]
+      },
+      "gst_similarity": 0.4358974358974359,
+      "total_match_length": 14,
+      "matches_found": 3,
+      "avg_match_length": 4.666666666666667,
+      "max_match_length": 8
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "155",
+      "segment1_text": "Nursing those lofty thoughts that in the mind Spontaneous rise, blending their sacred powers With images from moutain & from flood From chesnut groves amidst the broken rocks Where the blue Lima pours to meet the wave Of foaming Serchio or midst the odrus heath And cystus flowers that clothe the stream worn sides Of the green hills whence in purity.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+          },
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Tiber River",
+            "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
+            "id": "place_615"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "27",
+      "segment2_text": "25 To look on Nature with a poets eye Nursing those lofty thoughts which in the mind Spontaneous arise & blending all their power With images from mountain & from flood From chesnut groves amidst the broken rocks Where the blue Lima pours to meet the wave of foaming Serchio , or midst the odorous heath And cystus flowers Which cloaks the stream-worn sides of the green hills Whence rise in mountain xxxx & mountain xxxx mountain xxxx & mountain virgin purity virgin purity Thy limpid waves of mountain Tiber Not polluted yet, by mixture with the lowland muddy rills Or turbid with the ruins of the plains When then murmerest by of ancient Latium Washing Where thou murmurest by Where thou murmurest by the falling walls of the imperial city.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          },
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Tiber River",
+            "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
+            "id": "place_615"
+          }
+        ]
+      },
+      "gst_similarity": 0.4876882620129094,
+      "total_match_length": 30,
+      "matches_found": 5,
+      "avg_match_length": 6.0,
+      "max_match_length": 16
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "157",
+      "segment1_text": "Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "163",
+      "segment2_text": "At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We catch the feeble echoes as it were Of other fainter dreams.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "gst_similarity": 0.5055555555555555,
+      "total_match_length": 7,
+      "matches_found": 1,
+      "avg_match_length": 7.0,
+      "max_match_length": 7
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "157",
+      "segment1_text": "Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "92",
+      "segment2_text": "The thermal water of the Baths of Lucca Baths of Lucca Baths of Lucca where its temperature is the high- est at the Baths called the \" Bagni Caldi Bagni Caldi Bagni Caldi carries with it from its source a considera- ble quantity of a yellowish brown deposit having collected different specimens of this deposit I submitted them to chemical examination & found that they consisted of red oxide of iron red oxide of iron red oxide of iron & silica Not having an accurate balance I was not able to determine the exact proportions but in the statical exp t that I made the Oxide of Iron Oxide of Iron Oxide of Iron was in the largest quantity & to the silica nearly as 4 to 3 That y e Oxide of Iron Oxide of Iron Oxide of Iron & silica had been dissolved together in the water & deposited at the same time is very probable from the state in which they are found.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Bagni Caldi",
+            "description": "A village in north-western Italy famous for its thermal baths.",
+            "id": "place_767"
+          }
+        ]
+      },
+      "gst_similarity": 0.3611111111111111,
+      "total_match_length": 6,
+      "matches_found": 1,
+      "avg_match_length": 6.0,
+      "max_match_length": 6
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "157",
+      "segment1_text": "Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "101",
+      "segment2_text": "97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold & earthborn clay Save feelings heavenly light. This is the spirit which subdues The Chaos of our mortal doom Gives it creations loveliest hues And kindles brightness midst the gloom It wakens in the mothers kiss It breathes profound in lovers sighs Dove like upon the dark abyss Of Life it rests & never dies.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "gst_similarity": 0.3787878787878788,
+      "total_match_length": 6,
+      "matches_found": 1,
+      "avg_match_length": 6.0,
+      "max_match_length": 6
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "157",
+      "segment1_text": "Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "156",
+      "segment2_text": "when I return } return } . + , 6.12 1 On the road to the Baths of Lucca Baths of Lucca Baths of Lucca layers of Limestone & chert very near each other & almost blended & much twisted",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "gst_similarity": 0.46376811594202894,
+      "total_match_length": 6,
+      "matches_found": 1,
+      "avg_match_length": 6.0,
+      "max_match_length": 6
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "162",
+      "segment1_text": "159 To the fire flies, the same place & summer written in blank verse but not Rhyme in May & June 1827. Ye moving stars that flit along Ye moving stars that flit along Ye moving stars that flit along the glade Ye animated lamps that midst the shade Of ancient chesnuts on the lofty hills Of Lucignano , by the foaming rills xxxx Which feed Blue Serchio Blue Serchio Blue Serchio , in the evening play.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "22",
+      "segment2_text": "Ye moving stars, ye animated lamps Ye moving stars, ye animated lamps Ye moving stars that flit across the glade Ye animated lamps that midst the shade Of ancient chesnuts on the lofty hills of Liugrand . And may not all this varied life of man Be but a single longer dream - Sometimes in dreams We catch the feeble echoes as it were Of other fainter dreams - In xxxxxx The origin of thought life is lost.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+          }
+        ]
+      },
+      "gst_similarity": 0.3729885057471264,
+      "total_match_length": 22,
+      "matches_found": 4,
+      "avg_match_length": 5.5,
+      "max_match_length": 11
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "163",
+      "segment1_text": "At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We catch the feeble echoes as it were Of other fainter dreams.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "22",
+      "segment2_text": "Ye moving stars, ye animated lamps Ye moving stars, ye animated lamps Ye moving stars that flit across the glade Ye animated lamps that midst the shade Of ancient chesnuts on the lofty hills of Liugrand . And may not all this varied life of man Be but a single longer dream - Sometimes in dreams We catch the feeble echoes as it were Of other fainter dreams - In xxxxxx The origin of thought life is lost.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+          }
+        ]
+      },
+      "gst_similarity": 0.5,
+      "total_match_length": 20,
+      "matches_found": 3,
+      "avg_match_length": 6.666666666666667,
+      "max_match_length": 12
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "163",
+      "segment1_text": "At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We catch the feeble echoes as it were Of other fainter dreams.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "58",
+      "segment2_text": "are as it were in equilibria.",
+      "segment2_metadata": {},
+      "gst_similarity": 0.3,
+      "total_match_length": 3,
+      "matches_found": 1,
+      "avg_match_length": 3.0,
+      "max_match_length": 3
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "163",
+      "segment1_text": "In infancy The origin of life is lost to memory Yet powers existed of a glorious nature Reason & thought & feeling, How we know not Nor is there aught that teaches from what lamp The flame of human life had caught its fire So dreams have no connection, yet the past Arises sometimes in them And they may Image the future.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "22",
+      "segment2_text": "Yet power arises Reason & thought & thought & feeling how we know not nor is there aught that teaches in from what xxxxx the immortal flame of human life had burnt before burnt before caught its fire caught its fire So dreams have no connection - Yet the course Of human life & human accident",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+          }
+        ]
+      },
+      "gst_similarity": 0.4961636828644501,
+      "total_match_length": 24,
+      "matches_found": 3,
+      "avg_match_length": 8.0,
+      "max_match_length": 12
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "58",
+      "segment1_text": "are as it were in equilibria.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "74",
+      "segment2_text": "level plains - In opposition to this influence of water, the effect of fire acting beneath the surface is to raise new land & new mountains - Many of the high est elevations of the old world & the almost all the highest of the new world are volcanic & in comparing the two species of agencies they appear as it were in equilibria & equally fitted to produce the harmony of the existing system.",
+      "segment2_metadata": {},
+      "gst_similarity": 0.375,
+      "total_match_length": 4,
+      "matches_found": 1,
+      "avg_match_length": 4.0,
+      "max_match_length": 4
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "99",
+      "segment1_text": "95 And think that life's quick troubled stream Is made more troubled by the blast. - When touched by timid fingers weak Know that Affection's like the rose It wounds but press its thorns they break And all its odour sweeter flows. When the thunder cloud is darkest It is nearest to its fall And the gloom though sadly markest To no inmate of thy soul. Passions beams rays when too concentered Raise a tempest in the mind But by rain & clouds attempered They leave fertility behind.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "102",
+      "segment2_text": "Failings forget & let the beam of charity o'er all be cast And think that lifes quick troubled stream Is made more troubled by the blast 2 When touched by timid fingers weak Think that affections like the rose but if you but if you It wounds; but It wounds; but press its thorns they break And all its odour strong sweeter flows",
+      "segment2_metadata": {},
+      "gst_similarity": 0.4771830985915493,
+      "total_match_length": 28,
+      "matches_found": 4,
+      "avg_match_length": 7.0,
+      "max_match_length": 11
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "99",
+      "segment1_text": "95 And think that life's quick troubled stream Is made more troubled by the blast. - When touched by timid fingers weak Know that Affection's like the rose It wounds but press its thorns they break And all its odour sweeter flows. When the thunder cloud is darkest It is nearest to its fall And the gloom though sadly markest To no inmate of thy soul. Passions beams rays when too concentered Raise a tempest in the mind But by rain & clouds attempered They leave fertility behind.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "104",
+      "segment2_text": "When the thunder cloud is darkest It is nearest to its fall. And the gloom thou sadly markest Is no inmate of th e y soul Feelings rays when too concentered Raise a tempest in the mind But by rain & clouds attempered They leave fertility behind . - That magic charm of feelings thine And oh regret not its excess.",
+      "segment2_metadata": {},
+      "gst_similarity": 0.44201378483667964,
+      "total_match_length": 25,
+      "matches_found": 2,
+      "avg_match_length": 12.5,
+      "max_match_length": 15
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "99",
+      "segment1_text": "The torrent roaring from the moun- tain Which ravages a hundred fields Conducted tranquil from its fountain Bloom freshness, verdure, plenty yields. H. D 56",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "104",
+      "segment2_text": "Give it its attribute divine But still subdue control repress The torrent roaring from the mountain Which ravages a thousand hundred fields Conducted tranquil from its fountain xxxx Bloom, freshness verdure plenty yeilds",
+      "segment2_metadata": {},
+      "gst_similarity": 0.451559934318555,
+      "total_match_length": 11,
+      "matches_found": 2,
+      "avg_match_length": 5.5,
+      "max_match_length": 8
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "100",
+      "segment1_text": "In it the statesman rules & lives And the low multitude controuls Fixed to the impulse that he gives As the firm earth around its poles. This magic light of life is thine And what if given in excess? It is excess of fire divine Which reason always can repress. Let not this gift which is from heaven Shine as a meteors transient light Or as the lightnings flashes given Amidst the gloom to pain our sight.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "103",
+      "segment2_text": "99 Let not this gift which is from heaven Shine as a meteors transient light Or as the lightnings flashes given Amidst the gloom to pain our sight. - Let it on friendships verdant meads tranquil hours tranquil hours A stedfast may day sunshine beam Making a field of fruit & flowers Such as the Bards elisian dream To kindness professed kindness give And fresher will the feelings flow The marks of The marks of Affections offered gifts receive And still more precious gifts bestow",
+      "segment2_metadata": {},
+      "gst_similarity": 0.35946275946275946,
+      "total_match_length": 23,
+      "matches_found": 1,
+      "avg_match_length": 23.0,
+      "max_match_length": 23
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "100",
+      "segment1_text": "Let it on friendships tranquil hours A stedfast may day sunshine beam Making a field of fruits & flowers Such as the Bards elisian dream. To kindness proferred kindness give And fresher will the feeling flow Affections offered gifts receive And still more precious gifts bestow. Failings forget & let the beam Of charity on all be cast",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "103",
+      "segment2_text": "99 Let not this gift which is from heaven Shine as a meteors transient light Or as the lightnings flashes given Amidst the gloom to pain our sight. - Let it on friendships verdant meads tranquil hours tranquil hours A stedfast may day sunshine beam Making a field of fruit & flowers Such as the Bards elisian dream To kindness professed kindness give And fresher will the feelings flow The marks of The marks of Affections offered gifts receive And still more precious gifts bestow",
+      "segment2_metadata": {},
+      "gst_similarity": 0.6311036789297659,
+      "total_match_length": 34,
+      "matches_found": 4,
+      "avg_match_length": 8.5,
+      "max_match_length": 16
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "101",
+      "segment1_text": "97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold & earthborn clay Save feelings heavenly light. This is the spirit which subdues The Chaos of our mortal doom Gives it creations loveliest hues And kindles brightness midst the gloom It wakens in the mothers kiss It breathes profound in lovers sighs Dove like upon the dark abyss Of Life it rests & never dies.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "108",
+      "segment2_text": "What is these in lifes stormy day To xxxxx please or cheer our sight Save Loves Save Loves Or friendships softer light Or friendships softer light To warm our cold & earth born clay Save feelings heavenly light This is the true promethean flame This is the true promethean flame This is the true promethean flame This is the true promethean flame That one makes only branch That one makes only branch Who kindles eon is Who kindles eon is Which This is the spirit which awakes controuls subdues The chao a s of the mind soul the mind soul mortality doom has change has change has change has change our mortal soul state our mortal soul state mortal soul state Gives it creations loveliest hues And kindles brightness midst the gloom.",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "Prometheus",
+            "birth": null,
+            "death": null,
+            "description": "In Greek mythology, defied the Olympian gods by stealing fire and giving it to humans.",
+            "id": "person_275"
+          }
+        ]
+      },
+      "gst_similarity": 0.33601501743094664,
+      "total_match_length": 28,
+      "matches_found": 6,
+      "avg_match_length": 4.666666666666667,
+      "max_match_length": 9
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "101",
+      "segment1_text": "97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold & earthborn clay Save feelings heavenly light. This is the spirit which subdues The Chaos of our mortal doom Gives it creations loveliest hues And kindles brightness midst the gloom It wakens in the mothers kiss It breathes profound in lovers sighs Dove like upon the dark abyss Of Life it rests & never dies.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "108",
+      "segment2_text": "It wakens in the mother's kiss It breathes profound in lovers sighs Dove like it rests it rests upon the dark abyss And never And never , never dies._ Of life it rests &",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "Prometheus",
+            "birth": null,
+            "death": null,
+            "description": "In Greek mythology, defied the Olympian gods by stealing fire and giving it to humans.",
+            "id": "person_275"
+          }
+        ]
+      },
+      "gst_similarity": 0.5218855218855218,
+      "total_match_length": 20,
+      "matches_found": 4,
+      "avg_match_length": 5.0,
+      "max_match_length": 11
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "101",
+      "segment1_text": "From it the poets glories rise Which pass beyond our human being To things of other worlds & skies Carrying the prophets gift of seeing, By it the ruddy clotted blood that stains The Hero's laurels glow s like flame Or kindles in the warriors veins The never dying love of fame",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "107",
+      "segment2_text": "103 -. From it the Poets glories rise Which pass beyond our human being - To things of other worlds & skies Kindling Carrying the prophets gift of seeing. - By it the clotted ruddy blood that stains The Heroe's laurels glow like flame Or kindles in the warriors veins A never dying love of fame. By it the statesman xxxx & rules xxxx & rules xxxx & rules & lives rules & lives And the loud multitude controuls Fixed to the impulse that He gives. As the firm earth around its poles.",
+      "segment2_metadata": {},
+      "gst_similarity": 0.7089068825910931,
+      "total_match_length": 34,
+      "matches_found": 3,
+      "avg_match_length": 11.333333333333334,
+      "max_match_length": 15
+    }
+  ],
+  "summary_metrics": {
+    "total_instances": 22,
+    "total_segments_analyzed": 500,
+    "total_comparisons_made": 124526,
+    "gst_similarity_mean": 0.4421049155436711,
+    "gst_similarity_std": 0.09831774111429507,
+    "gst_similarity_median": 0.4467868595776173,
+    "gst_similarity_min": 0.3,
+    "gst_similarity_max": 0.7089068825910931,
+    "avg_matches_per_instance": 2.772727272727273,
+    "avg_match_length": 18.181818181818183,
+    "max_match_length": 34,
+    "total_matches_found": 61,
+    "high_similarity_count": 0,
+    "medium_similarity_count": 5,
+    "low_similarity_count": 17,
+    "processing_time_seconds": 17.720898151397705,
+    "gst_computation_time_seconds": 16.80690622329712,
+    "similarity_calculation_time_seconds": 17.026039361953735,
+    "comparisons_per_second": 7027.070464268665,
+    "reuse_rate": 0.00017635270541082164,
+    "min_match_length": 3,
+    "similarity_threshold": 0.3,
+    "stemming_used": true,
+    "stopwords_removed": true
+  },
+  "timestamp": "2025-09-25T11:04:59.936416"
+}

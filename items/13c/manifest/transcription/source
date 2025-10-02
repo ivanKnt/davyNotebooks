@@ -1,0 +1,14 @@
+Error near {...S HD') and contains($str,',...} at char 52 in xsl:sequence/@select on line 84 column 82 of docx-text.xsl:
+  XPST0003  Unexpected token ")" beyond end of expression
+Error at char 15 in xsl:value-of/@select on line 125 column 50 of docx-text.xsl:
+  XPST0008  Variable $skipParagraph has not been declared (or its declaration is not in scope)
+Error near {...an:isPageStart(., position(...} at char 5 in xsl:variable/@select on line 164 column 78 of docx-text.xsl:
+  XPST0017  Cannot find a 2-argument function named
+  Q{https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1}isPageStart()
+Error at char 44 in xsl:variable/@select on line 217 column 113 of docx-text.xsl:
+  XPST0008  Variable $item has not been declared (or its declaration is not in scope)
+Error at char 23 in xsl:when/@test on line 220 column 48 of docx-text.xsl:
+  XPST0008  Variable $skipParagraph has not been declared (or its declaration is not in scope)
+Error at char 12 in xsl:when/@test on line 221 column 41 of docx-text.xsl:
+  XPST0008  Variable $paragraph has not been declared (or its declaration is not in scope)
+Errors were reported during stylesheet compilation

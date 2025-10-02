@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standOff>
+      <listPerson>
+         <person xml:id="person_269">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Luigi</forename>
+               <surname>Galvani</surname>
+            </persName>
+            <birth when="1737"/>
+            <death when="1798"/>
+            <note>Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him</note>
+         </person>
+         <person xml:id="person_199">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Alessandro</forename>
+               <surname>Volta</surname>
+            </persName>
+            <birth when="1745"/>
+            <death when="1827"/>
+            <note>Professor of experimental physics at the University of Pavia. At the end of the eighteenth century he Invented the Voltaic pile which produced electric current and which Davy shortly dubbed the battery. Davy described meeting him in 1814 in notebook 14/I, p.38. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_003">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">William</forename>
+               <surname>Allen</surname>
+            </persName>
+            <birth when="1770"/>
+            <death when="1843"/>
+            <note>Allen was a Quaker who worked in the pharmaceutical industry. Davy asked him to give lectures on natural philosophy at the RI. FRSL.</note>
+         </person>
+         <person xml:id="person_026">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Henry</forename>
+               <surname>Cavendish</surname>
+            </persName>
+            <birth when="1731"/>
+            <death when="1810"/>
+            <note>A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL. </note>
+         </person>
+         <person xml:id="person_462">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Franz Ulrich Theodor</forename>
+               <surname>Aepinus</surname>
+            </persName>
+            <birth when="1724"/>
+            <death when="1802"/>
+            <note>German born natural philosopher who mostly worked in Russia. Best known for his researches, theoretical and experimental, in electricity and magnetism.</note>
+         </person>
+         <person xml:id="person_375">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Edward</forename>
+               <surname>Nairne</surname>
+            </persName>
+            <birth when="1726"/>
+            <death when="1806"/>
+            <note type="certainty">Possibly the most well known scientific instrument maker of his time. Worked closely with Franklin, Priestley and Cavendish. 'Nairne's Machine' referred to his patented electrostatic generator, which was intended to treat a variety of medicinal ailments via electrical shocks. FRSL.</note>
+         </person>
+         <person xml:id="person_394">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Benjamin</forename>
+               <surname>Franklin</surname>
+            </persName>
+            <birth when="1705"/>
+            <death when="1790"/>
+            <note>Man of science born in Philadelphia. Inventor, printer, publisher, political philosopher, and a Founding Father of the United States. FRSL.</note>
+         </person>
+         <person xml:id="person_036">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Isaac</forename>
+               <surname>Newton</surname>
+            </persName>
+            <birth when="1642"/>
+            <death when="1727"/>
+            <note>Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy &amp; Newton' in one inch letters. FRSL.</note>
+         </person>
+         <person xml:id="person_380">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Abraham</forename>
+               <surname>Bennet</surname>
+            </persName>
+            <birth when="1749"/>
+            <death when="1799"/>
+            <note>Natural philosopher and close associate with Priestley, Darwin and Wedgwood. He recorded atmospheric electricity. FRSL.</note>
+         </person>
+         <person xml:id="person_327">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Giovanni Valentino Mattia</forename>
+               <surname>Fabbroni</surname>
+            </persName>
+            <birth when="1752"/>
+            <death when="1822"/>
+            <note>Italian naturalist, economist, agronomist and chemist.</note>
+         </person>
+         <person xml:id="person_005">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Claude Louis</forename>
+               <surname>Berthollet</surname>
+            </persName>
+            <birth when="1748"/>
+            <death when="1822"/>
+            <note>French Chemist. ForMemRSL.</note>
+         </person>
+      </listPerson>
+      <listNym type="chemical">
+         <nym xml:id="chemical_321">
+            <form>brass</form>
+            <def>
+               <p>Brass is an alloy of copper (Cu) and zinc (Zn), in proportions which can be varied to achieve different colours and mechanical, electrical, acoustic, and chemical properties, but copper typically has the larger proportion.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_140">
+            <form>charcoal</form>
+            <def>
+               <p>A lightweight black carbon residue produced by strongly heating wood (or other animal and plant materials) in minimal oxygen to remove all water and volatile constituents.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_201">
+            <form>zinc</form>
+            <def>
+               <p>Symbol/formula: Zn</p>
+               <p>A a slightly brittle metal at room temperature and has a shiny-greyish appearance when oxidation is removed.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_012">
+            <form>mercury</form>
+            <def>
+               <p>Symbol/formula: Hg</p>
+               <p>Also known as quicksilver. A heavy, silvery element, mercury is the only metallic element that is known to be liquid at standard temperature and pressure.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_070">
+            <form>copper</form>
+            <def>
+               <p>Symbol/formula: Cu</p>
+               <p>A soft, malleable, and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a pinkish-orange colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_238">
+            <form>boron</form>
+            <def>
+               <p>Symbol/formula: B</p>
+               <p>A non-metallic solid substance, believed to be a metal before it was isolated by Davy.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_315">
+            <form>oxalic acid</form>
+            <def>
+               <p>Symbol/formula: (CO2H)2</p>
+               <p>An organic acid with the systematic name ethanedioic acid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_333">
+            <form>benzoic acid</form>
+            <def>
+               <p>Symbol/formula: C6H5COOH</p>
+               <p>The simplest benzene-based carboxylic acid, which has been known since the 16th century. One of its discoverers was the legendary clairvoyant Nostradamus. Its most common natural source is gum benzoin, a resin found in the bark of trees of the genus Styrax.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_010">
+            <form>lime</form>
+            <def>
+               <p>Symbol/formula: CaO</p>
+               <p>Commonly known as quicklime or burnt lime, calcium oxide is a widely used chemical compound. It is a white, caustic, alkaline, crystalline solid at room temperature.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_042">
+            <form>baryte</form>
+            <def>
+               <p>Symbol/formula: BaSO4</p>
+               <p>A mineral consisting of barium sulphate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_011">
+            <form>magnesia</form>
+            <def>
+               <p>Symbol/formula: MgO</p>
+               <p>A white hygroscopic solid mineral that occurs naturally as periclase and is a source of magnesium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_091">
+            <form>Caustic lime</form>
+            <def>
+               <p>Symbol/formula: CaO</p>
+               <p>Quicklime, or calcium oxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_033">
+            <form>quicksilver</form>
+            <def>
+               <p>Symbol/formula: Hg </p>
+               <p>Mercury. A heavy, silvery element, mercury is the only metallic element that is known to be liquid at standard temperature and pressure.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_037">
+            <form>sulphur</form>
+            <def>
+               <p>Symbol/formula: S</p>
+               <p>Pure sulphur is a tasteless, odourless, brittle solid that is pale yellow in colour, a poor conductor of electricity, and insoluble in water.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_324">
+            <form>tourmaline </form>
+            <def>
+               <p>Tourmaline is a boron silicate. Opaque and black in colour, tourmaline is a semi-precious stone that can be found in a variety of colours based on the presence of iron, magnesium, or lithium. Boron was first isolated by Davy in 1808.  </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_358">
+            <form>boracite</form>
+            <def>
+               <p>Symbol/formula: Mg(3)B(7)O(13)Cl</p>
+               <p>A magnesium borate chloride mineral. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_322">
+            <form>fluorspar</form>
+            <def>
+               <p>Symbol/formula: CaF2</p>
+               <p>Fluorite (also called fluorspar) is the mineral form of calcium fluoride.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_161">
+            <form>voltaic</form>
+            <def>
+               <p>Refers to the current generated by voltaic pile, invented by Italian chemist Alessandro Volta.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_028">
+            <form>platina</form>
+            <def>
+               <p>An alloy of platinum and several other metals, including palladium, osmium, and iridium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_022">
+            <form>oxygene</form>
+            <def>
+               <p>Symbol/formula: O</p>
+               <p>Now known as oxygen. Oxygen is a colourless, odourless, tasteless gas essential to living organisms.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_151">
+            <form>phosphorus</form>
+            <def>
+               <p>Symbol/formula: P</p>
+               <p>A non-metallic chemical element of the nitrogen family. A colourless, semitransparent, soft, waxy solid.</p>
+            </def>
+         </nym>
+      </listNym>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_810" type="description">
+            <term id="misc_810-term">Silk</term>
+            <gloss id="misc_810-gloss" target="#misc_810-term">
+               <p>A natural protein fibre formed by certain insects when they produce cocooons. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_109" type="description">
+            <term id="misc_109-term">aeriform</term>
+            <gloss id="misc_109-gloss" target="#misc_109-term">
+               <p>Meaning having the form or nature of air; gaseous. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_216" type="description">
+            <term id="misc_216-term">Aurora Borealis</term>
+            <gloss id="misc_216-gloss" target="#misc_216-term">
+               <p>Northern Lights - a natural light display in Earth's sky, predominantly seen in high-latitude regions</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_217" type="description">
+            <term id="misc_217-term">Aurora Australis</term>
+            <gloss id="misc_217-gloss" target="#misc_217-term">
+               <p>Southern Lights - a natural light display in Earth's sky, predominantly seen in high-latitude regions</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_130" type="description">
+            <term id="misc_130-term">Leyden Jar</term>
+            <gloss id="misc_130-gloss" target="#misc_130-term">
+               <p>The Leyden Jar is an electrical component which stores a high-voltage electric charge between electrical conductors on the inside and outside of a glass jar.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listBibl>
+         <bibl xml:id="otherwork_210">
+            <author>Abraham Bennet</author>
+            <title level="j">Philosophical Transactions of the Royal Society of London</title>
+            <title level="a" type="main">Description of a New Electrometer. In a Letter from the Rev. Abraham Bennet, M. A. to the Rev. Joseph Priestley, LL.D. F. R. S.</title>
+            <date when="1787">1787</date>
+            <biblScope unit="volume">77</biblScope>
+            <biblScope unit="page" from="26" to="31">26-31</biblScope>
+         </bibl>
+         <bibl xml:id="otherwork_168">
+            <author>Johann Georg Sulzer</author>
+            <title level="j">Theorie der angenehmen und unangenehmen Empfindungen</title>
+            <date when="1762">1762</date>
+            <note>Published in Berlin</note>
+            <biblScope unit="page">82</biblScope>
+         </bibl>
+      </listBibl>
+   </standOff>
+</TEI>

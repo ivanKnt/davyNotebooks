@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-10421</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-10421</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/4/B/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Lectures</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/4/B/1</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent> pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1778-12-17"
+                                   notAfter="1829-05-29"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-10421-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="4443px"
+                  rend="landscape"
+                  url="MS-DAVY-10421-000-00001"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="4442"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="3479px"
+                  rend="landscape"
+                  url="MS-DAVY-10421-000-00002"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="3478"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="3534px"
+                  rend="landscape"
+                  url="MS-DAVY-10421-000-00003"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="3533"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="4416px"
+                  rend="landscape"
+                  url="MS-DAVY-10421-000-00004"
+                  width="5421px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5420"
+               lry="4415"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="4434px"
+                  rend="landscape"
+                  url="MS-DAVY-10421-000-00005"
+                  width="5430px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5429"
+               lry="4433"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="3461px"
+                  rend="landscape"
+                  url="MS-DAVY-10421-000-00006"
+                  width="5539px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5538"
+               lry="3460"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="3588px"
+                  rend="landscape"
+                  url="MS-DAVY-10421-000-00007"
+                  width="5539px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5538"
+               lry="3587"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="4443px"
+                  rend="landscape"
+                  url="MS-DAVY-10421-000-00008"
+                  width="5430px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5429"
+               lry="4442"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="4407px"
+                  rend="landscape"
+                  url="MS-DAVY-10421-000-00009"
+                  width="5421px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5420"
+               lry="4406"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="4444px"
+                  rend="landscape"
+                  url="MS-DAVY-10421-000-00010"
+                  width="5439px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5438"
+               lry="4443"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_270" type="description">
+            <term id="misc_270-term">Conferva rivularis</term>
+            <gloss id="misc_270-gloss" target="#misc_270-term">
+               <p>Now known as Cladophora rivulari, this is a species of chlorophytes in the family Cladophoraceae. They are associated with freshwater habitat. Davy uses the name given by Linneaus</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_271" type="description">
+            <term id="misc_271-term"/>
+            <gloss id="misc_271-gloss" target="#misc_271-term">
+               <p>any of various threadlike green algae, esp any of the genus Tribonema, typically occurring in fresh water. Davy is likely referring to Cladophora rivulari.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_057" type="description">
+            <term id="misc_057-term">the Proteus</term>
+            <gloss id="misc_057-gloss" target="#misc_057-term">
+               <p>Known as the olm, a cave salamandera, which Davy sent specimens of to the natural historian Sir Everard Home.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Electrochemical Science</hi>
+            <lb/>
+1<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Lecture 1</hi> Dublin Nov<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi> 5. <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">1811</hi>
+            <lb/>
+-. I feel, <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">very considerable</hi> pleasure<lb/>
+in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">being again</hi> permitted to<lb/>
+address an audience in this<lb/>
+Laboratory, on the subject<lb/>
+of Electrochemical Philosophy. -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">-. If there existed no <hi rend="underline">other</hi> motives;</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">for calling forth my best <del rend="strikethrough">
+                  <unclear>xxxxxx</unclear>
+               </del>
+               <add>efforts</add>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">on this occasion - The <unclear>xxxxx</unclear> kindness</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the indulgence; with which my</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">feeble labors were received</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">last year would be more than</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">sufficient to command all my</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">best exertions on the present</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">occasion</del>. - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">but</del> I venture<lb/>
+to hope "<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">that this</hi> course of<lb/>
+lectures may tend, to the extension<lb/>
+&amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">advancement</hi> of an important<lb/>
+branch of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Science</hi>. |_If however there<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a</del> existed no other motives |_the<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+kindness the indulgence with my<lb/>
+feeble efforts were received last<lb/>
+year would be more than<lb/>
+sufficient to call for my best<lb/>
+exertions. -<lb/>
+-<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">In</hi> expressing <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the grateful</hi>
+            <lb/>
+pleasure that I experience on<lb/>
+this occasion. |_I can not however<lb/>
+avoid saying <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">likewise</add> that it is mingled<lb/>
+with <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">a degree of</add> anxiety; the novelty<lb/>
+of the subject <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">to a certain extent</add> will <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in some</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">measure of</del> have passed away.<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear>
+            </del> experimental elucidations<lb/>
+of Science cannot be infinitely<lb/>
+varied &amp; its principles are<lb/>
+always the same. - &amp; here<lb/>
+may be a diminution of <lb/>
+the interest of the subject<lb/>
+to those who attended in<lb/>
+this laboratory last year,<lb/>
+from the similarity or<lb/>
+even identity of some of<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+the details. - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Yet</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">I venture to however to</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">I</del> hope this will<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear>
+            </del> in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">some</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">a</add> measure be<lb/>
+compensated for by the general<lb/>
+improvement of the arrangement<lb/>
+ of the Science - -  I trust I<lb/>
+shall be able to prove to<lb/>
+you that some progress<lb/>
+has been made in discovery<lb/>
+even within the last twelve months,<lb/>
+&amp; that the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">properties</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">elements</add> of<lb/>
+this branch of knowledge;<lb/>
+have attained a state in<lb/>
+which they are much more<lb/>
+worthy the attention of<lb/>
+accurate &amp; judicious thinkers;<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">more simple &amp;</add> more intelligible to students;<lb/>
+&amp; more <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear>
+            </del> capable of<lb/>
+being applied to the<lb/>
+profit or amusement of<lb/>
+general enquirers. -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">-</del>
+            <lb/>
+-: The objects of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">chemical</del> Electrochemical<lb/>
+Philosophy are all the known<lb/>
+substances belonging to our globe.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+The Ends of this Branch<lb/>
+of Knowledge are the<lb/>
+applications of natural substances<lb/>
+to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">new uses</hi>; for increasing<lb/>
+the comforts &amp; enjoyments<lb/>
+of them "&amp; <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">for</add> the demonstration<lb/>
+of the order, harmony &amp;<lb/>
+intelligent design of the<lb/>
+system of the earth. -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">II</del> - slow<lb/>
+- The foundations of<lb/>
+Electrochemical Philosophy<lb/>
+like those of every other<lb/>
+department of Natural<lb/>
+Science are observation<lb/>
+experiment &amp; analogy. -<lb/>
+By Observation, facts are<lb/>
+distinctly &amp; minutely<lb/>
+impressed in the mind.<lb/>
+-. By analogy, similar facts<lb/>
+}<unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">deep</unclear>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+2<lb/>
+are connected - By experiment<lb/>
+new facts are discovered. And<lb/>
+in the progression of Knowledge,<lb/>
+Observation guided by analogy, leads to<lb/>
+experiment; &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">analogy</hi> confirmed<lb/>
+by <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">experiment</hi>, becomes scientific<lb/>
+truth.<lb/>
+- To the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <unclear>
+                  <del rend="strikethrough">xxxxxxxxx</del>
+               </unclear>
+            </add> philosophical<lb/>
+mind these ideas are familiar<lb/>
+but to the student or<lb/>
+illustrator may not be without<lb/>
+advantage. -<lb/>
+Whoever considers with attention<lb/>
+the slender green vegetable filaments<lb/>
+(<rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#misc_270"
+                type="miscellaneous">
+               <term xml:id="tag1">
+          Conferva rivularis
+        </term>
+            </rs>) which in the<lb/>
+summer exist in almost all streams<lb/>
+lakes &amp; pools, under the different<lb/>
+circumstances of shade &amp; sunshine<lb/>
+will discover globules of air upon<lb/>
+the filaments exposed under water<lb/>
+to the sun, but no air on<lb/>
+the filaments that are shaded - He will<lb/>
+find that the effect is owing to the<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+presence of light- This is an<lb/>
+observation but it gives<lb/>
+no information respecting<lb/>
+the nature of the air.<lb/>
+Let the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag2"
+                ref="#misc_271"
+                type="miscellaneous">
+               <term xml:id="tag2">
+          confervae
+        </term>
+            </rs> be included<lb/>
+in a glass globe- filled<lb/>
+with water. &amp; let the<lb/>
+app<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">s</hi> be exposed to the<lb/>
+sunbeams, the air<lb/>
+will collect in the<lb/>
+upper part. - - And<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">if</del> when the neck of<lb/>
+the globe is filled with<lb/>
+water; the air may<lb/>
+be passed into the neck.<lb/>
+An inflamed taper<lb/>
+introduced will burn<lb/>
+with more brilliancy than<lb/>
+in the atmosphere -<lb/>
+as in this instance -<lb/>
+- This is an expt-<lb/>
+- If the phaenomena are<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+reasoned upon &amp; the question is<lb/>
+put whether all vegetables of<lb/>
+this kind in fresh or salt<lb/>
+water do not produce<lb/>
+such air under like circumstances<lb/>
+the enquirer is guided by<lb/>
+analogy - &amp; when this<lb/>
+is determined to be the<lb/>
+case by new trials a<lb/>
+general scientific truth is<lb/>
+established - that all <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag3"
+                ref="#misc_271"
+                type="miscellaneous">
+               <term xml:id="tag3">
+          confervae
+        </term>
+            </rs>
+            <lb/>
+in the sunshine produce<lb/>
+a species of air that<lb/>
+supports flame in a superior<lb/>
+degree which has been<lb/>
+shewn to be the case by<lb/>
+various minute investigations -<lb/>
+- &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxx</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">the general</add> scientific truth<lb/>
+admits of numerous applications<lb/>
+to the oeconomy of nature, such as<lb/>
+the deterioration &amp; renovation<lb/>
+of the atmosphere &amp; the uses of<lb/>
+even the humblest forms of vegetable<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+In the general system of things. -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxx</unclear>
+            </del>
+            <lb/>
+-- These principles of research &amp;<lb/>
+combinations of methods have<lb/>
+been little understood except<lb/>
+in late times : <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">but</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">&amp;</add> in<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">consequence of their application;</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">without allmost all the great</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear>
+            </del> &amp; almost the whole<lb/>
+of the great future of<lb/>
+modern science has been<lb/>
+raised <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in consequence of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">their application</del> upon them.-<lb/>
+- A few important discoveries<lb/>
+indeed have been owing<lb/>
+to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">accident</hi>; but their application<lb/>
+&amp; connections <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">have entirely depended</add> upon experimental<lb/>
+researches, guided by just analogy.<lb/>
+- It is by experiment <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the only</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">guide to truth</del> that the<lb/>
+different species of matter have<lb/>
+been made to act upon each<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="9"
+                xml:id="pb-9"
+                facs="#i9"/>
+            <lb/>
+3<lb/>
+other, their relations determined<lb/>
+&amp; their hidden properties discovered;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; experiment may not be unaptly</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">compared to the chain in a mythological</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">fable which binds down the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag4" ref="#misc_057" type="miscellaneous">
+                  <term xml:id="tag4">
+          Proteus
+        </term>
+               </rs> of Nature, which oblige</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">him to declare himself</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; to display his real form.-</del>
+            <lb/>
+But <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">chemistry</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">the sciences</del> facts</add> have arisen from<lb/>
+the workshops of the artisan<lb/>
+or from the furnaces of the<lb/>
+alchemists <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">to become parts of</add> an extensive &amp;<lb/>
+profound science, that they have<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">become</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">gained their</add>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">connection</hi> with electricity;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">that <unclear>xx &amp; xx xx</unclear>
+            </del> offered new<lb/>
+views of the operations<lb/>
+of Nature &amp; exalted the<lb/>
+resources of art And experiment<lb/>
+may not unaptly be compared<lb/>
+to the chain / in my mythological<lb/>
+Romance which binds down the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag5"
+                ref="#misc_057"
+                type="miscellaneous">
+               <term xml:id="tag5">
+          Proteus
+        </term>
+            </rs> of Nature &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">exhibits</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">him</del> obliges him <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">to confess</add> what He is,<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="10"
+                xml:id="pb-10"
+                facs="#i10"/>
+            <lb/>
+to renounce his monstrous &amp; mishapen forms,<lb/>
+&amp; to exhibit himself in his orderly,<lb/>
+comely, &amp; divine <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">form</del>. <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">lineaments</add>. -<lb/>
+I cannot perhaps better<lb/>
+introduce to you the<lb/>
+elements of electrochemical<lb/>
+Philosophy; than by giving<lb/>
+a general view of the<lb/>
+objects of these lectures.<lb/>
+&amp; offering some preliminary<lb/>
+illustrations respecting them.<lb/>
+- In such a view; I shall<lb/>
+be able to point out the<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxxxxxxx</unclear>
+            </del> peculiar arrangements<lb/>
+that will be adopted; &amp; the<lb/>
+circumstances which have led<lb/>
+to their adoption.<lb/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

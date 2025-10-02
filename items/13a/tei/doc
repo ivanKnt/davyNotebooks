@@ -1,0 +1,3316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-11301</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-11301</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/13/A</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Notebook containing draft and completed poems and a few rough sketches</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/13/A</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent>80 pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <p>Brown cover</p>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1811-01-01"
+                                   notAfter="1819-12-31">1811-1819</tei:origDate>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-11301-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="4027px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00001"
+                  width="5050px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5049"
+               lry="4026"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="3762px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00002"
+                  width="4788px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4787"
+               lry="3761"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="3700px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00003"
+                  width="4788px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4787"
+               lry="3699"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="3736px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00004"
+                  width="4860px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4859"
+               lry="3735"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="3754px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00005"
+                  width="4860px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4859"
+               lry="3753"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="3682px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00006"
+                  width="4860px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4859"
+               lry="3681"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="3717px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00007"
+                  width="4860px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4859"
+               lry="3716"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="3745px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00008"
+                  width="4851px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4850"
+               lry="3744"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="3681px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00009"
+                  width="4851px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4850"
+               lry="3680"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="3691px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00010"
+                  width="5041px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5040"
+               lry="3690"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+      <surface n="11" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="3681px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00011"
+                  width="5041px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5040"
+               lry="3680"
+               rotate="0"
+               xml:id="i11z1"/>
+      </surface>
+      <surface n="12" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="3718px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00012"
+                  width="4851px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4850"
+               lry="3717"
+               rotate="0"
+               xml:id="i12z1"/>
+      </surface>
+      <surface n="13" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="3735px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00013"
+                  width="4851px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4850"
+               lry="3734"
+               rotate="0"
+               xml:id="i13z1"/>
+      </surface>
+      <surface n="14" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="3726px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00014"
+                  width="4887px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4886"
+               lry="3725"
+               rotate="0"
+               xml:id="i14z1"/>
+      </surface>
+      <surface n="15" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="3744px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00015"
+                  width="4887px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4886"
+               lry="3743"
+               rotate="0"
+               xml:id="i15z1"/>
+      </surface>
+      <surface n="16" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="3628px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00016"
+                  width="4860px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4859"
+               lry="3627"
+               rotate="0"
+               xml:id="i16z1"/>
+      </surface>
+      <surface n="17" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="3744px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00017"
+                  width="4860px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4859"
+               lry="3743"
+               rotate="0"
+               xml:id="i17z1"/>
+      </surface>
+      <surface n="18" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="3618px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00018"
+                  width="4815px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4814"
+               lry="3617"
+               rotate="0"
+               xml:id="i18z1"/>
+      </surface>
+      <surface n="19" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="3754px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00019"
+                  width="4815px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4814"
+               lry="3753"
+               rotate="0"
+               xml:id="i19z1"/>
+      </surface>
+      <surface n="20" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="3147px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00020"
+                  width="4027px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4026"
+               lry="3146"
+               rotate="0"
+               xml:id="i20z1"/>
+      </surface>
+      <surface n="21" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="3266px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00021"
+                  width="4027px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4026"
+               lry="3265"
+               rotate="0"
+               xml:id="i21z1"/>
+      </surface>
+      <surface n="22" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="3112px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00022"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3111"
+               rotate="0"
+               xml:id="i22z1"/>
+      </surface>
+      <surface n="23" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="3183px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00023"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3182"
+               rotate="0"
+               xml:id="i23z1"/>
+      </surface>
+      <surface n="24" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="3157px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00024"
+                  width="4181px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4180"
+               lry="3156"
+               rotate="0"
+               xml:id="i24z1"/>
+      </surface>
+      <surface n="25" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="3174px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00025"
+                  width="4181px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4180"
+               lry="3173"
+               rotate="0"
+               xml:id="i25z1"/>
+      </surface>
+      <surface n="26" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="3165px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00026"
+                  width="4145px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4144"
+               lry="3164"
+               rotate="0"
+               xml:id="i26z1"/>
+      </surface>
+      <surface n="27" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="3228px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00027"
+                  width="4145px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4144"
+               lry="3227"
+               rotate="0"
+               xml:id="i27z1"/>
+      </surface>
+      <surface n="28" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="3183px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00028"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3182"
+               rotate="0"
+               xml:id="i28z1"/>
+      </surface>
+      <surface n="29" xml:id="i29">
+         <graphic decls="#downloadImageRights #download"
+                  height="3238px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00029"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3237"
+               rotate="0"
+               xml:id="i29z1"/>
+      </surface>
+      <surface n="30" xml:id="i30">
+         <graphic decls="#downloadImageRights #download"
+                  height="3183px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00030"
+                  width="4126px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4125"
+               lry="3182"
+               rotate="0"
+               xml:id="i30z1"/>
+      </surface>
+      <surface n="31" xml:id="i31">
+         <graphic decls="#downloadImageRights #download"
+                  height="3238px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00031"
+                  width="4126px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4125"
+               lry="3237"
+               rotate="0"
+               xml:id="i31z1"/>
+      </surface>
+      <surface n="32" xml:id="i32">
+         <graphic decls="#downloadImageRights #download"
+                  height="3201px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00032"
+                  width="4172px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4171"
+               lry="3200"
+               rotate="0"
+               xml:id="i32z1"/>
+      </surface>
+      <surface n="33" xml:id="i33">
+         <graphic decls="#downloadImageRights #download"
+                  height="3247px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00033"
+                  width="4172px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4171"
+               lry="3246"
+               rotate="0"
+               xml:id="i33z1"/>
+      </surface>
+      <surface n="34" xml:id="i34">
+         <graphic decls="#downloadImageRights #download"
+                  height="3219px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00034"
+                  width="4109px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4108"
+               lry="3218"
+               rotate="0"
+               xml:id="i34z1"/>
+      </surface>
+      <surface n="35" xml:id="i35">
+         <graphic decls="#downloadImageRights #download"
+                  height="3229px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00035"
+                  width="4109px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4108"
+               lry="3228"
+               rotate="0"
+               xml:id="i35z1"/>
+      </surface>
+      <surface n="36" xml:id="i36">
+         <graphic decls="#downloadImageRights #download"
+                  height="3238px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00036"
+                  width="4144px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4143"
+               lry="3237"
+               rotate="0"
+               xml:id="i36z1"/>
+      </surface>
+      <surface n="37" xml:id="i37">
+         <graphic decls="#downloadImageRights #download"
+                  height="3210px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00037"
+                  width="4144px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4143"
+               lry="3209"
+               rotate="0"
+               xml:id="i37z1"/>
+      </surface>
+      <surface n="38" xml:id="i38">
+         <graphic decls="#downloadImageRights #download"
+                  height="3275px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00038"
+                  width="4199px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4198"
+               lry="3274"
+               rotate="0"
+               xml:id="i38z1"/>
+      </surface>
+      <surface n="39" xml:id="i39">
+         <graphic decls="#downloadImageRights #download"
+                  height="3210px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00039"
+                  width="4199px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4198"
+               lry="3209"
+               rotate="0"
+               xml:id="i39z1"/>
+      </surface>
+      <surface n="40" xml:id="i40">
+         <graphic decls="#downloadImageRights #download"
+                  height="3238px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00040"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3237"
+               rotate="0"
+               xml:id="i40z1"/>
+      </surface>
+      <surface n="41" xml:id="i41">
+         <graphic decls="#downloadImageRights #download"
+                  height="3183px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00041"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3182"
+               rotate="0"
+               xml:id="i41z1"/>
+      </surface>
+      <surface n="42" xml:id="i42">
+         <graphic decls="#downloadImageRights #download"
+                  height="3238px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00042"
+                  width="4191px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4190"
+               lry="3237"
+               rotate="0"
+               xml:id="i42z1"/>
+      </surface>
+      <surface n="43" xml:id="i43">
+         <graphic decls="#downloadImageRights #download"
+                  height="3210px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00043"
+                  width="4191px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4190"
+               lry="3209"
+               rotate="0"
+               xml:id="i43z1"/>
+      </surface>
+      <surface n="44" xml:id="i44">
+         <graphic decls="#downloadImageRights #download"
+                  height="3257px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00044"
+                  width="4135px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4134"
+               lry="3256"
+               rotate="0"
+               xml:id="i44z1"/>
+      </surface>
+      <surface n="45" xml:id="i45">
+         <graphic decls="#downloadImageRights #download"
+                  height="3201px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00045"
+                  width="4135px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4134"
+               lry="3200"
+               rotate="0"
+               xml:id="i45z1"/>
+      </surface>
+      <surface n="46" xml:id="i46">
+         <graphic decls="#downloadImageRights #download"
+                  height="3265px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00046"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3264"
+               rotate="0"
+               xml:id="i46z1"/>
+      </surface>
+      <surface n="47" xml:id="i47">
+         <graphic decls="#downloadImageRights #download"
+                  height="3192px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00047"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3191"
+               rotate="0"
+               xml:id="i47z1"/>
+      </surface>
+      <surface n="48" xml:id="i48">
+         <graphic decls="#downloadImageRights #download"
+                  height="3284px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00048"
+                  width="4154px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4153"
+               lry="3283"
+               rotate="0"
+               xml:id="i48z1"/>
+      </surface>
+      <surface n="49" xml:id="i49">
+         <graphic decls="#downloadImageRights #download"
+                  height="3183px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00049"
+                  width="4154px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4153"
+               lry="3182"
+               rotate="0"
+               xml:id="i49z1"/>
+      </surface>
+      <surface n="50" xml:id="i50">
+         <graphic decls="#downloadImageRights #download"
+                  height="3247px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00050"
+                  width="4181px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4180"
+               lry="3246"
+               rotate="0"
+               xml:id="i50z1"/>
+      </surface>
+      <surface n="51" xml:id="i51">
+         <graphic decls="#downloadImageRights #download"
+                  height="3257px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00051"
+                  width="4181px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4180"
+               lry="3256"
+               rotate="0"
+               xml:id="i51z1"/>
+      </surface>
+      <surface n="52" xml:id="i52">
+         <graphic decls="#downloadImageRights #download"
+                  height="3329px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00052"
+                  width="4108px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4107"
+               lry="3328"
+               rotate="0"
+               xml:id="i52z1"/>
+      </surface>
+      <surface n="53" xml:id="i53">
+         <graphic decls="#downloadImageRights #download"
+                  height="3165px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00053"
+                  width="4108px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4107"
+               lry="3164"
+               rotate="0"
+               xml:id="i53z1"/>
+      </surface>
+      <surface n="54" xml:id="i54">
+         <graphic decls="#downloadImageRights #download"
+                  height="3284px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00054"
+                  width="4154px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4153"
+               lry="3283"
+               rotate="0"
+               xml:id="i54z1"/>
+      </surface>
+      <surface n="55" xml:id="i55">
+         <graphic decls="#downloadImageRights #download"
+                  height="3165px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00055"
+                  width="4154px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4153"
+               lry="3164"
+               rotate="0"
+               xml:id="i55z1"/>
+      </surface>
+      <surface n="56" xml:id="i56">
+         <graphic decls="#downloadImageRights #download"
+                  height="3284px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00056"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3283"
+               rotate="0"
+               xml:id="i56z1"/>
+      </surface>
+      <surface n="57" xml:id="i57">
+         <graphic decls="#downloadImageRights #download"
+                  height="3138px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00057"
+                  width="4190px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4189"
+               lry="3137"
+               rotate="0"
+               xml:id="i57z1"/>
+      </surface>
+      <surface n="58" xml:id="i58">
+         <graphic decls="#downloadImageRights #download"
+                  height="3293px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00058"
+                  width="4091px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4090"
+               lry="3292"
+               rotate="0"
+               xml:id="i58z1"/>
+      </surface>
+      <surface n="59" xml:id="i59">
+         <graphic decls="#downloadImageRights #download"
+                  height="3129px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00059"
+                  width="4091px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4090"
+               lry="3128"
+               rotate="0"
+               xml:id="i59z1"/>
+      </surface>
+      <surface n="60" xml:id="i60">
+         <graphic decls="#downloadImageRights #download"
+                  height="3284px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00060"
+                  width="4145px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4144"
+               lry="3283"
+               rotate="0"
+               xml:id="i60z1"/>
+      </surface>
+      <surface n="61" xml:id="i61">
+         <graphic decls="#downloadImageRights #download"
+                  height="3129px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00061"
+                  width="4145px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4144"
+               lry="3128"
+               rotate="0"
+               xml:id="i61z1"/>
+      </surface>
+      <surface n="62" xml:id="i62">
+         <graphic decls="#downloadImageRights #download"
+                  height="3293px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00062"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3292"
+               rotate="0"
+               xml:id="i62z1"/>
+      </surface>
+      <surface n="63" xml:id="i63">
+         <graphic decls="#downloadImageRights #download"
+                  height="3120px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00063"
+                  width="4127px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4126"
+               lry="3119"
+               rotate="0"
+               xml:id="i63z1"/>
+      </surface>
+      <surface n="64" xml:id="i64">
+         <graphic decls="#downloadImageRights #download"
+                  height="3265px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00064"
+                  width="4117px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4116"
+               lry="3264"
+               rotate="0"
+               xml:id="i64z1"/>
+      </surface>
+      <surface n="65" xml:id="i65">
+         <graphic decls="#downloadImageRights #download"
+                  height="3175px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00065"
+                  width="4117px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4116"
+               lry="3174"
+               rotate="0"
+               xml:id="i65z1"/>
+      </surface>
+      <surface n="66" xml:id="i66">
+         <graphic decls="#downloadImageRights #download"
+                  height="3293px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00066"
+                  width="4118px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4117"
+               lry="3292"
+               rotate="0"
+               xml:id="i66z1"/>
+      </surface>
+      <surface n="67" xml:id="i67">
+         <graphic decls="#downloadImageRights #download"
+                  height="3120px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00067"
+                  width="4118px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4117"
+               lry="3119"
+               rotate="0"
+               xml:id="i67z1"/>
+      </surface>
+      <surface n="68" xml:id="i68">
+         <graphic decls="#downloadImageRights #download"
+                  height="3311px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00068"
+                  width="4172px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4171"
+               lry="3310"
+               rotate="0"
+               xml:id="i68z1"/>
+      </surface>
+      <surface n="69" xml:id="i69">
+         <graphic decls="#downloadImageRights #download"
+                  height="3138px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00069"
+                  width="4172px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4171"
+               lry="3137"
+               rotate="0"
+               xml:id="i69z1"/>
+      </surface>
+      <surface n="70" xml:id="i70">
+         <graphic decls="#downloadImageRights #download"
+                  height="3293px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00070"
+                  width="4118px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4117"
+               lry="3292"
+               rotate="0"
+               xml:id="i70z1"/>
+      </surface>
+      <surface n="71" xml:id="i71">
+         <graphic decls="#downloadImageRights #download"
+                  height="3111px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00071"
+                  width="4118px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4117"
+               lry="3110"
+               rotate="0"
+               xml:id="i71z1"/>
+      </surface>
+      <surface n="72" xml:id="i72">
+         <graphic decls="#downloadImageRights #download"
+                  height="3311px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00072"
+                  width="4100px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4099"
+               lry="3310"
+               rotate="0"
+               xml:id="i72z1"/>
+      </surface>
+      <surface n="73" xml:id="i73">
+         <graphic decls="#downloadImageRights #download"
+                  height="3147px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00073"
+                  width="4100px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4099"
+               lry="3146"
+               rotate="0"
+               xml:id="i73z1"/>
+      </surface>
+      <surface n="74" xml:id="i74">
+         <graphic decls="#downloadImageRights #download"
+                  height="3292px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00074"
+                  width="4072px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4071"
+               lry="3291"
+               rotate="0"
+               xml:id="i74z1"/>
+      </surface>
+      <surface n="75" xml:id="i75">
+         <graphic decls="#downloadImageRights #download"
+                  height="3102px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00075"
+                  width="4072px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4071"
+               lry="3101"
+               rotate="0"
+               xml:id="i75z1"/>
+      </surface>
+      <surface n="76" xml:id="i76">
+         <graphic decls="#downloadImageRights #download"
+                  height="3292px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00076"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3291"
+               rotate="0"
+               xml:id="i76z1"/>
+      </surface>
+      <surface n="77" xml:id="i77">
+         <graphic decls="#downloadImageRights #download"
+                  height="3102px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00077"
+                  width="4163px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4162"
+               lry="3101"
+               rotate="0"
+               xml:id="i77z1"/>
+      </surface>
+      <surface n="78" xml:id="i78">
+         <graphic decls="#downloadImageRights #download"
+                  height="3292px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00078"
+                  width="4037px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4036"
+               lry="3291"
+               rotate="0"
+               xml:id="i78z1"/>
+      </surface>
+      <surface n="79" xml:id="i79">
+         <graphic decls="#downloadImageRights #download"
+                  height="3120px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00079"
+                  width="4037px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4036"
+               lry="3119"
+               rotate="0"
+               xml:id="i79z1"/>
+      </surface>
+      <surface n="80" xml:id="i80">
+         <graphic decls="#downloadImageRights #download"
+                  height="3229px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00080"
+                  width="4144px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4143"
+               lry="3228"
+               rotate="0"
+               xml:id="i80z1"/>
+      </surface>
+      <surface n="81" xml:id="i81">
+         <graphic decls="#downloadImageRights #download"
+                  height="3193px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00081"
+                  width="4144px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4143"
+               lry="3192"
+               rotate="0"
+               xml:id="i81z1"/>
+      </surface>
+      <surface n="82" xml:id="i82">
+         <graphic decls="#downloadImageRights #download"
+                  height="3265px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00082"
+                  width="4154px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4153"
+               lry="3264"
+               rotate="0"
+               xml:id="i82z1"/>
+      </surface>
+      <surface n="83" xml:id="i83">
+         <graphic decls="#downloadImageRights #download"
+                  height="3202px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00083"
+                  width="4154px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4153"
+               lry="3201"
+               rotate="0"
+               xml:id="i83z1"/>
+      </surface>
+      <surface n="84" xml:id="i84">
+         <graphic decls="#downloadImageRights #download"
+                  height="4064px"
+                  rend="landscape"
+                  url="MS-DAVY-11301-000-00084"
+                  width="5014px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5013"
+               lry="4063"
+               rotate="0"
+               xml:id="i84z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listNym type="chemical">
+         <nym xml:id="chemical_511">
+            <form>Adamant</form>
+            <def>
+               <p>From classical mythology, an archaic form of diamond.</p>
+            </def>
+         </nym>
+      </listNym>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_491" type="description">
+            <term id="misc_491-term">pierian</term>
+            <gloss id="misc_491-gloss" target="#misc_491-term">
+               <p>The sacred spring was said to be near ancient Leivithra in Pieria, a region of ancient Macedonia, also the location of Mount Olympus, and believed to be the home and the seat of worship of Orpheus.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_875" type="description">
+            <term id="misc_875-term">Lives there a strain whose</term>
+            <gloss id="misc_875-gloss" target="#misc_875-term">
+               <p>The first lines of 'The Vision of Don Roderick' by Sir Walter Scott</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_874" type="description">
+            <term id="misc_874-term">Gore moistened trees shall<lb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"/>perish in the bud<lb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"/>1.32<lb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"/>And by a bloody death shall<lb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"/>die the man of blood</term>
+            <gloss id="misc_874-gloss" target="#misc_874-term">
+               <p>From 'The Vision of Don Roderick (XLII)' by Sir Walter Scott</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_876" type="description">
+            <term id="misc_876-term">Hath not a source more<lb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"/>sullen stagnant &amp; impure</term>
+            <gloss id="misc_876-gloss" target="#misc_876-term">
+               <p>From 'The Vision of Don Roderick (XXXIX)' by Sir Walter Scott</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_211" type="description">
+            <term id="misc_211-term">Genii</term>
+            <gloss id="misc_211-gloss" target="#misc_211-term">
+               <p>plural form of genie, supernatural characters in early pre-Islamic Arabian and later Islamic mythology and theology</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_830" type="description">
+            <term id="misc_830-term">Cup Moss</term>
+            <gloss id="misc_830-gloss" target="#misc_830-term">
+               <p>cup lichen or less commonly cup moss: a lichen having cup-shaped fruiting bodies or stalks</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_556" type="description">
+            <term id="misc_556-term">Zephyr</term>
+            <gloss id="misc_556-gloss" target="#misc_556-term">
+               <p>Greek mythology: god of the west wind. His ame is sometimes used to describe a breeze that is gentle or westerly.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listPerson>
+         <person xml:id="person_010">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Catherine Maria</forename>
+               <surname>Fanshawe</surname>
+            </persName>
+            <birth when="1765"/>
+            <death when="1834"/>
+            <note> English poet, author and artist who copied poems into Davy's notebook under the pseudonym 'Fidelissima'.</note>
+         </person>
+         <person xml:id="person_002">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Anna</forename>
+               <surname>Beddoes</surname>
+            </persName>
+            <birth when="1773"/>
+            <death when="1824"/>
+            <note>Anna Beddoes, née Edgeworth, the wife of Thomas Beddoes who befriended Davy when he arrived in Bristol. Critics have speculated that they had an affair because Davy wrote poems to Anna and she wrote poems for him that he copied out in his notebooks.  </note>
+         </person>
+         <person xml:id="person_035">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Homer</surname>
+            </persName>
+            <note>Homer was a Greek poet who is believed to have written the epic poems, the Iliad and the Odyssey.</note>
+         </person>
+         <person xml:id="person_106">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">William</forename>
+               <surname>Wynne</surname>
+            </persName>
+            <birth when="1728"/>
+            <death when="1815"/>
+            <note>Lawyer, Dean of the Arches and later Master of Trinity Hall, Cambridge. Knighted 1788. FRSL.</note>
+         </person>
+         <person xml:id="person_576">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Philip</forename>
+               <surname>Sidney</surname>
+            </persName>
+            <birth when="1554"/>
+            <death when="1586"/>
+            <note>Elizabethian poet and courtier.</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="place_056">
+            <placeName>Atlantic</placeName>
+            <location>
+               <geo decls="#WGS84">34.89766653071247, -40.753620806566801</geo>
+            </location>
+         </place>
+         <place xml:id="place_002">
+            <placeName>Ontario</placeName>
+            <location>
+               <geo decls="#WGS84">51.52840381206825,  -86.717487962914205</geo>
+            </location>
+            <note>Ontario is a province in east-central Canada.</note>
+         </place>
+         <place xml:id="place_163">
+            <placeName>Portugal</placeName>
+            <location>
+               <geo decls="#WGS84">39.79974698979188,  -8.6975719756136201</geo>
+            </location>
+         </place>
+         <place xml:id="place_164">
+            <placeName>Spain</placeName>
+            <location>
+               <geo decls="#WGS84">39.54527677030725,  -3.0389752111510799</geo>
+            </location>
+         </place>
+         <place xml:id="place_155">
+            <placeName>Rome</placeName>
+            <location>
+               <geo decls="#WGS84">41.901639083469824,  12.4814095854935</geo>
+            </location>
+            <note>The capital of Italy.</note>
+         </place>
+         <place xml:id="place_177">
+            <placeName>Andes</placeName>
+            <note>Mountain range in western South America.</note>
+         </place>
+      </listPlace>
+      <listBibl>
+         <bibl xml:id="otherwork_159">
+            <author>Sir Walter Scott</author>
+            <title level="a" type="main">The hoary priest even / at the altar shot' is a line from Sir Walter Scott's poem The Vision of Don Roderick. Scott reviewed Davy's Salmonia in the Quarterly Review. He was a friend of Davy. </title>
+            <date when="1811">1811</date>
+         </bibl>
+      </listBibl>
+      <listAnnotation type="nonenglish">
+         <note xml:id="nonenglish_045" type="description">
+            <term id="nonenglish_045-term">ΑΙΩΝΟΣ ΚΑΙ ΑΙΩΝΙΟΣ</term>
+            <gloss id="nonenglish_045-gloss" target="#nonenglish_045-term">
+               <p>everchanging &amp; everlasting (Greek). Davy translated this phrase in a letter to Jane Apreece in ?late December 1811.</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_108" type="description">
+            <term id="nonenglish_108-term">Quo fata vocant</term>
+            <gloss id="nonenglish_108-gloss" target="#nonenglish_108-term">
+               <p>Where the fates call (Latin).</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_367" type="description">
+            <term id="nonenglish_367-term">Spes fracta</term>
+            <gloss id="nonenglish_367-gloss" target="#nonenglish_367-term">
+               <p>Hope is broken (Latin)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_368" type="description">
+            <term id="nonenglish_368-term">Spes irrita Matris</term>
+            <gloss id="nonenglish_368-gloss" target="#nonenglish_368-term">
+               <p>The mother's vain hope (Latin)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_369" type="description">
+            <term id="nonenglish_369-term">Si mundus pulcher Qualis Artifex</term>
+            <gloss id="nonenglish_369-gloss" target="#nonenglish_369-term">
+               <p>If the world is beautiful, how much more so is its maker? (Latin) Davy is quoting St Augustine, Sermon 385. This is one of a number of mottos which he lists in a letter to Jane Apreece (later Jane Davy)</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+[Ink sketch of chemical apparatus with two pencil faces in profile underneath]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+1<lb/>
+ Thou to whom heaven its noblest gifts assigned<lb/>
+Blest Friend of Man, the darling of mankind,<lb/>
+Elect of Science on whose infant head<lb/>
+Truth's angel power the full orb'd Halo spread,<lb/>
+Awhile farewell - awhile in Freedom roam,<lb/>
+Far from the peopled walls, the vocal dome<lb/>
+To distant cliffs, on whose hoar hermit brow<lb/>
+The passing clouds like pilgrims lowly bow<lb/>
+Or, some green silent dell amid the hills,<lb/>
+Where rolls the music of unhaunted rills,<lb/>
+Some bank that scarce the travelled wild bee <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">knows</add>
+            <lb/>
+Where the lone night bird's song responsless flows.<lb/>
+And the sweet south, his destined course delayed<lb/>
+Sleeps in the fragrant bud or dewy blade<lb/>
+Go Thou, nor scorn this simple wreath to wear<lb/>
+Though thine the brighter laurel never sere<lb/>
+Though carved in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#chemical_511"
+                type="chemical">
+               <term xml:id="tag1">
+          Adamant
+          
+        </term>
+            </rs>, thy honoured name<lb/>
+Lives in the ark of ages, lives to Fame.<lb/>
+Farewell - thy form shall  fancy's eye pursue<lb/>
+With prayers, with vows, with wishes ever true,<lb/>
+And ah! if aught of good or bliss impart<lb/>
+ The benedictions of a faithful heart,<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+If sorcery divine or holy spell<lb/>
+In the firm pledge of souls devoted dwell,<lb/>
+When, breathed thy name in consecrated sighs <lb/>
+From bosoms pure, the orisons arise,<lb/>
+Then, thou <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">thrice blest</hi> a charmed life shall bear?<lb/>
+To Earth, to Heaven, to Man, to Demon dear;<lb/>
+Then shall no fiend, no harpy dire of pain<lb/>
+Thy threshold blast, thy mansion's peace profane,<lb/>
+Nor care, the beldam care, shall haunt thy way }<lb/>
+Nor on thy breast, her touch unhallowed lay, }<lb/>
+That wan and withering palm in which all blooms decay; }<lb/>
+Along thy path may fruits autumnal spread,<lb/>
+Whilst vernal blossoms, spring beneath thy tread,<lb/>
+Still to thine eye, Life's green ear'd joy expand<lb/>
+While bends the purple vintage to thy hand.-<lb/>
+To thine own sphere, to nature's temple, go<lb/>
+Pause, at her Altar pause, with reverence low,<lb/>
+The one great Spirit <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Truth</hi>, invoke, adore.<lb/>
+And hymns of praise, of holy rapture pour,<lb/>
+For <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Thee</hi>, the secret portal open flies, }<lb/>
+Free to thy feet the sanctuary lies, }<lb/>
+And the veils' wavy folds, the mystic folds arise }<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+3<lb/>
+Be<lb/>
+Beloved of Heaven! for Thee, be formed the bower<lb/>
+Of leaves impervious to the solar power,<lb/>
+Where scarce the arrowy beam may glide between<lb/>
+The rude arcade of deepest, densest green,<lb/>
+Where as in Eden's blissful shade of rest<lb/>
+When Man held converse with an angel guest,<lb/>
+Mayst Thou embosomed in thy still retreat,<lb/>
+The blue eyed cherub contemplation greet.<lb/>
+There muse intent on Nature's spotless page<lb/>
+To some a blank, but to the inspired sage,<lb/>
+The book of Life, where Love &amp; Wisdom shine<lb/>
+The almighty thought "creation's type" divine.<lb/>
+Go with truth's wand, the giant shades arrest<lb/>
+That linger on the mountain's sinewy breast,<lb/>
+And mid sepulchral rocks that proudly stand,<lb/>
+The Pyramids unwrought of mortal hand,<lb/>
+Mid ruins sanctified by elder time<lb/>
+When rose the spirit of the floods sublime<lb/>
+Draw from the dusky ore, the silent stone<lb/>
+The ancient records of a world unknown,<lb/>
+Dash from the seaborn base, oblivion's wave<lb/>
+Redeem the chart of ages, from the grave.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+Or wilt thou by a purer spirit led<lb/>
+Philanthropy - the grassy woodlands tread,<lb/>
+What time the Lark, harmonious herald! hails<lb/>
+His minstrel brethren of the woods &amp; dales.<lb/>
+When hasting from the dewy tents away<lb/>
+From hill to hill swift flies the golden day,<lb/>
+At living Nature's "rich mysterious shrine"<lb/>
+Detect the unwrought vegetable mine,<lb/>
+With chemic care, the shining furrows trace<lb/>
+And scatter blessings on the human race.-<lb/>
+Yet here - though sweet the scene - forbear to stay<lb/>
+A different region claims thy potent sway<lb/>
+A new creation, by thy forming <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>skill</unclear>
+            </del> will<lb/>
+From chaos called, to thee obedient still,<lb/>
+Where dwells thy voice on beauty's raptured ear<lb/>
+Experience listens, Folly drops her sneer<lb/>
+Ah! not to sadness, to regret resign<lb/>
+This infant Orb of science, only thine.<lb/>
+For absent Thou - what friendly spirit calls<lb/>
+To this dark roof - these desolated walls,<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+5<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Vai</del>
+            <lb/>
+Vain then the philosophic tube, &amp; vain<lb/>
+The vase of Science or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag2"
+                ref="#misc_491"
+                type="miscellaneous">
+               <term xml:id="tag2">
+          pierian
+        </term>
+            </rs> strain<lb/>
+For <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">thee</hi>, <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the Absent</hi>, roams the restless eye}<lb/>
+To thee reverts the ever vagrant sigh}<lb/>
+Unkindled by thy breath the flames of science dies}<lb/>
+Soul of that World! which at thy word arose<lb/>
+That word which artless as persuasive flows<lb/>
+Slave to no sovereign - to no palace known<lb/>
+The minister of Nature's power alone,<lb/>
+Ah here without a crown or empire reign<lb/>
+The Heart thy throne - the mind thy pure domain<lb/>
+Unsceptred Chief! here reign by Heaven designed<lb/>
+To conquer Folly &amp; to bless Mankind "<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag3" ref="#person_010" type="person">
+                  <name xml:id="tag3" type="person">
+          Fidelissima
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+            <milestone xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                       unit="section"
+                       rend="line"/>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxxxxx</unclear>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+Oh! were I rich in nature's lore<lb/>
+For <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Him</hi> I would her worlds explore<lb/>
+For Him with pious avarice sweep<lb/>
+The treasures of the mineral deep<lb/>
+And steal the starry gems that throw<lb/>
+Pale lustre o'er the realms below<lb/>
+Sweet were each care &amp; soft each toil<lb/>
+If once rewarded with his smile.<lb/>
+And cheaply all could I resign<lb/>
+If but <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">his</hi> hand <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">received</hi> from mine<lb/>
+But me alas! the fates unkind<lb/>
+Within a narrow sphere confined,<lb/>
+Nor fortune hailed my natal hour<lb/>
+Nor wisdom gave her sacred dower.<lb/>
+Go - simple gift, thou humble band<lb/>
+Go, thou, unformed by venal hand<lb/>
+Thy destin'd Lord's acceptance sue<lb/>
+And with thee take this last adieu;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="9"
+                xml:id="pb-9"
+                facs="#i9"/>
+            <lb/>
+7<lb/>
+And if a gentle heart he bear<lb/>
+A Heart to gentle spirits dear,<lb/>
+Then shall he to a stranger's prayer<lb/>
+Consent a stranger's pledge to wear,<lb/>
+And, ah, these conscious eyes again<lb/>
+Shall heal the tributary chain<lb/>
+Oh Thou! whose influence oft hath blest<lb/>
+This little world within my breast,<lb/>
+Whose image gilds the pensive hour<lb/>
+Of fancy's vision-weaving power,<lb/>
+Though, nought this gift so simple, boast<lb/>
+And but some sighs the giver cost<lb/>
+Yet oh with smile benignant deign<lb/>
+These links to touch, to wear this chain<lb/>
+And if ( as Fame the unwilling ear<lb/>
+Informs ) a softer chain Thou bear,<lb/>
+Then may no darkling shade destroy<lb/>
+The fabric of thy promised joy,<lb/>
+And may all spirits blest &amp; good<lb/>
+Unseen who haunt or wave or wood<lb/>
+Aethereal nature's sportive train<lb/>
+On Thee "sweet influences rain"<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="10"
+                xml:id="pb-10"
+                facs="#i10"/>
+            <lb/>
+And breathe a sense no words impart<lb/>
+Well augured of the thrilling heart<lb/>
+But if with rigid scowl severe<lb/>
+My lowly suit thou shame to hear,<lb/>
+My simple gift if Thou disdain<lb/>
+All reckless of another's pain,<lb/>
+Not long thy stream of bliss shall flow<lb/>
+Nor long thy touch of rapture glow,<lb/>
+Who from the lips of asking child<lb/>
+Withholds the fragrant blossom wild,<lb/>
+Who from the wretched captives' power<lb/>
+Uproots the solitary flower,<lb/>
+Whose contumely blasts the sighs<lb/>
+That from the guileless bosom rise,<lb/>
+Oh not for him Love's hallowed Urn<lb/>
+The golden light of life shall burn<lb/>
+Oh not for him the aethereal flame<lb/>
+That quivers through the feeling frame;<lb/>
+Inert, dull, earthly in the mould<lb/>
+That bears an iron bosom cold.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="11"
+                xml:id="pb-11"
+                facs="#i11"/>
+            <lb/>
+9<lb/>
+Oh yield then to a guiltless prayer,<lb/>
+The simple chain consent to wear<lb/>
+That chain accepted let me view<lb/>
+Then look a long &amp; sad adieu.<lb/>
+And oft the dewy skies beneath<lb/>
+When all of peace of love shall breathe,<lb/>
+Oft in some cloud that sails serene<lb/>
+Alone in heaven's blue ocean seen,<lb/>
+When slow the paly shadows glide<lb/>
+The violets' perfumed bank beside<lb/>
+And their sweet buds the flowrets close<lb/>
+And wakes the heart, while all repose<lb/>
+Oft e'en from air, thy form, thy face<lb/>
+Thy shape, thy last, last look retrace<lb/>
+And with a grateful tear again<lb/>
+Review the consecrated chain<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag4"
+                ref="#person_009"
+                type="person">
+               <name xml:id="tag4" type="person">
+          Ibid.
+        </name>
+            </rs>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="12"
+                xml:id="pb-12"
+                facs="#i12"/>
+            <lb/>
+Rude Winter! iron sceptred power,<lb/>
+No more I greet thy joyless hour,<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">His</hi> smile no longer gilds thy form,<lb/>
+Nor breathes his music, in thy storm;<lb/>
+Rude Winter, I abhor thee now<lb/>
+Thou tyrant of the obdurate brow!<lb/>
+Wild ruin marks thy stern career<lb/>
+Fell spoiler of the aged year.-.<lb/>
+This day November's frowns invest<lb/>
+This day an Alien all unblest,<lb/>
+The parted hours I vainly mourn,<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Hours</hi>, never, never, to return.-<lb/>
+In Thought, I yet may view the dome<lb/>
+Where leaves my heart its sacred home<lb/>
+And ah! in thought, his glance arrest<lb/>
+Whose image fills my conscious breast,<lb/>
+But no - for other eyes than mine<lb/>
+Those orbs reflect their light divine<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="13"
+                xml:id="pb-13"
+                facs="#i13"/>
+            <lb/>
+11<lb/>
+No beam of philosophic day<lb/>
+Glads the poor <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">exile</hi> far away!<lb/>
+No eye explores my once-loved place,<lb/>
+No sigh my vanished form shall trace<lb/>
+Yet here as roams the unblessed shade<lb/>
+My spirit shall the scene pervade.<lb/>
+Oh Ocean! on whose stormy breast<lb/>
+A wretched wanderer's head may rest,<lb/>
+Hence to thy billowy surge I cast<lb/>
+The painful memory of the past,<lb/>
+Hopes barren all ! - &amp; baneful fears !<lb/>
+And bodeful sighs &amp; bitter tears<lb/>
+Aerial dreams of bliss untrue, - -<lb/>
+These be Time's fatal revenue.<lb/>
+Beyond the great <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag5"
+                ref="#place_056"
+                type="place">
+               <name xml:id="tag5" type="place">
+          Atlantic
+        </name>
+            </rs> tide<lb/>
+Where blue <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag6"
+                ref="#place_002"
+                type="place">
+               <name xml:id="tag6" type="place">
+          Ontario's
+        </name>
+            </rs> waters glide,<lb/>
+The pine crown'd steeps with bloom may <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">glow</add>
+            <lb/>
+And gales of spicy fragrance blow,<lb/>
+But never there shall summer shed<lb/>
+Her flowers beneath His hallowed tread<lb/>
+And never there, the gales shall bear<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">His</hi> praise ( sweet incense ) to mine ear.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="14"
+                xml:id="pb-14"
+                facs="#i14"/>
+            <lb/>
+Now farewell fortune - farewell fear,<lb/>
+And hope - sweet syren, ever dear -<lb/>
+Now all, / save bankrupt life / resigned<lb/>
+I give me to the ruthless wind. - -<lb/>
+Yet still amid the vasty deep<lb/>
+One good, / a fraudful good / I keep, -<lb/>
+Love, to this heart, <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">his</hi> image gave -<lb/>
+This heart, shall bear it to the grave<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag7"
+                ref="#person_009"
+                type="person">
+               <name xml:id="tag7" type="person">
+                  <hi rend="underline">Ibid</hi>
+               </name>
+            </rs>
+            <lb/>
+[Ink flourish]<lb/>
+How oft the little sportive child<lb/>
+Seizing every flowret wild<lb/>
+With feeble hand half crops the stem<lb/>
+And leaves to die the drooping gem!<lb/>
+Unconscious of the slightest harm<lb/>
+His joyous breast with rapture warm<lb/>
+From bank to bank unthinking flies<lb/>
+Nor knows the weeping flowret dies.-<lb/>
+So have thy heedless glances stray'd<lb/>
+And many a virgin heart betray'd,<lb/>
+From fair to fair their lightnings dart<lb/>
+And strike the gazer to the heart.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="15"
+                xml:id="pb-15"
+                facs="#i15"/>
+            <lb/>
+13<lb/>
+Those eyes with liquid lustre bright<lb/>
+In softer eyes have quench'd their light<lb/>
+Eyes, that withdraw their timid beams<lb/>
+And only dare to gaze in dreams.<lb/>
+[Ink flourish]<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag8"
+                ref="#person_002"
+                type="person">
+               <name xml:id="tag8" type="person">
+          A.B.
+        </name>
+            </rs>
+            <lb/>
+Lost scenes by thee so sweetly traced<lb/>
+And by thy rainbow colors graced,<lb/>
+Call back the hours of hope &amp; youth<lb/>
+Glowing with ecstacy &amp; truth.--<lb/>
+Here let me pause o'er transports past<lb/>
+And hang o'er joys not meant to last<lb/>
+How through the primrose studded walk<lb/>
+We wearied many an hour in talk.-<lb/>
+As in the soft &amp; silent eve<lb/>
+Of noise &amp; mirth we took our leave<lb/>
+'Twas here beneath the tangled hedge<lb/>
+The Rose we pluck'd a simple pledge.<lb/>
+Not the rich Rose with thorns beset,<lb/>
+But spring's fair flower more humble yet,<lb/>
+And we exchanged the dewy prize<lb/>
+Our thoughts we changed without disguise.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="16"
+                xml:id="pb-16"
+                facs="#i16"/>
+            <lb/>
+We lingered near the stunted Oak<lb/>
+That rudely thro' the pathway broke<lb/>
+And gazed on its fantastic head<lb/>
+For half its aged form was dead.<lb/>
+Soft play'd the vernal breezes sound<lb/>
+And the fresh dew drops pearl'd the ground<lb/>
+Now as it reach'd the close of day<lb/>
+Unwilling we pursued our way.<lb/>
+To gain the little busy Boat<lb/>
+Where we were wont the cliffs to note<lb/>
+And that sequestered favourite glen<lb/>
+Unhaunted by the buzz of men<lb/>
+Or the lone summit of the wood<lb/>
+That brooded o'er the dusky flood<lb/>
+Of these my harmless joys bereft<lb/>
+Faint is the sunshine that is left<lb/>
+Yet still I glow with feelings warm<lb/>
+The wreck of many a mental storm,<lb/>
+These, are for thee, as fresh as true<lb/>
+As in my earliest days I knew.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="17"
+                xml:id="pb-17"
+                facs="#i17"/>
+            <lb/>
+15<lb/>
+And oft I think upon the time,<lb/>
+Ere I had stepp'd beyond my prime,<lb/>
+When thou just bounding into life<lb/>
+Alike unknown to grief or strife<lb/>
+Panted with transport for the hour<lb/>
+When the whole world should feel thy power.<lb/>
+Ibid<lb/>
+[Ink flourish]<lb/>
+With thee for ever could I stay,<lb/>
+Thy presence makes all nature glad<lb/>
+With thee pass each successive day.<lb/>
+Nor ever feel one moment sad.<lb/>
+Oh! ev'ry moment seems an age,<lb/>
+Now that I'm far my love from thee,<lb/>
+But thoughts of meeting thee assuage,<lb/>
+The grief which else would fatal be<lb/>
+[Ink flourish]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="18"
+                xml:id="pb-18"
+                facs="#i18"/>
+            <lb/>
+Whene'er you speak, heav'n how the listening throng<lb/>
+Dwell on the melting music of your tongue!<lb/>
+Your arguments are emblems of your mien<lb/>
+Mild, but not faint, &amp; forcing tho' serene.<lb/>
+But when the pow'r of eloquence you try<lb/>
+Here lightning strikes &amp; there soft breezes die<lb/>
+Oh ' mighty love! from thy unbounded pow'r<lb/>
+How shall the human bosom rest secure<lb/>
+How shall our thought avoid the various snare<lb/>
+Or wisdom to our caution'd heart declare,<lb/>
+The different shapes thou pleasest to employ<lb/>
+When bent to hurt &amp; certain to destroy.<lb/>
+[Ink squiggle]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="19"
+                xml:id="pb-19"
+                facs="#i19"/>
+            <lb/>
+17<lb/>
+Lo! once again with jocund sway<lb/>
+The morn endear'd by Lovers song<lb/>
+When Nature holds her holiday<lb/>
+The wild woods wintry brakes among<lb/>
+But let this sprightly morn away<lb/>
+In youths' bright calendar enroll'd<lb/>
+And give to me by tapers ray<lb/>
+The <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">star</hi> of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Genius</hi> to behold<lb/>
+Whilst in my delighted ear<lb/>
+Philosophy's sweet strain shall rest<lb/>
+In thy own image mild as fair<lb/>
+Shall science kindle in my breast<lb/>
+Thus e'en the tremulous crystal bright<lb/>
+That on the Rose buds leaf reclines<lb/>
+When pours yon <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Orb</hi> its orient light<lb/>
+Awhile a little <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Orblet</hi> shines<lb/>
+Awhile the beauteous pensile gem<lb/>
+Reflects the variegated Ray<lb/>
+But shakes the breeze its slender stem<lb/>
+Then melts the liquid globe away.<lb/>
+[Ink flourish]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="20"
+                xml:id="pb-20"
+                facs="#i20"/>
+            <lb/>
+Thou that dost this scroll survey<lb/>
+Turn not with disdain away<lb/>
+Nor deem these feeble lays unfold<lb/>
+Tale too tender to be told<lb/>
+Hope long since proscribed this breast<lb/>
+Love no more invades its rest,<lb/>
+For never simple virgin's heart<lb/>
+Fell to Love's insidious dart<lb/>
+But haply in some subtle guise<lb/>
+With wily [ gap ] or speaking sighs<lb/>
+As [gap] even, or fear <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">assayed</unclear>
+            <lb/>
+Hope the secret pass betrayed.<lb/>
+Dark &amp; sad this brow of care<lb/>
+No myrtle wreath entwines this hair<lb/>
+Ne'er these lips of ashy hue<lb/>
+To the gentle dove shall sue<lb/>
+Never these wan cheeks disclose<lb/>
+Love's sweet bloom, its blushing rose<lb/>
+But this form of homeliest mould<lb/>
+Bears no sordid bosom cold<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="21"
+                xml:id="pb-21"
+                facs="#i21"/>
+            <lb/>
+19<lb/>
+Though to Beauty all unknown<lb/>
+Beauty's empire pleased I own<lb/>
+Genius with averted brow<lb/>
+Frowns &amp; yet receives my vow<lb/>
+Nature, fortune all unkind<lb/>
+What but friendship soothes my mind<lb/>
+Take then from this faithful breast<lb/>
+Where thou dwell'st an honoured guest<lb/>
+From a Being void of aim<lb/>
+From a thing without a name<lb/>
+These honest fervent blessings take<lb/>
+For thine not for the givers sake<lb/>
+To thee may kindly fates assign<lb/>
+White robed honour, peace benign<lb/>
+Health &amp; all her bright haired train<lb/>
+Fortune &amp; her festive reign<lb/>
+Love &amp; all that Love imparts<lb/>
+The union of two gentle hearts<lb/>
+And ever as returns this day<lb/>
+Cherished in the jocund lay<lb/>
+May Joy &amp; Virtue pair divine<lb/>
+Hail thee still their valentine.<lb/>
+[Ink sketch]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="22"
+                xml:id="pb-22"
+                facs="#i22"/>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag9"
+                ref="#misc_875"
+                type="miscellaneous">
+               <term xml:id="tag9">
+          Lives there a strain whose
+        </term>
+            </rs>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxxxx</unclear> sounds of mounting<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxx</unclear>
+            <lb/>
+fire<lb/>
+May <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxx</unclear> distinguished o'er the<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxx</unclear> [gap] din of war<lb/>
+Or died it with yon Master<lb/>
+of the Lyre |<rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag10"
+                ref="#person_035"
+                type="person">
+               <name xml:id="tag10" type="person">
+          Homer
+        </name>
+            </rs>| <lb/>
+Who sung beleaguered Ilion's evil<lb/>
+star<lb/>
+{16.3}<lb/>
+All as it swelled twixt each<lb/>
+loud trumpet change<lb/>
+That clangs to B<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">s</hi> victory<lb/>
+to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag11"
+                ref="#place_163"
+                type="place">
+               <name xml:id="tag11" type="place">
+          Portugal
+        </name>
+            </rs> reveng<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="23"
+                xml:id="pb-23"
+                facs="#i23"/>
+            <lb/>
+21<lb/>
+Thy <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">powers are not exhausted</unclear>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">little you-</unclear>
+            <lb/>
+Another <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">to</unclear> shall <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">tried</unclear> me<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Not to thee</unclear>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Some other recollections</unclear>
+            <lb/>
+{<rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag12"
+                ref="#misc_874"
+                type="miscellaneous">
+               <term xml:id="tag12">
+          Gore moistened trees shall<lb/>perish in the bud<lb/>1.32<lb/>And by a bloody death shall<lb/>die the man of blood
+        </term>
+            </rs>
+            <lb/>
+If 13.2 .10) 225 0( 16<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">132</hi>
+            <lb/>
+830<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">782</hi>
+            <lb/>
+480}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="24"
+                xml:id="pb-24"
+                facs="#i24"/>
+            <lb/>
+[Pencil sketches of two faces in profile and a figure in profile with an arm raised]<lb/>
+{<rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag13"
+                ref="#misc_876"
+                type="miscellaneous">
+               <term xml:id="tag13">
+          Hath not a source more<lb/>sullen stagnant &amp; impure
+        </term>
+            </rs>}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="25"
+                xml:id="pb-25"
+                facs="#i25"/>
+            <lb/>
+23<lb/>
+Thou art the fairy of the <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxx</unclear>
+            <lb/>
+The spirit of the woods<lb/>
+[text written at 90 degree angle to the main text of the page]<lb/>
+The land obeys obeys a Hermit and a Knight<lb/>
+The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag14"
+                ref="#misc_211"
+                type="miscellaneous">
+               <term xml:id="tag14">
+          Genii
+        </term>
+            </rs> those of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag15"
+                ref="#place_164"
+                type="place">
+               <name xml:id="tag15" type="place">
+          Spain
+        </name>
+            </rs> for many |an age| <lb/>
+This clad in Sackcloth that in<lb/>
+armour<lb/>
+bright<lb/>
+And that was Valour named<lb/>
+This Bigotry was hight<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="26"
+                xml:id="pb-26"
+                facs="#i26"/>
+            <lb/>
+an injured world<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag16"
+                ref="#otherwork_159"
+                type="otherwork">
+               <bibl xml:id="tag16">
+            The hoary priest even at the<lb/>altar shot
+        </bibl>
+            </rs>
+            <lb/>
+Nor the poor peasant mite<lb/>
+nor bard more worthless lay<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="27"
+                xml:id="pb-27"
+                facs="#i27"/>
+            <lb/>
+25<lb/>
+Whether pleasure is derived<lb/>
+from beauty or grandeur<lb/>
+from the cultivated vally<lb/>
+&amp; the strong &amp; beautiful<lb/>
+stream reflecting the verdant<lb/>
+images of the <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">beach</unclear> &amp;<lb/>
+the oak &amp; embanked by<lb/>
+green meads <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">gay</unclear> with<lb/>
+a thousand field flowers -<lb/>
+or from the wild mountains<lb/>
+or scenes of awful <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">desolation</unclear>
+            <lb/>
+haunted by no sounds of<lb/>
+life yet still we <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxx</unclear>
+            <lb/>
+create spirit &amp; thought<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="28"
+                xml:id="pb-28"
+                facs="#i28"/>
+            <lb/>
+&amp; power giving life <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear>
+            </del> &amp; spirit to that which<lb/>
+is<lb/>
+[Pencil sketch of three-pronged instrument, probably chemical apparatus]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="29"
+                xml:id="pb-29"
+                facs="#i29"/>
+            <lb/>
+27<lb/>
+[Pencil sketch]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="30"
+                xml:id="pb-30"
+                facs="#i30"/>
+            <lb/>
+{The trump of fame<lb/>
+swells with the tones of<lb/>
+triumph<lb/>
+&amp; the deeds of Heroes}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="31"
+                xml:id="pb-31"
+                facs="#i31"/>
+            <lb/>
+29<lb/>
+{In the remembrances of the older<lb/>
+time<lb/>
+There is a <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxx</unclear> &amp; dignity<lb/>
+The deeds<lb/>
+of Heroes, &amp; the glorious sacrifice<lb/>
+Of Patriots &amp; of Martyrs<lb/>
+touch the Mind}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="32"
+                xml:id="pb-32"
+                facs="#i32"/>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="33"
+                xml:id="pb-33"
+                facs="#i33"/>
+            <lb/>
+31<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="34"
+                xml:id="pb-34"
+                facs="#i34"/>
+            <lb/>
+Clear &amp; blue like thine<lb/>
+own eye<lb/>
+Which loves in languid<lb/>
+peace to lie<lb/>
+&amp; <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">bending</unclear> beautiful<lb/>
+in shade<lb/>
+Seems of the<lb/>
+amorous light affraid<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="35"
+                xml:id="pb-35"
+                facs="#i35"/>
+            <lb/>
+33<lb/>
+[Pencil sketch underneath main text on this page perhaps showing comet tails that remain part of the atmosphere]<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag17"
+                ref="#place_155"
+                type="place">
+               <name xml:id="tag17" type="place">
+          Rome
+        </name>
+            </rs> March 20. 1819<lb/>
+May not the tails of Comets<lb/>
+be owing to the small<lb/>
+remaining part of the<lb/>
+atmosphere which is not<lb/>
+carried away by the sun<lb/>
+for it is the direction<lb/>
+where the joint attraction<lb/>
+of the nucleus &amp; the Sun<lb/>
+would preserve it. [Ink sketch featuring a comet and its tail and a sun, labelled C for comet and S for sun]<lb/>
+{1 grain - 2 ..<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">8</hi>
+            <lb/>
+34<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">8</hi>
+            <lb/>
+42<lb/>
+4)3<unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">6</unclear> 4)34(<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">8</del>9}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="36"
+                xml:id="pb-36"
+                facs="#i36"/>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="37"
+                xml:id="pb-37"
+                facs="#i37"/>
+            <lb/>
+35<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="38"
+                xml:id="pb-38"
+                facs="#i38"/>
+            <lb/>
+{or care .<lb/>
+- A spirit framed in power<lb/>
+&amp; pride<lb/>
+The changeful multitude be<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">balance</unclear> guide<lb/>
+Though not of busy life affraid<lb/>
+Yet loving best the pastoral<lb/>
+shade<lb/>
+Shedding a ray more clear<lb/>
+&amp; pure<lb/>
+A ray which longer shall endure<lb/>
+As friendship's light must<lb/>
+ever prove<lb/>
+More stedfast than the light<lb/>
+of love.}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="39"
+                xml:id="pb-39"
+                facs="#i39"/>
+            <lb/>
+37<lb/>
+{Methinks I know one mind like <lb/>
+you<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>So</unclear>
+            </del> Alike to peace &amp; nature<lb/>
+True<lb/>
+Kindled by <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxxx</unclear>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>
+                  <add>happiest</add>
+               </unclear>
+            </del> purest flame<lb/>
+In storm or calm for age the<lb/>
+same;<lb/>
+Bestowing most its brilliant<lb/>
+light<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Amidst</unclear> the peaceful shades of<lb/>
+night<lb/>
+And prompt to <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">comfort</unclear>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">solace</unclear> raise<lb/>
+cheer<lb/>
+The Heart oppressed by doubt}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="40"
+                xml:id="pb-40"
+                facs="#i40"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="41"
+                xml:id="pb-41"
+                facs="#i41"/>
+            <lb/>
+39<lb/>
+{And in that single light<lb/>
+would die.}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="42"
+                xml:id="pb-42"
+                facs="#i42"/>
+            <lb/>
+{<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- One content to haunt the</del>
+            <lb/>
+shade<lb/>
+Delighted most in <lb/>
+woodland shade<lb/>
+- Who should for ever<lb/>
+be the same<lb/>
+Content to raise one lasting<lb/>
+flame.<lb/>
+Thou like thy mate with<lb/>
+speed to fly<lb/>
+And for that single light<lb/>
+ would sigh}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="43"
+                xml:id="pb-43"
+                facs="#i43"/>
+            <lb/>
+41<lb/>
+{Ah will my restless spirit find<lb/>
+Like thee in <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">unambitious</unclear>
+            <lb/>
+mind<lb/>
+the shining state with tranquil <lb/>
+light<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxxxx</unclear>
+            </del>
+            <lb/>
+In <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">waters</del>
+            </unclear> calm in storm<lb/>
+in darkness bright<lb/>
+Content to haunt<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">leafy</del> verdant<lb/>
+glade<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">And <add>
+                  <unclear>happiest</unclear>
+               </add> brilliant state more</del>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">I was</unclear>}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="44"
+                xml:id="pb-44"
+                facs="#i44"/>
+            <lb/>
+170<lb/>
+[Two pencil lines drawn across the page horizontally]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="45"
+                xml:id="pb-45"
+                facs="#i45"/>
+            <lb/>
+43<lb/>
+[Pencil sketch showing a horizontal rule and labelled <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">South S</unclear>
+            <lb/>
+[Pencil line crossing the page horizontally labelled 'South <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">E</unclear>'<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="46"
+                xml:id="pb-46"
+                facs="#i46"/>
+            <lb/>
+To ascertain what y<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">e</hi> Pea contains<lb/>
+peculiar which will exhaust<lb/>
+ye crop<lb/>
+A crop <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">cut in</unclear>
+            <lb/>
+May - grew 17 inches<lb/>
+in 13 days <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Wheat</unclear>
+            <lb/>
+cut for rankness<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="47"
+                xml:id="pb-47"
+                facs="#i47"/>
+            <lb/>
+45<lb/>
+13 Sep<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag18"
+                ref="#person_106"
+                type="person">
+               <name xml:id="tag18" type="person">
+          Sir W Wyne
+        </name>
+            </rs>
+            <lb/>
+1 foot in 70<lb/>
+[pencil lines crossing the page]<lb/>
+100<lb/>
+70<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="48"
+                xml:id="pb-48"
+                facs="#i48"/>
+            <lb/>
+12 Upper<lb/>
+Crown S<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">t</hi>
+            <lb/>
+West<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">-</hi>
+            <lb/>
+[Pencil sketch, including a label 'S']<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="49"
+                xml:id="pb-49"
+                facs="#i49"/>
+            <lb/>
+47<lb/>
+[Pencil sketch]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="50"
+                xml:id="pb-50"
+                facs="#i50"/>
+            <lb/>
+{The hour of love is all <lb/>
+thy own<lb/>
+My<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough"> light is shed</del>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">My</unclear> lamp is lit for one alone<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">For thee no slighted</del> lover pines<lb/>
+And, no misguided<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Unvaried</unclear> constant state it <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear>
+            </del>
+            <lb/>
+shines<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">No changeful</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">It sheds</add> ray to kindle<lb/>
+strife<lb/>
+No changeful lamp<lb/>
+The peaceful cheering <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">light</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">beam</add>
+            <lb/>
+of life.<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Shedding</unclear> no Transitory gleams<lb/>
+No rays to kindle &amp; destroy<lb/>
+Constant <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">innocuous</unclear> state of flame<lb/>
+the light of life <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">of love</unclear> of joy<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="51"
+                xml:id="pb-51"
+                facs="#i51"/>
+            <lb/>
+49<lb/>
+{My <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">haunt</del>
+            </unclear>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">
+                  <unclear>xxxx</unclear>
+               </del>
+               <unclear>haunt</unclear>
+            </add> is in the deepest<lb/>
+shade<lb/>
+By Bracken and by <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">violet</add>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <rs xml:id="ttag19" ref="#misc_830" type="miscellaneous">
+                  <term xml:id="tag19">
+          Cup Moss
+        </term>
+               </rs>
+            </add>
+            <lb/>
+made.<lb/>
+For thee the sweetest minstrel<lb/>
+sings<lb/>
+That courts the shady grove<lb/>
+Oer thee the wood lark<lb/>
+spreads his wings.<lb/>
+And sounds his notes of love-<lb/>
+40<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">80</hi>
+            <lb/>
+3200<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">40</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">128000</hi>
+            <lb/>
+60<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">60</hi>
+            <lb/>
+3600<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">20</hi>
+            <lb/>
+72000}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="52"
+                xml:id="pb-52"
+                facs="#i52"/>
+            <lb/>
+{That from thy throne<lb/>
+glorious<lb/>
+brilliant with dew<lb/>
+oerspread<lb/>
+brightest<lb/>
+tranquil light<lb/>
+lamp of night}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="53"
+                xml:id="pb-53"
+                facs="#i53"/>
+            <lb/>
+51<lb/>
+{<unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Thou</unclear> little gem of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>loveliest</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">purest</add> hue<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">That like a star in</del>
+            <lb/>
+ether blue<lb/>
+Sheds <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxxxxx</unclear> oer the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear>
+            </del>
+            <lb/>
+green<lb/>
+That ever cloathed a<lb/>
+woodland scene<lb/>
+I hail thy chaste &amp;<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Thou lovely living</unclear>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="54"
+                xml:id="pb-54"
+                facs="#i54"/>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag20"
+                ref="#nonenglish_045"
+                type="nonenglish">
+               <term xml:id="tag20">
+          ΑΙΩΝΟΣ ΚΑΙ ΑΙΩΝΙΟΣ
+        </term>
+            </rs>
+            <lb/>
+varied - everduring<lb/>
+3.3 oxymuriatic<lb/>
+22. Sodium<lb/>
+36.<lb/>
+8.5<lb/>
+27.<lb/>
+3<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="55"
+                xml:id="pb-55"
+                facs="#i55"/>
+            <lb/>
+53<lb/>
+[Pencil sketch of a building]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="56"
+                xml:id="pb-56"
+                facs="#i56"/>
+            <lb/>
+[pencil sketch of a building]<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Within the shade of wood</del>
+            <lb/>
+Beneath the Brackens tranquil<lb/>
+shade<lb/>
+Upon the mossy stone<lb/>
+" Ah such a one as thou<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="57"
+                xml:id="pb-57"
+                facs="#i57"/>
+            <lb/>
+55<lb/>
+{Thine is the evenings freshest dew<lb/>
+Companion of the stars<lb/>
+Thine is no <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">borrowed</unclear>
+            <lb/>
+glowing hue<lb/>
+And thou art still to Nature<lb/>
+true.<lb/>
+One love contents thee<lb/>
+. &amp; for me<lb/>
+Thy brilliancy is}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="58"
+                xml:id="pb-58"
+                facs="#i58"/>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Mont Blanc Jan<hi rend="superscript">y</hi> 5<hi rend="superscript">th</hi>. 1814 4 o'clck in the carriage</hi>
+            <lb/>
+With joy I view the bath'd in purple light<lb/>
+Whilst all around is dark with joy I see<lb/>
+The rising from thy sea of pitchy clouds<lb/>
+Into the middle heaven.<lb/>
+As if a temple to th'eternal rais'd<lb/>
+By all the earth framed of the pillar'd rock<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del>And canophied with everlasting snow<lb/>
+That lovely river rolling at my feet<lb/>
+Its bright green waves &amp; wand'ring midst the rocks<lb/>
+Brown in their winters foliage gain'd from the<lb/>
+Its flood of waters. And through a devious course<lb/>
+Though it has lav'd the fertile plain &amp; washed<lb/>
+The cities walls &amp; mingled with the streams<lb/>
+Of lowland origin - yet still preserves<lb/>
+Its native character of mountain strength<lb/>
+Its colour &amp; its motion. Such are those<lb/>
+Amongst the generations of mankind<lb/>
+To whom the stream of thought descends from heaven<lb/>
+With all the force of reason &amp; the power<lb/>
+Of sacred genius - Through the world they pass<lb/>
+Still uncorrupted &amp; on what they take<lb/>
+From social life bestow a character<lb/>
+Of dignity Greater they become<lb/>
+But never lose their native dignity<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="59"
+                xml:id="pb-59"
+                facs="#i59"/>
+            <lb/>
+57<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="60"
+                xml:id="pb-60"
+                facs="#i60"/>
+            <lb/>
+{<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> Were fixed in every character<lb/>
+lovely dance<lb/>
+&amp; gallant<lb/>
+knights<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">mingled in the dance,</del>
+            <lb/>
+Tripped gaily in the dance<lb/>
+And <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">She</unclear> was Queen<lb/>
+Irish Mistress of the Ocean<lb/>
+She who broke<lb/>
+The <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">spanish</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Roman</add> Yoke &amp; scattered<lb/>
+on the waves<lb/>
+The invincible Armada<lb/>
+Great the<lb/>
+change}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="61"
+                xml:id="pb-61"
+                facs="#i61"/>
+            <lb/>
+59<lb/>
+{Two thousand crescent moons<lb/>
+have scarce <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">been</del>
+            <lb/>
+appeared <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del>
+            <lb/>
+Twice though dark walls resounded<lb/>
+to the noise<lb/>
+Of song and music and the laughing<lb/>
+voice<lb/>
+Of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxx</unclear>
+            </del> revelry, &amp; Royal was<lb/>
+the feast<lb/>
+The lance &amp; target then<lb/>
+were bright<lb/>
+brilliant was &amp; gay<lb/>
+And <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">beautiful</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"/> the cuirass -<lb/>
+Chairs of state}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="62"
+                xml:id="pb-62"
+                facs="#i62"/>
+            <lb/>
+{Blended the sterness of the<lb/>
+patriot mind<lb/>
+-: A noble race is gone<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>to the</unclear>
+            </del> The scathed<lb/>
+oak<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Whose ruins</del>
+            <lb/>
+Whose hollow ruins stand<lb/>
+on yonder hill<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Such are the poor remains</del>
+            <lb/>
+Affords an emblem of<lb/>
+Their poor remains -}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="63"
+                xml:id="pb-63"
+                facs="#i63"/>
+            <lb/>
+61<lb/>
+{And to the warlike temper of<lb/>
+the age;<lb/>
+Gave softness &amp; the charms<lb/>
+of social life<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag21"
+                ref="#person_576"
+                type="person">
+               <name xml:id="tag21" type="person">
+          Sidney
+        </name>
+            </rs> the Hero, poet &amp; the Sage<lb/>
+Here nursed his noble knights<lb/>
+Here lisped<lb/>
+In pastoral numbers<lb/>
+To the dreams <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">of love</add>
+            <lb/>
+Gave the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">high</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">secret</add> charm of<lb/>
+sentiment &amp; thought<lb/>
+And with the noble tone<lb/>
+ of chivalry}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="64"
+                xml:id="pb-64"
+                facs="#i64"/>
+            <lb/>
+{Penshurst<lb/>
+Pencester March <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">3</unclear>
+            <lb/>
+1811 -<lb/>
+Though thy deserted chambers<lb/>
+I have walked<lb/>
+Musing on elder times<lb/>
+cheering my mind<lb/>
+By memories of the great &amp; noble<lb/>
+dead.<lb/>
+Within thy walls, the first high<lb/>
+. spirits<lb/>
+breathed<lb/>
+Who through the darkness of<lb/>
+the feudal times;<lb/>
+Threw the bright light<lb/>
+of letters &amp; of Arts}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="65"
+                xml:id="pb-65"
+                facs="#i65"/>
+            <lb/>
+63<lb/>
+{- As yet the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">spring</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">young</del> spring</add> is young. Her <lb/>
+purple tint<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Is</unclear> scarcely visible; The stormy <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">winds</unclear>
+            <lb/>
+In many an eddy whilts the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">scattered</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear> brown</del> leaves,<lb/>
+The last <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>sad</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <unclear>&amp;</unclear> dark</add> ruins of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">another</del> ye<lb/>
+a former year.<lb/>
+The sky is deeply clouded<lb/>
+Natures <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">tenets</unclear>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Is</del>Are fitted to the scene.<lb/>
+Thy turrets<lb/>
+rise<lb/>
+O Pencester in melancholy hues}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="66"
+                xml:id="pb-66"
+                facs="#i66"/>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag22"
+                ref="#nonenglish_108"
+                type="nonenglish">
+               <term xml:id="tag22">
+          Quo fata vocant
+        </term>
+            </rs>
+            <lb/>
+{In the remembrance of the<lb/>
+elder time ,<lb/>
+There is a use &amp; fitness<lb/>
+Mighty deeds<lb/>
+And generous actions}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="67"
+                xml:id="pb-67"
+                facs="#i67"/>
+            <lb/>
+65<lb/>
+Pencester<lb/>
+1585<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="68"
+                xml:id="pb-68"
+                facs="#i68"/>
+            <lb/>
+{in the spray<lb/>
+Of mighty waters<lb/>
+We would <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">safe</unclear>
+            <lb/>
+The noble <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>writer</unclear>
+            </del>
+            <lb/>
+from the grave.}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="69"
+                xml:id="pb-69"
+                facs="#i69"/>
+            <lb/>
+67<lb/>
+{- When the wild storm <lb/>
+majestic<lb/>
+Rides in the<lb/>
+White bosom of<lb/>
+the tides ;<lb/>
+We in the <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">mighty</unclear>
+            <lb/>
+foam would<lb/>
+Play<lb/>
+Our dwelling should be}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="70"
+                xml:id="pb-70"
+                facs="#i70"/>
+            <lb/>
+Haunt lovely<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Mingle in</del> Times <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>transp</unclear>
+            </del>
+            <lb/>
+Transparent<lb/>
+leaves,<lb/>
+Her moss grown rocks<lb/>
+&amp; silent caves,<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="71"
+                xml:id="pb-71"
+                facs="#i71"/>
+            <lb/>
+69<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>We'd visit then that</unclear>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">pastoral vale</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Bounded by <unclear>clovers Helmet</unclear>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">pale</del>
+            <lb/>
+Then on the South<lb/>
+breeze we would<lb/>
+sail.<lb/>
+To <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Downtres</unclear> tranquil<lb/>
+pastoral vale<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="72"
+                xml:id="pb-72"
+                facs="#i72"/>
+            <lb/>
+{- Or we would haunt<lb/>
+that silent lake<lb/>
+And we a resting place<lb/>
+would make<lb/>
+On that high cliff above<lb/>
+the lake<lb/>
+The shaggy moss upon whose<lb/>
+brest<lb/>
+Was ne'er by human foot imprest}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="73"
+                xml:id="pb-73"
+                facs="#i73"/>
+            <lb/>
+71<lb/>
+{-When plants &amp; flowers<lb/>
+blossom round<lb/>
+And <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">music</unclear> moves in every<lb/>
+sound<lb/>
+- Of mountain streams<lb/>
+&amp; melodies<lb/>
+From every brake &amp;<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">covet</unclear> rise<lb/>
+When Nature <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">owns</unclear> the<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">genial</unclear> powers<lb/>
+Of Sunbeams, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag23"
+                ref="#misc_556"
+                type="miscellaneous">
+               <term xml:id="tag23">
+          Zephyrs
+        </term>
+            </rs> vernal<lb/>
+Showers}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="74"
+                xml:id="pb-74"
+                facs="#i74"/>
+            <lb/>
+{<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag24" ref="#nonenglish_367" type="nonenglish">
+                  <term xml:id="tag24">
+          Spes fracta
+        </term>
+               </rs>
+            </hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag25"
+                ref="#nonenglish_368"
+                type="nonenglish">
+               <term xml:id="tag25">
+          Spes irrita Matris
+        </term>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag26"
+                ref="#nonenglish_369"
+                type="nonenglish">
+               <term xml:id="tag26">
+          Si mundus pulcher
+        </term>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag27"
+                ref="#nonenglish_369"
+                type="nonenglish">
+               <term xml:id="tag27">
+          Qualis Artifex
+        </term>
+            </rs>.<lb/>
+            <milestone xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                       unit="section"
+                       rend="line"/>}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="75"
+                xml:id="pb-75"
+                facs="#i75"/>
+            <lb/>
+73<lb/>
+{<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">To destroy</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">All selfishness, To <unclear>raise</unclear> the </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">aspiring Mind</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Of Man . to all of heaven</del>
+            <lb/>
+Ennobling passion <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to the <unclear>xxxxx</unclear>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx xxxxxxx</unclear>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Of <unclear>reason</unclear>
+            </del>: &amp; creating thought<lb/>
+Such was the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">lovely</add> model; Such<lb/>
+art; Thou. -}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="76"
+                xml:id="pb-76"
+                facs="#i76"/>
+            <lb/>
+{<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">To destroy all selfish</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">feeling-</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">All</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">All selfish feelings;</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">To exalt, the sense</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">To forget</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">To create.</del>
+            <lb/>
+-.<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear> The eternal aspiration</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">for the good, The Beautiful</del>}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="77"
+                xml:id="pb-77"
+                facs="#i77"/>
+            <lb/>
+75<lb/>
+{A <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">being</unclear> made to comfort<lb/>
+&amp; to cheer -<lb/>
+To waken rapture and to glad<lb/>
+the heart<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">To noble sentiments</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to kindle thoughts</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- To <unclear>cloathe</unclear> all thought</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">In <unclear>parting passion</unclear>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to destroy</del>}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="78"
+                xml:id="pb-78"
+                facs="#i78"/>
+            <lb/>
+{Woman was formed in frame<lb/>
+most exquisite<lb/>
+Attuned to sensibility &amp; love<lb/>
+- Rich in all charms of colour<lb/>
+figure, grace-<lb/>
+And sweet expression<lb/>
+. Giving to the eye.<lb/>
+The varying brilliancy of<lb/>
+smiles, &amp; tears<lb/>
+Tinting the . cheek with<lb/>
+hues of timid hope.}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="79"
+                xml:id="pb-79"
+                facs="#i79"/>
+            <lb/>
+77<lb/>
+{Or when a single star <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear>
+            </del>
+            <lb/>
+seen}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="80"
+                xml:id="pb-80"
+                facs="#i80"/>
+            <lb/>
+{Rich in all charms<lb/>
+of colours figure &amp; grace<lb/>
+And sweet expression<lb/>
+The <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">lovely</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">beauteous</add> living lamp of <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">even</unclear>
+            <lb/>
+I <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">hail</unclear> thy chaste &amp; tranquil<lb/>
+light<lb/>
+A star thou seemest<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">that from <unclear>heaven</unclear>
+            </del>}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="81"
+                xml:id="pb-81"
+                facs="#i81"/>
+            <lb/>
+79<lb/>
+Where should we <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">search</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">seek</add> our<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">First</unclear> abode.<lb/>
+It would be by a mountain road.<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Or where the <rs xml:id="ttag28" ref="#place_177" type="place">
+                  <name xml:id="tag28" type="place">
+          Andes
+        </name>
+               </rs>
+               <unclear>great forms</unclear>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Above the tempest &amp; the</del>
+            <lb/>
+Or where the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag29"
+                ref="#place_177"
+                type="place">
+               <name xml:id="tag29" type="place">
+          Andes
+        </name>
+            </rs> rise on high<lb/>
+Amidst the blue unclouded sky,<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Above the clouds for ever bright</del>
+            <lb/>
+Within the clouds of morning<lb/>
+bright<lb/>
+The purple shine of natures<lb/>
+light<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="82"
+                xml:id="pb-82"
+                facs="#i82"/>
+            <lb/>
+Oh could our spirits winged with flame<lb/>
+For sake their earth born chilly frame<lb/>
+And Yet <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>carry all</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">preserve</add> the thoughts that move<lb/>
+To Knowledge wisdom Hope &amp; love<lb/>
+The ardent wish the strong desire<lb/>
+That burns for ever to aspire<lb/>
+The untamed feelings proud &amp; high<lb/>
+That thirst for immortality<lb/>
+Ah then how blissful would it be<lb/>
+To traverse nature's realm with thee<lb/>
+To view the - <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">forms</unclear> to Nature<lb/>
+the earth, in ocean &amp; <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">given</add> in heaven,<lb/>
+To trace the laws, of power<lb/>
+divine<lb/>
+And own the eternal great design-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="83"
+                xml:id="pb-83"
+                facs="#i83"/>
+            <lb/>
+[Pencil sketch, perhaps of apparatus, labelled N P N P N P N P]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="84"
+                xml:id="pb-84"
+                facs="#i84"/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

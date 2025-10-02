@@ -1,0 +1,1539 @@
+{
+  "notebook_title": "Notebook 20B (T1, 2021)",
+  "consensus_book": "chemistry",
+  "unknown": {
+    "Chemistry": 0.571,
+    "Other (anything that doesn't fit into the other categories!)": 0.429,
+    "page_consensus": "chemistry"
+  },
+  "001": {
+    "Agriculture": 0.45,
+    "Other (anything that doesn't fit into the other categories!)": 0.35,
+    "Chemistry": 0.1,
+    "Electrochemistry": 0.05,
+    "Medicine": 0.05,
+    "page_consensus": "agriculture"
+  },
+  "1": {
+    "Mathematics": 0.36,
+    "Chemistry": 0.56,
+    "Lecture notes": 0.08,
+    "page_consensus": "chemistry"
+  },
+  "002": {
+    "Other (anything that doesn't fit into the other categories!)": 1.0,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "2": {
+    "Mathematics": 0.842,
+    "Other (anything that doesn't fit into the other categories!)": 0.105,
+    "Chemistry": 0.053,
+    "page_consensus": "mathematics"
+  },
+  "003": {
+    "Electrochemistry": 0.273,
+    "Other electric (static, electromagnetism, etc.)": 0.545,
+    "Chemistry": 0.091,
+    "Other (anything that doesn't fit into the other categories!)": 0.091,
+    "page_consensus": "other electric (static, electromagnetism, etc.)"
+  },
+  "004": {
+    "Electrochemistry": 0.167,
+    "Chemistry": 0.222,
+    "Other electric (static, electromagnetism, etc.)": 0.222,
+    "Medicine": 0.111,
+    "Lecture notes": 0.056,
+    "Other (anything that doesn't fit into the other categories!)": 0.222,
+    "page_consensus": "chemistry"
+  },
+  "005": {
+    "Chemistry": 0.667,
+    "Electrochemistry": 0.111,
+    "Other electric (static, electromagnetism, etc.)": 0.056,
+    "Other (anything that doesn't fit into the other categories!)": 0.111,
+    "Medicine": 0.056,
+    "page_consensus": "chemistry"
+  },
+  "006": {
+    "Other electric (static, electromagnetism, etc.)": 0.071,
+    "Chemistry": 0.571,
+    "Electrochemistry": 0.071,
+    "Agriculture": 0.143,
+    "Geology": 0.071,
+    "Other (anything that doesn't fit into the other categories!)": 0.071,
+    "page_consensus": "chemistry"
+  },
+  "007": {
+    "Agriculture": 0.476,
+    "Chemistry": 0.429,
+    "Other (anything that doesn't fit into the other categories!)": 0.095,
+    "page_consensus": "agriculture"
+  },
+  "008": {
+    "Agriculture": 0.4,
+    "Chemistry": 0.3,
+    "Other (anything that doesn't fit into the other categories!)": 0.267,
+    "Poetry": 0.033,
+    "page_consensus": "agriculture"
+  },
+  "009": {
+    "Chemistry": 0.571,
+    "Agriculture": 0.286,
+    "Other (anything that doesn't fit into the other categories!)": 0.143,
+    "page_consensus": "chemistry"
+  },
+  "010": {
+    "Chemistry": 0.5,
+    "Agriculture": 0.136,
+    "Other electric (static, electromagnetism, etc.)": 0.091,
+    "Other (anything that doesn't fit into the other categories!)": 0.091,
+    "Geology": 0.045,
+    "Refers to other writers/their works": 0.136,
+    "page_consensus": "chemistry"
+  },
+  "011": {
+    "Philosophy": 0.067,
+    "Medicine": 0.867,
+    "Lecture notes": 0.067,
+    "page_consensus": "medicine"
+  },
+  "012": {
+    "Philosophy": 0.226,
+    "Medicine": 0.677,
+    "Lecture notes": 0.097,
+    "page_consensus": "medicine"
+  },
+  "013": {
+    "Medicine": 0.455,
+    "Philosophy": 0.318,
+    "Lecture notes": 0.182,
+    "Refers to other writers/their works": 0.045,
+    "page_consensus": "medicine"
+  },
+  "014": {
+    "Medicine": 0.467,
+    "Lecture notes": 0.133,
+    "Chemistry": 0.167,
+    "Other (anything that doesn't fit into the other categories!)": 0.1,
+    "Other electric (static, electromagnetism, etc.)": 0.033,
+    "Philosophy": 0.033,
+    "Electrochemistry": 0.067,
+    "page_consensus": "medicine"
+  },
+  "015": {
+    "Medicine": 0.625,
+    "Lecture notes": 0.062,
+    "Chemistry": 0.25,
+    "Refers to other writers/their works": 0.062,
+    "page_consensus": "medicine"
+  },
+  "016": {
+    "Lecture notes": 0.143,
+    "Medicine": 0.571,
+    "Chemistry": 0.286,
+    "page_consensus": "medicine"
+  },
+  "017": {
+    "Chemistry": 1.0,
+    "page_consensus": "chemistry"
+  },
+  "018": {
+    "Other (anything that doesn't fit into the other categories!)": 1.0,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "019": {
+    "Chemistry": 1.0,
+    "page_consensus": "chemistry"
+  },
+  "020": {
+    "Chemistry": 1.0,
+    "page_consensus": "chemistry"
+  },
+  "021": {
+    "Chemistry": 1.0,
+    "page_consensus": "chemistry"
+  },
+  "022": {
+    "Chemistry": 1.0,
+    "page_consensus": "chemistry"
+  },
+  "023": {
+    "Chemistry": 0.909,
+    "Mathematics": 0.091,
+    "page_consensus": "chemistry"
+  },
+  "024": {
+    "Other (anything that doesn't fit into the other categories!)": 1.0,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "025": {
+    "Chemistry": 0.909,
+    "Mathematics": 0.091,
+    "page_consensus": "chemistry"
+  },
+  "026": {
+    "Other (anything that doesn't fit into the other categories!)": 1.0,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "027": {
+    "Chemistry": 0.643,
+    "Electrochemistry": 0.071,
+    "Lecture notes": 0.143,
+    "Other (anything that doesn't fit into the other categories!)": 0.071,
+    "Other electric (static, electromagnetism, etc.)": 0.071,
+    "page_consensus": "chemistry"
+  },
+  "028": {
+    "Chemistry": 0.917,
+    "Lecture notes": 0.083,
+    "page_consensus": "chemistry"
+  },
+  "029": {
+    "Chemistry": 0.857,
+    "Lecture notes": 0.143,
+    "page_consensus": "chemistry"
+  },
+  "030": {
+    "Chemistry": 0.3,
+    "Philosophy": 0.4,
+    "Lecture notes": 0.2,
+    "Other (anything that doesn't fit into the other categories!)": 0.1,
+    "page_consensus": "philosophy"
+  },
+  "031": {
+    "Philosophy": 0.706,
+    "Lecture notes": 0.235,
+    "Chemistry": 0.059,
+    "page_consensus": "philosophy"
+  },
+  "032": {
+    "Chemistry": 0.818,
+    "Lecture notes": 0.182,
+    "page_consensus": "chemistry"
+  },
+  "033": {
+    "Chemistry": 0.667,
+    "Lecture notes": 0.25,
+    "Refers to other writers/their works": 0.083,
+    "page_consensus": "chemistry"
+  },
+  "034": {
+    "Chemistry": 0.667,
+    "Other (anything that doesn't fit into the other categories!)": 0.222,
+    "Lecture notes": 0.111,
+    "page_consensus": "chemistry"
+  },
+  "035": {
+    "Chemistry": 0.933,
+    "Lecture notes": 0.067,
+    "page_consensus": "chemistry"
+  },
+  "036": {
+    "Chemistry": 0.905,
+    "Lecture notes": 0.048,
+    "Other (anything that doesn't fit into the other categories!)": 0.048,
+    "page_consensus": "chemistry"
+  },
+  "037": {
+    "Medicine": 0.333,
+    "Philosophy": 0.25,
+    "Other (anything that doesn't fit into the other categories!)": 0.125,
+    "Chemistry": 0.125,
+    "Lecture notes": 0.167,
+    "page_consensus": "medicine"
+  },
+  "038": {
+    "Medicine": 0.429,
+    "Philosophy": 0.214,
+    "Other (anything that doesn't fit into the other categories!)": 0.143,
+    "Chemistry": 0.071,
+    "Lecture notes": 0.143,
+    "page_consensus": "medicine"
+  },
+  "039": {
+    "Medicine": 0.75,
+    "Lecture notes": 0.083,
+    "Other (anything that doesn't fit into the other categories!)": 0.167,
+    "page_consensus": "medicine"
+  },
+  "040": {
+    "Medicine": 0.538,
+    "Chemistry": 0.231,
+    "Lecture notes": 0.077,
+    "Other (anything that doesn't fit into the other categories!)": 0.077,
+    "Agriculture": 0.077,
+    "page_consensus": "medicine"
+  },
+  "041": {
+    "Chemistry": 0.833,
+    "Lecture notes": 0.167,
+    "page_consensus": "chemistry"
+  },
+  "042": {
+    "Chemistry": 0.846,
+    "Lecture notes": 0.154,
+    "page_consensus": "chemistry"
+  },
+  "043": {
+    "Chemistry": 0.818,
+    "Lecture notes": 0.182,
+    "page_consensus": "chemistry"
+  },
+  "044": {
+    "Other (anything that doesn't fit into the other categories!)": 1.0,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "045": {
+    "Chemistry": 0.5,
+    "Refers to other writers/their works": 0.125,
+    "Philosophy": 0.125,
+    "Lecture notes": 0.125,
+    "Geology": 0.062,
+    "Medicine": 0.062,
+    "page_consensus": "chemistry"
+  },
+  "046": {
+    "Chemistry": 0.833,
+    "Refers to other writers/their works": 0.167,
+    "page_consensus": "chemistry"
+  },
+  "047": {
+    "Medicine": 0.077,
+    "Chemistry": 0.731,
+    "Lecture notes": 0.077,
+    "Refers to other writers/their works": 0.077,
+    "Electrochemistry": 0.038,
+    "page_consensus": "chemistry"
+  },
+  "048": {
+    "Chemistry": 0.8,
+    "Refers to other writers/their works": 0.1,
+    "Lecture notes": 0.05,
+    "Medicine": 0.05,
+    "page_consensus": "chemistry"
+  },
+  "049": {
+    "Chemistry": 0.857,
+    "Medicine": 0.071,
+    "Lecture notes": 0.071,
+    "page_consensus": "chemistry"
+  },
+  "050": {
+    "Chemistry": 0.818,
+    "Lecture notes": 0.182,
+    "page_consensus": "chemistry"
+  },
+  "051": {
+    "Chemistry": 0.833,
+    "Lecture notes": 0.083,
+    "Electrochemistry": 0.083,
+    "page_consensus": "chemistry"
+  },
+  "052": {
+    "Chemistry": 0.846,
+    "Medicine": 0.038,
+    "Lecture notes": 0.077,
+    "Geology": 0.038,
+    "page_consensus": "chemistry"
+  },
+  "053": {
+    "Chemistry": 0.826,
+    "Agriculture": 0.087,
+    "Lecture notes": 0.043,
+    "Electrochemistry": 0.043,
+    "page_consensus": "chemistry"
+  },
+  "054": {
+    "Chemistry": 0.923,
+    "Lecture notes": 0.038,
+    "Electrochemistry": 0.038,
+    "page_consensus": "chemistry"
+  },
+  "055": {
+    "Chemistry": 0.957,
+    "Lecture notes": 0.043,
+    "page_consensus": "chemistry"
+  },
+  "056": {
+    "Chemistry": 0.913,
+    "Electrochemistry": 0.043,
+    "Lecture notes": 0.043,
+    "page_consensus": "chemistry"
+  },
+  "057": {
+    "Agriculture": 0.143,
+    "Chemistry": 0.786,
+    "Lecture notes": 0.071,
+    "page_consensus": "chemistry"
+  },
+  "058": {
+    "Chemistry": 0.824,
+    "Agriculture": 0.059,
+    "Lecture notes": 0.118,
+    "page_consensus": "chemistry"
+  },
+  "059": {
+    "Chemistry": 0.75,
+    "Agriculture": 0.167,
+    "Lecture notes": 0.083,
+    "page_consensus": "chemistry"
+  },
+  "060": {
+    "Chemistry": 0.8,
+    "Electrochemistry": 0.1,
+    "Lecture notes": 0.1,
+    "page_consensus": "chemistry"
+  },
+  "061": {
+    "Chemistry": 0.833,
+    "Agriculture": 0.083,
+    "Lecture notes": 0.083,
+    "page_consensus": "chemistry"
+  },
+  "062": {
+    "Chemistry": 0.9,
+    "Lecture notes": 0.1,
+    "page_consensus": "chemistry"
+  },
+  "063": {
+    "Chemistry": 0.909,
+    "Lecture notes": 0.091,
+    "page_consensus": "chemistry"
+  },
+  "064": {
+    "Chemistry": 0.923,
+    "Lecture notes": 0.077,
+    "page_consensus": "chemistry"
+  },
+  "065": {
+    "Chemistry": 0.895,
+    "Agriculture": 0.053,
+    "Lecture notes": 0.053,
+    "page_consensus": "chemistry"
+  },
+  "066": {
+    "Chemistry": 0.8,
+    "Electrochemistry": 0.067,
+    "Lecture notes": 0.133,
+    "page_consensus": "chemistry"
+  },
+  "067": {
+    "Chemistry": 0.833,
+    "Lecture notes": 0.167,
+    "page_consensus": "chemistry"
+  },
+  "068": {
+    "Chemistry": 0.923,
+    "Lecture notes": 0.077,
+    "page_consensus": "chemistry"
+  },
+  "069": {
+    "Chemistry": 0.923,
+    "Lecture notes": 0.077,
+    "page_consensus": "chemistry"
+  },
+  "070": {
+    "Chemistry": 0.867,
+    "Lecture notes": 0.133,
+    "page_consensus": "chemistry"
+  },
+  "071": {
+    "Chemistry": 0.952,
+    "Lecture notes": 0.048,
+    "page_consensus": "chemistry"
+  },
+  "072": {
+    "Chemistry": 0.905,
+    "Lecture notes": 0.048,
+    "Electrochemistry": 0.048,
+    "page_consensus": "chemistry"
+  },
+  "073": {
+    "Chemistry": 0.882,
+    "Lecture notes": 0.118,
+    "page_consensus": "chemistry"
+  },
+  "074": {
+    "Chemistry": 0.64,
+    "Mathematics": 0.32,
+    "Lecture notes": 0.04,
+    "page_consensus": "chemistry"
+  },
+  "075": {
+    "Chemistry": 0.562,
+    "Mathematics": 0.25,
+    "Lecture notes": 0.062,
+    "Refers to other writers/their works": 0.062,
+    "Electrochemistry": 0.062,
+    "page_consensus": "chemistry"
+  },
+  "076": {
+    "Medicine": 0.043,
+    "Chemistry": 0.609,
+    "Mathematics": 0.217,
+    "Agriculture": 0.043,
+    "Lecture notes": 0.043,
+    "Geology": 0.043,
+    "page_consensus": "chemistry"
+  },
+  "077": {
+    "Chemistry": 0.7,
+    "Mathematics": 0.3,
+    "page_consensus": "chemistry"
+  },
+  "078": {
+    "Mathematics": 0.733,
+    "Other (anything that doesn't fit into the other categories!)": 0.067,
+    "Chemistry": 0.2,
+    "page_consensus": "mathematics"
+  },
+  "079": {
+    "Chemistry": 0.905,
+    "Lecture notes": 0.048,
+    "Geology": 0.048,
+    "page_consensus": "chemistry"
+  },
+  "080": {
+    "Chemistry": 0.55,
+    "Mathematics": 0.4,
+    "Lecture notes": 0.05,
+    "page_consensus": "chemistry"
+  },
+  "081": {
+    "Chemistry": 0.471,
+    "Mathematics": 0.471,
+    "Lecture notes": 0.059,
+    "page_consensus": "chemistry"
+  },
+  "082": {
+    "Mathematics": 0.538,
+    "Other (anything that doesn't fit into the other categories!)": 0.077,
+    "Chemistry": 0.308,
+    "Lecture notes": 0.077,
+    "page_consensus": "mathematics"
+  },
+  "083": {
+    "Mathematics": 0.444,
+    "Chemistry": 0.444,
+    "Lecture notes": 0.111,
+    "page_consensus": "mathematics"
+  },
+  "084": {
+    "Mathematics": 0.316,
+    "Chemistry": 0.526,
+    "Electrochemistry": 0.053,
+    "Lecture notes": 0.105,
+    "page_consensus": "chemistry"
+  },
+  "085": {
+    "Mathematics": 0.308,
+    "Chemistry": 0.462,
+    "Agriculture": 0.077,
+    "Lecture notes": 0.154,
+    "page_consensus": "chemistry"
+  },
+  "086": {
+    "Mathematics": 0.6,
+    "Chemistry": 0.3,
+    "Lecture notes": 0.1,
+    "page_consensus": "mathematics"
+  },
+  "087": {
+    "Chemistry": 0.467,
+    "Mathematics": 0.467,
+    "Lecture notes": 0.067,
+    "page_consensus": "chemistry"
+  },
+  "088": {
+    "Other (anything that doesn't fit into the other categories!)": 0.077,
+    "Chemistry": 0.385,
+    "Mathematics": 0.538,
+    "page_consensus": "mathematics"
+  },
+  "089": {
+    "Chemistry": 0.3,
+    "Mathematics": 0.7,
+    "page_consensus": "mathematics"
+  },
+  "090": {
+    "Chemistry": 0.75,
+    "Electrochemistry": 0.083,
+    "Lecture notes": 0.167,
+    "page_consensus": "chemistry"
+  },
+  "091": {
+    "Chemistry": 0.545,
+    "Philosophy": 0.182,
+    "Lecture notes": 0.182,
+    "Mathematics": 0.091,
+    "page_consensus": "chemistry"
+  },
+  "092": {
+    "Chemistry": 0.462,
+    "Philosophy": 0.231,
+    "Geology": 0.077,
+    "Refers to other writers/their works": 0.077,
+    "Lecture notes": 0.154,
+    "page_consensus": "chemistry"
+  },
+  "093": {
+    "Chemistry": 0.786,
+    "Refers to other writers/their works": 0.143,
+    "Lecture notes": 0.071,
+    "page_consensus": "chemistry"
+  },
+  "094": {
+    "Chemistry": 0.824,
+    "Electrochemistry": 0.059,
+    "Lecture notes": 0.118,
+    "page_consensus": "chemistry"
+  },
+  "095": {
+    "Chemistry": 0.5,
+    "Other (anything that doesn't fit into the other categories!)": 0.2,
+    "Medicine": 0.3,
+    "page_consensus": "chemistry"
+  },
+  "096": {
+    "Mathematics": 0.571,
+    "Other (anything that doesn't fit into the other categories!)": 0.143,
+    "Chemistry": 0.286,
+    "page_consensus": "mathematics"
+  },
+  "097": {
+    "Mathematics": 0.562,
+    "Chemistry": 0.375,
+    "Lecture notes": 0.062,
+    "page_consensus": "mathematics"
+  },
+  "098": {
+    "Mathematics": 0.833,
+    "Other (anything that doesn't fit into the other categories!)": 0.083,
+    "Chemistry": 0.083,
+    "page_consensus": "mathematics"
+  },
+  "099": {
+    "Mathematics": 0.625,
+    "Other (anything that doesn't fit into the other categories!)": 0.125,
+    "Chemistry": 0.25,
+    "page_consensus": "mathematics"
+  },
+  "100": {
+    "Refers to other writers/their works": 0.111,
+    "Chemistry": 0.667,
+    "Lecture notes": 0.222,
+    "page_consensus": "chemistry"
+  },
+  "101": {
+    "Mathematics": 0.875,
+    "Chemistry": 0.125,
+    "page_consensus": "mathematics"
+  },
+  "102": {
+    "Mathematics": 0.889,
+    "Other (anything that doesn't fit into the other categories!)": 0.056,
+    "Chemistry": 0.056,
+    "page_consensus": "mathematics"
+  },
+  "103": {
+    "Mathematics": 0.429,
+    "Chemistry": 0.536,
+    "Lecture notes": 0.036,
+    "page_consensus": "chemistry"
+  },
+  "104": {
+    "Mathematics": 0.278,
+    "Chemistry": 0.667,
+    "Lecture notes": 0.056,
+    "page_consensus": "chemistry"
+  },
+  "105": {
+    "Chemistry": 0.889,
+    "Lecture notes": 0.111,
+    "page_consensus": "chemistry"
+  },
+  "106": {
+    "Other (anything that doesn't fit into the other categories!)": 1.0,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "107": {
+    "Other (anything that doesn't fit into the other categories!)": 0.143,
+    "Lecture notes": 0.143,
+    "Poetry": 0.071,
+    "Philosophy": 0.286,
+    "Medicine": 0.143,
+    "Chemistry": 0.214,
+    "page_consensus": "philosophy"
+  },
+  "108": {
+    "Chemistry": 0.455,
+    "Refers to other writers/their works": 0.273,
+    "Lecture notes": 0.091,
+    "Philosophy": 0.182,
+    "page_consensus": "chemistry"
+  },
+  "109": {
+    "Medicine": 0.429,
+    "Chemistry": 0.381,
+    "Lecture notes": 0.048,
+    "Other (anything that doesn't fit into the other categories!)": 0.143,
+    "page_consensus": "medicine"
+  },
+  "110": {
+    "Chemistry": 0.5,
+    "Medicine": 0.375,
+    "Lecture notes": 0.125,
+    "page_consensus": "chemistry"
+  },
+  "111": {
+    "Chemistry": 0.462,
+    "Medicine": 0.231,
+    "Refers to other writers/their works": 0.154,
+    "Lecture notes": 0.077,
+    "Other (anything that doesn't fit into the other categories!)": 0.077,
+    "page_consensus": "chemistry"
+  },
+  "112": {
+    "Chemistry": 0.444,
+    "Medicine": 0.333,
+    "Lecture notes": 0.111,
+    "Refers to other writers/their works": 0.111,
+    "page_consensus": "chemistry"
+  },
+  "113": {
+    "Chemistry": 0.375,
+    "Medicine": 0.312,
+    "Lecture notes": 0.125,
+    "Other (anything that doesn't fit into the other categories!)": 0.125,
+    "Refers to other writers/their works": 0.062,
+    "page_consensus": "chemistry"
+  },
+  "114": {
+    "Chemistry": 0.4,
+    "Medicine": 0.3,
+    "Other (anything that doesn't fit into the other categories!)": 0.3,
+    "page_consensus": "chemistry"
+  },
+  "115": {
+    "Chemistry": 0.6,
+    "Medicine": 0.3,
+    "Other (anything that doesn't fit into the other categories!)": 0.1,
+    "page_consensus": "chemistry"
+  },
+  "116": {
+    "Chemistry": 0.5,
+    "Medicine": 0.4,
+    "Other (anything that doesn't fit into the other categories!)": 0.1,
+    "page_consensus": "chemistry"
+  },
+  "117": {
+    "Medicine": 0.538,
+    "Chemistry": 0.462,
+    "page_consensus": "medicine"
+  },
+  "118": {
+    "Medicine": 0.667,
+    "Chemistry": 0.333,
+    "page_consensus": "medicine"
+  },
+  "119": {
+    "Medicine": 0.571,
+    "Chemistry": 0.429,
+    "page_consensus": "medicine"
+  },
+  "120": {
+    "Chemistry": 0.267,
+    "Medicine": 0.467,
+    "Other (anything that doesn't fit into the other categories!)": 0.267,
+    "page_consensus": "medicine"
+  },
+  "121": {
+    "Chemistry": 0.364,
+    "Medicine": 0.455,
+    "Lecture notes": 0.091,
+    "Other (anything that doesn't fit into the other categories!)": 0.091,
+    "page_consensus": "medicine"
+  },
+  "122": {
+    "Chemistry": 0.333,
+    "Medicine": 0.667,
+    "page_consensus": "medicine"
+  },
+  "123": {
+    "Chemistry": 0.222,
+    "Medicine": 0.667,
+    "Poetry": 0.111,
+    "page_consensus": "medicine"
+  },
+  "124": {
+    "Chemistry": 0.286,
+    "Medicine": 0.714,
+    "page_consensus": "medicine"
+  },
+  "125": {
+    "Chemistry": 0.3,
+    "Medicine": 0.6,
+    "Electrochemistry": 0.1,
+    "page_consensus": "medicine"
+  },
+  "126": {
+    "Chemistry": 0.3,
+    "Mathematics": 0.1,
+    "Medicine": 0.4,
+    "Other (anything that doesn't fit into the other categories!)": 0.1,
+    "Electrochemistry": 0.1,
+    "page_consensus": "medicine"
+  },
+  "127": {
+    "Chemistry": 0.545,
+    "Medicine": 0.273,
+    "Other (anything that doesn't fit into the other categories!)": 0.091,
+    "Geology": 0.091,
+    "page_consensus": "chemistry"
+  },
+  "128": {
+    "Chemistry": 0.2,
+    "Medicine": 0.5,
+    "Other (anything that doesn't fit into the other categories!)": 0.2,
+    "Philosophy": 0.1,
+    "page_consensus": "medicine"
+  },
+  "129": {
+    "Medicine": 0.7,
+    "Chemistry": 0.2,
+    "Other (anything that doesn't fit into the other categories!)": 0.1,
+    "page_consensus": "medicine"
+  },
+  "130": {
+    "Medicine": 0.6,
+    "Chemistry": 0.3,
+    "Other (anything that doesn't fit into the other categories!)": 0.1,
+    "page_consensus": "medicine"
+  },
+  "131": {
+    "Medicine": 0.583,
+    "Chemistry": 0.167,
+    "Other (anything that doesn't fit into the other categories!)": 0.167,
+    "Agriculture": 0.083,
+    "page_consensus": "medicine"
+  },
+  "132": {
+    "Medicine": 0.625,
+    "Chemistry": 0.25,
+    "Other (anything that doesn't fit into the other categories!)": 0.125,
+    "page_consensus": "medicine"
+  },
+  "133": {
+    "Chemistry": 0.333,
+    "Medicine": 0.333,
+    "Philosophy": 0.222,
+    "Other (anything that doesn't fit into the other categories!)": 0.111,
+    "page_consensus": "chemistry"
+  },
+  "134": {
+    "Chemistry": 0.286,
+    "Medicine": 0.429,
+    "Philosophy": 0.143,
+    "Other (anything that doesn't fit into the other categories!)": 0.143,
+    "page_consensus": "medicine"
+  },
+  "135": {
+    "Chemistry": 0.286,
+    "Medicine": 0.429,
+    "Philosophy": 0.286,
+    "page_consensus": "medicine"
+  },
+  "136": {
+    "Chemistry": 0.467,
+    "Medicine": 0.267,
+    "Philosophy": 0.067,
+    "Other (anything that doesn't fit into the other categories!)": 0.2,
+    "page_consensus": "chemistry"
+  },
+  "137": {
+    "Medicine": 0.188,
+    "Chemistry": 0.625,
+    "Refers to other writers/their works": 0.188,
+    "page_consensus": "chemistry"
+  },
+  "138": {
+    "Chemistry": 0.7,
+    "Electrochemistry": 0.3,
+    "page_consensus": "chemistry"
+  },
+  "139": {
+    "Philosophy": 0.188,
+    "Electrochemistry": 0.188,
+    "Chemistry": 0.312,
+    "Other (anything that doesn't fit into the other categories!)": 0.125,
+    "Refers to other writers/their works": 0.062,
+    "Lecture notes": 0.062,
+    "Other electric (static, electromagnetism, etc.)": 0.062,
+    "page_consensus": "chemistry"
+  },
+  "140": {
+    "Philosophy": 0.167,
+    "Chemistry": 0.417,
+    "Electrochemistry": 0.25,
+    "Other electric (static, electromagnetism, etc.)": 0.083,
+    "Astronomy": 0.083,
+    "page_consensus": "chemistry"
+  },
+  "141": {
+    "Philosophy": 0.133,
+    "Electrochemistry": 0.267,
+    "Chemistry": 0.467,
+    "Lecture notes": 0.133,
+    "page_consensus": "chemistry"
+  },
+  "142": {
+    "Electrochemistry": 0.231,
+    "Chemistry": 0.538,
+    "Refers to other writers/their works": 0.077,
+    "Philosophy": 0.077,
+    "Lecture notes": 0.077,
+    "page_consensus": "chemistry"
+  },
+  "143": {
+    "Refers to other writers/their works": 0.25,
+    "Chemistry": 0.417,
+    "Electrochemistry": 0.083,
+    "Philosophy": 0.083,
+    "Astronomy": 0.083,
+    "Lecture notes": 0.083,
+    "page_consensus": "chemistry"
+  },
+  "144": {
+    "Philosophy": 0.111,
+    "Electrochemistry": 0.333,
+    "Lecture notes": 0.111,
+    "Refers to other writers/their works": 0.111,
+    "Chemistry": 0.333,
+    "page_consensus": "electrochemistry"
+  },
+  "145": {
+    "Chemistry": 0.692,
+    "Philosophy": 0.154,
+    "Lecture notes": 0.077,
+    "Electrochemistry": 0.077,
+    "page_consensus": "chemistry"
+  },
+  "146": {
+    "Chemistry": 0.857,
+    "Electrochemistry": 0.143,
+    "page_consensus": "chemistry"
+  },
+  "147": {
+    "Chemistry": 0.727,
+    "Electrochemistry": 0.182,
+    "Other (anything that doesn't fit into the other categories!)": 0.091,
+    "page_consensus": "chemistry"
+  },
+  "148": {
+    "Philosophy": 0.111,
+    "Electrochemistry": 0.222,
+    "Chemistry": 0.667,
+    "page_consensus": "chemistry"
+  },
+  "149": {
+    "Philosophy": 0.091,
+    "Electrochemistry": 0.273,
+    "Chemistry": 0.455,
+    "Lecture notes": 0.091,
+    "Other electric (static, electromagnetism, etc.)": 0.091,
+    "page_consensus": "chemistry"
+  },
+  "150": {
+    "Lecture notes": 0.1,
+    "Other (anything that doesn't fit into the other categories!)": 0.9,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "151": {
+    "Medicine": 0.5,
+    "Chemistry": 0.417,
+    "Poetry": 0.083,
+    "page_consensus": "medicine"
+  },
+  "152": {
+    "Medicine": 0.4,
+    "Chemistry": 0.5,
+    "Refers to other writers/their works": 0.1,
+    "page_consensus": "chemistry"
+  },
+  "153": {
+    "Medicine": 0.4,
+    "Poetry": 0.1,
+    "Chemistry": 0.4,
+    "Other (anything that doesn't fit into the other categories!)": 0.1,
+    "page_consensus": "medicine"
+  },
+  "154": {
+    "Refers to other writers/their works": 0.188,
+    "Medicine": 0.312,
+    "Poetry": 0.125,
+    "Chemistry": 0.25,
+    "Other (anything that doesn't fit into the other categories!)": 0.125,
+    "page_consensus": "medicine"
+  },
+  "155": {
+    "Medicine": 0.538,
+    "Chemistry": 0.462,
+    "page_consensus": "medicine"
+  },
+  "156": {
+    "Medicine": 0.538,
+    "Chemistry": 0.231,
+    "Mathematics": 0.077,
+    "Other (anything that doesn't fit into the other categories!)": 0.154,
+    "page_consensus": "medicine"
+  },
+  "157": {
+    "Medicine": 0.545,
+    "Chemistry": 0.455,
+    "page_consensus": "medicine"
+  },
+  "158": {
+    "Medicine": 0.3,
+    "Other (anything that doesn't fit into the other categories!)": 0.2,
+    "Lecture notes": 0.1,
+    "Chemistry": 0.3,
+    "Philosophy": 0.1,
+    "page_consensus": "medicine"
+  },
+  "159": {
+    "Philosophy": 0.714,
+    "Medicine": 0.143,
+    "Other (anything that doesn't fit into the other categories!)": 0.143,
+    "page_consensus": "philosophy"
+  },
+  "160": {
+    "Medicine": 0.533,
+    "Philosophy": 0.067,
+    "Chemistry": 0.133,
+    "Other (anything that doesn't fit into the other categories!)": 0.267,
+    "page_consensus": "medicine"
+  },
+  "161": {
+    "Medicine": 0.5,
+    "Other (anything that doesn't fit into the other categories!)": 0.333,
+    "Philosophy": 0.167,
+    "page_consensus": "medicine"
+  },
+  "162": {
+    "Medicine": 0.357,
+    "Philosophy": 0.357,
+    "Other (anything that doesn't fit into the other categories!)": 0.214,
+    "Lecture notes": 0.071,
+    "page_consensus": "medicine"
+  },
+  "163": {
+    "Medicine": 0.462,
+    "Philosophy": 0.154,
+    "Other (anything that doesn't fit into the other categories!)": 0.231,
+    "Chemistry": 0.154,
+    "page_consensus": "medicine"
+  },
+  "164": {
+    "Other (anything that doesn't fit into the other categories!)": 1.0,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "165": {
+    "Other (anything that doesn't fit into the other categories!)": 1.0,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "166": {
+    "Other (anything that doesn't fit into the other categories!)": 1.0,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "167": {
+    "Other (anything that doesn't fit into the other categories!)": 1.0,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "168": {
+    "Medicine": 0.2,
+    "Chemistry": 0.6,
+    "Lecture notes": 0.04,
+    "Other (anything that doesn't fit into the other categories!)": 0.12,
+    "Philosophy": 0.04,
+    "page_consensus": "chemistry"
+  },
+  "169": {
+    "Medicine": 0.385,
+    "Chemistry": 0.538,
+    "Lecture notes": 0.077,
+    "page_consensus": "chemistry"
+  },
+  "170": {
+    "Chemistry": 0.583,
+    "Electrochemistry": 0.167,
+    "Other (anything that doesn't fit into the other categories!)": 0.25,
+    "page_consensus": "chemistry"
+  },
+  "171": {
+    "Chemistry": 0.438,
+    "Electrochemistry": 0.094,
+    "Other (anything that doesn't fit into the other categories!)": 0.156,
+    "Medicine": 0.031,
+    "Other electric (static, electromagnetism, etc.)": 0.031,
+    "Lecture notes": 0.031,
+    "Refers to other writers/their works": 0.188,
+    "Philosophy": 0.031,
+    "page_consensus": "chemistry"
+  },
+  "172": {
+    "Chemistry": 0.8,
+    "Electrochemistry": 0.1,
+    "Other (anything that doesn't fit into the other categories!)": 0.1,
+    "page_consensus": "chemistry"
+  },
+  "173": {
+    "Electrochemistry": 0.211,
+    "Refers to other writers/their works": 0.263,
+    "Chemistry": 0.421,
+    "Other electric (static, electromagnetism, etc.)": 0.053,
+    "Other (anything that doesn't fit into the other categories!)": 0.053,
+    "page_consensus": "chemistry"
+  },
+  "174": {
+    "Other electric (static, electromagnetism, etc.)": 0.1,
+    "Refers to other writers/their works": 0.2,
+    "Chemistry": 0.4,
+    "Electrochemistry": 0.2,
+    "Other (anything that doesn't fit into the other categories!)": 0.1,
+    "page_consensus": "chemistry"
+  },
+  "175": {
+    "Other (anything that doesn't fit into the other categories!)": 1.0,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "176": {
+    "Other (anything that doesn't fit into the other categories!)": 0.417,
+    "Mathematics": 0.542,
+    "Other electric (static, electromagnetism, etc.)": 0.042,
+    "page_consensus": "mathematics"
+  },
+  "177": {
+    "Other (anything that doesn't fit into the other categories!)": 0.222,
+    "Chemistry": 0.444,
+    "Medicine": 0.333,
+    "page_consensus": "chemistry"
+  },
+  "178": {
+    "Other (anything that doesn't fit into the other categories!)": 1.0,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "179": {
+    "Other (anything that doesn't fit into the other categories!)": 1.0,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "180": {
+    "Philosophy": 0.086,
+    "Chemistry": 0.4,
+    "Mathematics": 0.314,
+    "Other (anything that doesn't fit into the other categories!)": 0.171,
+    "Poetry": 0.029,
+    "page_consensus": "chemistry"
+  },
+  "181": {
+    "Philosophy": 0.414,
+    "Medicine": 0.103,
+    "Mathematics": 0.276,
+    "Chemistry": 0.034,
+    "Refers to other writers/their works": 0.103,
+    "Other (anything that doesn't fit into the other categories!)": 0.034,
+    "Lecture notes": 0.034,
+    "page_consensus": "philosophy"
+  },
+  "182": {
+    "Chemistry": 0.389,
+    "Medicine": 0.278,
+    "Other electric (static, electromagnetism, etc.)": 0.056,
+    "Poetry": 0.056,
+    "Refers to other writers/their works": 0.111,
+    "Other (anything that doesn't fit into the other categories!)": 0.111,
+    "page_consensus": "chemistry"
+  },
+  "183": {
+    "Other (anything that doesn't fit into the other categories!)": 0.364,
+    "Chemistry": 0.455,
+    "Electrochemistry": 0.091,
+    "Lecture notes": 0.091,
+    "page_consensus": "chemistry"
+  },
+  "184": {
+    "Chemistry": 0.875,
+    "Poetry": 0.062,
+    "Other (anything that doesn't fit into the other categories!)": 0.062,
+    "page_consensus": "chemistry"
+  },
+  "185": {
+    "Chemistry": 0.667,
+    "Electrochemistry": 0.111,
+    "Other (anything that doesn't fit into the other categories!)": 0.222,
+    "page_consensus": "chemistry"
+  },
+  "186": {
+    "Refers to other writers/their works": 0.286,
+    "Other (anything that doesn't fit into the other categories!)": 0.19,
+    "Chemistry": 0.524,
+    "page_consensus": "chemistry"
+  },
+  "187": {
+    "Philosophy": 0.312,
+    "Chemistry": 0.438,
+    "Refers to other writers/their works": 0.188,
+    "Lecture notes": 0.062,
+    "page_consensus": "chemistry"
+  },
+  "188": {
+    "Philosophy": 0.182,
+    "Chemistry": 0.727,
+    "Other (anything that doesn't fit into the other categories!)": 0.091,
+    "page_consensus": "chemistry"
+  },
+  "189": {
+    "Chemistry": 0.25,
+    "Other (anything that doesn't fit into the other categories!)": 0.312,
+    "Refers to other writers/their works": 0.312,
+    "Philosophy": 0.125,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "190": {
+    "Chemistry": 0.5,
+    "Other (anything that doesn't fit into the other categories!)": 0.25,
+    "Refers to other writers/their works": 0.219,
+    "Lecture notes": 0.031,
+    "page_consensus": "chemistry"
+  },
+  "191": {
+    "Chemistry": 0.484,
+    "Mathematics": 0.516,
+    "page_consensus": "mathematics"
+  },
+  "192": {
+    "Chemistry": 0.345,
+    "Other (anything that doesn't fit into the other categories!)": 0.034,
+    "Mathematics": 0.621,
+    "page_consensus": "mathematics"
+  },
+  "193": {
+    "Chemistry": 0.564,
+    "Mathematics": 0.333,
+    "Electrochemistry": 0.051,
+    "Medicine": 0.051,
+    "page_consensus": "chemistry"
+  },
+  "194": {
+    "Chemistry": 0.595,
+    "Mathematics": 0.297,
+    "Refers to other writers/their works": 0.054,
+    "Geology": 0.027,
+    "Electrochemistry": 0.027,
+    "page_consensus": "chemistry"
+  },
+  "195": {
+    "Chemistry": 0.375,
+    "Other (anything that doesn't fit into the other categories!)": 0.125,
+    "Mathematics": 0.5,
+    "page_consensus": "mathematics"
+  },
+  "196": {
+    "Chemistry": 0.778,
+    "Mathematics": 0.074,
+    "Other (anything that doesn't fit into the other categories!)": 0.037,
+    "Refers to other writers/their works": 0.111,
+    "page_consensus": "chemistry"
+  },
+  "197": {
+    "Chemistry": 0.622,
+    "Mathematics": 0.324,
+    "Electrochemistry": 0.027,
+    "Medicine": 0.027,
+    "page_consensus": "chemistry"
+  },
+  "198": {
+    "Chemistry": 0.564,
+    "Mathematics": 0.385,
+    "Medicine": 0.026,
+    "Electrochemistry": 0.026,
+    "page_consensus": "chemistry"
+  },
+  "199": {
+    "Chemistry": 0.667,
+    "Mathematics": 0.3,
+    "Medicine": 0.033,
+    "page_consensus": "chemistry"
+  },
+  "200": {
+    "Chemistry": 0.417,
+    "Mathematics": 0.583,
+    "page_consensus": "mathematics"
+  },
+  "201": {
+    "Chemistry": 0.645,
+    "Mathematics": 0.355,
+    "page_consensus": "chemistry"
+  },
+  "202": {
+    "Chemistry": 0.719,
+    "Mathematics": 0.219,
+    "Refers to other writers/their works": 0.062,
+    "page_consensus": "chemistry"
+  },
+  "203": {
+    "Chemistry": 0.643,
+    "Mathematics": 0.357,
+    "page_consensus": "chemistry"
+  },
+  "204": {
+    "Chemistry": 0.846,
+    "Other (anything that doesn't fit into the other categories!)": 0.077,
+    "Medicine": 0.077,
+    "page_consensus": "chemistry"
+  },
+  "205": {
+    "Chemistry": 1.0,
+    "page_consensus": "chemistry"
+  },
+  "206": {
+    "Chemistry": 0.867,
+    "Refers to other writers/their works": 0.067,
+    "Other (anything that doesn't fit into the other categories!)": 0.067,
+    "page_consensus": "chemistry"
+  },
+  "207": {
+    "Chemistry": 0.923,
+    "Electrochemistry": 0.077,
+    "page_consensus": "chemistry"
+  },
+  "208": {
+    "Medicine": 0.333,
+    "Chemistry": 0.4,
+    "Other (anything that doesn't fit into the other categories!)": 0.2,
+    "Lecture notes": 0.067,
+    "page_consensus": "chemistry"
+  },
+  "209": {
+    "Medicine": 0.333,
+    "Chemistry": 0.467,
+    "Other (anything that doesn't fit into the other categories!)": 0.2,
+    "page_consensus": "chemistry"
+  },
+  "210": {
+    "Medicine": 0.1,
+    "Chemistry": 0.55,
+    "Other (anything that doesn't fit into the other categories!)": 0.3,
+    "Lecture notes": 0.05,
+    "page_consensus": "chemistry"
+  },
+  "211": {
+    "Chemistry": 1.0,
+    "page_consensus": "chemistry"
+  },
+  "212": {
+    "Chemistry": 0.8,
+    "Mathematics": 0.15,
+    "Electrochemistry": 0.05,
+    "page_consensus": "chemistry"
+  },
+  "213": {
+    "Chemistry": 0.688,
+    "Mathematics": 0.25,
+    "Geology": 0.062,
+    "page_consensus": "chemistry"
+  },
+  "214": {
+    "Chemistry": 1.0,
+    "page_consensus": "chemistry"
+  },
+  "215": {
+    "Chemistry": 1.0,
+    "page_consensus": "chemistry"
+  },
+  "216": {
+    "Chemistry": 0.923,
+    "Lecture notes": 0.077,
+    "page_consensus": "chemistry"
+  },
+  "217": {
+    "Other (anything that doesn't fit into the other categories!)": 0.8,
+    "Chemistry": 0.2,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "218": {
+    "Chemistry": 0.778,
+    "Philosophy": 0.222,
+    "page_consensus": "chemistry"
+  },
+  "219": {
+    "Chemistry": 0.917,
+    "Other (anything that doesn't fit into the other categories!)": 0.083,
+    "page_consensus": "chemistry"
+  },
+  "220": {
+    "Medicine": 0.267,
+    "Philosophy": 0.6,
+    "Chemistry": 0.067,
+    "Other (anything that doesn't fit into the other categories!)": 0.067,
+    "page_consensus": "philosophy"
+  },
+  "221": {
+    "Medicine": 0.278,
+    "Philosophy": 0.444,
+    "Agriculture": 0.056,
+    "Chemistry": 0.111,
+    "Other (anything that doesn't fit into the other categories!)": 0.111,
+    "page_consensus": "philosophy"
+  },
+  "222": {
+    "Philosophy": 0.611,
+    "Chemistry": 0.333,
+    "Lecture notes": 0.056,
+    "page_consensus": "philosophy"
+  },
+  "223": {
+    "Philosophy": 0.531,
+    "Refers to other writers/their works": 0.312,
+    "Chemistry": 0.094,
+    "Medicine": 0.062,
+    "page_consensus": "philosophy"
+  },
+  "224": {
+    "Philosophy": 0.667,
+    "Other (anything that doesn't fit into the other categories!)": 0.083,
+    "Chemistry": 0.167,
+    "Medicine": 0.083,
+    "page_consensus": "philosophy"
+  },
+  "225": {
+    "Other (anything that doesn't fit into the other categories!)": 0.1,
+    "Mathematics": 0.85,
+    "Chemistry": 0.05,
+    "page_consensus": "mathematics"
+  },
+  "226": {
+    "Philosophy": 0.4,
+    "Refers to other writers/their works": 0.133,
+    "Chemistry": 0.133,
+    "Electrochemistry": 0.067,
+    "Other (anything that doesn't fit into the other categories!)": 0.067,
+    "Medicine": 0.2,
+    "page_consensus": "philosophy"
+  },
+  "227": {
+    "Chemistry": 0.606,
+    "Philosophy": 0.212,
+    "Electrochemistry": 0.03,
+    "Agriculture": 0.03,
+    "Other (anything that doesn't fit into the other categories!)": 0.091,
+    "Poetry": 0.03,
+    "page_consensus": "chemistry"
+  },
+  "228": {
+    "Chemistry": 0.5,
+    "Electrochemistry": 0.4,
+    "Medicine": 0.1,
+    "page_consensus": "chemistry"
+  },
+  "229": {
+    "Other (anything that doesn't fit into the other categories!)": 0.25,
+    "Electrochemistry": 0.25,
+    "Chemistry": 0.125,
+    "Refers to other writers/their works": 0.25,
+    "Other electric (static, electromagnetism, etc.)": 0.125,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "230": {
+    "Medicine": 0.231,
+    "Other (anything that doesn't fit into the other categories!)": 0.077,
+    "Refers to other writers/their works": 0.154,
+    "Philosophy": 0.308,
+    "Chemistry": 0.154,
+    "Electrochemistry": 0.077,
+    "page_consensus": "philosophy"
+  },
+  "231": {
+    "Medicine": 0.81,
+    "Chemistry": 0.048,
+    "Other (anything that doesn't fit into the other categories!)": 0.143,
+    "page_consensus": "medicine"
+  },
+  "232": {
+    "Medicine": 0.522,
+    "Chemistry": 0.391,
+    "Other (anything that doesn't fit into the other categories!)": 0.043,
+    "Lecture notes": 0.043,
+    "page_consensus": "medicine"
+  },
+  "233": {
+    "Poetry": 0.704,
+    "Chemistry": 0.037,
+    "Other (anything that doesn't fit into the other categories!)": 0.185,
+    "Medicine": 0.037,
+    "Philosophy": 0.037,
+    "page_consensus": "poetry"
+  },
+  "234": {
+    "Poetry": 0.529,
+    "Medicine": 0.118,
+    "Other (anything that doesn't fit into the other categories!)": 0.206,
+    "Philosophy": 0.147,
+    "page_consensus": "poetry"
+  },
+  "235": {
+    "Chemistry": 0.294,
+    "Poetry": 0.5,
+    "Philosophy": 0.118,
+    "Medicine": 0.029,
+    "Other (anything that doesn't fit into the other categories!)": 0.029,
+    "Geology": 0.029,
+    "page_consensus": "poetry"
+  },
+  "236": {
+    "Poetry": 0.481,
+    "Chemistry": 0.407,
+    "Other (anything that doesn't fit into the other categories!)": 0.037,
+    "Geology": 0.074,
+    "page_consensus": "poetry"
+  },
+  "237": {
+    "Agriculture": 0.35,
+    "Chemistry": 0.45,
+    "Other (anything that doesn't fit into the other categories!)": 0.2,
+    "page_consensus": "chemistry"
+  },
+  "238": {
+    "Chemistry": 0.933,
+    "Other (anything that doesn't fit into the other categories!)": 0.067,
+    "page_consensus": "chemistry"
+  },
+  "239": {
+    "Chemistry": 0.333,
+    "Other (anything that doesn't fit into the other categories!)": 0.5,
+    "Agriculture": 0.083,
+    "Electrochemistry": 0.083,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "240": {
+    "Chemistry": 1.0,
+    "page_consensus": "chemistry"
+  },
+  "241": {
+    "Chemistry": 0.455,
+    "Other (anything that doesn't fit into the other categories!)": 0.455,
+    "Electrochemistry": 0.091,
+    "page_consensus": "chemistry"
+  },
+  "242": {
+    "Chemistry": 0.318,
+    "Electrochemistry": 0.364,
+    "Other electric (static, electromagnetism, etc.)": 0.182,
+    "Other (anything that doesn't fit into the other categories!)": 0.136,
+    "page_consensus": "electrochemistry"
+  },
+  "243": {
+    "Other (anything that doesn't fit into the other categories!)": 0.538,
+    "Mathematics": 0.462,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  }
+}

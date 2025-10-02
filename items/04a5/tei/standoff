@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standOff>
+      <listPerson>
+         <person xml:id="person_130">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Pierre-Simon</forename>
+               <surname>Laplace</surname>
+            </persName>
+            <birth when="1749"/>
+            <death when="1827"/>
+            <note>French mathematician seen as the Newton of France. He met Davy in 1813 and 1820. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_266">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Georges-Louis Leclerc, Comte de</forename>
+               <surname>Buffon</surname>
+            </persName>
+            <birth when="1707"/>
+            <death when="1788"/>
+            <note>French naturalist, mathematician and cosmologist. His Histoire Naturelle, published in 1789, ran to 37 volumes. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_125">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">James</forename>
+               <surname>Hutton</surname>
+            </persName>
+            <birth when="1726"/>
+            <death when="1797"/>
+            <note>Scottish geologist, agriculturalist and chemical manufacturer. His Theory of the Earth (1795) is one of the foundations of modern geology. Davy discussed Hutton's theories in his lectures and visited some of the key geological sites that Hutton used in his work. </note>
+         </person>
+         <person xml:id="person_465">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jean-Baptiste</forename>
+               <surname>Leblond</surname>
+            </persName>
+            <birth when="1747"/>
+            <death when="1815"/>
+            <note>French physician, naturalist, and explorer.</note>
+         </person>
+      </listPerson>
+      <listNym type="chemical">
+         <nym xml:id="chemical_099">
+            <form>greywacke</form>
+            <def>
+               <p>Greywacke or graywacke is a type of sandstone.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_347">
+            <form>trap</form>
+            <def>
+               <p>Trap rock, also known as either trapp or trap, is any dark-colored, fine-grained, non-granitic intrusive or extrusive igneous rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_090">
+            <form>limestone</form>
+            <def>
+               <p>A sedimentary rock composed mainly of calcium carbonate (CaCO3).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_088">
+            <form>sandstone</form>
+            <def>
+               <p>A sedimentary rock consisting of sand or quartz grains cemented together, typically red, yellow, or brown in colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_120">
+            <form>shist</form>
+            <def>
+               <p>Or schist. Any metamorphic rock that can be split into thin layers because of its thin bands of micaceous minerals, with mineral grains.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_075">
+            <form>serpentine</form>
+            <def>
+               <p>A metamorphic rock containing one or more of the serpentine group minerals.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_092">
+            <form>granite</form>
+            <def>
+               <p>A coarse-grained intrusive igneous rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_105">
+            <form>basalt</form>
+            <def>
+               <p>A dark grey to black dense to fine-grained igneous rock that consists of basic plagioclase, augite, and usually magnetite. More than 90% of volcanic rock on earth is basaltic.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_223">
+            <form>columnar basalt</form>
+            <def>
+               <p>Columnar basalt, like that found at the Giant's Causeway, County Antrim, Northern Ireland, is formed by the cooling process of the basalt lava flow.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_125">
+            <form>porphyry</form>
+            <def>
+               <p>A hard, igneous purplish-red rock in which crystals of feldspar are embedded in a fine-grained groundmass.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_034">
+            <form>silex</form>
+            <def>
+               <p>Symbol/formula: SiO2</p>
+               <p>Silica, an oxide of silicon.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_108">
+            <form>alumine</form>
+            <def>
+               <p>Symbol/formula: AL2O3</p>
+               <p>Alumine is an archaic name for alumina, which is aluminium oxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_010">
+            <form>lime</form>
+            <def>
+               <p>Symbol/formula: CaO</p>
+               <p>Commonly known as quicklime or burnt lime, calcium oxide is a widely used chemical compound. It is a white, caustic, alkaline, crystalline solid at room temperature.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_011">
+            <form>magnesia</form>
+            <def>
+               <p>Symbol/formula: MgO</p>
+               <p>A white hygroscopic solid mineral that occurs naturally as periclase and is a source of magnesium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_058">
+            <form>carbonic acid</form>
+            <def>
+               <p>Symbol/formula: CO2 or H2CO3 </p>
+               <p>Now known as Carbon dioxide (CO2), or a solution of carbon dioxide in water (H2CO3). </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_109">
+            <form>carbonate of lime</form>
+            <def>
+               <p>Symbol/formula: CaCO3</p>
+               <p>Calcium carbonate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_104">
+            <form>feldspar</form>
+            <def>
+               <p>An abundant rock-forming mineral typically occurring as colourless or pale-coloured crystals and consisting of aluminosilicates of potassium, sodium, and calcium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_405">
+            <form>Schiller spar</form>
+            <def>
+               <p>Symbol/formula: Mg2Si2O6</p>
+               <p>An altered variety of enstatite, exhibiting, in certain positions, a bronze-like luster.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_081">
+            <form>calcareous</form>
+            <def>
+               <p>Composed of, or containing, lime or limestone.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_030">
+            <form>potash</form>
+            <def>
+               <p>An alkaline substance consisting largely of impure potassium carbonate. In October 1807, Davy decomposed potash using electricity, revealing the previously unknown element potassium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_101">
+            <form>mica</form>
+            <def>
+               <p>A shiny silicate mineral with a layered structure, found as minute scales in granite and other rocks, or as crystals.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_166">
+            <form>iron oxide </form>
+            <def>
+               <p>Symbol/formula: Fe2O3</p>
+               <p>Oxide of iron. A dark red solid which occurs as the mineral haematite and as the main component of rust.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_103">
+            <form>hornblende</form>
+            <def>
+               <p>A dark brown, black, or green mineral consisting of a silicate of calcium, magnesium, and iron, occurring in many igneous and metamorphic rocks.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_074">
+            <form>chlorite</form>
+            <def>
+               <p>Green hydrous silicates of magnesia and alumina occuring in ancient rock formations.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_022">
+            <form>oxygene</form>
+            <def>
+               <p>Symbol/formula: O</p>
+               <p>Now known as oxygen. Oxygen is a colourless, odourless, tasteless gas essential to living organisms.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_003">
+            <form>ammonia</form>
+            <def>
+               <p>Symbol/formula: NH3</p>
+               <p>An inorganic chemical compound of nitrogen and hydrogen. Ammonia is a colourless gas with a distinct pungent smell.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_397">
+            <form>shale</form>
+            <def>
+               <p>Shale is a fine-grained, clastic sedimentary rock formed from mud that is a mix of flakes of clay minerals and tiny fragments of other minerals, especially quartz and calcite.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_161">
+            <form>voltaic</form>
+            <def>
+               <p>Refers to the current generated by voltaic pile, invented by Italian chemist Alessandro Volta.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_112">
+            <form>marl</form>
+            <def>
+               <p>Or marle. A loose, unconsolidated earthy deposit, consisting of clay mixed with calcium carbonate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_504">
+            <form>Magnesia alba</form>
+            <def>
+               <p>Symbol/formula: MgCO3</p>
+               <p>Hydrated magneium carbonate; also known as mild magnesian earth. The metal magnesium (Mg) is obtained from magnesia alba. </p>
+            </def>
+         </nym>
+      </listNym>
+      <listPlace>
+         <place xml:id="place_437">
+            <placeName>Northern Ireland</placeName>
+            <location>
+               <geo decls="#WGS84">54.62857364981841, -6.5467088794619004</geo>
+            </location>
+            <note>Northern Ireland consists of six counties to the north-east of the island, not including the Republic of Ireland county, Donegal, to the west.</note>
+         </place>
+         <place xml:id="place_508">
+            <placeName>Land's End</placeName>
+            <location>
+               <geo decls="#WGS84">50.06191565333298, -5.7141000854551498</geo>
+            </location>
+            <note>Land's End is a headland on the west coast of Cornwall. It is the most westerly point of mainland England. The underlying rock at Land's End is granite.</note>
+         </place>
+         <place xml:id="place_021">
+            <placeName>Cornwall</placeName>
+            <location>
+               <geo decls="#WGS84">50.25090807161931,  -5.1326462442719603</geo>
+            </location>
+            <note>Cornwall is a county in south-west England, birthplace of Humphry Davy.</note>
+         </place>
+         <place xml:id="place_523">
+            <placeName>Cape Cornwall</placeName>
+            <location>
+               <geo decls="#WGS84">50.13353903343739,  -5.6999785467896604</geo>
+            </location>
+            <note>Cape Cornwall is a headland north of Land's End.</note>
+         </place>
+         <place xml:id="place_509">
+            <placeName>Lizard Point</placeName>
+            <location>
+               <geo decls="#WGS84">49.97014192119227, -5.2046091082765402</geo>
+            </location>
+            <note>The Lizard is a peninsula of the southern coast of Cornwall. It is the most southerly point of the British mainland. The geology of the Lizard is complex: it contains some of Cornwall's oldest (Precambrian) rocks, as well as heavily metamorphosed rocks.</note>
+         </place>
+         <place xml:id="place_1010">
+            <placeName>Mam Tor</placeName>
+            <location>
+               <geo decls="#WGS84">53.348967, -1.8097179999999999</geo>
+            </location>
+            <note>A hill near Castleton in the High Peak of Derbyshire, England.</note>
+         </place>
+         <place xml:id="place_085">
+            <placeName>Derbyshire</placeName>
+            <location>
+               <geo decls="#WGS84">52.921826207569474, -1.4773493148619199</geo>
+            </location>
+            <note>Derbyshire is a county in the East Midlands and includes part of the Peak District.</note>
+         </place>
+         <place xml:id="place_456">
+            <placeName>Cader Idris</placeName>
+            <location>
+               <geo decls="#WGS84">52.699510851656925,  -3.9080548042702099</geo>
+            </location>
+            <note>Cader Idris is a mountain in Merionnydd, near Dolgellau, Wales.</note>
+         </place>
+         <place xml:id="place_436">
+            <placeName>North Wales</placeName>
+            <location>
+               <geo decls="#WGS84">53.0237263081593, -3.4497969040285001</geo>
+            </location>
+            <note>A geographic region of Wales.</note>
+         </place>
+         <place xml:id="place_047">
+            <placeName>Donegal</placeName>
+            <location>
+               <geo decls="#WGS84">54.653882599705597 -8.1098371878967299</geo>
+            </location>
+            <note>Donegal is a town at the mouth of the River Eske, in north-west Ireland.</note>
+         </place>
+         <place xml:id="place_461">
+            <placeName>Anglesey</placeName>
+            <location>
+               <geo decls="#WGS84">53.26510185100576,  -4.4141601030480002</geo>
+            </location>
+            <note>Anglesey is an island, and county, on the north-west coast of Wales.</note>
+         </place>
+         <place xml:id="place_018">
+            <placeName>Ireland</placeName>
+            <location>
+               <geo decls="#WGS84">53.155810906848316,  -8.0218848181146107</geo>
+            </location>
+         </place>
+         <place xml:id="place_1011">
+            <placeName>Morton</placeName>
+            <location>
+               <geo decls="#WGS84">55.274440,  -3.7475049999999999</geo>
+            </location>
+            <note>A castle located by an artificial loch in the hills above Nithsdale, in Dumfries and Galloway, south-west Scotland.</note>
+         </place>
+         <place xml:id="place_235">
+            <placeName>Scotland</placeName>
+            <location>
+               <geo decls="#WGS84">56.23014782410645,  -4.1646793652431802</geo>
+            </location>
+         </place>
+         <place xml:id="place_1035">
+            <placeName>Fingal's Cave</placeName>
+            <location>
+               <geo decls="#WGS84">56.431880378975976,  -6.34112830793537</geo>
+            </location>
+            <note>a sea cave on the uninhabited island of Staffa, in the Inner Hebrides of Scotland, known for its natural acoustics.</note>
+         </place>
+         <place xml:id="place_126">
+            <placeName>Giant's Causeway</placeName>
+            <location>
+               <geo decls="#WGS84">55.240838095312654, -6.5136581682688197</geo>
+            </location>
+            <note>The Giant's Causeway is an extensive area of columnar basalt in County Antrim, Northern Ireland, formed by an ancient volcanic fissure eruption.</note>
+         </place>
+         <place xml:id="place_479">
+            <placeName>Pleaskin Cliff</placeName>
+            <location>
+               <geo decls="#WGS84">55.24530882392302,  -6.4994393434036102</geo>
+            </location>
+            <note>Pleaskin Head is a cliff that is part of the Giant's Causeway coastline, Northern Ireland.</note>
+         </place>
+         <place xml:id="place_132">
+            <placeName>Fairhead</placeName>
+            <location>
+               <geo decls="#WGS84">55.22128088397411,  -6.1540429194182202</geo>
+            </location>
+            <note>Fairhead is a spectacular 5km long, 82m high cliff above the sea at Ballycastle, County Antrim, Northern Ireland. It is a dolerite sill. </note>
+         </place>
+         <place xml:id="place_592">
+            <placeName>Binevenagh</placeName>
+            <location>
+               <geo decls="#WGS84">55.11508697687724,  -6.9145376009620296</geo>
+            </location>
+            <note>Binevenagh is a large, steep-sided hill in County Londonderry, Northern Ireland. </note>
+         </place>
+         <place xml:id="place_162">
+            <placeName>Devon</placeName>
+            <location>
+               <geo decls="#WGS84">50.7831111085829,  -3.8387768410054801</geo>
+            </location>
+            <note>A county in south-west England.</note>
+         </place>
+         <place xml:id="place_440">
+            <placeName>Darling Downs</placeName>
+            <location>
+               <geo decls="#WGS84">50.9281242886793, -0.66239903138600398</geo>
+            </location>
+            <note>The South Downs are a range of chalk hills extending from Hampshire to Sussex.</note>
+         </place>
+         <place xml:id="place_1012">
+            <placeName>Dorset</placeName>
+            <location>
+               <geo decls="#WGS84">50.676062,  -2.517270</geo>
+            </location>
+            <note>A county in southwest England. It’s known for the Jurassic Coast, a long stretch on the English Channel where the cliffs contain many fossils, and rock formations show millions of years of geological history.</note>
+         </place>
+         <place xml:id="place_300">
+            <placeName>Wiltshire</placeName>
+            <location>
+               <geo decls="#WGS84">51.325783197568576,  -2.1907074617152098</geo>
+            </location>
+            <note>A county in south-western England. The county town is Trowbridge.</note>
+         </place>
+         <place xml:id="place_294">
+            <placeName>Bagshot Heath</placeName>
+            <location>
+               <geo decls="#WGS84">51.35973601523447,  -0.69680954371085901</geo>
+            </location>
+            <note>An area of wet and dry heath, bog, and unimproved grassland in Surrey, England.</note>
+         </place>
+         <place xml:id="place_320">
+            <placeName>Norfolk</placeName>
+            <location>
+               <geo decls="#WGS84">52.634048132845166,  1.2694849514489299</geo>
+            </location>
+            <note>A county in the east of England. The largest settlement is Norwich.</note>
+         </place>
+         <place xml:id="place_1013">
+            <placeName>Cambridgeshire</placeName>
+            <location>
+               <geo decls="#WGS84">52.274269,  0.088750</geo>
+            </location>
+            <note>A ceremonial county in the East of England and East Anglia. </note>
+         </place>
+         <place xml:id="place_161">
+            <placeName>Sussex</placeName>
+            <location>
+               <geo decls="#WGS84">50.93916058319065, -0.46511525862418701</geo>
+            </location>
+            <note>A county in southern England.</note>
+         </place>
+         <place xml:id="place_028">
+            <placeName>Berkshire</placeName>
+            <location>
+               <geo decls="#WGS84">51.448183237467234,  -0.80217793949590699</geo>
+            </location>
+            <note>Berkshire is a county in south-east England.</note>
+         </place>
+         <place xml:id="place_198">
+            <placeName>Switzerland</placeName>
+            <location>
+               <geo decls="#WGS84">46.96573205519196, 8.3202673078412506</geo>
+            </location>
+         </place>
+         <place xml:id="place_355">
+            <placeName>Rhone River</placeName>
+            <note>A major river in France and Switzerland.</note>
+         </place>
+         <place xml:id="place_945">
+            <placeName>River Arveyron</placeName>
+            <location>
+               <geo decls="#WGS84">45.94037858619329,  6.8974309880855298</geo>
+            </location>
+            <note>Davy is possibly referring to the rivers Arveyron and Arve: the Arveyron rises just above Chamonix in France and is a tributary of the Arve.</note>
+         </place>
+         <place xml:id="place_241">
+            <placeName>Lake Geneva</placeName>
+            <location>
+               <geo decls="#WGS84">46.448866159452706, 6.5031908095855799</geo>
+            </location>
+            <note>Lake Geneva is the largest body of water in Switzerland.</note>
+         </place>
+         <place xml:id="place_453">
+            <placeName>Capel Curig</placeName>
+            <location>
+               <geo decls="#WGS84">53.10490126957151, -3.9095921434213201</geo>
+            </location>
+            <note>Capel Curig is a village in Caernarfonshire, in the heart of Snowdonia.</note>
+         </place>
+         <place xml:id="place_451">
+            <placeName>Snowdonia</placeName>
+            <location>
+               <geo decls="#WGS84">53.06448386562467,  4.06889390447986</geo>
+            </location>
+            <note>Snowdonia is a mountainous region of north Wales.</note>
+         </place>
+         <place xml:id="place_790">
+            <placeName>Yr Wyddfa </placeName>
+            <location>
+               <geo decls="#WGS84">53.06873557429163,  -4.0743024942125601</geo>
+            </location>
+            <note>Also known as Snowdon. The highest mountain peak in Wales.</note>
+         </place>
+         <place xml:id="place_1014">
+            <placeName>Derwentwater</placeName>
+            <location>
+               <geo decls="#WGS84">54.585678,  -3.1476660000000001</geo>
+            </location>
+            <note>A lake in the Lake District in North West England, immediately south of Keswick.</note>
+         </place>
+         <place xml:id="place_079">
+            <placeName>Cumberland</placeName>
+            <location>
+               <geo decls="#WGS84">54.68622247111847, -3.3331803501037101</geo>
+            </location>
+            <note>Cumberland is a historic county in the far north-west of England.</note>
+         </place>
+         <place xml:id="place_1015">
+            <placeName>Bassenthwaite lake</placeName>
+            <location>
+               <geo decls="#WGS84">54.656259,  -3.2181129999999998</geo>
+            </location>
+            <note>A body of water in the Lake District in North West England, near the town of Keswick.</note>
+         </place>
+         <place xml:id="place_1016">
+            <placeName>Lodore falls</placeName>
+            <location>
+               <geo decls="#WGS84">54.557884, -3.1381450000000002</geo>
+            </location>
+            <note>A waterfall in Cumbria, England, close to Derwentwater and downstream from Watendlath.</note>
+         </place>
+         <place xml:id="place_1017">
+            <placeName>Borrowdale</placeName>
+            <location>
+               <geo decls="#WGS84">54.516125,  -3.149499</geo>
+            </location>
+            <note>A valley and civil parish in the English Lake District in Cumberland, England. </note>
+         </place>
+         <place xml:id="place_402">
+            <placeName>Lochleven</placeName>
+            <location>
+               <geo decls="#WGS84">56.20480696815169,  -3.3751393159088101</geo>
+            </location>
+            <note>Loch Leven is the largest, lowland, freshwater lake in Scotland. Loch Leven trout are red in colour. </note>
+         </place>
+         <place xml:id="place_497">
+            <placeName>Loch Lomond</placeName>
+            <location>
+               <geo decls="#WGS84">56.120008163266704,  -4.6300046610477299</geo>
+            </location>
+            <note>Loch Lomond is a Scottish fresh water loch which crosses the Highland Boundary Fault.</note>
+         </place>
+         <place xml:id="place_1018">
+            <placeName>Loch Awe</placeName>
+            <location>
+               <geo decls="#WGS84">56.288498,  -5.2334170000000002</geo>
+            </location>
+            <note>A large body of freshwater in Argyll and Bute, Scottish Highlands.</note>
+         </place>
+         <place xml:id="place_518">
+            <placeName>Ganges</placeName>
+            <location>
+               <geo decls="#WGS84">25.748514065662402, 84.645362681360098</geo>
+            </location>
+            <note>The Ganges is a river in Asia running through India and Bangladesh. It is part of the third largest river on earth.</note>
+         </place>
+         <place xml:id="place_159">
+            <placeName>United Kingdom</placeName>
+            <location>
+               <geo decls="#WGS84">54.06171310994435,  -1.7434214141764799</geo>
+            </location>
+         </place>
+         <place xml:id="place_409">
+            <placeName>Monarch</placeName>
+            <location>
+               <geo decls="#WGS84">52.97031061289069,  -3.9183977429491201</geo>
+            </location>
+            <note>A rivulet near Cardiganshire, rising under Plynlimon, and running about six miles south-west to the Rheidiol, near Devil's Bridge.</note>
+         </place>
+         <place xml:id="place_1036">
+            <placeName>Ceredigion</placeName>
+            <location>
+               <geo decls="#WGS84">52.25381209596829,  -4.0197659836979396</geo>
+            </location>
+            <note>a county in the west of Wales.</note>
+         </place>
+         <place xml:id="place_410">
+            <placeName>Plynlimon</placeName>
+            <location>
+               <geo decls="#WGS84">52.467399727270866,  -3.7818260704539002</geo>
+            </location>
+            <note>The highest point of the Cambrian Mountains in Wales.</note>
+         </place>
+         <place xml:id="place_411">
+            <placeName>Afon Rheidol</placeName>
+            <location>
+               <geo decls="#WGS84">52.40196769739706,  -3.9594071681843901</geo>
+            </location>
+            <note>A river in Ceredigion, Wales.</note>
+         </place>
+         <place xml:id="place_563">
+            <placeName>Hafod</placeName>
+            <location>
+               <geo decls="#WGS84">51.634006115008,  -3.9369438053390602</geo>
+            </location>
+            <note>Hafod is a district of the city of Swansea, south Wales, and lies within the Landore ward. Hafod is home to the now-closed Hafod Copperworks, founded in 1810.</note>
+         </place>
+         <place xml:id="place_1019">
+            <placeName>Devil's Bridge, Ceredigion</placeName>
+            <location>
+               <geo decls="#WGS84">52.376838, -3.851073</geo>
+            </location>
+            <note>A village and community in Ceredigion, Wales. Above the River Mynach on the edge of the village is a series of three stacked bridges, constructed hundreds of years apart, from which the village gets its English name.</note>
+         </place>
+         <place xml:id="place_557">
+            <placeName>Tequendama Falls</placeName>
+            <location>
+               <geo decls="#WGS84">4.576028214957103,  -74.295424847994596</geo>
+            </location>
+            <note>The Tequendama Falls is a waterfall of the Bogotá River, Colombia.</note>
+         </place>
+         <place xml:id="place_878">
+            <placeName>United States</placeName>
+            <location>
+               <geo decls="#WGS84">40.14226510979611,  -103.988989801965</geo>
+            </location>
+            <note>The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean.</note>
+         </place>
+         <place xml:id="place_825">
+            <placeName>River Thames</placeName>
+            <location>
+               <geo decls="#WGS84">51.62396010661668,  -0.33459504952244401</geo>
+            </location>
+            <note>The River Thames, known alternatively in parts as the River Isis, is a river that flows through southern England including London.</note>
+         </place>
+         <place xml:id="place_071">
+            <placeName>London</placeName>
+            <location>
+               <geo decls="#WGS84">51.5081324796122 -0.12769117806126601</geo>
+            </location>
+            <note>The capital city of England and the United Kingdom.</note>
+         </place>
+         <place xml:id="place_1020">
+            <placeName>Santa Fe</placeName>
+            <location>
+               <geo decls="#WGS84">35.685971,  -105.934985</geo>
+            </location>
+            <note>New Mexico’s capital, sits in the Sangre de Cristo foothills.</note>
+         </place>
+         <place xml:id="place_1021">
+            <placeName>Bogotá</placeName>
+            <location>
+               <geo decls="#WGS84">4.707732,  -74.073665000000005</geo>
+            </location>
+            <note>The capital of Colombia.</note>
+         </place>
+         <place xml:id="place_1022">
+            <placeName>Bogotá river</placeName>
+            <location>
+               <geo decls="#WGS84">4.625670,  -74.382721000000004</geo>
+            </location>
+            <note>A major river of the Cundinamarca department of Colombia.</note>
+         </place>
+         <place xml:id="place_1023">
+            <placeName>Magdalena River Valley</placeName>
+            <location>
+               <geo decls="#WGS84">6.135465,  -74.656177999999997</geo>
+            </location>
+            <note>A valley in Colombia located within the Colombian Andes. The valley is specifically situated between the Central and Eastern Ranges and crossed by the river of the same name, the Magdalena River.</note>
+         </place>
+         <place xml:id="place_1024">
+            <placeName>Seine River</placeName>
+            <location>
+               <geo decls="#WGS84">48.637643,  2.4521280000000001</geo>
+            </location>
+            <note>A river in northern France. Its drainage basin is in the Paris Basin covering most of northern France. </note>
+         </place>
+         <place xml:id="place_247">
+            <placeName>Alps </placeName>
+            <location>
+               <geo decls="#WGS84">46.91855850327627,  9.6255793068951494</geo>
+            </location>
+            <note>The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.</note>
+         </place>
+         <place xml:id="place_1395">
+            <placeName>Pacific Ocean</placeName>
+            <location>
+               <geo decls="#WGS84">2.805166823856979,  -146.51499408225101</geo>
+            </location>
+            <note>The largest and deepest of Earth's five oceans. </note>
+         </place>
+      </listPlace>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_402" type="description">
+            <term id="misc_402-term">Cordilleras</term>
+            <gloss id="misc_402-gloss" target="#misc_402-term">
+               <p>A cordillera is an extensive chain and/or network system of mountain ranges. It is unclear exactly which mountain range Davy is referring to when he uses this term.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listBibl>
+         <bibl xml:id="otherwork_114">
+            <author>William Cowper</author>
+            <title level="j">The Task</title>
+            <date when="1785">1785</date>
+            <note>The Task is a poem of six books in blank verse written by William Cowper in 1785.</note>
+         </bibl>
+      </listBibl>
+   </standOff>
+</TEI>

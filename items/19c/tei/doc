@@ -1,0 +1,4083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-11903</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-11903</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/19/C</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Notebook containing notes on the history of natural science</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/19/C</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent>58 pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <p>Green and black marbled hardcover with red leather binding, with sticker on cover</p>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1805-01-01"
+                                   notAfter="1805-12-31">1805</tei:origDate>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-11903-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="3927px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00001"
+                  width="4960px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4959"
+               lry="3926"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="3726px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00002"
+                  width="4869px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4868"
+               lry="3725"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="3854px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00003"
+                  width="4869px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4868"
+               lry="3853"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="3754px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00004"
+                  width="4869px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4868"
+               lry="3753"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="3826px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00005"
+                  width="4869px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4868"
+               lry="3825"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="3763px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00006"
+                  width="4914px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4913"
+               lry="3762"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="3826px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00007"
+                  width="4914px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4913"
+               lry="3825"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="3772px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00008"
+                  width="4941px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4940"
+               lry="3771"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="3817px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00009"
+                  width="4941px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4940"
+               lry="3816"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="3790px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00010"
+                  width="4950px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4949"
+               lry="3789"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+      <surface n="11" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="3808px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00011"
+                  width="4950px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4949"
+               lry="3807"
+               rotate="0"
+               xml:id="i11z1"/>
+      </surface>
+      <surface n="12" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="3808px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00012"
+                  width="4959px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4958"
+               lry="3807"
+               rotate="0"
+               xml:id="i12z1"/>
+      </surface>
+      <surface n="13" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="3808px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00013"
+                  width="4959px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4958"
+               lry="3807"
+               rotate="0"
+               xml:id="i13z1"/>
+      </surface>
+      <surface n="14" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="3817px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00014"
+                  width="4968px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4967"
+               lry="3816"
+               rotate="0"
+               xml:id="i14z1"/>
+      </surface>
+      <surface n="15" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="3790px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00015"
+                  width="4968px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4967"
+               lry="3789"
+               rotate="0"
+               xml:id="i15z1"/>
+      </surface>
+      <surface n="16" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="3799px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00016"
+                  width="4977px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4976"
+               lry="3798"
+               rotate="0"
+               xml:id="i16z1"/>
+      </surface>
+      <surface n="17" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="3808px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00017"
+                  width="4977px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4976"
+               lry="3807"
+               rotate="0"
+               xml:id="i17z1"/>
+      </surface>
+      <surface n="18" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="3808px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00018"
+                  width="4968px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4967"
+               lry="3807"
+               rotate="0"
+               xml:id="i18z1"/>
+      </surface>
+      <surface n="19" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="3808px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00019"
+                  width="4968px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4967"
+               lry="3807"
+               rotate="0"
+               xml:id="i19z1"/>
+      </surface>
+      <surface n="20" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="3818px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00020"
+                  width="4950px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4949"
+               lry="3817"
+               rotate="0"
+               xml:id="i20z1"/>
+      </surface>
+      <surface n="21" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="3817px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00021"
+                  width="4950px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4949"
+               lry="3816"
+               rotate="0"
+               xml:id="i21z1"/>
+      </surface>
+      <surface n="22" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="3800px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00022"
+                  width="4968px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4967"
+               lry="3799"
+               rotate="0"
+               xml:id="i22z1"/>
+      </surface>
+      <surface n="23" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="3888px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00023"
+                  width="4968px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4967"
+               lry="3887"
+               rotate="0"
+               xml:id="i23z1"/>
+      </surface>
+      <surface n="24" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="3836px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00024"
+                  width="4959px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4958"
+               lry="3835"
+               rotate="0"
+               xml:id="i24z1"/>
+      </surface>
+      <surface n="25" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="3826px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00025"
+                  width="4959px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4958"
+               lry="3825"
+               rotate="0"
+               xml:id="i25z1"/>
+      </surface>
+      <surface n="26" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="3818px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00026"
+                  width="4959px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4958"
+               lry="3817"
+               rotate="0"
+               xml:id="i26z1"/>
+      </surface>
+      <surface n="27" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="3844px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00027"
+                  width="4959px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4958"
+               lry="3843"
+               rotate="0"
+               xml:id="i27z1"/>
+      </surface>
+      <surface n="28" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="3827px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00028"
+                  width="4950px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4949"
+               lry="3826"
+               rotate="0"
+               xml:id="i28z1"/>
+      </surface>
+      <surface n="29" xml:id="i29">
+         <graphic decls="#downloadImageRights #download"
+                  height="3844px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00029"
+                  width="4950px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4949"
+               lry="3843"
+               rotate="0"
+               xml:id="i29z1"/>
+      </surface>
+      <surface n="30" xml:id="i30">
+         <graphic decls="#downloadImageRights #download"
+                  height="3836px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00030"
+                  width="4968px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4967"
+               lry="3835"
+               rotate="0"
+               xml:id="i30z1"/>
+      </surface>
+      <surface n="31" xml:id="i31">
+         <graphic decls="#downloadImageRights #download"
+                  height="3844px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00031"
+                  width="4968px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4967"
+               lry="3843"
+               rotate="0"
+               xml:id="i31z1"/>
+      </surface>
+      <surface n="32" xml:id="i32">
+         <graphic decls="#downloadImageRights #download"
+                  height="3836px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00032"
+                  width="4950px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4949"
+               lry="3835"
+               rotate="0"
+               xml:id="i32z1"/>
+      </surface>
+      <surface n="33" xml:id="i33">
+         <graphic decls="#downloadImageRights #download"
+                  height="3835px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00033"
+                  width="4950px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4949"
+               lry="3834"
+               rotate="0"
+               xml:id="i33z1"/>
+      </surface>
+      <surface n="34" xml:id="i34">
+         <graphic decls="#downloadImageRights #download"
+                  height="3836px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00034"
+                  width="5023px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5022"
+               lry="3835"
+               rotate="0"
+               xml:id="i34z1"/>
+      </surface>
+      <surface n="35" xml:id="i35">
+         <graphic decls="#downloadImageRights #download"
+                  height="3844px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00035"
+                  width="5023px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5022"
+               lry="3843"
+               rotate="0"
+               xml:id="i35z1"/>
+      </surface>
+      <surface n="36" xml:id="i36">
+         <graphic decls="#downloadImageRights #download"
+                  height="3836px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00036"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3835"
+               rotate="0"
+               xml:id="i36z1"/>
+      </surface>
+      <surface n="37" xml:id="i37">
+         <graphic decls="#downloadImageRights #download"
+                  height="3844px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00037"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3843"
+               rotate="0"
+               xml:id="i37z1"/>
+      </surface>
+      <surface n="38" xml:id="i38">
+         <graphic decls="#downloadImageRights #download"
+                  height="3845px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00038"
+                  width="4959px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4958"
+               lry="3844"
+               rotate="0"
+               xml:id="i38z1"/>
+      </surface>
+      <surface n="39" xml:id="i39">
+         <graphic decls="#downloadImageRights #download"
+                  height="3844px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00039"
+                  width="4959px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4958"
+               lry="3843"
+               rotate="0"
+               xml:id="i39z1"/>
+      </surface>
+      <surface n="40" xml:id="i40">
+         <graphic decls="#downloadImageRights #download"
+                  height="3845px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00040"
+                  width="4950px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4949"
+               lry="3844"
+               rotate="0"
+               xml:id="i40z1"/>
+      </surface>
+      <surface n="41" xml:id="i41">
+         <graphic decls="#downloadImageRights #download"
+                  height="3844px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00041"
+                  width="4950px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4949"
+               lry="3843"
+               rotate="0"
+               xml:id="i41z1"/>
+      </surface>
+      <surface n="42" xml:id="i42">
+         <graphic decls="#downloadImageRights #download"
+                  height="3854px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00042"
+                  width="4932px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4931"
+               lry="3853"
+               rotate="0"
+               xml:id="i42z1"/>
+      </surface>
+      <surface n="43" xml:id="i43">
+         <graphic decls="#downloadImageRights #download"
+                  height="3835px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00043"
+                  width="4932px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4931"
+               lry="3834"
+               rotate="0"
+               xml:id="i43z1"/>
+      </surface>
+      <surface n="44" xml:id="i44">
+         <graphic decls="#downloadImageRights #download"
+                  height="3854px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00044"
+                  width="4905px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4904"
+               lry="3853"
+               rotate="0"
+               xml:id="i44z1"/>
+      </surface>
+      <surface n="45" xml:id="i45">
+         <graphic decls="#downloadImageRights #download"
+                  height="3844px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00045"
+                  width="4905px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4904"
+               lry="3843"
+               rotate="0"
+               xml:id="i45z1"/>
+      </surface>
+      <surface n="46" xml:id="i46">
+         <graphic decls="#downloadImageRights #download"
+                  height="3854px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00046"
+                  width="4996px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4995"
+               lry="3853"
+               rotate="0"
+               xml:id="i46z1"/>
+      </surface>
+      <surface n="47" xml:id="i47">
+         <graphic decls="#downloadImageRights #download"
+                  height="3844px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00047"
+                  width="4996px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4995"
+               lry="3843"
+               rotate="0"
+               xml:id="i47z1"/>
+      </surface>
+      <surface n="48" xml:id="i48">
+         <graphic decls="#downloadImageRights #download"
+                  height="3845px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00048"
+                  width="4878px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4877"
+               lry="3844"
+               rotate="0"
+               xml:id="i48z1"/>
+      </surface>
+      <surface n="49" xml:id="i49">
+         <graphic decls="#downloadImageRights #download"
+                  height="3900px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00049"
+                  width="4878px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4877"
+               lry="3899"
+               rotate="0"
+               xml:id="i49z1"/>
+      </surface>
+      <surface n="50" xml:id="i50">
+         <graphic decls="#downloadImageRights #download"
+                  height="3863px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00050"
+                  width="4923px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4922"
+               lry="3862"
+               rotate="0"
+               xml:id="i50z1"/>
+      </surface>
+      <surface n="51" xml:id="i51">
+         <graphic decls="#downloadImageRights #download"
+                  height="3835px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00051"
+                  width="4923px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4922"
+               lry="3834"
+               rotate="0"
+               xml:id="i51z1"/>
+      </surface>
+      <surface n="52" xml:id="i52">
+         <graphic decls="#downloadImageRights #download"
+                  height="3863px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00052"
+                  width="4923px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4922"
+               lry="3862"
+               rotate="0"
+               xml:id="i52z1"/>
+      </surface>
+      <surface n="53" xml:id="i53">
+         <graphic decls="#downloadImageRights #download"
+                  height="3835px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00053"
+                  width="4923px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4922"
+               lry="3834"
+               rotate="0"
+               xml:id="i53z1"/>
+      </surface>
+      <surface n="54" xml:id="i54">
+         <graphic decls="#downloadImageRights #download"
+                  height="3845px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00054"
+                  width="4914px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4913"
+               lry="3844"
+               rotate="0"
+               xml:id="i54z1"/>
+      </surface>
+      <surface n="55" xml:id="i55">
+         <graphic decls="#downloadImageRights #download"
+                  height="3853px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00055"
+                  width="4914px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4913"
+               lry="3852"
+               rotate="0"
+               xml:id="i55z1"/>
+      </surface>
+      <surface n="56" xml:id="i56">
+         <graphic decls="#downloadImageRights #download"
+                  height="3863px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00056"
+                  width="4923px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4922"
+               lry="3862"
+               rotate="0"
+               xml:id="i56z1"/>
+      </surface>
+      <surface n="57" xml:id="i57">
+         <graphic decls="#downloadImageRights #download"
+                  height="3826px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00057"
+                  width="4923px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4922"
+               lry="3825"
+               rotate="0"
+               xml:id="i57z1"/>
+      </surface>
+      <surface n="58" xml:id="i58">
+         <graphic decls="#downloadImageRights #download"
+                  height="3863px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00058"
+                  width="4950px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4949"
+               lry="3862"
+               rotate="0"
+               xml:id="i58z1"/>
+      </surface>
+      <surface n="59" xml:id="i59">
+         <graphic decls="#downloadImageRights #download"
+                  height="3835px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00059"
+                  width="4950px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4949"
+               lry="3834"
+               rotate="0"
+               xml:id="i59z1"/>
+      </surface>
+      <surface n="60" xml:id="i60">
+         <graphic decls="#downloadImageRights #download"
+                  height="3845px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00060"
+                  width="5032px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5031"
+               lry="3844"
+               rotate="0"
+               xml:id="i60z1"/>
+      </surface>
+      <surface n="61" xml:id="i61">
+         <graphic decls="#downloadImageRights #download"
+                  height="3954px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00061"
+                  width="5032px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5031"
+               lry="3953"
+               rotate="0"
+               xml:id="i61z1"/>
+      </surface>
+      <surface n="62" xml:id="i62">
+         <graphic decls="#downloadImageRights #download"
+                  height="3863px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00062"
+                  width="4959px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4958"
+               lry="3862"
+               rotate="0"
+               xml:id="i62z1"/>
+      </surface>
+      <surface n="63" xml:id="i63">
+         <graphic decls="#downloadImageRights #download"
+                  height="3826px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00063"
+                  width="4959px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4958"
+               lry="3825"
+               rotate="0"
+               xml:id="i63z1"/>
+      </surface>
+      <surface n="64" xml:id="i64">
+         <graphic decls="#downloadImageRights #download"
+                  height="3872px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00064"
+                  width="4923px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4922"
+               lry="3871"
+               rotate="0"
+               xml:id="i64z1"/>
+      </surface>
+      <surface n="65" xml:id="i65">
+         <graphic decls="#downloadImageRights #download"
+                  height="3826px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00065"
+                  width="4923px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4922"
+               lry="3825"
+               rotate="0"
+               xml:id="i65z1"/>
+      </surface>
+      <surface n="66" xml:id="i66">
+         <graphic decls="#downloadImageRights #download"
+                  height="3908px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00066"
+                  width="4941px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4940"
+               lry="3907"
+               rotate="0"
+               xml:id="i66z1"/>
+      </surface>
+      <surface n="67" xml:id="i67">
+         <graphic decls="#downloadImageRights #download"
+                  height="3790px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00067"
+                  width="4941px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4940"
+               lry="3789"
+               rotate="0"
+               xml:id="i67z1"/>
+      </surface>
+      <surface n="68" xml:id="i68">
+         <graphic decls="#downloadImageRights #download"
+                  height="3937px"
+                  rend="landscape"
+                  url="MS-DAVY-11903-000-00068"
+                  width="4915px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4914"
+               lry="3936"
+               rotate="0"
+               xml:id="i68z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listAnnotation type="nonenglish">
+         <note xml:id="nonenglish_100" type="description">
+            <term id="nonenglish_100-term">Vide</term>
+            <gloss id="nonenglish_100-gloss" target="#nonenglish_100-term">
+               <p>See; consult; refer to (Latin)</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listPlace>
+         <place xml:id="place_167">
+            <placeName>Greece</placeName>
+            <location>
+               <geo decls="#WGS84">39.47271804405826,  22.383511417155901</geo>
+            </location>
+         </place>
+         <place xml:id="place_569">
+            <placeName>Sicily</placeName>
+            <location>
+               <geo decls="#WGS84">37.65574735341652, 13.9118221346888</geo>
+            </location>
+            <note>Sicily is the largest and most populous island in the Mediterranean Sea and one of the twenty regions of Italy.</note>
+         </place>
+         <place xml:id="place_097">
+            <placeName>Italy</placeName>
+            <location>
+               <geo decls="#WGS84">43.01250014383429, 12.4664638037258</geo>
+            </location>
+         </place>
+         <place xml:id="place_1133">
+            <placeName>Abdera</placeName>
+            <location>
+               <geo decls="#WGS84">40.98161587009217, 24.951654250435901</geo>
+            </location>
+            <note>a municipality in the Xanthi regional unit of Thrace, Greece. In classical antiquity, it was a major Greek polis on the Thracian coast.</note>
+         </place>
+         <place xml:id="place_475">
+            <placeName>Egypt</placeName>
+            <location>
+               <geo decls="#WGS84">26.847302350713047,  29.800177329364502</geo>
+            </location>
+         </place>
+         <place xml:id="place_208">
+            <placeName>Athens</placeName>
+            <location>
+               <geo decls="#WGS84">37.9854254841492, 23.728211329282001</geo>
+            </location>
+            <note>Athens is the capital city of Greece.</note>
+         </place>
+         <place xml:id="place_1212">
+            <placeName>Arabian Peninsula</placeName>
+            <location>
+               <geo decls="#WGS84">25.842872805188488,  43.542785404088598</geo>
+            </location>
+            <note>a peninsula in West Asia, situated northeast of Africa on the Arabian Plate. It includes the territories of includes Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, the United Arab Emirates and Yemen, as well as southern Iraq and Jordan. In the classical era, the Sinai Peninsula was also considered a part of Arabia.</note>
+         </place>
+         <place xml:id="place_936">
+            <placeName>Syracuse</placeName>
+            <location>
+               <geo decls="#WGS84">37.11964575674472,  15.2450144220015</geo>
+            </location>
+            <note>A historic city on the Italian island of Sicily, the capital of the Italian province of Syracuse. The city is notable for its rich Greek and Roman history,</note>
+         </place>
+         <place xml:id="place_1135">
+            <placeName>Alexandria</placeName>
+            <location>
+               <geo decls="#WGS84">31.201983847754434, 29.917791652550601</geo>
+            </location>
+            <note>The second largest city in Egypt and the largest city on the Mediterranean coast. Alexandria was the intellectual and cultural centre of the ancient Mediterranean for much of the Hellenistic age and late antiquity, particularly famous for its lighthouse and library.</note>
+         </place>
+         <place xml:id="place_187">
+            <placeName>Pharos</placeName>
+            <location>
+               <geo decls="#WGS84">32.23659787196798,  31.722732815594402</geo>
+            </location>
+            <note>The Lighthouse of Alexandria, or the Pharos Lighthouse, was built on an island offshore from the Nile Delta, between 280-247 BCE. It was estimated to be 100m high. It was damaged by earthquakes and abandoned as a ruin in 1323 CE. </note>
+         </place>
+      </listPlace>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_447" type="description">
+            <term id="misc_447-term">Ionic sect</term>
+            <gloss id="misc_447-gloss" target="#misc_447-term">
+               <p>a sect of philosophers founded by Thales of Miletus, in Ionia. Their distinguishing tenet was that the world originated from water. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_748" type="description">
+            <term id="misc_748-term">Pythagoreans</term>
+            <gloss id="misc_748-gloss" target="#misc_748-term">
+               <p>Followers of Pythagoras. Pythagoreanism originated in the 6th century BCE, based on and around the teachings and beliefs held by Pythagoras and his followers.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_456" type="description">
+            <term id="misc_456-term">Eleatics</term>
+            <gloss id="misc_456-gloss" target="#misc_456-term">
+               <p>The Eleatics were a group of pre-Socratic philosophers and school of thought in the 5th century BC centered around the ancient Greek colony of Elea, located in present-day Campania in southern Italy, then known as Magna Graecia.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_511" type="description">
+            <term id="misc_511-term">God</term>
+            <gloss id="misc_511-gloss" target="#misc_511-term">
+               <p>God, within the Christian religion.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_455" type="description">
+            <term id="misc_455-term">Timeus the Locrian</term>
+            <gloss id="misc_455-gloss" target="#misc_455-term">
+               <p>a character in two of Plato's dialogues, Timaeus and Critias. In both, he appears as a philosopher of the Pythagorean school. If there ever existed a historical Timaeus of Locri, he would have lived in the fifth century BCE, but his historicity is dubious since he only appears as a literary figure in Plato's works.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_705" type="description">
+            <term id="misc_705-term">Briareus</term>
+            <gloss id="misc_705-gloss" target="#misc_705-term">
+               <p>One of the Hecatoncheires of Greek Mythology - giants with fifty heads and one hundered arms</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_458" type="description">
+            <term id="misc_458-term">Hecatoncheires</term>
+            <gloss id="misc_458-gloss" target="#misc_458-term">
+               <p>In Greek mythology, the Hecatoncheires were three monstrous giants, of enormous size and strength, each with fifty heads and one hundred arms.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_459" type="description">
+            <term id="misc_459-term">Ptolemaic dynasty</term>
+            <gloss id="misc_459-gloss" target="#misc_459-term">
+               <p>The Ptolemaic dynasty  a Macedonian Greek royal house which ruled the Ptolemaic Kingdom in Ancient Egypt during the Hellenistic period. Reigning for 275 years, the Ptolemaic was the longest and last dynasty of ancient Egypt </p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listPerson>
+         <person xml:id="person_609">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Thales</surname>
+            </persName>
+            <birth when="c. 626 BCE"/>
+            <death when="c. 548 BCE"/>
+            <note>Ancient Greek pre-Socratic philosopher from Miletus in Ionia, Asia Minor.</note>
+         </person>
+         <person xml:id="person_819">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Xenophanes</surname>
+            </persName>
+            <birth when="560 BCE"/>
+            <death when="478 BCE"/>
+            <note>Greek philosopher, theologian, poet, and critic of Homer from Ionia who travelled throughout the Greek-speaking world in early Classical Antiquity. As a poet, Xenophanes was known for his critical style, writing poems that are considered among the first satires.</note>
+         </person>
+         <person xml:id="person_905">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Parmenides</surname>
+            </persName>
+            <birth when="c. late 6th century BCE"/>
+            <death when="c. 5th century BCE"/>
+            <note>a pre-Socratic Greek philosopher from Elea in Magna Graecia.</note>
+         </person>
+         <person xml:id="person_606">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Pericles</surname>
+            </persName>
+            <birth when="c. 495 BCE"/>
+            <death when="429 BCE"/>
+            <note>Athenian general and politician who supported the arts and literature. </note>
+         </person>
+         <person xml:id="person_865">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Heraclitus</surname>
+            </persName>
+            <birth when="c. 6th century BCE"/>
+            <death when="c. 5th century BCE"/>
+            <note>An ancient Greek pre-Socratic philosopher from the city of Ephesus, which was then part of the Persian Empire. </note>
+         </person>
+         <person xml:id="person_906">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Leucippus</surname>
+            </persName>
+            <birth when="c.480 BCE"/>
+            <death when="c.420 BCE"/>
+            <note>a pre-Socratic Greek philosopher. He is traditionally credited as the founder of atomism, which he developed with his student Democritus. Leucippus divided the world into two entities: atoms, indivisible particles that make up all things, and the void, the nothingness that exists between the atoms.</note>
+         </person>
+         <person xml:id="person_951">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jesus</forename>
+               <surname>Christ</surname>
+            </persName>
+            <birth when="c. 6-4 BC"/>
+            <death when="AD 30 or 33"/>
+            <note>The central figure of Christianity; a first-century Jewish preacher and religious leader.</note>
+         </person>
+         <person xml:id="person_445">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Pythagoras</surname>
+            </persName>
+            <birth when="c. 570 BCE"/>
+            <death when="c. 495 BCE"/>
+            <note>Pythagoras of Samos was an ancient Ionian Greek philosopher, polymath, and the eponymous founder of Pythagoreanism. Believed in the primacy of number.</note>
+         </person>
+         <person xml:id="person_182">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Democritus</surname>
+            </persName>
+            <birth when="460 BCE"/>
+            <death when="370 BCE"/>
+            <note>Pre-Socratic Greek philosopher who proposed a form of atomism.</note>
+         </person>
+         <person xml:id="person_605">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Anaxagoras</surname>
+            </persName>
+            <birth when="fl. 5th cent BCE"/>
+            <note>Greek Presocratic philosopher.</note>
+         </person>
+         <person xml:id="person_181">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Hippocrates</surname>
+            </persName>
+            <birth when="460 BCE"/>
+            <death when="370 BCE"/>
+            <note>Green physician of the classical period.</note>
+         </person>
+         <person xml:id="person_140">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Socrates</surname>
+            </persName>
+            <birth when="470 BCE"/>
+            <death when="399 BCE"/>
+            <note>Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.</note>
+         </person>
+         <person xml:id="person_907">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Aristophanes</surname>
+            </persName>
+            <birth when="c. 446 BCE"/>
+            <death when="c. 386 BCE"/>
+            <note>a comic playwright or comedy-writer of ancient Athens and a poet of Old Attic Comedy.</note>
+         </person>
+         <person xml:id="person_085">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Plato</surname>
+            </persName>
+            <birth when="c. 427 BCE"/>
+            <death when="c. 348 BCE"/>
+            <note>A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.</note>
+         </person>
+         <person xml:id="person_138">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Aristotle</surname>
+            </persName>
+            <birth when="384 BCE"/>
+            <death when="322 BCE"/>
+            <note>A pupil of Plato's whose philosophical idealism he came to reject, arguing instead for the primacy of observations of natural phenomena. He thus established the divide between theory and experiment in science that can still be detected today. Aristotle's writings became the main way the natural world was understood from the Middle Ages to the seventeenth century, especially in the universities.</note>
+         </person>
+         <person xml:id="person_810">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Alexander III</forename>
+            </persName>
+            <birth when="356 BCE"/>
+            <death when="323 BCE"/>
+            <note>The Great, King of Macedon, from which he conquered much of the world known in Greek antiquity. </note>
+         </person>
+         <person xml:id="person_417">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Archimedes</surname>
+            </persName>
+            <birth when="c. 287 BCE"/>
+            <death when="c. 212 BCE"/>
+            <note>Ancient Greek mathematician, physicist, engineer, astronomer and inventor from Syracuse in Sicily.</note>
+         </person>
+         <person xml:id="person_602">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Plutarch</surname>
+            </persName>
+            <birth when="45 CE"/>
+            <death when="120 CE"/>
+            <note>Greek writer most famous for his parallel lives of Greek and Roman statesmen and military leaders.</note>
+         </person>
+         <person xml:id="person_911">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Hiero II</surname>
+            </persName>
+            <birth when="c. 308 BCE"/>
+            <death when="c. 215 BCE"/>
+            <note>The Greek tyrant of Syracuse. He was a former general of Pyrrhus of Epirus and an important figure of the First Punic War. He figures in the story of Archimedes shouting "Eureka".</note>
+         </person>
+         <person xml:id="person_913">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Marcus Claudius</forename>
+               <surname>Marcellus</surname>
+            </persName>
+            <birth when="c. 270 BCE"/>
+            <death when="208 BCE"/>
+            <note>an important Roman military leader. He is noted for having conquered the fortified city of Syracuse in a protracted siege during which Archimedes was killed, despite Marcellus ordering the soldiers under his command not to harm him.</note>
+         </person>
+         <person xml:id="person_861">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Euclid</surname>
+            </persName>
+            <birth when="c.330 BCE"/>
+            <death when="c. 270 BCE"/>
+            <note>An ancient Greek mathematician, geometer and logician. Considered the "father of geometry", he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century.</note>
+         </person>
+         <person xml:id="person_914">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Aristarchus</surname>
+            </persName>
+            <birth when="c. 310 BCE"/>
+            <death when="c. 230 BCE"/>
+            <note>an ancient Greek astronomer and mathematician who presented the first known heliocentric model that placed the Sun at the center of the known universe.</note>
+         </person>
+         <person xml:id="person_915">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Eratosthenes</surname>
+            </persName>
+            <birth when="c. 276 BCE"/>
+            <death when="c. 194 BCE"/>
+            <note>a Greek polymath: a mathematician, geographer, poet, astronomer, and music theorist. He was the chief librarian at the Library of Alexandria.</note>
+         </person>
+         <person xml:id="person_916">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Hipparchus</surname>
+            </persName>
+            <birth when="c. 190 BCE"/>
+            <death when="c. 120 BCE"/>
+            <note>a Greek astronomer, geographer, and mathematician. He is considered the founder of trigonometry, but is most famous for his incidental discovery of the precession of the equinoxes.</note>
+         </person>
+         <person xml:id="person_737">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Claudius</forename>
+               <surname>Ptolemy</surname>
+            </persName>
+            <birth when="c.100 CE"/>
+            <death when="c.170 CE"/>
+            <note>An Alexandrian mathematician, astronomer, astrologer, geographer, and music theorist. His Almagest supporting a geocentric view of the world was not seriously contradicted until the work of Copernicus.</note>
+         </person>
+         <person xml:id="person_124">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Francis</forename>
+               <surname>Bacon</surname>
+            </persName>
+            <birth when="1561"/>
+            <death when="1626"/>
+            <note>English lawyer, politician and natural philosopher. His influential writings encouraged experimentation and the use of induction in investigating the natural world. He also recommended establishing institutions to promote collaborative research. </note>
+         </person>
+         <person xml:id="person_036">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Isaac</forename>
+               <surname>Newton</surname>
+            </persName>
+            <birth when="1642"/>
+            <death when="1727"/>
+            <note>Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy &amp; Newton' in one inch letters. FRSL.</note>
+         </person>
+      </listPerson>
+      <listBibl>
+         <bibl xml:id="otherwork_045">
+            <author>Humphry Davy</author>
+            <title level="j">Consolations in Travel, or the Last Days of Philosopher</title>
+            <title level="a" type="main">Dialogues</title>
+         </bibl>
+         <bibl xml:id="otherwork_248">
+            <author>John and William Langhorn</author>
+            <title level="j">Plutarch's Lives translated from the Original Greek with Notes</title>
+            <title level="a" type="main">Marcellus</title>
+            <date when="1809">1809</date>
+            <biblScope unit="volume">2</biblScope>
+            <note>Translation of Plutrach's Parallel Lives (c. 75 CE)</note>
+            <biblScope unit="page" from="423" to="481">423-481</biblScope>
+         </bibl>
+         <bibl xml:id="otherwork_085">
+            <author>Euclid</author>
+            <title level="j">Elements of Geometry</title>
+            <date when="c. 300 BCE">c. 300 BCE</date>
+         </bibl>
+         <bibl xml:id="otherwork_251">
+            <author>Claudius Ptolemy</author>
+            <title level="j">Almagest</title>
+            <date when="c. 150">c. 150</date>
+            <note>A 2nd-century mathematical and astronomical treatise on the apparent motions of the stars and planetary paths.</note>
+         </bibl>
+      </listBibl>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+1&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+2&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">NB</hi>
+            <lb/>
+The copy is not complete&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#nonenglish_100"
+                type="nonenglish">
+               <term xml:id="tag1">
+          Vide
+        </term>
+            </rs> original M.S. vol. ii towards&#xD;<lb/>
+the end, for the connecting part. -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+3&#xD;<lb/>
+The two principal sects in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag2"
+                ref="#place_167"
+                type="place">
+               <name xml:id="tag2" type="place">
+          Greece
+        </name>
+            </rs> the&#xD;<lb/>
+subjects of the last lecture as we saw were&#xD;<lb/>
+evidently guided by very different views and&#xD;<lb/>
+exercised very different influence in the public&#xD;<lb/>
+mind -&#xD;<lb/>
+In the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag3"
+                ref="#misc_447"
+                type="miscellaneous">
+               <term xml:id="tag3">
+          Ionic School
+        </term>
+            </rs> all the methods were&#xD;<lb/>
+disclosed nothing was concealed. - The&#xD;<lb/>
+abstracted love of truth seemed the principal&#xD;<lb/>
+guide of the few Philosophers who formed&#xD;<lb/>
+the sect and rejoicing in the love of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">truth</hi>
+            <lb/>
+themselves they appeared to wish that all&#xD;<lb/>
+others should experience its effects&#xD;<lb/>
+and its benefits. -&#xD;<lb/>
+the sect and rejoicing in the love of truth&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+4&#xD;<lb/>
+By the disciples of the Italio school a&#xD;<lb/>
+double doctrine was preferred =&#xD;<lb/>
+All the abstruser parts of science were&#xD;<lb/>
+concealed from the public. They seemed&#xD;<lb/>
+disposed to make of their Philosophy a&#xD;<lb/>
+private property and to employ it only <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">for</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">private ends and advantages</hi>
+            <lb/>
+In the manner in which the knowledge of&#xD;<lb/>
+the two schools <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">was</del> was acquired, there was&#xD;<lb/>
+likewise a similar contrast -&#xD;<lb/>
+The few <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">discoveries</hi> brought by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag4"
+                ref="#person_609"
+                type="person">
+               <name xml:id="tag4" type="person">
+          Thales
+        </name>
+            </rs> from&#xD;<lb/>
+the East were applied and extended and the&#xD;<lb/>
+method of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">observation</del> observation seems to&#xD;<lb/>
+have been successfully used till the&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+5&#xD;<lb/>
+persecution of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Anaxor</del>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag5" ref="#person_180" type="person">
+                  <name xml:id="tag5" type="person">
+          Anaxargorus
+        </name>
+               </rs> proved</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">that it was dangerous openly to profess of</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the research for Physical truth</hi>
+            <lb/>
+In the Italic school on the contrary after&#xD;<lb/>
+the first importation of useful learning all&#xD;<lb/>
+novel enquirey seems to have been relinquished&#xD;<lb/>
+And the later <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag6"
+                ref="#misc_748"
+                type="miscellaneous">
+               <term xml:id="tag6">
+          pythagoreans
+        </term>
+            </rs> appears to have&#xD;<lb/>
+been inferior to their Master not only in&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">talents</hi> but likewise in Knowledge.&#xD;<lb/>
+He taught the roundness of the Earth -&#xD;<lb/>
+Many of his followers asserted that it was&#xD;<lb/>
+flat -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+6&#xD;<lb/>
+He had embraced <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the comprehensive</hi> Theory&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">in which</hi> the sun is placed in the&#xD;<lb/>
+Centre and the Earth considered as revolving&#xD;<lb/>
+round it and in which the fixed stars&#xD;<lb/>
+are regarded as suns and the planets&#xD;<lb/>
+as habitable worlds. -&#xD;<lb/>
+but in less than a hundred years after&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">his death</hi> the vulgar notion was revived -&#xD;<lb/>
+The pride of ignorant men elevated by false&#xD;<lb/>
+metaphysical speculation would not suffer them&#xD;<lb/>
+to consider the Earth only as a small <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">body</del> part&#xD;<lb/>
+of the system of nature and themselves as&#xD;<lb/>
+living atoms only in the scale of being:&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="9"
+                xml:id="pb-9"
+                facs="#i9"/>
+            <lb/>
+7&#xD;<lb/>
+No they restored the Globe to its ancient place of&#xD;<lb/>
+dignity <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">in</hi> the centre of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">universe</hi> and&#xD;<lb/>
+supposed the sun moon and stars as lights merely&#xD;<lb/>
+suspended like lamps in the vault of heaven&#xD;<lb/>
+for the use the conveniency and the amusement&#xD;<lb/>
+of Man. -&#xD;<lb/>
+That this account is autherised by history is&#xD;<lb/>
+evident from the description given of the phy=&#xD;<lb/>
+=thagorean philosophers of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag7"
+                ref="#misc_456"
+                type="miscellaneous">
+               <term xml:id="tag7">
+                  <hi rend="underline">Eleatic School</hi>
+               </term>
+            </rs> in&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag8"
+                ref="#place_569"
+                type="place">
+               <name xml:id="tag8" type="place">
+          Sicily
+        </name>
+            </rs> - such opinions are attributed to&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag9"
+                ref="#person_819"
+                type="person">
+               <name xml:id="tag9" type="person">
+                  <hi rend="underline">Xenophanes</hi>
+               </name>
+            </rs> and <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag10"
+                ref="#person_905"
+                type="person">
+               <name xml:id="tag10" type="person">
+                  <hi rend="underline">Parmenides</hi>
+               </name>
+            </rs>, both of whom&#xD;<lb/>
+lived in the later part of the Age of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag11"
+                ref="#person_606"
+                type="person">
+               <name xml:id="tag11" type="person">
+                  <hi rend="underline">Pericles</hi>
+               </name>
+            </rs>
+            <lb/>
+And <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag12"
+                ref="#person_819"
+                type="person">
+               <name xml:id="tag12" type="person">
+          Xenophanes
+        </name>
+            </rs> is said to have believed that&#xD;<lb/>
+the stars like artificial fires were lighted&#xD;<lb/>
+up every night and extinguished every&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="10"
+                xml:id="pb-10"
+                facs="#i10"/>
+            <lb/>
+8&#xD;<lb/>
+day and that they were supported by&#xD;<lb/>
+exhalations from the Earth -&#xD;<lb/>
+To detail the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">physical</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">various</del> notions of the&#xD;<lb/>
+various sects who taught in the different&#xD;<lb/>
+cities of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag13"
+                ref="#place_167"
+                type="place">
+               <name xml:id="tag13" type="place">
+          Greece
+        </name>
+            </rs> of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag14"
+                ref="#place_097"
+                type="place">
+               <name xml:id="tag14" type="place">
+          Italy
+        </name>
+            </rs> and of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag15"
+                ref="#place_569"
+                type="place">
+               <name xml:id="tag15" type="place">
+          Sicily
+        </name>
+            </rs> in&#xD;<lb/>
+what may be called the middle Age of&#xD;<lb/>
+Grecian civilization would to collect <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">toghe</del>
+            <lb/>
+together a medley of opinions in which a&#xD;<lb/>
+few truths occur blended with numerous&#xD;<lb/>
+errors and absurdities that of the philosophers&#xD;<lb/>
+attempted <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">universal systems</hi>
+            <lb/>
+And the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag16"
+                ref="#misc_511"
+                type="miscellaneous">
+               <term xml:id="tag16">
+          Supreme being
+        </term>
+            </rs> and Man and&#xD;<lb/>
+Nature were all considered as objects of&#xD;<lb/>
+their enquiry&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="11"
+                xml:id="pb-11"
+                facs="#i11"/>
+            <lb/>
+9&#xD;<lb/>
+And in almost all researches they pursued&#xD;<lb/>
+the same vague method of assuming a certain&#xD;<lb/>
+principle and endeavouring to explain all facts&#xD;<lb/>
+and all knowledge by applying it generally&#xD;<lb/>
+and indiscriminately. -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag17"
+                ref="#person_865"
+                type="person">
+               <name xml:id="tag17" type="person">
+          Heracletus
+        </name>
+            </rs> to produce one instance&#xD;<lb/>
+perceiving the activity of fire in nature&#xD;<lb/>
+its important effects and its vivifying agency&#xD;<lb/>
+instead of collecting facts with regard to it in&#xD;<lb/>
+the spirit of a true observer for the purpose&#xD;<lb/>
+of ascertaining the general laws by which it&#xD;<lb/>
+was governed -&#xD;<lb/>
+P only assumed that it was the&#xD;<lb/>
+principle of all things - And that Earth&#xD;<lb/>
+and Air and water were only peculiar forms of&#xD;<lb/>
+Heat -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="12"
+                xml:id="pb-12"
+                facs="#i12"/>
+            <lb/>
+10&#xD;<lb/>
+And not contented with hasty and ridiculous&#xD;<lb/>
+generalisation. He went still farther and supposed&#xD;<lb/>
+it intelligent. and moving and living in all&#xD;<lb/>
+nature.&#xD;<lb/>
+In the opinions of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag18"
+                ref="#person_906"
+                type="person">
+               <name xml:id="tag18" type="person">
+          Leucippus
+        </name>
+            </rs> of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag19"
+                ref="#place_1133"
+                type="place">
+               <name xml:id="tag19" type="place">
+          Abdera
+        </name>
+            </rs> who&#xD;<lb/>
+flourished 428 years before <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag20"
+                ref="#person_951"
+                type="person">
+               <name xml:id="tag20" type="person">
+          Christ
+        </name>
+            </rs> some novel views&#xD;<lb/>
+were disclosed and a philosophy was taught&#xD;<lb/>
+of a different character from that of the system&#xD;<lb/>
+of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag21" ref="#person_445" type="person">
+                  <name xml:id="tag21" type="person">
+          Pythagorean
+        </name>
+               </rs>
+            </hi> or <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Ionic Schools</hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag22"
+                ref="#person_906"
+                type="person">
+               <name xml:id="tag22" type="person">
+          Leucippus
+        </name>
+            </rs> may be considered as the founder&#xD;<lb/>
+of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">corpuscular</hi> system other persons before&#xD;<lb/>
+had indeed attempted to show that matter&#xD;<lb/>
+must be composed of very small or minute parts&#xD;<lb/>
+but <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag23"
+                ref="#person_906"
+                type="person">
+               <name xml:id="tag23" type="person">
+          Leucippus
+        </name>
+            </rs> endeavoured to establish that&#xD;<lb/>
+such parts had definite figure and that&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="13"
+                xml:id="pb-13"
+                facs="#i13"/>
+            <lb/>
+11&#xD;<lb/>
+they were endowed with powers of motion and&#xD;<lb/>
+that all the varieties of life the forms of things&#xD;<lb/>
+were produced by their arrangement and their&#xD;<lb/>
+Combinations&#xD;<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag24"
+                ref="#person_182"
+                type="person">
+               <name xml:id="tag24" type="person">
+          Democritus
+        </name>
+            </rs> was the disciple of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag25"
+                ref="#person_906"
+                type="person">
+               <name xml:id="tag25" type="person">
+                  <hi rend="underline">Leucippus</hi>
+               </name>
+            </rs>
+            <lb/>
+and He extended the doctrine of his Master&#xD;<lb/>
+He is recorded as a diligent observer He is stated&#xD;<lb/>
+by all his Biographers to have been a great&#xD;<lb/>
+and indefatigable traveller and one of them&#xD;<lb/>
+has made him give an account of his Voyage&#xD;<lb/>
+and labours.&#xD;<lb/>
+Which account is <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of high Confidence</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">demonstrates great talents</hi> would prove&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag26"
+                ref="#person_182"
+                type="person">
+               <name xml:id="tag26" type="person">
+          Democritus
+        </name>
+            </rs> to have been one of the first&#xD;<lb/>
+of the Geniuses of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">An</del> Antiquity.&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="14"
+                xml:id="pb-14"
+                facs="#i14"/>
+            <lb/>
+12&#xD;<lb/>
+He is supposed to say I have spared no labour&#xD;<lb/>
+in endeavouring to gain Knowledge - I have seen&#xD;<lb/>
+all the great men of my Age. I have&#xD;<lb/>
+journeyed through all countries in which I&#xD;<lb/>
+had the most distant hope of discovering useful&#xD;<lb/>
+truths. I have never been deterred by the&#xD;<lb/>
+distance of places nor by dangers nor by&#xD;<lb/>
+fears of danger. I have observed the&#xD;<lb/>
+various differences of climates - I have&#xD;<lb/>
+described the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">phaen</del> phenomena of the Air&#xD;<lb/>
+the Earth and the waters - the fatague&#xD;<lb/>
+of body has never disturbed the tranquility&#xD;<lb/>
+of my mind and even during my travels&#xD;<lb/>
+I have applied my self to quiet meditation&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="15"
+                xml:id="pb-15"
+                facs="#i15"/>
+            <lb/>
+13&#xD;<lb/>
+The cultivated mathematics whilst passing over&#xD;<lb/>
+the public roads with as much success as if&#xD;<lb/>
+I had been seated tranquilly in my chamber&#xD;<lb/>
+And I believe that no person living can&#xD;<lb/>
+surpass me in the art of demonstrating <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">properties</hi> of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">things by numbers</hi> and lines&#xD;<lb/>
+I will not even except the priests of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag27"
+                ref="#place_475"
+                type="place">
+               <name xml:id="tag27" type="place">
+          Egypt
+        </name>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag28"
+                ref="#person_182"
+                type="person">
+               <name xml:id="tag28" type="person">
+          Democritus
+        </name>
+            </rs> is said to have written books&#xD;<lb/>
+upon plants and animals and to have&#xD;<lb/>
+pursued Anatomical and philosophical&#xD;<lb/>
+investigations but none of his <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">obsa</del> observations&#xD;<lb/>
+upon natural bodies have been preserved&#xD;<lb/>
+If we may credit some writers <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag29"
+                ref="#person_182"
+                type="person">
+               <name xml:id="tag29" type="person">
+          Democritus
+        </name>
+            </rs> was&#xD;<lb/>
+the first experimental chemist for it is said&#xD;<lb/>
+that he was acquainted with methods for bringing&#xD;<lb/>
+stone into solution and for ivory -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="16"
+                xml:id="pb-16"
+                facs="#i16"/>
+            <lb/>
+14&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag30"
+                ref="#person_182"
+                type="person">
+               <name xml:id="tag30" type="person">
+          Democritus
+        </name>
+            </rs> added to the system of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag31"
+                ref="#person_906"
+                type="person">
+               <name xml:id="tag31" type="person">
+          Leucippus
+        </name>
+            </rs> -&#xD;<lb/>
+Void space and he supposed that all the agencies&#xD;<lb/>
+of the corpuscles composing matter were exerted in&#xD;<lb/>
+this space.&#xD;<lb/>
+Many opinions were attributed <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to this</del> by some&#xD;<lb/>
+historians to this philosopher which are referred&#xD;<lb/>
+by others to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag32"
+                ref="#person_605"
+                type="person">
+               <name xml:id="tag32" type="person">
+          Anaxagorus
+        </name>
+            </rs> and even to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag33"
+                ref="#person_445"
+                type="person">
+               <name xml:id="tag33" type="person">
+          Pythagoras
+        </name>
+            </rs>
+            <lb/>
+such was the notion that the Galaxy is&#xD;<lb/>
+produced by a number of small stars and the&#xD;<lb/>
+general idea of the plurality of Worlds&#xD;<lb/>
+Many of the strong repostes likewise reported&#xD;<lb/>
+by some writers to have belonged to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag34"
+                ref="#person_609"
+                type="person">
+               <name xml:id="tag34" type="person">
+          Thales
+        </name>
+            </rs>
+            <lb/>
+and the Ionic philosophers have by others&#xD;<lb/>
+been referred to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag35"
+                ref="#person_182"
+                type="person">
+               <name xml:id="tag35" type="person">
+          Democritus
+        </name>
+            </rs> -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="17"
+                xml:id="pb-17"
+                facs="#i17"/>
+            <lb/>
+15&#xD;<lb/>
+And it would seem from the experience of&#xD;<lb/>
+early as well as of late times that wit has&#xD;<lb/>
+always been a rare quality; for there is hardly&#xD;<lb/>
+one good thing which has not been attributed to&#xD;<lb/>
+twenty different persons and the attic salt of&#xD;<lb/>
+antiquity has often been stolen to give a&#xD;<lb/>
+relish to modern productions -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag36"
+                ref="#person_182"
+                type="person">
+               <name xml:id="tag36" type="person">
+          Democritus
+        </name>
+            </rs> was called the laughing Philosopher&#xD;<lb/>
+and the reason for this appellation seems to be&#xD;<lb/>
+that he ridiculed the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag37"
+                ref="#place_1133"
+                type="place">
+               <name xml:id="tag37" type="place">
+          Abderotis
+        </name>
+            </rs> on account of&#xD;<lb/>
+their stupidity and laughed at their follies&#xD;<lb/>
+They in return accused him of Madness&#xD;<lb/>
+and are said to have sent for <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag38"
+                ref="#person_181"
+                type="person">
+               <name xml:id="tag38" type="person">
+          Hippocrates
+        </name>
+            </rs>
+            <lb/>
+with the hope that he might effect a cure&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="18"
+                xml:id="pb-18"
+                facs="#i18"/>
+            <lb/>
+16&#xD;<lb/>
+The physician was astonished at the talents of&#xD;<lb/>
+the philosopher and pronounced him the wisest&#xD;<lb/>
+of them and his fellow citizens the greatest of&#xD;<lb/>
+fools for not understanding the nature of&#xD;<lb/>
+the treasure they possessed -&#xD;<lb/>
+In an Epistle ascribed to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag39"
+                ref="#person_181"
+                type="person">
+               <name xml:id="tag39" type="person">
+          Hippocrates
+        </name>
+            </rs> an&#xD;<lb/>
+account is given of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">his given</del> of his interview&#xD;<lb/>
+with <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag40"
+                ref="#person_182"
+                type="person">
+               <name xml:id="tag40" type="person">
+          Democritus
+        </name>
+            </rs> a statement is made of the&#xD;<lb/>
+reason of the philosopher for laughing at the&#xD;<lb/>
+absurdities&#xD;<lb/>
+These reasons are delivered in a strong&#xD;<lb/>
+and energetic style and exhibit a very&#xD;<lb/>
+perfect picture of a depraved and <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">proper</unclear>
+            <lb/>
+I laugh <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag41"
+                ref="#person_182"
+                type="person">
+               <name xml:id="tag41" type="person">
+          Democritus
+        </name>
+            </rs> is made to say&#xD;<lb/>
+I laugh at their follies and their&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="19"
+                xml:id="pb-19"
+                facs="#i19"/>
+            <lb/>
+17&#xD;<lb/>
+inconsistences I laugh at their wickedness and&#xD;<lb/>
+presumption. I laugh as Man the most&#xD;<lb/>
+wonderful and most insignificant the most&#xD;<lb/>
+exalted and debased the best and yet the&#xD;<lb/>
+most depraved of beings&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag42"
+                ref="#person_182"
+                type="person">
+               <name xml:id="tag42" type="person">
+          Democritus
+        </name>
+            </rs> there is every reason to believe&#xD;<lb/>
+was a man of considerable talents who perceived&#xD;<lb/>
+the necessity of experimental methods for&#xD;<lb/>
+advancing the sciences; but living amongst&#xD;<lb/>
+a people who despised his labours and enquiries&#xD;<lb/>
+it was scarcely possible for him to produce&#xD;<lb/>
+any important or permanent effect&#xD;<lb/>
+The Age was wholly unprepared for the&#xD;<lb/>
+devellopement of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">great natural truths</hi>
+            <lb/>
+and <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the study</hi> a consolation and a delight&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="20"
+                xml:id="pb-20"
+                facs="#i20"/>
+            <lb/>
+18&#xD;<lb/>
+to the person who followed it appears to have&#xD;<lb/>
+had very little effect upon the pursuits of the&#xD;<lb/>
+public and very little relation to their opinion&#xD;<lb/>
+The general idea of the various substances&#xD;<lb/>
+being formed by the union of primitive&#xD;<lb/>
+particles of matter differing in their form and&#xD;<lb/>
+arrangements has been adapted by a number&#xD;<lb/>
+of modern philosophers: but the present system&#xD;<lb/>
+differs altogether from the ancient system&#xD;<lb/>
+in this respect: <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">that these particles</hi> are <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">supposed</del>
+            <lb/>
+supposed to be acted on either by <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">repulsion</hi>
+            <lb/>
+or attraction according as the circumstances&#xD;<lb/>
+of their contiguity are different. -&#xD;<lb/>
+The modern corpuscular philosophy however&#xD;<lb/>
+even in its best form can only be considered&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="21"
+                xml:id="pb-21"
+                facs="#i21"/>
+            <lb/>
+19&#xD;<lb/>
+as a mere hypothesis and the ancient doctrine in&#xD;<lb/>
+which the arrangement of the atoms were supposed&#xD;<lb/>
+to be was absolutely absurd. -&#xD;<lb/>
+Chemical experiments which have made us&#xD;<lb/>
+acquainted with the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">several</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">sensible</add> elements of bodies&#xD;<lb/>
+prove that amidst the infinite variety of the&#xD;<lb/>
+combinations producible by human Art very&#xD;<lb/>
+few are similar to those <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">existing in nature.</hi>
+            <lb/>
+And where ever the principle of life is&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">concerned</hi> there affinity or elementary&#xD;<lb/>
+attractions appears no longer as a primary&#xD;<lb/>
+power but is submitted to a more active and&#xD;<lb/>
+energetic principle -&#xD;<lb/>
+Every fact speaks to a distinct language&#xD;<lb/>
+the harmony of the arrangements existing&#xD;<lb/>
+in Nature and their necessity for the preservation&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="22"
+                xml:id="pb-22"
+                facs="#i22"/>
+            <lb/>
+20&#xD;<lb/>
+of life and the phenomena can in no way&#xD;<lb/>
+be accounted for by any effects of material&#xD;<lb/>
+agency but evidently derive their existence&#xD;<lb/>
+and their order from supreme wisdom&#xD;<lb/>
+and intelligence and the vanity of&#xD;<lb/>
+opinions amongst the ancient speculators&#xD;<lb/>
+with regard to the causes of things serve&#xD;<lb/>
+to demonstrate the necessity of immutable&#xD;<lb/>
+law and of a positive institution for&#xD;<lb/>
+guiding the reason and for directing&#xD;<lb/>
+opinion. -&#xD;<lb/>
+The Era of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag43"
+                ref="#person_182"
+                type="person">
+               <name xml:id="tag43" type="person">
+          Democritus
+        </name>
+            </rs> was likewise that&#xD;<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag44"
+                ref="#person_140"
+                type="person">
+               <name xml:id="tag44" type="person">
+          Socrates
+        </name>
+            </rs> -&#xD;<lb/>
+And no philosopher amongst the Ancients&#xD;<lb/>
+ever <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">enjoyed</hi> a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">higher</hi>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">and more durable</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="23"
+                xml:id="pb-23"
+                facs="#i23"/>
+            <lb/>
+21&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">reputation than this great Man</hi>
+            <lb/>
+When <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag45"
+                ref="#person_140"
+                type="person">
+               <name xml:id="tag45" type="person">
+          Socrates
+        </name>
+            </rs>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">first</hi> began to teach in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag46"
+                ref="#place_208"
+                type="place">
+               <name xml:id="tag46" type="place">
+                  <hi rend="underline">Athens</hi>
+               </name>
+            </rs>
+            <lb/>
+the great attention of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Schools</hi> was employed&#xD;<lb/>
+upon abstracted questions and the Minds of&#xD;<lb/>
+the Sophists <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">were deluded</hi> and led astray by&#xD;<lb/>
+the grandeur and sublimity of objects which&#xD;<lb/>
+it was impossible for them ever to comprehend&#xD;<lb/>
+Having surveyed only a very small part of the&#xD;<lb/>
+universe they professed to understand the&#xD;<lb/>
+mechanism of the whole and in this Age <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">scarcely</del>
+            <lb/>
+scarcely a relic of the doctrines of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag47"
+                ref="#person_605"
+                type="person">
+               <name xml:id="tag47" type="person">
+          Anaxagoras
+        </name>
+            </rs>
+            <lb/>
+or of the truths of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag48"
+                ref="#person_445"
+                type="person">
+               <name xml:id="tag48" type="person">
+          Pythagorean
+        </name>
+            </rs> school&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">was preserved</hi> in the theories which were&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">metaphysical</hi> vague and inconsistent&#xD;<lb/>
+It was against this idle method of forming&#xD;<lb/>
+vain hypothesis that <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag49"
+                ref="#person_140"
+                type="person">
+               <name xml:id="tag49" type="person">
+          Socrates
+        </name>
+            </rs> raised his voice&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="24"
+                xml:id="pb-24"
+                facs="#i24"/>
+            <lb/>
+22&#xD;<lb/>
+and endeavoured to persuade the Greeks to&#xD;<lb/>
+recall to the Earth their philosophy which&#xD;<lb/>
+had been lost in the Clouds. -&#xD;<lb/>
+It has been sometimes supposed that this&#xD;<lb/>
+great man despised physical science and&#xD;<lb/>
+considered it as of no value&#xD;<lb/>
+This does however seem to be wholly&#xD;<lb/>
+false for we Know that he was ridiculed&#xD;<lb/>
+on account of his experiments and was&#xD;<lb/>
+represented by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag50"
+                ref="#person_907"
+                type="person">
+               <name xml:id="tag50" type="person">
+          Aristophanes
+        </name>
+            </rs> as passing his&#xD;<lb/>
+time in studying meteors and the phenomena&#xD;<lb/>
+of Air and in making geographical&#xD;<lb/>
+observations and pursuing researches on the&#xD;<lb/>
+properties of burning glasses&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag51"
+                ref="#person_140"
+                type="person">
+               <name xml:id="tag51" type="person">
+          Socrates
+        </name>
+            </rs> undoubtedly saw the miserable&#xD;<lb/>
+imperfection of the plans of study adopted&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="25"
+                xml:id="pb-25"
+                facs="#i25"/>
+            <lb/>
+23&#xD;<lb/>
+by the speculation surrounding him and the&#xD;<lb/>
+whole of his advice seems to have been directed&#xD;<lb/>
+with the view of inducing them to confine&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">themselves</hi> to things certainly in their reach&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">not to</hi> attempt to pass beyond the limits marked&#xD;<lb/>
+out for the Knowledge by the senses&#xD;<lb/>
+And to study those objects surrounding them&#xD;<lb/>
+and to reduce them to laws before they <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">launched</del>
+            <lb/>
+launched into the chaos of conjecture and&#xD;<lb/>
+into the dim region of possibilities -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag52"
+                ref="#person_140"
+                type="person">
+               <name xml:id="tag52" type="person">
+          Socrates
+        </name>
+            </rs> fell a sacrifice to the boldness of his opinion&#xD;<lb/>
+and the unsubdued strength of his virtue -&#xD;<lb/>
+And it was whilst lamenting his death that <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag53"
+                ref="#person_085"
+                type="person">
+               <name xml:id="tag53" type="person">
+          Plato
+        </name>
+            </rs>
+            <lb/>
+endeavoured to display the spirit of the System and&#xD;<lb/>
+to collect the doctrines that had been delivered by&#xD;<lb/>
+his master&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="26"
+                xml:id="pb-26"
+                facs="#i26"/>
+            <lb/>
+24&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag54"
+                ref="#person_140"
+                type="person">
+               <name xml:id="tag54" type="person">
+          Socrates
+        </name>
+            </rs> left no writings.&#xD;<lb/>
+The first and greatest of his disciples has supplied&#xD;<lb/>
+this defect but there is some reason to believe that&#xD;<lb/>
+the poetical fancy of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag55"
+                ref="#person_085"
+                type="person">
+               <name xml:id="tag55" type="person">
+          Plato
+        </name>
+            </rs> has ornamented and&#xD;<lb/>
+changed the didactic reasoning of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag56"
+                ref="#person_140"
+                type="person">
+               <name xml:id="tag56" type="person">
+          Socrates
+        </name>
+            </rs>. -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag57"
+                ref="#person_085"
+                type="person">
+               <name xml:id="tag57" type="person">
+          Plato
+        </name>
+            </rs> has entered very little upon the subject&#xD;<lb/>
+of physical science and in his <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag58"
+                ref="#misc_455"
+                type="miscellaneous">
+               <term xml:id="tag58">
+                  <hi rend="underline">Timeas</hi>
+               </term>
+            </rs> the&#xD;<lb/>
+only dialogue expressly upon the subject <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">very</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">little</hi> valuable information; but <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">very much</hi>
+            <lb/>
+obscure speculation may be found -&#xD;<lb/>
+The charm of this writer is his adorned&#xD;<lb/>
+and beautiful stile, in which an imagination&#xD;<lb/>
+bold and yet correct constantly appears -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag59"
+                ref="#person_085"
+                type="person">
+               <name xml:id="tag59" type="person">
+          Plato
+        </name>
+            </rs> in his compositions displays the&#xD;<lb/>
+highest degree of Art -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="27"
+                xml:id="pb-27"
+                facs="#i27"/>
+            <lb/>
+25&#xD;<lb/>
+No man knew better how to relieve the tediousness&#xD;<lb/>
+of Philosophical discussion by chearful and brilliant&#xD;<lb/>
+Coloring, by happy and dignified incidents or&#xD;<lb/>
+by pathetic and sublime traits of Character&#xD;<lb/>
+It has been said of his language by a great&#xD;<lb/>
+orator of antiquity that it seemed to be rather&#xD;<lb/>
+that of a divinity than of a man, and the&#xD;<lb/>
+durability of its effect, is perhaps the strongest&#xD;<lb/>
+testimony of its real excellence.&#xD;<lb/>
+The poetical beauties of his works have neither&#xD;<lb/>
+been tarnished by time nor by the revolutions of&#xD;<lb/>
+opinion and it is in consequence of these beauties&#xD;<lb/>
+perhaps that the visionary ideas which often form&#xD;<lb/>
+the foundations of his Systems have been so&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">favourably</hi> received;&#xD;<lb/>
+And that the constant misapplication of principles&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">has been tolerated</hi> that misapplication which&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="28"
+                xml:id="pb-28"
+                facs="#i28"/>
+            <lb/>
+26&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag60"
+                ref="#person_140"
+                type="person">
+               <name xml:id="tag60" type="person">
+          Socrates
+        </name>
+            </rs> had so much censured, but from which&#xD;<lb/>
+He could not preserve his most distinguished Scholar&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag61"
+                ref="#otherwork_045"
+                type="otherwork">
+               <bibl xml:id="tag61">
+            the Dialogues
+        </bibl>
+            </rs> of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag62"
+                ref="#person_085"
+                type="person">
+               <name xml:id="tag62" type="person">
+          Plato
+        </name>
+            </rs> appear to have been often&#xD;<lb/>
+mere amusements of his imagination, and it is&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">imposible</del> imposssible not to wonder that they should&#xD;<lb/>
+have proceeded from a man who considered Geometry&#xD;<lb/>
+as the most sublime of the sciences, and who&#xD;<lb/>
+inscribed on the Door of his School that it was&#xD;<lb/>
+open for none but Geometricians -&#xD;<lb/>
+It may however be said that <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag63"
+                ref="#person_085"
+                type="person">
+               <name xml:id="tag63" type="person">
+          Plato
+        </name>
+            </rs> never&#xD;<lb/>
+speaks in those productions in his own person&#xD;<lb/>
+but details the opinions of the Philosophers who&#xD;<lb/>
+had preceded him - He ballances opinions,&#xD;<lb/>
+He discusses and analyses Hypotheses, and generally&#xD;<lb/>
+leaves the mind in perfect indecision and&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">in ignorance</hi> of the part that He himself had&#xD;<lb/>
+taken in the question&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="29"
+                xml:id="pb-29"
+                facs="#i29"/>
+            <lb/>
+27&#xD;<lb/>
+The of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag64"
+                ref="#otherwork_045"
+                type="otherwork">
+               <bibl xml:id="tag64">
+            the Dialogues
+        </bibl>
+            </rs> |_ however |_ whatever view&#xD;<lb/>
+may be taken is of a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">much higher</hi> Character than the&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Knowledge</hi>, and it is impossible not to regret that&#xD;<lb/>
+such <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">great talents</hi> were thrown away upon subjects&#xD;<lb/>
+often of mere amusement and without utility or&#xD;<lb/>
+any durable interest -&#xD;<lb/>
+All the truly valuable discoveries that remain of&#xD;<lb/>
+this distinguished man relates to mathematics&#xD;<lb/>
+And in this department of science He certainly made&#xD;<lb/>
+great progress which is the more astonishing when&#xD;<lb/>
+the vividness of his fancy and the playful wildness&#xD;<lb/>
+of his Mind are considered. -&#xD;<lb/>
+It was in the School of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag65" ref="#person_085" type="person">
+                  <name xml:id="tag65" type="person">
+          Plato
+        </name>
+               </rs>
+            </hi> that the most&#xD;<lb/>
+celebrated mathematicians of Antiquity were formed&#xD;<lb/>
+and that the rudiments of the methods were&#xD;<lb/>
+produced by which <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">in those later times</hi> the great&#xD;<lb/>
+phenomena of the universe have been explained&#xD;<lb/>
+and the laws of the motions of the Earth and&#xD;<lb/>
+the Heavenly bodies ascertained&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="30"
+                xml:id="pb-30"
+                facs="#i30"/>
+            <lb/>
+28&#xD;<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag66"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag66" type="person">
+                  <hi rend="underline">Aristotle</hi>
+               </name>
+            </rs> was the disciple of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag67"
+                ref="#person_085"
+                type="person">
+               <name xml:id="tag67" type="person">
+          Plato
+        </name>
+            </rs>, but the&#xD;<lb/>
+character of his philosophy is wholly unlike that&#xD;<lb/>
+of his master -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag68"
+                ref="#person_085"
+                type="person">
+               <name xml:id="tag68" type="person">
+          Plato
+        </name>
+            </rs> attempted to raise science to the high flights&#xD;<lb/>
+of poetry - <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag69"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag69" type="person">
+          Aristotle
+        </name>
+            </rs> on the contrary endeavoured&#xD;<lb/>
+to bring poesy to fixed rules and to explain&#xD;<lb/>
+the principles of eloquence. -&#xD;<lb/>
+The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag70"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag70" type="person">
+          philosopher of Stagyra
+        </name>
+            </rs>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">truly conceived</hi>
+            <lb/>
+that one method was applicable to all the&#xD;<lb/>
+departments of human knowledge but unfortunately&#xD;<lb/>
+for the progress of science He himself did not&#xD;<lb/>
+employ <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the true method</hi> He began with&#xD;<lb/>
+generalizations and attempted to descend to&#xD;<lb/>
+particulars and hence his conclusions were&#xD;<lb/>
+almost always modified according to a&#xD;<lb/>
+preconceived Theory.&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="31"
+                xml:id="pb-31"
+                facs="#i31"/>
+            <lb/>
+29&#xD;<lb/>
+The comprehensive mind and the extensive talents&#xD;<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag71"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag71" type="person">
+          Aristotle
+        </name>
+            </rs> were employed upon all the subjects&#xD;<lb/>
+of practical or speculative investigation and&#xD;<lb/>
+when the range that He took is considered we&#xD;<lb/>
+ought rather to wonder that He discovered truth&#xD;<lb/>
+at all than to be su<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">p</del>prised that He discovered&#xD;<lb/>
+it so rarely.&#xD;<lb/>
+The <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">physics</hi> of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag72"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag72" type="person">
+          Aristotle
+        </name>
+            </rs> are perhaps the least&#xD;<lb/>
+instructive of his works for He was not an&#xD;<lb/>
+experimenter, and He was seldom contented to&#xD;<lb/>
+adopt the opinions of Men who had gone&#xD;<lb/>
+before him -&#xD;<lb/>
+He has given very few correct explanations&#xD;<lb/>
+and his notions on causes are perhaps less accurate&#xD;<lb/>
+than those adopted in the Early Schools of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag73"
+                ref="#place_167"
+                type="place">
+               <name xml:id="tag73" type="place">
+          Greece
+        </name>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag74"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag74" type="person">
+          Aristotle
+        </name>
+            </rs> asserted that the world was eternal&#xD;<lb/>
+that the expanse of the sky was <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">spherical</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="32"
+                xml:id="pb-32"
+                facs="#i32"/>
+            <lb/>
+30&#xD;<lb/>
+Spherical that the Earth was immortal and that the&#xD;<lb/>
+stars were a part of the heavens and moving&#xD;<lb/>
+only within the sphere in which they were fixd.&#xD;<lb/>
+In <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag75"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag75" type="person">
+          Aristotles
+        </name>
+            </rs> abstracted principles with regard to&#xD;<lb/>
+the properties of matter there was a greater&#xD;<lb/>
+opportunity for him to exert his powerful talents&#xD;<lb/>
+And upon these subjects some of his notions&#xD;<lb/>
+were tolerably correct. Thus He had an idea&#xD;<lb/>
+of gravity as an uniform property of matter&#xD;<lb/>
+and He contrasts it with levity, by which there&#xD;<lb/>
+is some reason to suppose He meant a repulsive&#xD;<lb/>
+force -&#xD;<lb/>
+He conceived that the elements of bodies&#xD;<lb/>
+were unknown to us in their real state and&#xD;<lb/>
+that we were acquainted only with their&#xD;<lb/>
+compounds -&#xD;<lb/>
+And on this notion He produced his&#xD;<lb/>
+Theory of actual and possible existence&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="33"
+                xml:id="pb-33"
+                facs="#i33"/>
+            <lb/>
+31&#xD;<lb/>
+in which He conceived an essential species of matter&#xD;<lb/>
+capable of assuming a great variety of forms&#xD;<lb/>
+The most important of the works of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag76"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag76" type="person">
+          Aristotle
+        </name>
+            </rs>
+            <lb/>
+in Natural Science is his history of Animals -&#xD;<lb/>
+Here He found it impossible to indulge in vague&#xD;<lb/>
+conjecture and his patience in registering minute&#xD;<lb/>
+observations on this occasion is the most admirable&#xD;<lb/>
+as his mind had generally been applied only to&#xD;<lb/>
+the discovery of grand and striking analogies&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag77"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag77" type="person">
+          Aristotle
+        </name>
+            </rs> was assisted by the riches and power&#xD;<lb/>
+of his scholar <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag78"
+                ref="#person_810"
+                type="person">
+               <name xml:id="tag78" type="person">
+                  <hi rend="underline">Alexander the great</hi>
+               </name>
+            </rs> in the collection&#xD;<lb/>
+of the specimens for this <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">work in Natural History</hi>
+            <lb/>
+And it has been supposed by some Writers that&#xD;<lb/>
+the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag79"
+                ref="#person_810"
+                type="person">
+               <name xml:id="tag79" type="person">
+          Macedonian Conqueror
+        </name>
+            </rs> in patronizing <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag80"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag80" type="person">
+          Aristotle
+        </name>
+            </rs>
+            <lb/>
+had in view the real increase and diffusion of&#xD;<lb/>
+Knowledge -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="34"
+                xml:id="pb-34"
+                facs="#i34"/>
+            <lb/>
+32&#xD;<lb/>
+It has been supposed that He had formed&#xD;<lb/>
+brilliant and comprehensive for civilizing the&#xD;<lb/>
+Regions that He conquered and for spreading&#xD;<lb/>
+the light of knowledge the benefit of Arts&#xD;<lb/>
+from the west to the East from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag81"
+                ref="#place_167"
+                type="place">
+               <name xml:id="tag81" type="place">
+          Greece
+        </name>
+            </rs> to&#xD;<lb/>
+every part of the Globe.&#xD;<lb/>
+These ideas however certainly are delusive&#xD;<lb/>
+Such bright visions might occasionally have&#xD;<lb/>
+passed through his lofty and glowing Mind&#xD;<lb/>
+but every trait of his Character proves that&#xD;<lb/>
+the motive for all his great exertions was&#xD;<lb/>
+an ungovernable Ambition an insatible&#xD;<lb/>
+lust of power&#xD;<lb/>
+To satisfy these His short life was devoted to&#xD;<lb/>
+war and bloodshed and to satisfy these other&#xD;<lb/>
+men were considered only as machines to&#xD;<lb/>
+fulfil his purposes or to be sacrifised to&#xD;<lb/>
+accomplish his views. -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="35"
+                xml:id="pb-35"
+                facs="#i35"/>
+            <lb/>
+33&#xD;<lb/>
+He cultivated letters but <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">then</add> it was from the desire of being&#xD;<lb/>
+thought in all things and his address to&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag82"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag82" type="person">
+          Aristotle
+        </name>
+            </rs> on the publication of his works proves that He&#xD;<lb/>
+had <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">no</add> noble and abstracted love of truth and that&#xD;<lb/>
+selfishness and vanity were the feelings that induced&#xD;<lb/>
+him to promote the interests of learned Men.&#xD;<lb/>
+Why have you published your works He says -&#xD;<lb/>
+to wherein shall We be great if the learning in&#xD;<lb/>
+which we were educated be made common to all -&#xD;<lb/>
+And I wish to excell <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">others</hi> as much in Knowledge&#xD;<lb/>
+as in power -&#xD;<lb/>
+Theophrastus was the successor of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag83"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag83" type="person">
+          Aristotle
+        </name>
+            </rs> in&#xD;<lb/>
+the Lyceum and none of the ancients seem to&#xD;<lb/>
+have studied Natural science with so much effect&#xD;<lb/>
+I entered very fully upon his character in the&#xD;<lb/>
+Geological lectures.&#xD;<lb/>
+And I shall not run the risque of fatiguing&#xD;<lb/>
+by goin over the same ground the second time&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="36"
+                xml:id="pb-36"
+                facs="#i36"/>
+            <lb/>
+34&#xD;<lb/>
+This illustrious Character can scarcely be praised&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">too much</hi> but were I to dwell long on his merits&#xD;<lb/>
+you would perhaps think that He might be&#xD;<lb/>
+praised too often -&#xD;<lb/>
+The speculative doctrines which issued from the&#xD;<lb/>
+Schools of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag84"
+                ref="#person_085"
+                type="person">
+               <name xml:id="tag84" type="person">
+          Plato
+        </name>
+            </rs> and <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag85"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag85" type="person">
+          Aristotle
+        </name>
+            </rs> from the academy&#xD;<lb/>
+and the Lyceum continued nearly for 1800 Years&#xD;<lb/>
+to occupy and agitate the minds of men and&#xD;<lb/>
+their influence was felt from the confines of&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag86"
+                ref="#place_1212"
+                type="place">
+               <name xml:id="tag86" type="place">
+          Arabia
+        </name>
+            </rs> to the extremity of Europe -&#xD;<lb/>
+Men of warm feelings and vivid passions in&#xD;<lb/>
+whom the imagination was more active than their&#xD;<lb/>
+reason were most disposed to adopt the enthusiastic&#xD;<lb/>
+Theories stamped by the ardor of a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">poetic mind</hi>
+            <lb/>
+Persons of sounder and cooler judgments of a&#xD;<lb/>
+turn for rigid criticism became attached to the&#xD;<lb/>
+opinions and to the cyllogistic methods of&#xD;<lb/>
+the stagyrite and the two systems for a long&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="37"
+                xml:id="pb-37"
+                facs="#i37"/>
+            <lb/>
+35&#xD;<lb/>
+while divided between them the empire of the mind&#xD;<lb/>
+Their influence was various both constantly&#xD;<lb/>
+propagated errors and often assisted prejudice;&#xD;<lb/>
+but they produced good effects by calling forth&#xD;<lb/>
+the powers of men and by inducing them to&#xD;<lb/>
+combat what appeared false opinion and they&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">and</del> preserved the activity of the faculties through&#xD;<lb/>
+an age of darkness and ignorance -&#xD;<lb/>
+They made men acquainted with the forms of&#xD;<lb/>
+reasoning. and when the authority of the&#xD;<lb/>
+chair had passed away the method of discussion&#xD;<lb/>
+which had long been applied to non entities was&#xD;<lb/>
+made use of for explaining realities and the&#xD;<lb/>
+doctrines of the scholars were overturned by&#xD;<lb/>
+weapons which they themselves had formed&#xD;<lb/>
+and truth was elevated at the same time&#xD;<lb/>
+error was destroyed -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="38"
+                xml:id="pb-38"
+                facs="#i38"/>
+            <lb/>
+36&#xD;<lb/>
+At the time the great contests were taking&#xD;<lb/>
+place between the successor of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag87"
+                ref="#person_810"
+                type="person">
+               <name xml:id="tag87" type="person">
+          Alexander
+        </name>
+            </rs> and at&#xD;<lb/>
+the turbulent period when so many different&#xD;<lb/>
+empires were formed and destroyed there flourished&#xD;<lb/>
+nevertheless several illustrious men who in particular&#xD;<lb/>
+departments of Science whent far beyond all the&#xD;<lb/>
+philosophers of older time. -&#xD;<lb/>
+Experience principally acquired seemed in&#xD;<lb/>
+this Age to have convinced men that their powers&#xD;<lb/>
+were limited; that they were capable of compassing&#xD;<lb/>
+only a certain number of objects; and that&#xD;<lb/>
+great and permanent excellence was only to be&#xD;<lb/>
+attained by continued study and by labourious&#xD;<lb/>
+application to the multiform combination of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">a</hi>
+            <lb/>
+few things -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag88"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag88" type="person">
+          Archimedes
+        </name>
+            </rs> flourished about 220 <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">years</add> B.C and&#xD;<lb/>
+He devoted the whole of his time <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">and applied</hi>
+            <lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">whole force</hi> of his mind to the study&#xD;<lb/>
+of the moving properties of bodies and to&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="39"
+                xml:id="pb-39"
+                facs="#i39"/>
+            <lb/>
+37&#xD;<lb/>
+the explanation of them by <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">numbers</hi> and&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">geometrical forms</hi> -&#xD;<lb/>
+This genius appears to have been of the&#xD;<lb/>
+first order and His discoveries are <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">abundant</del>
+            <lb/>
+undoubtedly the most splendid belonging to antiqu<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ity</hi>
+            <lb/>
+He first ascertained the nature of the mechaniean&#xD;<lb/>
+powers and the laws of Hydrostatics -&#xD;<lb/>
+He constructed the first planetarium&#xD;<lb/>
+He was acquainted with the powers of burning&#xD;<lb/>
+mirrors and we owe to his talents some of the&#xD;<lb/>
+highest refinements of the methods of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">mathematical</del>
+            <lb/>
+Mathematical investigation&#xD;<lb/>
+The effects of the inventions of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag89"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag89" type="person">
+          Archimedes
+        </name>
+            </rs>
+            <lb/>
+were such as we are even unable to produce&#xD;<lb/>
+in modern times&#xD;<lb/>
+An interesting account is given by <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Plutar<hi rend="superscript">ch</hi>
+            </del>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag90"
+                ref="#person_602"
+                type="person">
+               <name xml:id="tag90" type="person">
+          Plutarch
+        </name>
+            </rs> in his <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag91"
+                ref="#otherwork_248"
+                type="otherwork">
+               <bibl xml:id="tag91">
+            life of Marcellus
+        </bibl>
+            </rs>" of their&#xD;<lb/>
+effects in the defence of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag92"
+                ref="#place_936"
+                type="place">
+               <name xml:id="tag92" type="place">
+          Syracuse
+        </name>
+            </rs> against the&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">romans</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="40"
+                xml:id="pb-40"
+                facs="#i40"/>
+            <lb/>
+38&#xD;<lb/>
+The history is very interesting and contains many&#xD;<lb/>
+curious particulars of the studies of this great&#xD;<lb/>
+man and some refined observations on <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">his</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Character -</hi>
+            <lb/>
+The subject is treated with a freshness of&#xD;<lb/>
+memory and so striking a delineation of&#xD;<lb/>
+incident that I shall venture to read a long&#xD;<lb/>
+extract.&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag93"
+                ref="#otherwork_248"
+                type="otherwork">
+               <bibl xml:id="tag93">
+            Here upon Marcellus marched
+        </bibl>
+            </rs> with his&#xD;<lb/>
+whole army and encamped before <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag94"
+                ref="#place_936"
+                type="place">
+               <name xml:id="tag94" type="place">
+          Syracuse
+        </name>
+            </rs>
+            <lb/>
+Appius Claudius commanding the land forces&#xD;<lb/>
+and himself the fleet, which consisted of sixty&#xD;<lb/>
+galleys of five banks of oars full of alsorts&#xD;<lb/>
+of arms and missive weapons. Besides these&#xD;<lb/>
+He had a prodigious machine carried upon&#xD;<lb/>
+eighty galleys fastened together;&#xD;<lb/>
+With which He approached the walls relying&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="41"
+                xml:id="pb-41"
+                facs="#i41"/>
+            <lb/>
+39&#xD;<lb/>
+on the number of his batteries and other&#xD;<lb/>
+instruments of war as well as on his own&#xD;<lb/>
+great Character -&#xD;<lb/>
+But <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag95"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag95" type="person">
+          Archimedes
+        </name>
+            </rs> despised all this and&#xD;<lb/>
+confided in the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">superiority</del> superiority of his&#xD;<lb/>
+engines;&#xD;<lb/>
+Though He did not think the inventing of them&#xD;<lb/>
+an object worthy of his serious studies but <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">only</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">reckoned them</hi> among the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">amusements</hi> of&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">geometry</hi>
+            <lb/>
+Nor had He gone so far but at the pressing&#xD;<lb/>
+instance of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag96"
+                ref="#person_911"
+                type="person">
+               <name xml:id="tag96" type="person">
+          King Hiero
+        </name>
+            </rs> who entreated him to turn&#xD;<lb/>
+his art from abstracted notions to matters of sense&#xD;<lb/>
+and to make his reasoning more intelligible to&#xD;<lb/>
+the generality of Mankind by applying them&#xD;<lb/>
+to the uses of Common life&#xD;<lb/>
+which could not be demonstrated in the way&#xD;<lb/>
+of Theorem by sensible experiments and by&#xD;<lb/>
+the use of instruments.&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="42"
+                xml:id="pb-42"
+                facs="#i42"/>
+            <lb/>
+40&#xD;<lb/>
+In consequence of this application <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag97"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag97" type="person">
+          Archimedes
+        </name>
+            </rs>
+            <lb/>
+told the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag98"
+                ref="#person_911"
+                type="person">
+               <name xml:id="tag98" type="person">
+          King
+        </name>
+            </rs> that <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">He</add> would prove his talents and&#xD;<lb/>
+aserted that with a given power he could move&#xD;<lb/>
+any given weight whatever; Nay it is said from&#xD;<lb/>
+the confidence He had in his demonstration he&#xD;<lb/>
+ventured to give scope to his fancy and to affirm&#xD;<lb/>
+that if he had an insulated spot on which&#xD;<lb/>
+his feet could be fixed he would move the&#xD;<lb/>
+earth out of its place.&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag99"
+                ref="#person_911"
+                type="person">
+               <name xml:id="tag99" type="person">
+          Hiero
+        </name>
+            </rs> full of wonder begged of him to evince the&#xD;<lb/>
+truth of his notions by moving some great weight&#xD;<lb/>
+with a small <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">body</del> power -&#xD;<lb/>
+In compliance with which <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag100"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag100" type="person">
+          Archimedes
+        </name>
+            </rs> caused&#xD;<lb/>
+one of the Kings Galleys to be drawn on shore&#xD;<lb/>
+with <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">as</del> many hands and much labour.&#xD;<lb/>
+and having well manned her and put on board&#xD;<lb/>
+her usual loading, He place himself at a&#xD;<lb/>
+distance and without any pains, only&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="43"
+                xml:id="pb-43"
+                facs="#i43"/>
+            <lb/>
+41&#xD;<lb/>
+moving with his hand the end of a machine which&#xD;<lb/>
+consisted of a variety of ropes and pulleys he drew&#xD;<lb/>
+her to him in as gentle and smooth a manner as&#xD;<lb/>
+if she had been under sail.&#xD;<lb/>
+The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag101"
+                ref="#person_911"
+                type="person">
+               <name xml:id="tag101" type="person">
+          King
+        </name>
+            </rs> quite astonished when he saw the force&#xD;<lb/>
+of his art prevailed <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">with him</del> with <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag102"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag102" type="person">
+          Archimedes
+        </name>
+            </rs> to&#xD;<lb/>
+make for him all manner of engines and machines&#xD;<lb/>
+which could be used either for attack or defence&#xD;<lb/>
+in a siege -&#xD;<lb/>
+This however he never employed of the greatest&#xD;<lb/>
+part of his reign being blest with tranquility; but&#xD;<lb/>
+they were extremely servicable to the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Sary</del> Syracusian&#xD;<lb/>
+on the present occasion when with such a number&#xD;<lb/>
+of machines they had the inventor to direct them&#xD;<lb/>
+by his talents and genius at the time that&#xD;<lb/>
+the Romans first attacked them both by sea and&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">by</del> land, they were struck dumb with terror&#xD;<lb/>
+imagining they could not possibly resist such&#xD;<lb/>
+numerous forces and so furious an assault,&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="44"
+                xml:id="pb-44"
+                facs="#i44"/>
+            <lb/>
+42&#xD;<lb/>
+But <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag103"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag103" type="person">
+          Archimedes
+        </name>
+            </rs> soon began to play his engines&#xD;<lb/>
+and they shot against the land forces alsorts of&#xD;<lb/>
+Missive weapons and stones of an enormous size&#xD;<lb/>
+with so incredible noise and rapidity that nothing&#xD;<lb/>
+could resist them; they overturned and crushed&#xD;<lb/>
+whatever came in their way and spread terrible&#xD;<lb/>
+disorder through the ranks&#xD;<lb/>
+on the side towards the sea were erected vast&#xD;<lb/>
+machines putting forth on a sudden over the&#xD;<lb/>
+walls huge beams with necessary tackle and striking&#xD;<lb/>
+with a prodigious force on the enemys Galleys&#xD;<lb/>
+sunk them at once -&#xD;<lb/>
+While other ships hoisted up by the prows&#xD;<lb/>
+by iron grapples or hooks like the beaks of Cranes&#xD;<lb/>
+and set on end on the stern were plunged&#xD;<lb/>
+to the bottom of the Sea; and others again&#xD;<lb/>
+by ropes and grapples were drawn towards&#xD;<lb/>
+the shore and after being whirled about and&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="45"
+                xml:id="pb-45"
+                facs="#i45"/>
+            <lb/>
+43&#xD;<lb/>
+and dashed against the rocks that projected&#xD;<lb/>
+below the walls were broken to pieces and the&#xD;<lb/>
+crews perished&#xD;<lb/>
+Very often a ship was lifted as high above the sea&#xD;<lb/>
+and suspended in the air there it swung till&#xD;<lb/>
+the men were thrown out by the violence of&#xD;<lb/>
+the motion and then it dashed against the walls.&#xD;<lb/>
+As for the great machine which <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag104"
+                ref="#person_913"
+                type="person">
+               <name xml:id="tag104" type="person">
+          Marcellus
+        </name>
+            </rs>
+            <lb/>
+brought forward upon eight galleys whilst&#xD;<lb/>
+it was at a considerable distance from the walls&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag105"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag105" type="person">
+          Archimedes
+        </name>
+            </rs> discharged a stone of ten talents weight&#xD;<lb/>
+and after that a second and a third all&#xD;<lb/>
+which striking upon it with an amazing&#xD;<lb/>
+noise and force shattered and totally disjointed&#xD;<lb/>
+it&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag106"
+                ref="#person_913"
+                type="person">
+               <name xml:id="tag106" type="person">
+          Marcellus
+        </name>
+            </rs> in this distress drew off all his galleys&#xD;<lb/>
+as fast as possible and sent orders to the land forces&#xD;<lb/>
+to retreat likewise,&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="46"
+                xml:id="pb-46"
+                facs="#i46"/>
+            <lb/>
+44&#xD;<lb/>
+He then called a council of war in which it was&#xD;<lb/>
+resolved to come close to the walls, if it were possible&#xD;<lb/>
+next morning before day.&#xD;<lb/>
+For <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag107"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag107" type="person">
+          Archimedes
+        </name>
+            </rs> engines they thought being very&#xD;<lb/>
+strong and intended to act at a considerable distance&#xD;<lb/>
+would then discharge themselves over their heads; and&#xD;<lb/>
+if they were pointed at them when they were so near&#xD;<lb/>
+would have no effect.&#xD;<lb/>
+But for this <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag108"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag108" type="person">
+          Archimedes
+        </name>
+            </rs>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">had been</hi> long <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">prepared</hi>
+            <lb/>
+having by him engines fitted to all distances with&#xD;<lb/>
+suitable weapons and shorter beams.&#xD;<lb/>
+Besides, He had caused holes to be made in the walls&#xD;<lb/>
+in which he had placed scorpions that did not carry&#xD;<lb/>
+far but could be discharge very fast and by these&#xD;<lb/>
+the enemy was galled without knowing whence&#xD;<lb/>
+the weapon came.&#xD;<lb/>
+When therefore the Romans were got close to&#xD;<lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">undiscovered as</hi> they <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">thought</hi>, they were&#xD;<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxx</unclear>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="47"
+                xml:id="pb-47"
+                facs="#i47"/>
+            <lb/>
+45&#xD;<lb/>
+welcomed with a huge shower of darts and huge pieces of&#xD;<lb/>
+rocks which fell as it were perpendicularly upon their&#xD;<lb/>
+heads; for the engines played from every quarter of&#xD;<lb/>
+the walls.&#xD;<lb/>
+This obliged them to retire and when they were&#xD;<lb/>
+at some distance; other shafts were shot at them in&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">their retreat</hi> from the larger machines which made&#xD;<lb/>
+terrible havock among them without any possibility&#xD;<lb/>
+of their annoying the Syracusans in their town.&#xD;<lb/>
+For <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag109"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag109" type="person">
+          Archimedes
+        </name>
+            </rs> had placed most of his engines under&#xD;<lb/>
+covert of the alls so that the Romans being infinitely&#xD;<lb/>
+distressed by an invisible enemy seemed to fight against&#xD;<lb/>
+the Gods&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag110"
+                ref="#person_913"
+                type="person">
+               <name xml:id="tag110" type="person">
+          Marcellus
+        </name>
+            </rs> however got off and laughed at his&#xD;<lb/>
+own artillery men and engineers.&#xD;<lb/>
+Why do we not leave off contending said He <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">with this</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">mathematical <rs xml:id="ttag111" ref="#misc_705" type="miscellaneous">
+                  <term xml:id="tag111">
+          Briareus
+        </term>
+               </rs>
+            </hi> who sitting on the shore&#xD;<lb/>
+and acting as it were but in jest, has shamefully&#xD;<lb/>
+baffled our naval assault and with striking&#xD;<lb/>
+us with such a number of bolts at once&#xD;<lb/>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="48"
+                xml:id="pb-48"
+                facs="#i48"/>
+            <lb/>
+46&#xD;<lb/>
+exceeds even the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag112"
+                ref="#misc_458"
+                type="miscellaneous">
+               <term xml:id="tag112">
+          hundred handed giants
+        </term>
+            </rs> in the fable&#xD;<lb/>
+And in truth all the rest of the syracusans were&#xD;<lb/>
+no more than the body of the batteries of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag113"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag113" type="person">
+          Archimedes
+        </name>
+            </rs>
+            <lb/>
+while He himself was the animating soul&#xD;<lb/>
+All other weapons lay idle and unemployed&#xD;<lb/>
+his were the only offensive and defensive arm of&#xD;<lb/>
+the City.&#xD;<lb/>
+At length the Romans were so terrified that if&#xD;<lb/>
+they saw but a rope or a stick put over the walls&#xD;<lb/>
+they cried out that <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag114"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag114" type="person">
+          Archimedes
+        </name>
+            </rs> was levelling&#xD;<lb/>
+some machine at them and turned their backs&#xD;<lb/>
+and fled.&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag115"
+                ref="#person_913"
+                type="person">
+               <name xml:id="tag115" type="person">
+          Marcellus
+        </name>
+            </rs> seeing this gave up all thoughts&#xD;<lb/>
+of proceeding by assault and leaving the matter&#xD;<lb/>
+to time turned the siege into a blockade.&#xD;<lb/>
+Yet <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag116"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag116" type="person">
+          Archimedes
+        </name>
+            </rs> had such a depth of understan&#xD;<lb/>
+such a dignity of sentiment and so copious a fund&#xD;<lb/>
+of Mathematical Knowledge that though in the&#xD;<lb/>
+invention of these machines He gained the&#xD;<lb/>
+reputation of a man endowed with divine&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="49"
+                xml:id="pb-49"
+                facs="#i49"/>
+            <lb/>
+47&#xD;<lb/>
+rather than human knowledge yet he did&#xD;<lb/>
+not vouchsafe to leave any account of them in&#xD;<lb/>
+writing&#xD;<lb/>
+For He considered all attention to mechanics&#xD;<lb/>
+and every art that ministers to common uses as&#xD;<lb/>
+mean and sordid, and placed his whole delight&#xD;<lb/>
+in those intellectual <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">speculations</hi> which&#xD;<lb/>
+without any relation <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to the necessities</hi> of life&#xD;<lb/>
+have an intrinsic excellence arising from&#xD;<lb/>
+abstracted truth and demonstration.&#xD;<lb/>
+Indeed if mechanical knowledge is valuable&#xD;<lb/>
+for the curious frame and amazing power of&#xD;<lb/>
+those machines which it produces&#xD;<lb/>
+The other infinitely exccels on account of&#xD;<lb/>
+its invincible force and conviction.&#xD;<lb/>
+And certain it is that abstruse and profoun<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">d</add>
+            <lb/>
+questions in geometry are no where solved by&#xD;<lb/>
+a more simple process and upon clearer&#xD;<lb/>
+principles than in the writing of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag117"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag117" type="person">
+          Archimedes
+        </name>
+            </rs>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="50"
+                xml:id="pb-50"
+                facs="#i50"/>
+            <lb/>
+48&#xD;<lb/>
+Some ascribe this to the acuteness of his&#xD;<lb/>
+genius, and others to his indefatigable&#xD;<lb/>
+industry by which He made things that cost&#xD;<lb/>
+a great deal of pains appear unlaboured&#xD;<lb/>
+and easy.&#xD;<lb/>
+In fact it is almost impossible for a man&#xD;<lb/>
+of himself to find out the demonstration of his&#xD;<lb/>
+propositions but as soon as he is taught it he&#xD;<lb/>
+will think he could have done it without assistance&#xD;<lb/>
+By such a ready and easy way does he lead&#xD;<lb/>
+us to what he wants to prove&#xD;<lb/>
+We are not to regret as incredible what is&#xD;<lb/>
+related of him that being perpetually charmed&#xD;<lb/>
+by a domestic syren that is his geometry he&#xD;<lb/>
+neglected his meat and drink and took no care&#xD;<lb/>
+of his person; that he was often carried by force&#xD;<lb/>
+to the baths and when there he would make&#xD;<lb/>
+mathematical figures in the ashes; and with&#xD;<lb/>
+his finger draw lines upon his body&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="51"
+                xml:id="pb-51"
+                facs="#i51"/>
+            <lb/>
+49&#xD;<lb/>
+when it was anointed so much was he transported&#xD;<lb/>
+with intellectual delight such an Enthusiast in&#xD;<lb/>
+science.&#xD;<lb/>
+About the that <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag118"
+                ref="#person_417"
+                type="person">
+               <name xml:id="tag118" type="person">
+          Archimedes
+        </name>
+            </rs> was gaining for&#xD;<lb/>
+himself unrivalled glory: the School of Natural&#xD;<lb/>
+Science in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag119"
+                ref="#place_1135"
+                type="place">
+               <name xml:id="tag119" type="place">
+          Alexandria
+        </name>
+            </rs> flourished in its greatest&#xD;<lb/>
+splendor. -&#xD;<lb/>
+By the magnificence of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag120"
+                ref="#misc_459"
+                type="miscellaneous">
+               <term xml:id="tag120">
+          Potolemies
+        </term>
+            </rs> an <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">extensiv</del>
+            <lb/>
+extensive <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">librena</del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag121"
+                ref="#place_187"
+                type="place">
+               <name xml:id="tag121" type="place">
+          library
+        </name>
+            </rs> was established and the&#xD;<lb/>
+greeks were invited from every part of the world&#xD;<lb/>
+to assist the progress of investigation&#xD;<lb/>
+It was in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag122"
+                ref="#place_1135"
+                type="place">
+               <name xml:id="tag122" type="place">
+          Alexandria
+        </name>
+            </rs> that <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag123"
+                ref="#person_861"
+                type="person">
+               <name xml:id="tag123" type="person">
+          Euclid
+        </name>
+            </rs> collected&#xD;<lb/>
+and improved the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag124"
+                ref="#otherwork_085"
+                type="otherwork">
+               <bibl xml:id="tag124">
+            elements of Mathematics
+        </bibl>
+            </rs> that&#xD;<lb/>
+at present bear his name and which are so perfect&#xD;<lb/>
+as to be perhaps incapable of improvement and&#xD;<lb/>
+which present one of the few finished productions&#xD;<lb/>
+of the human mind&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="52"
+                xml:id="pb-52"
+                facs="#i52"/>
+            <lb/>
+50&#xD;<lb/>
+It was in the school of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag125"
+                ref="#place_1135"
+                type="place">
+               <name xml:id="tag125" type="place">
+          Alexandria
+        </name>
+            </rs> that&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag126"
+                ref="#person_914"
+                type="person">
+               <name xml:id="tag126" type="person">
+          Aristarchus
+        </name>
+            </rs> endeavoured to revive the idea&#xD;<lb/>
+the notion of the earth - and to measure the&#xD;<lb/>
+distance of the Sun and He concluded that&#xD;<lb/>
+this luminary was about 20 times farther&#xD;<lb/>
+from us than the Moon an estimation <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">though</del>
+            <lb/>
+which though incorrect still enlarged the ideas&#xD;<lb/>
+of men with regard to the extent of the&#xD;<lb/>
+Universe.&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag127"
+                ref="#person_915"
+                type="person">
+               <name xml:id="tag127" type="person">
+          Eratosthenes
+        </name>
+            </rs> who succeeded <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag128"
+                ref="#person_914"
+                type="person">
+               <name xml:id="tag128" type="person">
+          Aristarchus
+        </name>
+            </rs>
+            <lb/>
+followed a similar path of observation and&#xD;<lb/>
+ascertained the obliquity of the Ecliptic at&#xD;<lb/>
+that time a discovery <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of the utmost importance</hi>
+            <lb/>
+for the progress of the Science&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="53"
+                xml:id="pb-53"
+                facs="#i53"/>
+            <lb/>
+51&#xD;<lb/>
+But of all the Astronomers of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag129"
+                ref="#place_1135"
+                type="place">
+               <name xml:id="tag129" type="place">
+          Alexandria
+        </name>
+            </rs>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag130"
+                ref="#person_916"
+                type="person">
+               <name xml:id="tag130" type="person">
+          Hipparchus
+        </name>
+            </rs> -&#xD;<lb/>
+was the person who made the greatest number of&#xD;<lb/>
+observations&#xD;<lb/>
+He formed the first table of the Sun - He determined&#xD;<lb/>
+the time of the revolution of the Moon and ascertain<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">d</add>
+            <lb/>
+the nature of her orbit.&#xD;<lb/>
+And He made a labourious catalogue of the fixed&#xD;<lb/>
+stars which seems to have been executed with the&#xD;<lb/>
+greatest accuracy and precision&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag131"
+                ref="#person_737"
+                type="person">
+               <name xml:id="tag131" type="person">
+          Potolemy
+        </name>
+            </rs> the last philosopher of the Greek&#xD;<lb/>
+school of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag132"
+                ref="#place_1135"
+                type="place">
+               <name xml:id="tag132" type="place">
+          Alexandria
+        </name>
+            </rs> flourished about 200 years&#xD;<lb/>
+after <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag133"
+                ref="#person_916"
+                type="person">
+               <name xml:id="tag133" type="person">
+          Hipparchus
+        </name>
+            </rs> - in the 130 year of the Christian&#xD;<lb/>
+era - He collected all the observations of his&#xD;<lb/>
+predecessor and added to them a number of new&#xD;<lb/>
+ones - He endeavoured to establish a system of&#xD;<lb/>
+planetary motions by supposing the Earth in&#xD;<lb/>
+the centre and the sun the moon and the&#xD;<lb/>
+stars revolving round it&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="54"
+                xml:id="pb-54"
+                facs="#i54"/>
+            <lb/>
+52&#xD;<lb/>
+but though this part of his doctrine is&#xD;<lb/>
+incorrect yet his account of the phenomena&#xD;<lb/>
+is elegant and precise -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag134"
+                ref="#person_737"
+                type="person">
+               <name xml:id="tag134" type="person">
+          Potolemy
+        </name>
+            </rs> attempted in his <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag135"
+                ref="#otherwork_251"
+                type="otherwork">
+               <bibl xml:id="tag135">
+            Almagest
+        </bibl>
+            </rs> a&#xD;<lb/>
+complete theory of astronomy - It still exists&#xD;<lb/>
+and is one of the most precious of the monumen<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">ts</add>
+            <lb/>
+of Antiquity -&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">The ideas</hi> which he adopted were current&#xD;<lb/>
+for nearly 1400 years - late discoveries have&#xD;<lb/>
+proved them to be erroneous; but it must not&#xD;<lb/>
+be forgotten that they led the moderns to the&#xD;<lb/>
+investigation of truth and that they were&#xD;<lb/>
+in the dark ages the only foundation&#xD;<lb/>
+of the science. -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="55"
+                xml:id="pb-55"
+                facs="#i55"/>
+            <lb/>
+53&#xD;<lb/>
+From the general tenour of what has been advanced&#xD;<lb/>
+and particularly from all the later instances it&#xD;<lb/>
+is evident that whenever the greek Philosophers&#xD;<lb/>
+were contented with reasoning upon their observati<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">ons</add>
+            <lb/>
+the results of Theory obtained were always opposite&#xD;<lb/>
+and often grand and conformable to the facts&#xD;<lb/>
+of nature; but in their speculations that remain&#xD;<lb/>
+concerning the general system of things no&#xD;<lb/>
+distinct or extensive truths ever occur and the&#xD;<lb/>
+semblances of truths in their hypotheses seem&#xD;<lb/>
+rather to have been the result of accident&#xD;<lb/>
+than of any peculiarity or the correctness of&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">by which</del> the method by which the were formed&#xD;<lb/>
+- Still however <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">their</hi> views of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">material</hi> existence&#xD;<lb/>
+I mean the views <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of their most</hi> distinguished&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">masters</hi> often present a sublimity of thought&#xD;<lb/>
+and a grandeur of expression which demonstrate&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="56"
+                xml:id="pb-56"
+                facs="#i56"/>
+            <lb/>
+54&#xD;<lb/>
+the warm imagination and the power of the mind&#xD;<lb/>
+by which they were created - |_ We may purcieve&#xD;<lb/>
+in them a character which marks the ardour&#xD;<lb/>
+of curiosity and the restlessness of lofty <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Genius</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">which</hi> despising the slow methods of acquiring&#xD;<lb/>
+knowledge offered by the senses by minute <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">observa</del>
+            <lb/>
+observations and laborious experiment endeavours&#xD;<lb/>
+to approve its unassisted strength to obstacles and&#xD;<lb/>
+difficulties; and unable either to lift up or&#xD;<lb/>
+to rend the veil that conceals the Mysteries&#xD;<lb/>
+of Nature and exhausted by its own efforts&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">sleeps</hi> and dreams that it has penetrated&#xD;<lb/>
+even into the very sanctuary of her temper. -&#xD;<lb/>
+The perfection of the execution of the&#xD;<lb/>
+philosophical literature of the Greeks likewise&#xD;<lb/>
+has a claim to our high admiration.&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="57"
+                xml:id="pb-57"
+                facs="#i57"/>
+            <lb/>
+55&#xD;<lb/>
+The refinement of their taste is demonstrated by&#xD;<lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">graces</hi> of their stile by its dignity&#xD;<lb/>
+simplicity, and energy.&#xD;<lb/>
+No people perhaps ever understood <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">so distinctly</hi>
+            <lb/>
+the principles of the sublime the beautiful&#xD;<lb/>
+the decorous -&#xD;<lb/>
+The principles appear even in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">their</del>
+            <lb/>
+their <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">arroneous</del> erroneous sientific Histories and&#xD;<lb/>
+shine forth amidst the obscurity of error and&#xD;<lb/>
+of doubt - and give an interest and an effect&#xD;<lb/>
+to combinations of thoughts which otherwise would&#xD;<lb/>
+have appeared triffling and <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">inseg</del> insignificant&#xD;<lb/>
+In their descriptions and even in their analogies&#xD;<lb/>
+every thing is chaste and properly disposed no&#xD;<lb/>
+meretricious Arts are adopted - no attempts are made&#xD;<lb/>
+to enhance the sublime or the beautiful by causing&#xD;<lb/>
+it to follow <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the ludicrous</hi> -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="58"
+                xml:id="pb-58"
+                facs="#i58"/>
+            <lb/>
+56&#xD;<lb/>
+no efforts are made to blend together incongruous&#xD;<lb/>
+forms for the mere amusement of the fancy&#xD;<lb/>
+Elegance and decorum and greatness are the&#xD;<lb/>
+elements of the interest they produce:&#xD;<lb/>
+And the remains of the sientific systems of the&#xD;<lb/>
+greeks like the ruins of their magnificent&#xD;<lb/>
+edifices must excite atonishment and admiration&#xD;<lb/>
+even though their systems were formed by false&#xD;<lb/>
+speculations though their temples were devoted&#xD;<lb/>
+to Idolatry. -&#xD;<lb/>
+The perfection of the language of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag136"
+                ref="#place_167"
+                type="place">
+               <name xml:id="tag136" type="place">
+          Greece
+        </name>
+            </rs>
+            <lb/>
+might at first view be considered as having&#xD;<lb/>
+been rather favourable than detrimental to&#xD;<lb/>
+the progress of physical Science: but a&#xD;<lb/>
+correct examination of the subject I am&#xD;<lb/>
+inclined to believe would <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ad</del> lead to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> a&#xD;<lb/>
+different opinion the enquiry is one of&#xD;<lb/>
+great importance and it surely will not&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="59"
+                xml:id="pb-59"
+                facs="#i59"/>
+            <lb/>
+57&#xD;<lb/>
+be improper to enter upon some general views&#xD;<lb/>
+with regard to it on this occasion -&#xD;<lb/>
+Every language is in its simplest state either&#xD;<lb/>
+an expression of feelings or of things and all&#xD;<lb/>
+the words belonging to it in their original&#xD;<lb/>
+construction are that signify simple objects&#xD;<lb/>
+or simple Ideas.&#xD;<lb/>
+Abstractions are only gradually formed&#xD;<lb/>
+when one word is made to imply a number of&#xD;<lb/>
+other <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">words which</hi> themselves denote things&#xD;<lb/>
+and it is on abstractions or general terms&#xD;<lb/>
+that all scientific proposition depends&#xD;<lb/>
+When accurate <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">views</hi> are <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">taken</del> represented&#xD;<lb/>
+in general <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">proportions</hi> there is always an&#xD;<lb/>
+immediate recurrence to the simpler words&#xD;<lb/>
+that they represent and hence the appeal <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">is</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to relations of facts</hi> and the feelings of assent&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="60"
+                xml:id="pb-60"
+                facs="#i60"/>
+            <lb/>
+58&#xD;<lb/>
+or dissent when first formed and founded upon&#xD;<lb/>
+the distinct <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">connections</hi> of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">words</hi> and things&#xD;<lb/>
+But in the progress of the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">acquisition</del>
+            <lb/>
+acquisition and the use of language after&#xD;<lb/>
+a certain number of propositions are&#xD;<lb/>
+understood they become axioms and are&#xD;<lb/>
+employed for conveniency and expedition&#xD;<lb/>
+independently of facts as methods of opinion&#xD;<lb/>
+It is on this circumstance that the most&#xD;<lb/>
+refined of our reasons are formed.&#xD;<lb/>
+and that the great use of language as&#xD;<lb/>
+an instrument of thought depends -&#xD;<lb/>
+But it is likewise on this circumstance&#xD;<lb/>
+that a number of erroneous conclusions&#xD;<lb/>
+of prejudices and of false theories are&#xD;<lb/>
+established and cloaked as it were in&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="61"
+                xml:id="pb-61"
+                facs="#i61"/>
+            <lb/>
+59&#xD;<lb/>
+the forms which ought only to express truth&#xD;<lb/>
+when the natural order of association is&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">strictly followed</hi> no mistakes can arise from&#xD;<lb/>
+the use of general propositions&#xD;<lb/>
+but when abstracted words have been&#xD;<lb/>
+exceedingly multiplied it becomes deficient&#xD;<lb/>
+to define the<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ir</del> true signification of all&#xD;<lb/>
+and yet from their having been employed&#xD;<lb/>
+habitually, they produce a great effect upon&#xD;<lb/>
+the mind and become connected with strong&#xD;<lb/>
+and vivid feelings.&#xD;<lb/>
+All the physical writings of the greeks&#xD;<lb/>
+demonstrate that terms of this kind without&#xD;<lb/>
+any distinct meaning had continually <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">accum</del>
+            <lb/>
+accumulated in their language and that in&#xD;<lb/>
+proportion even as it became more <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">harmon</del>
+            <lb/>
+harmonious more energetic and more copious&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="62"
+                xml:id="pb-62"
+                facs="#i62"/>
+            <lb/>
+60&#xD;<lb/>
+Applied to the phenomena of nature they&#xD;<lb/>
+were often made the foundations of theories;&#xD;<lb/>
+and where the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">primitive materials</hi> were&#xD;<lb/>
+of so loose and incoherent a species it necessarily&#xD;<lb/>
+followed that the superstructure however&#xD;<lb/>
+beautiful <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">or grand</hi> never possesses solidity&#xD;<lb/>
+or convenience or permanency. -&#xD;<lb/>
+The correctness the excellency of the style&#xD;<lb/>
+of the most eminent of the grecian Philosophers&#xD;<lb/>
+are worthy of our highest praise and deserving&#xD;<lb/>
+our zealous imitation&#xD;<lb/>
+But never may we desert the sublime&#xD;<lb/>
+methods of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag137"
+                ref="#person_124"
+                type="person">
+               <name xml:id="tag137" type="person">
+          Bacon
+        </name>
+            </rs> and of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag138"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag138" type="person">
+          Newton
+        </name>
+            </rs> for the rules&#xD;<lb/>
+of the speculative philosophy developed by&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag139"
+                ref="#person_085"
+                type="person">
+               <name xml:id="tag139" type="person">
+          Plato
+        </name>
+            </rs> and <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag140"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag140" type="person">
+          Aristotle
+        </name>
+            </rs> never may we relinquish&#xD;<lb/>
+the pure <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">troths</del> truths of modern science&#xD;<lb/>
+which are images of nature for the&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="63"
+                xml:id="pb-63"
+                facs="#i63"/>
+            <lb/>
+61&#xD;<lb/>
+speculations of Elder times which are the fancies&#xD;<lb/>
+of men&#xD;<lb/>
+In all cases in science it is our business&#xD;<lb/>
+to analyse every principle and to ascertain&#xD;<lb/>
+to what expressions of facts it relates or to&#xD;<lb/>
+what simpler laws it may be referred -&#xD;<lb/>
+It is our duty to separate propositions from&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">human</del> human passions and to reason on&#xD;<lb/>
+them as mere representation of things and&#xD;<lb/>
+to employ no terms that are either perplexed&#xD;<lb/>
+or doubtful or uncommon&#xD;<lb/>
+The same processes of thought ever will&#xD;<lb/>
+apply in common life as in science -&#xD;<lb/>
+experience must be our only guide - Experience&#xD;<lb/>
+or <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">moral feeling</hi> founded on accurate and&#xD;<lb/>
+distinct knowledge&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="64"
+                xml:id="pb-64"
+                facs="#i64"/>
+            <lb/>
+62&#xD;<lb/>
+Words alone must never be suffered to satisfy&#xD;<lb/>
+or fill the mind and their relations to&#xD;<lb/>
+facts must be ascertained before they can be&#xD;<lb/>
+considered either of importance or of use&#xD;<lb/>
+The imagination must be subjected&#xD;<lb/>
+to the judgment or rather they must naturally&#xD;<lb/>
+operate and assist and correct each other.&#xD;<lb/>
+We may be always safely entertained by wit&#xD;<lb/>
+We may always be safely delighted by eloquence&#xD;<lb/>
+for they are the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">life</hi> and the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">organs</hi> of the&#xD;<lb/>
+mind: -&#xD;<lb/>
+But never let us consider wit as argument&#xD;<lb/>
+or eloquence as truth till we have cooly&#xD;<lb/>
+examined them by the test of right <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">reason</hi>
+            <lb/>
+for this is the only certain guide of&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="65"
+                xml:id="pb-65"
+                facs="#i65"/>
+            <lb/>
+63&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">opinion</hi> a principle the same in all&#xD;<lb/>
+ages and in all matters independent&#xD;<lb/>
+of fashion or caprice unchanging&#xD;<lb/>
+immortal. -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="66"
+                xml:id="pb-66"
+                facs="#i66"/>
+            <lb/>
+64&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="67"
+                xml:id="pb-67"
+                facs="#i67"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="68"
+                xml:id="pb-68"
+                facs="#i68"/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

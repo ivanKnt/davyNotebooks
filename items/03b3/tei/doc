@@ -1,0 +1,2470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-10323</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-10323</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/3/B/3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Lectures</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/3/B/3</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent> pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1778-12-17"
+                                   notAfter="1829-05-29"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-10323-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="4444px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00001"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="4443"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="3640px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00002"
+                  width="5475px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5474"
+               lry="3639"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="4209px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00003"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="4208"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="4208px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00004"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="4207"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="4253px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00005"
+                  width="5412px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5411"
+               lry="4252"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="4208px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00006"
+                  width="5448px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5447"
+               lry="4207"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="4227px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00007"
+                  width="5430px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5429"
+               lry="4226"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="3323px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00008"
+                  width="5331px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5330"
+               lry="3322"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="3350px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00009"
+                  width="5331px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5330"
+               lry="3349"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="4217px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00010"
+                  width="5439px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5438"
+               lry="4216"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+      <surface n="11" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="4226px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00011"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="4225"
+               rotate="0"
+               xml:id="i11z1"/>
+      </surface>
+      <surface n="12" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="3305px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00012"
+                  width="5303px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5302"
+               lry="3304"
+               rotate="0"
+               xml:id="i12z1"/>
+      </surface>
+      <surface n="13" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="3341px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00013"
+                  width="5303px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5302"
+               lry="3340"
+               rotate="0"
+               xml:id="i13z1"/>
+      </surface>
+      <surface n="14" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="4218px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00014"
+                  width="5449px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5448"
+               lry="4217"
+               rotate="0"
+               xml:id="i14z1"/>
+      </surface>
+      <surface n="15" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="4208px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00015"
+                  width="5430px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5429"
+               lry="4207"
+               rotate="0"
+               xml:id="i15z1"/>
+      </surface>
+      <surface n="16" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="3296px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00016"
+                  width="5304px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5303"
+               lry="3295"
+               rotate="0"
+               xml:id="i16z1"/>
+      </surface>
+      <surface n="17" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="3323px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00017"
+                  width="5304px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5303"
+               lry="3322"
+               rotate="0"
+               xml:id="i17z1"/>
+      </surface>
+      <surface n="18" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="4208px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00018"
+                  width="5430px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5429"
+               lry="4207"
+               rotate="0"
+               xml:id="i18z1"/>
+      </surface>
+      <surface n="19" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="4199px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00019"
+                  width="5494px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5493"
+               lry="4198"
+               rotate="0"
+               xml:id="i19z1"/>
+      </surface>
+      <surface n="20" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="3269px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00020"
+                  width="5285px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5284"
+               lry="3268"
+               rotate="0"
+               xml:id="i20z1"/>
+      </surface>
+      <surface n="21" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="3350px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00021"
+                  width="5285px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5284"
+               lry="3349"
+               rotate="0"
+               xml:id="i21z1"/>
+      </surface>
+      <surface n="22" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="4199px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00022"
+                  width="5467px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5466"
+               lry="4198"
+               rotate="0"
+               xml:id="i22z1"/>
+      </surface>
+      <surface n="23" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="4217px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00023"
+                  width="5403px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5402"
+               lry="4216"
+               rotate="0"
+               xml:id="i23z1"/>
+      </surface>
+      <surface n="24" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="3296px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00024"
+                  width="5322px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5321"
+               lry="3295"
+               rotate="0"
+               xml:id="i24z1"/>
+      </surface>
+      <surface n="25" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="3323px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00025"
+                  width="5322px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5321"
+               lry="3322"
+               rotate="0"
+               xml:id="i25z1"/>
+      </surface>
+      <surface n="26" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="4199px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00026"
+                  width="5448px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5447"
+               lry="4198"
+               rotate="0"
+               xml:id="i26z1"/>
+      </surface>
+      <surface n="27" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="4181px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00027"
+                  width="5439px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5438"
+               lry="4180"
+               rotate="0"
+               xml:id="i27z1"/>
+      </surface>
+      <surface n="28" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="4208px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00028"
+                  width="5448px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5447"
+               lry="4207"
+               rotate="0"
+               xml:id="i28z1"/>
+      </surface>
+      <surface n="29" xml:id="i29">
+         <graphic decls="#downloadImageRights #download"
+                  height="4200px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00029"
+                  width="5439px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5438"
+               lry="4199"
+               rotate="0"
+               xml:id="i29z1"/>
+      </surface>
+      <surface n="30" xml:id="i30">
+         <graphic decls="#downloadImageRights #download"
+                  height="3277px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00030"
+                  width="5294px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5293"
+               lry="3276"
+               rotate="0"
+               xml:id="i30z1"/>
+      </surface>
+      <surface n="31" xml:id="i31">
+         <graphic decls="#downloadImageRights #download"
+                  height="3324px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00031"
+                  width="5294px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5293"
+               lry="3323"
+               rotate="0"
+               xml:id="i31z1"/>
+      </surface>
+      <surface n="32" xml:id="i32">
+         <graphic decls="#downloadImageRights #download"
+                  height="4190px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00032"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="4189"
+               rotate="0"
+               xml:id="i32z1"/>
+      </surface>
+      <surface n="33" xml:id="i33">
+         <graphic decls="#downloadImageRights #download"
+                  height="4190px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00033"
+                  width="5439px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5438"
+               lry="4189"
+               rotate="0"
+               xml:id="i33z1"/>
+      </surface>
+      <surface n="34" xml:id="i34">
+         <graphic decls="#downloadImageRights #download"
+                  height="4154px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00034"
+                  width="5448px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5447"
+               lry="4153"
+               rotate="0"
+               xml:id="i34z1"/>
+      </surface>
+      <surface n="35" xml:id="i35">
+         <graphic decls="#downloadImageRights #download"
+                  height="3567px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00035"
+                  width="5475px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5474"
+               lry="3566"
+               rotate="0"
+               xml:id="i35z1"/>
+      </surface>
+      <surface n="36" xml:id="i36">
+         <graphic decls="#downloadImageRights #download"
+                  height="4453px"
+                  rend="landscape"
+                  url="MS-DAVY-10323-000-00036"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="4452"
+               rotate="0"
+               xml:id="i36z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listNym type="chemical">
+         <nym xml:id="chemical_161">
+            <form>voltaic</form>
+            <def>
+               <p>Refers to the current generated by voltaic pile, invented by Italian chemist Alessandro Volta.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_201">
+            <form>zinc</form>
+            <def>
+               <p>Symbol/formula: Zn</p>
+               <p>A a slightly brittle metal at room temperature and has a shiny-greyish appearance when oxidation is removed.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_070">
+            <form>copper</form>
+            <def>
+               <p>Symbol/formula: Cu</p>
+               <p>A soft, malleable, and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a pinkish-orange colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_236">
+            <form>ether</form>
+            <def>
+               <p>In Davy's time this likely referred to the colorless, highly volatile, flammable liquid derived from ethyl alcohol by the action of sulphuric acid. It was used as a solvent and as an inhalant anesthetic. In the present day ether refers to a class of compounds that contain an ether group: an oxygen atom connected to two alkyl or aryl groups.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_038">
+            <form>tin</form>
+            <def>
+               <p>Symbol/formula: Sn</p>
+               <p>A silvery-coloured metal, tin is soft enough to be cut with little force, and a bar of tin can be bent by hand with little effort.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_028">
+            <form>platina</form>
+            <def>
+               <p>An alloy of platinum and several other metals, including palladium, osmium, and iridium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_007">
+            <form>hydrogene</form>
+            <def>
+               <p>Symbol/formula: H</p>
+               <p>Now known as hydrogen. Hydrogen is the lightest element and, at standard conditions, is a gas of diatomic molecules. It is colourless, odourless, tasteless, non-toxic, and highly combustible.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_046">
+            <form>phlogiston</form>
+            <def>
+               <p>A hypothetical substance, thought of as an elastic fluid, which was believed to exist in combination in all combustible bodies.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_157">
+            <form>vit electricity</form>
+            <def>
+               <p>Vitreous electricity', produced by rubbing glass or gems.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_078">
+            <form>elastic fluid</form>
+            <def>
+               <p>A descriptive term for a gas, emphasising its elastic quality of spontaneous expansion.</p>
+            </def>
+         </nym>
+      </listNym>
+      <listPerson>
+         <person xml:id="person_268">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Johann Wilhelm</forename>
+               <surname>Ritter</surname>
+            </persName>
+            <birth when="1776"/>
+            <death when="1810"/>
+            <note>German physician and natural philosopher.</note>
+         </person>
+         <person xml:id="person_540">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Timothy</forename>
+               <surname>Lane</surname>
+            </persName>
+            <birth when="1734"/>
+            <death when="1807"/>
+            <note>Natural philosopher who invented the electrometer named after him. Later worked on lightening rods. FRSL.</note>
+         </person>
+         <person xml:id="person_520">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jean-André</forename>
+               <surname>Deluc</surname>
+            </persName>
+            <birth when="1727"/>
+            <death when="1817"/>
+            <note>Swiss-born geologist, natural philosopher and meteorologist who spent much of his time working in England. FRSL.</note>
+         </person>
+         <person xml:id="person_026">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Henry</forename>
+               <surname>Cavendish</surname>
+            </persName>
+            <birth when="1731"/>
+            <death when="1810"/>
+            <note>A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL. </note>
+         </person>
+         <person xml:id="person_005">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Claude Louis</forename>
+               <surname>Berthollet</surname>
+            </persName>
+            <birth when="1748"/>
+            <death when="1822"/>
+            <note>French Chemist. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_036">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Isaac</forename>
+               <surname>Newton</surname>
+            </persName>
+            <birth when="1642"/>
+            <death when="1727"/>
+            <note>Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy &amp; Newton' in one inch letters. FRSL.</note>
+         </person>
+         <person xml:id="person_523">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Pierre Hyacinthe</forename>
+               <surname>Azais</surname>
+            </persName>
+            <birth when="1766"/>
+            <death when="1845"/>
+            <note>French philosopher.</note>
+         </person>
+         <person xml:id="person_526">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jean-Nicolas-Sebastien</forename>
+               <surname>Allamand</surname>
+            </persName>
+            <birth when="1716"/>
+            <death when="1787"/>
+            <note>Swiss born natural philosopher who mostly worked in the Netherlands. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_525">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Walsh</surname>
+            </persName>
+            <birth when="1726"/>
+            <death when="1795"/>
+            <note>Nabob and later an MP he experimented on the electrical properties of torpedo fish. FRSL.</note>
+         </person>
+         <person xml:id="person_213">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Hunter</surname>
+            </persName>
+            <birth when="1728"/>
+            <death when="1793"/>
+            <note>Leading Scottish surgeon and anatomist who worked in London, holding several major positions. Brother of William Hunter. FRSL.</note>
+         </person>
+      </listPerson>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_235" type="description">
+            <term id="misc_235-term">Electricians</term>
+            <gloss id="misc_235-gloss" target="#misc_235-term">
+               <p>Davy uses it in the older meaning (incl. used by Franklin) to mean someone knowlegable about or who studies electricity.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_233" type="description">
+            <term id="misc_233-term">torpedo</term>
+            <gloss id="misc_233-gloss" target="#misc_233-term">
+               <p>An electric ray fish.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_324" type="description">
+            <term id="misc_324-term">The Réaumur scale</term>
+            <gloss id="misc_324-gloss" target="#misc_324-term">
+               <p>A temperature scale for which the melting and boiling points of water are defined as 0 and 80 degrees respectively.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_232" type="description">
+            <term id="misc_232-term">gymnotus</term>
+            <gloss id="misc_232-gloss" target="#misc_232-term">
+               <p>Probably an electric eel, also known as the gynotus electricus or gymnotus electricus</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="nonenglish">
+         <note xml:id="nonenglish_009" type="description">
+            <term id="nonenglish_009-term">quere</term>
+            <gloss id="nonenglish_009-gloss" target="#nonenglish_009-term">
+               <p>query; to enquire (Latin)</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+Lecture 4&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">1810</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Dublin</hi>
+            <lb/>
+44&#xD;<lb/>
+Lecture 4. 1811 Nov<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi>.&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>1810</unclear>
+            </del>
+            <lb/>
+In the last lecture I endeavored&#xD;<lb/>
+to explain the circumstances&#xD;<lb/>
+of Electrical excitation -.&#xD;<lb/>
+It was shewn that <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">different</hi>
+            <lb/>
+bodies become electrical by&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>mere</unclear>
+            </del>contact; - <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">&amp; friction</add>. - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">And that in</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the, <hi rend="underline">same body</hi> Electricity is</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">produced by changes of temperature</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">or changes of <hi rend="underline">form</hi>
+            </del>: &amp; it&#xD;<lb/>
+was stated that in all cases&#xD;<lb/>
+in which one part of a body&#xD;<lb/>
+or a system of bodies is <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">positive</del> in&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>as the part is one</unclear>
+            </del> the state called positive. Another&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">body</del>-. . is negative.-&#xD;<lb/>
+-. It was likewise shewn that&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+an <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">electrified</hi> body is capable&#xD;<lb/>
+of producing electricity in&#xD;<lb/>
+another body without <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">contact</hi>-,&#xD;<lb/>
+- And this was called Electricity&#xD;<lb/>
+by induction - " And it was&#xD;<lb/>
+shewn . that in the case of&#xD;<lb/>
+induced electricity. - That surface&#xD;<lb/>
+of the body <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">not originally electrical</add> which is opposite&#xD;<lb/>
+to that surface of the electrified&#xD;<lb/>
+Body which is positive becomes&#xD;<lb/>
+negative - &amp; vice versa - And&#xD;<lb/>
+it was shewn that the&#xD;<lb/>
+accumulation of Electricity&#xD;<lb/>
+in different instruments;&#xD;<lb/>
+&amp; its discharge are dependent&#xD;<lb/>
+upon the circumstances &amp;&#xD;<lb/>
+laws of this <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">inductive influence</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">or power</hi>. -&#xD;<lb/>
+- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">In this lecture I shall</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+45&#xD;<lb/>
+pursue the enquiry of the&#xD;<lb/>
+principle of the operation, of&#xD;<lb/>
+Electricity <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">in our more refined</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">artificial</hi>, combinations; &amp;&#xD;<lb/>
+in some of the electrical&#xD;<lb/>
+arrangements existing in&#xD;<lb/>
+nature.- <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">(which <hi rend="underline">have not yet been considered</hi>
+            </add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">For the elucidation</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of the subject I shall attempt</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">some <unclear>formes</unclear> of experiment</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">which have not been before</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">tried. And this lecture</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in some parts will be</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a lecture of investigation.</del> (<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">As</hi>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">an instrument of a very</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">powerful kind</hi> &amp; which has</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">been rarely used will be</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">brought into activity; new</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">results may fairly be anticipated</del>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">o</unclear>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">New results, I will <unclear>xxx xxx</unclear>
+            </del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">brilliant results; : &amp; if our</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">operations should be more</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">slow &amp; more imperfect</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">than usual; - You I</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">trust will find an apology</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in the desire which I have</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to make you partakers in</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the acquisition of new facts.</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="superscript">
+                  <unclear>xx</unclear>
+               </hi>
+            </del> I stated towards the conclusion&#xD;<lb/>
+of the last lecture, that the&#xD;<lb/>
+powers of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag1">
+          Voltaic
+          
+        </term>
+            </rs> apparatus,&#xD;<lb/>
+may be referred to the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>argument</unclear>
+            </del>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">electricity originally</hi> produced&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">by contact</hi>, <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">between the</hi>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag2"
+                ref="#chemical_201"
+                type="chemical">
+               <term xml:id="tag2">
+          Zinc
+          
+        </term>
+            </rs>
+            <lb/>
+&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag3"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag3">
+          copper
+          
+        </term>
+            </rs> &amp; to the increase&#xD;<lb/>
+of this electricity by&#xD;<lb/>
+induction.-&#xD;<lb/>
+The idea may be illustrated&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+46&#xD;<lb/>
+by conceiving a number of&#xD;<lb/>
+cylinders opposed to each other&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">in the atmosphere</hi> &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">which have</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">each furnished <hi rend="underline">with</hi>
+            </add>
+            <lb/>
+an apparatus for <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">rendering each</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">primary</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">primarily active</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">excitation</add>; - It is evident&#xD;<lb/>
+that the powers of the whole&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">may</del> must be increased by the&#xD;<lb/>
+principle of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">induction</hi>. -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag4"
+                ref="#person_268"
+                type="person">
+               <name xml:id="tag4" type="person">
+                  <hi rend="underline">Ritters battery</hi>
+               </name>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>. -&#xD;<lb/>
+This would extend to any so shewn o o o o o o&#xD;<lb/>
+by the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">luminous royal Institution. .</hi>
+            <lb/>
+- But it may be asked if&#xD;<lb/>
+such is the law of the accumulation&#xD;<lb/>
+of Electricity in the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag5"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag5">
+          Voltaic
+          
+        </term>
+            </rs>
+            <lb/>
+combination; why does not&#xD;<lb/>
+an arrangement act in the&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">air</hi>, why is water or a&#xD;<lb/>
+fluid body essential to the&#xD;<lb/>
+effect.-&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+To be able to understand&#xD;<lb/>
+this we must examine&#xD;<lb/>
+the general circumstances&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of the accumulation of</hi> Electricity&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">in relation to what is</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">called by <rs xml:id="ttag6" ref="#misc_235" type="miscellaneous">
+                  <term xml:id="tag6">
+          Electricians
+        </term>
+               </rs>
+            </hi>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">quantity</hi>
+            <lb/>
+&amp; Intensity .-.&#xD;<lb/>
+- You have observed that, in&#xD;<lb/>
+the phaenomena presented by&#xD;<lb/>
+the common electrical machine -&#xD;<lb/>
+the spark passes to different&#xD;<lb/>
+distances in different cases;&#xD;<lb/>
+- And the case is the same&#xD;<lb/>
+in the discharge of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Jars</hi>.-;&#xD;<lb/>
+- The space through which&#xD;<lb/>
+a spark passes is said to&#xD;<lb/>
+denote the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">intensity</hi> of the&#xD;<lb/>
+Electricity; &amp; this intensity is&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="9"
+                xml:id="pb-9"
+                facs="#i9"/>
+            <lb/>
+46a&#xD;<lb/>
+said to be <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">greater</hi>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">or</hi> less, in&#xD;<lb/>
+proportion as the spark passes&#xD;<lb/>
+through a larger or a smaller&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">space</hi> of air. -&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>. -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag7"
+                ref="#person_540"
+                type="person">
+               <name xml:id="tag7" type="person">
+                  <del rend="strikethrough">
+                     <hi rend="underline">Lanes quadrant</hi> Electrometer</del>
+               </name>
+            </rs>
+            <lb/>
+- Now if a jar be charged;&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; brought into contact with</del>
+            <lb/>
+so as to give a spark of&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">9.</del> half an inch <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">or so as to</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">repel an <hi rend="underline">electrometer</hi> to 25</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">degrees</del>; &amp; then be connected&#xD;<lb/>
+both by its positive &amp; negative&#xD;<lb/>
+surfaces with another <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">equal</del> jar&#xD;<lb/>
+jar; .- It is evident that&#xD;<lb/>
+the quantity of electrical&#xD;<lb/>
+power must remain the&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">same</hi>; though it is distributed&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">over more space</hi>. but the&#xD;<lb/>
+spark from <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the two jars</hi> will&#xD;<lb/>
+46a&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="10"
+                xml:id="pb-10"
+                facs="#i10"/>
+            <lb/>
+only pass through a quarter of&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">an inch</hi> - In this case the&#xD;<lb/>
+intensity of the Electricity can&#xD;<lb/>
+be said to be only half as&#xD;<lb/>
+great. -&#xD;<lb/>
+- If a Battery of twenty jars&#xD;<lb/>
+were <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to be used</hi>; the spark&#xD;<lb/>
+would pass through scarcely&#xD;<lb/>
+a perceptible <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">space</hi> of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">air</hi>:&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+- And <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">when</del> if a hundred jars&#xD;<lb/>
+be employed actual contact&#xD;<lb/>
+would be required, so that&#xD;<lb/>
+no spark would be visible&#xD;<lb/>
+but the shock would&#xD;<lb/>
+still <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">be sensible</hi> - It would&#xD;<lb/>
+however be very different&#xD;<lb/>
+from the shock given by&#xD;<lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">single jar</hi>; The single jar&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="11"
+                xml:id="pb-11"
+                facs="#i11"/>
+            <lb/>
+47&#xD;<lb/>
+would give a painful &amp; violent&#xD;<lb/>
+impression felt principally in&#xD;<lb/>
+the elbows &amp; wrists. - The&#xD;<lb/>
+Battery <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">containing</hi> the same&#xD;<lb/>
+quantity of electricity will&#xD;<lb/>
+give - a <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">most</del> grating sensation&#xD;<lb/>
+in <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">jaw</unclear> &amp; a feeling of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">heat</hi>
+            <lb/>
+principally about the chest &amp;&#xD;<lb/>
+shoulders. -&#xD;<lb/>
+- The same quantity of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Electricity</hi>..&#xD;<lb/>
+whatever be the surface on&#xD;<lb/>
+which it acts appears as far&#xD;<lb/>
+as our exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi> have yet gone to&#xD;<lb/>
+be discharged immediately by&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">perfect conductors</hi>; - ie whether&#xD;<lb/>
+a jar; is discharged alone&#xD;<lb/>
+or connected with a battery.&#xD;<lb/>
+- There is no perceptible time&#xD;<lb/>
+when a metallic wire is&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="12"
+                xml:id="pb-12"
+                facs="#i12"/>
+            <lb/>
+used; but if imperfect&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">conductors be employed</hi>; more&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">time</hi> is required to discharge&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> electricities of low than&#xD;<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">high intensity</hi>;&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">for</hi> . <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+[short horizontal rule]&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag8"
+                ref="#chemical_236"
+                type="chemical">
+               <term xml:id="tag8">
+                  <hi rend="underline">Ether</hi>
+               </term>
+            </rs> - <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Jar. Battery</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">still less</hi> rapidly - large Battery.-&#xD;<lb/>
+Water will discharge this&#xD;<lb/>
+less <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">slow</del> rapidly. - so that&#xD;<lb/>
+at a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">very low</hi> intensity&#xD;<lb/>
+indeed . ie suppose 1000&#xD;<lb/>
+jars which will not give&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">a spark</hi>; -. <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">moderately</add> imperfect conductors&#xD;<lb/>
+will be as <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">much insulating</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">bodies</hi>; as air or more&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">imperfect conductors</hi> are to&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="13"
+                xml:id="pb-13"
+                facs="#i13"/>
+            <lb/>
+48&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Electricity</hi> of a high intensity&#xD;<lb/>
+- But if <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">water</del> imperfect conductors&#xD;<lb/>
+be <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">insulating bodies</hi> to any&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Electricity</hi>, they will act as&#xD;<lb/>
+a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">medium</hi> of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">induction</hi>;&#xD;<lb/>
+&amp; an accumulation &amp; discharge&#xD;<lb/>
+will take place through, them&#xD;<lb/>
+&amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">fluids</hi> in consequence will be conducting&#xD;<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in relation</add> to the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">low intensity</hi> of the&#xD;<lb/>
+Metals in the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag9"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag9">
+          Voltaic
+          
+        </term>
+            </rs> apparatus&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">what</hi>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">gasses or airs</hi> are to&#xD;<lb/>
+the higher electricity of the&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">common Machine</hi> &amp; the leyden&#xD;<lb/>
+jar. - { that Electricity in a low state&#xD;<lb/>
+{ of Intensity will act by induction in&#xD;<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">- That the <hi rend="underline">Electricity</hi> of the</del>
+            </add> fluids is shewn by many experiments&#xD;<lb/>
+on a wire in water.&#xD;<lb/>
+Exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">t</hi>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>great</unclear>
+            </del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag10" ref="#chemical_161" type="chemical">
+                  <term xml:id="tag10">
+          Voltaic
+          
+        </term>
+               </rs> apparatus is</del> &amp; in the middle connected with the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <hi rend="underline">battery</hi>
+            </add>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">a fine wire <unclear>shews</unclear>
+            </hi>
+            <lb/>
+- In the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag11" ref="#chemical_161" type="chemical">
+                  <term xml:id="tag11">
+          Voltaic
+          
+        </term>
+               </rs> apparatus</hi>
+            <lb/>
+the Electricity is of low intensity&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="14"
+                xml:id="pb-14"
+                facs="#i14"/>
+            <lb/>
+but in <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">immense</unclear> quantities;&#xD;<lb/>
+In thee charge of the&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">common jar</hi>; it is&#xD;<lb/>
+small quantity but of high&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">intensity</hi>. -- In the&#xD;<lb/>
+one case it is a large&#xD;<lb/>
+quantity diffused over an&#xD;<lb/>
+immense surface. In the&#xD;<lb/>
+other case - It is a small&#xD;<lb/>
+quantity diffused over a very&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">small surface</hi>. - -&#xD;<lb/>
+- If these consideratons be&#xD;<lb/>
+kept in view; the Theory&#xD;<lb/>
+of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag12"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag12">
+          Voltaic
+          
+        </term>
+            </rs> pile / which&#xD;<lb/>
+all elucidations&#xD;<lb/>
+that can be given is still&#xD;<lb/>
+a difficult subject; the Theory&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="15"
+                xml:id="pb-15"
+                facs="#i15"/>
+            <lb/>
+49&#xD;<lb/>
+of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag13"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag13">
+          Voltaic
+          
+        </term>
+            </rs> combination will&#xD;<lb/>
+be found to harmonize with&#xD;<lb/>
+the other facts of Electricity&#xD;<lb/>
+. <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- The quan</del>
+            <lb/>
+- And the Intensity of the&#xD;<lb/>
+Electricity increases with the&#xD;<lb/>
+number <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of the series</hi>; so that&#xD;<lb/>
+500 series will give a spark&#xD;<lb/>
+capable of passing <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">through air</hi>;&#xD;<lb/>
+- It will <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">however</unclear> differ from&#xD;<lb/>
+the common electrical spark&#xD;<lb/>
+in this that as a much&#xD;<lb/>
+greater <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">quantity</hi> of positive&#xD;<lb/>
+&amp; negative power come into&#xD;<lb/>
+equilibrium so its effects&#xD;<lb/>
+will be infinitely stronger;&#xD;<lb/>
+&amp; its power of ignition&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="16"
+                xml:id="pb-16"
+                facs="#i16"/>
+            <lb/>
+infinitely greater . . . -&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Inflammation</hi>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxx</unclear>
+            </del> any <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">wire</add> metallic&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">substance</hi>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">&amp; In</unclear> negative&#xD;<lb/>
+&amp; positive&#xD;<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">thin</unclear>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">gold</hi> leaf&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the needle</hi>
+            <lb/>
+or wire -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag14"
+                ref="#chemical_236"
+                type="chemical">
+               <term xml:id="tag14">
+                  <hi rend="underline">Ether</hi>
+               </term>
+            </rs>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Wat</del> Oil&#xD;<lb/>
+Ether&#xD;<lb/>
+Water. -&#xD;<lb/>
+It will pass through fluids with great&#xD;<lb/>
+ease - this demonstrates the quantity&#xD;<lb/>
+It will likewise pass through&#xD;<lb/>
+a greater distance in rare&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">air</hi>; but of course not&#xD;<lb/>
+nearly to the same&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">distance</hi>; as the common&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">electrical spark</hi> -&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">passage along the Gallery -</hi>
+            <lb/>
+So that by increasing&#xD;<lb/>
+the number of alternations&#xD;<lb/>
+in a Battery - <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag15"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag15">
+          Voltaic
+          
+        </term>
+            </rs> Electricity&#xD;<lb/>
+is made analogous to&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">common Electricity</hi>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">when in its highest state as to quantity</add> &amp; <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">reciprocally</add> By&#xD;<lb/>
+diffusing a considerable quantity&#xD;<lb/>
+of <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">common</add> Electricity over a large&#xD;<lb/>
+surface - <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">it may be</add> - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">common Electricity</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="17"
+                xml:id="pb-17"
+                facs="#i17"/>
+            <lb/>
+50&#xD;<lb/>
+may be made to perform the&#xD;<lb/>
+functions of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag16"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag16">
+          Voltaic
+          
+        </term>
+            </rs> electricity&#xD;<lb/>
+- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">for instance</hi> -&#xD;<lb/>
+{<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Great Battery</hi>
+            <lb/>
+{<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Igniting iron wire</hi>
+            <lb/>
+(<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Melting <rs xml:id="ttag17" ref="#chemical_038" type="chemical">
+                  <term xml:id="tag17">
+          Tin
+          
+        </term>
+               </rs>
+            </hi>. loosing its&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">repulsion</hi>. -&#xD;<lb/>
+} not yet&#xD;<lb/>
+- The <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Identity</hi> of the nature&#xD;<lb/>
+of the agent concerned in&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the operations</hi> of Common&#xD;<lb/>
+&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag18"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag18">
+          Voltaic
+          
+        </term>
+            </rs> Electricity if any&#xD;<lb/>
+further proofs be wanting&#xD;<lb/>
+is shewn; by <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">applying</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">applying</del>
+            <lb/>
+the Electricity of the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxxx</unclear>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Batter</del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag19"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag19">
+          Voltaic
+          
+        </term>
+            </rs> combination&#xD;<lb/>
+to the common Battery.-&#xD;<lb/>
+- In this case a charge&#xD;<lb/>
+{&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="18"
+                xml:id="pb-18"
+                facs="#i18"/>
+            <lb/>
+is <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">communicated</hi>; which&#xD;<lb/>
+has all the characters&#xD;<lb/>
+of a common electrical&#xD;<lb/>
+charge of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">low Intensity</hi>. -&#xD;<lb/>
+- I just now stated that&#xD;<lb/>
+the Intensity of the Electricity&#xD;<lb/>
+of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag20"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag20">
+          Voltaic
+          
+        </term>
+            </rs> apparatus&#xD;<lb/>
+increases with the number&#xD;<lb/>
+of the combinations -&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>; -&#xD;<lb/>
+It may with propriety be&#xD;<lb/>
+asked does the quantity increase&#xD;<lb/>
+in a similar ratio. - It&#xD;<lb/>
+certainly increases with the&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">number</hi> - for a large number&#xD;<lb/>
+of plates will fuse a&#xD;<lb/>
+larger quantity of wire&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="19"
+                xml:id="pb-19"
+                facs="#i19"/>
+            <lb/>
+51&#xD;<lb/>
+than a small number all&#xD;<lb/>
+other circumstances <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">being similar</hi>;&#xD;<lb/>
+&amp; as metals are perfect&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">conductors</hi>; we have no right&#xD;<lb/>
+to ascribe the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">greater</add> power of fusion&#xD;<lb/>
+to a higher intensity.&#xD;<lb/>
+- There <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">are however other important</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">is another</del> important&#xD;<lb/>
+circumstances on which the&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">quantity</hi> of Electricity in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag21"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag21">
+          Voltaic
+          
+        </term>
+            </rs>
+            <lb/>
+combinations depends.&#xD;<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">One of the <hi rend="underline">principal</hi> is the</add> surface of the plates; the&#xD;<lb/>
+size of the surfaces which&#xD;<lb/>
+are in contact with the&#xD;<lb/>
+fluid medium -&#xD;<lb/>
+Instance}&#xD;<lb/>
+3 Combinations - }&#xD;<lb/>
+2 inches <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">doub</del>}&#xD;<lb/>
+} imperfect&#xD;<lb/>
+} Conductors&#xD;<lb/>
+} carry off very&#xD;<lb/>
+} little &amp; leave a&#xD;<lb/>
+} residuum&#xD;<lb/>
+16 double surface&#xD;<lb/>
+more than <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">1000</hi> square inches&#xD;<lb/>
+36 to 1 If the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>power were</unclear>
+            </del> quantity&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">32.) 1152 (36</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">06</hi>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">192</del>
+            <lb/>
+17&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="20"
+                xml:id="pb-20"
+                facs="#i20"/>
+            <lb/>
+was directly as the surface -&#xD;<lb/>
+It would be as 36 to 1.&#xD;<lb/>
+&amp; supposing <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">the</hi> power</del> it measured&#xD;<lb/>
+by the quantity of iron&#xD;<lb/>
+Acids}&#xD;<lb/>
+Surface}&#xD;<lb/>
+for the next lecture&#xD;<lb/>
+Quantity&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag22"
+                ref="#person_520"
+                type="person">
+               <name xml:id="tag22" type="person">
+                  <hi rend="underline">Mr De Lucs</hi>
+               </name>
+            </rs>. -&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">ingenious Combination</hi>
+            <lb/>
+A charge passed&#xD;<lb/>
+through -. . <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Air</hi>
+            <lb/>
+through fluids -&#xD;<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">{</unclear> - This never got prooved <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">}</unclear>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">I conceive this a good</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">opportunity for ascertaining</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">whether there <del rend="strikethrough">xxx</del>
+               <add>is</add> any <del rend="strikethrough">difficulty</del>
+               <add>obstacle</add>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <add>whatever</add> Given to the passage of electricity</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">through</hi>
+               <del rend="strikethrough">perfect</del> conductors for</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">if this be the case it will</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">most likely be perceived;<del rend="strikethrough">
+                  <hi rend="underline">first</hi>
+               </del>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">by passing Electricity of this</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">low intensity</hi> along iron</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">wires. -.</del>
+            <lb/>
+Charge&#xD;<lb/>
+of the&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">battery</hi>
+            <lb/>
+ignition&#xD;<lb/>
+of wires&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag23" ref="#person_026" type="person">
+                  <name xml:id="tag23" type="person">
+                     <hi rend="underline">M<hi rend="superscript">r</hi> Cavendish</hi>
+                  </name>
+               </rs>
+               <hi rend="underline">400.000.00.0</hi>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Iron wire (as appeared</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in some exp<hi rend="superscript">ts</hi> which I witnessed is</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">million of times</del>
+            <lb/>
+10<unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">0</unclear> seawater&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Salt Water</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="21"
+                xml:id="pb-21"
+                facs="#i21"/>
+            <lb/>
+52&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">more readily fused than <rs xml:id="ttag24" ref="#chemical_201" type="chemical">
+                  <term xml:id="tag24">
+          Zinc
+          
+        </term>
+               </rs> wire</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">by <rs xml:id="ttag25" ref="#chemical_161" type="chemical">
+                  <term xml:id="tag25">
+          Voltaic
+          
+        </term>
+               </rs> electricity &amp; much</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">more readily than <rs xml:id="ttag26" ref="#chemical_070" type="chemical">
+                  <term xml:id="tag26">
+          copper
+          
+        </term>
+               </rs>:</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- This may possibly be owing</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">to the</hi> different capacities</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of these metals for heat but</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">it may likewise depend upon</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the <hi rend="underline">circumstance</hi> of <del rend="strikethrough">
+                  <unclear>
+                     <hi rend="underline">contacts</hi>
+                  </unclear>
+               </del> their</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">being in different degrees conductors</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of Electricity;- <del rend="strikethrough">for most heat</del>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">may be expected - in cases when</del>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">where</hi> - 3 points&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">These exp<hi rend="superscript">ts</hi>
+            </hi>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">as well as those which I have before exhibited</add> do away the opinion&#xD;<lb/>
+which many able writers have&#xD;<lb/>
+supported of - a. <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">cold</hi> fusion&#xD;<lb/>
+by electricity - a notion which&#xD;<lb/>
+has been lately revived by&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag27"
+                ref="#person_005"
+                type="person">
+               <name xml:id="tag27" type="person">
+          M<hi rend="superscript">r</hi> Berthollet
+        </name>
+            </rs>; - &#xD;<lb/>
+It cannot be said that&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>they burn</unclear>
+            </del> the electricity merely&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">exp<hi rend="superscript">ts</hi>
+            </hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">on the</hi> degree&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of Heat</hi>
+            <lb/>
+&amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">conducting</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">power</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="22"
+                xml:id="pb-22"
+                facs="#i22"/>
+            <lb/>
+increases the oxidability of&#xD;<lb/>
+the metals; - &amp; thus produces&#xD;<lb/>
+their combustion for the&#xD;<lb/>
+phaenomenon takes place with&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">as <hi rend="underline">much</hi>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">even more</add> energy in vacuo;&#xD;<lb/>
+- if <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag28" ref="#chemical_028" type="chemical">
+                  <term xml:id="tag28">
+          Platina
+          
+        </term>
+               </rs> wire</hi> be used.&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>.&#xD;<lb/>
+Not immediately connected&#xD;<lb/>
+with the subject; but still I&#xD;<lb/>
+cannot pass over the Inference.&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">No atmosphere</hi>, <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">perfect insulation</hi>
+            <lb/>
+- The fact is the&#xD;<lb/>
+Strongest one that I am&#xD;<lb/>
+acquainted with <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">against the notion</add> of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Heat</hi> being&#xD;<lb/>
+a <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">fluid</del> peculiar <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">subtile fluid</hi>;&#xD;<lb/>
+which cannot appear unless&#xD;<lb/>
+given of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">from some</hi> combustion. -&#xD;<lb/>
+The <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">air cannot give</hi> it&#xD;<lb/>
+- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">for there is none</hi>
+            <lb/>
+- Let it be said to be&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="23"
+                xml:id="pb-23"
+                facs="#i23"/>
+            <lb/>
+53&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">composed</hi> of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">two</hi> electricities&#xD;<lb/>
+ie let these be regarded as&#xD;<lb/>
+different subtile fluids; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">but</hi>
+            <lb/>
+in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">this case</hi>. Cold ought&#xD;<lb/>
+to be produced in some&#xD;<lb/>
+part of the system - I once had&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">this idea</hi> . It satisfies the&#xD;<lb/>
+imagination; but . - not&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the reason</hi>. - If we suppose&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">one fluid</hi>; &amp; this fluid&#xD;<lb/>
+carries heat with it&#xD;<lb/>
+whence can its heat be&#xD;<lb/>
+derived; - If we conceive&#xD;<lb/>
+it to be heat or light&#xD;<lb/>
+Why <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">should</hi> it <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">give it</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">off only when passing over</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">a small surface</hi>
+            </del>; be resolved&#xD;<lb/>
+into heat or light at&#xD;<lb/>
+24&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">24</hi>
+            <lb/>
+56&#xD;<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">9</unclear>6&#xD;<lb/>
+56&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">48</hi>
+            <lb/>
+576&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="24"
+                xml:id="pb-24"
+                facs="#i24"/>
+            <lb/>
+the moment that it is strongly&#xD;<lb/>
+attracted by matter. - : let&#xD;<lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">heat</hi> be said to pressed&#xD;<lb/>
+out from the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">metal</hi>; - but&#xD;<lb/>
+then there must be an&#xD;<lb/>
+equilibrium - No <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Theory</hi>
+            <lb/>
+Consistent but that of&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Heat</hi> being Matter in a&#xD;<lb/>
+State of Motion; &amp; of Electrical&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Changes</hi> being successions of attractions&#xD;<lb/>
+&amp; repulsions producing those motions; -&#xD;<lb/>
+but it is said there&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">must be matter</hi>; true:&#xD;<lb/>
+but the question is whether&#xD;<lb/>
+this is <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">specific</hi>; - whether&#xD;<lb/>
+different kinds of Matter&#xD;<lb/>
+When projected into free space&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="25"
+                xml:id="pb-25"
+                facs="#i25"/>
+            <lb/>
+54&#xD;<lb/>
+may not become heat -. The&#xD;<lb/>
+notion argued against is one&#xD;<lb/>
+simple specific indestructible&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">fluid</hi> of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">heat</hi>; - There are&#xD;<lb/>
+a great <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">variety of gasses</hi>; suppose&#xD;<lb/>
+the particles of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag29"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag29">
+          Hydrogene
+          
+        </term>
+            </rs> could&#xD;<lb/>
+be made to pass through&#xD;<lb/>
+free space. - they would perhaps&#xD;<lb/>
+be <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">heat</hi> - suppose them to expand <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">100 times as much</add>
+            <lb/>
+The particles producing terrestrial&#xD;<lb/>
+heat seem different from&#xD;<lb/>
+those producing <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Solar heat;</hi>
+            <lb/>
+So of light -&#xD;<lb/>
+- Vulgar idea like that&#xD;<lb/>
+of the peasant every thing&#xD;<lb/>
+done by a spring so every&#xD;<lb/>
+thing must be done by&#xD;<lb/>
+a fluid - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag30" ref="#person_036" type="person">
+                  <name xml:id="tag30" type="person">
+          Newtons
+        </name>
+               </rs> idea</del>
+            <lb/>
+the Ether was the most ancient fluid&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="26"
+                xml:id="pb-26"
+                facs="#i26"/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">too long relinquished - I</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">hope it will be adopted</del>. - .&#xD;<lb/>
+-; then there was a <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag31"
+                ref="#chemical_046"
+                type="chemical">
+               <term xml:id="tag31">
+          phlogistic
+          
+        </term>
+            </rs>
+            <lb/>
+fluid. - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">then</del> We have had the&#xD;<lb/>
+Magnetic fluid the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag32"
+                ref="#chemical_157"
+                type="chemical">
+               <term xml:id="tag32">
+          Vitreous
+          
+        </term>
+            </rs>
+            <lb/>
+fluid the resinous fluid. -&#xD;<lb/>
+-. And within the last few&#xD;<lb/>
+years there has been a fluid&#xD;<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">sound</hi>; -. And in a book&#xD;<lb/>
+which I lately received from&#xD;<lb/>
+France published by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag33"
+                ref="#person_523"
+                type="person">
+               <name xml:id="tag33" type="person">
+          M<hi rend="superscript">r</hi> Azais
+        </name>
+            </rs>.&#xD;<lb/>
+all the phenomena of Nature&#xD;<lb/>
+are explained by a Gravific&#xD;<lb/>
+Fluid. -&#xD;<lb/>
+But it is said that nothing&#xD;<lb/>
+but matter can pass through&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">bodies</hi>; &amp; that therefore&#xD;<lb/>
+there must be some fluid&#xD;<lb/>
+concerned - <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">a strong argument</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">My very able</del>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">advanced in</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">friend in a late lecture</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear>
+            </del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">shewed You</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">that when</add> a hole is&#xD;<lb/>
+made through <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a card</del> paper <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">.</unclear>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="27"
+                xml:id="pb-27"
+                facs="#i27"/>
+            <lb/>
+55&#xD;<lb/>
+a card there is a burn on both sides&#xD;<lb/>
+-. <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; He stated that there was a</del>
+            <lb/>
+burn on both sides; but if&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">something</hi> absolutely passed through&#xD;<lb/>
+the burn could only be on&#xD;<lb/>
+one side - unless there are two&#xD;<lb/>
+fluids created in the middle&#xD;<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the paper</hi>. one of which&#xD;<lb/>
+passes one way &amp; the other&#xD;<lb/>
+another way. - On the idea&#xD;<lb/>
+which I have ventured to&#xD;<lb/>
+form. - Both the interior&#xD;<lb/>
+&amp; the exterior of the paper&#xD;<lb/>
+are violently attracted; - &amp; will&#xD;<lb/>
+be separated one towards the&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">plus</del> positive side of the jar the&#xD;<lb/>
+other towards the negative. -&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- The flame of a taper</del>
+            <lb/>
+- There are other modes&#xD;<lb/>
+of explaining this&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">
+                  <rs xml:id="ttag34" ref="#nonenglish_009" type="nonenglish">
+                     <term xml:id="tag34">
+          quere
+        </term>
+                  </rs>
+               </hi>
+            </del>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag35"
+                ref="#chemical_078"
+                type="chemical">
+               <term xml:id="tag35">
+          elastic fluid
+          
+        </term>
+            </rs> generated&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="28"
+                xml:id="pb-28"
+                facs="#i28"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="29"
+                xml:id="pb-29"
+                facs="#i29"/>
+            <lb/>
+56&#xD;<lb/>
+I spoke in the last lecture of&#xD;<lb/>
+various phaenomena of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Atmospheric</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Electricity</hi>; in which the&#xD;<lb/>
+Electricity may be regarded as&#xD;<lb/>
+in that <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">state of Intensity</hi> which&#xD;<lb/>
+is analagous to the<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">at</del> state exhibited&#xD;<lb/>
+by the common Electrical machine;&#xD;<lb/>
+I shall now speak of some&#xD;<lb/>
+Electrical effects produced by&#xD;<lb/>
+arrangements in which the state&#xD;<lb/>
+is similar to that of&#xD;<lb/>
+the Electricity belonging to the&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag36"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag36">
+          Voltaic
+          
+        </term>
+            </rs> Battery. &amp; these&#xD;<lb/>
+arrangements <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">belong</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">are attached</add> to animated&#xD;<lb/>
+Beings. -&#xD;<lb/>
+- It was known to the&#xD;<lb/>
+ancients that a fish of&#xD;<lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Ray Kind</hi>, The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag37"
+                ref="#misc_233"
+                type="miscellaneous">
+               <term xml:id="tag37">
+          Torpedo
+        </term>
+            </rs> which&#xD;<lb/>
+was called by the Greeks, Narke&#xD;<lb/>
+had the power of giving shocks&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="30"
+                xml:id="pb-30"
+                facs="#i30"/>
+            <lb/>
+or of producing numbness in&#xD;<lb/>
+the hands of the Fishermen&#xD;<lb/>
+who touched it. -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag38"
+                ref="#misc_324"
+                type="miscellaneous">
+               <term xml:id="tag38">
+          Reaumer
+        </term>
+            </rs> supposed the power&#xD;<lb/>
+to depend upon a particular&#xD;<lb/>
+vibratory effect of the muscles&#xD;<lb/>
+of the Fish&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag39"
+                ref="#person_526"
+                type="person">
+               <name xml:id="tag39" type="person">
+          M<hi rend="superscript">r</hi> Allamand
+        </name>
+            </rs>:&#xD;<lb/>
+but the Demonstration of&#xD;<lb/>
+the power - owing to M<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag40"
+                ref="#person_525"
+                type="person">
+               <name xml:id="tag40" type="person">
+          Walsh
+        </name>
+            </rs>. -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag41"
+                ref="#person_026"
+                type="person">
+               <name xml:id="tag41" type="person">
+          M<hi rend="superscript">r</hi> Cavendish
+        </name>
+            </rs> -&#xD;<lb/>
+made an Instrument&#xD;<lb/>
+Evidently the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag42"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag42">
+          Voltaic
+          
+        </term>
+            </rs>
+            <lb/>
+battery offers a perfect analogy&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="31"
+                xml:id="pb-31"
+                facs="#i31"/>
+            <lb/>
+57&#xD;<lb/>
+- The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag43"
+                ref="#misc_232"
+                type="miscellaneous">
+               <term xml:id="tag43">
+                  <hi rend="underline">Gymnotus of Surinam</hi>
+               </term>
+            </rs>
+            <lb/>
+has a higher power even&#xD;<lb/>
+than the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag44"
+                ref="#misc_233"
+                type="miscellaneous">
+               <term xml:id="tag44">
+          Torpedo
+        </term>
+            </rs> -&#xD;<lb/>
+Disection by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag45"
+                ref="#person_213"
+                type="person">
+               <name xml:id="tag45" type="person">
+          Hunter
+        </name>
+            </rs>, Nerves in&#xD;<lb/>
+the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag46"
+                ref="#misc_232"
+                type="miscellaneous">
+               <term xml:id="tag46">
+          gymnotus
+        </term>
+            </rs> ie -&#xD;<lb/>
+Inferences from this: - possibility&#xD;<lb/>
+of Electricity being concerned in&#xD;<lb/>
+nervous &amp; Muscular action&#xD;<lb/>
+- This may be the case -&#xD;<lb/>
+&amp; the general enquiry will make&#xD;<lb/>
+it - probable secretion&#xD;<lb/>
+nutrition -&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">It will be needless to argue,</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">against this.</del>
+            <lb/>
+- That some important&#xD;<lb/>
+applications to Physiology &amp; to&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="32"
+                xml:id="pb-32"
+                facs="#i32"/>
+            <lb/>
+Medical Science will arise from&#xD;<lb/>
+the pursuit of this enquiry&#xD;<lb/>
+There is great reason to&#xD;<lb/>
+believe; - I trust it&#xD;<lb/>
+will be carried on in&#xD;<lb/>
+the spirit of slow &amp; cautious&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">investigation; There is</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">now no danger</del> that&#xD;<lb/>
+any of those wild theories&#xD;<lb/>
+will be adopted; which&#xD;<lb/>
+referred <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">irritability</hi> &amp;&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">even sensibility</hi> to electrical&#xD;<lb/>
+powers. -&#xD;<lb/>
+- In the early stages of&#xD;<lb/>
+discovery, the imagination&#xD;<lb/>
+is often dazzled by the&#xD;<lb/>
+brilliancy of the new&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">facts</hi> &amp; trusts to weak&#xD;<lb/>
+or <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">remote</unclear> analogies&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="33"
+                xml:id="pb-33"
+                facs="#i33"/>
+            <lb/>
+58&#xD;<lb/>
+- The whole language of Nature&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">tells</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">informs</add> us that in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">organized</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">animating</add>
+            <lb/>
+beings. - there is <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">somethings</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">above</hi>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">our powers</hi>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of investigation;</hi>
+            <lb/>
+( something<unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">s</unclear> which employs combines&#xD;<lb/>
+&amp; arranges, the gross elements&#xD;<lb/>
+of Matter, " a spark of&#xD;<lb/>
+celestial fire - by which &#xD;<lb/>
+life is kindled &amp; preserved;&#xD;<lb/>
+&amp; which if even the instruments&#xD;<lb/>
+it employs are indestructible&#xD;<lb/>
+in their essence; must itself&#xD;<lb/>
+of necessity be immortal&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="34"
+                xml:id="pb-34"
+                facs="#i34"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="35"
+                xml:id="pb-35"
+                facs="#i35"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="36"
+                xml:id="pb-36"
+                facs="#i36"/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

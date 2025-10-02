@@ -1,0 +1,12 @@
+#!/bin/bash
+
+awk '
+    BEGIN { page = 1; }
+    { gsub(/\r/, ""); }
+    /^\\newpage/ {
+        match($0, /^[^(]*\(([^\)]*)\).*/, a);
+        printf("[page]%d|%s[/page]\n", page++, a[1]);
+        next;
+    }
+    { print; }
+' "../source/dnp21a TranscriptionDavy Michel.txt" >invalid

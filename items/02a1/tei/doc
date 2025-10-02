@@ -1,0 +1,2526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-10201</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-10201</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/2/A/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Lectures</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/2/A/1</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent> pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1778-12-17"
+                                   notAfter="1829-05-29"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="portrait"
+               url="MS-DAVY-10201-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="4679px"
+                  rend="portrait"
+                  url="MS-DAVY-10201-000-00001"
+                  width="4651px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4650"
+               lry="4678"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="3600px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00002"
+                  width="4399px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4398"
+               lry="3599"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="3591px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00003"
+                  width="4399px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4398"
+               lry="3590"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="4661px"
+                  rend="portrait"
+                  url="MS-DAVY-10201-000-00004"
+                  width="4643px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4642"
+               lry="4660"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="4688px"
+                  rend="portrait"
+                  url="MS-DAVY-10201-000-00005"
+                  width="4652px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4651"
+               lry="4687"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="3591px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00006"
+                  width="4372px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4371"
+               lry="3590"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="3573px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00007"
+                  width="4372px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4371"
+               lry="3572"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="4679px"
+                  rend="portrait"
+                  url="MS-DAVY-10201-000-00008"
+                  width="4652px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4651"
+               lry="4678"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="4697px"
+                  rend="portrait"
+                  url="MS-DAVY-10201-000-00009"
+                  width="4670px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4669"
+               lry="4696"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="3591px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00010"
+                  width="4362px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4361"
+               lry="3590"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+      <surface n="11" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="3564px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00011"
+                  width="4362px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4361"
+               lry="3563"
+               rotate="0"
+               xml:id="i11z1"/>
+      </surface>
+      <surface n="12" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="4652px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00012"
+                  width="4670px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4669"
+               lry="4651"
+               rotate="0"
+               xml:id="i12z1"/>
+      </surface>
+      <surface n="13" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="4670px"
+                  rend="portrait"
+                  url="MS-DAVY-10201-000-00013"
+                  width="4648px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4647"
+               lry="4669"
+               rotate="0"
+               xml:id="i13z1"/>
+      </surface>
+      <surface n="14" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="3573px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00014"
+                  width="4416px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4415"
+               lry="3572"
+               rotate="0"
+               xml:id="i14z1"/>
+      </surface>
+      <surface n="15" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="3591px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00015"
+                  width="4416px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4415"
+               lry="3590"
+               rotate="0"
+               xml:id="i15z1"/>
+      </surface>
+      <surface n="16" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="4688px"
+                  rend="portrait"
+                  url="MS-DAVY-10201-000-00016"
+                  width="4642px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4641"
+               lry="4687"
+               rotate="0"
+               xml:id="i16z1"/>
+      </surface>
+      <surface n="17" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="4706px"
+                  rend="portrait"
+                  url="MS-DAVY-10201-000-00017"
+                  width="4651px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4650"
+               lry="4705"
+               rotate="0"
+               xml:id="i17z1"/>
+      </surface>
+      <surface n="18" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="3600px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00018"
+                  width="4362px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4361"
+               lry="3599"
+               rotate="0"
+               xml:id="i18z1"/>
+      </surface>
+      <surface n="19" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="3573px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00019"
+                  width="4362px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4361"
+               lry="3572"
+               rotate="0"
+               xml:id="i19z1"/>
+      </surface>
+      <surface n="20" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="4679px"
+                  rend="portrait"
+                  url="MS-DAVY-10201-000-00020"
+                  width="4634px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4633"
+               lry="4678"
+               rotate="0"
+               xml:id="i20z1"/>
+      </surface>
+      <surface n="21" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="4679px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00021"
+                  width="4688px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4687"
+               lry="4678"
+               rotate="0"
+               xml:id="i21z1"/>
+      </surface>
+      <surface n="22" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="3564px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00022"
+                  width="4353px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4352"
+               lry="3563"
+               rotate="0"
+               xml:id="i22z1"/>
+      </surface>
+      <surface n="23" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="3581px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00023"
+                  width="4353px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4352"
+               lry="3580"
+               rotate="0"
+               xml:id="i23z1"/>
+      </surface>
+      <surface n="24" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="4706px"
+                  rend="portrait"
+                  url="MS-DAVY-10201-000-00024"
+                  width="4688px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4687"
+               lry="4705"
+               rotate="0"
+               xml:id="i24z1"/>
+      </surface>
+      <surface n="25" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="4670px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00025"
+                  width="4859px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4858"
+               lry="4669"
+               rotate="0"
+               xml:id="i25z1"/>
+      </surface>
+      <surface n="26" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="3564px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00026"
+                  width="4616px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4615"
+               lry="3563"
+               rotate="0"
+               xml:id="i26z1"/>
+      </surface>
+      <surface n="27" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="3573px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00027"
+                  width="4616px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4615"
+               lry="3572"
+               rotate="0"
+               xml:id="i27z1"/>
+      </surface>
+      <surface n="28" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="4670px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00028"
+                  width="4679px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4678"
+               lry="4669"
+               rotate="0"
+               xml:id="i28z1"/>
+      </surface>
+      <surface n="29" xml:id="i29">
+         <graphic decls="#downloadImageRights #download"
+                  height="4697px"
+                  rend="portrait"
+                  url="MS-DAVY-10201-000-00029"
+                  width="4684px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4683"
+               lry="4696"
+               rotate="0"
+               xml:id="i29z1"/>
+      </surface>
+      <surface n="30" xml:id="i30">
+         <graphic decls="#downloadImageRights #download"
+                  height="3554px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00030"
+                  width="4299px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4298"
+               lry="3553"
+               rotate="0"
+               xml:id="i30z1"/>
+      </surface>
+      <surface n="31" xml:id="i31">
+         <graphic decls="#downloadImageRights #download"
+                  height="3572px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00031"
+                  width="4299px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4298"
+               lry="3571"
+               rotate="0"
+               xml:id="i31z1"/>
+      </surface>
+      <surface n="32" xml:id="i32">
+         <graphic decls="#downloadImageRights #download"
+                  height="4670px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00032"
+                  width="4739px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4738"
+               lry="4669"
+               rotate="0"
+               xml:id="i32z1"/>
+      </surface>
+      <surface n="33" xml:id="i33">
+         <graphic decls="#downloadImageRights #download"
+                  height="4670px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00033"
+                  width="4688px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4687"
+               lry="4669"
+               rotate="0"
+               xml:id="i33z1"/>
+      </surface>
+      <surface n="34" xml:id="i34">
+         <graphic decls="#downloadImageRights #download"
+                  height="3582px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00034"
+                  width="4480px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4479"
+               lry="3581"
+               rotate="0"
+               xml:id="i34z1"/>
+      </surface>
+      <surface n="35" xml:id="i35">
+         <graphic decls="#downloadImageRights #download"
+                  height="3554px"
+                  rend="landscape"
+                  url="MS-DAVY-10201-000-00035"
+                  width="4480px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4479"
+               lry="3553"
+               rotate="0"
+               xml:id="i35z1"/>
+      </surface>
+      <surface n="36" xml:id="i36">
+         <graphic decls="#downloadImageRights #download"
+                  height="4679px"
+                  rend="portrait"
+                  url="MS-DAVY-10201-000-00036"
+                  width="4672px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4671"
+               lry="4678"
+               rotate="0"
+               xml:id="i36z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listPlace>
+         <place xml:id="place_167">
+            <placeName>Greece</placeName>
+            <location>
+               <geo decls="#WGS84">39.47271804405826,  22.383511417155901</geo>
+            </location>
+         </place>
+         <place xml:id="place_208">
+            <placeName>Athens</placeName>
+            <location>
+               <geo decls="#WGS84">37.9854254841492, 23.728211329282001</geo>
+            </location>
+            <note>Athens is the capital city of Greece.</note>
+         </place>
+         <place xml:id="place_222">
+            <placeName>Africa</placeName>
+            <note>The world's second-largest and second-most populous continent.</note>
+         </place>
+         <place xml:id="place_873">
+            <placeName>Iran</placeName>
+            <location>
+               <geo decls="#WGS84">32.015343495391235,  53.859169052200301</geo>
+            </location>
+            <note>Iran, also known as Persia and officially the Islamic Republic of Iran, is a country located at the crossroads of West, Central and South Asia.</note>
+         </place>
+         <place xml:id="place_155">
+            <placeName>Rome</placeName>
+            <location>
+               <geo decls="#WGS84">41.901639083469824,  12.4814095854935</geo>
+            </location>
+            <note>The capital of Italy.</note>
+         </place>
+         <place xml:id="place_1311">
+            <placeName>Baghdad</placeName>
+            <location>
+               <geo decls="#WGS84">33.325743664633265,  44.386804046910697</geo>
+            </location>
+            <note>the capital of Iraq and the second-largest city in the Arab world after Cairo</note>
+         </place>
+      </listPlace>
+      <listPerson>
+         <person xml:id="person_605">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Anaxagoras</surname>
+            </persName>
+            <birth when="fl. 5th cent BCE"/>
+            <note>Greek Presocratic philosopher.</note>
+         </person>
+         <person xml:id="person_181">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Hippocrates</surname>
+            </persName>
+            <birth when="460 BCE"/>
+            <death when="370 BCE"/>
+            <note>Green physician of the classical period.</note>
+         </person>
+         <person xml:id="person_182">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Democritus</surname>
+            </persName>
+            <birth when="460 BCE"/>
+            <death when="370 BCE"/>
+            <note>Pre-Socratic Greek philosopher who proposed a form of atomism.</note>
+         </person>
+         <person xml:id="person_035">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Homer</surname>
+            </persName>
+            <note>Homer was a Greek poet who is believed to have written the epic poems, the Iliad and the Odyssey.</note>
+         </person>
+         <person xml:id="person_939">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Aristides</surname>
+            </persName>
+            <birth when="530BCE"/>
+            <death when="468BCE"/>
+            <note>An Athenian statesman remembered for his generalship in the Persian War.</note>
+         </person>
+         <person xml:id="person_175">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Miltiades</surname>
+            </persName>
+            <death when="489 BCE"/>
+            <note>Greek Athenian citizen known mostly for his role in the Battle of Marathon.</note>
+         </person>
+         <person xml:id="person_176">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Themistocles</surname>
+            </persName>
+            <death when="459 BCE"/>
+            <note>Athenian politician and general. </note>
+         </person>
+         <person xml:id="person_177">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Leonidas</surname>
+            </persName>
+            <birth when="540 BCE"/>
+            <death when="480 BCE"/>
+            <note>King of the Greek city-state of Sparta.</note>
+         </person>
+         <person xml:id="person_179">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Sophocles</surname>
+            </persName>
+            <birth when="c. 497 BCE"/>
+            <death when="c.406 BCE"/>
+            <note>Greek tragidian.</note>
+         </person>
+         <person xml:id="person_140">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Socrates</surname>
+            </persName>
+            <birth when="470 BCE"/>
+            <death when="399 BCE"/>
+            <note>Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.</note>
+         </person>
+         <person xml:id="person_490">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Xenophon</surname>
+            </persName>
+            <birth when="c. 430 BCE"/>
+            <death when="c. 355 BCE"/>
+            <note>A Greek military leader, historian and philosopher, who was a student of Socrates. He recorded some of Socrates' philosophy. He is mainly remembered for his book Anabasis.</note>
+         </person>
+         <person xml:id="person_810">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Alexander III</forename>
+            </persName>
+            <birth when="356 BCE"/>
+            <death when="323 BCE"/>
+            <note>The Great, King of Macedon, from which he conquered much of the world known in Greek antiquity. </note>
+         </person>
+         <person xml:id="person_138">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Aristotle</surname>
+            </persName>
+            <birth when="384 BCE"/>
+            <death when="322 BCE"/>
+            <note>A pupil of Plato's whose philosophical idealism he came to reject, arguing instead for the primacy of observations of natural phenomena. He thus established the divide between theory and experiment in science that can still be detected today. Aristotle's writings became the main way the natural world was understood from the Middle Ages to the seventeenth century, especially in the universities.</note>
+         </person>
+         <person xml:id="person_340">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Atheneus</surname>
+            </persName>
+            <birth when="fl. 3rd/2nd cent BCE"/>
+            <note>Of Naucratis was a Greek rhetorician and grammarian.</note>
+         </person>
+         <person xml:id="person_136">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Almanon</surname>
+            </persName>
+            <birth when="786 CE"/>
+            <death when="833 CE"/>
+            <note>The Anglicised form of Al-Ma'mun, the seventh Abbasid caliph who reigned from 813-833 CE - a patron of learning.</note>
+         </person>
+         <person xml:id="person_114">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Muhammad</surname>
+            </persName>
+            <birth when="c. 570 CE"/>
+            <death when="c. 632 CE"/>
+            <note>The Holy Prophet and founder of Islam.</note>
+         </person>
+      </listPerson>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_129" type="description">
+            <term id="misc_129-term">Battle of Delium</term>
+            <gloss id="misc_129-gloss" target="#misc_129-term">
+               <p>The battle of Delium took place during the Peloponnesian War, in 424 BCE.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_671" type="description">
+            <term id="misc_671-term">the power of Macedon</term>
+            <gloss id="misc_671-gloss" target="#misc_671-term">
+               <p>an ancient kingdom on the periphery of Archaic and Classical Greece,[6] which later became the dominant state of Hellenistic Greece</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+Introductory Lecture&#xD;<lb/>
+for the Courses&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of 1805</hi>
+            <lb/>
+The Love of knowledge &amp; of intellectual&#xD;<lb/>
+power is a faculty belonging to the&#xD;<lb/>
+human Mind in every state of Society&#xD;<lb/>
+and it is one by which it is most justly&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">nobly</del> characterised; one the most worthy&#xD;<lb/>
+of being cultivated &amp; extended.&#xD;<lb/>
+-. Useful <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">to the individual</add> &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">even necessary to his existence</hi>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of the <hi rend="underline">Individual</hi>
+            </del>; its general effects upon&#xD;<lb/>
+the species are in the highest degree&#xD;<lb/>
+important &amp; beneficial; &amp; the improvements&#xD;<lb/>
+in the condition &amp; in the happiness of&#xD;<lb/>
+Mankind appear in all instances to&#xD;<lb/>
+have preserved an uniform pace with the&#xD;<lb/>
+progress of the inventions of the Arts&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+for the advancement in the Sciences.-&#xD;<lb/>
+slow.&#xD;<lb/>
+- This truth scarcely requires any demon=&#xD;<lb/>
+=stration - |_ To prove it there is no necessity&#xD;<lb/>
+for recurring to very refined arguments ;&#xD;<lb/>
+&amp; the mere comparison of the rude &amp;&#xD;<lb/>
+of the cultivated state of Society must&#xD;<lb/>
+carry conviction to every unprejudiced&#xD;<lb/>
+understanding.-&#xD;<lb/>
+- In the dreams of a brilliant&#xD;<lb/>
+imagination indeed the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">natural</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">uncivilised</add> state&#xD;<lb/>
+of Man <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">may appear</add> in high &amp; vivid tints of&#xD;<lb/>
+Happiness |_ &amp; the fancy of an enthusiast&#xD;<lb/>
+may enable him to draw strong&#xD;<lb/>
+contrasts between nature &amp; art&#xD;<lb/>
+unfavorable to the latter; Between&#xD;<lb/>
+blue skies, verdant groves, murmuring&#xD;<lb/>
+streams; the scenery of a mountain country;&#xD;<lb/>
+And the smoke &amp; dirt of Towns, the&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+7&#xD;<lb/>
+2&#xD;<lb/>
+noise &amp; bustle of commerce, &amp; the&#xD;<lb/>
+insipidity of productive plains - Between&#xD;<lb/>
+the earth wildly &amp; spontaneously&#xD;<lb/>
+producing food - and grounds made&#xD;<lb/>
+fertile only by <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> Human labour.-&#xD;<lb/>
+Between the vices miseries &amp; dependence&#xD;<lb/>
+of Man in Society - And his simple&#xD;<lb/>
+virtues, his lofty pastoral manners &amp;&#xD;<lb/>
+his unsubdued freedom, in the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">s</del>condition&#xD;<lb/>
+of Nature.-&#xD;<lb/>
+Such romantic pictures <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxx</unclear> they</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">though they,</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">they though</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">should be</add> adorned with <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">coloring</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of Genius</del> highest coloring of Genius, can&#xD;<lb/>
+however scarcely <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ones</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in the slightest <hi rend="underline">degree </hi>
+            </add>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">affect the opinion</hi>
+            <lb/>
+of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a</del> sound &amp; judicious reasoners -&#xD;<lb/>
+The details of past = times, the narrations&#xD;<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Travellers</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> or even a simple observations&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del> on the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">faculties</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">habits</add> &amp; propensities of the human&#xD;<lb/>
+Mind <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <del rend="strikethrough">of</del> are</hi> sufficient to demonstrate&#xD;<lb/>
+that its highest enjoyments are connected&#xD;<lb/>
+with an active state of the understanding&#xD;<lb/>
+&amp; an exalted social intercourse ;-&#xD;<lb/>
+are sufficient to demonstrate, that&#xD;<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>in alties</unclear>
+            </del>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Being</hi> where pleasures are&#xD;<lb/>
+only pro duced by the gratification of&#xD;<lb/>
+his common wants &amp; whose wants are&#xD;<lb/>
+constantly limited by the poverty of&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Nature</hi>, can never be <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>accexxxxxy</unclear>
+            </del>justly&#xD;<lb/>
+opposed to the Man,- whose delights&#xD;<lb/>
+are in great measure conformable&#xD;<lb/>
+to his wishes, whose intellectual gratifications&#xD;<lb/>
+are even more numerous than his appetites&#xD;<lb/>
+&amp; whose Mind is the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">master</hi> of his&#xD;<lb/>
+body &amp; not its <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">slave</hi>.-&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+3&#xD;<lb/>
+slow&#xD;<lb/>
+- Many speculative men whose minds&#xD;<lb/>
+have been awake to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">all</del>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the <add>strong</add> advantages</hi>
+            <lb/>
+of improvement have nevertheless&#xD;<lb/>
+conceived that in all cases there&#xD;<lb/>
+must be certain limits to the&#xD;<lb/>
+progress of civilisation;- have conceived&#xD;<lb/>
+that the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Sciences &amp; the Arts</hi> however&#xD;<lb/>
+beneficial in their <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">first</hi> effects must&#xD;<lb/>
+finally tend to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">produce operate</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">by in a</del> enfeeble the character, &amp; to&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">produce common</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">promote <hi rend="underline">the increase</hi> of</add> luxury.-&#xD;<lb/>
+Such persons <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">who beleive that they</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">perceive the germs of the ruin of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">states in those very causes which</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">have produced their greatness</del> have&#xD;<lb/>
+generally founded their opinions&#xD;<lb/>
+upon incorrect views of the history&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+of ancient Nations ; &amp; haunted by ideas&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">visions</del> of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">their</add> rapid elevation; &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <add>of the</add>
+            </del> downfall&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of the empires of Antiquity; they</del>
+            <lb/>
+have beleived that the same <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">causes</del> powers&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">exist</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">operate</add> in modern times; &amp; that&#xD;<lb/>
+the germs of the Ruin of States&#xD;<lb/>
+exist in those very <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">causes</hi> which&#xD;<lb/>
+have produced <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">their greatness</hi>.-&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">rest</hi>
+            <lb/>
+- That <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">power riches &amp; leisure</hi> are&#xD;<lb/>
+essential to a great extension of&#xD;<lb/>
+Philosophy &amp; literature &amp; that they&#xD;<lb/>
+are likewise <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">often</add> the causes of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>larcency</unclear>
+            </del> Vice&#xD;<lb/>
+&amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">refinement</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">depravation</add> cannot indeed be&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">denied</hi> ; But a <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">very</del> few facts derived&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">drawn</del> even from the History of&#xD;<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">great</del> empires of Antiquity will&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+4&#xD;<lb/>
+distinctly shew; that <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in great or wealthy</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">states ;</del> the influence of the Arts &amp;&#xD;<lb/>
+Sciences <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in great &amp; wealthy states</add> tends rather to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">depress</hi> than&#xD;<lb/>
+to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">promote common luxury; &amp;</hi> that&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">those</hi> periods , the most distinguished&#xD;<lb/>
+by elevation of moral character, by the&#xD;<lb/>
+social virtues &amp; by the higher feelings&#xD;<lb/>
+of the Soul; were likewise the&#xD;<lb/>
+periods in which Philosophy &amp; letters&#xD;<lb/>
+were most cultivated &amp; in which&#xD;<lb/>
+the fine Arts <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">received their highest</del>
+            <lb/>
+were <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">most</del> ardently pursued.-&#xD;<lb/>
+- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">low. rest</hi>
+            <lb/>
+-. The most happy period of Grecian&#xD;<lb/>
+civilisation is that included between&#xD;<lb/>
+the first <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">persian</hi> &amp; the second&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">peloponaesian War</hi>. - . It was at the&#xD;<lb/>
+beginning of this period, that <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">that</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; science were first pursued</del>
+            <lb/>
+Literature &amp; Science made their&#xD;<lb/>
+first progress in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#place_167"
+                type="place">
+               <name xml:id="tag1" type="place">
+          Greece
+        </name>
+            </rs>;|_And at the time&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the beginning</del> that they were studied&#xD;<lb/>
+with the greatest ardour; the&#xD;<lb/>
+patriotic spirit <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of the people,</del> &amp;&#xD;<lb/>
+the Heroical virtue of the People&#xD;<lb/>
+were revealed in their <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">full</hi> splendour.&#xD;<lb/>
+|_It was at the beginning of this period&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">And which Anagoras.</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">At the time that</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">when</add>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag2"
+                ref="#person_605"
+                type="person">
+               <name xml:id="tag2" type="person">
+          Anaxagoras
+        </name>
+            </rs> was&#xD;<lb/>
+instructing the youth of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag3"
+                ref="#place_208"
+                type="place">
+               <name xml:id="tag3" type="place">
+          Athens
+        </name>
+            </rs> in speculate&#xD;<lb/>
+Philosophy, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">that</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">when</add>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag4"
+                ref="#person_181"
+                type="person">
+               <name xml:id="tag4" type="person">
+          Hippocrates
+        </name>
+            </rs> was laying&#xD;<lb/>
+the foundations of Medical Science - when&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">And that</del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag5"
+                ref="#person_182"
+                type="person">
+               <name xml:id="tag5" type="person">
+          Democritus
+        </name>
+            </rs> was pursuing the paths&#xD;<lb/>
+of experimental enquiry - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">At the</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">|_It was at the</add>
+            <lb/>
+same time <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">that</add> the minds of the Inhabitants&#xD;<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag6"
+                ref="#place_222"
+                type="place">
+               <name xml:id="tag6" type="place">
+          Africa
+        </name>
+            </rs> were kindling with the&#xD;<lb/>
+Poetic feeling raised by the immortal&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="9"
+                xml:id="pb-9"
+                facs="#i9"/>
+            <lb/>
+5&#xD;<lb/>
+genius of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag7"
+                ref="#person_035"
+                type="person">
+               <name xml:id="tag7" type="person">
+          Homer
+        </name>
+            </rs> - <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">It was at the same time</add> that they <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">carried</del> prosecuted&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">out</del> their most active war of&#xD;<lb/>
+liberty against the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag8"
+                ref="#place_873"
+                type="place">
+               <name xml:id="tag8" type="place">
+          Persians
+        </name>
+            </rs>;-&#xD;<lb/>
+that <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>
+                  <rs xml:id="ttag9" ref="#person_939" type="person">
+                     <name xml:id="tag9" type="person">
+          Aristides
+        </name>
+                  </rs>
+               </unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <rs xml:id="ttag10" ref="#person_175" type="person">
+                  <name xml:id="tag10" type="person">
+          Miltiades
+        </name>
+               </rs>
+            </add> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag11"
+                ref="#person_176"
+                type="person">
+               <name xml:id="tag11" type="person">
+          Themistocles
+        </name>
+            </rs> led&#xD;<lb/>
+on their troops to conquest -&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">And</del> It was at the same time&#xD;<lb/>
+that <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag12"
+                ref="#person_177"
+                type="person">
+               <name xml:id="tag12" type="person">
+          Leonidas
+        </name>
+            </rs> &amp; his three hundred&#xD;<lb/>
+Spartans fell at Thermopylae, <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Martyrs</hi>
+            <lb/>
+in the cause of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">their Country</del> freedom&#xD;<lb/>
+&amp; glorying that they were permitted&#xD;<lb/>
+to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>very</unclear>
+            </del> die <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to preserve the present</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; the future generation from the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">yoke of despotism</del> for their country.-&#xD;<lb/>
+-<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">It was towards the close of this</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">period</del>. It was <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">at</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">towards</add> the close of&#xD;<lb/>
+this period, that sculpture, painting&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="10"
+                xml:id="pb-10"
+                facs="#i10"/>
+            <lb/>
+the arts of life flourished in full&#xD;<lb/>
+vigour, It was at this time&#xD;<lb/>
+that the chisel of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Phidias</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">gave</del>
+            <lb/>
+raised out of the rude marble, forms&#xD;<lb/>
+of majesty &amp; grace.- It was&#xD;<lb/>
+this time, that the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">first</del> same&#xD;<lb/>
+dramatic <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">poet</hi>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <rs xml:id="ttag13" ref="#person_179" type="person">
+                  <name xml:id="tag13" type="person">
+          Sophocles
+        </name>
+               </rs>
+            </add> whose immortal&#xD;<lb/>
+compositions <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">are still</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">will forever continue as</add> models of&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">taste</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">&amp; excellence</add> appeared as a Warrior&#xD;<lb/>
+&amp; Conqueror at the head of Armies;-&#xD;<lb/>
+And that the same philosopher&#xD;<lb/>
+who was called the wisest of&#xD;<lb/>
+Men endured all the hardships&#xD;<lb/>
+that the life of a common soldier&#xD;<lb/>
+can offer.- |_And perhaps the&#xD;<lb/>
+character of the age can be&#xD;<lb/>
+scarcely better delineated than&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="11"
+                xml:id="pb-11"
+                facs="#i11"/>
+            <lb/>
+in one of the incidents in which&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag14" ref="#person_140" type="person">
+                  <name xml:id="tag14" type="person">
+          Socrates
+        </name>
+               </rs>
+            </del> He was <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the great actor</hi>.&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag15"
+                ref="#person_490"
+                type="person">
+               <name xml:id="tag15" type="person">
+          Zenophon
+        </name>
+            </rs> his disciple was wounded&#xD;<lb/>
+in the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag16"
+                ref="#misc_129"
+                type="miscellaneous">
+               <term xml:id="tag16">
+          Battle of Delium
+        </term>
+            </rs>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag17"
+                ref="#person_140"
+                type="person">
+               <name xml:id="tag17" type="person">
+          Socrates
+        </name>
+            </rs>
+            <lb/>
+carried him on his shoulders defended&#xD;<lb/>
+him; &amp; dared at the same moment&#xD;<lb/>
+to expose his life for his friend&#xD;<lb/>
+&amp; his country.-&#xD;<lb/>
+-. Traits of a very different character&#xD;<lb/>
+marked the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough"> most <unclear>xxxxxx</unclear> &amp; most</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">later periods of the</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">vicious times of <hi rend="underline">
+                  <rs xml:id="ttag18" ref="#place_167" type="place">
+                     <name xml:id="tag18" type="place">
+          Greece
+        </name>
+                  </rs>.</hi>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Republics of <rs xml:id="ttag19" ref="#place_167" type="place">
+                  <name xml:id="tag19" type="place">
+          Greece
+        </name>
+               </rs>
+            </add> - And <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">about</del> at&#xD;<lb/>
+the era <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">which</del> when <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">She was</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">they were</add> about to&#xD;<lb/>
+resign their liberties,- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to the <rs xml:id="ttag20" ref="#person_810" type="person">
+                  <name xml:id="tag20" type="person">
+          Macedonian
+        </name>
+               </rs>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">to <rs xml:id="ttag21" ref="#misc_671" type="miscellaneous">
+                  <term xml:id="tag21">
+          the power of Macedon
+        </term>
+               </rs>
+            </add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">conquerer <hi rend="underline">Science</hi> ; &amp; <hi rend="underline">letters</hi> were no</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">longer attended to by the <unclear>xxxxx</unclear> of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">or honoured</del> the Sciences and Arts&#xD;<lb/>
+no longer flourished in their ancient seats&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="12"
+                xml:id="pb-12"
+                facs="#i12"/>
+            <lb/>
+but had passed into the country of&#xD;<lb/>
+the Conqueror. - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">And</del> At this time&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag22"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag22" type="person">
+          Aristotle
+        </name>
+            </rs> was obliged to fly from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag23"
+                ref="#place_208"
+                type="place">
+               <name xml:id="tag23" type="place">
+          Athens
+        </name>
+            </rs>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">as we are informed by <rs xml:id="ttag24" ref="#person_340" type="person">
+                  <name xml:id="tag24" type="person">
+          Atheneus
+        </name>
+               </rs>
+            </del>
+            <lb/>
+&amp; a law was passed to prevent&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; other Historians <unclear>seen</unclear> in <rs xml:id="ttag25" ref="#place_208" type="place">
+                  <name xml:id="tag25" type="place">
+          Athens
+        </name>
+               </rs>
+            </del>
+            <lb/>
+any philosophers from teaching in that city.<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">which had been before the Theatre of their glory</add> Luxury&#xD;<lb/>
+&amp; sensuality only occupied the minds of the&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">has <unclear>persons</unclear> were distinguished by</del>
+            <lb/>
+people: &amp; no persons were distinguished by&#xD;<lb/>
+public approbation, except such&#xD;<lb/>
+as gave great entertainments&#xD;<lb/>
+or such as possessed fortunes which&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">enabled</hi> them to gamble largely.&#xD;<lb/>
+And <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">as we are informed by <rs xml:id="ttag26" ref="#person_340" type="person">
+                  <name xml:id="tag26" type="person">
+          Atheneus
+        </name>
+               </rs>
+            </add> the year before the invasion&#xD;<lb/>
+by Philip "<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the freedom </hi>of the city&#xD;<lb/>
+an honour which before had been&#xD;<lb/>
+bestowed only upon Potentates, Warriors&#xD;<lb/>
+&amp; Philosophers was given to two young&#xD;<lb/>
+Men whose only merit was that their&#xD;<lb/>
+father had been one of the best&#xD;<lb/>
+Cooks in the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Republic</del>.- <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <hi rend="underline">common Wealth.-</hi>
+            </add>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="13"
+                xml:id="pb-13"
+                facs="#i13"/>
+            <lb/>
+- The same principles might be illustrated&#xD;<lb/>
+by examples from many other Nations.-&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag27"
+                ref="#place_155"
+                type="place">
+               <name xml:id="tag27" type="place">
+          Rome
+        </name>
+            </rs> affords as many instances &amp;&#xD;<lb/>
+instances of precisely the same Kind as&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag28" ref="#place_167" type="place">
+                  <name xml:id="tag28" type="place">
+          Greece
+        </name>
+               </rs>
+            </hi>.- And <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">at a later period</hi>
+            <lb/>
+the elevation ,<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a destruction<add>
+                  <del rend="strikethrough">the</del>
+               </add>
+            </del> progress&#xD;<lb/>
+&amp; the decline of the power of&#xD;<lb/>
+the Arabians <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxx</unclear>
+            </del> depended upon&#xD;<lb/>
+similar causes.- And the only <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">period</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">time</add>
+            <lb/>
+at which this last people was&#xD;<lb/>
+truly great <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; enlightened was</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">just</del> &amp; happy, was the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">time</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">period</del> time</add> in&#xD;<lb/>
+which literature &amp; Science were&#xD;<lb/>
+patronised by <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag29"
+                ref="#person_136"
+                type="person">
+               <name xml:id="tag29" type="person">
+          Almamon
+        </name>
+            </rs> &amp; His&#xD;<lb/>
+successors the Calips of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag30" ref="#place_1311" type="place">
+                  <name xml:id="tag30" type="place">
+          Bagdat
+        </name>
+               </rs>.-</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="14"
+                xml:id="pb-14"
+                facs="#i14"/>
+            <lb/>
+And at the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">moment</hi> that the desire&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">spirit</del> of intellectual <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">p</del> improvement&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">disappeared</hi>; the savage &amp; sensual&#xD;<lb/>
+spirit of the religion of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">It</del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag31"
+                ref="#person_114"
+                type="person">
+               <name xml:id="tag31" type="person">
+          Mahomet
+        </name>
+            </rs>
+            <lb/>
+carried its followers on to ruin&#xD;<lb/>
+even amidst the triumphs of conquest;-&#xD;<lb/>
+: &amp; the progress of the crescent&#xD;<lb/>
+at first marked by <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">victory &amp;</add> desolation soon&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; the triump &amp; ignorance soon</del>
+            <lb/>
+finished <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in weak</del> in ignorance&#xD;<lb/>
+&amp; debility.-&#xD;<lb/>
+- All <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">experience</hi>, all analogy;&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">distinct</del>decidedly proves "that" unless power&#xD;<lb/>
+&amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">riches</hi> are employed for&#xD;<lb/>
+increasing the sources of mental gratification&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="15"
+                xml:id="pb-15"
+                facs="#i15"/>
+            <lb/>
+8&#xD;<lb/>
+&amp; for keeping alive the activity of the&#xD;<lb/>
+Soul, their tendency must be&#xD;<lb/>
+evil - And all the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">elder</add> nations&#xD;<lb/>
+who have fallen from greatness&#xD;<lb/>
+have offered before their ruin&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a</del> similar characters,- Wealth&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">without</hi>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Sciences</add>, improving manufactures, or&#xD;<lb/>
+commerce,- the few, the conquerors&#xD;<lb/>
+of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">many</hi>,- &amp; great cities, peopled&#xD;<lb/>
+only with soldiers, <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">with</add> rich men, <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">with</add> parasites&#xD;<lb/>
+&amp; slaves.-&#xD;<lb/>
+- |_The refinements of the useful&#xD;<lb/>
+or <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">or</del> ornamental Arts in modern&#xD;<lb/>
+times bear no relations to the&#xD;<lb/>
+luxuries of the A<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">n</del> Civilized Nations&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="16"
+                xml:id="pb-16"
+                facs="#i16"/>
+            <lb/>
+of Antiquity; &amp; as they are&#xD;<lb/>
+at present pursued they are amongst&#xD;<lb/>
+the first causes of the general&#xD;<lb/>
+improvement of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Society</hi> - For they not&#xD;<lb/>
+only promote individual comfort; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">but</hi> they&#xD;<lb/>
+afford <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">constant</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del> objects for employment;&#xD;<lb/>
+they preserve the love of invention, they&#xD;<lb/>
+promote emulation, &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the desire</hi> of&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">excellence</hi>, amongst <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> labourers&#xD;<lb/>
+in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the same department</hi>: &amp; they&#xD;<lb/>
+tend to unite the different classes&#xD;<lb/>
+of Society by ties of usefulness,&#xD;<lb/>
+of mutual dependence &amp; of mutual&#xD;<lb/>
+advantage.-&#xD;<lb/>
+- To the superficial observer&#xD;<lb/>
+the attempt to extend the refinements&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="17"
+                xml:id="pb-17"
+                facs="#i17"/>
+            <lb/>
+9&#xD;<lb/>
+of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">useful</del> inventions beyond that <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">state</hi>
+            <lb/>
+in which they are fitted for all&#xD;<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">common</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">usual</add> purposes of life may appear&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">wholy useless &amp; a void labours</del> wholly unnecessary;-&#xD;<lb/>
+but, it <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">should be remembered</hi> that&#xD;<lb/>
+in aiming at perfection in a&#xD;<lb/>
+manufacture, the workman is&#xD;<lb/>
+constantly improving himself; &amp; in&#xD;<lb/>
+attempting to produce articles which&#xD;<lb/>
+are to sell at a high price,&#xD;<lb/>
+He makes a number much better&#xD;<lb/>
+than they would otherwise be, which&#xD;<lb/>
+are disposed of at a moderate&#xD;<lb/>
+rate - A finely polished knife&#xD;<lb/>
+for instance which <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">costs a Guinea</hi>
+            <lb/>
+may not have a <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">finer</del> better edge than&#xD;<lb/>
+on which sells for a shilling only,&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="18"
+                xml:id="pb-18"
+                facs="#i18"/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in consequence of continued practise,</del>
+            <lb/>
+but the cutler who has produced&#xD;<lb/>
+the expensive knife from his accurate&#xD;<lb/>
+acquaintance with <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">his Art</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">founded</del>
+            <lb/>
+gained from habit &amp; laborious operation&#xD;<lb/>
+is able to make <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the common</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">knife better</hi> &amp; at a lower rate.-&#xD;<lb/>
+(A thousand cases of the same kind&#xD;<lb/>
+might be adduced.- The elegant&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">imitations</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">models</add> of the Etruscan vases produced&#xD;<lb/>
+by the inginuity of the late excellent&#xD;<lb/>
+M<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi> Wedgwood may be said to&#xD;<lb/>
+have no immediate application to&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">use</del> common uses ; but yet in consequence&#xD;<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">their</hi> invention , a spirit of imitation&#xD;<lb/>
+&amp; of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">improvement</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">imulation</add> has operated upon&#xD;<lb/>
+every branch of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">porcelain</hi> manufacture&#xD;<lb/>
+&amp; even the form &amp; composition of our&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="19"
+                xml:id="pb-19"
+                facs="#i19"/>
+            <lb/>
+10&#xD;<lb/>
+common pitchers &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">our common flower</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">pots</hi>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in consequence</add> have been improved.-&#xD;<lb/>
+- In certain departments of industry&#xD;<lb/>
+still <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">higher</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">greater</add>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">advantages</hi> result from&#xD;<lb/>
+the constant attempts to attain&#xD;<lb/>
+the highest degree of excellence.-&#xD;<lb/>
+- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Take</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Examine</add> Agriculture;- No <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">judge</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Person who</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of good eating </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">understands the luxur<del rend="strikethrough">y</del>ies of the table</add> will assert that&#xD;<lb/>
+a sheep, rendered enorrmously fat&#xD;<lb/>
+in rich pasture or on turnips,&#xD;<lb/>
+is <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">better</hi> or <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">more luxurious food</hi>
+            <lb/>
+than one that has <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">been fed</del> grazed&#xD;<lb/>
+on the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">p</del>aromatic herbage of the&#xD;<lb/>
+Welch mountains; |_but in the&#xD;<lb/>
+attempt to produce this <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">one</del>
+            <lb/>
+well fed animal which perhaps&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">has</del> gains<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ed</del> the prize at Smithfield&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="20"
+                xml:id="pb-20"
+                facs="#i20"/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">but the cutler who has produced the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">expensive knife</del>, a number of others have&#xD;<lb/>
+been improved to a less extent &amp;&#xD;<lb/>
+rendered in consequence more <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">fit</del>
+            <lb/>
+adapted to common use ; &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in consequence</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del> the high price of well fed cattle has&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <add>given a feeling of</add> a spirit of emulation has been preserved</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">amongst farmers</del> has awakened the&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">feeling of emulation</hi> amongst farmers.-&#xD;<lb/>
+In consequence of which the nature&#xD;<lb/>
+of the best breeds of cattle has&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">been studied</hi>; the manner in which&#xD;<lb/>
+they can be most efficaciously nourished&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">considered</hi> :|_&amp; from the extension of&#xD;<lb/>
+such enquiries, all the the principles&#xD;<lb/>
+of farming have been more minutely&#xD;<lb/>
+investigated &amp; the Art <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">on <unclear>xxxx</unclear>
+            </del> of cultivati<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">o</del>ng&#xD;<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">land</add> improved, &amp; adorned with new discoveries.&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="21"
+                xml:id="pb-21"
+                facs="#i21"/>
+            <lb/>
+11&#xD;<lb/>
+- The principle is general &amp; whenever&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">manufactures</hi> or any productions of&#xD;<lb/>
+Art become articles of general&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">consumption</hi> the higher &amp; more expensive&#xD;<lb/>
+refinements of them are absolutely&#xD;<lb/>
+necessary, not merely for their improvement&#xD;<lb/>
+but likewise <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to</hi> prevent their decline.&#xD;<lb/>
+|_<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">All</hi> parts of the system of commerce are&#xD;<lb/>
+intimately connected - Honorably&#xD;<lb/>
+acquired Weath in such a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">country</hi>
+            <lb/>
+as that in which we have the&#xD;<lb/>
+happiness to live , Honorably acquired&#xD;<lb/>
+wealth I say produces credit; &amp;&#xD;<lb/>
+from credit arises a capital capable&#xD;<lb/>
+of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> an extent almost indefinite.-&#xD;<lb/>
+Hence <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">arises</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">proceeds</add> the division of labour;-&#xD;<lb/>
+Hence the invention of Machinery;&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="22"
+                xml:id="pb-22"
+                facs="#i22"/>
+            <lb/>
+Hence the circulation of wealth &amp; power&#xD;<lb/>
+from one extremity of the empire&#xD;<lb/>
+to the other, &amp; communicating like&#xD;<lb/>
+the vital blood flowing through the&#xD;<lb/>
+veins to every part heath &amp; strengh;-&#xD;<lb/>
+Hence all the productions of the&#xD;<lb/>
+Globe are made subservient to&#xD;<lb/>
+the uses or the comforts of Man&#xD;<lb/>
+&amp; Nature arises subdued by Artificial&#xD;<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">means;</add> not impoverished or deformed; but&#xD;<lb/>
+enriched &amp; rendered more beautiful.&#xD;<lb/>
+- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The progress of</del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">t</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">T</add>he useful Arts&#xD;<lb/>
+in modern times have attained&#xD;<lb/>
+an infinitely higher degree of perfection&#xD;<lb/>
+than in the most splendid eras&#xD;<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Antiquity</hi>; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">In</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">And</add> the improvements&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="23"
+                xml:id="pb-23"
+                facs="#i23"/>
+            <lb/>
+12&#xD;<lb/>
+and extension of the Sciences&#xD;<lb/>
+will admit of no parallel instances;-&#xD;<lb/>
+That <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">knowledge</del> light of knowledge which&#xD;<lb/>
+was only dimly perceived by the&#xD;<lb/>
+ancients: which<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> was obscured by the&#xD;<lb/>
+clouds of error &amp; of prejudice,&#xD;<lb/>
+has appeared <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">to us</add> in all its purity&#xD;<lb/>
+&amp; brightness;- And whilst&#xD;<lb/>
+Nature &amp; the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>laws</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">order</add> established&#xD;<lb/>
+by the Author of Nature&#xD;<lb/>
+have been to a great extent&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">develloped</hi> , the Science of&#xD;<lb/>
+Man has not <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">been neglected</hi>.&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <add>The</add> - Whilst the understanding has been</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">strengthened by the discoveries made</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in - the experimental Sciences</del>;- The&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="24"
+                xml:id="pb-24"
+                facs="#i24"/>
+            <lb/>
+works which <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">affect</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">awaken</add> the imagination&#xD;<lb/>
+&amp; exalt the feelings have <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">not</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">been neglected likewise</del> preserved&#xD;<lb/>
+all their effect upon the mind ; |_By&#xD;<lb/>
+means of experiment, a new creation as&#xD;<lb/>
+it were of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">truths</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">facts</add> ha<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ve</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">s</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">been develloped</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">can been</del> appeared, <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">of facts</add> as much superior to mere&#xD;<lb/>
+speculations as <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">things</hi> can be <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to words</hi>.-&#xD;<lb/>
+Letters <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the great</hi> instruments of thought, have&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">generally diffused</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">assisted</add> Science.- And Science has given&#xD;<lb/>
+new objects &amp; new forms for adorning&#xD;<lb/>
+&amp; extending literature - All the different&#xD;<lb/>
+branches of knowledge have assisted each&#xD;<lb/>
+other; And <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">diffe</del> like different instruments&#xD;<lb/>
+of Music, the sounds of which combine&#xD;<lb/>
+in Harmony; They have all cooperated&#xD;<lb/>
+in enlightening the Mind, in extending&#xD;<lb/>
+its enjoyments, &amp; in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">exalting</hi> the state&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="25"
+                xml:id="pb-25"
+                facs="#i25"/>
+            <lb/>
+13&#xD;<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">social</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">intercourse</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">life</add> ._&#xD;<lb/>
+- Though <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">so magnificent a <del rend="strikethrough">
+                  <unclear>xxxx</unclear>
+               </del>
+            </hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Temple</del>
+            <lb/>
+structure has been raised in Science rapidly&#xD;<lb/>
+&amp; as if by a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">kind of enchantment</hi> , yet it&#xD;<lb/>
+is still unfinished &amp; new labours &amp;&#xD;<lb/>
+new efforts of ingenuity <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">are required</add> both for ornamenting&#xD;<lb/>
+&amp; extending it &amp; for preventing any&#xD;<lb/>
+of its parts from falling into decay.-&#xD;<lb/>
+- <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">for</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">And</del> knowledge is like a <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">strea</del>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">river</hi>
+            <lb/>
+which unless its springs are constantly&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">supplied</hi>; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">with</del> soon becomes exhausted &amp;&#xD;<lb/>
+ceases to flow on &amp; to fertilize.-&#xD;<lb/>
+- The <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Mind</hi> requires novelty even as&#xD;<lb/>
+a stimulus to exertion,:  And the Philosopher&#xD;<lb/>
+who has made a <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">new</del> discovery in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">natural</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Science</hi>; or <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Artist who has produced</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Author of</add>
+            <lb/>
+a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">work of Genius</hi>, in Art or in&#xD;<lb/>
+literature is a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Benefactor</hi> not only to the&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="26"
+                xml:id="pb-26"
+                facs="#i26"/>
+            <lb/>
+present generation but likewise to future&#xD;<lb/>
+ages; for the He gratifies that faculty&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of enjoyment</hi> which is pure &amp; intellectual&#xD;<lb/>
+&amp; which must be <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">more<del rend="strikethrough">
+                  <unclear>xxx</unclear>
+               </del>
+            </add>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">exalted</hi>, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in all</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxxx</unclear> countries &amp;</del> in proportion as&#xD;<lb/>
+Society becomes <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">more</hi> improved.-&#xD;<lb/>
+-&#xD;<lb/>
+begin here&#xD;<lb/>
+-|_Very few Persons  in <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">the present day</add> are disposed to&#xD;<lb/>
+reason against the advantages resulting&#xD;<lb/>
+from the higher refinements of Science&#xD;<lb/>
+&amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Philosophy</hi>.- And the only argument&#xD;<lb/>
+that can be <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">brought</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">against</del> forward&#xD;<lb/>
+is one founded upon the doctrine&#xD;<lb/>
+of common utility -. |_When a new&#xD;<lb/>
+fact <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">for instance</add> is ascertained in Chemistry or&#xD;<lb/>
+in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Electricity</hi> &amp; the superficial Observer&#xD;<lb/>
+is very <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">often apt</hi> to slight it&#xD;<lb/>
+if <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">it</hi> does not <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">immediately</hi> admit&#xD;<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">some application</hi> to the common&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">wants of life</hi>.- This however&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="27"
+                xml:id="pb-27"
+                facs="#i27"/>
+            <lb/>
+14&#xD;<lb/>
+is very unfair : for all experience proves&#xD;<lb/>
+that the greatest &amp; most <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">important inventions</hi>
+            <lb/>
+Which have arisen from Scientific principles&#xD;<lb/>
+have never been ascertained till long&#xD;<lb/>
+after the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> principles themselves were&#xD;<lb/>
+develloped; |_&amp; so <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">intimately connected</hi>
+            <lb/>
+are all the objects of human&#xD;<lb/>
+enquiry; &amp; so much dependent upon&#xD;<lb/>
+the sensible <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">properties of bodies</hi>; that&#xD;<lb/>
+it is scarely possible that any great&#xD;<lb/>
+theoretical improvement can be made&#xD;<lb/>
+without being soon accompanied with&#xD;<lb/>
+practical advantages - &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">new Science</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the discov</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">new Science</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">like the new ore of</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">a newly discovered</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a precious metal, </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">country ought not to be neglected</add> though it cannot&#xD;<lb/>
+be immediately <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">brought into</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">use</del> cultivation&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ought not to be disregarded or</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">thrown away.</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">because it does not immediately produce</add>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">corn &amp; wine &amp; oil</add>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">But independently</hi> of these <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">considerations</hi>
+            <lb/>
+all <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">truths</hi> in Nature, all inventions&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="28"
+                xml:id="pb-28"
+                facs="#i28"/>
+            <lb/>
+by which they can be develloped, are&#xD;<lb/>
+worthy of our study for their own&#xD;<lb/>
+sake rather than with any <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">view</del> idea&#xD;<lb/>
+of profit or interest - Whatever&#xD;<lb/>
+can enlarge the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">views</hi> of the mind:&#xD;<lb/>
+raise new sentiments of intellectual&#xD;<lb/>
+pleasure; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> or make us acquainted with&#xD;<lb/>
+new properties &amp; powers in the substances&#xD;<lb/>
+surrounding us is in the highest&#xD;<lb/>
+degree worthy of the pursuit of&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">a being</hi> whose noblest facult<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">y</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">i</add>es <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">is</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">are</add>
+            <lb/>
+reason &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the love</hi> of knowledge;-&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">|_And there is scarcely any other</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">weapon than ridicule proper to be</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">employed <del rend="strikethrough">
+                  <unclear>xx</unclear>
+               </del>against th<del rend="strikethrough">a</del>
+               <add>e</add>t declamer. <add>advocates of this</add>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">mean doctrine m<del rend="strikethrough">any</del>
+               <add>ost</add> of whom <del rend="strikethrough">would</del>
+               <add>regard nothing</add> as worthy</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <add>attention that they cannot eat or drink or convirt to gross profit</add>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <add>most of whom would</add>
+               <del rend="strikethrough">who can</del> consider the invention</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of a new <hi rend="underline">science</hi> as of more importance</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">than the discovery of a novel <del rend="strikethrough">
+                  <unclear>xxx</unclear>
+               </del>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <del rend="strikethrough">interesting</del> principle in Natural Philosophy</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="29"
+                xml:id="pb-29"
+                facs="#i29"/>
+            <lb/>
+15&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 type="blockStrikethrough">
+      or the construction of an <del rend="strikethrough">new</del> improved&#xD;<lb/>
+Mousetrap as more interesting than&#xD;<lb/>
+the production of a sublime <hi rend="underline">Poem</hi>.-
+    </del>
+            <lb/>
+-&#xD;<lb/>
+-. All the discoveries all the works&#xD;<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">human Genius</hi> are of great importance&#xD;<lb/>
+to the community; but that their full&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">effects</hi> may be produced; it is necessary&#xD;<lb/>
+that the public Mind <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">be prepared</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to enjoy</hi> them. <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">&amp; to estimate </hi>their&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">advantages</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough"> |_ The dew &amp; the fertilizing</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">rain may descend from heaven, but</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">unless the soil on which it falls</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">is well cultivated &amp; the seed carefully</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">sown the harvest</hi> may be expected</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in vain.</del> -&#xD;<lb/>
+- The <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">general diffusion</hi> of letters &amp;&#xD;<lb/>
+Philosophy is necessary to the progress&#xD;<lb/>
+of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">higher inventions</hi> of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the Mind</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="30"
+                xml:id="pb-30"
+                facs="#i30"/>
+            <lb/>
+for unless the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">labours</hi> of Men of ingenuity&#xD;<lb/>
+meet with public <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">support</hi> &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">approbation</hi>
+            <lb/>
+they can never be actively pursued &amp;&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">they</del> must soon <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">languish &amp; die</hi>.- All&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Minds</hi> require <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">hope</hi>, to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">animate</hi>
+            <lb/>
+them <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to exertion</hi>; &amp; the desire&#xD;<lb/>
+of glory is one the most common&#xD;<lb/>
+to great <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">&amp; elevated</hi> understandings.-&#xD;<lb/>
+|_- The increase of general knowledge must&#xD;<lb/>
+uniformly <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">must</del> produce the general&#xD;<lb/>
+patronage of letters &amp; philosophy |_&amp; this&#xD;<lb/>
+is a most excellent &amp; important&#xD;<lb/>
+end.  <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Men of genius</hi> in former&#xD;<lb/>
+times have often languished in&#xD;<lb/>
+obscurity not because their merits&#xD;<lb/>
+were neglected; but because they&#xD;<lb/>
+were not understood <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; t</del>This however&#xD;<lb/>
+can scarcely happen in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">modern</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="31"
+                xml:id="pb-31"
+                facs="#i31"/>
+            <lb/>
+16&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">times</del> the present day, in which all&#xD;<lb/>
+sources of useful information are laid&#xD;<lb/>
+open: &amp; in which <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">unparalled exertions</hi>
+            <lb/>
+have been made in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the higher all</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">the higher classes</add>
+            <lb/>
+classes of Society to diffuse improvement,&#xD;<lb/>
+&amp; to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear>
+            </del> promote all objects of enquiry&#xD;<lb/>
+which can benefit or enlighten the&#xD;<lb/>
+public.-&#xD;<lb/>
+-. There are other uses, still greater&#xD;<lb/>
+uses,- resulting from the communication&#xD;<lb/>
+of general &amp; popular Science -&#xD;<lb/>
+By means of it vulgar errors &amp;&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">popular</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">common</add> prejudices <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">are </hi>constantly <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">diminished</add> - It&#xD;<lb/>
+offers new topics for conversation&#xD;<lb/>
+&amp; new <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">interests in life</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; <unclear>consideration</unclear>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to</del> - <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline"> In solitude</hi> it affords <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">objects</del> subjects&#xD;<lb/>
+for contemplation &amp; for an active&#xD;<lb/>
+exercise of the understanding; &amp; in&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="32"
+                xml:id="pb-32"
+                facs="#i32"/>
+            <lb/>
+cities it assists the cause of religion&#xD;<lb/>
+&amp; morality by <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">preventing</hi> the increase&#xD;<lb/>
+of gross luxury <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> &amp; indulgence in&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">id</del>vicious dissipation.- than is&#xD;<lb/>
+dengned for an active Being;- And&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the mind</del>his<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Spirit</add>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">ever restless</hi>, if not employed&#xD;<lb/>
+upon worthy &amp; dignified <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">objects</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">actions</del> objects</add> will&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>fga</unclear>
+            </del>often rather engage in mean &amp;&#xD;<lb/>
+low pursuits; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">than suffer the</hi> tedious&#xD;<lb/>
+&amp; listless feelings connected with indolence;&#xD;<lb/>
+&amp; knowledge <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">therefore</del> is no less necessary&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in ordering the understan</del> in strengthening&#xD;<lb/>
+the Mind; than in preserving the&#xD;<lb/>
+purity of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">affections &amp; of the Heart</hi> -&#xD;<lb/>
+|_ Some few Arguments are <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">oft</del> now&#xD;<lb/>
+&amp; then brought forward against the&#xD;<lb/>
+efficacy of popular instruction - It is&#xD;<lb/>
+urged that superficial &amp; general knowledge&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="33"
+                xml:id="pb-33"
+                facs="#i33"/>
+            <lb/>
+17&#xD;<lb/>
+often tends to produce <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">vanity</del> pedantry&#xD;<lb/>
+&amp; that Persons who are only <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">half</del> imperfectly&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Instructed</del> learned are <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">often</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">sometimes</add> vain &amp; presumpteous.&#xD;<lb/>
+- With regard to the charge of pedantry&#xD;<lb/>
+This can only be applied <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to the</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">half taught in manners</hi>; as well as&#xD;<lb/>
+in Science; and in such a refined&#xD;<lb/>
+period as that in which <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">We live</hi>
+            <lb/>
+it is scarcely possible that such a folly&#xD;<lb/>
+can flourish; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to any extent</del> - What is&#xD;<lb/>
+sometimes called pedantry indeed&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">may depend</hi> upon the ignorance of the&#xD;<lb/>
+Many as compared with the knowledge&#xD;<lb/>
+of the few.- but the moment, the language&#xD;<lb/>
+of Science becomes the common language&#xD;<lb/>
+of refined society every feeling of&#xD;<lb/>
+this kind must cease.- And till that&#xD;<lb/>
+event takes place, the person must&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="34"
+                xml:id="pb-34"
+                facs="#i34"/>
+            <lb/>
+be very very defficient in common sense,&#xD;<lb/>
+who <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">indulges</del> endeavours <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to astonish</hi>
+            <lb/>
+by a par<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">de</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">a</add>de of Knowledge;|_&amp; who&#xD;<lb/>
+being in possession of a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">light</hi>; chuses&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">rather</hi> to employ it for dazzling the&#xD;<lb/>
+eyes of others than to use it for&#xD;<lb/>
+his own <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">guidance</hi> .-&#xD;<lb/>
+- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">That persons</hi> who are <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">only beginning</hi>
+            <lb/>
+to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">inquire into</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">attend to</add> the principles of&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Science</hi> ofter overrate their <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">acquirements</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">&amp; abilities cannot be denied</hi>: but&#xD;<lb/>
+this is a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">circumstance</hi> of very little&#xD;<lb/>
+importance &amp; seldom of much permanence -&#xD;<lb/>
+|_In every well regulated Mind <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">false <del rend="strikethrough">
+                  <unclear>lies</unclear>
+               </del>
+            </add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">presumption</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">confidence</add>
+            <lb/>
+cannot be of any long duration.- Vanity&#xD;<lb/>
+almost always carries with it <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">a certain</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">cure</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; the tears of</del> disappointment soon&#xD;<lb/>
+follows the ardent hopes of wild presumption.&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">It is generally as</del>
+            <lb/>
+&amp;<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough"> to</del> in a sound understanding the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">feeling</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">conviction </add>of&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="35"
+                xml:id="pb-35"
+                facs="#i35"/>
+            <lb/>
+18&#xD;<lb/>
+having been once mistaken, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">produces</del>
+            <lb/>
+generally produces <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a</del> discretion &amp;&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> caution which daily <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">grow</del> become:&#xD;<lb/>
+more <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">habitual</hi>; which direct the mind&#xD;<lb/>
+in its judgements &amp; which when combined&#xD;<lb/>
+with <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">passion</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">feeling </del>feeling</add> become the foundation of&#xD;<lb/>
+a just &amp; accurate taste.-&#xD;<lb/>
+- ends&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">All human knowledge is imperfect</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">our faculties are limited; but the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">objects of enquiry</del>
+            <lb/>
+- All human knowledge is <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">necessarily</add> imperfect&#xD;<lb/>
+but the farther it<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">s</del> extends the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">more</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">better</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">beneficial</del> are its effects.- No efforts&#xD;<lb/>
+made for the attainment of truth&#xD;<lb/>
+ought <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">however</del> to be slighted.- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">My</del>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Lofty</hi> &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">High ideas</hi> are often connected&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">wit</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">by</add> Man even with His weaknesses&#xD;<lb/>
+&amp; follie<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">e</del>s; how much more vividly&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="36"
+                xml:id="pb-36"
+                facs="#i36"/>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">ht</unclear> they to arise from his strength&#xD;<lb/>
+&amp; his wisdom. His powers are often&#xD;<lb/>
+wasted in attempts to obtain triffles&#xD;<lb/>
+which vanish <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">or cease to delight at</add> the moment <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">He has</del>
+            <lb/>
+the moment they are in his possession&#xD;<lb/>
+&amp; we ought always to rejoice when these&#xD;<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">powers</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">they</del> are applied to objects which&#xD;<lb/>
+are permanent &amp; connected with <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">his</del>
+            <lb/>
+true glory - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Man</add> is formed for <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">moral</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">pure</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">intellectual &amp; moral &amp; religious</del> enjoyments&#xD;<lb/>
+His duties are high ! his destination&#xD;<lb/>
+is lofty , &amp; He <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">may</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">must then be most</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">well be</del>
+            <lb/>
+accused of ignorance &amp; folly - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">w</add>hen&#xD;<lb/>
+He grovels in the dust, having&#xD;<lb/>
+wings , which can carry him to&#xD;<lb/>
+the skies.-&#xD;<lb/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in the Sciences have been <del rend="strikethrough">still</del> so</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">more numerous &amp; extensive <unclear>an</unclear> to address</del>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

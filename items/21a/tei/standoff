@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standOff>
+      <listPlace>
+         <place xml:id="place_475">
+            <placeName>Egypt</placeName>
+            <location>
+               <geo decls="#WGS84">26.847302350713047,  29.800177329364502</geo>
+            </location>
+         </place>
+         <place xml:id="place_988">
+            <placeName>Parnassus</placeName>
+            <location>
+               <geo decls="#WGS84">38.53614241057974,  22.623984028588801</geo>
+            </location>
+            <note>A mountain in Greece, sacred in mythology and a metaphor for the arts and learning.</note>
+         </place>
+         <place xml:id="place_071">
+            <placeName>London</placeName>
+            <location>
+               <geo decls="#WGS84">51.5081324796122 -0.12769117806126601</geo>
+            </location>
+            <note>The capital city of England and the United Kingdom.</note>
+         </place>
+      </listPlace>
+      <listPerson>
+         <person xml:id="person_445">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Pythagoras</surname>
+            </persName>
+            <birth when="c. 570 BCE"/>
+            <death when="c. 495 BCE"/>
+            <note>Pythagoras of Samos was an ancient Ionian Greek philosopher, polymath, and the eponymous founder of Pythagoreanism. Believed in the primacy of number.</note>
+         </person>
+         <person xml:id="person_002">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Anna</forename>
+               <surname>Beddoes</surname>
+            </persName>
+            <birth when="1773"/>
+            <death when="1824"/>
+            <note>Anna Beddoes, née Edgeworth, the wife of Thomas Beddoes who befriended Davy when he arrived in Bristol. Critics have speculated that they had an affair because Davy wrote poems to Anna and she wrote poems for him that he copied out in his notebooks.  </note>
+         </person>
+         <person xml:id="person_861">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Euclid</surname>
+            </persName>
+            <birth when="c.330 BCE"/>
+            <death when="c. 270 BCE"/>
+            <note>An ancient Greek mathematician, geometer and logician. Considered the "father of geometry", he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century.</note>
+         </person>
+         <person xml:id="person_693">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">René</forename>
+               <surname>Descartes</surname>
+            </persName>
+            <birth when="1596"/>
+            <death when="1650"/>
+            <note>French natural philosopher and mathematician, a seminal figure in the emergence of modern philosophy and science. Mathematics was central to his method of inquiry, and he connected the previously separate fields of geometry and algebra into analytic geometry.</note>
+         </person>
+         <person xml:id="person_460">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Gerolamo</forename>
+               <surname>Cardano</surname>
+            </persName>
+            <birth when="1501"/>
+            <death when="1576"/>
+            <note>Italian polymath and writer whose interests included mathematics, medicine, natural philosophy, alchemy, astrology, astronomy and philosophy.</note>
+         </person>
+      </listPerson>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_571" type="description">
+            <term id="misc_571-term">Euphrosyne</term>
+            <gloss id="misc_571-gloss" target="#misc_571-term">
+               <p>Mythological figure. Goddess of good cheer, joy, and mirth. Her name is the female version of the word euphrosynos, 'merriment'.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_810" type="description">
+            <term id="misc_810-term">Silk</term>
+            <gloss id="misc_810-gloss" target="#misc_810-term">
+               <p>A natural protein fibre formed by certain insects when they produce cocooons. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_011" type="description">
+            <term id="misc_011-term">the muses</term>
+            <gloss id="misc_011-gloss" target="#misc_011-term">
+               <p>In ancient Greek mythology, the inspirational goddesses of literature, science and the arts.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_382" type="description">
+            <term id="misc_382-term">bregmati</term>
+            <gloss id="misc_382-gloss" target="#misc_382-term">
+               <p>Parietal bone.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_383" type="description">
+            <term id="misc_383-term">os sphenoides</term>
+            <gloss id="misc_383-gloss" target="#misc_383-term">
+               <p>Sphenoid bone.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_384" type="description">
+            <term id="misc_384-term">os frontis</term>
+            <gloss id="misc_384-gloss" target="#misc_384-term">
+               <p>Forehead.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_385" type="description">
+            <term id="misc_385-term">tempora</term>
+            <gloss id="misc_385-gloss" target="#misc_385-term">
+               <p>Temples.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_386" type="description">
+            <term id="misc_386-term">maxilla superior</term>
+            <gloss id="misc_386-gloss" target="#misc_386-term">
+               <p>Upper jaw.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_387" type="description">
+            <term id="misc_387-term">maxilla inferior</term>
+            <gloss id="misc_387-gloss" target="#misc_387-term">
+               <p>Lower jaw.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listBibl>
+         <bibl xml:id="otherwork_085">
+            <author>Euclid</author>
+            <title level="j">Elements of Geometry</title>
+            <date when="c. 300 BCE">c. 300 BCE</date>
+         </bibl>
+      </listBibl>
+      <listAnnotation type="nonenglish">
+         <note xml:id="nonenglish_100" type="description">
+            <term id="nonenglish_100-term">Vide</term>
+            <gloss id="nonenglish_100-gloss" target="#nonenglish_100-term">
+               <p>See; consult; refer to (Latin)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_193" type="description">
+            <term id="nonenglish_193-term">eadem est</term>
+            <gloss id="nonenglish_193-gloss" target="#nonenglish_193-term">
+               <p>it is the same (Latin).</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_099" type="description">
+            <term id="nonenglish_099-term">scholium</term>
+            <gloss id="nonenglish_099-gloss" target="#nonenglish_099-term">
+               <p>A marginal note or explanatory comment made by a scholiast.</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_267" type="description">
+            <term id="nonenglish_267-term">vert </term>
+            <gloss id="nonenglish_267-gloss" target="#nonenglish_267-term">
+               <p>green (French)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_194" type="description">
+            <term id="nonenglish_194-term">pons asinorum</term>
+            <gloss id="nonenglish_194-gloss" target="#nonenglish_194-term">
+               <p>the Bridge of Asses (Latin).</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_195" type="description">
+            <term id="nonenglish_195-term">Hyp: est: </term>
+            <gloss id="nonenglish_195-gloss" target="#nonenglish_195-term">
+               <p>which is contradictory with the hypothesis (Latin).</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_009" type="description">
+            <term id="nonenglish_009-term">quere</term>
+            <gloss id="nonenglish_009-gloss" target="#nonenglish_009-term">
+               <p>query; to enquire (Latin)</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

@@ -1,0 +1,4529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-10404</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-10404</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/4/A/4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Lectures</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/4/A/4</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent> pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1778-12-17"
+                                   notAfter="1829-05-29"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-10404-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="4398px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00001"
+                  width="5529px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5528"
+               lry="4397"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="3410px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00002"
+                  width="5520px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5519"
+               lry="3409"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="3383px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00003"
+                  width="5520px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5519"
+               lry="3382"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="4407px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00004"
+                  width="5538px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5537"
+               lry="4406"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="4408px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00005"
+                  width="5566px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5565"
+               lry="4407"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="3464px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00006"
+                  width="5520px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5519"
+               lry="3463"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="3346px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00007"
+                  width="5520px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5519"
+               lry="3345"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="4380px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00008"
+                  width="5539px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5538"
+               lry="4379"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="4398px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00009"
+                  width="5530px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5529"
+               lry="4397"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="3464px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00010"
+                  width="5503px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5502"
+               lry="3463"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+      <surface n="11" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="3301px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00011"
+                  width="5503px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5502"
+               lry="3300"
+               rotate="0"
+               xml:id="i11z1"/>
+      </surface>
+      <surface n="12" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="4371px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00012"
+                  width="5511px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5510"
+               lry="4370"
+               rotate="0"
+               xml:id="i12z1"/>
+      </surface>
+      <surface n="13" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="4389px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00013"
+                  width="5547px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5546"
+               lry="4388"
+               rotate="0"
+               xml:id="i13z1"/>
+      </surface>
+      <surface n="14" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="3482px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00014"
+                  width="5556px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5555"
+               lry="3481"
+               rotate="0"
+               xml:id="i14z1"/>
+      </surface>
+      <surface n="15" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="3329px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00015"
+                  width="5556px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5555"
+               lry="3328"
+               rotate="0"
+               xml:id="i15z1"/>
+      </surface>
+      <surface n="16" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="4398px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00016"
+                  width="5520px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5519"
+               lry="4397"
+               rotate="0"
+               xml:id="i16z1"/>
+      </surface>
+      <surface n="17" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="4389px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00017"
+                  width="5547px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5546"
+               lry="4388"
+               rotate="0"
+               xml:id="i17z1"/>
+      </surface>
+      <surface n="18" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="3464px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00018"
+                  width="5566px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5565"
+               lry="3463"
+               rotate="0"
+               xml:id="i18z1"/>
+      </surface>
+      <surface n="19" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="3338px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00019"
+                  width="5566px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5565"
+               lry="3337"
+               rotate="0"
+               xml:id="i19z1"/>
+      </surface>
+      <surface n="20" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="4381px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00020"
+                  width="5529px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5528"
+               lry="4380"
+               rotate="0"
+               xml:id="i20z1"/>
+      </surface>
+      <surface n="21" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="4399px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00021"
+                  width="5547px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5546"
+               lry="4398"
+               rotate="0"
+               xml:id="i21z1"/>
+      </surface>
+      <surface n="22" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="3473px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00022"
+                  width="5602px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5601"
+               lry="3472"
+               rotate="0"
+               xml:id="i22z1"/>
+      </surface>
+      <surface n="23" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="3310px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00023"
+                  width="5602px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5601"
+               lry="3309"
+               rotate="0"
+               xml:id="i23z1"/>
+      </surface>
+      <surface n="24" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="4389px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00024"
+                  width="5538px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5537"
+               lry="4388"
+               rotate="0"
+               xml:id="i24z1"/>
+      </surface>
+      <surface n="25" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="4408px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00025"
+                  width="5547px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5546"
+               lry="4407"
+               rotate="0"
+               xml:id="i25z1"/>
+      </surface>
+      <surface n="26" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="3391px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00026"
+                  width="5584px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5583"
+               lry="3390"
+               rotate="0"
+               xml:id="i26z1"/>
+      </surface>
+      <surface n="27" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="3374px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00027"
+                  width="5584px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5583"
+               lry="3373"
+               rotate="0"
+               xml:id="i27z1"/>
+      </surface>
+      <surface n="28" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="4389px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00028"
+                  width="5538px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5537"
+               lry="4388"
+               rotate="0"
+               xml:id="i28z1"/>
+      </surface>
+      <surface n="29" xml:id="i29">
+         <graphic decls="#downloadImageRights #download"
+                  height="4407px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00029"
+                  width="5547px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5546"
+               lry="4406"
+               rotate="0"
+               xml:id="i29z1"/>
+      </surface>
+      <surface n="30" xml:id="i30">
+         <graphic decls="#downloadImageRights #download"
+                  height="3573px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00030"
+                  width="5566px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5565"
+               lry="3572"
+               rotate="0"
+               xml:id="i30z1"/>
+      </surface>
+      <surface n="31" xml:id="i31">
+         <graphic decls="#downloadImageRights #download"
+                  height="3365px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00031"
+                  width="5566px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5565"
+               lry="3364"
+               rotate="0"
+               xml:id="i31z1"/>
+      </surface>
+      <surface n="32" xml:id="i32">
+         <graphic decls="#downloadImageRights #download"
+                  height="4380px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00032"
+                  width="5502px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5501"
+               lry="4379"
+               rotate="0"
+               xml:id="i32z1"/>
+      </surface>
+      <surface n="33" xml:id="i33">
+         <graphic decls="#downloadImageRights #download"
+                  height="4390px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00033"
+                  width="5503px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5502"
+               lry="4389"
+               rotate="0"
+               xml:id="i33z1"/>
+      </surface>
+      <surface n="34" xml:id="i34">
+         <graphic decls="#downloadImageRights #download"
+                  height="3474px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00034"
+                  width="5530px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5529"
+               lry="3473"
+               rotate="0"
+               xml:id="i34z1"/>
+      </surface>
+      <surface n="35" xml:id="i35">
+         <graphic decls="#downloadImageRights #download"
+                  height="3464px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00035"
+                  width="5530px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5529"
+               lry="3463"
+               rotate="0"
+               xml:id="i35z1"/>
+      </surface>
+      <surface n="36" xml:id="i36">
+         <graphic decls="#downloadImageRights #download"
+                  height="4398px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00036"
+                  width="5511px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5510"
+               lry="4397"
+               rotate="0"
+               xml:id="i36z1"/>
+      </surface>
+      <surface n="37" xml:id="i37">
+         <graphic decls="#downloadImageRights #download"
+                  height="4398px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00037"
+                  width="5493px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5492"
+               lry="4397"
+               rotate="0"
+               xml:id="i37z1"/>
+      </surface>
+      <surface n="38" xml:id="i38">
+         <graphic decls="#downloadImageRights #download"
+                  height="3546px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00038"
+                  width="5539px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5538"
+               lry="3545"
+               rotate="0"
+               xml:id="i38z1"/>
+      </surface>
+      <surface n="39" xml:id="i39">
+         <graphic decls="#downloadImageRights #download"
+                  height="3346px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00039"
+                  width="5539px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5538"
+               lry="3345"
+               rotate="0"
+               xml:id="i39z1"/>
+      </surface>
+      <surface n="40" xml:id="i40">
+         <graphic decls="#downloadImageRights #download"
+                  height="4398px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00040"
+                  width="5502px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5501"
+               lry="4397"
+               rotate="0"
+               xml:id="i40z1"/>
+      </surface>
+      <surface n="41" xml:id="i41">
+         <graphic decls="#downloadImageRights #download"
+                  height="4399px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00041"
+                  width="5502px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5501"
+               lry="4398"
+               rotate="0"
+               xml:id="i41z1"/>
+      </surface>
+      <surface n="42" xml:id="i42">
+         <graphic decls="#downloadImageRights #download"
+                  height="3564px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00042"
+                  width="5529px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5528"
+               lry="3563"
+               rotate="0"
+               xml:id="i42z1"/>
+      </surface>
+      <surface n="43" xml:id="i43">
+         <graphic decls="#downloadImageRights #download"
+                  height="3355px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00043"
+                  width="5529px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5528"
+               lry="3354"
+               rotate="0"
+               xml:id="i43z1"/>
+      </surface>
+      <surface n="44" xml:id="i44">
+         <graphic decls="#downloadImageRights #download"
+                  height="4389px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00044"
+                  width="5502px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5501"
+               lry="4388"
+               rotate="0"
+               xml:id="i44z1"/>
+      </surface>
+      <surface n="45" xml:id="i45">
+         <graphic decls="#downloadImageRights #download"
+                  height="4435px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00045"
+                  width="5493px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5492"
+               lry="4434"
+               rotate="0"
+               xml:id="i45z1"/>
+      </surface>
+      <surface n="46" xml:id="i46">
+         <graphic decls="#downloadImageRights #download"
+                  height="3527px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00046"
+                  width="5539px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5538"
+               lry="3526"
+               rotate="0"
+               xml:id="i46z1"/>
+      </surface>
+      <surface n="47" xml:id="i47">
+         <graphic decls="#downloadImageRights #download"
+                  height="3401px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00047"
+                  width="5539px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5538"
+               lry="3400"
+               rotate="0"
+               xml:id="i47z1"/>
+      </surface>
+      <surface n="48" xml:id="i48">
+         <graphic decls="#downloadImageRights #download"
+                  height="4407px"
+                  rend="landscape"
+                  url="MS-DAVY-10404-000-00048"
+                  width="5494px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5493"
+               lry="4406"
+               rotate="0"
+               xml:id="i48z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listPlace>
+         <place xml:id="place_013">
+            <placeName>St Michael's Mount</placeName>
+            <location>
+               <geo decls="#WGS84">50.11747138900849,  -5.47820555674092</geo>
+            </location>
+            <note>St Michael's Mount is a tidal island in Mount's Bay, Cornwall, with a distinct conical shape.</note>
+         </place>
+         <place xml:id="place_021">
+            <placeName>Cornwall</placeName>
+            <location>
+               <geo decls="#WGS84">50.25090807161931,  -5.1326462442719603</geo>
+            </location>
+            <note>Cornwall is a county in south-west England, birthplace of Humphry Davy.</note>
+         </place>
+         <place xml:id="place_306">
+            <placeName>Alston Moor</placeName>
+            <location>
+               <geo decls="#WGS84">54.81250686261639,  -2.4399875597017302</geo>
+            </location>
+            <note>A civil parish in Cumbria, England, based around the small town of Alston.</note>
+         </place>
+         <place xml:id="place_415">
+            <placeName>Fal, Fars</placeName>
+            <location>
+               <geo decls="#WGS84">54.649889023999997 -2.1873923610000001</geo>
+            </location>
+            <note>High Force is a waterfall on the River Tees, near Middleton-in-Teesdale, Teesdale, England.</note>
+         </place>
+         <place xml:id="place_247">
+            <placeName>Alps </placeName>
+            <location>
+               <geo decls="#WGS84">46.91855850327627,  9.6255793068951494</geo>
+            </location>
+            <note>The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.</note>
+         </place>
+         <place xml:id="place_159">
+            <placeName>United Kingdom</placeName>
+            <location>
+               <geo decls="#WGS84">54.06171310994435,  -1.7434214141764799</geo>
+            </location>
+         </place>
+         <place xml:id="place_976">
+            <placeName>Saxony</placeName>
+            <location>
+               <geo decls="#WGS84">51.021200,  13.726430000000001</geo>
+            </location>
+            <note>A state in eastern Germany. </note>
+         </place>
+         <place xml:id="place_1008">
+            <placeName>Transylvania</placeName>
+            <location>
+               <geo decls="#WGS84">45.71254958409196,  25.500381737148299</geo>
+            </location>
+            <note>Transylvania is a historical and cultural region in Central Europe, encompassing central Romania.</note>
+         </place>
+         <place xml:id="place_044">
+            <placeName>Wicklow</placeName>
+            <location>
+               <geo decls="#WGS84">52.980855128495101 -6.0443808248316202</geo>
+            </location>
+            <note>County Wicklow is a county in Ireland on the east coast, south of Dublin.</note>
+         </place>
+         <place xml:id="place_461">
+            <placeName>Anglesey</placeName>
+            <location>
+               <geo decls="#WGS84">53.26510185100576,  -4.4141601030480002</geo>
+            </location>
+            <note>Anglesey is an island, and county, on the north-west coast of Wales.</note>
+         </place>
+         <place xml:id="place_085">
+            <placeName>Derbyshire</placeName>
+            <location>
+               <geo decls="#WGS84">52.921826207569474, -1.4773493148619199</geo>
+            </location>
+            <note>Derbyshire is a county in the East Midlands and includes part of the Peak District.</note>
+         </place>
+         <place xml:id="place_121">
+            <placeName>England</placeName>
+            <location>
+               <geo decls="#WGS84">52.12544136722214, -1.7566152421063299</geo>
+            </location>
+            <note>England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.</note>
+         </place>
+         <place xml:id="place_436">
+            <placeName>North Wales</placeName>
+            <location>
+               <geo decls="#WGS84">53.0237263081593, -3.4497969040285001</geo>
+            </location>
+            <note>A geographic region of Wales.</note>
+         </place>
+         <place xml:id="place_447">
+            <placeName>Dolgellau</placeName>
+            <location>
+               <geo decls="#WGS84">52.74279826181084,  -3.9071028215500001</geo>
+            </location>
+            <note>Dolgellau is a town in the county of Gwynedd, north Wales.</note>
+         </place>
+         <place xml:id="place_1009">
+            <placeName>Redruth</placeName>
+            <location>
+               <geo decls="#WGS84">50.2326459760457, -5.2258930393957499</geo>
+            </location>
+            <note>a town and civil parish in Cornwall</note>
+         </place>
+         <place xml:id="place_990">
+            <placeName>Siberia</placeName>
+            <location>
+               <geo decls="#WGS84">68.78858352797138,  94.167692361484299</geo>
+            </location>
+            <note>a vast Russian province encompassing most of Northern Asia, with terrain spanning tundra, coniferous forest and mountain ranges</note>
+         </place>
+         <place xml:id="place_878">
+            <placeName>United States</placeName>
+            <location>
+               <geo decls="#WGS84">40.14226510979611,  -103.988989801965</geo>
+            </location>
+            <note>The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean.</note>
+         </place>
+         <place xml:id="place_167">
+            <placeName>Greece</placeName>
+            <location>
+               <geo decls="#WGS84">39.47271804405826,  22.383511417155901</geo>
+            </location>
+         </place>
+         <place xml:id="place_1025">
+            <placeName>Elis</placeName>
+            <location>
+               <geo decls="#WGS84">37.680418595970956,  21.450573915162099</geo>
+            </location>
+            <note>a historic region in the western part of the Peloponnese peninsula of Greece, also known as Ilia.</note>
+         </place>
+         <place xml:id="place_1026">
+            <placeName>Olympia</placeName>
+            <location>
+               <geo decls="#WGS84">37.644830488974215,  21.625330573524899</geo>
+            </location>
+            <note>a small town in Elis on the Peloponnese peninsula in Greece, famous for the nearby archaeological site of the same name.</note>
+         </place>
+         <place xml:id="place_1027">
+            <placeName>Hungary</placeName>
+            <location>
+               <geo decls="#WGS84">46.97032814103613,  19.472080165728201</geo>
+            </location>
+            <note>a landlocked country in Central Europe. Its capital, Budapest, is bisected by the Danube River.</note>
+         </place>
+         <place xml:id="place_162">
+            <placeName>Devon</placeName>
+            <location>
+               <geo decls="#WGS84">50.7831111085829,  -3.8387768410054801</geo>
+            </location>
+            <note>A county in south-west England.</note>
+         </place>
+         <place xml:id="place_1028">
+            <placeName>Argyll</placeName>
+            <location>
+               <geo decls="#WGS84">56.23157504530592,  -5.07500384596558</geo>
+            </location>
+            <note>a historic county and registration county of western Scotland.</note>
+         </place>
+         <place xml:id="place_079">
+            <placeName>Cumberland</placeName>
+            <location>
+               <geo decls="#WGS84">54.68622247111847, -3.3331803501037101</geo>
+            </location>
+            <note>Cumberland is a historic county in the far north-west of England.</note>
+         </place>
+         <place xml:id="place_1359">
+            <placeName>Northumberland</placeName>
+            <location>
+               <geo decls="#WGS84">55.270423455473995, -2.25907119245417</geo>
+            </location>
+            <note>County in the North East of England. It borders Scotland to the north and the county of Cumbria to the west.</note>
+         </place>
+         <place xml:id="place_1029">
+            <placeName>Durham, England</placeName>
+            <location>
+               <geo decls="#WGS84">54.77486930307345,  -1.58375640877671</geo>
+            </location>
+            <note>a city in northeast England, south of Newcastle upon Tyne.</note>
+         </place>
+         <place xml:id="place_1030">
+            <placeName>Kongsberg</placeName>
+            <location>
+               <geo decls="#WGS84">59.67206482592542,  9.6464662865169792</geo>
+            </location>
+            <note>a historical mining town and municipality in Buskerud county, Norway.</note>
+         </place>
+         <place xml:id="place_188">
+            <placeName>Norway</placeName>
+            <location>
+               <geo decls="#WGS84">61.926615443610956,  9.1283196321031195</geo>
+            </location>
+         </place>
+      </listPlace>
+      <listNym type="chemical">
+         <nym xml:id="chemical_092">
+            <form>granite</form>
+            <def>
+               <p>A coarse-grained intrusive igneous rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_095">
+            <form>micaceous shist</form>
+            <def>
+               <p>A rock composed of mica and quartz.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_102">
+            <form>quartz</form>
+            <def>
+               <p>Symbol/formula: SiO2</p>
+               <p>A hard, crystalline mineral composed of silica (silicon dioxide).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_074">
+            <form>chlorite</form>
+            <def>
+               <p>Green hydrous silicates of magnesia and alumina occuring in ancient rock formations.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_290">
+            <form>schorl</form>
+            <def>
+               <p>A form of tourmaline, a crystalline silicate mineral group in which boron is compounded with elements such as aluminium, iron, magnesium, sodium, lithium, or potassium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_101">
+            <form>mica</form>
+            <def>
+               <p>A shiny silicate mineral with a layered structure, found as minute scales in granite and other rocks, or as crystals.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_038">
+            <form>tin</form>
+            <def>
+               <p>Symbol/formula: Sn</p>
+               <p>A silvery-coloured metal, tin is soft enough to be cut with little force, and a bar of tin can be bent by hand with little effort.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_090">
+            <form>limestone</form>
+            <def>
+               <p>A sedimentary rock composed mainly of calcium carbonate (CaCO3).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_105">
+            <form>basalt</form>
+            <def>
+               <p>A dark grey to black dense to fine-grained igneous rock that consists of basic plagioclase, augite, and usually magnetite. More than 90% of volcanic rock on earth is basaltic.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_009">
+            <form>lead</form>
+            <def>
+               <p>Symbol/formula: Pb</p>
+               <p>A heavy metal that is denser than most common materials. Lead is soft and malleable, and also has a relatively low melting point.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_190">
+            <form>barytes</form>
+            <def>
+               <p>Symbol/formula: BaSO4</p>
+               <p>Now known as barium sulphate (BaSO4), a white crystalline solid, occurring as the mineral barites.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_397">
+            <form>shale</form>
+            <def>
+               <p>Shale is a fine-grained, clastic sedimentary rock formed from mud that is a mix of flakes of clay minerals and tiny fragments of other minerals, especially quartz and calcite.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_070">
+            <form>copper</form>
+            <def>
+               <p>Symbol/formula: Cu</p>
+               <p>A soft, malleable, and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a pinkish-orange colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_406">
+            <form>calcite</form>
+            <def>
+               <p>Symbol/formula: CaCO3</p>
+               <p>Calcite is a carbonate mineral and the most stable polymorph of calcium carbonate. Davy refers to it as Calcareous Spar.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_032">
+            <form>pyrites</form>
+            <def>
+               <p>A generic term for sulphide minerals.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_109">
+            <form>carbonate of lime</form>
+            <def>
+               <p>Symbol/formula: CaCO3</p>
+               <p>Calcium carbonate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_324">
+            <form>tourmaline </form>
+            <def>
+               <p>Tourmaline is a boron silicate. Opaque and black in colour, tourmaline is a semi-precious stone that can be found in a variety of colours based on the presence of iron, magnesium, or lithium. Boron was first isolated by Davy in 1808.  </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_408">
+            <form>beryl</form>
+            <def>
+               <p>Symbol/formula: Be3Al2Si6O18</p>
+               <p>a mineral composed of beryllium aluminium silicate. Well-known varieties of beryl include emerald and aquamarine.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_119">
+            <form>zeolite</form>
+            <def>
+               <p>Any member of a family of hydrated aluminosilicate minerals that contain alkali and alkaline-earth metals.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_409">
+            <form>staurolite</form>
+            <def>
+               <p>Symbol/formula: Fe2+2Al9O6(SiO4)4(O,OH)2</p>
+               <p>Staurolite is a reddish brown to black, mostly opaque, nesosilicate mineral with a white streak.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_205">
+            <form>carbonate of strontium</form>
+            <def>
+               <p>Symbol/formula: SrCO3</p>
+               <p>The carbonate salt of strontium that has the appearance of a white or grey powder. It occurs in nature as the mineral strontianite.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_006">
+            <form>galena</form>
+            <def>
+               <p>Symbol/formula: PbS</p>
+               <p>A bluish, grey, or black mineral of metallic appearance, consisting of lead sulphide. It is the chief ore of lead. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_100">
+            <form>gneis</form>
+            <def>
+               <p>Gneiss is a common type of metamorphic rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_097">
+            <form>sienite</form>
+            <def>
+               <p>Syenite. A coarse-grained intrusive igneous rock with a general composition similar to that of granite, but deficient in quartz, which, if present at all, occurs in relatively small concentrations.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_125">
+            <form>porphyry</form>
+            <def>
+               <p>A hard, igneous purplish-red rock in which crystals of feldspar are embedded in a fine-grained groundmass.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_269">
+            <form>steatite</form>
+            <def>
+               <p>A type of metamorphic rock, commonly known as soapstone.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_391">
+            <form>asbestos</form>
+            <def>
+               <p>A group of naturally occurring fibrous minerals that are resistant to heat and corrosion.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_120">
+            <form>shist</form>
+            <def>
+               <p>Or schist. Any metamorphic rock that can be split into thin layers because of its thin bands of micaceous minerals, with mineral grains.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_322">
+            <form>fluorspar</form>
+            <def>
+               <p>Symbol/formula: CaF2</p>
+               <p>Fluorite (also called fluorspar) is the mineral form of calcium fluoride.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_008">
+            <form>iron</form>
+            <def>
+               <p>Symbol/formula: Fe</p>
+               <p>A strong, hard, magnetic silvery-grey metal. It is, by mass, the most common element on Earth, just ahead of oxygen, forming much of Earth's outer and inner core.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_060">
+            <form>manganese</form>
+            <def>
+               <p>Symbol/formula: Mn</p>
+               <p>A hard, brittle, silvery metal, often found in minerals in combination with iron. Manganese was first isolated in the 1770s.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_201">
+            <form>zinc</form>
+            <def>
+               <p>Symbol/formula: Zn</p>
+               <p>A a slightly brittle metal at room temperature and has a shiny-greyish appearance when oxidation is removed.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_410">
+            <form>growan</form>
+            <def>
+               <p>A Cornish name for the saprolite of granite. Saprolite is a chemically weathered rock which forms in the lower zones of soil profiles and represents deep weathering of the bedrock surface.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_033">
+            <form>quicksilver</form>
+            <def>
+               <p>Symbol/formula: Hg </p>
+               <p>Mercury. A heavy, silvery element, mercury is the only metallic element that is known to be liquid at standard temperature and pressure.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_411">
+            <form>killas</form>
+            <def>
+               <p>Killas is a Cornish mining term for metamorphic rock strata of sedimentary origin which was altered regionally by the Variscan orogeny and then locally by heat from the intruded granites in the English counties of Devon and Cornwall.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_104">
+            <form>feldspar</form>
+            <def>
+               <p>An abundant rock-forming mineral typically occurring as colourless or pale-coloured crystals and consisting of aluminosilicates of potassium, sodium, and calcium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_099">
+            <form>greywacke</form>
+            <def>
+               <p>Greywacke or graywacke is a type of sandstone.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_170">
+            <form>breccia</form>
+            <def>
+               <p>A rock composed of large angular broken fragments of minerals or rocks cemented together by a fine-grained matrix.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_402">
+            <form>colbalt</form>
+            <def>
+               <p>Symbol/formula: Co</p>
+               <p>A chemical element, a hard, lustrous, silvery metal.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_088">
+            <form>sandstone</form>
+            <def>
+               <p>A sedimentary rock consisting of sand or quartz grains cemented together, typically red, yellow, or brown in colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_223">
+            <form>columnar basalt</form>
+            <def>
+               <p>Columnar basalt, like that found at the Giant's Causeway, County Antrim, Northern Ireland, is formed by the cooling process of the basalt lava flow.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_412">
+            <form>pearlspar</form>
+            <def>
+               <p>Symbol/formula: CaMg(CO₃)₂</p>
+               <p>An alternative name for dolomite. Dolomite is an anhydrous carbonate mineral composed of calcium magnesium carbonate. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_413">
+            <form>witherite</form>
+            <def>
+               <p>Symbol/formula: BaCO3</p>
+               <p>a barium carbonate mineral in the aragonite group</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_364">
+            <form>alluvium</form>
+            <def>
+               <p>Loose clay, silt, sand, or gravel that has been deposited by running water</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_323">
+            <form>steel</form>
+            <def>
+               <p>Steel is an alloy of iron and carbon with improved strength and fracture resistance compared to other forms of iron.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_167">
+            <form>saline</form>
+            <def>
+               <p>Symbol/formula: NaCl</p>
+               <p>Sodium chloride in solution.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_255">
+            <form>antimony</form>
+            <def>
+               <p>Symbol/formula: Sb</p>
+               <p>A lustrous gray metalloid, it is found in nature mainly as the sulphide mineral stibnite. Antimony compounds have been known since ancient times and were powdered for use as medicine and cosmetics, often known by the Arabic name 'kohl'.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_194">
+            <form>pitchstone</form>
+            <def>
+               <p>A dark coloured, glassy volcanic rock formed when felsic lava or magma cools quickly.</p>
+            </def>
+         </nym>
+      </listNym>
+      <listPerson>
+         <person xml:id="person_448">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Diodorus</forename>
+               <surname>Siculus</surname>
+            </persName>
+            <birth when="fl 1st century BCE"/>
+            <note>Of Sicily was an ancient Greek historian. He is known for writing the monumental universal history Bibliotheca historica, in forty books, fifteen of which survive intact, between 60 and 30 BCE.</note>
+         </person>
+         <person xml:id="person_466">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">William</forename>
+               <surname>Pryce</surname>
+            </persName>
+            <birth when="1735"/>
+            <death when="1790"/>
+            <note>Cornish medic and mine owner who wrote Mineralogia Cornubiensis (1778).</note>
+         </person>
+         <person xml:id="person_508">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Lucretius</surname>
+            </persName>
+            <birth when="99 BCE"/>
+            <death when="c. 55 BCE"/>
+            <note>Roman poet and philosopher. His only known work is the materialist philosophical poem De rerum natura.</note>
+         </person>
+         <person xml:id="person_035">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Homer</surname>
+            </persName>
+            <note>Homer was a Greek poet who is believed to have written the epic poems, the Iliad and the Odyssey.</note>
+         </person>
+         <person xml:id="person_470">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Johann Friedrich</forename>
+               <surname>Henckel</surname>
+            </persName>
+            <birth when="1678"/>
+            <death when="1744"/>
+            <note>Prussian physician, chemist, metallurgist, and mineralogist.</note>
+         </person>
+         <person xml:id="person_387">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John Joachim</forename>
+               <surname>Becher</surname>
+            </persName>
+            <birth when="1635"/>
+            <death when="1682"/>
+            <note>German physician and alchemist. Davy gives him incorrect dates in notebook 15E. </note>
+         </person>
+         <person xml:id="person_305">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Johann Gottlob</forename>
+               <surname>Lehmann</surname>
+            </persName>
+            <birth when="1719"/>
+            <death when="1767"/>
+            <note>German mineralogist and geologist.</note>
+         </person>
+         <person xml:id="person_149">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Charles</forename>
+               <surname>Hatchett</surname>
+            </persName>
+            <birth when="1765"/>
+            <death when="1847"/>
+            <note>He made his money from coach building which he used to pursue his interests in chemistry and mineralogy in the course of which he isolated the chemical element now called niobium. He was a Manager of the Royal Institution, playing a key role especially in running its lecture programme during the 1800s. FRSL.</note>
+         </person>
+         <person xml:id="person_125">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">James</forename>
+               <surname>Hutton</surname>
+            </persName>
+            <birth when="1726"/>
+            <death when="1797"/>
+            <note>Scottish geologist, agriculturalist and chemical manufacturer. His Theory of the Earth (1795) is one of the foundations of modern geology. Davy discussed Hutton's theories in his lectures and visited some of the key geological sites that Hutton used in his work. </note>
+         </person>
+         <person xml:id="person_394">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Benjamin</forename>
+               <surname>Franklin</surname>
+            </persName>
+            <birth when="1705"/>
+            <death when="1790"/>
+            <note>Man of science born in Philadelphia. Inventor, printer, publisher, political philosopher, and a Founding Father of the United States. FRSL.</note>
+         </person>
+         <person xml:id="person_036">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Isaac</forename>
+               <surname>Newton</surname>
+            </persName>
+            <birth when="1642"/>
+            <death when="1727"/>
+            <note>Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy &amp; Newton' in one inch letters. FRSL.</note>
+         </person>
+      </listPerson>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_406" type="description">
+            <term id="misc_406-term">Statice</term>
+            <gloss id="misc_406-gloss" target="#misc_406-term">
+               <p>Limonium is a genus of about 600 flowering plant species. Members are also known as sea-lavender, statice, caspia or marsh-rosemary.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_122" type="description">
+            <term id="misc_122-term">Furze</term>
+            <gloss id="misc_122-gloss" target="#misc_122-term">
+               <p>A term for gorse.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_373" type="description">
+            <term id="misc_373-term">Hindostan</term>
+            <gloss id="misc_373-gloss" target="#misc_373-term">
+               <p>The historic Persian name for India, broadly referring to the Indian subcontinent.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_408" type="description">
+            <term id="misc_408-term">Ulysses</term>
+            <gloss id="misc_408-gloss" target="#misc_408-term">
+               <p>a legendary Greek king of Ithaca and the hero of Homer's epic poem the Odyssey.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_409" type="description">
+            <term id="misc_409-term">Polyphemus</term>
+            <gloss id="misc_409-gloss" target="#misc_409-term">
+               <p>the one-eyed giant son of Poseidon and Thoosa in Greek mythology, one of the Cyclopes described in Homer's Odyssey.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_407" type="description">
+            <term id="misc_407-term">Shield of Achilles</term>
+            <gloss id="misc_407-gloss" target="#misc_407-term">
+               <p>the shield that Achilles uses in his fight with Hector, famously described in a passage in Book 18, lines 478–608 of Homer's Iliad.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listBibl>
+         <bibl xml:id="otherwork_115">
+            <author>Charles Churchill</author>
+            <title level="j">The Prophecy of Famine. A Scots Pastoral</title>
+            <date when="1763">1763</date>
+         </bibl>
+         <bibl xml:id="otherwork_217">
+            <author>William Pryce</author>
+            <title level="j">Mineralogia Cornubiensis</title>
+            <date when="1778">1778</date>
+         </bibl>
+      </listBibl>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+1<lb/>
+L.4<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Geology.</hi>
+            <lb/>
+- The Aspects of Rocks &amp; of<lb/>
+Mountains, (we have seen) afford<lb/>
+characteristic indications of their nature,<lb/>
+And the irregularities of fracture &amp;<lb/>
+of structure presented by their exposed<lb/>
+surfaces, usually extend throughout<lb/>
+the mass; &amp; if the visible exterior,<lb/>
+affords strong inferences with regard<lb/>
+to the unknown interior constitution.-<lb/>
+- In every family, even in every<lb/>
+order, a particular disposition of the<lb/>
+parts has been demonstrated; a separation<lb/>
+into various forms, bounded by<lb/>
+distinct outlines, &amp; presenting distinct<lb/>
+apertures.-<lb/>
+- But besides the apertures, by<lb/>
+which Rocks are divided into Blocks,<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+or into Strata, there are others<lb/>
+much more considerable, Chasms<lb/>
+of great depth &amp; magnitude, &amp;<lb/>
+which often extend throughout a<lb/>
+whole district.-<lb/>
+- These chasms bear evident<lb/>
+marks of having been formed since<lb/>
+the consolidation of the mass.-<lb/>
+Their sides correspond to each other,<lb/>
+their angles of fracture are identical,<lb/>
+&amp; they exhibit the proofs of the agency<lb/>
+of a powerful cause of mechanical<lb/>
+separation.-<lb/>
+- The accurate inspection of Strata<lb/>
+fully demonstrates, that a number<lb/>
+of chasms existed in the early<lb/>
+periods of the changes of our globe,<lb/>
+which have been since filled with<lb/>
+mineral substances.- And it is<lb/>
+in this state, in which they still<lb/>
+retain the marks of their original<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+conformation.- It is in this state that<lb/>
+they are called veins.-<lb/>
+- A sketch of a vein was displayed<lb/>
+in a former Lecture, but more refined<lb/>
+elucidations may be necessary for a<lb/>
+correct notion of the subject.-<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">pipe vein</hi>
+            <lb/>
+- So that evidently in every vein<lb/>
+there is to be considered,- the matter<lb/>
+of which it is composed - its irregularity<lb/>
+of constitution - its directions &amp; ramifications.<lb/>
+- The contents of veins are wonderfully<lb/>
+diversified; &amp; almost all the substances<lb/>
+which form the objects of Mineralogical<lb/>
+Science, occur in them.- It is in<lb/>
+veins, that Nature displays the<lb/>
+most regular of her mineral productions.<lb/>
+- It is in these, no longer rude, or<lb/>
+confused in her arrangements, that<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+She exhibits her exquisite Crystallisation,<lb/>
+having evolved from a few elementary<lb/>
+Gems, an infinite variety of<lb/>
+beautiful combinations, which to<lb/>
+unravel &amp; understand, requires<lb/>
+all the skill of the Geometer.-<lb/>
+- It seldom happens that any<lb/>
+vein is filled up by a uniform<lb/>
+substance If many different species<lb/>
+of minerals occur even in the<lb/>
+same section:- &amp; when metallic<lb/>
+ores are found, they are almost<lb/>
+always embedded in some<lb/>
+peculiar stoney matter, different<lb/>
+from the mass of the Rocks.-<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>.<lb/>
+- The same fissure often extends<lb/>
+for a great number of miles. &amp;<lb/>
+often intersects various Orders<lb/>
+&amp; even Classes of Rocks: &amp; in<lb/>
+this case, in its different positions<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+2<lb/>
+it is usually filled with very different<lb/>
+substances.-<lb/>
+- There is a very striking instance<lb/>
+of the difference of the composition<lb/>
+of a vein, in its course through<lb/>
+different rocks at <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#place_013"
+                type="place">
+               <name xml:id="tag1" type="place">
+          S<hi rend="superscript">t</hi>. Michael's<lb/>mount
+        </name>
+            </rs> in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag2"
+                ref="#place_021"
+                type="place">
+               <name xml:id="tag2" type="place">
+          Cornwall
+        </name>
+            </rs>.-<lb/>
+- I shall shew a sketch of the<lb/>
+spot, &amp; though the minute fact<lb/>
+can scarcely be exhibited by means<lb/>
+of it; yet the elucidation will<lb/>
+be more distinct.-<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>.<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag3"
+                ref="#place_013"
+                type="place">
+               <name xml:id="tag3" type="place">
+          S<hi rend="superscript">t</hi>. Michael's Mount
+        </name>
+            </rs> is principally<lb/>
+composed of primary <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag4"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag4">
+          Granite
+          
+        </term>
+            </rs>, but<lb/>
+upon its East extremity, a small<lb/>
+quantity of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag5"
+                ref="#chemical_095"
+                type="chemical">
+               <term xml:id="tag5">
+          micaceous shist
+          
+        </term>
+            </rs> is<lb/>
+incumbent, &amp; above the junction<lb/>
+of the Primary Rocks, there<lb/>
+is a layer of secondary <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag6"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag6">
+          Granite
+          
+        </term>
+            </rs>.-<lb/>
+One vein cuts through them all,<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+but in the primary rocks, it is<lb/>
+filled with <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag7"
+                ref="#chemical_102"
+                type="chemical">
+               <term xml:id="tag7">
+          Quartz
+          
+        </term>
+            </rs> &amp; a little<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag8"
+                ref="#chemical_074"
+                type="chemical">
+               <term xml:id="tag8">
+          Chlorite
+          
+        </term>
+            </rs>, &amp; in the secondary<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag9"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag9">
+          Granite
+          
+        </term>
+            </rs>, it contains principally<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag10"
+                ref="#chemical_290"
+                type="chemical">
+               <term xml:id="tag10">
+          Shorl
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag11"
+                ref="#chemical_101"
+                type="chemical">
+               <term xml:id="tag11">
+          Mica
+          
+        </term>
+            </rs>, with <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag12"
+                ref="#chemical_038"
+                type="chemical">
+               <term xml:id="tag12">
+          Tin
+          
+        </term>
+            </rs> ore.<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+- Similar circumstances occur,<lb/>
+perhaps more distinctly in the<lb/>
+Rocks of parallel Stratification;<lb/>
+|_And the whole of the Strata of<lb/>
+a Country, are often cut through<lb/>
+by the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">same vein</hi>, having a few<lb/>
+different ramifications.-<lb/>
+- This represents a Section of<lb/>
+part of the Strata in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag13"
+                ref="#place_306"
+                type="place">
+               <name xml:id="tag13" type="place">
+          Alston moor
+        </name>
+            </rs>,<lb/>
+which have been already noticed<lb/>
+for their number &amp; variety.-<lb/>
+- The same vein with its<lb/>
+ramifications cuts through them all;<lb/>
+but it differs very much in its<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+nature in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">different parts</hi>.- In the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag14"
+                ref="#chemical_090"
+                type="chemical">
+               <term xml:id="tag14">
+          Limestone
+          
+        </term>
+            </rs>, &amp; stratified <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag15"
+                ref="#chemical_105"
+                type="chemical">
+               <term xml:id="tag15">
+          Basalt
+          
+        </term>
+            </rs>, it often<lb/>
+contains <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag16"
+                ref="#chemical_009"
+                type="chemical">
+               <term xml:id="tag16">
+          lead
+          
+        </term>
+            </rs>, with <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag17"
+                ref="#chemical_102"
+                type="chemical">
+               <term xml:id="tag17">
+          Quartz
+          
+        </term>
+            </rs>, &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag18"
+                ref="#chemical_190"
+                type="chemical">
+               <term xml:id="tag18">
+          heavy spar
+          
+        </term>
+            </rs>.-<lb/>
+- In the hard <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag19"
+                ref="#chemical_397"
+                type="chemical">
+               <term xml:id="tag19">
+          shale
+          
+        </term>
+            </rs>, it sometimes<lb/>
+contains a little <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag20"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag20">
+          copper
+          
+        </term>
+            </rs> with <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag21"
+                ref="#chemical_406"
+                type="chemical">
+               <term xml:id="tag21">
+          calcareous<lb/>spar
+          
+        </term>
+            </rs>. And in the Coal of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">soft</hi> shell<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">strata</hi>, it is principally filled<lb/>
+with <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag22"
+                ref="#chemical_406"
+                type="chemical">
+               <term xml:id="tag22">
+          Calcareous Spar
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag23"
+                ref="#chemical_032"
+                type="chemical">
+               <term xml:id="tag23">
+          pyrites
+          
+        </term>
+            </rs>.-<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+- At the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag24"
+                ref="#place_415"
+                type="place">
+               <name xml:id="tag24" type="place">
+          fall of the Tees in<lb/>Yorkshire
+        </name>
+            </rs>, there is a considerable<lb/>
+vein which passes through all the<lb/>
+Strata.- It principally consists<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag25"
+                ref="#chemical_109"
+                type="chemical">
+               <term xml:id="tag25">
+          carbonate of Lime
+          
+        </term>
+            </rs>, or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag26"
+                ref="#chemical_406"
+                type="chemical">
+               <term xml:id="tag26">
+          Calcareous Spar
+          
+        </term>
+            </rs>.<lb/>
+- but it produces a little <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag27"
+                ref="#chemical_009"
+                type="chemical">
+               <term xml:id="tag27">
+          lead
+          
+        </term>
+            </rs>.<lb/>
+&amp; blende in the Stratified <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag28"
+                ref="#chemical_105"
+                type="chemical">
+               <term xml:id="tag28">
+          Basalt
+          
+        </term>
+            </rs>;<lb/>
+- In the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag29"
+                ref="#chemical_397"
+                type="chemical">
+               <term xml:id="tag29">
+          shale
+          
+        </term>
+            </rs> it contains some<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag30"
+                ref="#chemical_102"
+                type="chemical">
+               <term xml:id="tag30">
+          Quartz
+          
+        </term>
+            </rs>, &amp; in the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag31"
+                ref="#chemical_090"
+                type="chemical">
+               <term xml:id="tag31">
+          Limestone
+          
+        </term>
+            </rs>, some <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag32"
+                ref="#chemical_032"
+                type="chemical">
+               <term xml:id="tag32">
+          pyrites
+          
+        </term>
+            </rs>
+            <lb/>
+Instance<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">not columnar.</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+- It often happens that where the<lb/>
+same vein passes through different<lb/>
+Strata, there is a shift or dip,<lb/>
+so that the same Strata on<lb/>
+one side of the vein, are lower<lb/>
+than those on the other side.-<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+which would seem to indicate<lb/>
+that the original fissure had<lb/>
+been produced, either by the<lb/>
+elevation of one part of the rocks<lb/>
+by a force acting from below,<lb/>
+or by the depression or sinking<lb/>
+down of the other part.-<lb/>
+- The Primary Rocks contain<lb/>
+very large veins, but few<lb/>
+of them are abundant in<lb/>
+Metallic Substances.-<lb/>
+- The fissures in the great<lb/>
+Primary Chains of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag33"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag33">
+          Granite
+          
+        </term>
+            </rs>,<lb/>
+are principally filled by<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="9"
+                xml:id="pb-9"
+                facs="#i9"/>
+            <lb/>
+3.<lb/>
+Secondary rocks; but they sometimes contain<lb/>
+peculiar crystallized materials, such<lb/>
+as the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag34"
+                ref="#chemical_324"
+                type="chemical">
+               <term xml:id="tag34">
+          Tourmaline
+          
+        </term>
+            </rs>, the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag35"
+                ref="#chemical_408"
+                type="chemical">
+               <term xml:id="tag35">
+          beryl
+          
+        </term>
+            </rs>, &amp;<lb/>
+other gems.-<lb/>
+Mines are very rarely worked<lb/>
+in primary <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag36"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag36">
+          Granite
+          
+        </term>
+            </rs>.- In the<lb/>
+great Granitée Chain of the Swiss<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag37"
+                ref="#place_247"
+                type="place">
+               <name xml:id="tag37" type="place">
+          Alps
+        </name>
+            </rs>, there is no mining district.-<lb/>
+In <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag38"
+                ref="#place_021"
+                type="place">
+               <name xml:id="tag38" type="place">
+          Cornwall
+        </name>
+            </rs>, in general so abundant<lb/>
+in the Metals, - in the truly<lb/>
+primary material of the Country,<lb/>
+they very seldom occur. |_And<lb/>
+there is I believe, only one<lb/>
+anomalous instance in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag39"
+                ref="#place_159"
+                type="place">
+               <name xml:id="tag39" type="place">
+          Britain
+        </name>
+            </rs>
+            <lb/>
+&amp; that occurs at Strontian, in<lb/>
+the Western Highlands.-<lb/>
+- In a Mountain of hard <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag40"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag40">
+          Granite
+          
+        </term>
+            </rs>,<lb/>
+at least 2000 feet above the level<lb/>
+of the Sea, an immense fissure<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="10"
+                xml:id="pb-10"
+                facs="#i10"/>
+            <lb/>
+occurs, which contains a wonderful<lb/>
+variety of crystallized substances,<lb/>
+&amp; which is advantageously worked<lb/>
+for <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag41"
+                ref="#chemical_009"
+                type="chemical">
+               <term xml:id="tag41">
+          lead
+          
+        </term>
+            </rs> ore.-<lb/>
+- Next to the primary <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag42"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag42">
+          Granite
+          
+        </term>
+            </rs>
+            <lb/>
+in the vein, is a layer of<lb/>
+secondary <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag43"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag43">
+          Granite
+          
+        </term>
+            </rs>, which is called<lb/>
+on the spot, <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">red rider</hi> - adhering<lb/>
+to this, is <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag44"
+                ref="#chemical_406"
+                type="chemical">
+               <term xml:id="tag44">
+          Calcareous Spar
+          
+        </term>
+            </rs> -<lb/>
+Upon the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag45"
+                ref="#chemical_406"
+                type="chemical">
+               <term xml:id="tag45">
+          Calcareous Spar
+          
+        </term>
+            </rs>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag46"
+                ref="#chemical_119"
+                type="chemical">
+               <term xml:id="tag46">
+          Zeolite
+          
+        </term>
+            </rs>,<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag47"
+                ref="#chemical_409"
+                type="chemical">
+               <term xml:id="tag47">
+          Staurolite
+          
+        </term>
+            </rs>, &amp; the peculiar fossil<lb/>
+called <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag48"
+                ref="#chemical_205"
+                type="chemical">
+               <term xml:id="tag48">
+          Strontianite
+          
+        </term>
+            </rs>, which as yet<lb/>
+has been found in this form, in<lb/>
+no other place.- of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag49"
+                ref="#chemical_009"
+                type="chemical">
+               <term xml:id="tag49">
+          lead
+          
+        </term>
+            </rs>
+            <lb/>
+ore or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag50"
+                ref="#chemical_006"
+                type="chemical">
+               <term xml:id="tag50">
+          galena
+          
+        </term>
+            </rs> forms the interior<lb/>
+part, &amp; is most abundant<lb/>
+in those spots, where the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag51"
+                ref="#chemical_205"
+                type="chemical">
+               <term xml:id="tag51">
+          Strontianite
+          
+        </term>
+            </rs>
+            <lb/>
+is found in the greatest quantity<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance.</hi>
+            <lb/>
+- Inc Primitive <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag52"
+                ref="#chemical_100"
+                type="chemical">
+               <term xml:id="tag52">
+          Gneis
+          
+        </term>
+            </rs> - in<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag53"
+                ref="#chemical_095"
+                type="chemical">
+               <term xml:id="tag53">
+          micaceous shist
+          
+        </term>
+            </rs> &amp; in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag54"
+                ref="#chemical_097"
+                type="chemical">
+               <term xml:id="tag54">
+          Sienite
+          
+        </term>
+            </rs>,<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="11"
+                xml:id="pb-11"
+                facs="#i11"/>
+            <lb/>
+metallic veins are likewise very<lb/>
+rarely found. but they sometimes<lb/>
+occur in primitive <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag55"
+                ref="#chemical_125"
+                type="chemical">
+               <term xml:id="tag55">
+          Porphyries
+          
+        </term>
+            </rs> &amp;<lb/>
+in Marbles.-<lb/>
+- Serpentine, is intersected<lb/>
+by a great number of fissures,<lb/>
+but they usually contain soft<lb/>
+substances, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag56"
+                ref="#chemical_269"
+                type="chemical">
+               <term xml:id="tag56">
+          Steatite
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag57"
+                ref="#chemical_391"
+                type="chemical">
+               <term xml:id="tag57">
+          asbestus
+          
+        </term>
+            </rs>,<lb/>
+&amp; sometimes <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag58"
+                ref="#chemical_406"
+                type="chemical">
+               <term xml:id="tag58">
+          Calcareous Spar
+          
+        </term>
+            </rs>.-<lb/>
+Native <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag59"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag59">
+          copper
+          
+        </term>
+            </rs> has sometimes occurred<lb/>
+in a Crystallized state in them.-<lb/>
+- But the Secondary Countries<lb/>
+are the great mining districts,<lb/>
+&amp; a variety of metalliferous veins<lb/>
+occur in most of the different<lb/>
+families, which were the subjects<lb/>
+of the last lecture.-<lb/>
+- In the beds of the Secondary<lb/>
+Granites, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag60"
+                ref="#chemical_125"
+                type="chemical">
+               <term xml:id="tag60">
+          Porphyries
+          
+        </term>
+            </rs>, &amp; Micaceous<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag61"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag61">
+          Shists
+          
+        </term>
+            </rs> - Extensive veins are found,<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="12"
+                xml:id="pb-12"
+                facs="#i12"/>
+            <lb/>
+which usually contain <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag62"
+                ref="#chemical_102"
+                type="chemical">
+               <term xml:id="tag62">
+          Quartz
+          
+        </term>
+            </rs>
+            <lb/>
+&amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag64" ref="#chemical_074" type="chemical">
+                  <term xml:id="tag64">
+                     <choice>
+                        <sic>
+                           <rs xml:id="ttag64" ref="##{tagvalue[1]!}" type="chemical">
+                              <term xml:id="tag64" xml:lang="{tagvalue[8]!}">
+                                 <choice>
+                                    <sic>chemical_074</sic>
+                                    <corr>chemical_074</corr>
+                                 </choice>
+                              </term>
+                              <gloss target="#tag64">chemical_074</gloss>
+                           </rs>
+                        </sic>
+                        <corr>Chlorite[/chemical]</corr>
+                     </choice>
+                  </term>
+               </rs>
+            </del>, but sometimes <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag65"
+                ref="#chemical_190"
+                type="chemical">
+               <term xml:id="tag65">
+          heavy spar
+          
+        </term>
+            </rs>,<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag66"
+                ref="#chemical_322"
+                type="chemical">
+               <term xml:id="tag66">
+          Fluor spar
+          
+        </term>
+            </rs>, &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag67"
+                ref="#chemical_406"
+                type="chemical">
+               <term xml:id="tag67">
+          calcareous spars
+          
+        </term>
+            </rs>;<lb/>
+&amp; the ores of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag68"
+                ref="#chemical_038"
+                type="chemical">
+               <term xml:id="tag68">
+          Tin
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag69"
+                ref="#chemical_008"
+                type="chemical">
+               <term xml:id="tag69">
+          Iron
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag70"
+                ref="#chemical_060"
+                type="chemical">
+               <term xml:id="tag70">
+          Manganese
+          
+        </term>
+            </rs>,<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag71"
+                ref="#chemical_201"
+                type="chemical">
+               <term xml:id="tag71">
+          Zinc
+          
+        </term>
+            </rs>, &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag72"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag72">
+          copper
+          
+        </term>
+            </rs>, are found in<lb/>
+them. - The Metalliferous<lb/>
+Rock of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag73"
+                ref="#place_021"
+                type="place">
+               <name xml:id="tag73" type="place">
+          Cornwall
+        </name>
+            </rs> called by<lb/>
+the Miners, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag74"
+                ref="#chemical_410"
+                type="chemical">
+               <term xml:id="tag74">
+          Growan
+          
+        </term>
+            </rs>, &amp; which<lb/>
+is one of the most common<lb/>
+beds of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag75"
+                ref="#chemical_038"
+                type="chemical">
+               <term xml:id="tag75">
+          Tin
+          
+        </term>
+            </rs> ore, is a secondary<lb/>
+decomposing <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag76"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag76">
+          Granite
+          
+        </term>
+            </rs> - And the<lb/>
+Metalliferous <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag77"
+                ref="#chemical_125"
+                type="chemical">
+               <term xml:id="tag77">
+          Porphyries
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag78"
+                ref="#chemical_100"
+                type="chemical">
+               <term xml:id="tag78">
+          Gneis
+          
+        </term>
+            </rs>
+            <lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag79"
+                ref="#place_976"
+                type="place">
+               <name xml:id="tag79" type="place">
+          Saxony
+        </name>
+            </rs>, &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag80"
+                ref="#place_1008"
+                type="place">
+               <name xml:id="tag80" type="place">
+          Transylvania
+        </name>
+            </rs>,<lb/>
+belong to the same family.-<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi> vein <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of <rs xml:id="ttag81" ref="#chemical_102" type="chemical">
+                  <term xml:id="tag81">
+          Quartz
+          
+        </term>
+               </rs>
+            </hi>.<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Mine in <rs xml:id="ttag82" ref="#place_044" type="place">
+                  <name xml:id="tag82" type="place">
+          Wicklow
+        </name>
+               </rs>
+            </hi>.<lb/>
+- The Argillaceous &amp; Siliceous<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag83"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag83">
+          Shists
+          
+        </term>
+            </rs> of the second family are<lb/>
+productive of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag84"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag84">
+          copper
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag85"
+                ref="#chemical_038"
+                type="chemical">
+               <term xml:id="tag85">
+          Tin
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag86"
+                ref="#chemical_008"
+                type="chemical">
+               <term xml:id="tag86">
+          Iron
+          
+        </term>
+            </rs>,<lb/>
+Gold, Silver, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag87"
+                ref="#chemical_033"
+                type="chemical">
+               <term xml:id="tag87">
+          quicksilver
+          
+        </term>
+            </rs>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag88"
+                ref="#chemical_060"
+                type="chemical">
+               <term xml:id="tag88">
+          Manganese
+          
+        </term>
+            </rs>. &amp;c.-<lb/>
+- The principal <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag89"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag89">
+          copper
+          
+        </term>
+            </rs> mines<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="13"
+                xml:id="pb-13"
+                facs="#i13"/>
+            <lb/>
+4<lb/>
+in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag90"
+                ref="#place_021"
+                type="place">
+               <name xml:id="tag90" type="place">
+          Cornwall
+        </name>
+            </rs> are in Argillaceous <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag91"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag91">
+          Shist
+          
+        </term>
+            </rs>
+            <lb/>
+called by the Miners <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag92"
+                ref="#chemical_411"
+                type="chemical">
+               <term xml:id="tag92">
+                  <hi rend="underline">Killas</hi>
+               </term>
+            </rs>
+            <lb/>
+- The great Mine in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag93"
+                ref="#place_461"
+                type="place">
+               <name xml:id="tag93" type="place">
+          Anglesea
+        </name>
+            </rs>
+            <lb/>
+is in the Siliceous <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag94"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag94">
+          Shist
+          
+        </term>
+            </rs>, principally<lb/>
+composed of compact <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag95"
+                ref="#chemical_104"
+                type="chemical">
+               <term xml:id="tag95">
+          feldspar
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag97"
+                ref="#chemical_074"
+                type="chemical">
+               <term xml:id="tag97">
+                  <choice>
+                     <sic>
+                        <rs xml:id="ttag97" ref="##{tagvalue[1]!}" type="chemical">
+                           <term xml:id="tag97" xml:lang="{tagvalue[8]!}">
+                              <choice>
+                                 <sic>chemical_074</sic>
+                                 <corr>chemical_074</corr>
+                              </choice>
+                           </term>
+                           <gloss target="#tag97">chemical_074</gloss>
+                        </rs>
+                     </sic>
+                     <corr>Chlorite[/chemical]</corr>
+                  </choice>
+               </term>
+            </rs>
+            <lb/>
+- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">No</del> The veins in the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag98"
+                ref="#chemical_099"
+                type="chemical">
+               <term xml:id="tag98">
+          grauwackes
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag99"
+                ref="#chemical_170"
+                type="chemical">
+               <term xml:id="tag99">
+          breccias
+          
+        </term>
+            </rs>
+            <lb/>
+of this family are metalliferous,-<lb/>
+the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag100"
+                ref="#chemical_090"
+                type="chemical">
+               <term xml:id="tag100">
+          Limestone
+          
+        </term>
+            </rs> often contains <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag101"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag101">
+          copper
+          
+        </term>
+            </rs>
+            <lb/>
+&amp; sometimes <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag102"
+                ref="#chemical_009"
+                type="chemical">
+               <term xml:id="tag102">
+          lead
+          
+        </term>
+            </rs>.-<lb/>
+- Amongst the secondary Rocks<lb/>
+of the third family, the stratified<lb/>
+Rocks; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag103"
+                ref="#chemical_090"
+                type="chemical">
+               <term xml:id="tag103">
+          Limestone
+          
+        </term>
+            </rs> is above all<lb/>
+others, productive of the Metals.-<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag104"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag104">
+          copper
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag105"
+                ref="#chemical_201"
+                type="chemical">
+               <term xml:id="tag105">
+          Zinc
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag106"
+                ref="#chemical_009"
+                type="chemical">
+               <term xml:id="tag106">
+          Lead
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag107"
+                ref="#chemical_008"
+                type="chemical">
+               <term xml:id="tag107">
+          Iron
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag108"
+                ref="#chemical_060"
+                type="chemical">
+               <term xml:id="tag108">
+          Manganese
+          
+        </term>
+            </rs>
+            <lb/>
+&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag109"
+                ref="#chemical_402"
+                type="chemical">
+               <term xml:id="tag109">
+          cobalt
+          
+        </term>
+            </rs> are found in it.-<lb/>
+- In <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag110"
+                ref="#place_085"
+                type="place">
+               <name xml:id="tag110" type="place">
+          Derbyshire
+        </name>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag111"
+                ref="#chemical_090"
+                type="chemical">
+               <term xml:id="tag111">
+          Limestone
+          
+        </term>
+            </rs> is<lb/>
+the only metalliferous rock.-<lb/>
+But in the North of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag112"
+                ref="#place_121"
+                type="place">
+               <name xml:id="tag112" type="place">
+          England
+        </name>
+            </rs>, the<lb/>
+stratified <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag113"
+                ref="#chemical_105"
+                type="chemical">
+               <term xml:id="tag113">
+          Basalt
+          
+        </term>
+            </rs> (as we have<lb/>
+seen likewise) contains <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag114"
+                ref="#chemical_009"
+                type="chemical">
+               <term xml:id="tag114">
+          Lead
+          
+        </term>
+            </rs>.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="14"
+                xml:id="pb-14"
+                facs="#i14"/>
+            <lb/>
+- The Crystallized substances which<lb/>
+usually form the sides of the vein, in<lb/>
+the different secondary Rocks, are<lb/>
+principally <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag115"
+                ref="#chemical_322"
+                type="chemical">
+               <term xml:id="tag115">
+          Fluor spar
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag116"
+                ref="#chemical_190"
+                type="chemical">
+               <term xml:id="tag116">
+          heavy spar
+          
+        </term>
+            </rs>
+            <lb/>
+&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag117"
+                ref="#chemical_102"
+                type="chemical">
+               <term xml:id="tag117">
+          Quartz
+          
+        </term>
+            </rs>.-<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag118"
+                ref="#chemical_088"
+                type="chemical">
+               <term xml:id="tag118">
+                  <hi rend="underline">sandstone</hi>
+               </term>
+            </rs> seldom contains any vein<lb/>
+of useful ore;- they are never found<lb/>
+in loose <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag119"
+                ref="#chemical_397"
+                type="chemical">
+               <term xml:id="tag119">
+          shale
+          
+        </term>
+            </rs>, nor in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag120"
+                ref="#chemical_223"
+                type="chemical">
+               <term xml:id="tag120">
+          columnar basalt
+          
+        </term>
+            </rs>.-<lb/>
+- The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag121"
+                ref="#chemical_223"
+                type="chemical">
+               <term xml:id="tag121">
+          columnar basalt
+          
+        </term>
+            </rs> is seldom<lb/>
+intersected by many fissures; &amp; when<lb/>
+they occur, they are either <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag122"
+                ref="#chemical_406"
+                type="chemical">
+               <term xml:id="tag122">
+          calcareous<lb/>spar
+          
+        </term>
+            </rs> or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag123"
+                ref="#chemical_119"
+                type="chemical">
+               <term xml:id="tag123">
+          Zeolite
+          
+        </term>
+            </rs>.- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag124"
+                ref="#chemical_119"
+                type="chemical">
+               <term xml:id="tag124">
+          Zeolite
+          
+        </term>
+            </rs> indeed<lb/>
+often occurs in it, in large Cavities.-<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance </hi>.<lb/>
+- There are certain general rules<lb/>
+with regard to the indications of<lb/>
+Metals, which will apply equally,<lb/>
+to the productions in the primary<lb/>
+&amp; the Secondary Rocks.-<lb/>
+- Whenever a vein of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag125"
+                ref="#chemical_102"
+                type="chemical">
+               <term xml:id="tag125">
+          Quartz
+          
+        </term>
+            </rs>,<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="15"
+                xml:id="pb-15"
+                facs="#i15"/>
+            <lb/>
+Spar, or any other white substance<lb/>
+near the surface, contains in its<lb/>
+cavities much <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">brown powder</hi> or dust,<lb/>
+there is always a great probability,<lb/>
+that <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a metallic</del> ore will be found<lb/>
+at no great <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">distance</hi>.-<lb/>
+- This brown powder is <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag126"
+                ref="#chemical_008"
+                type="chemical">
+               <term xml:id="tag126">
+          Iron
+          
+        </term>
+            </rs> in a<lb/>
+particular state, which almost<lb/>
+always accompanies <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag127"
+                ref="#chemical_009"
+                type="chemical">
+               <term xml:id="tag127">
+          lead
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag128"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag128">
+          copper
+          
+        </term>
+            </rs>.-<lb/>
+- A green colour in a vein of<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag129" ref="#chemical_102" type="chemical">
+                  <term xml:id="tag129">
+          Quartz
+          
+        </term>
+               </rs>
+            </hi> or <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">spar</hi>, likewise, generally<lb/>
+indicates that metallic ore is at<lb/>
+no great distance; &amp; it is usually<lb/>
+connected with <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag130"
+                ref="#chemical_032"
+                type="chemical">
+               <term xml:id="tag130">
+          pyrites
+          
+        </term>
+            </rs> or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag131"
+                ref="#chemical_038"
+                type="chemical">
+               <term xml:id="tag131">
+          Tin
+          
+        </term>
+            </rs>.-<lb/>
+- A dull green substance of this<lb/>
+kind, in the Cornish &amp; Saxon Mines<lb/>
+is often found in the same vein<lb/>
+with <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag132"
+                ref="#chemical_038"
+                type="chemical">
+               <term xml:id="tag132">
+          Tin
+          
+        </term>
+            </rs>, it is a variety of<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag133"
+                ref="#chemical_074"
+                type="chemical">
+               <term xml:id="tag133">
+          Chlorite
+          
+        </term>
+            </rs>.- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>.-<lb/>
+- But when a bright green<lb/>
+powder, or crystallized substance<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="16"
+                xml:id="pb-16"
+                facs="#i16"/>
+            <lb/>
+is found it indicates <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag134"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag134">
+                  <hi rend="underline">copper</hi>
+               </term>
+            </rs> |_ And<lb/>
+the tint itself, is almost always<lb/>
+owing to the presence of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag135"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag135">
+          copper
+          
+        </term>
+            </rs>.-<lb/>
+- There are two kinds of Spar<lb/>
+which scarcely ever occur in the<lb/>
+veins of Secondary Country, without<lb/>
+being connected with metallic ore,<lb/>
+they are the rhomboidal spar, called<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag136"
+                ref="#chemical_412"
+                type="chemical">
+               <term xml:id="tag136">
+          Pearlspar
+          
+        </term>
+            </rs>, &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag137"
+                ref="#chemical_413"
+                type="chemical">
+               <term xml:id="tag137">
+          Witherite
+          
+        </term>
+            </rs> or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag138"
+                ref="#chemical_413"
+                type="chemical">
+               <term xml:id="tag138">
+          carbonate<lb/>of barytes
+          
+        </term>
+            </rs>.-<lb/>
+- These are indications of Metals,<lb/>
+when veins are distinct, &amp; laid<lb/>
+bare in any of their parts.- but<lb/>
+there are other indications, which<lb/>
+require more <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">extensive geological</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">observations</hi>, though in general,<lb/>
+they have been considered only<lb/>
+after <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">partial views</hi>. &amp; applied<lb/>
+only, by the habitual &amp;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">practical tact</hi> of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the Miner</hi>.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="17"
+                xml:id="pb-17"
+                facs="#i17"/>
+            <lb/>
+5<lb/>
+- Metallic veins are often discovered<lb/>
+by the loose materials which have<lb/>
+been detached from them by decomposition<lb/>
+from the action of water &amp; air in the<lb/>
+lapse of time,- &amp; the method of<lb/>
+searching for metals by examining<lb/>
+the detached stones, in the soil of<lb/>
+a valley, or in a chasm on the<lb/>
+side of a hill, is called in<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag139"
+                ref="#place_021"
+                type="place">
+               <name xml:id="tag139" type="place">
+          Cornwall
+        </name>
+            </rs> where it is most practised<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Shodeing </hi>.-<lb/>
+- In this district the only<lb/>
+Metal known in early times was<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag140"
+                ref="#chemical_038"
+                type="chemical">
+               <term xml:id="tag140">
+          Tin
+          
+        </term>
+            </rs>, &amp; till after the establishment<lb/>
+of the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Norman <add>
+                  <unclear>
+                     <del rend="strikethrough">Neacdxxxxx</del>
+                  </unclear>
+               </add>
+            </add> dynasty, even <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag141" ref="#chemical_038" type="chemical">
+                  <term xml:id="tag141">
+          Tin
+          
+        </term>
+               </rs> ore</hi>
+            <lb/>
+was unknown as a production of<lb/>
+veins; &amp; it was raised from the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag142"
+                ref="#chemical_364"
+                type="chemical">
+               <term xml:id="tag142">
+          alluvial
+          
+        </term>
+            </rs> depositions in vallies, &amp;<lb/>
+separated in consequence of its<lb/>
+specific weight from the Earthy<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="18"
+                xml:id="pb-18"
+                facs="#i18"/>
+            <lb/>
+matters in mixtures - And it<lb/>
+is this method which is described<lb/>
+by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag143"
+                ref="#person_448"
+                type="person">
+               <name xml:id="tag143" type="person">
+          Diodorus Siculus
+        </name>
+            </rs> "These Men"<lb/>
+says he, alluding to the Cornish<lb/>
+Britons, manufacture their <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag144"
+                ref="#chemical_038"
+                type="chemical">
+               <term xml:id="tag144">
+          Tin
+          
+        </term>
+            </rs>
+            <lb/>
+by working the grounds that produce<lb/>
+it with great Art.- For though the<lb/>
+Land is rocky, yet it has soft<lb/>
+layers in it, in which the treasure<lb/>
+is found.- whence the miners separate<lb/>
+it, melt it &amp; purify it."-<lb/>
+- But in proportion as <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag145"
+                ref="#chemical_038"
+                type="chemical">
+               <term xml:id="tag145">
+          Tin
+          
+        </term>
+            </rs>
+            <lb/>
+ore became more rare in the<lb/>
+beds of rivers, &amp; in the lowlands,<lb/>
+the search for it as extended<lb/>
+into the soil that covers the<lb/>
+hills, &amp; the original veins<lb/>
+were in consequence discovered,<lb/>
+&amp; the manner of tracing them<lb/>
+by their detached productions<lb/>
+has been ever since in common<lb/>
+use.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="19"
+                xml:id="pb-19"
+                facs="#i19"/>
+            <lb/>
+- Indications of Metallic Ores<lb/>
+are often furnished by the impregnations<lb/>
+in water issuing from the Springs in<lb/>
+metalliferous strata.- Impregnations<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag146"
+                ref="#chemical_008"
+                type="chemical">
+               <term xml:id="tag146">
+          iron
+          
+        </term>
+            </rs>, &amp; of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag147"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag147">
+          copper
+          
+        </term>
+            </rs> are the most<lb/>
+common, &amp; the cupreous impregnation<lb/>
+may always be distinguished by<lb/>
+exposing <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag148"
+                ref="#chemical_008"
+                type="chemical">
+               <term xml:id="tag148">
+          iron
+          
+        </term>
+            </rs> or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag149"
+                ref="#chemical_323"
+                type="chemical">
+               <term xml:id="tag149">
+          Steel
+          
+        </term>
+            </rs> to the fluid.<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+- A remarkable instance of the<lb/>
+discovery of Metallic veins from<lb/>
+these circumstances, lately occurred<lb/>
+in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag150"
+                ref="#place_436"
+                type="place">
+               <name xml:id="tag150" type="place">
+          North Wales
+        </name>
+            </rs>.- At the foot<lb/>
+of a hill near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag151"
+                ref="#place_447"
+                type="place">
+               <name xml:id="tag151" type="place">
+          Dolgethly
+        </name>
+            </rs>, the<lb/>
+water is highly impregnated with<lb/>
+a salt of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag152"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag152">
+          copper
+          
+        </term>
+            </rs>; so highly, that<lb/>
+the peat of a bog, into which it<lb/>
+has discharged itself, is sufficiently<lb/>
+loaded with the metal to afford<lb/>
+it advantageously by burning.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="20"
+                xml:id="pb-20"
+                facs="#i20"/>
+            <lb/>
+- When I was on the spot<lb/>
+in June 1805, I observed that<lb/>
+the vegetation was considerably<lb/>
+injured upon the course of the<lb/>
+Springs, &amp; the only plant that<lb/>
+seemed to flourish near them<lb/>
+was the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag153"
+                ref="#misc_406"
+                type="miscellaneous">
+               <term xml:id="tag153">
+          Statice
+        </term>
+            </rs>. All the<lb/>
+circumstances appeared to point<lb/>
+out distinctly the directions of the<lb/>
+veins &amp; I have been informed,<lb/>
+that by pursuing the indications,<lb/>
+a considerable <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag154"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag154">
+          copper
+          
+        </term>
+            </rs> mine, has<lb/>
+been discovered, &amp; is now<lb/>
+advantageously worked.-<lb/>
+- Wherever in a mining Country<lb/>
+indeed, peculiar spots unnaturally<lb/>
+sterile are perceived, there is great<lb/>
+reason to suppose that the effect<lb/>
+has some connexion with the<lb/>
+presence of veins of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag155"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag155">
+          copper
+          
+        </term>
+            </rs> or of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag156"
+                ref="#chemical_008"
+                type="chemical">
+               <term xml:id="tag156">
+          Iron
+          
+        </term>
+            </rs>.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="21"
+                xml:id="pb-21"
+                facs="#i21"/>
+            <lb/>
+6<lb/>
+- The effects of metallic impregnations<lb/>
+in destroying vegetation, is evident<lb/>
+from the general barrenness &amp;<lb/>
+dreariness of mining districts, than<lb/>
+which nothing can well be conceived<lb/>
+more disagreeable to the eye.-<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- I shall shew a sketch of a</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">mining Country near <rs xml:id="ttag157" ref="#place_1009" type="place">
+                  <name xml:id="tag157" type="place">
+          Redruth
+        </name>
+               </rs> in</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag158" ref="#place_021" type="place">
+                  <name xml:id="tag158" type="place">
+          Cornwall
+        </name>
+               </rs>.</del>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance.</hi>
+            <lb/>
+- No plants, except short &amp; dark<lb/>
+green or brown <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag159"
+                ref="#misc_122"
+                type="miscellaneous">
+               <term xml:id="tag159">
+          Furze
+        </term>
+            </rs>; &amp; a heath<lb/>
+that has scarcely sufficient vigour<lb/>
+to produce flowers.- And this<lb/>
+happens generally; |_ <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Where</hi> great<lb/>
+treasures are found below the<lb/>
+surface, there is neither fertility<lb/>
+nor beauty above.- And the<lb/>
+lines which Poet<lb/>
+has unjustly applied to the most<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="22"
+                xml:id="pb-22"
+                facs="#i22"/>
+            <lb/>
+picturesque, if not the most fertile<lb/>
+part of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag160"
+                ref="#place_159"
+                type="place">
+               <name xml:id="tag160" type="place">
+          Britain
+        </name>
+            </rs>, may with propriety<lb/>
+be quoted with regard to such<lb/>
+a spot as <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">this</del>. the mining districts<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag161"
+                ref="#place_021"
+                type="place">
+               <name xml:id="tag161" type="place">
+          cornwal
+        </name>
+            </rs>.<lb/>
+"<rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag162"
+                ref="#otherwork_115"
+                type="otherwork">
+               <bibl xml:id="tag162">
+            Far as the eye could reach
+        </bibl>
+            </rs>, no tree was seen,<lb/>
+Earth clad in russet, scorned the lively green;<lb/>
+The plague of Locusts, they secure defy,<lb/>
+For in three hours a grasshopper must die."<lb/>
+- There is an idea particularly<lb/>
+prevalent amongst the Cornish Miners,<lb/>
+that metallic veins are sometimes<lb/>
+indicated by the appearance<lb/>
+of fires in the night, over the<lb/>
+places in which they exist.- This<lb/>
+notion has been generally considered<lb/>
+as a mere delusion.- but I am<lb/>
+convinced from many observations,<lb/>
+that it is not without foundation:<lb/>
+it is easy to assign a reason for<lb/>
+the phenomenon.- The metallic ores<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="23"
+                xml:id="pb-23"
+                facs="#i23"/>
+            <lb/>
+are for the most part perfect conductors<lb/>
+of Electricity, &amp; when the Atmosphere<lb/>
+is highly <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">loaded with</del> Electrical <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">matter,</del>
+            <lb/>
+the slow discharge of it, when it takes<lb/>
+place above metallic veins, must<lb/>
+necessarily produce a luminous<lb/>
+appearance on their surfaces.-<lb/>
+- This indication however, is as<lb/>
+likely to apply to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag163"
+                ref="#chemical_032"
+                type="chemical">
+               <term xml:id="tag163">
+          pyrites
+          
+        </term>
+            </rs> or refractory<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag164"
+                ref="#chemical_008"
+                type="chemical">
+               <term xml:id="tag164">
+          Iron
+          
+        </term>
+            </rs> ore, as to the ores of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag165"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag165">
+          copper
+          
+        </term>
+            </rs>
+            <lb/>
+or Silver; &amp; the former substances,<lb/>
+are much the most abundant in<lb/>
+nature.-<lb/>
+- Of the numerous mysterious<lb/>
+practices, supposed to be connected<lb/>
+with the discovery of Mines, almost<lb/>
+the only relict is, the search by the<lb/>
+divining Rod, &amp; the belief in this<lb/>
+is rapidly going out of fashion, even<lb/>
+amongst the common Miners.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="24"
+                xml:id="pb-24"
+                facs="#i24"/>
+            <lb/>
+- The divining Rod is a forked stick<lb/>
+of hazel, which when held horizontally,<lb/>
+a branch being in each hand, was<lb/>
+supposed to be attracted by Metals.-<lb/>
+- Most of the ancient writers on<lb/>
+Metallurgy, have given long Theories<lb/>
+to account for the efficacy of the rod,<lb/>
+&amp; even as late as 1778, M<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi>.. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag166"
+                ref="#person_466"
+                type="person">
+               <name xml:id="tag166" type="person">
+          Pryce
+        </name>
+            </rs>
+            <lb/>
+in his "<rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag167"
+                ref="#otherwork_217"
+                type="otherwork">
+               <bibl xml:id="tag167">
+            History of the Cornish Mines
+        </bibl>
+            </rs>",<lb/>
+states his full belief in its powers;<lb/>
+And explains them by supposing that<lb/>
+certain steams or vapours, rise from mines;<lb/>
+though he does not make it very clear,<lb/>
+why the hazel &amp; no other substance<lb/>
+should have such a particular<lb/>
+affection for these effluvia.-<lb/>
+- The divining rod, it is well<lb/>
+known, is applied to the discovery<lb/>
+of Springs of water, as well as of<lb/>
+metallic veins; &amp; there are<lb/>
+very respectable &amp; excellent Persons<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="25"
+                xml:id="pb-25"
+                facs="#i25"/>
+            <lb/>
+7<lb/>
+who believe in this power, &amp; that they<lb/>
+themselves are capable of exercising it.<lb/>
+- Nothing should be disbelieved,<lb/>
+because it is marvellous, because<lb/>
+it does not coincide with our received<lb/>
+opinions.- The business of Philosophy<lb/>
+is to investigate <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">causes</hi>.- A few<lb/>
+years ago, the fall of stones from<lb/>
+above, appeared a mere fable,<lb/>
+yet accurate observation has confirmed<lb/>
+the fact by a collection of testimonies<lb/>
+that it is impossible for a candid<lb/>
+mind to question.- A very<lb/>
+few observations, will be sufficient<lb/>
+to enlighten this subject of the<lb/>
+divining Rod; to shew what<lb/>
+is possible; &amp; what must of<lb/>
+necessity be unfounded.-<lb/>
+- There are Persons so<lb/>
+susceptible of Electrical impressions<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="26"
+                xml:id="pb-26"
+                facs="#i26"/>
+            <lb/>
+as to be affected by the approach<lb/>
+of a thunder storm with peculiar<lb/>
+unpleasant sensations; or even<lb/>
+by the excitement of a common<lb/>
+machine:- And large masses of<lb/>
+metallic substances, &amp; a moist<lb/>
+stratum of Earth, being Conductors<lb/>
+of Electricity, will necessarily influence<lb/>
+the electrical state of the atmosphere;<lb/>
+&amp; may produce <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">an effect</hi>, on very<lb/>
+delicate organs, possibly a peculiar<lb/>
+sensation on the surface of the Skin.-<lb/>
+- But the bending of the hazel twig,<lb/>
+can only be produced by the muscular<lb/>
+power of the hands:- The inert<lb/>
+vegetable fibres can not be<lb/>
+made to twist round either by<lb/>
+weak Electricity, or moisture,<lb/>
+or metallic steams.- This<lb/>
+effect is merely connected<lb/>
+either with a real or an<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="27"
+                xml:id="pb-27"
+                facs="#i27"/>
+            <lb/>
+imaginary impression on the nerves,<lb/>
+which might be as easily associated<lb/>
+with the twisting of the fingers, or<lb/>
+closing the Eyelids, or any other<lb/>
+arbitary muscular motion.-<lb/>
+- Again, there is generally<lb/>
+a false idea with respect to the<lb/>
+manner in which water exists below<lb/>
+the surface.- It is vulgarly supposed<lb/>
+that it fills cavities in the Earth;<lb/>
+whereas in all common cases, it is<lb/>
+merely distributed through a stratum<lb/>
+of gravel, or sand, or clay; &amp; there<lb/>
+is no collection of water, till an<lb/>
+excavation is made, &amp; the central<lb/>
+part of the moist stratum is the<lb/>
+part where the water would most<lb/>
+readily collect; but water would<lb/>
+likewise flow into any Cavity made<lb/>
+in any part of the Stratum, so<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="28"
+                xml:id="pb-28"
+                facs="#i28"/>
+            <lb/>
+that the idea of selecting a particular<lb/>
+limited spot for water is absurd;<lb/>
+&amp; at a certain depth below the<lb/>
+surface, water may always be<lb/>
+found.-<lb/>
+- A vein or a mass of metal,<lb/>
+is much more definite &amp; limited;<lb/>
+yet the divining rod usually fails<lb/>
+applied to this mode of discovery;<lb/>
+&amp; if there be sensations connected<lb/>
+with the Electrical effects of<lb/>
+Conductors below the surface,<lb/>
+they must be of a very uncertain<lb/>
+kind, &amp; foreign influences,<lb/>
+particularly those of atmospheric<lb/>
+changes, must materially<lb/>
+interfere with them.-<lb/>
+- There was a very few<lb/>
+years ago, a Saxon Adventurer,<lb/>
+who travelled through <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag168"
+                ref="#place_121"
+                type="place">
+               <name xml:id="tag168" type="place">
+          England
+        </name>
+            </rs>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="29"
+                xml:id="pb-29"
+                facs="#i29"/>
+            <lb/>
+8<lb/>
+professing to be able to discover precious<lb/>
+ores by the hazel: He deceived &amp;<lb/>
+deluded several credulous people;<lb/>
+&amp; left the Country with a considerable<lb/>
+sum of Money, which I believe was<lb/>
+the only way, in which He proved the<lb/>
+existence of the attraction between his rod<lb/>
+&amp; the precious metals.-<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">tractors</hi>.<lb/>
+- I trust that what I have said<lb/>
+will not offend the feelings of any<lb/>
+individual.- To remove erroneous<lb/>
+ideas, &amp; to discover truth is equally<lb/>
+an object of Science.-<lb/>
+Prejudices, &amp; false opinions respecting<lb/>
+the powers of Nature are not merely<lb/>
+baneful in their relations to<lb/>
+philosophy, but likewise in their<lb/>
+common effects upon the mind<lb/>
+- Its dignity, &amp; its highest tone<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="30"
+                xml:id="pb-30"
+                facs="#i30"/>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Estley</unclear>.-<lb/>
+of feeling depend upon <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">truth</hi>; One<lb/>
+false view leads to another. Every<lb/>
+exercise of the reason, strengthens the<lb/>
+habit of correct thinking, &amp; adds<lb/>
+something to the influence &amp; power<lb/>
+of common sense.-<lb/>
+- I spoke of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag169"
+                ref="#chemical_038"
+                type="chemical">
+               <term xml:id="tag169">
+          Tin
+          
+        </term>
+            </rs> Ore as discovered<lb/>
+&amp; worked at a very early period<lb/>
+of the History of the World.-<lb/>
+This is a very remarkable circumstance;<lb/>
+for <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag170"
+                ref="#chemical_038"
+                type="chemical">
+               <term xml:id="tag170">
+          Tin
+          
+        </term>
+            </rs> is never found native, &amp;<lb/>
+has the Character of a stone; &amp; is<lb/>
+difficultly reducible. - It is not<lb/>
+improbable that an accident<lb/>
+similar to that described by<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag171"
+                ref="#person_508"
+                type="person">
+               <name xml:id="tag171" type="person">
+          Lucretius
+        </name>
+            </rs> led to the discovery;<lb/>
+a fire kindled upon a vein<lb/>
+of the ore.- "A powerful<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="31"
+                xml:id="pb-31"
+                facs="#i31"/>
+            <lb/>
+- "A powerful fire, above the hidden vein,<lb/>
+Disclosed to Man, rich Nature's glittering store;<lb/>
+And taught him how to use the ponderous ore:<lb/>
+And on the mass whilst yet in fusion warm,<lb/>
+Impress the destined, &amp; the useful form."-<lb/>
+- Silver, Gold, &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag172"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag172">
+          copper
+          
+        </term>
+            </rs> are found<lb/>
+native.- Probably the first <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag173"
+                ref="#chemical_008"
+                type="chemical">
+               <term xml:id="tag173">
+          iron
+          
+        </term>
+            </rs> worked,<lb/>
+was meteoric iron, similar to that<lb/>
+found in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag174"
+                ref="#place_990"
+                type="place">
+               <name xml:id="tag174" type="place">
+          Siberia
+        </name>
+            </rs> &amp; South <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag175"
+                ref="#place_878"
+                type="place">
+               <name xml:id="tag175" type="place">
+          America
+        </name>
+            </rs>;<lb/>
+&amp; similar to that which fell in<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag176"
+                ref="#misc_373"
+                type="miscellaneous">
+               <term xml:id="tag176">
+          Hindostan
+        </term>
+            </rs> about 150 years ago.<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag177"
+                ref="#chemical_008"
+                type="chemical">
+               <term xml:id="tag177">
+          Iron
+          
+        </term>
+            </rs> was known in the time of<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag178"
+                ref="#person_035"
+                type="person">
+               <name xml:id="tag178" type="person">
+          Homer
+        </name>
+            </rs>, for the effect of the burning<lb/>
+brand thrust by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag179"
+                ref="#misc_408"
+                type="miscellaneous">
+               <term xml:id="tag179">
+          Ulysses
+        </term>
+            </rs> into the<lb/>
+eye of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag180"
+                ref="#misc_409"
+                type="miscellaneous">
+               <term xml:id="tag180">
+          Polyphemus
+        </term>
+            </rs>, is compared to<lb/>
+the effect of red hot <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag181"
+                ref="#chemical_008"
+                type="chemical">
+               <term xml:id="tag181">
+          iron
+          
+        </term>
+            </rs> plunged<lb/>
+into water by the Smith.- In<lb/>
+a later period we are informed<lb/>
+by Theophrastus that the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag182"
+                ref="#chemical_008"
+                type="chemical">
+               <term xml:id="tag182">
+          Iron
+          
+        </term>
+            </rs> in<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="32"
+                xml:id="pb-32"
+                facs="#i32"/>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag183"
+                ref="#place_167"
+                type="place">
+               <name xml:id="tag183" type="place">
+          Greece
+        </name>
+            </rs>, was manufactured by means<lb/>
+of pit Coal found in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag184"
+                ref="#place_1025"
+                type="place">
+               <name xml:id="tag184" type="place">
+          Elis
+        </name>
+            </rs>, &amp; near<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag185"
+                ref="#place_1026"
+                type="place">
+               <name xml:id="tag185" type="place">
+          Olympias
+        </name>
+            </rs>.-<lb/>
+- The Greeks seem to have been<lb/>
+acquainted with almost all the<lb/>
+metals known till within the<lb/>
+last 200 years, when Chemistry<lb/>
+became an object of Scientific<lb/>
+pursuit.- The description of the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag186"
+                ref="#misc_407"
+                type="miscellaneous">
+               <term xml:id="tag186">
+          Shield of Achilles
+        </term>
+            </rs>, proves the early<lb/>
+use of many of them, &amp; shews<lb/>
+their early application to the<lb/>
+purposes of the fine Arts.-<lb/>
+- If indeed it can be conceived<lb/>
+the the descriptions of this great<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag187"
+                ref="#person_035"
+                type="person">
+               <name xml:id="tag187" type="person">
+          Poet of Nature
+        </name>
+            </rs>, &amp; of passion, were<lb/>
+founded upon existing models,<lb/>
+the highest opinion must be formed<lb/>
+of the powers &amp; skill of the more<lb/>
+ancient Grecian Artists.- And even<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="33"
+                xml:id="pb-33"
+                facs="#i33"/>
+            <lb/>
+9<lb/>
+allowing that a brilliant imagination<lb/>
+may have depicted fancied excellence,<lb/>
+yet it is impossible to withold our<lb/>
+wonder in considering the advanced<lb/>
+State of the metallurgical Arts as<lb/>
+connected with Sculpture &amp; Design,<lb/>
+in a Country so lately emerged from<lb/>
+barbarism, &amp; in these rudiments<lb/>
+it is easy to trace the origin of<lb/>
+those powers of industry &amp; genius<lb/>
+which at a more refined period<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">those</del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <add>
+                  <unclear>xxxxx</unclear>the</add>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">produced those</add> monuments of taste &amp; excellence<lb/>
+which are the models for the<lb/>
+present times, &amp; which remain<lb/>
+constant objects of admiration.-<lb/>
+- The formation of veins<lb/>
+- How are <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">they</hi> produced<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="34"
+                xml:id="pb-34"
+                facs="#i34"/>
+            <lb/>
+- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Analogy generally</hi> our sure &amp;<lb/>
+correct guide in the Sciences, sometimes<lb/>
+by accidental misapplication leads us<lb/>
+into errors, which are the more<lb/>
+dangerous, as they are obtained<lb/>
+by methods generally subservient<lb/>
+to the discovery of truth.-<lb/>
+- Accustomed in the Animal<lb/>
+&amp; Vegetable Kingdoms to associate<lb/>
+increase &amp; decay, with every species<lb/>
+of regularity of form: the Mind<lb/>
+is easily seduced into the notion<lb/>
+the the crystallizations found<lb/>
+beneath the surface of the Earth,<lb/>
+follow a similar Law; &amp; this<lb/>
+notion becomes strengthened, by<lb/>
+the facts that are daily occurring<lb/>
+&amp; that are capable of being<lb/>
+artificially exhibited, of the<lb/>
+gradual formation of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">regular Solids</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="35"
+                xml:id="pb-35"
+                facs="#i35"/>
+            <lb/>
+in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag188"
+                ref="#chemical_167"
+                type="chemical">
+               <term xml:id="tag188">
+          saline
+          
+        </term>
+            </rs> fluids &amp; metallic solutions.<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Inst.<hi rend="superscript">ces</hi>
+            </hi>
+            <lb/>
+- The idea of the constant production<lb/>
+of Metals in veins, has not been a<lb/>
+mere error of the vulgar: It has<lb/>
+been sanctioned by high authority;<lb/>
+&amp; defended by all the processes<lb/>
+that the first School of Chemistry<lb/>
+could supply. -<lb/>
+- Beccher whose reputation as<lb/>
+a Chemical Philosopher is deservedly<lb/>
+high, on this subject, seems to<lb/>
+have thought with less than his<lb/>
+usual acuteness. - He had<lb/>
+volatilized in some peculiar<lb/>
+combination, a quantity of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag189"
+                ref="#chemical_008"
+                type="chemical">
+               <term xml:id="tag189">
+          Iron
+          
+        </term>
+            </rs>;<lb/>
+&amp; reasoning from that aphorism,<lb/>
+which seems uniformly to have<lb/>
+guided him. - That the principal<lb/>
+operations of Nature were capable<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="36"
+                xml:id="pb-36"
+                facs="#i36"/>
+            <lb/>
+of being imitated by Art.- He<lb/>
+concluded that the Metals were<lb/>
+continually produced by vapours<lb/>
+which rose from the interior of<lb/>
+the Earth; &amp; which by acting<lb/>
+on the Stoney substances in the<lb/>
+different veins, transmuted them<lb/>
+into ores.-<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag190"
+                ref="#person_470"
+                type="person">
+               <name xml:id="tag190" type="person">
+          Henckel
+        </name>
+            </rs> the first Mineralogist<lb/>
+who gave Celebrity to the Saxon<lb/>
+School, about 30 years after the<lb/>
+death of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag191"
+                ref="#person_387"
+                type="person">
+               <name xml:id="tag191" type="person">
+          Beccher
+        </name>
+            </rs>, advanced a<lb/>
+similar opinion.- He supposed<lb/>
+that Metals were principally of<lb/>
+late origin, &amp; that they were<lb/>
+produced by fermentations going<lb/>
+on, in the different Strata.-<lb/>
+- Even <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag192"
+                ref="#person_305"
+                type="person">
+               <name xml:id="tag192" type="person">
+          Lehman
+        </name>
+            </rs>, in general<lb/>
+distinct in his views, &amp; cautious<lb/>
+in his hypotheses, was misled<lb/>
+with regard to the subject of veins;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="37"
+                xml:id="pb-37"
+                facs="#i37"/>
+            <lb/>
+10<lb/>
+&amp; he supposed that they were all connected<lb/>
+in one great trunk, hidden deep in<lb/>
+the bosom of the Earth: &amp; that the<lb/>
+metals were continually formed in them;<lb/>
+&amp; that they were composed &amp; produced<lb/>
+by different arrangements of the same<lb/>
+elements, acted upon by Air &amp; the<lb/>
+heat of the Sun.-<lb/>
+- These opinions are the remains<lb/>
+of the dreams of Alchemy, so<lb/>
+reluctantly given up.- Men after<lb/>
+having failed in their attempts to<lb/>
+transmute other metals into Gold,<lb/>
+had still some satisfaction in<lb/>
+imagining, that this effect took<lb/>
+place in the grand operations<lb/>
+of the Subterraneous Laboratory,<lb/>
+&amp; some faint glimmerings of hope<lb/>
+were preserved with regard to a<lb/>
+more perfect Chemical Art; by<lb/>
+which this great secret of Nature,<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="38"
+                xml:id="pb-38"
+                facs="#i38"/>
+            <lb/>
+should be disclosed &amp; her processes<lb/>
+imitated. -<lb/>
+- There are a number of facts<lb/>
+which prove that some of the metallic<lb/>
+ores in veins, acted on by air, are<lb/>
+capable of being dissolved by water; <lb/>
+&amp; deposited from it in new forms. - <lb/>
+- It is evident from the views<lb/>
+that have been developed, that<lb/>
+veins must be very irregular in<lb/>
+their dispositions &amp; ramifications,<lb/>
+&amp; that they must deviate in<lb/>
+various ways from the perpendiculars,<lb/>
+&amp; that they can never be expected<lb/>
+rectilinear or equable through<lb/>
+the whole of their course. - There<lb/>
+is however a certain general order<lb/>
+of direction, which must have been<lb/>
+connected with the similarity<lb/>
+of the causes by which they were<lb/>
+produced. -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="39"
+                xml:id="pb-39"
+                facs="#i39"/>
+            <lb/>
+- Most of the great veins that afford<lb/>
+Gold &amp; Silver in South <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag193"
+                ref="#place_878"
+                type="place">
+               <name xml:id="tag193" type="place">
+          America
+        </name>
+            </rs> are said<lb/>
+to have a direction from East to West.-<lb/>
+- Some of the principal veins in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag194"
+                ref="#place_1027"
+                type="place">
+               <name xml:id="tag194" type="place">
+          Hungary
+        </name>
+            </rs>
+            <lb/>
+&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag195"
+                ref="#place_1008"
+                type="place">
+               <name xml:id="tag195" type="place">
+          Transylvania
+        </name>
+            </rs> run from North East<lb/>
+to South West.- But in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag196"
+                ref="#place_159"
+                type="place">
+               <name xml:id="tag196" type="place">
+          Britain
+        </name>
+            </rs>,<lb/>
+the greatest metalliferous veins, all have<lb/>
+their course within a few points from<lb/>
+East to West.-<lb/>
+- This is equally the case in the primitive<lb/>
+&amp; in the Secondary districts.- In<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag197"
+                ref="#place_021"
+                type="place">
+               <name xml:id="tag197" type="place">
+          Cornwall
+        </name>
+            </rs>, in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag198"
+                ref="#place_162"
+                type="place">
+               <name xml:id="tag198" type="place">
+          Devonshire
+        </name>
+            </rs>, &amp; in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag199"
+                ref="#place_1028"
+                type="place">
+               <name xml:id="tag199" type="place">
+          Argyleshire
+        </name>
+            </rs>,<lb/>
+in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag200"
+                ref="#place_079"
+                type="place">
+               <name xml:id="tag200" type="place">
+          Cumberland
+        </name>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag201"
+                ref="#place_1359"
+                type="place">
+               <name xml:id="tag201" type="place">
+          Northumberland
+        </name>
+            </rs> &amp;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag202"
+                ref="#place_1029"
+                type="place">
+               <name xml:id="tag202" type="place">
+          Durham
+        </name>
+            </rs>.-<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- This sketch will <del rend="strikethrough">represent</del>
+               <add>exhibit</add> the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">general direction of the principal</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">veins in <rs xml:id="ttag203" ref="#place_021" type="place">
+                  <name xml:id="tag203" type="place">
+          Cornwall
+        </name>
+               </rs> containing ore.-</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The red, represents <rs xml:id="ttag204" ref="#chemical_070" type="chemical">
+                  <term xml:id="tag204">
+          copper
+          
+        </term>
+               </rs>, the blue,</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag205" ref="#chemical_009" type="chemical">
+                  <term xml:id="tag205">
+          lead
+          
+        </term>
+               </rs>, the black, <rs xml:id="ttag206" ref="#chemical_038" type="chemical">
+                  <term xml:id="tag206">
+          Tin
+          
+        </term>
+               </rs>.-</del>
+            <lb/>
+- From the sketch it may be seen<lb/>
+that the principal veins run very near<lb/>
+upon the point of junction between<lb/>
+the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag207"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag207">
+          Shist
+          
+        </term>
+            </rs> &amp; the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag208"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag208">
+          Granite
+          
+        </term>
+            </rs>.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="40"
+                xml:id="pb-40"
+                facs="#i40"/>
+            <lb/>
+- In the secondary Country of the North<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag209"
+                ref="#place_121"
+                type="place">
+               <name xml:id="tag209" type="place">
+          England
+        </name>
+            </rs>, the metalliferous veins<lb/>
+which contain very little of any other<lb/>
+metal, than <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag210"
+                ref="#chemical_009"
+                type="chemical">
+               <term xml:id="tag210">
+          lead
+          
+        </term>
+            </rs>, have a similar<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">direction</hi>.-<lb/>
+- There are however, in every<lb/>
+part of the Island, some veins<lb/>
+which have a course from North<lb/>
+to South; &amp; from North East to<lb/>
+South East; but they rarely contain<lb/>
+any metallic ores, &amp; they almost<lb/>
+always intersect the other veins<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag211"
+                ref="#chemical_255"
+                type="chemical">
+               <term xml:id="tag211">
+          antimony
+          
+        </term>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Silver ore</hi> vein.-<lb/>
+- These cross veins often contain<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag212"
+                ref="#chemical_105"
+                type="chemical">
+               <term xml:id="tag212">
+          Basalt
+          
+        </term>
+            </rs>, both in the primary &amp;<lb/>
+secondary Counties.-<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance Strontian</hi>.<lb/>
+- It often happens that where<lb/>
+the cross <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">veins</hi> cut <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the other veins</hi>,<lb/>
+the direction is unaltered: &amp; the<lb/>
+vein of first formation is found<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="41"
+                xml:id="pb-41"
+                facs="#i41"/>
+            <lb/>
+11<lb/>
+on the other side.- But it <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">sometimes</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">occurs</hi>, that <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">where</hi> the intersection<lb/>
+takes place, there is a considerable<lb/>
+change in the position <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of the strata</hi>;<lb/>
+as if the force applied to produce<lb/>
+the fissure filled by the cross vein<lb/>
+had acted laterally, so as to remove<lb/>
+one part of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the rock</hi>; the part<lb/>
+containing the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">first vein</hi> to a distance<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">from the other part</hi>.-<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+- This appearance is called by the<lb/>
+Cornish Miners, <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the heaving of the lode.</hi>
+            <lb/>
+And where it occurs in the working of<lb/>
+Mines, it is sometimes a very difficult<lb/>
+task to find the disunited &amp; displaced<lb/>
+vein.-<lb/>
+- When the cross veins, or as they<lb/>
+are sometimes called Dykes, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">are <rs xml:id="ttag213" ref="#chemical_105" type="chemical">
+                  <term xml:id="tag213">
+          basaltic
+          
+        </term>
+               </rs>
+            </del>;<lb/>
+of a Country, are <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag214"
+                ref="#chemical_105"
+                type="chemical">
+               <term xml:id="tag214">
+          basaltic
+          
+        </term>
+            </rs>, the<lb/>
+arrangement of their parts is very peculiar;<lb/>
+they are usually split into prisms of which<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="42"
+                xml:id="pb-42"
+                facs="#i42"/>
+            <lb/>
+there are many varieties; &amp; these<lb/>
+prisms, unlike the prisms of the<lb/>
+stratified <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag215"
+                ref="#chemical_105"
+                type="chemical">
+               <term xml:id="tag215">
+          Basalt
+          
+        </term>
+            </rs>, are always<lb/>
+parallel to the horizon.-<lb/>
+- A picture will best illustrate<lb/>
+the idea N.S.<lb/>
+Instance<lb/>
+A great &amp; magnificent dyke.-<lb/>
+pillars from it.-<lb/>
+- This peculiar difference, I conceive,<lb/>
+may be explained. - but I shall<lb/>
+waive till the general hypothesis<lb/>
+is developed, all partial statements.-<lb/>
+I am now attempting to be the historian<lb/>
+of facts.-<lb/>
+- The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag216"
+                ref="#chemical_194"
+                type="chemical">
+               <term xml:id="tag216">
+          pitchstone
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag217"
+                ref="#chemical_105"
+                type="chemical">
+               <term xml:id="tag217">
+          basaltic
+          
+        </term>
+            </rs> veins<lb/>
+are amongst the latest formations<lb/>
+in the Subterraneous Kingdom.-<lb/>
+And from their intersection of metallic<lb/>
+veins in all cases, where they occur<lb/>
+in the same Country:- We may<lb/>
+consider the fact as established;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="43"
+                xml:id="pb-43"
+                facs="#i43"/>
+            <lb/>
+that the metallic Ores are neither<lb/>
+produced nor renovated by any of the<lb/>
+operations now going on at the surface<lb/>
+of the Globe.-<lb/>
+- I make this Statement, because<lb/>
+the contrary opinion, is most prevalent<lb/>
+amongst Miners.- To the Philosophers<lb/>
+of the present day, the truth is<lb/>
+perfectly familiar.-<lb/>
+- I have often heard Miners assert,<lb/>
+that in the depths of Mines, which<lb/>
+had been exhausted, after a great<lb/>
+number of years, new ore had<lb/>
+been found accumulated<lb/>
+Dispute <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">between two miners</hi> in<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag218"
+                ref="#place_085"
+                type="place">
+               <name xml:id="tag218" type="place">
+                  <hi rend="underline">Derbyshire</hi>
+               </name>
+            </rs>.-<lb/>
+- Silver ore at the great vein of<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag219"
+                ref="#place_1030"
+                type="place">
+               <name xml:id="tag219" type="place">
+          Konsberg
+        </name>
+            </rs> in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag220"
+                ref="#place_188"
+                type="place">
+               <name xml:id="tag220" type="place">
+          Norway
+        </name>
+            </rs> is thus taken up,<lb/>
+&amp; crystallizes in another combination<lb/>
+upon the wood employed in the Mine:<lb/>
+&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag221"
+                ref="#person_149"
+                type="person">
+               <name xml:id="tag221" type="person">
+          M<hi rend="superscript">r</hi> Hatchett
+        </name>
+            </rs> has shewn that <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag222"
+                ref="#chemical_032"
+                type="chemical">
+               <term xml:id="tag222">
+          pyrites
+          
+        </term>
+            </rs>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="44"
+                xml:id="pb-44"
+                facs="#i44"/>
+            <lb/>
+is capable of being formed by the agency<lb/>
+of fluid, containing its constituent<lb/>
+parts.-<lb/>
+- But these phenomena admit of no<lb/>
+distinct application to the great<lb/>
+metallic veins.- They are<lb/>
+the productions of an ancient &amp;<lb/>
+obscure period: &amp; almost all<lb/>
+of them, exhibit proofs of having<lb/>
+been formed at an era, when<lb/>
+the ocean overspread the surface<lb/>
+of the present land: |_And the<lb/>
+discussion of the causes of their<lb/>
+formation, is a kindred subject<lb/>
+to that of the formation of the<lb/>
+Secondary rocks.- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">I shall again</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">refer to it towards the conclusion</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of these lectures.- It is a</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">grand &amp; mysterious problem,</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">which will long continue to awaken</del>
+            <lb/>
+human ingenuity.-<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag223" ref="#person_125" type="person">
+                  <name xml:id="tag223" type="person">
+          Huttonians
+        </name>
+               </rs> Plutonists</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="45"
+                xml:id="pb-45"
+                facs="#i45"/>
+            <lb/>
+12<lb/>
+- In the<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Chemical</del> Lectures <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">of tomorrow</add>, I brought<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">forwards</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">I shall bring forward</add> some arguments, which render<lb/>
+it probable, that the metals are<lb/>
+compounds, &amp; that the real<lb/>
+indestructible elements belonging<lb/>
+to our Globe are very few.- The<lb/>
+sublime &amp; transcendental part of<lb/>
+Chemistry, respecting the real<lb/>
+composition of bodies, is still in its<lb/>
+infancy. - It is from the progress<lb/>
+of this Science, that the lights<lb/>
+must be derived, which are to<lb/>
+illumine the obscurity of all<lb/>
+Theories, respecting the formations<lb/>
+of the subterraneous mineral kingdom.<lb/>
+- Till the nature of the acting<lb/>
+bodies, is certainly known, it is in<lb/>
+vain to attempt to develope the<lb/>
+Laws of their operations.-<lb/>
+- Thunder &amp; Lightning were<lb/>
+explained by the Ancients, on the idea<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="46"
+                xml:id="pb-46"
+                facs="#i46"/>
+            <lb/>
+of the collision of Clouds.- The<lb/>
+early Philosophers of the Baconian<lb/>
+School, attributed them to the<lb/>
+kindling of exhalations &amp; inflammable<lb/>
+vapours.- A new agency was<lb/>
+developed, &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag224"
+                ref="#person_394"
+                type="person">
+               <name xml:id="tag224" type="person">
+          Franklin
+        </name>
+            </rs> proved<lb/>
+that Electricity produced the<lb/>
+phenomena; &amp; that the most<lb/>
+powerful of material agents, might<lb/>
+be divested of its terrors.-<lb/>
+-The Motions of the heavenly<lb/>
+Bodies, were accounted for, 200<lb/>
+years ago, by affections, or by<lb/>
+vortices of Ether.- A few facts<lb/>
+discovered to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag225"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag225" type="person">
+          Newton
+        </name>
+            </rs>, the grand<lb/>
+&amp; simple Law of Gravitation.-<lb/>
+- Geology is a Science in<lb/>
+immaturity - Let facts be<lb/>
+collected for its foundations; &amp;<lb/>
+in some future Era, it will<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="47"
+                xml:id="pb-47"
+                facs="#i47"/>
+            <lb/>
+also possess it's Franklins &amp; its<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag226"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag226" type="person">
+          Newton
+        </name>
+            </rs>'s. -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="48"
+                xml:id="pb-48"
+                facs="#i48"/>
+            <lb/>
+[blank page]<lb/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

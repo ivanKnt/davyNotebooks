@@ -1,0 +1,3385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-10424</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-10424</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/4/B/4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Lectures</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/4/B/4</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent> pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1778-12-17"
+                                   notAfter="1829-05-29"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-10424-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="4389px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00001"
+                  width="5503px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5502"
+               lry="4388"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="3525px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00002"
+                  width="5530px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5529"
+               lry="3524"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="3471px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00003"
+                  width="5530px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5529"
+               lry="3470"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="4389px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00004"
+                  width="5502px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5501"
+               lry="4388"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="4371px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00005"
+                  width="5503px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5502"
+               lry="4370"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="3480px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00006"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="3479"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="3470px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00007"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="3469"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="4389px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00008"
+                  width="5484px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5483"
+               lry="4388"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="4389px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00009"
+                  width="5493px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5492"
+               lry="4388"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="3506px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00010"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="3505"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+      <surface n="11" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="3453px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00011"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="3452"
+               rotate="0"
+               xml:id="i11z1"/>
+      </surface>
+      <surface n="12" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="4363px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00012"
+                  width="5476px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5475"
+               lry="4362"
+               rotate="0"
+               xml:id="i12z1"/>
+      </surface>
+      <surface n="13" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="4362px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00013"
+                  width="5493px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5492"
+               lry="4361"
+               rotate="0"
+               xml:id="i13z1"/>
+      </surface>
+      <surface n="14" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="3425px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00014"
+                  width="5493px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5492"
+               lry="3424"
+               rotate="0"
+               xml:id="i14z1"/>
+      </surface>
+      <surface n="15" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="3479px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00015"
+                  width="5493px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5492"
+               lry="3478"
+               rotate="0"
+               xml:id="i15z1"/>
+      </surface>
+      <surface n="16" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="4371px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00016"
+                  width="5475px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5474"
+               lry="4370"
+               rotate="0"
+               xml:id="i16z1"/>
+      </surface>
+      <surface n="17" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="4362px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00017"
+                  width="5584px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5583"
+               lry="4361"
+               rotate="0"
+               xml:id="i17z1"/>
+      </surface>
+      <surface n="18" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="3489px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00018"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="3488"
+               rotate="0"
+               xml:id="i18z1"/>
+      </surface>
+      <surface n="19" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="3452px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00019"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="3451"
+               rotate="0"
+               xml:id="i19z1"/>
+      </surface>
+      <surface n="20" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="4371px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00020"
+                  width="5502px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5501"
+               lry="4370"
+               rotate="0"
+               xml:id="i20z1"/>
+      </surface>
+      <surface n="21" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="4398px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00021"
+                  width="5484px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5483"
+               lry="4397"
+               rotate="0"
+               xml:id="i21z1"/>
+      </surface>
+      <surface n="22" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="3443px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00022"
+                  width="5448px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5447"
+               lry="3442"
+               rotate="0"
+               xml:id="i22z1"/>
+      </surface>
+      <surface n="23" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="3480px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00023"
+                  width="5448px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5447"
+               lry="3479"
+               rotate="0"
+               xml:id="i23z1"/>
+      </surface>
+      <surface n="24" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="4381px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00024"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="4380"
+               rotate="0"
+               xml:id="i24z1"/>
+      </surface>
+      <surface n="25" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="4371px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00025"
+                  width="5584px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5583"
+               lry="4370"
+               rotate="0"
+               xml:id="i25z1"/>
+      </surface>
+      <surface n="26" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="3426px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00026"
+                  width="5467px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5466"
+               lry="3425"
+               rotate="0"
+               xml:id="i26z1"/>
+      </surface>
+      <surface n="27" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="3489px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00027"
+                  width="5467px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5466"
+               lry="3488"
+               rotate="0"
+               xml:id="i27z1"/>
+      </surface>
+      <surface n="28" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="4371px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00028"
+                  width="5493px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5492"
+               lry="4370"
+               rotate="0"
+               xml:id="i28z1"/>
+      </surface>
+      <surface n="29" xml:id="i29">
+         <graphic decls="#downloadImageRights #download"
+                  height="4380px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00029"
+                  width="5475px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5474"
+               lry="4379"
+               rotate="0"
+               xml:id="i29z1"/>
+      </surface>
+      <surface n="30" xml:id="i30">
+         <graphic decls="#downloadImageRights #download"
+                  height="3443px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00030"
+                  width="5493px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5492"
+               lry="3442"
+               rotate="0"
+               xml:id="i30z1"/>
+      </surface>
+      <surface n="31" xml:id="i31">
+         <graphic decls="#downloadImageRights #download"
+                  height="3452px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00031"
+                  width="5493px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5492"
+               lry="3451"
+               rotate="0"
+               xml:id="i31z1"/>
+      </surface>
+      <surface n="32" xml:id="i32">
+         <graphic decls="#downloadImageRights #download"
+                  height="4371px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00032"
+                  width="5475px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5474"
+               lry="4370"
+               rotate="0"
+               xml:id="i32z1"/>
+      </surface>
+      <surface n="33" xml:id="i33">
+         <graphic decls="#downloadImageRights #download"
+                  height="4380px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00033"
+                  width="5484px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5483"
+               lry="4379"
+               rotate="0"
+               xml:id="i33z1"/>
+      </surface>
+      <surface n="34" xml:id="i34">
+         <graphic decls="#downloadImageRights #download"
+                  height="3434px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00034"
+                  width="5484px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5483"
+               lry="3433"
+               rotate="0"
+               xml:id="i34z1"/>
+      </surface>
+      <surface n="35" xml:id="i35">
+         <graphic decls="#downloadImageRights #download"
+                  height="3470px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00035"
+                  width="5484px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5483"
+               lry="3469"
+               rotate="0"
+               xml:id="i35z1"/>
+      </surface>
+      <surface n="36" xml:id="i36">
+         <graphic decls="#downloadImageRights #download"
+                  height="4408px"
+                  rend="landscape"
+                  url="MS-DAVY-10424-000-00036"
+                  width="5484px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5483"
+               lry="4407"
+               rotate="0"
+               xml:id="i36z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listPerson>
+         <person xml:id="person_605">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Anaxagoras</surname>
+            </persName>
+            <birth when="fl. 5th cent BCE"/>
+            <note>Greek Presocratic philosopher.</note>
+         </person>
+         <person xml:id="person_602">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Plutarch</surname>
+            </persName>
+            <birth when="45 CE"/>
+            <death when="120 CE"/>
+            <note>Greek writer most famous for his parallel lives of Greek and Roman statesmen and military leaders.</note>
+         </person>
+         <person xml:id="person_138">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Aristotle</surname>
+            </persName>
+            <birth when="384 BCE"/>
+            <death when="322 BCE"/>
+            <note>A pupil of Plato's whose philosophical idealism he came to reject, arguing instead for the primacy of observations of natural phenomena. He thus established the divide between theory and experiment in science that can still be detected today. Aristotle's writings became the main way the natural world was understood from the Middle Ages to the seventeenth century, especially in the universities.</note>
+         </person>
+         <person xml:id="person_604">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Silenus</forename>
+               <surname>Calatinus</surname>
+            </persName>
+            <birth when="c. 240 BCE"/>
+            <death when="c. 190 BCE"/>
+            <note>Sicilian Greek historian of Magna Graecia who wrote a history in Greek of Hannibal's campaign in Italy from 218 to 204 BC. His work is known only from fragments and borrowings by other authors.</note>
+         </person>
+         <person xml:id="person_601">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Daimachus</surname>
+            </persName>
+            <birth when="fl. 3rd cent BCE"/>
+            <note>Probably: Daimachus, Greek diplomat and writer.</note>
+         </person>
+         <person xml:id="person_756">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Lysander</surname>
+            </persName>
+            <birth when="c. 454 BCE"/>
+            <death when="395 BCE"/>
+            <note>A Spartan military and political leader. He destroyed the Athenian fleet at the Battle of Aegospotami in 405 BCE, forcing Athens to capitulate and bringing the Peloponnesian War to an end.</note>
+         </person>
+         <person xml:id="person_757">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Pierre</forename>
+               <surname>Gassendi</surname>
+            </persName>
+            <birth when="1592"/>
+            <death when="1655"/>
+            <note>French philosopher, Catholic priest, astronomer and mathematician who published the first data on the transit of Mercury in 1631.</note>
+         </person>
+         <person xml:id="person_764">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Edward</forename>
+               <surname>Topham</surname>
+            </persName>
+            <birth when="1751"/>
+            <death when="1820"/>
+            <note> English journalist and playwright, who publicized the Wold Cottage meteorite that fell on his property. </note>
+         </person>
+         <person xml:id="person_767">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">James</forename>
+               <surname>Sowerby</surname>
+            </persName>
+            <birth when="1757"/>
+            <death when="1822"/>
+            <note>English naturalist and illustrator, a member of the Geological and Linnean  Societies. FRSL.</note>
+         </person>
+         <person xml:id="person_203">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jean-Baptiste</forename>
+               <surname>Biot</surname>
+            </persName>
+            <birth when="1774"/>
+            <death when="1862"/>
+            <note>French mathematician, physicist and astronomer; Professor of Physics at the Collège de France. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_634">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jacques Louis de</forename>
+               <surname>Bournon</surname>
+            </persName>
+            <birth when="1751"/>
+            <death when="1825"/>
+            <note>French born mineralogist who lived and worked in London. An Annual Subscribed to the Royal Institution, he was founder member of the Geological Society. FRSL.</note>
+         </person>
+         <person xml:id="person_553">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Luke</forename>
+               <surname>Howard</surname>
+            </persName>
+            <birth when="1772"/>
+            <death when="1864"/>
+            <note>Quaker who published a nomenclature for clouds and meteorology. Part of partnership Allen and Howard, supplier of chemicals, pharmaceutics and apparatus. FRSL.</note>
+         </person>
+         <person xml:id="person_244">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Martin Heinrich</forename>
+               <surname>Klaproth</surname>
+            </persName>
+            <birth when="1743"/>
+            <death when="1817"/>
+            <note>Pharmacist and chemist. Professor of Chemistry in Berlin. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_050">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Louis Nicolas</forename>
+               <surname>Vauquelin</surname>
+            </persName>
+            <birth when="1763"/>
+            <death when="1829"/>
+            <note>French pharmacist and chemist who met Davy in Paris in 1813. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_772">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">David Bailie</forename>
+               <surname>Warden</surname>
+            </persName>
+            <birth when="1772"/>
+            <death when="1845"/>
+            <note>Republican insurgent in the Irish Rebellion of 1798 and, in later exile, a United States consul in Paris.</note>
+         </person>
+         <person xml:id="person_768">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Joseph</forename>
+               <surname>Izarn</surname>
+            </persName>
+            <birth when="1766"/>
+            <death when="c.1835"/>
+            <note>Author of Lithologie Atmospherique (1803) and inspector of French universities.</note>
+         </person>
+         <person xml:id="person_505">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Edmond</forename>
+               <surname>Halley</surname>
+            </persName>
+            <birth when="1656"/>
+            <death when="1742"/>
+            <note>Astronomer and natural philosopher, who, using Newtonian mechanics, predicted the return of what became the eponymous comet. FRSL.</note>
+         </person>
+         <person xml:id="person_130">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Pierre-Simon</forename>
+               <surname>Laplace</surname>
+            </persName>
+            <birth when="1749"/>
+            <death when="1827"/>
+            <note>French mathematician seen as the Newton of France. He met Davy in 1813 and 1820. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_051">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Pringle</surname>
+            </persName>
+            <birth when="1707"/>
+            <death when="1782"/>
+            <note>Physician who served as President of the Royal Society of London, 1772-1778. Created a baronet. FRSL. </note>
+         </person>
+         <person xml:id="person_769">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Ernst</forename>
+               <surname>Chladni</surname>
+            </persName>
+            <birth when="1756"/>
+            <death when="1827"/>
+            <note>German physicist and musician who undertook pioneering work in the study of meteorites and invented Chladni plates.</note>
+         </person>
+         <person xml:id="person_455">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Benjamin</forename>
+               <surname>Silliman</surname>
+            </persName>
+            <birth when="1779"/>
+            <death when="1864"/>
+            <note>American chemist and science educator, professor at Yale College. Founded the American Journal of Science. Met Davy when he visited London in 1805.</note>
+         </person>
+         <person xml:id="person_691">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jahangir I</forename>
+            </persName>
+            <birth when="1569"/>
+            <death when="1627"/>
+            <note>Nur-ud-Din Muhammad Salim, known by his imperial name Jahangir ('Conqueror of the World'), was the fourth Mughal emperor, who ruled from 1605 until death.</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="place_167">
+            <placeName>Greece</placeName>
+            <location>
+               <geo decls="#WGS84">39.47271804405826,  22.383511417155901</geo>
+            </location>
+         </place>
+         <place xml:id="place_208">
+            <placeName>Athens</placeName>
+            <location>
+               <geo decls="#WGS84">37.9854254841492, 23.728211329282001</geo>
+            </location>
+            <note>Athens is the capital city of Greece.</note>
+         </place>
+         <place xml:id="place_867">
+            <placeName>Thrace</placeName>
+            <location>
+               <geo decls="#WGS84">44.4922551096188,  23.331593583526502</geo>
+            </location>
+            <note>Thrace is a geographical and historical region in Southeast Europe. Bounded by the Balkan Mountains to the north, the Aegean Sea to the south, and the Black Sea to the east, it comprises present-day southeastern Bulgaria, northeastern Greece, and the European part of Turkey, roughly the Roman Province of Thrace.</note>
+         </place>
+         <place xml:id="place_868">
+            <placeName>Gos</placeName>
+            <location>
+               <geo decls="#WGS84">40.3648417665384,  26.631288538647699</geo>
+            </location>
+            <note>Aegospotami is the ancient Greek name for a small river issuing into the Hellespont northeast of Sestos. According to Pliny and Aristotle, a meteor landed here in 467 BC after reports of a comet.</note>
+         </place>
+         <place xml:id="place_905">
+            <placeName>Mount Vaisi</placeName>
+            <location>
+               <geo decls="#WGS84">44.088366277846134,  6.8468901849443302</geo>
+            </location>
+            <note>A mountain in the Alpes-Maritimes which was the site of a meteor fall in 1637. The coordinates given are approximate.</note>
+         </place>
+         <place xml:id="place_1087">
+            <placeName>Provence</placeName>
+            <location>
+               <geo decls="#WGS84">43.173499494387734,  5.9032498932436903</geo>
+            </location>
+            <note>Provence is a region in southeastern France which borders the Mediterranean Sea and Italy. </note>
+         </place>
+         <place xml:id="place_622">
+            <placeName>Verona</placeName>
+            <location>
+               <geo decls="#WGS84">45.4270154066374,  10.989734738828901</geo>
+            </location>
+            <note>Verona is a city located on the Adige River in the north of Italy.</note>
+         </place>
+         <place xml:id="place_121">
+            <placeName>England</placeName>
+            <location>
+               <geo decls="#WGS84">52.12544136722214, -1.7566152421063299</geo>
+            </location>
+            <note>England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.</note>
+         </place>
+         <place xml:id="place_870">
+            <placeName>Artois</placeName>
+            <location>
+               <geo decls="#WGS84">49.02911985750045,  3.56369826751629</geo>
+            </location>
+            <note>a region of northern France.</note>
+         </place>
+         <place xml:id="place_871">
+            <placeName>Maine (France)</placeName>
+            <location>
+               <geo decls="#WGS84">47.67786599520281, -0.65546361652650897</geo>
+            </location>
+            <note>Maine is one of the traditional provinces of France. It corresponds to the former County of Maine, whose capital was also the city of Le Mans.</note>
+         </place>
+         <place xml:id="place_159">
+            <placeName>United Kingdom</placeName>
+            <location>
+               <geo decls="#WGS84">54.06171310994435,  -1.7434214141764799</geo>
+            </location>
+         </place>
+         <place xml:id="place_1191">
+            <placeName>Mediterranean Sea</placeName>
+            <note>Connected to the Atlantic Ocean and almost completely surrounded by land.</note>
+         </place>
+         <place xml:id="place_155">
+            <placeName>Rome</placeName>
+            <location>
+               <geo decls="#WGS84">41.901639083469824,  12.4814095854935</geo>
+            </location>
+            <note>The capital of Italy.</note>
+         </place>
+         <place xml:id="place_287">
+            <placeName>Yorkshire</placeName>
+            <location>
+               <geo decls="#WGS84">53.99003331206097, -1.07287393265237</geo>
+            </location>
+            <note>Yorkshire is a historic county in northern England and the largest by area size in the United Kingdom.</note>
+         </place>
+         <place xml:id="place_880">
+            <placeName>Varanasi</placeName>
+            <location>
+               <geo decls="#WGS84">25.320894911974364,  82.978401940190096</geo>
+            </location>
+            <note>a city in the northern Indian state of Uttar Pradesh dating to the 11th century B.C. now known as Varanasi</note>
+         </place>
+         <place xml:id="place_531">
+            <placeName>India</placeName>
+            <location>
+               <geo decls="#WGS84">21.021002369595717,  77.784400651531399</geo>
+            </location>
+         </place>
+         <place xml:id="place_356">
+            <placeName>Lyon</placeName>
+            <location>
+               <geo decls="#WGS84">45.76283951953042,  4.8390763910827399</geo>
+            </location>
+            <note>Lyon is the third-largest city in France. It is located at the confluence of the Rivers Rhône and Saône, to the north-west of the French Alps.</note>
+         </place>
+         <place xml:id="place_741">
+            <placeName>Siena</placeName>
+            <location>
+               <geo decls="#WGS84">43.313831453223585, 11.336877873455</geo>
+            </location>
+            <note>A city in Tuscany, and the capital of the Province of Siena.</note>
+         </place>
+         <place xml:id="place_097">
+            <placeName>Italy</placeName>
+            <location>
+               <geo decls="#WGS84">43.01250014383429, 12.4664638037258</geo>
+            </location>
+         </place>
+         <place xml:id="place_886">
+            <placeName>Mauerkirchen</placeName>
+            <location>
+               <geo decls="#WGS84">48.19183644003962,  13.135409047220399</geo>
+            </location>
+            <note>a municipality in the district of Braunau am Inn in the Austrian state of Upper Austria.</note>
+         </place>
+         <place xml:id="place_1128">
+            <placeName>Bavaria</placeName>
+            <location>
+               <geo decls="#WGS84">48.6120292161971, 11.4275971556374</geo>
+            </location>
+            <note>A German state.</note>
+         </place>
+         <place xml:id="place_887">
+            <placeName>Glasgow</placeName>
+            <location>
+               <geo decls="#WGS84">55.86035992600647,  -4.2475758902188696</geo>
+            </location>
+            <note>Glasgow is a port city on the River Clyde in Scotland's western Lowlands.</note>
+         </place>
+         <place xml:id="place_235">
+            <placeName>Scotland</placeName>
+            <location>
+               <geo decls="#WGS84">56.23014782410645,  -4.1646793652431802</geo>
+            </location>
+         </place>
+         <place xml:id="place_888">
+            <placeName>L'Aigle</placeName>
+            <location>
+               <geo decls="#WGS84">48.76421901340371,  0.63047719588318296</geo>
+            </location>
+            <note>L'Aigle is a commune in the Orne department in Normandy in northwestern France.</note>
+         </place>
+         <place xml:id="place_878">
+            <placeName>United States</placeName>
+            <location>
+               <geo decls="#WGS84">40.14226510979611,  -103.988989801965</geo>
+            </location>
+            <note>The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean.</note>
+         </place>
+         <place xml:id="place_018">
+            <placeName>Ireland</placeName>
+            <location>
+               <geo decls="#WGS84">53.155810906848316,  -8.0218848181146107</geo>
+            </location>
+         </place>
+         <place xml:id="place_897">
+            <placeName>France</placeName>
+            <location>
+               <geo decls="#WGS84">46.66388672376419,  2.6130755071286602</geo>
+            </location>
+            <note>France, officially the French Republic, is a country located primarily in Western Europe.</note>
+         </place>
+         <place xml:id="place_324">
+            <placeName>Germany</placeName>
+            <location>
+               <geo decls="#WGS84">51.189579071880495,  10.618914269201101</geo>
+            </location>
+         </place>
+         <place xml:id="place_892">
+            <placeName>Cape of Good Hope</placeName>
+            <location>
+               <geo decls="#WGS84">-34.35615182760128, 18.4739804272896</geo>
+            </location>
+            <note>The Cape of Good Hope is a rocky headland on the Atlantic coast of the Cape Peninsula in South Africa.</note>
+         </place>
+         <place xml:id="place_990">
+            <placeName>Siberia</placeName>
+            <location>
+               <geo decls="#WGS84">68.78858352797138,  94.167692361484299</geo>
+            </location>
+            <note>a vast Russian province encompassing most of Northern Asia, with terrain spanning tundra, coniferous forest and mountain ranges</note>
+         </place>
+         <place xml:id="place_893">
+            <placeName>Punjab, India</placeName>
+            <location>
+               <geo decls="#WGS84">30.27681237264337,  75.077291440997001</geo>
+            </location>
+            <note>Punjab, a state bordering Pakistan, is the heart of India’s Sikh community.</note>
+         </place>
+      </listPlace>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_263" type="description">
+            <term id="misc_263-term">Academy of Sciences of Paris</term>
+            <gloss id="misc_263-gloss" target="#misc_263-term">
+               <p>The French Academy of Sciences is a learned society, founded in 1666 by Louis XIV at the suggestion of Jean-Baptiste Colbert</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_747" type="description">
+            <term id="misc_747-term">The Mooresfort Meteorite</term>
+            <gloss id="misc_747-gloss" target="#misc_747-term">
+               <p>The Mooresfort meteorite is a H5 chondrite that fell near Cashel, County Tipperary, Ireland in August 1810. Its total mass is 3.52 kg.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_109" type="description">
+            <term id="misc_109-term">aeriform</term>
+            <gloss id="misc_109-gloss" target="#misc_109-term">
+               <p>Meaning having the form or nature of air; gaseous. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_325" type="description">
+            <term id="misc_325-term">The Yorkshire Stone</term>
+            <gloss id="misc_325-gloss" target="#misc_325-term">
+               <p>The Wold Cottage Meteorite. The largest meteorite observed to fall in Britain, it fell in 1795 at Wold Cottage farm in Yorkshire and weighed 25kg.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_304" type="description">
+            <term id="misc_304-term">Pallas</term>
+            <gloss id="misc_304-gloss" target="#misc_304-term">
+               <p>The second asteroid to be discovered, 28th March 1802 by Heinrich Olbers</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_303" type="description">
+            <term id="misc_303-term">Ceres</term>
+            <gloss id="misc_303-gloss" target="#misc_303-term">
+               <p>The first asteroid to be discovered, 1st January 1801 by Giuseppe Piazzi</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_305" type="description">
+            <term id="misc_305-term">Juno</term>
+            <gloss id="misc_305-gloss" target="#misc_305-term">
+               <p>The third asteroid to be discovered, 1st September 1804 by Karl Harding</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_292" type="description">
+            <term id="misc_292-term">Tartary </term>
+            <gloss id="misc_292-gloss" target="#misc_292-term">
+               <p>A blanket term used in Western European literature and cartography for a vast part of Asia bounded by the Caspian Sea, the Ural Mountains, the Pacific Ocean, and the northern borders of China, India and Persia, at a time when this region was largely unknown to European geographers. </p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listNym type="chemical">
+         <nym xml:id="chemical_509">
+            <form>Vitrification</form>
+            <def>
+               <p>The transformation of a substance into a glass, a non-chrystelline or amorphous solid. Stones exposed to intense heat which partially melt and fuse together are vitrified. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_032">
+            <form>pyrites</form>
+            <def>
+               <p>A generic term for sulphide minerals.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_334">
+            <form>nickel</form>
+            <def>
+               <p>Symbol/formula: Ni</p>
+               <p>A silvery-white lustrous metal with a slight golden tinge. Nickel is a hard and ductile transition metal.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_034">
+            <form>silex</form>
+            <def>
+               <p>Symbol/formula: SiO2</p>
+               <p>Silica, an oxide of silicon.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_011">
+            <form>magnesia</form>
+            <def>
+               <p>Symbol/formula: MgO</p>
+               <p>A white hygroscopic solid mineral that occurs naturally as periclase and is a source of magnesium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_037">
+            <form>sulphur</form>
+            <def>
+               <p>Symbol/formula: S</p>
+               <p>Pure sulphur is a tasteless, odourless, brittle solid that is pale yellow in colour, a poor conductor of electricity, and insoluble in water.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_166">
+            <form>iron oxide </form>
+            <def>
+               <p>Symbol/formula: Fe2O3</p>
+               <p>Oxide of iron. A dark red solid which occurs as the mineral haematite and as the main component of rust.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_381">
+            <form>chromium</form>
+            <def>
+               <p>Symbol/formula: Cr</p>
+               <p>A chemical element; it is a steely-grey, lustrous, hard, and brittle transition metal.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_108">
+            <form>alumine</form>
+            <def>
+               <p>Symbol/formula: AL2O3</p>
+               <p>Alumine is an archaic name for alumina, which is aluminium oxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_007">
+            <form>hydrogene</form>
+            <def>
+               <p>Symbol/formula: H</p>
+               <p>Now known as hydrogen. Hydrogen is the lightest element and, at standard conditions, is a gas of diatomic molecules. It is colourless, odourless, tasteless, non-toxic, and highly combustible.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_031">
+            <form>potassium</form>
+            <def>
+               <p>Symbol/formula: K</p>
+               <p>A silvery white metal that is soft enough to easily cut with a knife. Potassium metal reacts rapidly with atmospheric oxygen to form flaky white potassium peroxide in only seconds of exposure.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_022">
+            <form>oxygene</form>
+            <def>
+               <p>Symbol/formula: O</p>
+               <p>Now known as oxygen. Oxygen is a colourless, odourless, tasteless gas essential to living organisms.</p>
+            </def>
+         </nym>
+      </listNym>
+      <listBibl>
+         <bibl xml:id="otherwork_194">
+            <author>Joseph Izarn</author>
+            <title level="j">Des Pierres Tombées du Ciel: Lithologie Atmosphérique Présentant la Marche Et l'État Actuel de la Science sur le Phénomène des Pierres de Foudre, ... Tombées du Ciel, Etc </title>
+            <date when="1803">1803</date>
+            <note>Davy criticises this work for the author's "ignorance of refined chemistry"</note>
+         </bibl>
+         <bibl xml:id="otherwork_195">
+            <author>John Pringle</author>
+            <title level="j">Philosophical Transactions of the Royal Society of London</title>
+            <title level="a" type="main">Several Accounts of the Fiery Meteor, Which Appeared on Sunday the 26th of November, 1758, between Eight and Nine at Night; Collected by John Pringle, M. D. F. R. S.</title>
+            <date when="1759">1759</date>
+            <biblScope unit="volume">51</biblScope>
+            <biblScope unit="page" from="218" to="59">218-59</biblScope>
+         </bibl>
+      </listBibl>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+1<lb/>
+Lecture 10. Chem: Nat:<lb/>
+2 <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Atmosphere</hi>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The <add>great</add>
+               <del rend="strikethrough">most obvious</del>
+               <add>
+                  <del rend="strikethrough">distinctly known</del>
+               </add> phaenomena of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">chemical changes take place in the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">lower strata</hi> of the Atmosphere</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">where it is exposed to the agency</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of the various substances constituting</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the surface of the globe |_ &amp;</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">These are by far the most</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">important &amp; the most distinctly</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">understood;- |_"The higher regions</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of the Air; those far beyond</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">our reach," <del rend="strikethrough">apparently placed</del>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">placed out of the sphere of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">activity of the Land &amp; Sea</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; unhaunted by the forms of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">life, are little subjected to</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">chemical alterations ;|_&amp; the <del rend="strikethrough">
+                  <unclear>obvious</unclear>
+               </del>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">visible changes that take place</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in them. " may rather be</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">considered as accidents " in</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Nature than as belonging</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to the common order of events.</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+-|_The most remarkable of the<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">phaenomena occuring in the Higher</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">regions of the Air <del rend="strikethrough">are those</del>
+               <add>
+                  <del rend="strikethrough">&amp;</del> which may be</add>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <del rend="strikethrough">of fiery Meteors</del>
+               <add>conceived to be connected with chemical</add>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">changes are those of fiery Meteors.</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">-These extraordinary appearances</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">are always calculated to</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">excite our curiosity; <del rend="strikethrough">&amp;</del> they</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">have lately become objects of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">much <del rend="strikethrough">attention</del> popular</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; scientific attention; - I shall</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">change the order of y<hi rend="superscript">e</hi> syllabus.</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in considering <hi rend="underline">this subject,</hi>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">before I <del rend="strikethrough">
+                  <unclear>xx</unclear>
+               </del> discuss the History</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of the Winds &amp; their</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">importance in the oeconomy</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of things |_&amp; I shall thus</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">be <hi rend="underline">enabled to</hi> take a</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">more <hi rend="underline">connected view</hi> of the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">different series</hi> of objects. -</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- If</del> - Meteors appearing as large<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+Balls of Fire moving at a<lb/>
+great height in the air;<lb/>
+accompanied by <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a <unclear>massive</unclear>
+            </del>
+            <lb/>
+noise, &amp; disappearing with<lb/>
+explosion have been witnessed<lb/>
+in all <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">times</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">ages</add> &amp; in a<lb/>
+great variety of instances<lb/>
+|_&amp; that such meteors<lb/>
+were connected with the<lb/>
+fall of heavy <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Bodies &amp;</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">stones</hi> from the Atmosphere; is<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">an opinion that</add> has been from the earliest<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">times</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">periods,</add> more or <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">less</hi> credited<lb/>
+both by the vulgar &amp; by<lb/>
+certain <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">philosophical</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Scientific</add> persons.--<lb/>
+-: 450 years before the Christian<lb/>
+Era; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#person_605"
+                type="person">
+               <name xml:id="tag1" type="person">
+                  <hi rend="underline">Anaxagoras</hi>
+               </name>
+            </rs> the greatest<lb/>
+Philosopher of the rational<lb/>
+school of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag2"
+                ref="#place_167"
+                type="place">
+               <name xml:id="tag2" type="place">
+          Greece
+        </name>
+            </rs>, supported<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">opinion</del> "notion that stones<lb/>
+fell from the Atmosphere; &amp;<lb/>
+brought <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">it forward</del> it forward in<lb/>
+favour of that assertion<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+which was the principal cause<lb/>
+of his persecution &amp; expulsion<lb/>
+from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag3"
+                ref="#place_208"
+                type="place">
+               <name xml:id="tag3" type="place">
+          Athens
+        </name>
+            </rs> " that the Sun<lb/>
+&amp; the heavenly Bodies were<lb/>
+not Gods; but composed of<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> similar materials to the<lb/>
+Earth"-<lb/>
+Two very ancient Authors<lb/>
+quoted by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag4"
+                ref="#person_602"
+                type="person">
+               <name xml:id="tag4" type="person">
+          Plutarch
+        </name>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag5"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag5" type="person">
+          Aristotle
+        </name>
+            </rs>
+            <lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag6"
+                ref="#person_604"
+                type="person">
+               <name xml:id="tag6" type="person">
+          Silenus
+        </name>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag7"
+                ref="#person_601"
+                type="person">
+               <name xml:id="tag7" type="person">
+          Damachus
+        </name>
+            </rs> "are<lb/>
+positive as to the event<lb/>
+of a large stone having<lb/>
+fallen in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag8"
+                ref="#place_867"
+                type="place">
+               <name xml:id="tag8" type="place">
+          Thrace
+        </name>
+            </rs> at<lb/>
+the time of the appearance<lb/>
+of an extraordinary fiery<lb/>
+meteor |_&amp; the superstition of<lb/>
+the age connected <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">with the</del> the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">event</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">with</del> circumstance with the great<lb/>
+defeat "of the Athenians at<lb/>
+the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag9"
+                ref="#place_868"
+                type="place">
+               <name xml:id="tag9" type="place">
+          river Egos
+        </name>
+            </rs>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">by <rs xml:id="ttag10" ref="#person_756" type="person">
+                  <name xml:id="tag10" type="person">
+          Lysander
+        </name>
+               </rs>
+            </add> of which<lb/>
+it was considered as<lb/>
+the portent. --<lb/>
+____<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">M<hi rend="superscript">r</hi> E Davy</hi> -</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+2<lb/>
+- . . |_In modern times the first fact<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">event</del> of this kind <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">distinctly <del rend="strikethrough">minutely</del>
+            </add> recorded,<lb/>
+is by an eye witness the<lb/>
+celebrated <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag11" ref="#person_757" type="person">
+                  <name xml:id="tag11" type="person">
+          Gassendi
+        </name>
+               </rs>
+               <add>a</add>
+            </hi> a Man<lb/>
+equally free from vulgar<lb/>
+superstition &amp; vulgar prejudice.<lb/>
+On the 27 of Nov<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi>. 1627. This<lb/>
+philosopher states "that the Sky<lb/>
+being quite clear He saw a<lb/>
+burning stone fall on the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag12"
+                ref="#place_905"
+                type="place">
+               <name xml:id="tag12" type="place">
+          Mountain Vaisir
+        </name>
+            </rs> in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag13"
+                ref="#place_1087"
+                type="place">
+               <name xml:id="tag13" type="place">
+          Provence
+        </name>
+            </rs>.-<lb/>
+It appeared <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to</del> about 4 feet<lb/>
+in Diameter was surrounded<lb/>
+by a circle of light; &amp;<lb/>
+produced a loud report<lb/>
+like that of Cannon -- |_ On<lb/>
+examining the spot where<lb/>
+the appearance occurred<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag14"
+                ref="#person_757"
+                type="person">
+               <name xml:id="tag14" type="person">
+          Gussendi
+        </name>
+            </rs> found a mass extremely<lb/>
+hard of a dull metallic<lb/>
+colour <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; of</del> &amp; differing<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+in all its properties from<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">other</del> stones composing the<lb/>
+mountain - The fact<lb/>
+was insulated &amp; He<lb/>
+thought that its <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x xx xxx</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">falling Body</add>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">was</add> the product of the Eruption<lb/>
+of some of the Italian<lb/>
+Volcanoes. -<lb/>
+|_ - In 1672. a similar<lb/>
+narration was published<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of a the account</del> of the<lb/>
+fall of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">two stones</del> two ignited<lb/>
+masses near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag15"
+                ref="#place_622"
+                type="place">
+               <name xml:id="tag15" type="place">
+          Verona
+        </name>
+            </rs> one<lb/>
+weighing 300 &amp; the other<lb/>
+400 pounds &amp; the phaenomenon<lb/>
+was authenticated by the<lb/>
+testimony of three or<lb/>
+four Hundred Persons<lb/>
+In 1756 . de la<lb/>
+Lande <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">published</del> brought forwards<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+an analogous History of<lb/>
+a stone that fell in 1753<lb/>
+in the neighborhood of<lb/>
+Pont de Visle. that<lb/>
+weighed 20 lb &amp; that<lb/>
+had buried itself in the<lb/>
+Earth to the depth of<lb/>
+more than half a foot. -<lb/>
+- In 1758. on Nov<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi> 26;<lb/>
+a great Meteor appeared in<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag16"
+                ref="#place_121"
+                type="place">
+               <name xml:id="tag16" type="place">
+          England
+        </name>
+            </rs> which was generally<lb/>
+described as of the size<lb/>
+of the full moon but much<lb/>
+brighter, which was accompanied<lb/>
+by a luminous train &amp; burst<lb/>
+with a great explosion <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del>
+            <lb/>
+producing a <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">long train of</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">most vivid light</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">light</del> "- No <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">heavy</del> Stones<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Bodies</del> were found after<lb/>
+this event; but several<lb/>
+Philosophers reasoning merely<lb/>
+from the phaenomenon of<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">its motion &amp; <del rend="strikethrough">app</del>form</hi>, concluded<lb/>
+that it must have been<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">h</del> a heavy Body which at<lb/>
+its first appearance was<lb/>
+more than 70. miles from<lb/>
+the Earth<lb/>
+- In the year 1768 no less<lb/>
+than three stones were presented<lb/>
+to the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag17"
+                ref="#misc_263"
+                type="miscellaneous">
+               <term xml:id="tag17">
+          Academy of Sciences
+        </term>
+            </rs> at<lb/>
+paris, all of which were<lb/>
+authentically stated to have<lb/>
+fallen in different parts<lb/>
+of France one in the Cotentine<lb/>
+another in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag18"
+                ref="#place_870"
+                type="place">
+               <name xml:id="tag18" type="place">
+          Artois
+        </name>
+            </rs> &amp; a third<lb/>
+in the <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <rs xml:id="ttag19" ref="#place_871" type="place">
+                  <name xml:id="tag19" type="place">
+          Maine
+        </name>
+               </rs>
+            </unclear>; they were<lb/>
+all similar in their external<lb/>
+&amp; internal characters as far<lb/>
+as the examination was<lb/>
+carried -". And they were<lb/>
+described as having fallen<lb/>
+in the day time with<lb/>
+explosion<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="9"
+                xml:id="pb-9"
+                facs="#i9"/>
+            <lb/>
+3<lb/>
+- On Augt. 18. 1783 a great<lb/>
+Meteor was seen to pass<lb/>
+over <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag20"
+                ref="#place_159"
+                type="place">
+               <name xml:id="tag20" type="place">
+          Britain
+        </name>
+            </rs> connected with<lb/>
+the same phaenomena as<lb/>
+that of 1758 but smaller<lb/>
+in size - From the most<lb/>
+accurate data, it was evidently<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">above</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">nearly</add> 50 <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">miles <del rend="strikethrough">in</del> high</hi>, in<lb/>
+all parts of its course, observed<lb/>
+in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">this island</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <rs xml:id="ttag21" ref="#place_121" type="place">
+                  <name xml:id="tag21" type="place">
+          England
+        </name>
+               </rs>
+            </add> | &amp; from the<lb/>
+comparison of the observations<lb/>
+made there, with those made<lb/>
+in the continent; it must<lb/>
+have described an arc in<lb/>
+the heavens not less than<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a</del> 1000 miles in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ex</del> extent.<lb/>
+- This is a sketch made<lb/>
+of the appearance of the<lb/>
+Meteor of which some accurate<lb/>
+engravings have been published, &amp;<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">appearance</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">phaenomena</add>, &amp; the effects<lb/>
+in the explosion were such<lb/>
+as could not well be attributed<lb/>
+to any other cause than that<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="10"
+                xml:id="pb-10"
+                facs="#i10"/>
+            <lb/>
+of a heavy ignited Body. -<lb/>
+- The products of the Meteor <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">explosion</add>
+            <lb/>
+or the solid Matter <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">occasioning</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">thrown off</add>
+            <lb/>
+it probably fell into the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag22"
+                ref="#place_1191"
+                type="place">
+               <name xml:id="tag22" type="place">
+          mediterranean
+        </name>
+            </rs> sea for its<lb/>
+course was observed over<lb/>
+France to the south &amp;<lb/>
+the light of it was said<lb/>
+to have been faintly<lb/>
+perceived at <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag23"
+                ref="#place_155"
+                type="place">
+               <name xml:id="tag23" type="place">
+          Rome
+        </name>
+            </rs>; -.<lb/>
+-|_ The more ancient testimonies<lb/>
+of the fall of Stones <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">from <del rend="strikethrough">these</del> Meteors</add> might<lb/>
+be doubted.-" the recent ones<lb/>
+have been brought forward<lb/>
+with a degree of evidence<lb/>
+which it is impossible<lb/>
+for a candid mind to resist.<lb/>
+- On the 18<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">th</hi> of Dec<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi> 1795<lb/>
+the weather being cloudy, several<lb/>
+persons in the neighborhood<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag24"
+                ref="#person_764"
+                type="person">
+               <name xml:id="tag24" type="person">
+          Cap<hi rend="superscript">n</hi> Tophams
+        </name>
+            </rs> House in<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag25"
+                ref="#place_287"
+                type="place">
+               <name xml:id="tag25" type="place">
+          Yorkshire
+        </name>
+            </rs> heard a loud noise<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="11"
+                xml:id="pb-11"
+                facs="#i11"/>
+            <lb/>
+in the Air followed by a hissing<lb/>
+sound &amp; afterwards felt a<lb/>
+shock as if a heavy body<lb/>
+had <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">fallen to the</hi> ground<lb/>
+at a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">little distance from them</hi>
+            <lb/>
+|_ one of these a ploughman saw<lb/>
+a large stone falling towards<lb/>
+the Earth, eight or <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">nine yards</hi>
+            <lb/>
+from the place where He stood,<lb/>
+It threw up the mold on every<lb/>
+side, &amp; buried itself 21 inches<lb/>
+- This Man assisted by the others<lb/>
+who were near the spot<lb/>
+at the same time immediately<lb/>
+raised the Stone; &amp; found<lb/>
+that it weighed <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> 56 lbs<lb/>
+- This stone <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">is the specimen</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">is now in possession</del> of<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag26"
+                ref="#person_767"
+                type="person">
+               <name xml:id="tag26" type="person">
+          M<hi rend="superscript">r</hi> Sowerby
+        </name>
+            </rs> of Lambeth " I have<lb/>
+examined it more than once" &amp;<lb/>
+it differs from any of the common<lb/>
+productions of the Earth.- | externally<lb/>
+it is black as if it had been<lb/>
+rapidly passed through a strong<lb/>
+fire <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">so as to be</add> partially <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag27"
+                ref="#chemical_509"
+                type="chemical">
+               <term xml:id="tag27">
+          vitrified
+          
+        </term>
+            </rs>. internally<lb/>
+it is loose in texture &amp; composed<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="12"
+                xml:id="pb-12"
+                facs="#i12"/>
+            <lb/>
+partly of earth &amp; partly of ferruginous<lb/>
+Matter. -<lb/>
+|_ - On the 19 of Dec<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi> 1798<lb/>
+a great Meteor appeared<lb/>
+at <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag28"
+                ref="#place_880"
+                type="place">
+               <name xml:id="tag28" type="place">
+          Benares
+        </name>
+            </rs> in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag29"
+                ref="#place_531"
+                type="place">
+               <name xml:id="tag29" type="place">
+          India
+        </name>
+            </rs> at<lb/>
+eight oClock; &amp; at Krackhut<lb/>
+14 miles off the Inhabitants<lb/>
+saw the light heard a<lb/>
+loud explosion &amp; immediately<lb/>
+after <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">heard</del> a noise as<lb/>
+of stones falling" - The next<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Soil</del> Morning the soil was<lb/>
+found in many places<lb/>
+torn up; &amp; a number<lb/>
+of stones were taken out<lb/>
+of the apertures; &amp; those<lb/>
+pieces that have been<lb/>
+sent to this country have<lb/>
+exactly the same character<lb/>
+as the stone that fell<lb/>
+in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag30"
+                ref="#place_287"
+                type="place">
+               <name xml:id="tag30" type="place">
+          Yorkshire
+        </name>
+            </rs>.<lb/>
+- . To multiply the minute<lb/>
+accounts of instances to a great<lb/>
+extent will be unnecessary<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="13"
+                xml:id="pb-13"
+                facs="#i13"/>
+            <lb/>
+4<lb/>
+-  There are very <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">correct</del> well authenticated<lb/>
+accounts of analogous <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">appearances</del>
+            <lb/>
+at events which happened at<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag31"
+                ref="#place_884"
+                type="place">
+               <name xml:id="tag31" type="place">
+          Einsisheim
+        </name>
+            </rs> in Alsatia; at Sales<lb/>
+near <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag32"
+                ref="#place_356"
+                type="place">
+               <name xml:id="tag32" type="place">
+          Lyons
+        </name>
+            </rs>, at <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag33"
+                ref="#place_741"
+                type="place">
+               <name xml:id="tag33" type="place">
+          Sienna
+        </name>
+            </rs> in<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag34"
+                ref="#place_097"
+                type="place">
+               <name xml:id="tag34" type="place">
+          Italy
+        </name>
+            </rs> &amp; at <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag35"
+                ref="#place_886"
+                type="place">
+               <name xml:id="tag35" type="place">
+          Maurkirchen
+        </name>
+            </rs>
+            <lb/>
+in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag36"
+                ref="#place_1128"
+                type="place">
+               <name xml:id="tag36" type="place">
+          Bavaria
+        </name>
+            </rs>; &amp; within the<lb/>
+last 12 years since the spirit<lb/>
+of observation on the subject<lb/>
+has been alive various similar<lb/>
+facts have been more minutely<lb/>
+recorded. -  In 1803<lb/>
+there w<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ere</del> as <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">two</hi>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">a remarkable</add> phaenomen <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a</del> of<lb/>
+this kind - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">one near <rs xml:id="ttag37" ref="#place_887" type="place">
+                  <name xml:id="tag37" type="place">
+          Glasgow
+        </name>
+               </rs>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in <rs xml:id="ttag38" ref="#place_235" type="place">
+                  <name xml:id="tag38" type="place">
+          Scotland
+        </name>
+               </rs> the</del> other at<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag39"
+                ref="#place_888"
+                type="place">
+               <name xml:id="tag39" type="place">
+          L'Aigle
+        </name>
+            </rs> in France. . <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">at this last</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">which</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">it</add> took place on the 16<lb/>
+of May has been very <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">minutely</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="14"
+                xml:id="pb-14"
+                facs="#i14"/>
+            <lb/>
+accurately related. &amp; all the<lb/>
+circumstances collected by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag40"
+                ref="#person_203"
+                type="person">
+               <name xml:id="tag40" type="person">
+          M<hi rend="superscript">r</hi>
+                  <lb/>biot
+        </name>
+            </rs>. - <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <rs xml:id="ttag41" ref="#place_887" type="place">
+                  <name xml:id="tag41" type="place">
+          Glasgow
+        </name>
+               </rs>
+            </add> |_In 1807. Dec<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi>
+            <lb/>
+-<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">1</del> 4. - An immense meteor<lb/>
+passed over part of N. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag42"
+                ref="#place_878"
+                type="place">
+               <name xml:id="tag42" type="place">
+          America
+        </name>
+            </rs>
+            <lb/>
+which was highly luminous.<lb/>
+which exploded, &amp; threw<lb/>
+down in its course some<lb/>
+hundred of weight of stones<lb/>
+&amp; which <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">is</del> was perhaps the<lb/>
+grandest phaenomenon of<lb/>
+this kind <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">on record</del> that has<lb/>
+ever been described. -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- I referred in a former</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">lecture to the <rs xml:id="ttag43" ref="#misc_747" type="miscellaneous">
+                  <term xml:id="tag43">
+          meteoric
+        </term>
+               </rs>
+            </del>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag44"
+                ref="#misc_747"
+                type="miscellaneous">
+               <term xml:id="tag44">
+          stone
+        </term>
+            </rs> weighing between<lb/>
+7 &amp; 8 pounds that fell<lb/>
+a few weeks ago in Tip<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">y</hi>
+            <lb/>
+in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag45"
+                ref="#place_018"
+                type="place">
+               <name xml:id="tag45" type="place">
+          Ireland
+        </name>
+            </rs>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="15"
+                xml:id="pb-15"
+                facs="#i15"/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Last year,</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">The year before last</add> a <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">meteor</del> stone<lb/>
+fell - : <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag46"
+                ref="#place_018"
+                type="place">
+               <name xml:id="tag46" type="place">
+          Ireland
+        </name>
+            </rs> -<lb/>
+Aug<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">t</hi>.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="16"
+                xml:id="pb-16"
+                facs="#i16"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="17"
+                xml:id="pb-17"
+                facs="#i17"/>
+            <lb/>
+5<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- .<del rend="strikethrough">since th</del> Within the last <del rend="strikethrough">ten</del> 8</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">years since the spirit of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">observation on the subject</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">has been alive; various</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">similar facts have been</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">most authentically recorded.</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <del rend="strikethrough">- And stones have fallen</del>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <del rend="strikethrough">near Ville Fran</del>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <del rend="strikethrough">&amp; about</del> the latest are only <del rend="strikethrough">four</del>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <del rend="strikethrough">
+                  <unclear>xxxx</unclear>
+               </del> three years ago. - When a</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">great number of Meteoric</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">stones fell near l' Aigle in</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">France; &amp; in the same</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">year several fragments</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">fell with the usual phaenomena</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">near <rs xml:id="ttag47" ref="#place_887" type="place">
+                  <name xml:id="tag47" type="place">
+          Glasgow
+        </name>
+               </rs>. - in <rs xml:id="ttag48" ref="#place_235" type="place">
+                  <name xml:id="tag48" type="place">
+          Scotland
+        </name>
+               </rs>. -</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- Specimens have been preserved</del>
+            <lb/>
+[short horizontal rule]<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi> .<lb/>
+- The chain of Historical testimony<lb/>
+may be considered as <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">distinct</del> complete<lb/>
+|_the internal evidence arising<lb/>
+from a minute &amp; accurate<lb/>
+examination of the nature &amp;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="18"
+                xml:id="pb-18"
+                facs="#i18"/>
+            <lb/>
+composition of the stones is<lb/>
+equally <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">distinct &amp; impressive.</hi>
+            <lb/>
+-: The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag49"
+                ref="#person_634"
+                type="person">
+               <name xml:id="tag49" type="person">
+          Count de Bournon
+        </name>
+            </rs> one<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of the most</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">a very</add> distinguished <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">enlightened</del> Mineralogist <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">s</del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in</del>
+            <lb/>
+existing has <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>examined</unclear>
+            </del> inspected_\<lb/>
+with the most careful<lb/>
+attention " - the different<lb/>
+specimens which have been<lb/>
+collected in different parts<lb/>
+of the globe &amp; brought to<lb/>
+this country - |_ &amp; He has<lb/>
+found them all of the<lb/>
+same kind " strikingly<lb/>
+analogous to each other<lb/>
+&amp; differing _\ from all <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <hi rend="underline">known</hi>
+            </add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">other</del>
+            <lb/>
+mineral or earthy Bodies.<lb/>
+|_ The stones from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag50"
+                ref="#place_287"
+                type="place">
+               <name xml:id="tag50" type="place">
+          Yorkshire
+        </name>
+            </rs>,<lb/>
+from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag51"
+                ref="#place_880"
+                type="place">
+               <name xml:id="tag51" type="place">
+          Benares
+        </name>
+            </rs>, - &amp; different<lb/>
+stones from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag52"
+                ref="#place_897"
+                type="place">
+               <name xml:id="tag52" type="place">
+          France 
+        </name>
+            </rs>&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag53"
+                ref="#place_324"
+                type="place">
+               <name xml:id="tag53" type="place">
+          Germany
+        </name>
+            </rs>
+            <lb/>
+have all an external<lb/>
+dark <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>er</unclear>
+            </del> semivitrified crust &amp;<lb/>
+are <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">composed of</del> mechanically<lb/>
+constituted by four distinct<lb/>
+materials - small metallic<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="19"
+                xml:id="pb-19"
+                facs="#i19"/>
+            <lb/>
+particles, a peculiar ferruginous<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag54"
+                ref="#chemical_032"
+                type="chemical">
+               <term xml:id="tag54">
+          pyrites
+          
+        </term>
+            </rs> - a number of small earthy<lb/>
+globular bodies and an <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear>
+            </del>
+            <lb/>
+earthy cement surrounding<lb/>
+all the other parts . -<lb/>
+Instance<lb/>
+- |_ <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag56"
+                ref="#person_553"
+                type="person">
+               <name xml:id="tag56" type="person">
+                  <rs xml:id="ttag56" ref="#person_553" type="person">
+                     <name xml:id="tag56" type="person">
+          M<hi rend="superscript">r</hi> Howard
+        </name>
+                  </rs>
+               </name>
+            </rs> has made an<lb/>
+elaborate analyses of four<lb/>
+Varieties of these stones |_"their<lb/>
+composition has been singularly<lb/>
+analogous;- And they all<lb/>
+have this "peculiarity in<lb/>
+their nature, which distinguishes<lb/>
+them from any mineral Body<lb/>
+that they contain Iron alloyed<lb/>
+by <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxx</unclear>
+            </del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag57"
+                ref="#chemical_334"
+                type="chemical">
+               <term xml:id="tag57">
+          Nickel
+          
+        </term>
+            </rs> - |_The other<lb/>
+ingredients are <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag58"
+                ref="#chemical_034"
+                type="chemical">
+               <term xml:id="tag58">
+          Silex
+          
+        </term>
+            </rs> or<lb/>
+the earth of flints, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">oxide</del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag59"
+                ref="#chemical_011"
+                type="chemical">
+               <term xml:id="tag59">
+          Magnesia
+          
+        </term>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag60"
+                ref="#chemical_037"
+                type="chemical">
+               <term xml:id="tag60">
+          Sulphur
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag61"
+                ref="#chemical_166"
+                type="chemical">
+               <term xml:id="tag61">
+          Oxide of Iron
+          
+        </term>
+            </rs>.<lb/>
+Several other chemists have confirmed this analysis. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag62"
+                ref="#person_244"
+                type="person">
+               <name xml:id="tag62" type="person">
+          Klaproth
+        </name>
+            </rs>
+            <lb/>
+&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag63"
+                ref="#person_050"
+                type="person">
+               <name xml:id="tag63" type="person">
+          Vauquelin
+        </name>
+            </rs> have multiplied <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <unclear>Stop</unclear>
+            </add>evidences on the subject. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag64"
+                ref="#person_772"
+                type="person">
+               <name xml:id="tag64" type="person">
+          M<hi rend="superscript">r</hi> Warden
+        </name>
+            </rs>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <rs xml:id="ttag65" ref="#chemical_381" type="chemical">
+                  <term xml:id="tag65">
+          Chrome
+          
+        </term>
+               </rs> &amp; <rs xml:id="ttag66" ref="#chemical_108" type="chemical">
+                  <term xml:id="tag66">
+          alumine
+          
+        </term>
+               </rs>
+            </add>
+            <lb/>
+|_It is impossible to conceive<lb/>
+that Bodies differing from<lb/>
+all the productions of the<lb/>
+earth should perfectly agree<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="20"
+                xml:id="pb-20"
+                facs="#i20"/>
+            <lb/>
+with <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">each other</hi>, in their<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">nature</hi>, even when <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">p</del> found<lb/>
+upon opposite parts of the<lb/>
+surface of the globe, without<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">attributing to them</hi>, some<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">common</hi>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">origin</hi> - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The</del>
+            <lb/>
+|_ The Hypothesis that they<lb/>
+may be subterraneous<lb/>
+matters thrown out by<lb/>
+Volcanoes cannot be<lb/>
+reasonably supported; for<lb/>
+no such matters ever<lb/>
+occur in eruptions .- &amp;<lb/>
+the places in which they<lb/>
+have fallen; have been<lb/>
+often more than a thousand<lb/>
+Miles <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">distant</add> from any Burning<lb/>
+Mountain -<lb/>
+-. |_That they were native<lb/>
+stones of the Earth, altered<lb/>
+by lightning during thunder<lb/>
+storms, is an equally<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="21"
+                xml:id="pb-21"
+                facs="#i21"/>
+            <lb/>
+6<lb/>
+untenable opinion ,- |_It is<lb/>
+contradicted by the Historical<lb/>
+evidence of their having<lb/>
+been <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">seen</hi> to fall;- |_And<lb/>
+There is no reason <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">why</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxxx</unclear>
+            </del> " (even supposing<lb/>
+them mineral productions) to<lb/>
+conceive "that <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> Electrical <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ity</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">fluid</del> would discharge itself<lb/>
+through these stones in preference<lb/>
+to other earthy matters " - |_&amp;<lb/>
+the peculiarity of their composition<lb/>
+can in no way be accounted<lb/>
+for in this idea " - for it<lb/>
+cannot be asserted that lightning<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">might</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">would</add>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">produce <rs xml:id="ttag67" ref="#chemical_334" type="chemical">
+                  <term xml:id="tag67">
+          Nickel
+          
+        </term>
+               </rs> &amp; iron</hi>,<lb/>
+by acting on common stoney<lb/>
+' Bodies ' -<lb/>
+- The primitive <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">doctrine</del>&amp; ancient<lb/>
+doctrine must be regarded<lb/>
+as the true one "- |_They<lb/>
+must be considered as <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">productions of Meteors</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="22"
+                xml:id="pb-22"
+                facs="#i22"/>
+            <lb/>
+- appearing in our atmosphere<lb/>
+at great heights, surrounded<lb/>
+with a luminous medium<lb/>
+or in a state of ignition<lb/>
+&amp; of such a constitution <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> as<lb/>
+to explode, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> to separate<lb/>
+into parts &amp; to fall<lb/>
+with great impulse / upon<lb/>
+the ground.-<lb/>
+- This is distinct, &amp; is<lb/>
+admitted by all those persons<lb/>
+who have accurately &amp;<lb/>
+candidly investigated the<lb/>
+subject;- |The <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Causes</hi> of<lb/>
+their appearance &amp; fall<lb/>
+have excercised much <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">theoretical</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">ingenuity</hi> &amp; are still subjects<lb/>
+of active scientific discussion<lb/>
+|_a short view of some of<lb/>
+the principal Hypotheses may<lb/>
+possibly be amusing<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="23"
+                xml:id="pb-23"
+                facs="#i23"/>
+            <lb/>
+- One notion is "that they are<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Atmospherical formations</hi>" produced<lb/>
+in the higher regions of the<lb/>
+Air " by a union of<lb/>
+their constituent<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">s</del> parts,<lb/>
+by a transmutation of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del>
+            <lb/>
+highly rarified <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag68"
+                ref="#misc_109"
+                type="miscellaneous">
+               <term xml:id="tag68">
+          aeriform
+        </term>
+            </rs> matter<lb/>
+into a Solid heterogenous Mass<lb/>
+-. This idea is defended in the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag69"
+                ref="#otherwork_194"
+                type="otherwork">
+               <bibl xml:id="tag69">
+            lithologie Atmospherique
+        </bibl>
+            </rs> of<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag70"
+                ref="#person_768"
+                type="person">
+               <name xml:id="tag70" type="person">
+          M. Izarn
+        </name>
+            </rs> but <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">in defending</hi>
+            <lb/>
+it the Author has proved<lb/>
+his ignorance " of refined Chemistry<lb/>
+&amp; of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Laws of composition</hi>
+            <lb/>
+&amp; attraction. . -<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag71"
+                ref="#person_505"
+                type="person">
+               <name xml:id="tag71" type="person">
+          D<hi rend="superscript">r</hi> Halley
+        </name>
+            </rs> calculated that<lb/>
+the great Meteor of 1719<lb/>
+was <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">at least 90 miles</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">above 70 miles</add>
+            <lb/>
+high -. And at this elevation,<lb/>
+supposing the Atmosphere extends<lb/>
+so far I find <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">that</del> by<lb/>
+computation that it would<lb/>
+require more than 1000 cubical<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="24"
+                xml:id="pb-24"
+                facs="#i24"/>
+            <lb/>
+Miles of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag72"
+                ref="#misc_109"
+                type="miscellaneous">
+               <term xml:id="tag72">
+          aeriform
+        </term>
+            </rs> Matter, to produce<lb/>
+a solid mass <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of <unclear>xxxx</unclear>
+            </del> of the same<lb/>
+weight &amp; specific gravity as<lb/>
+the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag73"
+                ref="#misc_325"
+                type="miscellaneous">
+               <term xml:id="tag73">
+          Yorkshire Stone
+        </term>
+            </rs>:- |_&amp; to conceive<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the thin &amp; subtile</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">common</add> Air convertible<lb/>
+into <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> iron &amp; earth <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">as the french Enquirer has done</add> is a<lb/>
+notion which even the wildest<lb/>
+of Alchemists would have<lb/>
+feared to support. . &amp; Even<lb/>
+the supposition of Metals dissolved in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag74"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag74">
+          Hydrogene
+          
+        </term>
+            </rs>
+            <lb/>
+to which <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> I referred in a former occasion<lb/>
+offers<lb/>
+little<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">probability</del> assistance<lb/>
+to the<lb/>
+probability<lb/>
+of this<lb/>
+idea<lb/>
+-. |_ <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag75"
+                ref="#person_130"
+                type="person">
+               <name xml:id="tag75" type="person">
+          M. de la Place's
+        </name>
+            </rs> idea is "<lb/>
+"That the Meteoric stones may<lb/>
+have been <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">projected</hi> from<lb/>
+Volcanoes in the Moon. -<lb/>
+And <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">computing</unclear> on the small<lb/>
+attractive power of the Moon<lb/>
+as compared with that of<lb/>
+the Earth He conceives " a<lb/>
+Velocity of motion about<lb/>
+3 time greater than that<lb/>
+of a cannon Ball would<lb/>
+bring a heavy Body <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">within</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the space</del> from the Moon<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="25"
+                xml:id="pb-25"
+                facs="#i25"/>
+            <lb/>
+7<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">within the air</del>to the Earth ;- - &amp; He<lb/>
+supposes that the Heat may be<lb/>
+generated by the resistance it<lb/>
+meets with from the Air. -<lb/>
+- |_ But this opinion though<lb/>
+sanctioned by so great a name<lb/>
+is <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">merely hypothetical . . We know</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">inadequate to account for</del>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">of no volcanoes in the moon -</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the appearances" - On this</del>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">It might as well be said that</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">idea There is no reason why</del>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">they come from the Sun or</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the explosion</del> to be found in<lb/>
+it for the explosion &amp; the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">any other part of the system</add>
+            <lb/>
+separation of the mass into parts,<lb/>
+or for the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">effects of Heat being</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">merely <add>principally</add>
+            </del> superficial <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">fusion</hi>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Sir Jo</del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag76"
+                ref="#person_051"
+                type="person">
+               <name xml:id="tag76" type="person">
+          D<hi rend="superscript">r</hi> Pringle
+        </name>
+            </rs> (afterwards/ Sir<lb/>
+John Pringle in a dissertation<lb/>
+published in the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag77"
+                ref="#otherwork_195"
+                type="otherwork">
+               <bibl xml:id="tag77">
+            51 Volume<lb/>of the phil: Trans
+        </bibl>
+            </rs>: brings forward<lb/>
+the notion "that Fi<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">r</del>ery Meteors<lb/>
+may be possibly " <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">small</hi> planetary<lb/>
+Bodies " which in many cases<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">pass through our Atmosphere</hi> in<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="26"
+                xml:id="pb-26"
+                facs="#i26"/>
+            <lb/>
+part of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">their course</hi>, without being<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">carried to</hi> the Earth |_ He<lb/>
+thus expresses himself on<lb/>
+the subject " We must not<lb/>
+consider these Bodies as indifferent<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <rs xml:id="ttag78" ref="#otherwork_195" type="otherwork">
+                  <bibl xml:id="tag78">
+            5 pg. 273
+        </bibl>
+               </rs>
+            </add> to us, much less as fortuituous<lb/>
+masses or <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">trains</unclear> of terrestrial<lb/>
+exhalations in the Etherial<lb/>
+Regions; But rather as<lb/>
+Bodies of a nobler origin<lb/>
+possibly revolving about<lb/>
+some center | formed &amp;<lb/>
+regulated by the Creator<lb/>
+for wise &amp; beneficent purposes<lb/>
+even with regard to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">our</hi>
+            <lb/>
+Atmosphere; which, during their<lb/>
+combustion they may supply<lb/>
+with some subtile &amp; salutary<lb/>
+Matter, or remove from it.<lb/>
+such parts, as begin to be<lb/>
+superfluous, or noxious to<lb/>
+the inhabitants of the<lb/>
+Earth"<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag79"
+                ref="#person_769"
+                type="person">
+               <name xml:id="tag79" type="person">
+          D<hi rend="superscript">r</hi> Chaldni
+        </name>
+            </rs> has supported<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="27"
+                xml:id="pb-27"
+                facs="#i27"/>
+            <lb/>
+the same opinion; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> And He<lb/>
+supposes that <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the stones</hi> are<lb/>
+parts detached from <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">these</del> these<lb/>
+Meteoric planets by the Attractions<lb/>
+of the Earth ."<lb/>
+-:- The discovery of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag80" ref="#misc_304" type="miscellaneous">
+                  <term xml:id="tag80">
+          Pallas
+        </term>
+               </rs> &amp; <rs xml:id="ttag81" ref="#misc_303" type="miscellaneous">
+                  <term xml:id="tag81">
+          Ceres
+        </term>
+               </rs>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag82" ref="#misc_304" type="miscellaneous">
+                  <term xml:id="tag82">
+          Pallas
+        </term>
+               </rs>
+            </del> of who <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <rs xml:id="ttag83" ref="#misc_303" type="miscellaneous">
+                  <term xml:id="tag83">
+          Ceres
+        </term>
+               </rs>
+               <del rend="strikethrough">&amp;</del>
+               <rs xml:id="ttag84" ref="#misc_304" type="miscellaneous">
+                  <term xml:id="tag84">
+          Pallas
+        </term>
+               </rs> &amp; <rs xml:id="ttag85" ref="#misc_305" type="miscellaneous">
+                  <term xml:id="tag85">
+          Juno
+        </term>
+               </rs>
+            </add> the first, not more than 90<lb/>
+miles &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">other</del>2<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">d</hi> not more<lb/>
+than <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear>
+            </del> 70 miles in Diameter,<lb/>
+proves " that there are heavenly<lb/>
+Bodies of a size of which<lb/>
+we had formerly no conception,<lb/>
+|_ And it is not impossible" <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">that</hi>
+            <lb/>
+worlds <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">which are invisible</hi>
+            <lb/>
+to us, <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">may exist</hi> in that<lb/>
+extent of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">space of the solar</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">system which seems</hi> unoccupied;<lb/>
+|_ &amp; that there may be as extensive<lb/>
+a gradation, from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag86"
+                ref="#misc_304"
+                type="miscellaneous">
+               <term xml:id="tag86">
+          Pallas
+        </term>
+            </rs> to<lb/>
+smaller planetary Bodies as<lb/>
+there is from Saturn to<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag87"
+                ref="#misc_304"
+                type="miscellaneous">
+               <term xml:id="tag87">
+          Pallas
+        </term>
+            </rs> - The idea is far<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="28"
+                xml:id="pb-28"
+                facs="#i28"/>
+            <lb/>
+from being inconsistent with<lb/>
+the analogy of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Nature</hi> in<lb/>
+which great &amp; small are<lb/>
+mere terms of comparison<lb/>
+|_&amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in which</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">where</add> the mind is<lb/>
+as it were lost in<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">infinite series</hi>, of which<lb/>
+all the parts display<lb/>
+some obvious order. -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- This however is mere conjecture</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the time is not yet arrived</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">for the explanation of the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">phaenomenon. - There is every</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">reason to believe " that</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">these extraordinary facts will</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">not allways remain insulated</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">they will be curious objects</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">for future inquiry &amp; they must</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">finally be connected with</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">some system develloping new</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">laws in the Oeconomy of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">things. -</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="29"
+                xml:id="pb-29"
+                facs="#i29"/>
+            <lb/>
+8<lb/>
+-. The great American meteor of<lb/>
+1807. according to the most<lb/>
+accurate calculations <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">was</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">moved</add> about<lb/>
+17 or 18 miles above the<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">surface of</del> the earth <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in a curve parallel to the surface</add> &amp; with<lb/>
+a velocity which was sufficient<lb/>
+to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">carry it into free space</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">make it revolve as a satellite some</add>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">109 miles in 30"</add> &amp; the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">diameter</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">size <del rend="strikethrough">
+                  <unclear>xxx</unclear>
+               </del>
+            </add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del> the luminous<lb/>
+sphere which appeared <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">nearly</del>
+            <lb/>
+about 2/3 of the size of<lb/>
+the full moon. indicated<lb/>
+a diameter of between<lb/>
+a half a mile &amp; 3/4 of<lb/>
+mile. - . the least 490 feet<lb/>
+the fall of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a</del> small parts<lb/>
+only of it could be traced<lb/>
+&amp; it disappeared in consequence<lb/>
+of its light growing fainter<lb/>
+like those of an ignited<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="30"
+                xml:id="pb-30"
+                facs="#i30"/>
+            <lb/>
+cannon ball cooling in<lb/>
+the dark. -<lb/>
+- The great size of this<lb/>
+meteor &amp; all the phaenomena<lb/>
+connected with it are<lb/>
+certainly in favour of<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag88"
+                ref="#person_051"
+                type="person">
+               <name xml:id="tag88" type="person">
+          Sir John Pringles
+        </name>
+            </rs> Hypothesis.<lb/>
+|_ &amp; if it be supposed<lb/>
+that these bodies <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">conis</del>
+            <lb/>
+consist of the earths<lb/>
+in a metallic state;<lb/>
+Of those highly inflammable<lb/>
+substances . - It would<lb/>
+be easy to account for<lb/>
+the phaenomena of<lb/>
+their luminous path, of<lb/>
+the corruscations they<lb/>
+emit &amp; of the stones<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="31"
+                xml:id="pb-31"
+                facs="#i31"/>
+            <lb/>
+being projected with scintillations<lb/>
+or explosions . -<lb/>
+- . <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag89"
+                ref="#person_455"
+                type="person">
+               <name xml:id="tag89" type="person">
+          M. Silliman
+        </name>
+            </rs> states<lb/>
+that the American meteor<lb/>
+threw off sparks like those<lb/>
+of a burning fire brand<lb/>
+moved against the wind<lb/>
+which is a strong indication<lb/>
+of combustion -. And the<lb/>
+metals of the earths being<lb/>
+much more combustible<lb/>
+than <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Iron</hi> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag90"
+                ref="#chemical_334"
+                type="chemical">
+               <term xml:id="tag90">
+          Nickel
+          
+        </term>
+            </rs> would<lb/>
+be entirely converted into<lb/>
+new products; - which would<lb/>
+defend the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">metallic</del> globules<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">of iron &amp; <rs xml:id="ttag91" ref="#chemical_334" type="chemical">
+                  <term xml:id="tag91">
+          Nickel
+          
+        </term>
+               </rs>
+            </add> in the interior from<lb/>
+the air; though the iron<lb/>
+at the surface would<lb/>
+be <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag92"
+                ref="#chemical_509"
+                type="chemical">
+               <term xml:id="tag92">
+          vitrified
+          
+        </term>
+            </rs> &amp; form <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="32"
+                xml:id="pb-32"
+                facs="#i32"/>
+            <lb/>
+with the other results the<lb/>
+peculiar black crust. -<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag93" ref="#chemical_031" type="chemical">
+                  <term xml:id="tag93">
+          Potassium 
+          
+        </term>
+               </rs>&amp; iron</hi>
+            <lb/>
+- I do not venture to<lb/>
+attach much importance<lb/>
+to this notion; but I<lb/>
+trust you will not find<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx xxx</unclear>
+            </del> either absurd or<lb/>
+improbable. -<lb/>
+[short horizontal rule]<lb/>
+- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Objection</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag94" ref="#chemical_022" type="chemical">
+                  <term xml:id="tag94">
+          Oxygene
+          
+        </term>
+               </rs> carried</hi> off<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">revived metals</hi>
+            <lb/>
+| <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">removed</hi> Potassium<lb/>
+burns <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">in vacuo</hi> -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="33"
+                xml:id="pb-33"
+                facs="#i33"/>
+            <lb/>
+9<lb/>
+Whatever speculations we may<lb/>
+indulge in concerning <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the origin</hi>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">&amp; appearances of</add> of Meteoric stones " |_There <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">can</del> is<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">be little doubt but</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">some reason to believe</add> that <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">falling</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">stars</hi>, belong to the same<lb/>
+class of phaenomena -<lb/>
+- They cannot be electrical<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">phaenomena</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">appearances</add>; for Electricity moves<lb/>
+in no sensible time "&amp;<lb/>
+the course of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> falling stars<lb/>
+may be <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>on</unclear>
+            </del> measured by moments -<lb/>
+- Nor can <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">be</del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">they be</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">is it probable that they are</add> owing to<lb/>
+inflammable airs kindled in<lb/>
+the higher regions; for such<lb/>
+a phenomenon would be<lb/>
+evident as a flash, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">or</del> a<lb/>
+corruscation or a Sheet of<lb/>
+light.<lb/>
+- The direction of falling stars<lb/>
+is <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">almost</del> uniformly <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">downwards</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in curves</add>.<lb/>
+&amp; this agrees with the opinion<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="34"
+                xml:id="pb-34"
+                facs="#i34"/>
+            <lb/>
+That they are heavy Bodies. - And<lb/>
+assuming that they are <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">masses</hi>
+            <lb/>
+similar to the great Meteors<lb/>
+but much <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">smaller, it is easy</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">higher their combustion</add>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">could be <unclear>very feeble</unclear>
+            </add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to conceive " that the materials</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">produced from them, <hi rend="underline">might</hi>
+            </del>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">&amp; they perhaps throw off only</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">be <hi rend="underline">dissipated into minute</hi>
+            </del>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">very small portions of matter</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">fragments</hi>; - |_ or even supposing</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">them to <hi rend="underline">fall</hi> in distinct</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">pieces; , the chance of their</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">being observed must be</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">exceedingly small indeed.</del>
+            <lb/>
+- "|_Several Masses of Iron,<lb/>
+have been found in different<lb/>
+parts of our Globe, inbedded<lb/>
+in the Earth, as if they had<lb/>
+fallen from above - . |_And<lb/>
+by Mineralogical &amp; chemical<lb/>
+examination " they have been all<lb/>
+found to agree with the<lb/>
+Iron of the Meteoric stones in<lb/>
+containing <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag95"
+                ref="#chemical_334"
+                type="chemical">
+               <term xml:id="tag95">
+          Nickel
+          
+        </term>
+            </rs> &amp; a similar<lb/>
+earthy cement -:<lb/>
+- The tradition <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <rs xml:id="ttag96" ref="#place_892" type="place">
+                  <name xml:id="tag96" type="place">
+          Cape of Good Hope
+        </name>
+               </rs>
+            </add> of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag97"
+                ref="#misc_292"
+                type="miscellaneous">
+               <term xml:id="tag97">
+          Tartars
+        </term>
+            </rs>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="35"
+                xml:id="pb-35"
+                facs="#i35"/>
+            <lb/>
+concerning the great mass of <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">native</add> Iron found<lb/>
+in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag98"
+                ref="#place_990"
+                type="place">
+               <name xml:id="tag98" type="place">
+          Siberia
+        </name>
+            </rs> is that it fell<lb/>
+from heaven . - And in<lb/>
+the annals of the Indian<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag99"
+                ref="#person_691"
+                type="person">
+               <name xml:id="tag99" type="person">
+          Emperor Jehangire
+        </name>
+            </rs> written<lb/>
+by himself an incident of<lb/>
+this kind that happened in<lb/>
+1620 is distinctly recounted -<lb/>
+- The prince relates that a<lb/>
+Violent explosion was heard<lb/>
+at a Village in the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag100"
+                ref="#place_893"
+                type="place">
+               <name xml:id="tag100" type="place">
+          Punjaub
+        </name>
+            </rs>
+            <lb/>
+&amp; that during the noise a<lb/>
+luminous body fell from<lb/>
+above on the Earth. that<lb/>
+the Fiscal Officer of the district<lb/>
+immediately repaired to the<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">district</del>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">spot, where</hi> the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">body was said</hi> to<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">have fallen,</hi> |_ &amp; having found it to be <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">still hot</hi>
+            <lb/>
+&amp; not burnt up, caused it to be dug; when the<lb/>
+heat increasing, he at last came to a lump of iron<lb/>
+violently hot; that this was sent to court, where<lb/>
+the Emperor had it weighed in his presence, &amp; ordered<lb/>
+it to be forged into a sabre, a knife, &amp; a dagger;<lb/>
+that the workmen reported it was not malleable, but<lb/>
+shivered under the stroke; &amp; that it required to be<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="36"
+                xml:id="pb-36"
+                facs="#i36"/>
+            <lb/>
+mixed up with one third part of common iron<lb/>
+when the mass was found to make excellent<lb/>
+blades. The Royal historian adds, that upon<lb/>
+the incident of this <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">iron of lightning</hi> being<lb/>
+manufactured, a poet presented him with a<lb/>
+distich, purporting that, "during his reign,<lb/>
+the earth attained order &amp; regularity; that<lb/>
+raw iron fell from lightning, &amp; was, by his<lb/>
+world-subduing authority, converted into<lb/>
+a dagger, a knife, &amp; two sabres." -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- I have given a full detail upon this</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">subject not merely because it is new &amp;</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">curious but likewise because when I men=</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">=tioned it in this Theatre four years ago;-</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Some of my audience were a little incredulous;-</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; I was asked whether I was really in earnest</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in the statements that I made - |_I hope</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">there will now be no doubt &amp; that it will</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">be felt that though the Marvellous is often</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">false - it is not <hi rend="underline">always</hi> so. -</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- |_ The changes in the Atmosphere that I</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">shall devote the remainder of this lecture to</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">are of a very different Nature &amp; much</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">more capable of distinct elucidations. They</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">are those mechanical Motions <hi rend="underline">of its parts</hi>.-</del>
+            <lb/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

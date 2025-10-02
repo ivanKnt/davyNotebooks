@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standOff>
+      <listPlace>
+         <place xml:id="place_1395">
+            <placeName>Pacific Ocean</placeName>
+            <location>
+               <geo decls="#WGS84">2.805166823856979,  -146.51499408225101</geo>
+            </location>
+            <note>The largest and deepest of Earth's five oceans. </note>
+         </place>
+         <place xml:id="place_991">
+            <placeName>Freiberg</placeName>
+            <location>
+               <geo decls="#WGS84">50.918344283396074,  13.341167619912399</geo>
+            </location>
+            <note>A university and former mining town in Saxony, Germany</note>
+         </place>
+         <place xml:id="place_021">
+            <placeName>Cornwall</placeName>
+            <location>
+               <geo decls="#WGS84">50.25090807161931,  -5.1326462442719603</geo>
+            </location>
+            <note>Cornwall is a county in south-west England, birthplace of Humphry Davy.</note>
+         </place>
+         <place xml:id="place_044">
+            <placeName>Wicklow</placeName>
+            <location>
+               <geo decls="#WGS84">52.980855128495101 -6.0443808248316202</geo>
+            </location>
+            <note>County Wicklow is a county in Ireland on the east coast, south of Dublin.</note>
+         </place>
+         <place xml:id="place_047">
+            <placeName>Donegal</placeName>
+            <location>
+               <geo decls="#WGS84">54.653882599705597 -8.1098371878967299</geo>
+            </location>
+            <note>Donegal is a town at the mouth of the River Eske, in north-west Ireland.</note>
+         </place>
+         <place xml:id="place_247">
+            <placeName>Alps </placeName>
+            <location>
+               <geo decls="#WGS84">46.91855850327627,  9.6255793068951494</geo>
+            </location>
+            <note>The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.</note>
+         </place>
+         <place xml:id="place_976">
+            <placeName>Saxony</placeName>
+            <location>
+               <geo decls="#WGS84">51.021200,  13.726430000000001</geo>
+            </location>
+            <note>A state in eastern Germany. </note>
+         </place>
+         <place xml:id="place_990">
+            <placeName>Siberia</placeName>
+            <location>
+               <geo decls="#WGS84">68.78858352797138,  94.167692361484299</geo>
+            </location>
+            <note>a vast Russian province encompassing most of Northern Asia, with terrain spanning tundra, coniferous forest and mountain ranges</note>
+         </place>
+         <place xml:id="place_235">
+            <placeName>Scotland</placeName>
+            <location>
+               <geo decls="#WGS84">56.23014782410645,  -4.1646793652431802</geo>
+            </location>
+         </place>
+         <place xml:id="place_053">
+            <placeName>Sligo</placeName>
+            <location>
+               <geo decls="#WGS84">54.276544386190103 -8.4757518702674197</geo>
+            </location>
+            <note>The town of Sligo, in the north of Ireland, straddles the Garavogue River where it meets Sligo Bay.</note>
+         </place>
+         <place xml:id="place_993">
+            <placeName>Mayo</placeName>
+            <location>
+               <geo decls="#WGS84">53.85303776226139,  -9.3008703638641403</geo>
+            </location>
+            <note>A county in the west of Ireland</note>
+         </place>
+         <place xml:id="place_286">
+            <placeName>Leicestershire</placeName>
+            <location>
+               <geo decls="#WGS84">52.63659600718076, -1.1383822004633799</geo>
+            </location>
+            <note>A county in the East Midlands of England.</note>
+         </place>
+         <place xml:id="place_485">
+            <placeName>Mountsorrel</placeName>
+            <location>
+               <geo decls="#WGS84">52.72572667687396, -1.14035474167988</geo>
+            </location>
+            <note>Mountsorrel is a village in Leicestershire bordering the Charnwood Forest, an upland area with isolated outcrops of ancient Precambrian igneous rocks.</note>
+         </place>
+         <place xml:id="place_507">
+            <placeName>Charnwood Forest</placeName>
+            <location>
+               <geo decls="#WGS84">52.71678305207265,  -1.3000214619414401</geo>
+            </location>
+            <note>The Charnwood Forest is a upland area in Leicestershire, the highest point being 278m. The geology is remarkable as Precambrian igneous rocks, some of the oldest rocks on earth, are seen as isolated outcrops, as in Davy's sketch.</note>
+         </place>
+         <place xml:id="place_284">
+            <placeName>Edinburgh</placeName>
+            <location>
+               <geo decls="#WGS84">55.952743168058966,  -3.1904042104473902</geo>
+            </location>
+            <note>The capital city of Scotland.</note>
+         </place>
+         <place xml:id="place_160">
+            <placeName>Somerset</placeName>
+            <location>
+               <geo decls="#WGS84">51.11108439911385, -3.2865818073214901</geo>
+            </location>
+            <note>A county in south-west England.</note>
+         </place>
+         <place xml:id="place_302">
+            <placeName>Nether Stowey</placeName>
+            <location>
+               <geo decls="#WGS84">51.14971175929675,  -3.15785375067914</geo>
+            </location>
+            <note>A village in Somerset, home of the tanner Thomas Poole and formerly Samuel Taylor Coleridge.</note>
+         </place>
+      </listPlace>
+      <listPerson>
+         <person xml:id="person_469">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Ovid</surname>
+            </persName>
+            <birth when="43 BCE"/>
+            <death when="c. 17 CE"/>
+            <note>Roman poet who lived during the reign of Augustus.</note>
+         </person>
+         <person xml:id="person_246">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Robert</forename>
+               <surname>Hooke</surname>
+            </persName>
+            <birth when="1635"/>
+            <death when="1703"/>
+            <note>Natural philosopher who acted as experimental demonstrator at the Royal Society of London during its early years. Prominent in the study of air and microscopy amongst other subjects. FRSL.</note>
+         </person>
+         <person xml:id="person_085">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Plato</surname>
+            </persName>
+            <birth when="c. 427 BCE"/>
+            <death when="c. 348 BCE"/>
+            <note>A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.</note>
+         </person>
+         <person xml:id="person_023">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Richard</forename>
+               <surname>Kirwan</surname>
+            </persName>
+            <birth when="1733"/>
+            <death when="1812"/>
+            <note>Irish chemist, mineralogist and geologist who accused fellow geologist, James Hutton, of athiesm following publication of his Theory of the Earth (1788). FRSL</note>
+         </person>
+         <person xml:id="person_267">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Abraham Gottlob</forename>
+               <surname>Werner</surname>
+            </persName>
+            <birth when="1749"/>
+            <death when="1817"/>
+            <note>German geologist who proposed the theory of Neptunism and who also proposed the chronological sequence found in stratified rocks.</note>
+         </person>
+         <person xml:id="person_520">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jean-André</forename>
+               <surname>Deluc</surname>
+            </persName>
+            <birth when="1727"/>
+            <death when="1817"/>
+            <note>Swiss-born geologist, natural philosopher and meteorologist who spent much of his time working in England. FRSL.</note>
+         </person>
+         <person xml:id="person_1005">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Gottfried Wilhelm</forename>
+               <surname>Leibniz</surname>
+            </persName>
+            <birth when="1646"/>
+            <death when="1716"/>
+            <note>A German polymath active as a mathematician, philosopher, scientist and diplomat who invented calculus</note>
+         </person>
+         <person xml:id="person_519">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">William</forename>
+               <surname>Whiston</surname>
+            </persName>
+            <birth when="1667"/>
+            <death when="1752"/>
+            <note>English (unorthodox) theologian, historian, natural philosopher, and mathematician. A leading figure in promoting the ideas of Isaac Newton whom he succeeded as Lucasian Professor.</note>
+         </person>
+         <person xml:id="person_595">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Charles Francis</forename>
+               <surname>Greville</surname>
+            </persName>
+            <birth when="1749"/>
+            <death when="1809"/>
+            <note>A British antiquarian, collector and politician who sat in the House of Commons from 1774 to 1790. FRSL.</note>
+         </person>
+         <person xml:id="person_634">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jacques Louis de</forename>
+               <surname>Bournon</surname>
+            </persName>
+            <birth when="1751"/>
+            <death when="1825"/>
+            <note>French born mineralogist who lived and worked in London. An Annual Subscribed to the Royal Institution, he was founder member of the Geological Society. FRSL.</note>
+         </person>
+         <person xml:id="person_226">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Thomas</forename>
+               <surname>Thomson</surname>
+            </persName>
+            <birth when="1773"/>
+            <death when="1852"/>
+            <note>Scottish chemist and mineralogist whose writings contributed to the early spread of Dalton's atomic theory. FRSL.</note>
+         </person>
+         <person xml:id="person_467">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">André-Jean-François-Marie Brochant de</forename>
+               <surname>Villiers</surname>
+            </persName>
+            <birth when="1772"/>
+            <death when="1840"/>
+            <note>French mineralogist and geologist.</note>
+         </person>
+         <person xml:id="person_599">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Rene Just</forename>
+               <surname>Hauy</surname>
+            </persName>
+            <birth when="1743"/>
+            <death when="1822"/>
+            <note>Hauy was a French priest and mineralogist. He helped to establish the metric system.</note>
+            <trait>Same as person 307</trait>
+         </person>
+         <person xml:id="person_307">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">René Just</forename>
+               <surname>Haüy</surname>
+            </persName>
+            <birth when="1743"/>
+            <death when="1822"/>
+            <note>French priest, crystallographer and mineralogist who wrote the five volume Traité de minéralogie (1801). ForMemRSL.</note>
+         </person>
+         <person xml:id="person_301">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Robert</forename>
+               <surname>Jameson</surname>
+            </persName>
+            <birth when="1774"/>
+            <death when="1854"/>
+            <note>Scottish geologist and Regius Professor of Natural History at the University of Edinburgh. FRSL.</note>
+         </person>
+         <person xml:id="person_377">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Mayow</surname>
+            </persName>
+            <birth when="1641"/>
+            <death when="1679"/>
+            <note>Cornish physiologist and chemist, investigated respiration especially. FRSL.</note>
+         </person>
+         <person xml:id="person_271">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Alexander von</forename>
+               <surname>Humboldt</surname>
+            </persName>
+            <birth when="1769"/>
+            <death when="1859"/>
+            <note>German geographer, naturalist and explorer. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_300">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Déodat Gratet de</forename>
+               <surname>Dolomieu</surname>
+            </persName>
+            <birth when="1750"/>
+            <death when="1801"/>
+            <note>French geologist. The rock, and region of the Alps, dolomite was named after him.</note>
+         </person>
+         <person xml:id="person_368">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Horace Bénédict de</forename>
+               <surname>Saussure</surname>
+            </persName>
+            <birth when="1740"/>
+            <death when="1799"/>
+            <note>Genevan geologist, meteorologist, physicist, mountaineer and Alpine expolorer. Often referred to as the founder of Alpinism and modern meteorology.</note>
+         </person>
+         <person xml:id="person_162">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Playfair</surname>
+            </persName>
+            <birth when="1748"/>
+            <death when="1819"/>
+            <note>Professor of Natural Philosophy at Edinburgh University. His Illustrations of the Huttonian Theory of the Earth (1802) gave strong support to James Hutton's theory of uniformitarianism. FRSL.</note>
+         </person>
+         <person xml:id="person_125">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">James</forename>
+               <surname>Hutton</surname>
+            </persName>
+            <birth when="1726"/>
+            <death when="1797"/>
+            <note>Scottish geologist, agriculturalist and chemical manufacturer. His Theory of the Earth (1795) is one of the foundations of modern geology. Davy discussed Hutton's theories in his lectures and visited some of the key geological sites that Hutton used in his work. </note>
+         </person>
+         <person xml:id="person_164">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">James</forename>
+               <surname>Hall</surname>
+            </persName>
+            <birth when="1761"/>
+            <death when="1832"/>
+            <note>Scottish baronet (1776) and MP. Chemist and geologist who supported of James Hutton's theories of uniformitarian geology. FRSL.</note>
+         </person>
+      </listPerson>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_140" type="description">
+            <term id="misc_140-term">Ahrimanes</term>
+            <gloss id="misc_140-gloss" target="#misc_140-term">
+               <p>Zoarastrianism's destructive or evil spirit.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_141" type="description">
+            <term id="misc_141-term">Ormutz </term>
+            <gloss id="misc_141-gloss" target="#misc_141-term">
+               <p>(Ahura Mazda); Zoarastrianism's creative spirit of wisdom.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_588" type="description">
+            <term id="misc_588-term">Neptunian Theory</term>
+            <gloss id="misc_588-gloss" target="#misc_588-term">
+               <p>A theory of geology proposed by Abraham Gottlob Werner, who proposed that rocks formed from the crystallisation of minerals in the early Earth's oceans.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_398" type="description">
+            <term id="misc_398-term">Leskean collection</term>
+            <gloss id="misc_398-gloss" target="#misc_398-term">
+               <p>A cabinet of mineralogy assembled by Leske, which was acquired by the Royal Dublin Society in 1792</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_100" type="description">
+            <term id="misc_100-term">Plutonic Theory</term>
+            <gloss id="misc_100-gloss" target="#misc_100-term">
+               <p>Relates to the Plutonist theories of James Hutton (1715-1795), who proposed that the earth's igneous rocks were formed from magma. </p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listBibl>
+         <bibl xml:id="otherwork_058">
+            <author>Thomas Thomson</author>
+            <title level="j">A System of Chemistry (4th edn)</title>
+            <date when="1810">1810</date>
+         </bibl>
+         <bibl xml:id="otherwork_216">
+            <author>Robert Jameson </author>
+            <title level="j">Elements of Geognosy</title>
+            <date when="1809">1809</date>
+         </bibl>
+         <bibl xml:id="otherwork_215">
+            <author>Robert Jameson </author>
+            <title level="j">Mineralogy of the Scottish Isles</title>
+            <date when="1800">1800</date>
+         </bibl>
+         <bibl xml:id="otherwork_310">
+            <author>Horace Bénédict de Saussure</author>
+            <title level="j">Voyages dans les Alpes</title>
+            <date when="1796">1796</date>
+            <note>an accompanying number indicates the paragraph in one of the four volumes: Vol 1: §§ 1 - 606, Vol 2: §§ 606 - 1156, Vol 3: §§ 1157 - 1793, Vol 4: §§ 1794 - 2327</note>
+         </bibl>
+      </listBibl>
+      <listNym type="chemical">
+         <nym xml:id="chemical_092">
+            <form>granite</form>
+            <def>
+               <p>A coarse-grained intrusive igneous rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_095">
+            <form>micaceous shist</form>
+            <def>
+               <p>A rock composed of mica and quartz.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_184">
+            <form>shell limestone</form>
+            <def>
+               <p>A type of limestone composed largely of shells.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_397">
+            <form>shale</form>
+            <def>
+               <p>Shale is a fine-grained, clastic sedimentary rock formed from mud that is a mix of flakes of clay minerals and tiny fragments of other minerals, especially quartz and calcite.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_088">
+            <form>sandstone</form>
+            <def>
+               <p>A sedimentary rock consisting of sand or quartz grains cemented together, typically red, yellow, or brown in colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_398">
+            <form>slate </form>
+            <def>
+               <p>Slate is a fine-grained, foliated, homogeneous, metamorphic rock derived from an original shale-type sedimentary rock composed of clay or volcanic ash through low-grade, regional metamorphism</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_097">
+            <form>sienite</form>
+            <def>
+               <p>Syenite. A coarse-grained intrusive igneous rock with a general composition similar to that of granite, but deficient in quartz, which, if present at all, occurs in relatively small concentrations.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_120">
+            <form>shist</form>
+            <def>
+               <p>Or schist. Any metamorphic rock that can be split into thin layers because of its thin bands of micaceous minerals, with mineral grains.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_105">
+            <form>basalt</form>
+            <def>
+               <p>A dark grey to black dense to fine-grained igneous rock that consists of basic plagioclase, augite, and usually magnetite. More than 90% of volcanic rock on earth is basaltic.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_399">
+            <form>gossan</form>
+            <def>
+               <p>Gossan (eiserner hut or eisenhut) is intensely oxidized, weathered or decomposed rock, usually the upper and exposed part of an ore deposit or mineral vein. As noted by Davy, its name comes from Cornish mining slang.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_070">
+            <form>copper</form>
+            <def>
+               <p>Symbol/formula: Cu</p>
+               <p>A soft, malleable, and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a pinkish-orange colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_090">
+            <form>limestone</form>
+            <def>
+               <p>A sedimentary rock composed mainly of calcium carbonate (CaCO3).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_112">
+            <form>marl</form>
+            <def>
+               <p>Or marle. A loose, unconsolidated earthy deposit, consisting of clay mixed with calcium carbonate.</p>
+            </def>
+         </nym>
+      </listNym>
+   </standOff>
+</TEI>

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+[[ -r valid ]] || {
+    echo "File not found: valid" >&2
+    exit 1
+}
+
+mkdir -p ../../manifest/transcription >>/dev/null 2>&1
+awk '/^[[:space:]]*\[page\]/ {
+    i = index($0,"|") + 1;
+    j = index($0,"[/page]") - i;
+    print(substr($0,i,j));
+}' valid >../../manifest/transcription/source

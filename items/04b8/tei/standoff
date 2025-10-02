@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standOff>
+      <listNym type="chemical">
+         <nym xml:id="chemical_090">
+            <form>limestone</form>
+            <def>
+               <p>A sedimentary rock composed mainly of calcium carbonate (CaCO3).</p>
+            </def>
+         </nym>
+      </listNym>
+      <listPerson>
+         <person xml:id="person_146">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">James</forename>
+               <surname>Watt</surname>
+            </persName>
+            <birth when="1736"/>
+            <death when="1819"/>
+            <note>A Scottish scientific instrument maker who studied with the chemist Joseph Black at Glasgow University. He developed the separate condenser for steam engines which increased their effieciency significantly. He took out a twenty-five-year patent (ending in 1800) and moved to Birmingham where he went into partnership with the businessman and industrialist Matthew Boulton. They made their fortune by having an effective monopoly of manufacturing steam engines. A friend of Thomas Beddoes, he met Davy on a number of occasions and Davy gave the oration at the unveiling of Watt's statue in Greenock. FRSL.</note>
+         </person>
+         <person xml:id="person_231">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Joseph</forename>
+               <surname>Black</surname>
+            </persName>
+            <birth when="1728"/>
+            <death when="1799"/>
+            <note>From 1766, Professor of Medcine and Chemistry at the University of Edinburgh. Discovered latent heat and fixed air, later renamed carbon dioxide. A correspondent of James Watt and Thomas Beddoes (who studied under him).</note>
+         </person>
+         <person xml:id="person_135">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Josiah</forename>
+               <surname>Wedgwood</surname>
+            </persName>
+            <birth when="1730"/>
+            <death when="1795"/>
+            <note>Renowned British potter whose factory was at Etruria near Stoke-on-Trent. A strong supporter of the abolition of the slave trade and of slavery, he was closely connected with other industrialists in the Midlands. FRSL.</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="place_121">
+            <placeName>England</placeName>
+            <location>
+               <geo decls="#WGS84">52.12544136722214, -1.7566152421063299</geo>
+            </location>
+            <note>England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.</note>
+         </place>
+         <place xml:id="place_990">
+            <placeName>Siberia</placeName>
+            <location>
+               <geo decls="#WGS84">68.78858352797138,  94.167692361484299</geo>
+            </location>
+            <note>a vast Russian province encompassing most of Northern Asia, with terrain spanning tundra, coniferous forest and mountain ranges</note>
+         </place>
+         <place xml:id="place_159">
+            <placeName>United Kingdom</placeName>
+            <location>
+               <geo decls="#WGS84">54.06171310994435,  -1.7434214141764799</geo>
+            </location>
+         </place>
+      </listPlace>
+   </standOff>
+</TEI>

@@ -1,0 +1,4169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-10321</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-10321</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/3/B/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Lectures</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/3/B/1</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent> pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1778-12-17"
+                                   notAfter="1829-05-29"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-10321-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="4353px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00001"
+                  width="5612px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5611"
+               lry="4352"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="4344px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00002"
+                  width="5620px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5619"
+               lry="4343"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="4434px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00003"
+                  width="5584px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5583"
+               lry="4433"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="3365px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00004"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="3364"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="3374px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00005"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="3373"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="4344px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00006"
+                  width="5612px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5611"
+               lry="4343"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="4371px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00007"
+                  width="5602px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5601"
+               lry="4370"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="3355px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00008"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="3354"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="3374px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00009"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="3373"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="4344px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00010"
+                  width="5602px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5601"
+               lry="4343"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+      <surface n="11" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="4407px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00011"
+                  width="5602px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5601"
+               lry="4406"
+               rotate="0"
+               xml:id="i11z1"/>
+      </surface>
+      <surface n="12" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="3373px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00012"
+                  width="5512px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5511"
+               lry="3372"
+               rotate="0"
+               xml:id="i12z1"/>
+      </surface>
+      <surface n="13" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="3374px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00013"
+                  width="5512px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5511"
+               lry="3373"
+               rotate="0"
+               xml:id="i13z1"/>
+      </surface>
+      <surface n="14" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="4390px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00014"
+                  width="5620px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5619"
+               lry="4389"
+               rotate="0"
+               xml:id="i14z1"/>
+      </surface>
+      <surface n="15" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="4371px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00015"
+                  width="5602px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5601"
+               lry="4370"
+               rotate="0"
+               xml:id="i15z1"/>
+      </surface>
+      <surface n="16" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="3338px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00016"
+                  width="5484px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5483"
+               lry="3337"
+               rotate="0"
+               xml:id="i16z1"/>
+      </surface>
+      <surface n="17" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="3365px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00017"
+                  width="5484px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5483"
+               lry="3364"
+               rotate="0"
+               xml:id="i17z1"/>
+      </surface>
+      <surface n="18" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="4362px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00018"
+                  width="5583px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5582"
+               lry="4361"
+               rotate="0"
+               xml:id="i18z1"/>
+      </surface>
+      <surface n="19" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="4390px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00019"
+                  width="5584px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5583"
+               lry="4389"
+               rotate="0"
+               xml:id="i19z1"/>
+      </surface>
+      <surface n="20" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="3383px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00020"
+                  width="5475px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5474"
+               lry="3382"
+               rotate="0"
+               xml:id="i20z1"/>
+      </surface>
+      <surface n="21" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="3410px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00021"
+                  width="5475px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5474"
+               lry="3409"
+               rotate="0"
+               xml:id="i21z1"/>
+      </surface>
+      <surface n="22" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="4371px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00022"
+                  width="5629px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5628"
+               lry="4370"
+               rotate="0"
+               xml:id="i22z1"/>
+      </surface>
+      <surface n="23" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="4398px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00023"
+                  width="5612px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5611"
+               lry="4397"
+               rotate="0"
+               xml:id="i23z1"/>
+      </surface>
+      <surface n="24" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="3437px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00024"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="3436"
+               rotate="0"
+               xml:id="i24z1"/>
+      </surface>
+      <surface n="25" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="3428px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00025"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="3427"
+               rotate="0"
+               xml:id="i25z1"/>
+      </surface>
+      <surface n="26" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="4380px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00026"
+                  width="5639px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5638"
+               lry="4379"
+               rotate="0"
+               xml:id="i26z1"/>
+      </surface>
+      <surface n="27" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="4399px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00027"
+                  width="5630px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5629"
+               lry="4398"
+               rotate="0"
+               xml:id="i27z1"/>
+      </surface>
+      <surface n="28" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="3374px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00028"
+                  width="5458px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5457"
+               lry="3373"
+               rotate="0"
+               xml:id="i28z1"/>
+      </surface>
+      <surface n="29" xml:id="i29">
+         <graphic decls="#downloadImageRights #download"
+                  height="3455px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00029"
+                  width="5458px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5457"
+               lry="3454"
+               rotate="0"
+               xml:id="i29z1"/>
+      </surface>
+      <surface n="30" xml:id="i30">
+         <graphic decls="#downloadImageRights #download"
+                  height="4408px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00030"
+                  width="5629px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5628"
+               lry="4407"
+               rotate="0"
+               xml:id="i30z1"/>
+      </surface>
+      <surface n="31" xml:id="i31">
+         <graphic decls="#downloadImageRights #download"
+                  height="4425px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00031"
+                  width="5584px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5583"
+               lry="4424"
+               rotate="0"
+               xml:id="i31z1"/>
+      </surface>
+      <surface n="32" xml:id="i32">
+         <graphic decls="#downloadImageRights #download"
+                  height="3419px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00032"
+                  width="5458px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5457"
+               lry="3418"
+               rotate="0"
+               xml:id="i32z1"/>
+      </surface>
+      <surface n="33" xml:id="i33">
+         <graphic decls="#downloadImageRights #download"
+                  height="3446px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00033"
+                  width="5458px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5457"
+               lry="3445"
+               rotate="0"
+               xml:id="i33z1"/>
+      </surface>
+      <surface n="34" xml:id="i34">
+         <graphic decls="#downloadImageRights #download"
+                  height="4407px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00034"
+                  width="5611px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5610"
+               lry="4406"
+               rotate="0"
+               xml:id="i34z1"/>
+      </surface>
+      <surface n="35" xml:id="i35">
+         <graphic decls="#downloadImageRights #download"
+                  height="4416px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00035"
+                  width="5584px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5583"
+               lry="4415"
+               rotate="0"
+               xml:id="i35z1"/>
+      </surface>
+      <surface n="36" xml:id="i36">
+         <graphic decls="#downloadImageRights #download"
+                  height="3374px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00036"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="3373"
+               rotate="0"
+               xml:id="i36z1"/>
+      </surface>
+      <surface n="37" xml:id="i37">
+         <graphic decls="#downloadImageRights #download"
+                  height="3410px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00037"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="3409"
+               rotate="0"
+               xml:id="i37z1"/>
+      </surface>
+      <surface n="38" xml:id="i38">
+         <graphic decls="#downloadImageRights #download"
+                  height="4344px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00038"
+                  width="5593px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5592"
+               lry="4343"
+               rotate="0"
+               xml:id="i38z1"/>
+      </surface>
+      <surface n="39" xml:id="i39">
+         <graphic decls="#downloadImageRights #download"
+                  height="4317px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00039"
+                  width="5648px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5647"
+               lry="4316"
+               rotate="0"
+               xml:id="i39z1"/>
+      </surface>
+      <surface n="40" xml:id="i40">
+         <graphic decls="#downloadImageRights #download"
+                  height="3338px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00040"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="3337"
+               rotate="0"
+               xml:id="i40z1"/>
+      </surface>
+      <surface n="41" xml:id="i41">
+         <graphic decls="#downloadImageRights #download"
+                  height="3365px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00041"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="3364"
+               rotate="0"
+               xml:id="i41z1"/>
+      </surface>
+      <surface n="42" xml:id="i42">
+         <graphic decls="#downloadImageRights #download"
+                  height="4299px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00042"
+                  width="5602px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5601"
+               lry="4298"
+               rotate="0"
+               xml:id="i42z1"/>
+      </surface>
+      <surface n="43" xml:id="i43">
+         <graphic decls="#downloadImageRights #download"
+                  height="4307px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00043"
+                  width="5630px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5629"
+               lry="4306"
+               rotate="0"
+               xml:id="i43z1"/>
+      </surface>
+      <surface n="44" xml:id="i44">
+         <graphic decls="#downloadImageRights #download"
+                  height="3364px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00044"
+                  width="5557px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5556"
+               lry="3363"
+               rotate="0"
+               xml:id="i44z1"/>
+      </surface>
+      <surface n="45" xml:id="i45">
+         <graphic decls="#downloadImageRights #download"
+                  height="3383px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00045"
+                  width="5557px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5556"
+               lry="3382"
+               rotate="0"
+               xml:id="i45z1"/>
+      </surface>
+      <surface n="46" xml:id="i46">
+         <graphic decls="#downloadImageRights #download"
+                  height="4317px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00046"
+                  width="5584px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5583"
+               lry="4316"
+               rotate="0"
+               xml:id="i46z1"/>
+      </surface>
+      <surface n="47" xml:id="i47">
+         <graphic decls="#downloadImageRights #download"
+                  height="4353px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00047"
+                  width="5584px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5583"
+               lry="4352"
+               rotate="0"
+               xml:id="i47z1"/>
+      </surface>
+      <surface n="48" xml:id="i48">
+         <graphic decls="#downloadImageRights #download"
+                  height="3383px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00048"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="3382"
+               rotate="0"
+               xml:id="i48z1"/>
+      </surface>
+      <surface n="49" xml:id="i49">
+         <graphic decls="#downloadImageRights #download"
+                  height="3401px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00049"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="3400"
+               rotate="0"
+               xml:id="i49z1"/>
+      </surface>
+      <surface n="50" xml:id="i50">
+         <graphic decls="#downloadImageRights #download"
+                  height="4353px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00050"
+                  width="5629px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5628"
+               lry="4352"
+               rotate="0"
+               xml:id="i50z1"/>
+      </surface>
+      <surface n="51" xml:id="i51">
+         <graphic decls="#downloadImageRights #download"
+                  height="4372px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00051"
+                  width="5548px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5547"
+               lry="4371"
+               rotate="0"
+               xml:id="i51z1"/>
+      </surface>
+      <surface n="52" xml:id="i52">
+         <graphic decls="#downloadImageRights #download"
+                  height="3346px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00052"
+                  width="5602px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5601"
+               lry="3345"
+               rotate="0"
+               xml:id="i52z1"/>
+      </surface>
+      <surface n="53" xml:id="i53">
+         <graphic decls="#downloadImageRights #download"
+                  height="3410px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00053"
+                  width="5602px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5601"
+               lry="3409"
+               rotate="0"
+               xml:id="i53z1"/>
+      </surface>
+      <surface n="54" xml:id="i54">
+         <graphic decls="#downloadImageRights #download"
+                  height="4335px"
+                  rend="landscape"
+                  url="MS-DAVY-10321-000-00054"
+                  width="5592px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5591"
+               lry="4334"
+               rotate="0"
+               xml:id="i54z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_381" type="description">
+            <term id="misc_381-term">Philosopher's stone</term>
+            <gloss id="misc_381-gloss" target="#misc_381-term">
+               <p>A mythic alchemical substance capable of turning base metals such as mercury into gold or silver. It is also called the elixir of life, useful for rejuvenation and for achieving immortality; for many centuries, it was the most sought-after goal in alchemy. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_231" type="description">
+            <term id="misc_231-term">Accademia del Cimento of Florence</term>
+            <gloss id="misc_231-gloss" target="#misc_231-term">
+               <p>The Academy of Experiment, an early scientific society, founded in Florence in 1657 by students of Galileo, Giovanni Alfonso Borelli and Vincenzo Viviani and ceased to exist about a decade later.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_263" type="description">
+            <term id="misc_263-term">Academy of Sciences of Paris</term>
+            <gloss id="misc_263-gloss" target="#misc_263-term">
+               <p>The French Academy of Sciences is a learned society, founded in 1666 by Louis XIV at the suggestion of Jean-Baptiste Colbert</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_103" type="description">
+            <term id="misc_103-term">Pyrophorus</term>
+            <gloss id="misc_103-gloss" target="#misc_103-term">
+               <p>A substance the ignites spontaneously after exposure to air, one of the earliest known is that of Homberg.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_410" type="description">
+            <term id="misc_410-term">Rosicrucianism</term>
+            <gloss id="misc_410-gloss" target="#misc_410-term">
+               <p>a spiritual and cultural movement that arose in Europe in the early 17th century after the publication of several texts announcing to the world a new esoteric order.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_109" type="description">
+            <term id="misc_109-term">aeriform</term>
+            <gloss id="misc_109-gloss" target="#misc_109-term">
+               <p>Meaning having the form or nature of air; gaseous. </p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listPerson>
+         <person xml:id="person_639">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Johann Rudolf</forename>
+               <surname>Glauber</surname>
+            </persName>
+            <birth when="1604"/>
+            <death when="1670"/>
+            <note>German-Dutch alchemist and chemist. He discovered sodium sulphate in 1625 which was named 'Glauber's salt'.</note>
+         </person>
+         <person xml:id="person_836">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Christopher</forename>
+               <surname>Glaser</surname>
+            </persName>
+            <birth when="1615"/>
+            <death when="c. 1675"/>
+            <note>a pharmaceutical chemist of the 17th century, the mineral glaserite is named after him.</note>
+         </person>
+         <person xml:id="person_761">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Louis XIV</forename>
+            </persName>
+            <birth when="1638"/>
+            <death when="1715"/>
+            <note>King of France from 1643 until death - the 'Sun King'.</note>
+         </person>
+         <person xml:id="person_847">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Roger Joseph</forename>
+               <surname>Boscovich</surname>
+            </persName>
+            <birth when="1711"/>
+            <death when="1787"/>
+            <note>Physicist, astronomer and mathematician born in Croatia but lived and worked mainly in Italy and France. Boscovich's work makes him one of the forerunners of atomic theory. </note>
+            <trait>Same as 674. Removed 674.</trait>
+         </person>
+         <person xml:id="person_124">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Francis</forename>
+               <surname>Bacon</surname>
+            </persName>
+            <birth when="1561"/>
+            <death when="1626"/>
+            <note>English lawyer, politician and natural philosopher. His influential writings encouraged experimentation and the use of induction in investigating the natural world. He also recommended establishing institutions to promote collaborative research. </note>
+         </person>
+         <person xml:id="person_848">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Francesco</forename>
+               <surname>Petrarch</surname>
+            </persName>
+            <birth when="1304"/>
+            <death when="1374"/>
+            <note>An Italian poet and scholar, famous for his love sonnets. Davy wrote a poem called 'Vaucluse' inspired by Petrarch's poetry on the river Sorgue and Vaucluse valley in the Provence region of France and called him the 'bard of provence' in another poem, which John Davy published with the title 'Banks of the Rhone'. </note>
+         </person>
+         <person xml:id="person_428">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Cosimo III</forename>
+               <surname>de' Medici</surname>
+            </persName>
+            <birth when="1642"/>
+            <death when="1723"/>
+            <note>Grand Duke of Tuscany (1670-1723).</note>
+         </person>
+         <person xml:id="person_103">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Robert</forename>
+               <surname>Boyle</surname>
+            </persName>
+            <birth when="1627"/>
+            <death when="1691"/>
+            <note>Irish-born chemist and one of the founders of modern chemistry. FRSL.</note>
+         </person>
+         <person xml:id="person_246">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Robert</forename>
+               <surname>Hooke</surname>
+            </persName>
+            <birth when="1635"/>
+            <death when="1703"/>
+            <note>Natural philosopher who acted as experimental demonstrator at the Royal Society of London during its early years. Prominent in the study of air and microscopy amongst other subjects. FRSL.</note>
+         </person>
+         <person xml:id="person_377">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Mayow</surname>
+            </persName>
+            <birth when="1641"/>
+            <death when="1679"/>
+            <note>Cornish physiologist and chemist, investigated respiration especially. FRSL.</note>
+         </person>
+         <person xml:id="person_345">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Wilhelm</forename>
+               <surname>Homberg</surname>
+            </persName>
+            <birth when="1653"/>
+            <death when="1715"/>
+            <note>German natural philosopher</note>
+         </person>
+         <person xml:id="person_839">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jean-Baptiste</forename>
+               <surname>Colbert</surname>
+            </persName>
+            <birth when="1619"/>
+            <death when="1683"/>
+            <note>a French statesman who served as First Minister of State from 1661 until his death in 1683 under the rule of King Louis XIV. He founded the Academy of Sciences in Paris.</note>
+         </person>
+         <person xml:id="person_811">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Nicolas</forename>
+               <surname>Lemery</surname>
+            </persName>
+            <birth when="1645"/>
+            <death when="1715"/>
+            <note>French chemist, born at Rouen. He was one of the first to develop theories on acid-base chemistry.</note>
+         </person>
+         <person xml:id="person_840">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Louis</forename>
+               <surname>Lemery</surname>
+            </persName>
+            <birth when="1677"/>
+            <death when="1743"/>
+            <note>The son of scientist Nicolas Lemery, Louis was appointed physician at the Hôtel-Dieu de Paris in 1710, and became demonstrator of chemistry at the Jardin du Roi in 1731.</note>
+         </person>
+         <person xml:id="person_388">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Georg Ernst</forename>
+               <surname>Stahl</surname>
+            </persName>
+            <birth when="1659"/>
+            <death when="1734"/>
+            <note>German physician, chemist and philosopher who strongly promoted the phlogiston theory. </note>
+         </person>
+         <person xml:id="person_036">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Isaac</forename>
+               <surname>Newton</surname>
+            </persName>
+            <birth when="1642"/>
+            <death when="1727"/>
+            <note>Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy &amp; Newton' in one inch letters. FRSL.</note>
+         </person>
+         <person xml:id="person_427">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Étienne François</forename>
+               <surname>Geoffroy</surname>
+            </persName>
+            <birth when="1672"/>
+            <death when="1731"/>
+            <note>French physician and chemist, best known for his 1718 affinity tables. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_615">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jean-Baptiste de</forename>
+               <surname>Sénac</surname>
+            </persName>
+            <birth when="1693"/>
+            <death when="1770"/>
+            <note>French physician who made extensive studies of the heart.</note>
+         </person>
+         <person xml:id="person_624">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jean</forename>
+               <surname>Rey</surname>
+            </persName>
+            <birth when="c. 1583"/>
+            <death when="c. 1645"/>
+            <note>French physician and chemist.</note>
+         </person>
+         <person xml:id="person_279">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Slare</forename>
+               <surname>Frederick</surname>
+            </persName>
+            <birth when="c. 1647"/>
+            <death when="1727"/>
+            <note>Physician and chemist who worked for Robert Boyle. FRSL.</note>
+         </person>
+         <person xml:id="person_623">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Ole</forename>
+               <surname>Borch</surname>
+            </persName>
+            <birth when="1626"/>
+            <death when="1690"/>
+            <note>Danish royal physician who taught Nicolas Steno.</note>
+         </person>
+         <person xml:id="person_016">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Joseph</forename>
+               <surname>Priestley</surname>
+            </persName>
+            <birth when="1733"/>
+            <death when="1804"/>
+            <note>Unitarian and political radical forced into exile in Pennsylvania. As a natural philospher and chemist who retained belief in phlogiston, he discovered oxygen and nitrous oxide though not under those names. FRSL.</note>
+         </person>
+         <person xml:id="person_021">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Stephen</forename>
+               <surname>Hales</surname>
+            </persName>
+            <birth when="1677"/>
+            <death when="1761"/>
+            <note>English clergyman who made major contributions to a range of scientific fields including botany, pneumatic chemistry and physiology.  FRSL.</note>
+         </person>
+         <person xml:id="person_231">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Joseph</forename>
+               <surname>Black</surname>
+            </persName>
+            <birth when="1728"/>
+            <death when="1799"/>
+            <note>From 1766, Professor of Medcine and Chemistry at the University of Edinburgh. Discovered latent heat and fixed air, later renamed carbon dioxide. A correspondent of James Watt and Thomas Beddoes (who studied under him).</note>
+         </person>
+         <person xml:id="person_621">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Johann Friedrich</forename>
+               <surname>Mayer</surname>
+            </persName>
+            <birth when="1719"/>
+            <death when="1798"/>
+            <note>German pastor and agriculturalist.</note>
+         </person>
+         <person xml:id="person_033">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Torbern Olaf</forename>
+               <surname>Bergman</surname>
+            </persName>
+            <birth when="1735"/>
+            <death when="1784"/>
+            <note>Swedish chemist and mineralogist. At some point Davy acquired a set of letters from Bergman to Franz Schwediaur written in the 1780s which are retained in the Royal Institution (RI MS HD/27/A). ForMemRSL.</note>
+         </person>
+         <person xml:id="person_622">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">David</forename>
+               <surname>Macbride</surname>
+            </persName>
+            <birth when="1726"/>
+            <death when="1778"/>
+            <note>Irish physician, medical writer and lecturer who contributed to the understanding of scurvy. His Experimental Essays (1764) combined the gas theories of Joseph Black and Sir John Pringle. </note>
+         </person>
+         <person xml:id="person_619">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">William</forename>
+               <surname>Brownrigg</surname>
+            </persName>
+            <birth when="1712"/>
+            <death when="1800"/>
+            <note>Cumberland physician and chemist. FRSL.</note>
+         </person>
+         <person xml:id="person_026">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Henry</forename>
+               <surname>Cavendish</surname>
+            </persName>
+            <birth when="1731"/>
+            <death when="1810"/>
+            <note>A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL. </note>
+         </person>
+         <person xml:id="person_348">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jan</forename>
+               <surname>Ingenhousz</surname>
+            </persName>
+            <birth when="1730"/>
+            <death when="1799"/>
+            <note>Dutch-born British physiologist, biologist and chemist. He was one of the discoverers of the process of photosynthesis. FRSL.</note>
+         </person>
+      </listPerson>
+      <listNym type="chemical">
+         <nym xml:id="chemical_087">
+            <form>oil of vitriol</form>
+            <def>
+               <p>Symbol/formula: H2SO4</p>
+               <p>Sulphuric acid. A mineral acid composed of the elements sulphur, oxygen, and hydrogen.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_030">
+            <form>potash</form>
+            <def>
+               <p>An alkaline substance consisting largely of impure potassium carbonate. In October 1807, Davy decomposed potash using electricity, revealing the previously unknown element potassium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_035">
+            <form>soda</form>
+            <def>
+               <p>An alkaline substance obtained from the ashes of marine or salt-impregnated plants, especially species of Salsola. Davy decomposed soda to reveal its elemental sodium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_415">
+            <form>Sulphate of Soda</form>
+            <def>
+               <p>Symbol/formula: Na2SO4</p>
+               <p>Sodium Sulphate</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_255">
+            <form>antimony</form>
+            <def>
+               <p>Symbol/formula: Sb</p>
+               <p>A lustrous gray metalloid, it is found in nature mainly as the sulphide mineral stibnite. Antimony compounds have been known since ancient times and were powdered for use as medicine and cosmetics, often known by the Arabic name 'kohl'.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_037">
+            <form>sulphur</form>
+            <def>
+               <p>Symbol/formula: S</p>
+               <p>Pure sulphur is a tasteless, odourless, brittle solid that is pale yellow in colour, a poor conductor of electricity, and insoluble in water.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_046">
+            <form>phlogiston</form>
+            <def>
+               <p>A hypothetical substance, thought of as an elastic fluid, which was believed to exist in combination in all combustible bodies.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_022">
+            <form>oxygene</form>
+            <def>
+               <p>Symbol/formula: O</p>
+               <p>Now known as oxygen. Oxygen is a colourless, odourless, tasteless gas essential to living organisms.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_038">
+            <form>tin</form>
+            <def>
+               <p>Symbol/formula: Sn</p>
+               <p>A silvery-coloured metal, tin is soft enough to be cut with little force, and a bar of tin can be bent by hand with little effort.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_187">
+            <form>bismuth</form>
+            <def>
+               <p>Symbol/formula: Bi</p>
+               <p>A high-density, silvery, pink-tinged metal.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_340">
+            <form>gum</form>
+            <def>
+               <p>In botany, gum is found in the woody elements of plants or in seed coatings.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_341">
+            <form>ethanol </form>
+            <def>
+               <p>Spirit of wine, known archaically as aqua vitae.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_070">
+            <form>copper</form>
+            <def>
+               <p>Symbol/formula: Cu</p>
+               <p>A soft, malleable, and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a pinkish-orange colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_150">
+            <form>aqua fortis</form>
+            <def>
+               <p>Archaic term for nitric acid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_137">
+            <form>nitrous acid</form>
+            <def>
+               <p>Symbol/formula: HNO2</p>
+               <p>A weak and monoprotic acid known only in solution, in the gas phase and in the form of nitrite salts.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_201">
+            <form>zinc</form>
+            <def>
+               <p>Symbol/formula: Zn</p>
+               <p>A a slightly brittle metal at room temperature and has a shiny-greyish appearance when oxidation is removed.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_044">
+            <form>nitre</form>
+            <def>
+               <p>Symbol/formula: KNO3</p>
+               <p>Potassium nitrate. The mineral form is saltpetre, which was useful as a fertiliser and for making gunpowder.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_010">
+            <form>lime</form>
+            <def>
+               <p>Symbol/formula: CaO</p>
+               <p>Commonly known as quicklime or burnt lime, calcium oxide is a widely used chemical compound. It is a white, caustic, alkaline, crystalline solid at room temperature.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_011">
+            <form>magnesia</form>
+            <def>
+               <p>Symbol/formula: MgO</p>
+               <p>A white hygroscopic solid mineral that occurs naturally as periclase and is a source of magnesium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_078">
+            <form>elastic fluid</form>
+            <def>
+               <p>A descriptive term for a gas, emphasising its elastic quality of spontaneous expansion.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_254">
+            <form>common air</form>
+            <def>
+               <p>The air of the lower stratum of the atmosphere, or the air that we breathe, which is a mixture of several gases, including oxygen (O2), nitrogen (N2) and carbon dioxide (CO2).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_180">
+            <form>Calcium hydroxide</form>
+            <def>
+               <p>Symbol/formula: Ca(OH)2</p>
+               <p>Produced when quicklime is mixed with water. Traditionally called slacked lime.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_140">
+            <form>charcoal</form>
+            <def>
+               <p>A lightweight black carbon residue produced by strongly heating wood (or other animal and plant materials) in minimal oxygen to remove all water and volatile constituents.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_007">
+            <form>hydrogene</form>
+            <def>
+               <p>Symbol/formula: H</p>
+               <p>Now known as hydrogen. Hydrogen is the lightest element and, at standard conditions, is a gas of diatomic molecules. It is colourless, odourless, tasteless, non-toxic, and highly combustible.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_016">
+            <form>muriatic acid</form>
+            <def>
+               <p>Symbol/formula: HCl</p>
+               <p>Hydrochloric acid. Davy also refers to this as muriatic gas and marine acid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_143">
+            <form>nitric acid</form>
+            <def>
+               <p>Symbol/formula: HNO3</p>
+               <p>A highly corrosive mineral acid. The compound is colourless, but samples tend to acquire a yellow cast over time due to decomposition into oxides of nitrogen</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_048">
+            <form>nitrous oxide</form>
+            <def>
+               <p>Symbol/formula: N2O</p>
+               <p>Later known as 'laughing gas'. Davy discovered that nitrous oxide was respirable when not contaminated with nitric oxide (NO). Davy researched into the physiological effects of nitrous oxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_072">
+            <form>hydrocarbonate </form>
+            <def>
+               <p>Symbol/formula: H2 + CO</p>
+               <p>Hydrogen mixed with carbon monoxide. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_300">
+            <form>red lead</form>
+            <def>
+               <p>Lead (II,IV) oxide. A bright red or solid orange, used in pigment, the manufacture of batteries, and rust-proof primer paints.</p>
+            </def>
+         </nym>
+      </listNym>
+      <listBibl>
+         <bibl xml:id="otherwork_218">
+            <author>Francis Bacon</author>
+            <title level="j">Atlantis</title>
+            <date when="1626">1626</date>
+            <note>Published posthumously</note>
+         </bibl>
+         <bibl xml:id="otherwork_231">
+            <author>Francis Hauksbee</author>
+            <title level="j">Physico-mechanical Experiments on Various Subjects</title>
+            <date when="1709">1709</date>
+         </bibl>
+         <bibl xml:id="otherwork_219">
+            <author>Wilhelm Homberg</author>
+            <title level="j">Histoire de l'Academie Royale des Sciences </title>
+            <title level="a" type="main">Observations sur une dissolution de l'Argent</title>
+            <date when="1706">1706</date>
+            <note>Title translates as: Observations on dissolving silver. Article available through bibliothque nationale de France</note>
+            <biblScope unit="page" from="102" to="07">102-07</biblScope>
+         </bibl>
+      </listBibl>
+      <listPlace>
+         <place xml:id="place_1031">
+            <placeName>Jakarta</placeName>
+            <location>
+               <geo decls="#WGS84">-6.19661423672411, 106.820573549098</geo>
+            </location>
+            <note>formerly Batavia, the capital and largest metropolis of Indonesia.</note>
+         </place>
+         <place xml:id="place_284">
+            <placeName>Edinburgh</placeName>
+            <location>
+               <geo decls="#WGS84">55.952743168058966,  -3.1904042104473902</geo>
+            </location>
+            <note>The capital city of Scotland.</note>
+         </place>
+         <place xml:id="place_718">
+            <placeName>Grotto del Cane</placeName>
+            <location>
+               <geo decls="#WGS84">40.82727235440011, 14.171822983407299</geo>
+            </location>
+            <note>A cave by the Lake of Agnano, in southern Italy, that has a high concentration of carbon dioxide. Dogs were used to demonstrate this as a kind of tourist attraction, which the Shelleys refused to allow when they visited. </note>
+         </place>
+         <place xml:id="place_121">
+            <placeName>England</placeName>
+            <location>
+               <geo decls="#WGS84">52.12544136722214, -1.7566152421063299</geo>
+            </location>
+            <note>England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.</note>
+         </place>
+      </listPlace>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+1810&#xD;<lb/>
+Phil<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">o</hi>. Exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">l</hi> Chemistry&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Lect.<hi rend="superscript">e</hi> 2<hi rend="superscript">d</hi>
+            </hi>
+            <lb/>
+In the early ages of cultivation;&#xD;<lb/>
+very powerful motives were required&#xD;<lb/>
+to induce them to pursue the&#xD;<lb/>
+laborious &amp; dangerous paths of&#xD;<lb/>
+Experimental Research. -&#xD;<lb/>
+To Minds influenced by&#xD;<lb/>
+superstition &amp; governed by credulity&#xD;<lb/>
+the Love of truth is unknown.&#xD;<lb/>
+Curiosity is never associated&#xD;<lb/>
+with ignorance; &amp; unless the&#xD;<lb/>
+opinion had <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">excited</del> prevailed that&#xD;<lb/>
+alchemical processes would lead&#xD;<lb/>
+to the discovery of the&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#misc_381"
+                type="miscellaneous">
+               <term xml:id="tag1">
+          Philosophers stone
+        </term>
+            </rs> or the elixir&#xD;<lb/>
+of life; to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">unbounded</hi> riches&#xD;<lb/>
+&amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">earthly immortality</hi>, - Chemistry&#xD;<lb/>
+would have been <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear>
+            </del> a&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+3&#xD;<lb/>
+later Science <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">(even)</add> &amp; much more slow&#xD;<lb/>
+in its progress. .&#xD;<lb/>
+- As (<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">however</del>) <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">however</add> important combinations&#xD;<lb/>
+for medicine &amp; the Arts. were&#xD;<lb/>
+produced from the furnaces&#xD;<lb/>
+of the alchemists, new objects&#xD;<lb/>
+arose for enquiry; &amp; Chemistry&#xD;<lb/>
+was pursued as the foundation&#xD;<lb/>
+of the new branches of manufacture&#xD;<lb/>
+|_: &amp; theoretical principles were&#xD;<lb/>
+discussed &amp; cultivated; as&#xD;<lb/>
+a guide to the Art. .&#xD;<lb/>
+-: <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag2"
+                ref="#person_639"
+                type="person">
+               <name xml:id="tag2" type="person">
+          Glauber
+        </name>
+            </rs> who flourished in&#xD;<lb/>
+Holland in about the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">beginning</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">middle</del>
+            <lb/>
+of the 16 century &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag3"
+                ref="#person_836"
+                type="person">
+               <name xml:id="tag3" type="person">
+          Glaser
+        </name>
+            </rs>
+            <lb/>
+who pursued Chemistry nearly&#xD;<lb/>
+at the same period in&#xD;<lb/>
+France, made a number&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+2&#xD;<lb/>
+of experiments in substances applicable&#xD;<lb/>
+to medical uses; And <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag4"
+                ref="#person_639"
+                type="person">
+               <name xml:id="tag4" type="person">
+          Glauber
+        </name>
+            </rs>
+            <lb/>
+was y<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">e</hi> first person who seems&#xD;<lb/>
+to have entertained any&#xD;<lb/>
+just ideas concerning neutral&#xD;<lb/>
+salts. - He discovered or&#xD;<lb/>
+first distinctly published that&#xD;<lb/>
+acids &amp; alkalies as it were&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">neutralized</hi> each other.&#xD;<lb/>
+-  <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag5"
+                ref="#chemical_087"
+                type="chemical">
+               <term xml:id="tag5">
+          oil of Vitriol
+          
+        </term>
+            </rs> or Sulphuric&#xD;<lb/>
+acid is a strong caustic&#xD;<lb/>
+substance which corrodes the&#xD;<lb/>
+skin - " <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag6" ref="#chemical_030" type="chemical">
+                  <term xml:id="tag6">
+          potash
+          
+        </term>
+               </rs>
+            </del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag7"
+                ref="#chemical_035"
+                type="chemical">
+               <term xml:id="tag7">
+                  <add>Soda</add>
+               </term>
+            </rs> or the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Vegetable</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">mineral</add>
+            <lb/>
+alkali is also violently active -&#xD;<lb/>
+-. The one reddens vegetable blues&#xD;<lb/>
+the other renders them green;&#xD;<lb/>
+When they are mixed there&#xD;<lb/>
+is a great heat &amp; effervescence&#xD;<lb/>
+&amp; the new substance if the&#xD;<lb/>
+proportions are properly arranged.&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+is a comparatively insipid substance&#xD;<lb/>
+what is called a neutral&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">salt</hi>; .- This substance&#xD;<lb/>
+called by modern Chemists&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag8"
+                ref="#chemical_415"
+                type="chemical">
+               <term xml:id="tag8">
+          Sulphate of Soda
+          
+        </term>
+            </rs> - bears from&#xD;<lb/>
+its discoverer the popular name&#xD;<lb/>
+of Glaubers salt. -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag9"
+                ref="#person_639"
+                type="person">
+               <name xml:id="tag9" type="person">
+          Glauber
+        </name>
+            </rs> was a great&#xD;<lb/>
+practical operator; but was&#xD;<lb/>
+likewise a trafficking Philosopher&#xD;<lb/>
+&amp; a vendor of secrets. He&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">made</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">ascertained</add> a number of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">discoveries</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">facts</add>
+            <lb/>
+some of which He disposed&#xD;<lb/>
+of <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">as secrets</add> at a very extravagant&#xD;<lb/>
+rate. - It is recorded of&#xD;<lb/>
+him that He made an exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">t</hi>
+            <lb/>
+before the states general&#xD;<lb/>
+of Holland which proved&#xD;<lb/>
+that Gold might be&#xD;<lb/>
+extracted from sand; but it is&#xD;<lb/>
+said that <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">that</add> prudent Body found&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+3&#xD;<lb/>
+the expence of extraction so&#xD;<lb/>
+great that. they prohibited&#xD;<lb/>
+any farther trials of this&#xD;<lb/>
+kind at least at their&#xD;<lb/>
+own cost. -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag10"
+                ref="#person_836"
+                type="person">
+               <name xml:id="tag10" type="person">
+          Glaser
+        </name>
+            </rs> was Apothecary to&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag11"
+                ref="#person_761"
+                type="person">
+               <name xml:id="tag11" type="person">
+          Lewis 14
+        </name>
+            </rs>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> &amp; the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag12"
+                ref="#person_847"
+                type="person">
+               <name xml:id="tag12" type="person">
+          Duke of Orleans
+        </name>
+            </rs>
+            <lb/>
+and was professor of Chemistry&#xD;<lb/>
+in the Royal Garden at Paris. -&#xD;<lb/>
+-. He deserves mention as the&#xD;<lb/>
+Author of one of the&#xD;<lb/>
+first philosophical treatises&#xD;<lb/>
+we possess on Elementary&#xD;<lb/>
+Chemistry; - A treatise which&#xD;<lb/>
+is free from all mysticism;&#xD;<lb/>
+&amp; in which the practical&#xD;<lb/>
+Doctrines at that time&#xD;<lb/>
+Known are delivered with&#xD;<lb/>
+much perspicacity &amp; simplicity &#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+|_ Till the middle of the 16&#xD;<lb/>
+Century the Sciences had been&#xD;<lb/>
+pursued only by a few private&#xD;<lb/>
+individuals; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">who</del> no public&#xD;<lb/>
+encouragement had been given&#xD;<lb/>
+to them; &amp; there had been&#xD;<lb/>
+no cooperation amongst&#xD;<lb/>
+learned men for promoting&#xD;<lb/>
+that common and universal&#xD;<lb/>
+benefit the general progress&#xD;<lb/>
+of Knowledge. -&#xD;<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag13"
+                ref="#person_124"
+                type="person">
+               <name xml:id="tag13" type="person">
+          Lord Bacon
+        </name>
+            </rs> in his new&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag14"
+                ref="#otherwork_218"
+                type="otherwork">
+               <bibl xml:id="tag14">
+            Atalantis
+        </bibl>
+            </rs> gave the idea of&#xD;<lb/>
+a great national Scientific&#xD;<lb/>
+establishment "for promoting&#xD;<lb/>
+Science &amp; improvement of&#xD;<lb/>
+every kind - " And <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag15" ref="#person_848" type="person">
+                  <name xml:id="tag15" type="person">
+          Cowley
+        </name>
+               </rs>
+            </del>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag16"
+                ref="#person_848"
+                type="person">
+               <name xml:id="tag16" type="person">
+          Cowley
+        </name>
+            </rs> in a more humble&#xD;<lb/>
+&amp; practicable <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">scheme</del> way&#xD;<lb/>
+brought forward his plan&#xD;<lb/>
+of a philosophical College.&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+4&#xD;<lb/>
+- A very few years after <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag17"
+                ref="#person_848"
+                type="person">
+               <name xml:id="tag17" type="person">
+          Cowley
+        </name>
+            </rs>
+            <lb/>
+published his sketch namely&#xD;<lb/>
+in 1652. the first public experimental&#xD;<lb/>
+Institution was founded " the&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag18"
+                ref="#misc_231"
+                type="miscellaneous">
+               <term xml:id="tag18">
+          Academy de Cimento
+        </term>
+            </rs>. - by&#xD;<lb/>
+Leopold <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag19"
+                ref="#person_428"
+                type="person">
+               <name xml:id="tag19" type="person">
+          Grand Duke of Tuscany
+        </name>
+            </rs>."&#xD;<lb/>
+. 8 years after the Royal&#xD;<lb/>
+Society was instituted: &amp; in&#xD;<lb/>
+1666 the example was&#xD;<lb/>
+followed in France -" by&#xD;<lb/>
+the formation of the Academy&#xD;<lb/>
+of Sciences. -&#xD;<lb/>
+-. The uses of these new establishments&#xD;<lb/>
+were great &amp; immediate; -&#xD;<lb/>
+|_From the united efforts &amp;&#xD;<lb/>
+strength of many minds, truth&#xD;<lb/>
+was much more rapidly&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">discovered, &amp; promulgated</hi>.&#xD;<lb/>
+-. By the interchange &amp;&#xD;<lb/>
+discussion of opinions, facts&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+were more strictly investigated&#xD;<lb/>
+&amp; prejudices more easily removed; -&#xD;<lb/>
+- The early philosophers, had attempted&#xD;<lb/>
+to combine in one view&#xD;<lb/>
+all the objects of Science;&#xD;<lb/>
+but in the plans instituted&#xD;<lb/>
+by the new Institutions there&#xD;<lb/>
+was a division of Labour;&#xD;<lb/>
+- the efforts made were&#xD;<lb/>
+more successful for they&#xD;<lb/>
+were not vainly applied&#xD;<lb/>
+to the whole of Nature; Exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi>
+            <lb/>
+were considered as of more&#xD;<lb/>
+value; than any hypothesis&#xD;<lb/>
+however brilliant or universal;&#xD;<lb/>
+&amp; the invention &amp; application&#xD;<lb/>
+of new instruments became&#xD;<lb/>
+a principal object of research.&#xD;<lb/>
+-. Literature &amp; the fine&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Arts</hi> require for <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">their</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="9"
+                xml:id="pb-9"
+                facs="#i9"/>
+            <lb/>
+5&#xD;<lb/>
+cultivation leisure, quiet&#xD;<lb/>
+&amp; that kind of patronage&#xD;<lb/>
+&amp; encouragement which is&#xD;<lb/>
+connected with a just&#xD;<lb/>
+valuation &amp; a ready sale&#xD;<lb/>
+of excellent productions; -&#xD;<lb/>
+-: The subjects of letters&#xD;<lb/>
+are always the same -&#xD;<lb/>
+|_ Their dominion is the&#xD;<lb/>
+whole moral world;&#xD;<lb/>
+the past &amp; the present&#xD;<lb/>
+are alike submitted to&#xD;<lb/>
+their Authority; &amp; the&#xD;<lb/>
+only instruments required&#xD;<lb/>
+are instruments of intellect&#xD;<lb/>
+&amp; of thought: -&#xD;<lb/>
+|_(In the experimental Sciences&#xD;<lb/>
+on the Contrary; - &#xD;<lb/>
+Study is of no avail without&#xD;<lb/>
+apparatus &amp; machinery" -&#xD;<lb/>
+&amp; the objects to be attained&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="10"
+                xml:id="pb-10"
+                facs="#i10"/>
+            <lb/>
+are seldom immediately&#xD;<lb/>
+connected with popular&#xD;<lb/>
+use or public amusement; -&#xD;<lb/>
+- the good is great; but&#xD;<lb/>
+generally distant; "they require&#xD;<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">more</add>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">public assistance</hi> &amp; in their&#xD;<lb/>
+ultimate tendency they&#xD;<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">are</unclear> are greater public&#xD;<lb/>
+benefits for they create&#xD;<lb/>
+new Arts, new manufacturers&#xD;<lb/>
+&amp; new sources of wealth&#xD;<lb/>
+&amp; of favour. -&#xD;<lb/>
+- |_The Academy <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag20"
+                ref="#misc_231"
+                type="miscellaneous">
+               <term xml:id="tag20">
+          del Cimento
+        </term>
+            </rs>
+            <lb/>
+&amp; the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag21"
+                ref="#misc_263"
+                type="miscellaneous">
+               <term xml:id="tag21">
+          Academy of Sciences
+        </term>
+            </rs>
+            <lb/>
+were endowed by their&#xD;<lb/>
+illustrious Founders: - The&#xD;<lb/>
+Royal Society on the&#xD;<lb/>
+contrary was supported&#xD;<lb/>
+by the efforts of its&#xD;<lb/>
+members; But even under&#xD;<lb/>
+this disadvantage; the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">first</del>
+            <lb/>
+flame of enquiry&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="11"
+                xml:id="pb-11"
+                facs="#i11"/>
+            <lb/>
+6&#xD;<lb/>
+which had been kindled by&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag22"
+                ref="#person_124"
+                type="person">
+               <name xml:id="tag22" type="person">
+          Bacon
+        </name>
+            </rs> &amp; preserved alive&#xD;<lb/>
+by so many illustrious philosophers&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">tended</del> did not fail to spread&#xD;<lb/>
+&amp; rise to greater brilliancy&#xD;<lb/>
+&amp; height; : -&#xD;<lb/>
+-. I have already referred to&#xD;<lb/>
+the Labours of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag23"
+                ref="#person_103"
+                type="person">
+               <name xml:id="tag23" type="person">
+          Boyle
+        </name>
+            </rs>
+            <lb/>
+&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag24"
+                ref="#person_246"
+                type="person">
+               <name xml:id="tag24" type="person">
+          Hooke
+        </name>
+            </rs> and of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag25"
+                ref="#person_377"
+                type="person">
+               <name xml:id="tag25" type="person">
+          Mayow
+        </name>
+            </rs>; which&#xD;<lb/>
+were carried on partly&#xD;<lb/>
+before and partly after the&#xD;<lb/>
+Institution of the Royal&#xD;<lb/>
+Society: - |_ The Academicians&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag26"
+                ref="#misc_231"
+                type="miscellaneous">
+               <term xml:id="tag26">
+          del Cimento
+        </term>
+            </rs>; attended more&#xD;<lb/>
+to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag27"
+                ref="#otherwork_231"
+                type="otherwork">
+               <bibl xml:id="tag27">
+            physico mechanical
+        </bibl>
+            </rs> than&#xD;<lb/>
+to chemical exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi>; - . The&#xD;<lb/>
+existence of the body was&#xD;<lb/>
+of short duration; but the&#xD;<lb/>
+volume that they published&#xD;<lb/>
+containing an admirable series&#xD;<lb/>
+of exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi> related with modesty&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="12"
+                xml:id="pb-12"
+                facs="#i12"/>
+            <lb/>
+&amp; implicitly: -&#xD;<lb/>
+- In the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag28"
+                ref="#misc_263"
+                type="miscellaneous">
+               <term xml:id="tag28">
+          Academy of Sciences
+        </term>
+            </rs>
+            <lb/>
+of Paris Chemistry was&#xD;<lb/>
+pursued with much more&#xD;<lb/>
+zeal it was a favorite&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">pursuit</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">study</add> of the Duke of&#xD;<lb/>
+Orleans who spared no&#xD;<lb/>
+expense in promoting&#xD;<lb/>
+exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">t</hi> &amp; lost no opportunity&#xD;<lb/>
+of engaging enlightened&#xD;<lb/>
+men to pursue this novel&#xD;<lb/>
+&amp; wonderful path of&#xD;<lb/>
+knowledge. -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag29"
+                ref="#person_811+person_840"
+                type="person">
+               <name xml:id="tag29" type="person">
+          The two Lemerys
+        </name>
+            </rs> &amp;&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag30"
+                ref="#person_345"
+                type="person">
+               <name xml:id="tag30" type="person">
+          Homberg
+        </name>
+            </rs> were amongst&#xD;<lb/>
+the most active of the&#xD;<lb/>
+early chemical labourers&#xD;<lb/>
+in the Academy of&#xD;<lb/>
+Sciences - <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag31"
+                ref="#person_811+person_840"
+                type="person">
+               <name xml:id="tag31" type="person">
+          The two Lemerys
+        </name>
+            </rs>
+            <lb/>
+were Frenchmen. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag32"
+                ref="#person_345"
+                type="person">
+               <name xml:id="tag32" type="person">
+          Homberg
+        </name>
+            </rs>
+            <lb/>
+was born in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag33"
+                ref="#place_1031"
+                type="place">
+               <name xml:id="tag33" type="place">
+          Batavia
+        </name>
+            </rs>
+            <lb/>
+&amp; was invited by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag34"
+                ref="#person_839"
+                type="person">
+               <name xml:id="tag34" type="person">
+          Colbert
+        </name>
+            </rs> to&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="13"
+                xml:id="pb-13"
+                facs="#i13"/>
+            <lb/>
+7&#xD;<lb/>
+establish himself at Paris. -&#xD;<lb/>
+- These <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">three chemists</add> furnished a number of&#xD;<lb/>
+papers to the Academy between&#xD;<lb/>
+the years 1690. and 1720.&#xD;<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag35"
+                ref="#person_811"
+                type="person">
+               <name xml:id="tag35" type="person">
+          Lemery the elder
+        </name>
+            </rs> was&#xD;<lb/>
+the Author of an elementary&#xD;<lb/>
+book on chemistry <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear>
+            </del> &amp; made a&#xD;<lb/>
+number of observations&#xD;<lb/>
+upon metallic substances&#xD;<lb/>
+particularly upon <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag36"
+                ref="#chemical_255"
+                type="chemical">
+               <term xml:id="tag36">
+          antimony
+          
+        </term>
+            </rs>. -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag37"
+                ref="#person_840"
+                type="person">
+               <name xml:id="tag37" type="person">
+          Lemery <add>the younger</add>
+               </name>
+            </rs> was the first&#xD;<lb/>
+Person who attempted to&#xD;<lb/>
+illustrate the phenomenon&#xD;<lb/>
+of volcanoes by exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">t</hi>. - He&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">was the Author of the</del>
+            <lb/>
+buried a paste made of&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag38"
+                ref="#chemical_037"
+                type="chemical">
+               <term xml:id="tag38">
+          Sulphur
+          
+        </term>
+            </rs> &amp; iron slightly&#xD;<lb/>
+moistened under the surface&#xD;<lb/>
+of the ground; - &amp; after&#xD;<lb/>
+nine hours the mixture burst&#xD;<lb/>
+into flame with explosion. -&#xD;<lb/>
+This at the time was&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="14"
+                xml:id="pb-14"
+                facs="#i14"/>
+            <lb/>
+considered as a demonstration&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <add>considered</add>
+            </del> that <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag39"
+                ref="#chemical_037"
+                type="chemical">
+               <term xml:id="tag39">
+          Sulphur
+          
+        </term>
+            </rs> &amp; Iron were&#xD;<lb/>
+the great principles concerned&#xD;<lb/>
+in these grand natural&#xD;<lb/>
+events; - but the progress&#xD;<lb/>
+of Science as I shall hereafter&#xD;<lb/>
+explain has furnished a&#xD;<lb/>
+more simple &amp; a more adequate&#xD;<lb/>
+explanation.&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag40"
+                ref="#person_345"
+                type="person">
+               <name xml:id="tag40" type="person">
+          Homberg
+        </name>
+            </rs> was a man of&#xD;<lb/>
+genius &amp; an indefatigable&#xD;<lb/>
+experimenter; - We owe to&#xD;<lb/>
+him a number of curious&#xD;<lb/>
+observations upon metallic&#xD;<lb/>
+precipitations &amp; Chrystalizations:&#xD;<lb/>
+&amp; he was the discoverer&#xD;<lb/>
+of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag41"
+                ref="#misc_103"
+                type="miscellaneous">
+               <term xml:id="tag41">
+          Pyrophorus
+        </term>
+            </rs> which&#xD;<lb/>
+still bears his name.&#xD;<lb/>
+and which is made by&#xD;<lb/>
+combining together <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">alum &amp; sugar</add> 2 1/2 of&#xD;<lb/>
+Alum and 1 of sugar&#xD;<lb/>
+Instance&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="15"
+                xml:id="pb-15"
+                facs="#i15"/>
+            <lb/>
+8&#xD;<lb/>
+- That exposure to the atmosphere&#xD;<lb/>
+was essential to enable this&#xD;<lb/>
+substance to kindle was clear&#xD;<lb/>
+to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag42"
+                ref="#person_345"
+                type="person">
+               <name xml:id="tag42" type="person">
+          Homberg
+        </name>
+            </rs>; &amp; it is&#xD;<lb/>
+therefore extraordinary that&#xD;<lb/>
+he did not adopt the&#xD;<lb/>
+beautiful <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Hyp</del> doctrine of&#xD;<lb/>
+the British Schools; of&#xD;<lb/>
+the dependence of combustion&#xD;<lb/>
+upon Air; – his philosophy&#xD;<lb/>
+of this process was <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">much</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">more</del> extremely vague &amp; incorrect&#xD;<lb/>
+though in the opinion of&#xD;<lb/>
+his colleagues; it was&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">system</del> the most perfect&#xD;<lb/>
+&amp; sublime generalization&#xD;<lb/>
+that had been advanced. -&#xD;<lb/>
+- . He adopted  a similar idea&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del> to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag43"
+                ref="#person_388"
+                type="person">
+               <name xml:id="tag43" type="person">
+          Stahl
+        </name>
+            </rs>; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">under the</del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to</del> but to his&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="16"
+                xml:id="pb-16"
+                facs="#i16"/>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag44"
+                ref="#chemical_046"
+                type="chemical">
+               <term xml:id="tag44">
+          Phlogiston
+          
+        </term>
+            </rs> he gave the name&#xD;<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag45"
+                ref="#chemical_037"
+                type="chemical">
+               <term xml:id="tag45">
+          Sulphur
+          
+        </term>
+            </rs>; " - He conceived&#xD;<lb/>
+that peculiar sulphurs were&#xD;<lb/>
+always given off in inflammation:&#xD;<lb/>
+and he attributed the increases&#xD;<lb/>
+of weight of metals during&#xD;<lb/>
+calcination not to their&#xD;<lb/>
+combination with <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag46"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag46">
+                  <del rend="strikethrough">oxygene</del>
+               </term>
+            </rs>
+            <lb/>
+a part of the air; but&#xD;<lb/>
+to a fixation of light&#xD;<lb/>
+in them: -.  And he was&#xD;<lb/>
+led to this false conclusion&#xD;<lb/>
+by a series of experiments&#xD;<lb/>
+made with a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">magnificent</hi>
+            <lb/>
+burning glass; constructed by&#xD;<lb/>
+order of his patron&#xD;<lb/>
+the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag47"
+                ref="#person_847"
+                type="person">
+               <name xml:id="tag47" type="person">
+          Duke of <hi rend="underline">Orleans</hi>
+               </name>
+            </rs>;&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag48"
+                ref="#person_345"
+                type="person">
+               <name xml:id="tag48" type="person">
+          Homberg
+        </name>
+            </rs>'s theoretical opinions; &#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">though always false,</del> being&#xD;<lb/>
+founded upon a misinterpretation&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="17"
+                xml:id="pb-17"
+                facs="#i17"/>
+            <lb/>
+9&#xD;<lb/>
+of facts are always false; yet&#xD;<lb/>
+the manner in which he brings&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">defends them</del>
+            <lb/>
+them forward is often logical&#xD;<lb/>
+&amp; impressive: - " &amp; his authoritative&#xD;<lb/>
+style was much more calculated&#xD;<lb/>
+to produce confidence in&#xD;<lb/>
+the students of the Science&#xD;<lb/>
+than the modest &amp; hypothetical&#xD;<lb/>
+views which <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">represented</del> were brought&#xD;<lb/>
+forward by our own Countrymen.&#xD;<lb/>
+- I shall give a translation of&#xD;<lb/>
+the end of his <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag49"
+                ref="#otherwork_219"
+                type="otherwork">
+               <bibl xml:id="tag49">
+            essay
+        </bibl>
+            </rs> on flame&#xD;<lb/>
+from the History of the Academy&#xD;<lb/>
+for 1706 - It is a specimen&#xD;<lb/>
+of his best manner of&#xD;<lb/>
+treating chemical subjects. -&#xD;<lb/>
+- He says Composition can&#xD;<lb/>
+be infinitely varied - for the&#xD;<lb/>
+substance of a compound&#xD;<lb/>
+body consisting only of the&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="18"
+                xml:id="pb-18"
+                facs="#i18"/>
+            <lb/>
+assemblage of the matters which&#xD;<lb/>
+compose it if this assemblage&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">either</del> is changed either by&#xD;<lb/>
+newly arranging the parts&#xD;<lb/>
+or by varying the proportions&#xD;<lb/>
+which may done almost&#xD;<lb/>
+to infinity " it is evident&#xD;<lb/>
+that the characters of the&#xD;<lb/>
+body are susceptible of an&#xD;<lb/>
+infinite variety of changes. -&#xD;<lb/>
+The matter of light, in producing&#xD;<lb/>
+sulphureous matters, introduces itself into the&#xD;<lb/>
+substance of bodies, alters the arrangement&#xD;<lb/>
+of their parts &amp; increases them, &amp; consequently&#xD;<lb/>
+it changes the substance of the bodies&#xD;<lb/>
+themselves in as many different ways as it&#xD;<lb/>
+is possible to vary the situations &amp; alter the&#xD;<lb/>
+quantities, thus giving rise to infinite variety;&#xD;<lb/>
+so that if we wished to compare the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">diversity</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">variety</del>
+            <lb/>
+of bodies that exist, with that which might <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">be</del>
+            <lb/>
+arise from all the combinations possible, we&#xD;<lb/>
+should be obliged to confess that the known Universe&#xD;<lb/>
+is very contemptible in comparison with that which&#xD;<lb/>
+might be formed, &amp; also that if there were many worlds&#xD;<lb/>
+similar to this we inhabit, they might all be adorned with&#xD;<lb/>
+different objects without any change of matter or mode&#xD;<lb/>
+of combination; a circumstance that marks the richness&#xD;<lb/>
+&amp; infinite power of the Being which created the universe -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="19"
+                xml:id="pb-19"
+                facs="#i19"/>
+            <lb/>
+10&#xD;<lb/>
+I have mentioned that <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag50"
+                ref="#person_639"
+                type="person">
+               <name xml:id="tag50" type="person">
+          Glauber
+        </name>
+            </rs>
+            <lb/>
+discovered the manner in which&#xD;<lb/>
+Acids &amp; alkalies as it were&#xD;<lb/>
+neutralised each other. - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Nothing</del> The&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">manner in</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">(theory by)</add> which this phenomenon&#xD;<lb/>
+was accounted for by the Philosophers&#xD;<lb/>
+of the German &amp; the French&#xD;<lb/>
+School is very amusing -&#xD;<lb/>
+They supposed that acids <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">from</del> were&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">their</del> composed of little <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">points</add> spiculae&#xD;<lb/>
+or darts; - And that alkalies&#xD;<lb/>
+were Bodies possessing pores capable&#xD;<lb/>
+of receiving these points or spiculae;&#xD;<lb/>
+- And they affirmed that when&#xD;<lb/>
+a neutral salt was formed, the&#xD;<lb/>
+spiculae, or the darts of the acid&#xD;<lb/>
+became as it were locked&#xD;<lb/>
+up in the pores of&#xD;<lb/>
+the alkali "- It would&#xD;<lb/>
+seem as if this Notion had&#xD;<lb/>
+an influence upon common language&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="20"
+                xml:id="pb-20"
+                facs="#i20"/>
+            <lb/>
+for <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">the words</add> sharp &amp; pungent in matters&#xD;<lb/>
+of taste are often applied&#xD;<lb/>
+to acids; - This mechanical&#xD;<lb/>
+Doctrine was considered as&#xD;<lb/>
+so just that several&#xD;<lb/>
+of the earlier Observers with&#xD;<lb/>
+the Microscope attempted to&#xD;<lb/>
+discover these little points&#xD;<lb/>
+in acid fluids; &amp; there&#xD;<lb/>
+were not wanting some who&#xD;<lb/>
+carried their imagination so&#xD;<lb/>
+far as to believe that&#xD;<lb/>
+they had actually seen them.&#xD;<lb/>
+- All the new arrangements&#xD;<lb/>
+of Bodies were by the early French&#xD;<lb/>
+Academicians, &amp; the Disciples&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of <rs xml:id="ttag51" ref="#person_388" type="person">
+                  <name xml:id="tag51" type="person">
+          Stahl
+        </name>
+               </rs>
+            </hi> conceived to depend&#xD;<lb/>
+upon new mechanical&#xD;<lb/>
+appositions of their parts:&#xD;<lb/>
+- There was indeed a kind&#xD;<lb/>
+of sentimental theory of Chemistry&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="21"
+                xml:id="pb-21"
+                facs="#i21"/>
+            <lb/>
+11&#xD;<lb/>
+advanced by some few of the&#xD;<lb/>
+fast Disciples of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag52"
+                ref="#misc_410"
+                type="miscellaneous">
+               <term xml:id="tag52">
+          Rosicrucian
+        </term>
+            </rs>
+            <lb/>
+sect. Namely that there&#xD;<lb/>
+was a particular affection&#xD;<lb/>
+or love between the spiritual&#xD;<lb/>
+essences which existed in&#xD;<lb/>
+certain bodies; &amp; which&#xD;<lb/>
+disposed them to harmonize&#xD;<lb/>
+and unite; but of course in&#xD;<lb/>
+the rising age of exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">t</hi>
+            <lb/>
+such a notion could meet&#xD;<lb/>
+with no admirers; &amp; the&#xD;<lb/>
+desire of destroying occult causes&#xD;<lb/>
+gave currency &amp; importance&#xD;<lb/>
+to the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">mechanical</hi> solution.&#xD;<lb/>
+- By a singular concurrence&#xD;<lb/>
+of circumstances it was&#xD;<lb/>
+reserved for the same Great&#xD;<lb/>
+Genius who develloped the&#xD;<lb/>
+Laws of the planetary system&#xD;<lb/>
+&amp; who unfurlded the Harmonious&#xD;<lb/>
+movements of the great masses&#xD;<lb/>
+of matter in the universe -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="22"
+                xml:id="pb-22"
+                facs="#i22"/>
+            <lb/>
+It was reserved for <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag53"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag53" type="person">
+          Newton
+        </name>
+            </rs> to&#xD;<lb/>
+lay the foundation of the&#xD;<lb/>
+first <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">principles</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">theory</add> of Chemical&#xD;<lb/>
+action &amp; to solve the&#xD;<lb/>
+diversified phenomena of&#xD;<lb/>
+corpuscular changes by a&#xD;<lb/>
+great &amp; universal principle.&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">similar</hi> to that which&#xD;<lb/>
+he had before applied to&#xD;<lb/>
+the phaenomena of the&#xD;<lb/>
+heavenly bodies. -&#xD;<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag54"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag54" type="person">
+          Newton
+        </name>
+            </rs> toward the&#xD;<lb/>
+close of his life was made&#xD;<lb/>
+Master of the Mint; - And&#xD;<lb/>
+that th<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">at</del> is office was once&#xD;<lb/>
+bestowed upon a man of&#xD;<lb/>
+Science was a great &amp;&#xD;<lb/>
+glorious circumstance for&#xD;<lb/>
+the progress of Chemistry.&#xD;<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag55"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag55" type="person">
+          Newton
+        </name>
+            </rs> preferred the duties&#xD;<lb/>
+of Master of the Mint &amp;&#xD;<lb/>
+made a number of exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="23"
+                xml:id="pb-23"
+                facs="#i23"/>
+            <lb/>
+12&#xD;<lb/>
+upon metallic solutions &amp; alloys&#xD;<lb/>
+- He discovered several new alloys&#xD;<lb/>
+particularly that of a mixture&#xD;<lb/>
+which fuses at the heat of&#xD;<lb/>
+boiling water &amp; which is&#xD;<lb/>
+composed of lead, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag56"
+                ref="#chemical_038"
+                type="chemical">
+               <term xml:id="tag56">
+          Tin
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag57"
+                ref="#chemical_187"
+                type="chemical">
+               <term xml:id="tag57">
+          Bismuth
+          
+        </term>
+            </rs>.&#xD;<lb/>
+- In reasoning upon the phaenomena&#xD;<lb/>
+of the dissolvent power of acids&#xD;<lb/>
+his sagacious mind at once&#xD;<lb/>
+perceived " the extension of&#xD;<lb/>
+an order " which prevailed&#xD;<lb/>
+with respect to the great&#xD;<lb/>
+arrangements of Matter. -&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag58"
+                ref="#chemical_340"
+                type="chemical">
+               <term xml:id="tag58">
+          Gum
+          
+        </term>
+            </rs>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Resin</add> dissolves in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Water</del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag59"
+                ref="#chemical_341"
+                type="chemical">
+               <term xml:id="tag59">
+                  <add>spirit of wine</add>
+               </term>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag60"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag60">
+          copper
+          
+        </term>
+            </rs> dissolves in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag61"
+                ref="#chemical_150"
+                type="chemical">
+               <term xml:id="tag61">
+          Aqua fortis
+          
+        </term>
+            </rs>
+            <lb/>
+or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag62"
+                ref="#chemical_137"
+                type="chemical">
+               <term xml:id="tag62">
+          Nitrous Acid
+          
+        </term>
+            </rs>; - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">This</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">says <rs xml:id="ttag63" ref="#person_036" type="person">
+                  <name xml:id="tag63" type="person">
+          Newton
+        </name>
+               </rs>
+            </del> Instance&#xD;<lb/>
+Attraction -&#xD;<lb/>
+- But <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">spirit</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">water</add> throws down resin&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>
+                  <rs xml:id="ttag64" ref="#chemical_340" type="chemical">
+                     <term xml:id="tag64">
+          Gum
+          
+        </term>
+                  </rs>
+               </unclear>
+            </del> from water.&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="24"
+                xml:id="pb-24"
+                facs="#i24"/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Iron</del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag65"
+                ref="#chemical_201"
+                type="chemical">
+               <term xml:id="tag65">
+                  <add>Zinc</add>
+               </term>
+            </rs> throws down&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag66" ref="#chemical_070" type="chemical">
+                  <term xml:id="tag66">
+          copper
+          
+        </term>
+               </rs> from <rs xml:id="ttag67" ref="#chemical_150" type="chemical">
+                  <term xml:id="tag67">
+          Aqua fortis
+          
+        </term>
+               </rs>
+            </hi>
+            <lb/>
+- Therefore spirit has a&#xD;<lb/>
+stronger attraction&#xD;<lb/>
+Iron stronger attraction&#xD;<lb/>
+- And therefore says this&#xD;<lb/>
+illustrious man the&#xD;<lb/>
+Chemical phaenomena depend&#xD;<lb/>
+upon the different attractive&#xD;<lb/>
+forces of water&#xD;<lb/>
+- A principle at once so&#xD;<lb/>
+beautiful &amp; simple &amp; enforced&#xD;<lb/>
+by the Authority of such&#xD;<lb/>
+a Master was immediately&#xD;<lb/>
+adopted - <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag68"
+                ref="#person_427"
+                type="person">
+               <name xml:id="tag68" type="person">
+          Geoffry
+        </name>
+            </rs> the most&#xD;<lb/>
+able Chemist in the&#xD;<lb/>
+Academy of Science; endeavoured&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="25"
+                xml:id="pb-25"
+                facs="#i25"/>
+            <lb/>
+13&#xD;<lb/>
+two years after <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag69"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag69" type="person">
+          Newton
+        </name>
+            </rs> had&#xD;<lb/>
+published a complete development&#xD;<lb/>
+of his chemical opinions namely&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in the edition of his Optics</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">which appeared in</del> 1718&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag70"
+                ref="#person_427"
+                type="person">
+               <name xml:id="tag70" type="person">
+          Geoffry
+        </name>
+            </rs> endeavoured to make&#xD;<lb/>
+a table of chemical Attractions&#xD;<lb/>
+&amp; to shew by numerical&#xD;<lb/>
+expressions "- the powers which&#xD;<lb/>
+bodies had of separating each&#xD;<lb/>
+other from solvents: - His manner&#xD;<lb/>
+of doing this was however far&#xD;<lb/>
+from being generous; - He changed&#xD;<lb/>
+the name of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">attraction</hi> to&#xD;<lb/>
+thatt <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of affinity;</hi> &amp; made&#xD;<lb/>
+no mention whatever of&#xD;<lb/>
+the original inventor in&#xD;<lb/>
+his paper; - |_Though the&#xD;<lb/>
+principle was referred to&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag71"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag71" type="person">
+          Newton
+        </name>
+            </rs> by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag72"
+                ref="#person_615"
+                type="person">
+               <name xml:id="tag72" type="person">
+          Senac
+        </name>
+            </rs> who&#xD;<lb/>
+published an elementary book&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="26"
+                xml:id="pb-26"
+                facs="#i26"/>
+            <lb/>
+on Chemistry in French in 1723;&#xD;<lb/>
+yet still the authority of&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag73"
+                ref="#person_427"
+                type="person">
+               <name xml:id="tag73" type="person">
+          Geoffry
+        </name>
+            </rs> &amp; his Successors in&#xD;<lb/>
+the Academy who produced&#xD;<lb/>
+several popular elementary&#xD;<lb/>
+books on Chemistry; influenced&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> in a higher degree the&#xD;<lb/>
+public opinion; - &amp; for a&#xD;<lb/>
+long while the erroneous&#xD;<lb/>
+&amp; vague term affinity&#xD;<lb/>
+was substituted for&#xD;<lb/>
+a word which implied&#xD;<lb/>
+the simple expression of a&#xD;<lb/>
+fact - The greatness&#xD;<lb/>
+of the reputation of&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag74"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag74" type="person">
+          Newton
+        </name>
+            </rs>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">rendered</del> at this&#xD;<lb/>
+period rendered his own&#xD;<lb/>
+Countrymen almost indifferent&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to <unclear>xx</unclear>
+            </del> to his claims in&#xD;<lb/>
+Chemical Philosophy.; In&#xD;<lb/>
+the abundance&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="27"
+                xml:id="pb-27"
+                facs="#i27"/>
+            <lb/>
+14&#xD;<lb/>
+- the rich stores which he&#xD;<lb/>
+had afforded to Science;&#xD;<lb/>
+such a small contribution&#xD;<lb/>
+was hardly missed. |_The&#xD;<lb/>
+controversy concerning the invention&#xD;<lb/>
+of fluxions was of a higher&#xD;<lb/>
+character - And <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the lustre</hi>
+            <lb/>
+of <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">this</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">mathematical</del> authentical</unclear> philosophy&#xD;<lb/>
+in some measure <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">threw</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">obscured</del> his&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> chemical discoveries into shade;&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">but Justice whilst the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">annals of Science exist; whilst</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">dates are preserved will always</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">sooner or later be rendered</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to Discoverers;</del>
+            <lb/>
+but justice is the first principle&#xD;<lb/>
+of philosophical History: - It is&#xD;<lb/>
+not <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">with the vain idea</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to</del> of adding to the reputation&#xD;<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag75"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag75" type="person">
+          Newton
+        </name>
+            </rs> that I make these&#xD;<lb/>
+statements; not <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">with</del> for the unworthy motive of</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to</del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">exalt</del> expressing&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">feelings</del> of nationality; but for&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="28"
+                xml:id="pb-28"
+                facs="#i28"/>
+            <lb/>
+the sake of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">following truth</hi>; -&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; of speaking of her disciples</del>
+            <lb/>
+&amp; of attributing <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">honour</del> Glory where&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">honour</del> Glory is justly due&#xD;<lb/>
+- In speaking of the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">early</add> discoveries&#xD;<lb/>
+made <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">concerning air</hi>, I mentioned&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag76"
+                ref="#person_624"
+                type="person">
+               <name xml:id="tag76" type="person">
+                  <hi rend="underline">Rey</hi>
+               </name>
+            </rs> as the first person who&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">found</del> attributed the increase&#xD;<lb/>
+of weight <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in</del> of metals during&#xD;<lb/>
+calcination to the influence&#xD;<lb/>
+of the air. I ought&#xD;<lb/>
+at the same time to&#xD;<lb/>
+have mentioned <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag77" ref="#person_279" type="person">
+                  <name xml:id="tag77" type="person">
+          Slare
+        </name>
+               </rs>
+            </del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag78"
+                ref="#person_279"
+                type="person">
+               <name xml:id="tag78" type="person">
+          D<hi rend="superscript">r</hi> Slare
+        </name>
+            </rs>
+            <lb/>
+as having observed a&#xD;<lb/>
+change of colours in different&#xD;<lb/>
+substances by the influence&#xD;<lb/>
+of the Atmosphere &amp; this&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">He attributed</del> to the absorption&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of some</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">aerial</add>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">particles</hi>- .. -&#xD;<lb/>
+He particularly dwellt upon&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="29"
+                xml:id="pb-29"
+                facs="#i29"/>
+            <lb/>
+15&#xD;<lb/>
+the change of colour of venous&#xD;<lb/>
+blood by the action of air. -&#xD;<lb/>
+- He also <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">multiplied &amp; <unclear>xxxxxxxx</unclear>
+            </del>
+            <lb/>
+made a number of curious&#xD;<lb/>
+exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi> on the inflammation&#xD;<lb/>
+of bodies; by being brought&#xD;<lb/>
+in Contact&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag79"
+                ref="#person_623"
+                type="person">
+               <name xml:id="tag79" type="person">
+                  <hi rend="underline">Borrichius</hi>. -
+        </name>
+            </rs>
+            <lb/>
+Stare 1694&#xD;<lb/>
+- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">attributes it to <unclear>air</unclear>
+            </hi>
+            <lb/>
+in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag80"
+                ref="#chemical_044"
+                type="chemical">
+               <term xml:id="tag80">
+                  <hi rend="underline">Nitre</hi>
+               </term>
+            </rs>.&#xD;<lb/>
+- .- : The First Enquirer who&#xD;<lb/>
+took up the subject of&#xD;<lb/>
+air; after <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag81"
+                ref="#person_246"
+                type="person">
+               <name xml:id="tag81" type="person">
+          Hooke
+        </name>
+            </rs>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag82"
+                ref="#person_103"
+                type="person">
+               <name xml:id="tag82" type="person">
+          Boyle
+        </name>
+            </rs>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag83"
+                ref="#person_377"
+                type="person">
+               <name xml:id="tag83" type="person">
+          Mayow
+        </name>
+            </rs>
+            <lb/>
+&amp; Stare; &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the Founder</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of the second English School</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="30"
+                xml:id="pb-30"
+                facs="#i30"/>
+            <lb/>
+was <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag84"
+                ref="#person_016"
+                type="person">
+               <name xml:id="tag84" type="person">
+                  <hi rend="underline">D<hi rend="superscript">r</hi> Hales</hi>
+               </name>
+            </rs>: - This&#xD;<lb/>
+ingenious Man made a&#xD;<lb/>
+number of experiments&#xD;<lb/>
+on the subject of air&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">between</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">about</add> the year 1730;&#xD;<lb/>
+- His common method of&#xD;<lb/>
+experimenting was by heating&#xD;<lb/>
+substances in a gun barrel&#xD;<lb/>
+&amp; He found that almost&#xD;<lb/>
+all animal &amp; vegetable&#xD;<lb/>
+bodies &amp; a number of&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">mineral bodies</hi> evolved&#xD;<lb/>
+air&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">Air</hi>
+            </del>
+            <lb/>
+Instance .&#xD;<lb/>
+-: He called this air&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">fixed air</hi>. His idea was&#xD;<lb/>
+that it was common&#xD;<lb/>
+air in a particular&#xD;<lb/>
+state of modification&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="31"
+                xml:id="pb-31"
+                facs="#i31"/>
+            <lb/>
+16&#xD;<lb/>
+He had not the least notion&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">idea</del>; that different&#xD;<lb/>
+elastic substances were&#xD;<lb/>
+disengaged in different operations -&#xD;<lb/>
+- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">This <rs xml:id="ttag85" ref="#person_016" type="person">
+                  <name xml:id="tag85" type="person">
+                     <hi rend="underline">D<hi rend="superscript">r</hi> Hales</hi>
+                  </name>
+               </rs> had however</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">very</del> He conceived however that&#xD;<lb/>
+the air was the agent principally&#xD;<lb/>
+concerned in all fermentations;&#xD;<lb/>
+&amp; as a number of bodies&#xD;<lb/>
+lost their coherence by calcination&#xD;<lb/>
+a process in which air was&#xD;<lb/>
+ evolved: He conceived that&#xD;<lb/>
+it might be the general&#xD;<lb/>
+cement in bodies the principle&#xD;<lb/>
+which gave to them solidity&#xD;<lb/>
+&amp; strength&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="32"
+                xml:id="pb-32"
+                facs="#i32"/>
+            <lb/>
+- In this instance there was <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a</del>
+            <lb/>
+a species of retrograde step -&#xD;<lb/>
+error followed the perception&#xD;<lb/>
+of truth - but the ideas of&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag86"
+                ref="#person_021"
+                type="person">
+               <name xml:id="tag86" type="person">
+          D<hi rend="superscript">r</hi> Hales
+        </name>
+            </rs> were little pursued&#xD;<lb/>
+&amp; the glory of forming the true&#xD;<lb/>
+immutable basis of the science&#xD;<lb/>
+was reserved for <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag87"
+                ref="#person_231"
+                type="person">
+               <name xml:id="tag87" type="person">
+          D<hi rend="superscript">r</hi>. Black
+        </name>
+            </rs>
+            <lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag88"
+                ref="#place_284"
+                type="place">
+               <name xml:id="tag88" type="place">
+          Edinburgh
+        </name>
+            </rs>.&#xD;<lb/>
+In 1755. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag89"
+                ref="#person_231"
+                type="person">
+               <name xml:id="tag89" type="person">
+          D<hi rend="superscript">r</hi>. Black
+        </name>
+            </rs> whilst&#xD;<lb/>
+engaged in a series of exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi>.&#xD;<lb/>
+upon the alkalies <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag90" ref="#chemical_010" type="chemical">
+                  <term xml:id="tag90">
+          Lime
+          
+        </term>
+               </rs> &amp; <rs xml:id="ttag91" ref="#chemical_011" type="chemical">
+                  <term xml:id="tag91">
+          Magnesia
+          
+        </term>
+               </rs>
+            </hi>
+            <lb/>
+examined the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag92"
+                ref="#chemical_078"
+                type="chemical">
+               <term xml:id="tag92">
+          elastic fluid
+          
+        </term>
+            </rs>
+            <lb/>
+given out during the time of their&#xD;<lb/>
+fermentation with acids - &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">he</del>
+            <lb/>
+He soon ascertained that it&#xD;<lb/>
+differed from the atmospherical&#xD;<lb/>
+air in all it's properties. -&#xD;<lb/>
+That it was heavier, acid to&#xD;<lb/>
+the taste, nonrespirable &amp; incapable&#xD;<lb/>
+of supporting combustion; &amp; He&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="33"
+                xml:id="pb-33"
+                facs="#i33"/>
+            <lb/>
+17&#xD;<lb/>
+announced it as a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">peculiar Body.</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+- This fact apparently so simple&#xD;<lb/>
+&amp; obvious became the source of&#xD;<lb/>
+the discovery of all the variety&#xD;<lb/>
+of the gasses. - For the moment&#xD;<lb/>
+it was ascertained that there&#xD;<lb/>
+was one <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag93"
+                ref="#misc_109"
+                type="miscellaneous">
+               <term xml:id="tag93">
+          aeriform
+        </term>
+            </rs> fluid&#xD;<lb/>
+differing from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag94"
+                ref="#chemical_254"
+                type="chemical">
+               <term xml:id="tag94">
+          common air
+          
+        </term>
+            </rs>
+            <lb/>
+in it's essence, it became&#xD;<lb/>
+easy to conceive that there&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">might exist</hi> a number of others&#xD;<lb/>
+&amp; researches upon the subject&#xD;<lb/>
+were speedily &amp; ardently&#xD;<lb/>
+adopted. -&#xD;<lb/>
+- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Besides this</del>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag95"
+                ref="#chemical_010"
+                type="chemical">
+               <term xml:id="tag95">
+                  <hi rend="underline">lime</hi>
+               </term>
+            </rs> -&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Combustion</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Weight</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="34"
+                xml:id="pb-34"
+                facs="#i34"/>
+            <lb/>
+Besides this discovery , <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag96"
+                ref="#person_231"
+                type="person">
+               <name xml:id="tag96" type="person">
+          D<hi rend="superscript">r</hi>. Black
+        </name>
+            </rs>
+            <lb/>
+developed the more general&#xD;<lb/>
+one of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">latent Heat</hi> or the&#xD;<lb/>
+absorption of heat during the&#xD;<lb/>
+conversion of solids into fluids&#xD;<lb/>
+&amp; of fluids into gasses - This&#xD;<lb/>
+truth immediately applied to&#xD;<lb/>
+almost all the phenomena of&#xD;<lb/>
+Chemistry |_&amp; it was connected&#xD;<lb/>
+by the Author himself with&#xD;<lb/>
+a great series of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">observations</del>
+            <lb/>
+elucidations &amp; a beautiful&#xD;<lb/>
+arrangement of philosophical&#xD;<lb/>
+doctrine. -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="35"
+                xml:id="pb-35"
+                facs="#i35"/>
+            <lb/>
+19&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag97"
+                ref="#chemical_180"
+                type="chemical">
+               <term xml:id="tag97">
+                  <hi rend="underline">Lime water</hi>
+               </term>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag98"
+                ref="#person_231"
+                type="person">
+               <name xml:id="tag98" type="person">
+          D<hi rend="superscript">r</hi>. Black
+        </name>
+            </rs> committed very few&#xD;<lb/>
+works to the press; &amp; His principal&#xD;<lb/>
+mode of making known his discoveries&#xD;<lb/>
+was in public Lectures. The&#xD;<lb/>
+school of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag99"
+                ref="#place_284"
+                type="place">
+               <name xml:id="tag99" type="place">
+          Edinburgh
+        </name>
+            </rs> in consequence&#xD;<lb/>
+soon became the most celebrated&#xD;<lb/>
+in Europe. - Students flocked to it&#xD;<lb/>
+from all quarters. &amp; he communicated&#xD;<lb/>
+to them <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">instruction</hi> that could&#xD;<lb/>
+be procured in no other&#xD;<lb/>
+way; &amp; which was the more&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="36"
+                xml:id="pb-36"
+                facs="#i36"/>
+            <lb/>
+valuable as at once sanctioned&#xD;<lb/>
+by the authority of the Di<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">s</add>coverer&#xD;<lb/>
+&amp; the master. -&#xD;<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag100"
+                ref="#person_231"
+                type="person">
+               <name xml:id="tag100" type="person">
+          The new doctrines of Black
+        </name>
+            </rs>
+            <lb/>
+at first met with many&#xD;<lb/>
+opponents &amp; most of the German&#xD;<lb/>
+chemists with <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag102"
+                ref="#person_621"
+                type="person">
+               <name xml:id="tag102" type="person">
+                  <rs xml:id="ttag102" ref="#person_621" type="person">
+                     <name xml:id="tag102" type="person">
+          Meyer
+        </name>
+                  </rs>
+               </name>
+            </rs> at their&#xD;<lb/>
+head employed themselves for&#xD;<lb/>
+many years in raising&#xD;<lb/>
+objections to it - But in&#xD;<lb/>
+consequence of the researches&#xD;<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag103"
+                ref="#person_033"
+                type="person">
+               <name xml:id="tag103" type="person">
+          Bergmann
+        </name>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag104"
+                ref="#person_622"
+                type="person">
+               <name xml:id="tag104" type="person">
+          Macbride
+        </name>
+            </rs>,&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag105"
+                ref="#person_619"
+                type="person">
+               <name xml:id="tag105" type="person">
+          Brownigg
+        </name>
+            </rs> &amp; Lane - it last&#xD;<lb/>
+became established as an&#xD;<lb/>
+incontrovertible truth &amp; the&#xD;<lb/>
+dispute had an excellent&#xD;<lb/>
+effect in leading to many&#xD;<lb/>
+new <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">facts</hi> For in this&#xD;<lb/>
+untrodden field of&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="37"
+                xml:id="pb-37"
+                facs="#i37"/>
+            <lb/>
+19&#xD;<lb/>
+investigation it was scarcely&#xD;<lb/>
+possible to look round without&#xD;<lb/>
+perceiving some novel objects. -&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">About 1766 <rs xml:id="ttag106" ref="#person_026" type="person">
+                  <name xml:id="tag106" type="person">
+          M<hi rend="superscript">r</hi> Cavendish
+        </name>
+               </rs>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">published his first papers</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">on the subject of air. -</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">He examined with more</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">accurate</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="38"
+                xml:id="pb-38"
+                facs="#i38"/>
+            <lb/>
+About 1766 M<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi>. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag107"
+                ref="#person_026"
+                type="person">
+               <name xml:id="tag107" type="person">
+          Cavendish
+        </name>
+            </rs> published&#xD;<lb/>
+his first papers on the subject&#xD;<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">air</hi>. - He examined with more&#xD;<lb/>
+accurate instruments than&#xD;<lb/>
+Black the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag108"
+                ref="#chemical_078"
+                type="chemical">
+               <term xml:id="tag108">
+          elastic fluid
+          
+        </term>
+            </rs>
+            <lb/>
+from the alkalies &amp; he&#xD;<lb/>
+ascertained that the same&#xD;<lb/>
+substance was produced&#xD;<lb/>
+during the combustion of&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag109"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag109">
+          charcoal
+          
+        </term>
+            </rs> - He perfected&#xD;<lb/>
+the pneumatic apparatus&#xD;<lb/>
+&amp; soon discovered two new&#xD;<lb/>
+elastic fluids - <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag110"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag110">
+          inflammable Air
+          
+        </term>
+            </rs>
+            <lb/>
+&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag111"
+                ref="#chemical_016"
+                type="chemical">
+               <term xml:id="tag111">
+          Muriatic acid air
+          
+        </term>
+            </rs>; - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">And</del>
+            <lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag112"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag112">
+          inflammable Air
+          
+        </term>
+            </rs>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">pursuing these researches for</del>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Bladder</hi> -&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">many years, " He at last</del>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Drying the Air </hi>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ascertained the great &amp; impressive</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">facts of the composition of <hi rend="underline">Water</hi>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; of <rs xml:id="ttag113" ref="#chemical_143" type="chemical">
+                  <term xml:id="tag113">
+                     <hi rend="underline">Nitric acid</hi>
+                  </term>
+               </rs>
+            </del>
+            <lb/>
+Grotto del&#xD;<lb/>
+- weight - fermentation&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag114"
+                ref="#place_718"
+                type="place">
+               <name xml:id="tag114" type="place">
+                  <hi rend="underline">cano</hi>
+               </name>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Inflammability</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="39"
+                xml:id="pb-39"
+                facs="#i39"/>
+            <lb/>
+20&#xD;<lb/>
+I shall in the next lectures&#xD;<lb/>
+in following the order which&#xD;<lb/>
+I have laid down have occasion&#xD;<lb/>
+to speak of &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to</del> exhibit&#xD;<lb/>
+some <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">chemical</add> experiments of an illustrious&#xD;<lb/>
+Countryman <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">of later date</add> of still higher&#xD;<lb/>
+importance; but I cannot&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">th</del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in this place</del> on this occasion&#xD;<lb/>
+pass by the circumstance of&#xD;<lb/>
+his recent loss without a&#xD;<lb/>
+digression which may enable&#xD;<lb/>
+me to offer a feeble tribute&#xD;<lb/>
+of respect to the memory&#xD;<lb/>
+of So great - a Man. -&#xD;<lb/>
+- Of all the Philosophers of&#xD;<lb/>
+the present age <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag115"
+                ref="#person_026"
+                type="person">
+               <name xml:id="tag115" type="person">
+          M<hi rend="superscript">r</hi> Cavendish
+        </name>
+            </rs>
+            <lb/>
+was the One who combined&#xD;<lb/>
+in the highest degree&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a</del> depth &amp; extent of mathematical&#xD;<lb/>
+knowledge&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="40"
+                xml:id="pb-40"
+                facs="#i40"/>
+            <lb/>
+with delicacy &amp; precision&#xD;<lb/>
+in the methods of&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">R</del> experimental Research. -&#xD;<lb/>
+- It may be said of him,&#xD;<lb/>
+what can perhaps hardly&#xD;<lb/>
+be said of any other Person&#xD;<lb/>
+that whatever He has done&#xD;<lb/>
+has been perfect at the&#xD;<lb/>
+moment of its production; -&#xD;<lb/>
+|_ His processes were all of&#xD;<lb/>
+a finished nature, |_ executed&#xD;<lb/>
+by the hand of a Master&#xD;<lb/>
+they required no correction;&#xD;<lb/>
+- &amp; though many of them&#xD;<lb/>
+were performed in the&#xD;<lb/>
+very infancy of Chemical&#xD;<lb/>
+Philosophy yet their&#xD;<lb/>
+accuracy &amp; their beauty&#xD;<lb/>
+have remained unimpaired&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="41"
+                xml:id="pb-41"
+                facs="#i41"/>
+            <lb/>
+21&#xD;<lb/>
+amidst the progress of&#xD;<lb/>
+Discovery; &amp; their merits&#xD;<lb/>
+have been illustrated&#xD;<lb/>
+by discussion &amp; exalted&#xD;<lb/>
+by time. -&#xD;<lb/>
+-:- In general; the most&#xD;<lb/>
+common motives which induce&#xD;<lb/>
+Men to study are the&#xD;<lb/>
+love of distinction of glory&#xD;<lb/>
+or the desire of power; &amp;&#xD;<lb/>
+we have <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">perhap's</del> no right&#xD;<lb/>
+to object to motives of this&#xD;<lb/>
+Kind; but it ought to be&#xD;<lb/>
+mentioned in estimating <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">M<hi rend="superscript">r</hi>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag116" ref="#person_026" type="person">
+                  <name xml:id="tag116" type="person">
+          Cavendishs
+        </name>
+               </rs> Cha</del> the Character of M<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag117"
+                ref="#person_026"
+                type="person">
+               <name xml:id="tag117" type="person">
+          Cavendish
+        </name>
+            </rs> that his grand&#xD;<lb/>
+stimulus to exertion was&#xD;<lb/>
+evidently the love of truth&#xD;<lb/>
+&amp; of Knowledge: - unambitious&#xD;<lb/>
+unassuming; it was often&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="42"
+                xml:id="pb-42"
+                facs="#i42"/>
+            <lb/>
+with difficulty that He was&#xD;<lb/>
+perswaded to bring forward&#xD;<lb/>
+his important discoveries -&#xD;<lb/>
+- He disliked notoriety ; He&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> was as it were fearful&#xD;<lb/>
+of the voice of fame. - :&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The records of his labours are</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to be found only</del>
+            <lb/>
+His labours are recorded with&#xD;<lb/>
+the greatest dignity &amp; simplicity&#xD;<lb/>
+&amp; in the fewest possible words&#xD;<lb/>
+without parade or apology.&#xD;<lb/>
+&amp; it seemed as if in&#xD;<lb/>
+publication " He was performing&#xD;<lb/>
+not what was a duty&#xD;<lb/>
+to himself; but <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">what was</add> a duty to&#xD;<lb/>
+the public. -&#xD;<lb/>
+-. His life was devoted to&#xD;<lb/>
+Science &amp; his social hours&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="43"
+                xml:id="pb-43"
+                facs="#i43"/>
+            <lb/>
+22&#xD;<lb/>
+were passed amongst a few&#xD;<lb/>
+of his friends principally&#xD;<lb/>
+members of the Royal Society;&#xD;<lb/>
+- He was reserved to strangers;&#xD;<lb/>
+but where He was familiar&#xD;<lb/>
+his conversation was lively&#xD;<lb/>
+&amp; full of varied information.&#xD;<lb/>
+Upon all subjects of Science&#xD;<lb/>
+He was luminous &amp; profound.&#xD;<lb/>
+&amp; in discussion wonderfully&#xD;<lb/>
+acute: -"&#xD;<lb/>
+- Even to the very last week&#xD;<lb/>
+of his life when He was&#xD;<lb/>
+nearly 79 He retained <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>all</unclear>
+            </del>
+            <lb/>
+his activity of Body &amp;&#xD;<lb/>
+all his energy &amp; sagacity&#xD;<lb/>
+of intellect. -. He was&#xD;<lb/>
+warmly interested <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">very last</del> in all new&#xD;<lb/>
+subjects of Science; &amp; several&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="44"
+                xml:id="pb-44"
+                facs="#i44"/>
+            <lb/>
+times in the course of the&#xD;<lb/>
+last year witnessed or&#xD;<lb/>
+assisted in some experiments&#xD;<lb/>
+that were carried on in&#xD;<lb/>
+this Theatre. or in the&#xD;<lb/>
+laboratory below.&#xD;<lb/>
+Since the death of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag118"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag118" type="person">
+          Newton
+        </name>
+            </rs>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">if I might be permitted to give an opinion</add>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag119"
+                ref="#place_121"
+                type="place">
+               <name xml:id="tag119" type="place">
+          England
+        </name>
+            </rs> has sustained no&#xD;<lb/>
+Scientific loss so great&#xD;<lb/>
+as that of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag120"
+                ref="#person_026"
+                type="person">
+               <name xml:id="tag120" type="person">
+          Cavendish
+        </name>
+            </rs>.&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">but</del> like his great predecessor&#xD;<lb/>
+He died full of years&#xD;<lb/>
+&amp; of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">honours</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">glory</add>; - His name&#xD;<lb/>
+will be an object of&#xD;<lb/>
+more veneration in future&#xD;<lb/>
+ages than in the present&#xD;<lb/>
+moment; - though it&#xD;<lb/>
+was unknown in the&#xD;<lb/>
+busy scenes of life or&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="45"
+                xml:id="pb-45"
+                facs="#i45"/>
+            <lb/>
+23&#xD;<lb/>
+in the popular discussions&#xD;<lb/>
+of the day it will <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">for</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ever</del>
+            <lb/>
+remain <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">illustrious</add> in the Annals of&#xD;<lb/>
+Science which are as&#xD;<lb/>
+unperishable as that nature&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">that</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">to which</add> they belong <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">experiments</del>; - &amp;&#xD;<lb/>
+it will be an immortal&#xD;<lb/>
+honour to this House, to this&#xD;<lb/>
+age &amp; to this Country. -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="46"
+                xml:id="pb-46"
+                facs="#i46"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="47"
+                xml:id="pb-47"
+                facs="#i47"/>
+            <lb/>
+24&#xD;<lb/>
+Stimulated by the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">high</del> example of&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag121"
+                ref="#person_231"
+                type="person">
+               <name xml:id="tag121" type="person">
+          D<hi rend="superscript">r</hi>. Black
+        </name>
+            </rs> &amp; M<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi>. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag122"
+                ref="#person_026"
+                type="person">
+               <name xml:id="tag122" type="person">
+          Cavendish
+        </name>
+            </rs> - <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag123"
+                ref="#person_021"
+                type="person">
+               <name xml:id="tag123" type="person">
+          D<hi rend="superscript">r</hi>. Priestley
+        </name>
+            </rs>
+            <lb/>
+about the year 1770 began his&#xD;<lb/>
+chemical career &amp; applied himself&#xD;<lb/>
+with intense ardour to the exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi>. on&#xD;<lb/>
+the subject of air. - By a constant&#xD;<lb/>
+application of the combinations &amp;&#xD;<lb/>
+agencies of the various chemical&#xD;<lb/>
+substances - He soon discovered&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag124"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag124">
+          Oxygene
+          
+        </term>
+            </rs> gas, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag125" ref="#chemical_048" type="chemical">
+                  <term xml:id="tag125">
+          nitrous gas
+          
+        </term>
+               </rs>, Nitrous</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">1774 Augt</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">oxide &amp; <rs xml:id="ttag126" ref="#chemical_072" type="chemical">
+                  <term xml:id="tag126">
+          Hydrocarbonate
+          
+        </term>
+               </rs> carbonate &amp; by using</del>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <rs xml:id="ttag127" ref="#chemical_300" type="chemical">
+                  <term xml:id="tag127">
+          Minium
+          
+        </term>
+               </rs> -</add>
+            <lb/>
+the mercurial apparatus He exhibited&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Combustion</hi> of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag128"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag128">
+          charcoal
+          
+        </term>
+            </rs>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">several of the acids in the <rs xml:id="ttag129" ref="#misc_109" type="miscellaneous">
+                  <term xml:id="tag129">
+          aeriform
+        </term>
+               </rs>
+            </del>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag130"
+                ref="#person_348"
+                type="person">
+               <name xml:id="tag130" type="person">
+          D<hi rend="superscript">r</hi> Ingenhouz
+        </name>
+            </rs>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">state &amp; demonstrated their properties</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">For nearly 20 years he continued an</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">indefatigable experimentalist &amp; the importance</del>
+            <lb/>
+of his labours was universally felt&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; generally acknowledged more lately</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">however his political &amp; religious</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">disputes considerably interfered with</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">his scientific researches &amp; tarnished</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">even his philosophical reputation.</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="48"
+                xml:id="pb-48"
+                facs="#i48"/>
+            <lb/>
+|_ <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Now that the revolutionary fury</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">is passed away "now that the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">object of it is no longer alive</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to censure or applause" it may</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">be a gratifying task to recall</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a memory, which in some respects</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">was unworthily degraded &amp; to associate</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">at least the name of our countryman</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">with the philosophical honours that</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">it <hi rend="underline">justly</hi> merits.</del>
+            <lb/>
+| as a discoverer D<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi>. <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag131" ref="#person_016" type="person">
+                  <name xml:id="tag131" type="person">
+          Priestley
+        </name>
+               </rs>
+            </hi> stands&#xD;<lb/>
+in the highest rank - &amp; it is scarcely&#xD;<lb/>
+possible to advance a step&#xD;<lb/>
+or to perform a process in&#xD;<lb/>
+pneumatic Chemistry, without having&#xD;<lb/>
+recourse to his methods &amp;&#xD;<lb/>
+making use of substances <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">that</add> he&#xD;<lb/>
+first exhibited - His activity&#xD;<lb/>
+was unceasing <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">&amp;</add> in physical&#xD;<lb/>
+science - all his exertions were&#xD;<lb/>
+crowned with success - His exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi>
+            <lb/>
+though neither accurate nor&#xD;<lb/>
+minute - were <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">almost</add> always <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">impressive</del> upon objects&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="49"
+                xml:id="pb-49"
+                facs="#i49"/>
+            <lb/>
+25&#xD;<lb/>
+of importance&#xD;<lb/>
+He made up for the defect of his&#xD;<lb/>
+manipulations by the rapidity of&#xD;<lb/>
+execution &amp; the novelty of his&#xD;<lb/>
+methods. -&#xD;<lb/>
+- He prepared the way for more&#xD;<lb/>
+accomplished Chemists - He furnished&#xD;<lb/>
+them with matter for enquiry &amp;&#xD;<lb/>
+in the true spirit of liberality&#xD;<lb/>
+offered to the world all his&#xD;<lb/>
+treasures of Science - He was&#xD;<lb/>
+as the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">miner</hi> who discovers&#xD;<lb/>
+hidden riches &amp; furnishes them&#xD;<lb/>
+in their unwrought state to&#xD;<lb/>
+the Cunning Artist - The ore that&#xD;<lb/>
+he brought to light was&#xD;<lb/>
+crude; but it was precious&#xD;<lb/>
+&amp; useful. - To Theory D<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi>.&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag132"
+                ref="#person_016"
+                type="person">
+               <name xml:id="tag132" type="person">
+          Priestley
+        </name>
+            </rs> paid but little&#xD;<lb/>
+attention &amp; his Hypotheses were&#xD;<lb/>
+rapidly formed &amp; relinquished&#xD;<lb/>
+with an ardour almost puerile -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="50"
+                xml:id="pb-50"
+                facs="#i50"/>
+            <lb/>
+- His chemical writings are&#xD;<lb/>
+principally narrations of facts,&#xD;<lb/>
+&amp; though the style &amp; arrangement&#xD;<lb/>
+are defective from hasty composition&#xD;<lb/>
+yet it is impossible not to be&#xD;<lb/>
+amused &amp; instructed by his&#xD;<lb/>
+details; they are copious&#xD;<lb/>
+distinct &amp; satisfactory<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ily</del>, &amp; the&#xD;<lb/>
+manner in which they are&#xD;<lb/>
+pursued leave a very favourable&#xD;<lb/>
+impression of the simplicity,&#xD;<lb/>
+the ingeniousness &amp; candour of&#xD;<lb/>
+his mind. -&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- In considering what he has done</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in Science it is difficult to avoid</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a deep sentiment of regret that he did</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">not apply his whole energies to physical</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">discovery, his unbroken powers, his uninterrupted</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">attention - It is impossible not to lament that</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">such talents, should <add>have</add> been diverted from the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">immutable in Nature by the transient &amp;</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">capricious in human opinion; &amp; that they</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">should <del rend="strikethrough">to</del> have been wasted upon vain</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">speculations of innovation obnoxious</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to sound reason. -</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="51"
+                xml:id="pb-51"
+                facs="#i51"/>
+            <lb/>
+26&#xD;<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag133"
+                ref="#person_016"
+                type="person">
+               <name xml:id="tag133" type="person">
+          D<hi rend="superscript">r</hi> Priestley
+        </name>
+            </rs> was a Discoverer&#xD;<lb/>
+before He was a Chemist -&#xD;<lb/>
+In a letter which I received&#xD;<lb/>
+from him a few months&#xD;<lb/>
+before his death he makes&#xD;<lb/>
+this statement in his usual&#xD;<lb/>
+unaffected manner. - It is&#xD;<lb/>
+easy therefore to find a&#xD;<lb/>
+reason for the occasional&#xD;<lb/>
+incorrectness of his views. -&#xD;<lb/>
+-. Throughout the whole course&#xD;<lb/>
+of his life His attention&#xD;<lb/>
+was never undivided; -&#xD;<lb/>
+His mornings were devoted to&#xD;<lb/>
+exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">t</hi> his evenings to political&#xD;<lb/>
+theological or metaphysical&#xD;<lb/>
+enquiries - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">In considering</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">How much more He has</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">done as an experimental</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">than as a speculative</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="52"
+                xml:id="pb-52"
+                facs="#i52"/>
+            <lb/>
+&amp; it may perhaps be permitted&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Philosopher; it is difficult</del>
+            <lb/>
+to a chemist to regret&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to avoid a deaf sentiment</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of regret</del> that He did not&#xD;<lb/>
+apply his whole energies to&#xD;<lb/>
+physical discovery his unbroken&#xD;<lb/>
+powers his uninterrupted&#xD;<lb/>
+attention - It is impossible not&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to lament that talents so</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">well calculated to extend </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the boundaries of natural</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">science should have been so</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">often wasted in vain efforts; upon</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">momentary &amp; ephemeral objects. </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; that He should have <del rend="strikethrough">lost</del>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">given up so often the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">immutable in Nature for</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the transcient &amp; capricious</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <del rend="strikethrough">
+                  <unclear>xx</unclear> human</del> opinion. -</del>
+            <lb/>
+His example ought <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">may</add> however&#xD;<lb/>
+be quoted for a very important one&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to have this beneficial end</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="53"
+                xml:id="pb-53"
+                facs="#i53"/>
+            <lb/>
+27&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">effect.</del> It teaches how&#xD;<lb/>
+much may be done by&#xD;<lb/>
+small means when applied&#xD;<lb/>
+with industry &amp; ingenuity;&#xD;<lb/>
+&amp; it shews how easy it&#xD;<lb/>
+is in some instances&#xD;<lb/>
+to enlarge the boundaries&#xD;<lb/>
+of Chemical Knowledge,&#xD;<lb/>
+&amp; how much more real &amp;permanent&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">glory</hi> is to be gained,&#xD;<lb/>
+by preserving <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the immutable</hi>
+            <lb/>
+in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">nature</hi> than the&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">transient</hi> &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">often</del>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">capricious</hi>
+            <lb/>
+in human opinion -&#xD;<lb/>
+|_(When <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag134"
+                ref="#person_016"
+                type="person">
+               <name xml:id="tag134" type="person">
+          D<hi rend="superscript">r</hi> Priestley
+        </name>
+            </rs>'s name&#xD;<lb/>
+is mentioned in future&#xD;<lb/>
+ages it will be as one&#xD;<lb/>
+of the most illustrious&#xD;<lb/>
+chemical discovers of&#xD;<lb/>
+the 18<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">th</hi> century&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="54"
+                xml:id="pb-54"
+                facs="#i54"/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

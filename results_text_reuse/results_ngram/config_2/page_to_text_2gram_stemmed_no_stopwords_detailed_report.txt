@@ -1,0 +1,251 @@
+================================================================================
+TEXT REUSE DETECTION RESULTS - PAGE_TO_TEXT_2GRAM_STEMMED_NO_STOPWORDS
+================================================================================
+Analysis Date: 2025-09-25 09:47:25
+Method: N-gram Library-Based Detection
+N-gram Size: 2
+Similarity Threshold: 0.25
+Stemming Used: True
+Stopwords Removed: True
+================================================================================
+
+SUMMARY
+----------------------------------------
+Total text reuse instances found: 8
+Processing time: 221.13 seconds
+Segments analyzed: 500
+Comparisons made: 124526
+Average Jaccard similarity: 0.323
+Average max containment: 0.620
+Similarity range: 0.252 - 0.463
+High similarity instances (≥0.8): 0
+Medium similarity instances (0.5-0.8): 0
+Low similarity instances (<0.5): 8
+Reuse rate: 0.0001
+
+================================================================================
+
+DETAILED TEXT REUSE INSTANCES
+================================================================================
+Showing all 8 instances (sorted by Jaccard similarity):
+
+Instance 1:
+  Notebooks: 14g ↔ 14g
+  Files: page_to_text.json ↔ page_to_text.json
+  Segments (on page): 1 ↔ 0
+  Pages: 101 ↔ 107
+  Jaccard Similarity: 0.463
+  Max Containment: 0.838
+  Containment (14g in 14g): 0.838
+  Containment (14g in 14g): 0.508
+  Dice Coefficient: 0.633
+  Cosine Similarity: 0.525
+  Intersection Size: 31 n-grams
+  Union Size: 67 n-grams
+  Text 1 (14g): From it the poets glories rise Which pass beyond our human being To things of other worlds & skies Carrying the prophets gift of seeing, By it the rud...
+  Text 2 (14g): 103 -. From it the Poets glories rise Which pass beyond our human being - To things of other worlds & skies Kindling Carrying the prophets gift of see...
+  Metadata 1: {
+    "places": [
+        {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+        }
+    ]
+}
+--------------------------------------------------------------------------------
+Instance 2:
+  Notebooks: 14g ↔ 14g
+  Files: page_to_text.json ↔ page_to_text.json
+  Segments (on page): 1 ↔ 0
+  Pages: 100 ↔ 103
+  Jaccard Similarity: 0.385
+  Max Containment: 0.667
+  Containment (14g in 14g): 0.667
+  Containment (14g in 14g): 0.476
+  Dice Coefficient: 0.556
+  Cosine Similarity: 0.443
+  Intersection Size: 30 n-grams
+  Union Size: 78 n-grams
+  Text 1 (14g): Let it on friendships tranquil hours A stedfast may day sunshine beam Making a field of fruits & flowers Such as the Bards elisian dream. To kindness ...
+  Text 2 (14g): 99 Let not this gift which is from heaven Shine as a meteors transient light Or as the lightnings flashes given Amidst the gloom to pain our sight. - ...
+--------------------------------------------------------------------------------
+Instance 3:
+  Notebooks: 14e ↔ 14g
+  Files: page_to_text.json ↔ page_to_text.json
+  Segments (on page): 1 ↔ 1
+  Pages: 163 ↔ 22
+  Jaccard Similarity: 0.358
+  Max Containment: 0.585
+  Containment (14e in 14g): 0.480
+  Containment (14g in 14e): 0.585
+  Dice Coefficient: 0.527
+  Cosine Similarity: 0.420
+  Intersection Size: 24 n-grams
+  Union Size: 67 n-grams
+  Text 1 (14e): In infancy The origin of life is lost to memory Yet powers existed of a glorious nature Reason & thought & feeling, How we know not Nor is there aught...
+  Text 2 (14g): Yet power arises Reason & thought & thought & feeling how we know not nor is there aught that teaches in from what xxxxx the immortal flame of human l...
+  Metadata 1: {
+    "places": [
+        {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+        }
+    ]
+}
+  Metadata 2: {
+    "places": [
+        {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+        }
+    ]
+}
+--------------------------------------------------------------------------------
+Instance 4:
+  Notebooks: 14g ↔ 14g
+  Files: page_to_text.json ↔ page_to_text.json
+  Segments (on page): 0 ↔ 0
+  Pages: 99 ↔ 102
+  Jaccard Similarity: 0.295
+  Max Containment: 0.578
+  Containment (14g in 14g): 0.377
+  Containment (14g in 14g): 0.578
+  Dice Coefficient: 0.456
+  Cosine Similarity: 0.349
+  Intersection Size: 26 n-grams
+  Union Size: 88 n-grams
+  Text 1 (14g): 95 And think that life's quick troubled stream Is made more troubled by the blast. - When touched by timid fingers weak Know that Affection's like the...
+  Text 2 (14g): Failings forget & let the beam of charity o'er all be cast And think that lifes quick troubled stream Is made more troubled by the blast 2 When touche...
+--------------------------------------------------------------------------------
+Instance 5:
+  Notebooks: 14e ↔ 14g
+  Files: page_to_text.json ↔ page_to_text.json
+  Segments (on page): 0 ↔ 0
+  Pages: 163 ↔ 22
+  Jaccard Similarity: 0.293
+  Max Containment: 0.680
+  Containment (14e in 14g): 0.680
+  Containment (14g in 14e): 0.340
+  Dice Coefficient: 0.453
+  Cosine Similarity: 0.205
+  Intersection Size: 17 n-grams
+  Union Size: 58 n-grams
+  Text 1 (14e): At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We cat...
+  Text 2 (14g): Ye moving stars, ye animated lamps Ye moving stars, ye animated lamps Ye moving stars that flit across the glade Ye animated lamps that midst the shad...
+  Metadata 1: {
+    "places": [
+        {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+        }
+    ]
+}
+  Metadata 2: {
+    "places": [
+        {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+        }
+    ]
+}
+--------------------------------------------------------------------------------
+
+Instance 6:
+  Notebooks: 14g ↔ 14g
+  Files: page_to_text.json ↔ page_to_text.json
+  Segments (on page): 0 ↔ 0
+  Pages: 99 ↔ 104
+  Jaccard Similarity: 0.278
+  Max Containment: 0.543
+  Containment (14g in 14g): 0.362
+  Containment (14g in 14g): 0.543
+  Dice Coefficient: 0.435
+  Cosine Similarity: 0.312
+  Intersection Size: 25 n-grams
+  Union Size: 90 n-grams
+  Text 1 (14g): 95 And think that life's quick troubled stream Is made more troubled by the blast. - When touched by timid fingers weak Know that Affection's like the...
+  Text 2 (14g): When the thunder cloud is darkest It is nearest to its fall. And the gloom thou sadly markest Is no inmate of th e y soul Feelings rays when too conce...
+--------------------------------------------------------------------------------
+Instance 7:
+  Notebooks: 14g ↔ 14g
+  Files: page_to_text.json ↔ page_to_text.json
+  Segments (on page): 1 ↔ 1
+  Pages: 99 ↔ 104
+  Jaccard Similarity: 0.263
+  Max Containment: 0.500
+  Containment (14g in 14g): 0.500
+  Containment (14g in 14g): 0.357
+  Dice Coefficient: 0.417
+  Cosine Similarity: 0.446
+  Intersection Size: 10 n-grams
+  Union Size: 38 n-grams
+  Text 1 (14g): The torrent roaring from the moun- tain Which ravages a hundred fields Conducted tranquil from its fountain Bloom freshness, verdure, plenty yields. H...
+  Text 2 (14g): Give it its attribute divine But still subdue control repress The torrent roaring from the mountain Which ravages a thousand hundred fields Conducted ...
+--------------------------------------------------------------------------------
+Instance 8:
+  Notebooks: 14e ↔ 14g
+  Files: page_to_text.json ↔ page_to_text.json
+  Segments (on page): 1 ↔ 0
+  Pages: 155 ↔ 27
+  Jaccard Similarity: 0.252
+  Max Containment: 0.565
+  Containment (14e in 14g): 0.565
+  Containment (14g in 14e): 0.313
+  Dice Coefficient: 0.403
+  Cosine Similarity: 0.270
+  Intersection Size: 26 n-grams
+  Union Size: 103 n-grams
+  Text 1 (14e): Nursing those lofty thoughts that in the mind Spontaneous rise, blending their sacred powers With images from moutain & from flood From chesnut groves...
+  Text 2 (14g): 25 To look on Nature with a poets eye Nursing those lofty thoughts which in the mind Spontaneous arise & blending all their power With images from mou...
+  Metadata 1: {
+    "places": [
+        {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+        },
+        {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+        },
+        {
+            "name": "Tiber River",
+            "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
+            "id": "place_615"
+        },
+        {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+        }
+    ]
+}
+  Metadata 2: {
+    "places": [
+        {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+        },
+        {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+        },
+        {
+            "name": "Tiber River",
+            "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
+            "id": "place_615"
+        }
+    ]
+}
+--------------------------------------------------------------------------------
+
+END OF DETAILED REPORT
+================================================================================

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standOff>
+      <listPerson>
+         <person xml:id="person_387">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John Joachim</forename>
+               <surname>Becher</surname>
+            </persName>
+            <birth when="1635"/>
+            <death when="1682"/>
+            <note>German physician and alchemist. Davy gives him incorrect dates in notebook 15E. </note>
+         </person>
+         <person xml:id="person_388">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Georg Ernst</forename>
+               <surname>Stahl</surname>
+            </persName>
+            <birth when="1659"/>
+            <death when="1734"/>
+            <note>German physician, chemist and philosopher who strongly promoted the phlogiston theory. </note>
+         </person>
+         <person xml:id="person_246">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Robert</forename>
+               <surname>Hooke</surname>
+            </persName>
+            <birth when="1635"/>
+            <death when="1703"/>
+            <note>Natural philosopher who acted as experimental demonstrator at the Royal Society of London during its early years. Prominent in the study of air and microscopy amongst other subjects. FRSL.</note>
+         </person>
+         <person xml:id="person_377">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Mayow</surname>
+            </persName>
+            <birth when="1641"/>
+            <death when="1679"/>
+            <note>Cornish physiologist and chemist, investigated respiration especially. FRSL.</note>
+         </person>
+         <person xml:id="person_030">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Antoine-Laurent</forename>
+               <surname>Lavoisier</surname>
+            </persName>
+            <birth when="1742"/>
+            <death when="1794"/>
+            <note>French chemist and tax farmer (for which he was guillotined). Developed a new nomenclature for chemistry (much of which is still in use today) and argued strongly against the existence of phlogiston. Davy read some of his writings while in Cornwall which he then opposed and throughout his career maintained an ambivalent attitude towards Lavoisierian chemisty. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_389">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Pierre Joseph</forename>
+               <surname>Macquer</surname>
+            </persName>
+            <birth when="1718"/>
+            <death when="1784"/>
+            <note>French chemist who published his Dictionnaire de Chymie in 1766 and later opposed Lavoisier's theories.</note>
+         </person>
+         <person xml:id="person_395">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Johan Gottfried</forename>
+               <surname>Leonhardi</surname>
+            </persName>
+            <birth when="1746"/>
+            <death when="1823"/>
+            <note>German physician and chemist, best known for translating Macquer's  Dictionnaire into German.</note>
+         </person>
+         <person xml:id="person_396">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Friedrich Albrecht Carl</forename>
+               <surname>Gren</surname>
+            </persName>
+            <birth when="1760"/>
+            <death when="1798"/>
+            <note>German chemist and pharmacist who sought to combine phlogiston with Lavoiser's oxygen theory.</note>
+         </person>
+         <person xml:id="person_269">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Luigi</forename>
+               <surname>Galvani</surname>
+            </persName>
+            <birth when="1737"/>
+            <death when="1798"/>
+            <note>Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him</note>
+         </person>
+         <person xml:id="person_149">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Charles</forename>
+               <surname>Hatchett</surname>
+            </persName>
+            <birth when="1765"/>
+            <death when="1847"/>
+            <note>He made his money from coach building which he used to pursue his interests in chemistry and mineralogy in the course of which he isolated the chemical element now called niobium. He was a Manager of the Royal Institution, playing a key role especially in running its lecture programme during the 1800s. FRSL.</note>
+         </person>
+      </listPerson>
+      <listNym type="chemical">
+         <nym xml:id="chemical_046">
+            <form>phlogiston</form>
+            <def>
+               <p>A hypothetical substance, thought of as an elastic fluid, which was believed to exist in combination in all combustible bodies.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_022">
+            <form>oxygene</form>
+            <def>
+               <p>Symbol/formula: O</p>
+               <p>Now known as oxygen. Oxygen is a colourless, odourless, tasteless gas essential to living organisms.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_037">
+            <form>sulphur</form>
+            <def>
+               <p>Symbol/formula: S</p>
+               <p>Pure sulphur is a tasteless, odourless, brittle solid that is pale yellow in colour, a poor conductor of electricity, and insoluble in water.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_087">
+            <form>oil of vitriol</form>
+            <def>
+               <p>Symbol/formula: H2SO4</p>
+               <p>Sulphuric acid. A mineral acid composed of the elements sulphur, oxygen, and hydrogen.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_042">
+            <form>baryte</form>
+            <def>
+               <p>Symbol/formula: BaSO4</p>
+               <p>A mineral consisting of barium sulphate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_417">
+            <form>sulphuric acid</form>
+            <def>
+               <p>Symbol/formula: H2SO3</p>
+               <p>A mineral acid composed of the elements sulphur, oxygen, and hydrogen. It is a colourless, odourless, and viscous liquid that is miscible with water.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_161">
+            <form>voltaic</form>
+            <def>
+               <p>Refers to the current generated by voltaic pile, invented by Italian chemist Alessandro Volta.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_151">
+            <form>phosphorus</form>
+            <def>
+               <p>Symbol/formula: P</p>
+               <p>A non-metallic chemical element of the nitrogen family. A colourless, semitransparent, soft, waxy solid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_027">
+            <form>phosphoric acid</form>
+            <def>
+               <p>Symbol/formula: H3PO4</p>
+               <p>A corrosive acid that can form three different classes of salts, namely primary phosphates, dibasic phosphates, and tribasic phosphates. It is corrosive to ferrous metals and alloys.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_143">
+            <form>nitric acid</form>
+            <def>
+               <p>Symbol/formula: HNO3</p>
+               <p>A highly corrosive mineral acid. The compound is colourless, but samples tend to acquire a yellow cast over time due to decomposition into oxides of nitrogen</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_017">
+            <form>nitrogene</form>
+            <def>
+               <p>Symbol/formula: N</p>
+               <p>Now known as nitrogen. A colourless and odourless gas, nitrogen is non-combustible and non-toxic. Davy also refers to this as azote.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_140">
+            <form>charcoal</form>
+            <def>
+               <p>A lightweight black carbon residue produced by strongly heating wood (or other animal and plant materials) in minimal oxygen to remove all water and volatile constituents.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_196">
+            <form>carbonate of potash</form>
+            <def>
+               <p>Symbol/formula: K2CO3</p>
+               <p>Potassium carbonate. It is a white salt, which is soluble in water and forms a strongly alkaline solution.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_030">
+            <form>potash</form>
+            <def>
+               <p>An alkaline substance consisting largely of impure potassium carbonate. In October 1807, Davy decomposed potash using electricity, revealing the previously unknown element potassium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_315">
+            <form>oxalic acid</form>
+            <def>
+               <p>Symbol/formula: (CO2H)2</p>
+               <p>An organic acid with the systematic name ethanedioic acid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_316">
+            <form>malic acid</form>
+            <def>
+               <p>Symbol/formula: C4H6O5</p>
+               <p>An alpha hydroxy acid found in certain fruits and wines. It is used in foods and cosmetics, and sometimes as medicine.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_317">
+            <form>citric acid </form>
+            <def>
+               <p>Symbol/formula: C6H8O7</p>
+               <p>Citric acid occurs naturally in citrus fruits. In biochemistry, it is an intermediate in the citric acid cycle, which occurs in the metabolism of all aerobic organisms.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_054">
+            <form>carbon</form>
+            <def>
+               <p>Symbol/formula: C</p>
+               <p>A non-metallic and tetravalent element. Well-known allotropes include graphite, diamond, amorphous carbon, and fullerenes.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_007">
+            <form>hydrogene</form>
+            <def>
+               <p>Symbol/formula: H</p>
+               <p>Now known as hydrogen. Hydrogen is the lightest element and, at standard conditions, is a gas of diatomic molecules. It is colourless, odourless, tasteless, non-toxic, and highly combustible.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_166">
+            <form>iron oxide </form>
+            <def>
+               <p>Symbol/formula: Fe2O3</p>
+               <p>Oxide of iron. A dark red solid which occurs as the mineral haematite and as the main component of rust.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_201">
+            <form>zinc</form>
+            <def>
+               <p>Symbol/formula: Zn</p>
+               <p>A a slightly brittle metal at room temperature and has a shiny-greyish appearance when oxidation is removed.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_069">
+            <form>arsenic</form>
+            <def>
+               <p>Symbol/formula: As</p>
+               <p>Arsenic occurs in many minerals, usually in combination with sulphur and metals, but also as a pure elemental crystal. Arsenic is a metalloid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_038">
+            <form>tin</form>
+            <def>
+               <p>Symbol/formula: Sn</p>
+               <p>A silvery-coloured metal, tin is soft enough to be cut with little force, and a bar of tin can be bent by hand with little effort.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_187">
+            <form>bismuth</form>
+            <def>
+               <p>Symbol/formula: Bi</p>
+               <p>A high-density, silvery, pink-tinged metal.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_318">
+            <form>ammonia of copper</form>
+            <def>
+               <p>Symbol/formula: Cu(OH)2</p>
+               <p>Copper(II) ion reacts with stoichiometric quantities of aqueous ammonia to precipitate light blue Cu(OH)2. Some basic salts may also form.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_070">
+            <form>copper</form>
+            <def>
+               <p>Symbol/formula: Cu</p>
+               <p>A soft, malleable, and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a pinkish-orange colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_059">
+            <form>wolfram</form>
+            <def>
+               <p>Symbol/formula: W</p>
+               <p>Also known as tungsten. Tungsten is an exceptionally strong refractory metal. It was identified as a new element in 1781 and first isolated as a metal in 1783.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_060">
+            <form>manganese</form>
+            <def>
+               <p>Symbol/formula: Mn</p>
+               <p>A hard, brittle, silvery metal, often found in minerals in combination with iron. Manganese was first isolated in the 1770s.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_206">
+            <form>columbium</form>
+            <def>
+               <p>Symbol/formula: Nb</p>
+               <p>Now known as niobium. A light grey, crystalline, and ductile transition metal.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_033">
+            <form>quicksilver</form>
+            <def>
+               <p>Symbol/formula: Hg </p>
+               <p>Mercury. A heavy, silvery element, mercury is the only metallic element that is known to be liquid at standard temperature and pressure.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_028">
+            <form>platina</form>
+            <def>
+               <p>An alloy of platinum and several other metals, including palladium, osmium, and iridium.</p>
+            </def>
+         </nym>
+      </listNym>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_109" type="description">
+            <term id="misc_109-term">aeriform</term>
+            <gloss id="misc_109-gloss" target="#misc_109-term">
+               <p>Meaning having the form or nature of air; gaseous. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_012" type="description">
+            <term id="misc_012-term">the French Chemists</term>
+            <gloss id="misc_012-gloss" target="#misc_012-term">
+               <p>Possibly Lavoisier, Fourcroy, Berthollet and Macquer.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

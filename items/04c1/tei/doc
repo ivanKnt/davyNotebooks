@@ -1,0 +1,3522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-10441</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-10441</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/4/C/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Lectures</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/4/C/1</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent> pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1778-12-17"
+                                   notAfter="1829-05-29"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-10441-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="4199px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00001"
+                  width="5339px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5338"
+               lry="4198"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="4199px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00002"
+                  width="5312px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5311"
+               lry="4198"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="4217px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00003"
+                  width="5340px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5339"
+               lry="4216"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="3241px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00004"
+                  width="5186px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5185"
+               lry="3240"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="3215px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00005"
+                  width="5186px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5185"
+               lry="3214"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="4181px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00006"
+                  width="5339px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5338"
+               lry="4180"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="4236px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00007"
+                  width="5285px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5284"
+               lry="4235"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="4181px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00008"
+                  width="5304px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5303"
+               lry="4180"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="4199px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00009"
+                  width="5339px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5338"
+               lry="4198"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="3233px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00010"
+                  width="5331px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5330"
+               lry="3232"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+      <surface n="11" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="3242px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00011"
+                  width="5331px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5330"
+               lry="3241"
+               rotate="0"
+               xml:id="i11z1"/>
+      </surface>
+      <surface n="12" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="4190px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00012"
+                  width="5322px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5321"
+               lry="4189"
+               rotate="0"
+               xml:id="i12z1"/>
+      </surface>
+      <surface n="13" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="4217px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00013"
+                  width="5331px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5330"
+               lry="4216"
+               rotate="0"
+               xml:id="i13z1"/>
+      </surface>
+      <surface n="14" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="3214px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00014"
+                  width="5321px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5320"
+               lry="3213"
+               rotate="0"
+               xml:id="i14z1"/>
+      </surface>
+      <surface n="15" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="3251px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00015"
+                  width="5321px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5320"
+               lry="3250"
+               rotate="0"
+               xml:id="i15z1"/>
+      </surface>
+      <surface n="16" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="4191px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00016"
+                  width="5339px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5338"
+               lry="4190"
+               rotate="0"
+               xml:id="i16z1"/>
+      </surface>
+      <surface n="17" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="4199px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00017"
+                  width="5294px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5293"
+               lry="4198"
+               rotate="0"
+               xml:id="i17z1"/>
+      </surface>
+      <surface n="18" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="4209px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00018"
+                  width="5331px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5330"
+               lry="4208"
+               rotate="0"
+               xml:id="i18z1"/>
+      </surface>
+      <surface n="19" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="4199px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00019"
+                  width="5322px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5321"
+               lry="4198"
+               rotate="0"
+               xml:id="i19z1"/>
+      </surface>
+      <surface n="20" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="4227px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00020"
+                  width="5303px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5302"
+               lry="4226"
+               rotate="0"
+               xml:id="i20z1"/>
+      </surface>
+      <surface n="21" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="4199px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00021"
+                  width="5285px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5284"
+               lry="4198"
+               rotate="0"
+               xml:id="i21z1"/>
+      </surface>
+      <surface n="22" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="4208px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00022"
+                  width="5294px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5293"
+               lry="4207"
+               rotate="0"
+               xml:id="i22z1"/>
+      </surface>
+      <surface n="23" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="4190px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00023"
+                  width="5276px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5275"
+               lry="4189"
+               rotate="0"
+               xml:id="i23z1"/>
+      </surface>
+      <surface n="24" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="4181px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00024"
+                  width="5303px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5302"
+               lry="4180"
+               rotate="0"
+               xml:id="i24z1"/>
+      </surface>
+      <surface n="25" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="4208px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00025"
+                  width="5267px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5266"
+               lry="4207"
+               rotate="0"
+               xml:id="i25z1"/>
+      </surface>
+      <surface n="26" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="4190px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00026"
+                  width="5294px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5293"
+               lry="4189"
+               rotate="0"
+               xml:id="i26z1"/>
+      </surface>
+      <surface n="27" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="4199px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00027"
+                  width="5276px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5275"
+               lry="4198"
+               rotate="0"
+               xml:id="i27z1"/>
+      </surface>
+      <surface n="28" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="4209px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00028"
+                  width="5312px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5311"
+               lry="4208"
+               rotate="0"
+               xml:id="i28z1"/>
+      </surface>
+      <surface n="29" xml:id="i29">
+         <graphic decls="#downloadImageRights #download"
+                  height="4218px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00029"
+                  width="5304px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5303"
+               lry="4217"
+               rotate="0"
+               xml:id="i29z1"/>
+      </surface>
+      <surface n="30" xml:id="i30">
+         <graphic decls="#downloadImageRights #download"
+                  height="3277px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00030"
+                  width="5267px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5266"
+               lry="3276"
+               rotate="0"
+               xml:id="i30z1"/>
+      </surface>
+      <surface n="31" xml:id="i31">
+         <graphic decls="#downloadImageRights #download"
+                  height="3196px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00031"
+                  width="5267px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5266"
+               lry="3195"
+               rotate="0"
+               xml:id="i31z1"/>
+      </surface>
+      <surface n="32" xml:id="i32">
+         <graphic decls="#downloadImageRights #download"
+                  height="4190px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00032"
+                  width="5303px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5302"
+               lry="4189"
+               rotate="0"
+               xml:id="i32z1"/>
+      </surface>
+      <surface n="33" xml:id="i33">
+         <graphic decls="#downloadImageRights #download"
+                  height="4217px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00033"
+                  width="5276px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5275"
+               lry="4216"
+               rotate="0"
+               xml:id="i33z1"/>
+      </surface>
+      <surface n="34" xml:id="i34">
+         <graphic decls="#downloadImageRights #download"
+                  height="4217px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00034"
+                  width="5304px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5303"
+               lry="4216"
+               rotate="0"
+               xml:id="i34z1"/>
+      </surface>
+      <surface n="35" xml:id="i35">
+         <graphic decls="#downloadImageRights #download"
+                  height="4172px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00035"
+                  width="5276px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5275"
+               lry="4171"
+               rotate="0"
+               xml:id="i35z1"/>
+      </surface>
+      <surface n="36" xml:id="i36">
+         <graphic decls="#downloadImageRights #download"
+                  height="4181px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00036"
+                  width="5312px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5311"
+               lry="4180"
+               rotate="0"
+               xml:id="i36z1"/>
+      </surface>
+      <surface n="37" xml:id="i37">
+         <graphic decls="#downloadImageRights #download"
+                  height="4200px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00037"
+                  width="5267px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5266"
+               lry="4199"
+               rotate="0"
+               xml:id="i37z1"/>
+      </surface>
+      <surface n="38" xml:id="i38">
+         <graphic decls="#downloadImageRights #download"
+                  height="3278px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00038"
+                  width="5285px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5284"
+               lry="3277"
+               rotate="0"
+               xml:id="i38z1"/>
+      </surface>
+      <surface n="39" xml:id="i39">
+         <graphic decls="#downloadImageRights #download"
+                  height="3187px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00039"
+                  width="5285px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5284"
+               lry="3186"
+               rotate="0"
+               xml:id="i39z1"/>
+      </surface>
+      <surface n="40" xml:id="i40">
+         <graphic decls="#downloadImageRights #download"
+                  height="4199px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00040"
+                  width="5294px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5293"
+               lry="4198"
+               rotate="0"
+               xml:id="i40z1"/>
+      </surface>
+      <surface n="41" xml:id="i41">
+         <graphic decls="#downloadImageRights #download"
+                  height="4200px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00041"
+                  width="5294px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5293"
+               lry="4199"
+               rotate="0"
+               xml:id="i41z1"/>
+      </surface>
+      <surface n="42" xml:id="i42">
+         <graphic decls="#downloadImageRights #download"
+                  height="3196px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00042"
+                  width="5113px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5112"
+               lry="3195"
+               rotate="0"
+               xml:id="i42z1"/>
+      </surface>
+      <surface n="43" xml:id="i43">
+         <graphic decls="#downloadImageRights #download"
+                  height="3214px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00043"
+                  width="5113px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5112"
+               lry="3213"
+               rotate="0"
+               xml:id="i43z1"/>
+      </surface>
+      <surface n="44" xml:id="i44">
+         <graphic decls="#downloadImageRights #download"
+                  height="4199px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00044"
+                  width="5303px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5302"
+               lry="4198"
+               rotate="0"
+               xml:id="i44z1"/>
+      </surface>
+      <surface n="45" xml:id="i45">
+         <graphic decls="#downloadImageRights #download"
+                  height="4172px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00045"
+                  width="5295px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5294"
+               lry="4171"
+               rotate="0"
+               xml:id="i45z1"/>
+      </surface>
+      <surface n="46" xml:id="i46">
+         <graphic decls="#downloadImageRights #download"
+                  height="3196px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00046"
+                  width="5313px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5312"
+               lry="3195"
+               rotate="0"
+               xml:id="i46z1"/>
+      </surface>
+      <surface n="47" xml:id="i47">
+         <graphic decls="#downloadImageRights #download"
+                  height="3233px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00047"
+                  width="5313px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5312"
+               lry="3232"
+               rotate="0"
+               xml:id="i47z1"/>
+      </surface>
+      <surface n="48" xml:id="i48">
+         <graphic decls="#downloadImageRights #download"
+                  height="4163px"
+                  rend="landscape"
+                  url="MS-DAVY-10441-000-00048"
+                  width="5295px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5294"
+               lry="4162"
+               rotate="0"
+               xml:id="i48z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listNym type="chemical">
+         <nym xml:id="chemical_012">
+            <form>mercury</form>
+            <def>
+               <p>Symbol/formula: Hg</p>
+               <p>Also known as quicksilver. A heavy, silvery element, mercury is the only metallic element that is known to be liquid at standard temperature and pressure.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_303">
+            <form>Chlorine</form>
+            <def>
+               <p>Symbol/formula: Cl</p>
+               <p>Davy named chlorine in 1810 and insisted it was an element and not a compound. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_137">
+            <form>nitrous acid</form>
+            <def>
+               <p>Symbol/formula: HNO2</p>
+               <p>A weak and monoprotic acid known only in solution, in the gas phase and in the form of nitrite salts.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_058">
+            <form>carbonic acid</form>
+            <def>
+               <p>Symbol/formula: CO2 or H2CO3 </p>
+               <p>Now known as Carbon dioxide (CO2), or a solution of carbon dioxide in water (H2CO3). </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_341">
+            <form>ethanol </form>
+            <def>
+               <p>Spirit of wine, known archaically as aqua vitae.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_038">
+            <form>tin</form>
+            <def>
+               <p>Symbol/formula: Sn</p>
+               <p>A silvery-coloured metal, tin is soft enough to be cut with little force, and a bar of tin can be bent by hand with little effort.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_369">
+            <form>platinum</form>
+            <def>
+               <p>Symbol/formula: Pt</p>
+               <p>A dense, malleable, ductile, highly unreactive, precious, silverish-white transition metal.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_255">
+            <form>antimony</form>
+            <def>
+               <p>Symbol/formula: Sb</p>
+               <p>A lustrous gray metalloid, it is found in nature mainly as the sulphide mineral stibnite. Antimony compounds have been known since ancient times and were powdered for use as medicine and cosmetics, often known by the Arabic name 'kohl'.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_370">
+            <form>cast iron</form>
+            <def>
+               <p>A class of iron–carbon alloys with a carbon content more than 2% and silicon content around 1-3%.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_323">
+            <form>steel</form>
+            <def>
+               <p>Steel is an alloy of iron and carbon with improved strength and fracture resistance compared to other forms of iron.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_187">
+            <form>bismuth</form>
+            <def>
+               <p>Symbol/formula: Bi</p>
+               <p>A high-density, silvery, pink-tinged metal.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_070">
+            <form>copper</form>
+            <def>
+               <p>Symbol/formula: Cu</p>
+               <p>A soft, malleable, and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a pinkish-orange colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_321">
+            <form>brass</form>
+            <def>
+               <p>Brass is an alloy of copper (Cu) and zinc (Zn), in proportions which can be varied to achieve different colours and mechanical, electrical, acoustic, and chemical properties, but copper typically has the larger proportion.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_201">
+            <form>zinc</form>
+            <def>
+               <p>Symbol/formula: Zn</p>
+               <p>A a slightly brittle metal at room temperature and has a shiny-greyish appearance when oxidation is removed.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_078">
+            <form>elastic fluid</form>
+            <def>
+               <p>A descriptive term for a gas, emphasising its elastic quality of spontaneous expansion.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_167">
+            <form>saline</form>
+            <def>
+               <p>Symbol/formula: NaCl</p>
+               <p>Sodium chloride in solution.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_350">
+            <form>turpentine</form>
+            <def>
+               <p>Turpentine, which is also called oil of turpentine, is a fluid obtained by the distillation of resin harvested from living trees, mainly pines.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_087">
+            <form>oil of vitriol</form>
+            <def>
+               <p>Symbol/formula: H2SO4</p>
+               <p>Sulphuric acid. A mineral acid composed of the elements sulphur, oxygen, and hydrogen.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_033">
+            <form>quicksilver</form>
+            <def>
+               <p>Symbol/formula: Hg </p>
+               <p>Mercury. A heavy, silvery element, mercury is the only metallic element that is known to be liquid at standard temperature and pressure.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_140">
+            <form>charcoal</form>
+            <def>
+               <p>A lightweight black carbon residue produced by strongly heating wood (or other animal and plant materials) in minimal oxygen to remove all water and volatile constituents.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_028">
+            <form>platina</form>
+            <def>
+               <p>An alloy of platinum and several other metals, including palladium, osmium, and iridium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_014">
+            <form>muriate of lime</form>
+            <def>
+               <p>Symbol/formula: CaCl2</p>
+               <p>An inorganic compound and a white crystalline solid at room temperature. Calcium chloride is highly soluble in water, and can be created by neutralising hydrochloric acid with calcium hydroxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_037">
+            <form>sulphur</form>
+            <def>
+               <p>Symbol/formula: S</p>
+               <p>Pure sulphur is a tasteless, odourless, brittle solid that is pale yellow in colour, a poor conductor of electricity, and insoluble in water.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_060">
+            <form>manganese</form>
+            <def>
+               <p>Symbol/formula: Mn</p>
+               <p>A hard, brittle, silvery metal, often found in minerals in combination with iron. Manganese was first isolated in the 1770s.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_161">
+            <form>voltaic</form>
+            <def>
+               <p>Refers to the current generated by voltaic pile, invented by Italian chemist Alessandro Volta.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_254">
+            <form>common air</form>
+            <def>
+               <p>The air of the lower stratum of the atmosphere, or the air that we breathe, which is a mixture of several gases, including oxygen (O2), nitrogen (N2) and carbon dioxide (CO2).</p>
+            </def>
+         </nym>
+      </listNym>
+      <listPerson>
+         <person xml:id="person_458">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Harrison</surname>
+            </persName>
+            <birth when="1693"/>
+            <death when="1776"/>
+            <note>English carpenter and clockmaker who invented accurate marine chronometers in the search to determine longitude at sea.</note>
+         </person>
+         <person xml:id="person_066">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Dalton</surname>
+            </persName>
+            <birth when="1766"/>
+            <death when="1844"/>
+            <note>Mancunian chemist and natural philosopher who lectured at the Royal Institution. He formulated a version of the atomic theory of matter much disliked by Davy. FRSL.</note>
+         </person>
+         <person xml:id="person_012">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Joseph Louis</forename>
+               <surname>Gay-Lussac</surname>
+            </persName>
+            <birth when="1778"/>
+            <death when="1850"/>
+            <note>French chemist and physicist, known mostly for his discovery that water is made of two parts hydrogen and one part oxygen by volume (with Alexander von Humboldt), for two laws related to gases, and for his work on alcohol-water mixtures. Became involved in controversies with Davy over various chemical discoveries. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_135">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Josiah</forename>
+               <surname>Wedgwood</surname>
+            </persName>
+            <birth when="1730"/>
+            <death when="1795"/>
+            <note>Renowned British potter whose factory was at Etruria near Stoke-on-Trent. A strong supporter of the abolition of the slave trade and of slavery, he was closely connected with other industrialists in the Midlands. FRSL.</note>
+         </person>
+         <person xml:id="person_784">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Daniel Gabriel</forename>
+               <surname>Fahrenheit</surname>
+            </persName>
+            <birth when="1686"/>
+            <death when="1736"/>
+            <note>German physicist, inventor, and scientific instrument maker, who invented the mercury-in-glass thermometer. The temperature scale he proposed is named after him. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_786">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Leslie</surname>
+            </persName>
+            <birth when="1766"/>
+            <death when="1832"/>
+            <note>Scottish mathematician and physicist, Professor of Mathematics at Edinburgh University, best known for his research into heat. </note>
+         </person>
+         <person xml:id="person_221">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jan Baptist van</forename>
+               <surname>Helmont</surname>
+            </persName>
+            <birth when="1580"/>
+            <death when="1644"/>
+            <note>Experimental alchemist and physician born in Brussels. Is credited as the founded of pneumatic chemistry and coined the word gas.</note>
+         </person>
+      </listPerson>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_846" type="description">
+            <term id="misc_846-term">Gulf stream</term>
+            <gloss id="misc_846-gloss" target="#misc_846-term">
+               <p>A warm, rapid Atlantic Ocean current flowing from the Gulf of Mexico through the Florida Straits and up the eastern coastline of North America. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_362" type="description">
+            <term id="misc_362-term">Spirit Lamp</term>
+            <gloss id="misc_362-gloss" target="#misc_362-term">
+               <p>An alcohol burner or spirit lamp is a piece of laboratory equipment used to produce an open flame.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_324" type="description">
+            <term id="misc_324-term">The Réaumur scale</term>
+            <gloss id="misc_324-gloss" target="#misc_324-term">
+               <p>A temperature scale for which the melting and boiling points of water are defined as 0 and 80 degrees respectively.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_363" type="description">
+            <term id="misc_363-term">Torricellian vacuum</term>
+            <gloss id="misc_363-gloss" target="#misc_363-term">
+               <p>A vacuum formed above the column of mercury in a mercury barometer</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_361" type="description">
+            <term id="misc_361-term">House of Lords</term>
+            <gloss id="misc_361-gloss" target="#misc_361-term">
+               <p>The House of Lords is the upper house of the Parliament of the United Kingdom.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+1<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Lecture 2<hi rend="superscript">d</hi>
+            </hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">1812</hi>.<lb/>
+The great forms of matter in<lb/>
+the external world are constantly<lb/>
+impressing themselves upon <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> our<lb/>
+senses, &amp; a very superficial<lb/>
+observation only is necessary for<lb/>
+their <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">arrangement</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">classification</add>. -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>We xx</unclear>
+            </del> A solid body of<lb/>
+land which constitutes the<lb/>
+great part of the globe &amp;<lb/>
+which is <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">com</del>comparatively permanent<lb/>
+in its forms, fixed &amp; immoveable<lb/>
+-. A great expanse of waters<lb/>
+the surface of which is in<lb/>
+continued motion <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; agitation</del>
+            <lb/>
+&amp; an atmosphere constantly <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">agitated</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">by <unclear>winds</unclear>
+            </del> made evident to us<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+2<lb/>
+by the winds which agitate it<lb/>
+or the clouds &amp; vapours which<lb/>
+it supports;- give <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">rise</del> sufficient<lb/>
+evidences of the existence<lb/>
+of three distinct states of<lb/>
+matter: - Besides these<lb/>
+there are phaenomena which<lb/>
+depend upon <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the presence</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del> the sun &amp; the heavenly<lb/>
+bodies: - &amp; The effects of<lb/>
+light &amp; heat <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">are derived</del> it<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">either from matter that</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">is well known are connected</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">they emit <unclear>a</unclear> matter that</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">with their presence.</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">they set into motion.</del> -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">This paper was covered <del rend="strikethrough">with</del> yesterday</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">with a substance named hornsilver</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- This white body. - half of it</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">was exposed to day light</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">this is the half. -</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the other half was preserved in</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in darkness. - . At first it</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">must be supposed that the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">same matter or <del rend="strikethrough">impulse</del> from</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+3<lb/>
+- Solids fluids, elastic fluids or<lb/>
+gasses - &amp; radiant or etherial<lb/>
+substances constitute the great<lb/>
+classes of natural <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">substances</del> bodies<lb/>
+which by their operations or<lb/>
+changes produce the phaenomena<lb/>
+of Chemistry. -<lb/>
+- Of solids the varieties are<lb/>
+almost infinite - metals, inflammable<lb/>
+substances, stones, earths, gems<lb/>
+animal &amp; vegetable productions; -<lb/>
+-.. forms the analogies of which<lb/>
+have constituted distinct sciences<lb/>
+the provinces of the natural<lb/>
+Historian the Botanists, the mineralogist<lb/>
+- are <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">included in this comprehensive</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">class of natural bodies</hi>. -<lb/>
+-|_ Fluids are less numerous - but<lb/>
+water <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#chemical_012"
+                type="chemical">
+               <term xml:id="tag1">
+          Mercury
+          
+        </term>
+            </rs> oil, spirits<lb/>
+the pieces of plants &amp; animals<lb/>
+present a sufficient diversity<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+4<lb/>
+to confuse the mind not assisted<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">by the <unclear>arrangements</unclear>
+            </del>: Philosophical views<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">arrangements-</del>
+            <lb/>
+- . Of gasses the varieties are<lb/>
+still fewer. They are not<lb/>
+contemplated in nature;<lb/>
+&amp; most of them are productions<lb/>
+of modern Chemistry. - . They<lb/>
+are all transparent; but<lb/>
+they differ in density, some<lb/>
+in colour; &amp; decidedly<lb/>
+in their properties. -<lb/>
+- In this jar there is<lb/>
+one kind of gas -<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag2" ref="#chemical_303" type="chemical">
+                  <term xml:id="tag2">
+          chlorine
+          
+        </term>
+               </rs> -</del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag3"
+                ref="#chemical_137"
+                type="chemical">
+               <term xml:id="tag3">
+                  <hi rend="underline">Nitrous acid</hi>
+               </term>
+            </rs> gas -<lb/>
+.-. Hydrogene- . . <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag4"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag4">
+                  <hi rend="underline">Carbonic</hi>
+                  <lb/>
+                  <hi rend="underline">acid gas</hi>
+               </term>
+            </rs>. -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+5<lb/>
+- These <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">forms</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">these classes of Bodies</add> as I stated in the<lb/>
+introductory lecture are<lb/>
+all capable of being<lb/>
+weighed &amp; measured<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">but the <unclear>fourth</unclear> class</del>
+            <lb/>
+&amp; their attractions estimated<lb/>
+by correct exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi>. - but<lb/>
+the fourth class radiant<lb/>
+matter can-not <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxx</unclear>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of being</del> submitted to<lb/>
+the same tests : -- &amp; its<lb/>
+powers &amp; nature can only<lb/>
+be judged of by its<lb/>
+effects -.<lb/>
+-: The sensations of vision are<lb/>
+produced on the eye - those<lb/>
+of Heat in organs of feeling;<lb/>
+by matter in motion | &amp; it is<lb/>
+either impelled by or emitted<lb/>
+from the heavenly bodies;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+6<lb/>
+but whether there <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">are many</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">distinct species</hi> or one<lb/>
+subtile fluid under different<lb/>
+modifications or whether<lb/>
+the particles of any kind<lb/>
+of matter in rapid<lb/>
+motion are capable of<lb/>
+producing the phaenomena<lb/>
+are <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>mak</unclear>
+            </del>subjects for<lb/>
+discussion. - &amp; besides<lb/>
+- Heat &amp; light radiant<lb/>
+matter produces other<lb/>
+effects <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">which may be</del>
+            <lb/>
+intimately connected with<lb/>
+the phaenomena of Chemistry<lb/>
+- This paper was covered<lb/>
+yesterday with a substance<lb/>
+named Hornsilver - Half of<lb/>
+it was exposed to day light<lb/>
+- the other half was preserved<lb/>
+in darkness - one is black<lb/>
+the other unaltered - At first<lb/>
+it must be supposed that the same<lb/>
+matter or impulse from<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+7<lb/>
+the sun which causes light produces<lb/>
+likewise this phaenomenon: . but<lb/>
+it is not so.- if / a beam<lb/>
+of the sun be admitted through<lb/>
+a hole in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxxxx</unclear>
+            </del> dark<lb/>
+room - it will produce <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">se</del>
+            <lb/>
+a coloured image. . &amp; a piece<lb/>
+of paper <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in</del> exposed to the beam<lb/>
+will be affected <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">by matter</del>
+            <lb/>
+where there is no visible<lb/>
+light. -<lb/>
+- There may be other influences<lb/>
+as yet undiscovered exerted by<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> rays from the celestial bodies<lb/>
+or from substances on the<lb/>
+surface of the earth -- a<lb/>
+few years only are passed<lb/>
+since we have become acquainted<lb/>
+with the varieties of gaseous<lb/>
+Bodies; |_ &amp; still more refined<lb/>
+methods are required for<lb/>
+operating upon <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">those subtile</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">moving substances</hi> which are not<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+8<lb/>
+peculiar to our planet &amp; which<lb/>
+do as it were connect us with<lb/>
+the great system of the universe<lb/>
+- . To be able to understand<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">causes</del> permanency <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of the</del>
+            <lb/>
+or the changes of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del>
+            <lb/>
+forms of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Matter</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">bodies</add>; the series<lb/>
+of events in the History<lb/>
+of Nature &amp; in the<lb/>
+operations of Art, it<lb/>
+is necessary <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">as I mentioned in the introductory lecture</add> to consider<lb/>
+the active powers belonging<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to bodies</del> to Matter &amp;<lb/>
+the laws of their operation.<lb/>
+-.By active powers are<lb/>
+understood those powers which<lb/>
+cannot be separated from the<lb/>
+bodies <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">xx</del> which they <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxxxxx</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">affect</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <add>act</add>
+            </del> which produce the motions<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of their particles</hi> - Such as<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="9"
+                xml:id="pb-9"
+                facs="#i9"/>
+            <lb/>
+9<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxxxxx</unclear>
+            </del>. - The expansive energy; or<lb/>
+the power of repulsion, which produces heat<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">or Heat chemical</del> &amp; attraction<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; Electrical</del> in its different modifications<lb/>
+or <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">gravitative</add> chemical ; or as Electrical<lb/>
+Attraction. -<lb/>
+|_ Active powers must be considered<lb/>
+as <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">belonging to Matter</hi>:- but<lb/>
+it is not necessary to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">consider regard</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">suppose</add>
+            <lb/>
+them <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a</del> inherent in it;- It<lb/>
+may be regarded <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">itself</hi> as inert<lb/>
+&amp; all effects produced upon it<lb/>
+as flowing from the same<lb/>
+original <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">source</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">cause</add> which as it<lb/>
+is intelligent must be divine.<lb/>
+- The same power of gravitation -<lb/>
+which <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">causes the planets to revolve</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">produces the revolutions of the planets</add>
+            <lb/>
+round the sun &amp; preserves the<lb/>
+fixed stars in their <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">xx</del> places, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">combined with</add>
+            <lb/>
+likewise <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the course of</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">another cause is essential to</add> the regular<lb/>
+succession of <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">our</add> seasons; &amp; the changes<lb/>
+of temperature so necessary in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxx</unclear>
+            </del> the<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="10"
+                xml:id="pb-10"
+                facs="#i10"/>
+            <lb/>
+10<lb/>
+system <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of the</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Globe</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">When we perceive</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a magnificent Building a monument-</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of man.</del>
+            <lb/>
+- The <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">different powers</hi> in nature<lb/>
+as harmoniously cooperating must<lb/>
+be referred to one source - . When<lb/>
+we perceive a great &amp; magnificent<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>builing</unclear>
+            </del> &amp; magnificent <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Building</add> we know<lb/>
+that it must have been<lb/>
+the result of the labours<lb/>
+of various hands;- but we<lb/>
+are secure that the perfect<lb/>
+design by which its parts have<lb/>
+been arranged must have<lb/>
+been the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">result of the</del>
+            <lb/>
+combinations of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">one genius</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">a</add>. -<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">single</hi> mind. - .<lb/>
+-. The first subject to<lb/>
+which I shall ask permission<lb/>
+to direct your attention<lb/>
+is Heat or the power<lb/>
+|<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="11"
+                xml:id="pb-11"
+                facs="#i11"/>
+            <lb/>
+11<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of expansion</hi>;- Its energies are<lb/>
+constantly exerted &amp; it is<lb/>
+equally important in the<lb/>
+oeconomy of Nature; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> in the<lb/>
+processes &amp; arts of Social<lb/>
+life. &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">as an instrument</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of <unclear>an</unclear>
+            </del> in the experimental<lb/>
+departments of Science.<lb/>
+-. -. The sensible; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> phaenomena<lb/>
+of Heat require little illustration<lb/>
+- The effects of bodies <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in this respect</add> depend<lb/>
+not only upon the state of<lb/>
+Heat but upon the states of our<lb/>
+organs: <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> if one hand has<lb/>
+been kept for some time in<lb/>
+cold &amp; the other in hot<lb/>
+water; the same body that<lb/>
+feels hot to the one will<lb/>
+appear cold to the other.<lb/>
+- The sensations of heat like<lb/>
+those of vision are not perfectly<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="12"
+                xml:id="pb-12"
+                facs="#i12"/>
+            <lb/>
+12<lb/>
+definite.-, The eye after being<lb/>
+exposed to sunshine will not<lb/>
+perceive objects in a room where<lb/>
+the light would be dazzling<lb/>
+after <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the day</del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">being</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">it had been</add> long<lb/>
+accustomed to darkness -<lb/>
+- The word Heat in philosophical<lb/>
+language is used to express<lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">cause</hi> of the sensations<lb/>
+of heat &amp; of the effects<lb/>
+connected with them &amp; it<lb/>
+is the same as the "<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Caloric</hi>
+            <lb/>
+of the French nomenclature<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- I do not</del> employed in most of the<lb/>
+elementary books on Chemistry.<lb/>
+- I do not adopt this word<lb/>
+because there appears to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">me</del> be<lb/>
+no necessity for it. -<lb/>
+Science can be nothing more<lb/>
+than the refinement of<lb/>
++<lb/>
+common sense; - &amp; its<lb/>
+language should be as nearly<lb/>
+as possible the common language<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="13"
+                xml:id="pb-13"
+                facs="#i13"/>
+            <lb/>
+13<lb/>
+of enlightened men <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Persons</add>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">minds.</add> . - |_The change<lb/>
+of names is constantly leading<lb/>
+to confusion " | &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">in many</hi> cases;<lb/>
+as I shall shew in the course<lb/>
+of these lectures |_ i<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">t</del>n which <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">it</del> a new<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <hi rend="underline">nomenclature</hi>
+            </add> has been supposed <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">favorable</hi>
+            <lb/>
+to the advancement of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Science it</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Knowledge, it</add>
+            <lb/>
+has <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">rather</add> tended to perpetuate &amp;<lb/>
+defend error. - . The <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">paths</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Roads</add> to<lb/>
+science should if possible be<lb/>
+smoothed; &amp; not filled with obstacles<lb/>
+not <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">continu</del> be continuously broken<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">up &amp; newly laid out</hi>, but the<lb/>
+trodden &amp; familiar <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">road</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">paths</add> preserved;<lb/>
+&amp; the direction <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">posts</unclear> suffered to<lb/>
+remain in their ancient &amp;<lb/>
+well known positions. -<lb/>
+- . One of the most <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>important</unclear>
+            </del> obvious<lb/>
+&amp; important agencies of Heat is<lb/>
+the increase of volume which it<lb/>
+gives to bodies. -<lb/>
+Bodies enlarge in all dimensions<lb/>
+when they become capable of communicating<lb/>
+the sensation of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Heat</hi>; &amp; they<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="14"
+                xml:id="pb-14"
+                facs="#i14"/>
+            <lb/>
+14<lb/>
+contract on cooling. -<lb/>
+- The law applies to all<lb/>
+forms of matter that can<lb/>
+be submitted to exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">t</hi>. -<lb/>
+Solids - a bar<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Cop</del>
+            <lb/>
+Iron <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear>
+            </del> rings or<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">fluids</del>
+            <lb/>
+Hoops<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag5"
+                ref="#person_458"
+                type="person">
+               <name xml:id="tag5" type="person">
+          Harrisons
+        </name>
+            </rs> pendulum. -<lb/>
+[Ink sketch]<lb/>
+less 3<lb/>
+3 times as long<lb/>
+the clock goes faster when the<lb/>
+pendulum <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">is shortened</hi>. Slower<lb/>
+when it is lengthened<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- Fluids expand likewise</del>
+            <lb/>
+A instance of the expansion<lb/>
+of fluids is in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag6"
+                ref="#chemical_341"
+                type="chemical">
+               <term xml:id="tag6">
+          Spirits<lb/>of wine
+          
+        </term>
+            </rs> - or water - or<lb/>
+a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">kettle</hi>. -<lb/>
+Instance<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="15"
+                xml:id="pb-15"
+                facs="#i15"/>
+            <lb/>
+15<lb/>
+- .Elastic substance air confined<lb/>
+by a coloured fluid. -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- Whenever fluids <add>or gasses</add> expand they</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">become <hi rend="underline">lighter</hi> &amp; if the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">effect is produced in a large</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">body of Matter. changes of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">place occur. - &amp; phaenomena</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of this kind are of great</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">importance in the <unclear>oeconomy</unclear>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of Nature.</del>
+            <lb/>
+[Ink sketches]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="16"
+                xml:id="pb-16"
+                facs="#i16"/>
+            <lb/>
+16<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="17"
+                xml:id="pb-17"
+                facs="#i17"/>
+            <lb/>
+17<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to a certain extent its power of <add>communicating</add> heat &amp;</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the other body expands and in a <del rend="strikethrough">certain</del>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">degree acquires this power.-</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">This law may be exemplified with</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">respect to every form of ponderable</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">matter - If a polished cylinder of <rs xml:id="ttag7" ref="#chemical_038" type="chemical">
+                  <term xml:id="tag7">
+          Tin
+          
+        </term>
+               </rs>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">which accurately fits a ring be heated</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">so as to make water boil it will</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">no longer pass through the ring &amp; will</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">befound enlarged in all its dimensions</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">If Spirits of wine be heated in a glass</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">vessel having a narrow tubulated</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">neck; as it becomes capable of com-</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">-municating the sensation of heat</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">it will be found to expand and</del>
+            <lb/>
+to rise in the narrow neck * - &amp;<lb/>
+see Plate 1. fig 1. -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="18"
+                xml:id="pb-18"
+                facs="#i18"/>
+            <lb/>
+18<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">if the body of the same vessel be filled</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">with air, and it be inverted in</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">water, its neck containing water, the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">air will rapidly expand, on the appli-</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">-cation of a heated body, and will</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">cause the water to descend in the</del>
+            <lb/>
+neck of the vessel <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">*</add>.-<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">2</add> Different Solids and fluids expand<lb/>
+very differently when heated by the<lb/>
+same means -<lb/>
+Glass is less expansible than<lb/>
+any of the metals. - 100,000 parts<lb/>
+raised from the degree of heat of<lb/>
+freezing to that of boiling water,<lb/>
+expands so as to be come 1000 83<lb/>
+parts - 100. 0000 of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag8"
+                ref="#chemical_369"
+                type="chemical">
+               <term xml:id="tag8">
+          Platinum
+          
+        </term>
+            </rs> under<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">see</del> plate 1. fig. 2.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="19"
+                xml:id="pb-19"
+                facs="#i19"/>
+            <lb/>
+19 <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">6</del>
+            </unclear>
+            <lb/>
+19<lb/>
+similar circumstances expands so as to<lb/>
+become 1000 87. - and equal <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">quantities</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">parts</add>
+            <lb/>
+of Gold, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag9"
+                ref="#chemical_255"
+                type="chemical">
+               <term xml:id="tag9">
+          antimony
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag10"
+                ref="#chemical_370"
+                type="chemical">
+               <term xml:id="tag10">
+          cast iron
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag11"
+                ref="#chemical_323"
+                type="chemical">
+               <term xml:id="tag11">
+          Steel
+          
+        </term>
+            </rs>,<lb/>
+Iron, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag12"
+                ref="#chemical_187"
+                type="chemical">
+               <term xml:id="tag12">
+          Bismuth
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag13"
+                ref="#chemical_070"
+                type="chemical">
+               <term xml:id="tag13">
+          copper
+          
+        </term>
+            </rs>, cast <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag14"
+                ref="#chemical_321"
+                type="chemical">
+               <term xml:id="tag14">
+          Brass
+          
+        </term>
+            </rs>, Silver,<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag15"
+                ref="#chemical_038"
+                type="chemical">
+               <term xml:id="tag15">
+          Tin
+          
+        </term>
+            </rs>, Lead <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag16"
+                ref="#chemical_201"
+                type="chemical">
+               <term xml:id="tag16">
+          Zinc
+          
+        </term>
+            </rs>, &amp; hammered <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag17"
+                ref="#chemical_201"
+                type="chemical">
+               <term xml:id="tag17">
+          Zinc
+          
+        </term>
+            </rs>
+            <lb/>
+expand<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">s</del> in the following order. -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> 1000 94 - A 10010<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">9</del>8 - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>C I</unclear>
+            </del> 100111 - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>I</unclear>
+            </del> 100 112 -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>I</unclear>
+            </del> 100126 - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> 100139 - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>C</unclear>
+            </del> 100170 - S 100189 -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> 100 238 - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxx</unclear>
+            </del> 100287 - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>Z</unclear>
+            </del> 100296 - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxx 100286</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">100308</add> -<lb/>
+The expansive <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">power</add> of liquids <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">seems to be</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">less <unclear>equable</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in general is greater</add> than that of solids -<lb/>
+Alcohol <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">appears to</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">is</add> be more expans-<lb/>
+-ible than oils, &amp; oils in general<lb/>
+more expansible than water. 100-000<lb/>
+parts of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag18"
+                ref="#chemical_012"
+                type="chemical">
+               <term xml:id="tag18">
+          Mercury
+          
+        </term>
+            </rs> of the same degree<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="20"
+                xml:id="pb-20"
+                facs="#i20"/>
+            <lb/>
+20<lb/>
+of heat as ice becomes at the degree of<lb/>
+heat at which water boils 101825 -<lb/>
+All the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag19"
+                ref="#chemical_078"
+                type="chemical">
+               <term xml:id="tag19">
+          elastic fluids 
+          
+        </term>
+            </rs>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">or the different species of air</add> that have<lb/>
+been examined as has been demonstra-<lb/>
+-ted by Mess<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">rs</hi>. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag20"
+                ref="#person_066"
+                type="person">
+               <name xml:id="tag20" type="person">
+          Dalton
+        </name>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag21"
+                ref="#person_012"
+                type="person">
+               <name xml:id="tag21" type="person">
+          Gay Lussac
+        </name>
+            </rs>
+            <lb/>
+expand alike when heated to the<lb/>
+same degree - 100-000 parts of each at<lb/>
+the freezing point of water becoming<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">about</add> 137.<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">440</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">5</add> at the boiling point. -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- Solid bodies as far as has been shewn</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">by experiments</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- Solids seem to expand equally</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <del rend="strikethrough">*<rs xml:id="ttag22" ref="#person_012" type="person">
+                     <name xml:id="tag22" type="person">
+          Gay
+        </name>
+                  </rs>
+               </del> As far as <del rend="strikethrough">our</del> experiments</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">have <unclear>xx</unclear> shewn solids expand equably,</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">that is the increase of volume</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">seems to as the increase of heat;</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">fluids &amp; gasses</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="21"
+                xml:id="pb-21"
+                facs="#i21"/>
+            <lb/>
+21<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">2</del> It is evident that the density of<lb/>
+bodies must be diminished by<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> expansion <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of their parts</del> &amp; in<lb/>
+the case of fluids &amp; gasses the<lb/>
+parts of which are mobile, many<lb/>
+important phaenomena depend<lb/>
+upon this circumstance. - If<lb/>
+heat be applied to fluids or<lb/>
+to gasses, the heated parts<lb/>
+change their places &amp; rise; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> &amp;<lb/>
+the colder parts descend &amp; occupy<lb/>
+th<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>em</unclear>
+            </del>ose places.- . |_Currents are<lb/>
+constantly produced in the ocean<lb/>
+&amp; in great bodies of water in<lb/>
+consequence of this <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">circumstance <add>phaenomenon</add>
+            </del>; effect.<lb/>
+- The <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">warm</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">heated</add> water rises to the surface<lb/>
+in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">warm</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">hot</del> the tropical</add> climates &amp; flows towards<lb/>
+colder ones 'thus the warmth of the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag23"
+                ref="#misc_846"
+                type="miscellaneous">
+               <term xml:id="tag23">
+          Gulf stream
+        </term>
+            </rs> is felt <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">for an</del> a<lb/>
+thousand miles from its source; &amp;<lb/>
+deep currents pass from the colder<lb/>
+to the warmer parts of the sea; &amp;<lb/>
+the general tendency of these changes<lb/>
+is to equalize the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">temperature <add>heat</add>
+            </del> temperature<lb/>
+of the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">globe</del> - globe<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="22"
+                xml:id="pb-22"
+                facs="#i22"/>
+            <lb/>
+22<lb/>
+- In the atmosphere, heated air is<lb/>
+constantly rising &amp; colder air rushes<lb/>
+in to supply its place; &amp; this event<lb/>
+is the principal cause of winds;<lb/>
+- the air that flows from the poles<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">towards</add> the equator <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">from</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in consequence <del rend="strikethrough">of</del>
+            </add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the rotati circumstances</del>
+            <lb/>
+of the rotation of the earth, has<lb/>
+less motion than the atmosphere into<lb/>
+which it passes, &amp; occasions an<lb/>
+easterly current; the air <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">rising</del> passing<lb/>
+from the equator towards the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">pole</del>
+            <lb/>
+poles <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>in</unclear> an opposite</del> having more<lb/>
+motion occasions a westerly current;<lb/>
+&amp; by thee variations of the heat<lb/>
+of the globe; the different parts of<lb/>
+the atmosphere, are <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">mixed</hi> together,<lb/>
+cold is <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">subdued</hi> by heat -: moist air<lb/>
+from the sea is mixed with dry air<lb/>
+from the land &amp; the great mass of<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag24"
+                ref="#chemical_078"
+                type="chemical">
+               <term xml:id="tag24">
+          elastic fluid
+          
+        </term>
+            </rs> surrounding the globe preserved<lb/>
+in a state fitted for the purposes of<lb/>
+vegetable &amp; animal life. -<lb/>
+{<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">When equal volumes of the same substance</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">heated &amp; in its common state are</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">weighed it is found that the volume</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of the heated matter has the least</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">weight is the density <del rend="strikethrough">of</del> or specific</del>}<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="23"
+                xml:id="pb-23"
+                facs="#i23"/>
+            <lb/>
+23 <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">4</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">3</add> |_ There are very few exceptions to th<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>is</unclear>
+            </del>e<lb/>
+law of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">expansion</hi> of bodies at<lb/>
+the time they become capable of commu-<lb/>
+-nicating the sensation of heat, &amp; these<lb/>
+exceptions seem<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">s</del> entirely to depend upon<lb/>
+some chemical change in the consti-<lb/>
+-tution of bodies, or on their chrystaline<lb/>
+arrangements - Thus clay <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">when half</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">baked</del> contracts considerably in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">into</del> dimen-<lb/>
+-sions by a very intense heat <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">&amp; on the measure of <del rend="strikethrough">
+                  <unclear>these</unclear>
+               </del> its contractions the pyrometer of <rs xml:id="ttag25" ref="#person_135" type="person">
+                  <name xml:id="tag25" type="person">
+          Wedgwood
+        </name>
+               </rs> is founded</add> - But<lb/>
+in this case, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">it</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">the clay first</add> gives off water, which<lb/>
+was <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">u</add>nited to its parts, and <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">afterwards</add> these parts<lb/>
+cohere together with more force, &amp; from<lb/>
+being in a state of loose <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">cohesion</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">aggregation</add> become<lb/>
+strongly united - Water expands a little<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="24"
+                xml:id="pb-24"
+                facs="#i24"/>
+            <lb/>
+24<lb/>
+before it congeals and expands considerably ..<lb/>
+during its conversion into ice, but in this<lb/>
+case it assumes the chrystaline form , &amp;<lb/>
+its parts whilst they are arranging<lb/>
+themselves to form regular solids probably<lb/>
+leave greater interstices than they<lb/>
+occupied when <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">fluid</del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">at uniform</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">at uniform distances in</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">distances in the fluid</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">the fluid</add> - Thus the<lb/>
+same weight of matter will occupy<lb/>
+much more space when arranged<lb/>
+in <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">a certain number of octahedrons</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">acute angled Rhomboidal parallel-</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">-lopipedoms</del> than when arranged in<lb/>
+a similar number of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">spheres</del> cubes<lb/>
+or hexagons - . . Certain <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag26"
+                ref="#chemical_167"
+                type="chemical">
+               <term xml:id="tag26">
+          saline
+          
+        </term>
+            </rs> solutions <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">likewise</add>
+            <lb/>
+that shoot into prismatic chrystals expand out<lb/>
+the moment they become solid; &amp; the case is the same with<lb/>
+cast, iron, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag27"
+                ref="#chemical_187"
+                type="chemical">
+               <term xml:id="tag27">
+          Bismuth
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag28"
+                ref="#chemical_255"
+                type="chemical">
+               <term xml:id="tag28">
+          antimony
+          
+        </term>
+            </rs>. -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="25"
+                xml:id="pb-25"
+                facs="#i25"/>
+            <lb/>
+25<lb/>
+-<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="superscript">5</hi>
+            </del>- The expansion of water during its<lb/>
+conversion into ice is <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">proved by</del> shewn by<lb/>
+the circumstance of ice swimming upon<lb/>
+water; &amp; if water in a<lb/>
+deep vessel be - examined <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">it will</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">be found a little</del> at the time<lb/>
+ice is forming <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">on its surface</del>, it<lb/>
+will be found a little warmer at<lb/>
+the bottom than at the top; &amp;<lb/>
+these circumstances are of great<lb/>
+importance in the oeconomy of<lb/>
+Nature -: Water congeals only at<lb/>
+the surface where it is liable<lb/>
+to be acted upon by the sun<lb/>
+&amp; by warm currents of air which<lb/>
+tend to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">be</del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">not</del> restore it to the<lb/>
+fluid state; &amp; when water approaches<lb/>
+near the point of freezing it begins<lb/>
+to descend so that <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">no</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in very deep</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear> seas &amp; lakes no</del> ice can form<lb/>
+till the whole of the water<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxx</unclear>
+            </del> has been cooled to the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">degree</del> point<lb/>
+where it possesses the greatest<lb/>
+density <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">|</unclear> &amp; in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">dee the oce</del> the deep<lb/>
+parts of the sea &amp; lakes; even in<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="26"
+                xml:id="pb-26"
+                facs="#i26"/>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">some of</add> the northern latitudes, the duration of<lb/>
+the long winter even is insufficient to<lb/>
+cool the water to the degree<lb/>
+at which ice forms.<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- . . When equal volumes of the same</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">substance heated, &amp; in its common</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">state are weighed it is found</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">that the <unclear>xx</unclear> volume of the heated</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">matter has the least weight, <del rend="strikethrough">that</del> ie</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>is</unclear> the specific gravity of <del rend="strikethrough">the</del> bod<del rend="strikethrough">y</del>ies are</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <del rend="strikethrough">
+                  <unclear>are</unclear>
+               </del> diminished by the expansion of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">their parts; - &amp; in the case of fluids</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; gases the parts of which are mobile</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">many important phaenomena depend upon</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">this circumstance . - - If <del rend="strikethrough">a</del> some spirits</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of wine be introduced into a <del rend="strikethrough">tube</del>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">long tube &amp; a <del rend="strikethrough">
+                  <unclear>p</unclear>
+               </del> small piece of Brasil</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">wood be thrown to the bottom <del rend="strikethrough">of the</del>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">tube, the liquid <del rend="strikethrough">at the bottom</del>
+               <add>in <del rend="strikethrough">
+                     <unclear>xxxx</unclear>
+                  </del> immediate contact with the wood</add> will</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">soon be tinged red. - let the flame</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of a <rs xml:id="ttag29" ref="#misc_362" type="miscellaneous">
+                  <term xml:id="tag29">
+          spirit lamp
+        </term>
+               </rs> be applied; <del rend="strikethrough">
+                  <unclear>tha</unclear>
+               </del> so that</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the heat <del rend="strikethrough">will</del>
+               <add>may</add> affect the coloured liquor</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; it will <del rend="strikethrough">be</del>
+               <add>immediately be</add> seen to rise through</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the cold &amp; colourless liquor. --</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Catechu</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="27"
+                xml:id="pb-27"
+                facs="#i27"/>
+            <lb/>
+27<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">6</del>4 |_ When equal quantities of the same matter<lb/>
+differently heated are mixed together<lb/>
+as much as the one contracts so much<lb/>
+the other <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">seems to</del> expands- It is easy<lb/>
+to prove this by shaking together 100<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">grains</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">parts</add> of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag30"
+                ref="#chemical_012"
+                type="chemical">
+               <term xml:id="tag30">
+          Mercury
+          
+        </term>
+            </rs> so hot as not to be<lb/>
+to be touched with out pain and 100<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">grains</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">parts</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">which has not been heated</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in its common state</add>, having<lb/>
+previously measured the space they occup<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ied</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">y</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in a narrow glass tube;</del> if <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">they be mixed</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">if the mixture is</add>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">made</add> in the tube, that contained the hot<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag31"
+                ref="#chemical_012"
+                type="chemical">
+               <term xml:id="tag31">
+          Mercury
+          
+        </term>
+            </rs>, there will be no sensible change<lb/>
+of volume -<lb/>
+It is <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>i</unclear>
+            </del>on the idea that when Heat or<lb/>
+the power of repulsion is communicated<lb/>
+from body to Body, as much is gained by<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="28"
+                xml:id="pb-28"
+                facs="#i28"/>
+            <lb/>
+28<lb/>
+one body as <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">is</add> lost by the other that<lb/>
+Thermometers have been framed and the<lb/>
+doctrines of temperatures, <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">&amp;</add> capacity for heat<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">powers of bodies for conducting heat &amp;</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">latent heat</del> founded. -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">7</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">5</add>. The most common Thermometer is<lb/>
+a <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">glass</add> bulb containing <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag32"
+                ref="#chemical_012"
+                type="chemical">
+               <term xml:id="tag32">
+          Mercury
+          
+        </term>
+            </rs> terminated by<lb/>
+a <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">glass</add> tube having <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">x</unclear> a very narrow bore -<lb/>
+The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag33"
+                ref="#chemical_012"
+                type="chemical">
+               <term xml:id="tag33">
+          Mercury
+          
+        </term>
+            </rs> is boiled to expel <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">any</add> air <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">and</del> or<lb/>
+moisture <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">that might be attached to it</add> and at the moment it is in<lb/>
+ebullition the extremity of the tube being<lb/>
+drawn to a fine point is hermetically<lb/>
+seal<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">l</del>ed by a <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag34"
+                ref="#misc_362"
+                type="miscellaneous">
+               <term xml:id="tag34">
+          spirit lamp
+        </term>
+            </rs> -- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">To gain a</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">For the purpose of acquiring a</add> Scale<lb/>
+the bulb is first plunged into melting<lb/>
+ice and the place where the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag35"
+                ref="#chemical_012"
+                type="chemical">
+               <term xml:id="tag35">
+          Mercury
+          
+        </term>
+            </rs> stands<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="29"
+                xml:id="pb-29"
+                facs="#i29"/>
+            <lb/>
+29 <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <del rend="strikethrough">7</del>8</del>
+            <lb/>
+is marked, the bulb is afterwards plunged<lb/>
+into boiling water and the same operation<lb/>
+repeated - on <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag36"
+                ref="#person_784"
+                type="person">
+               <name xml:id="tag36" type="person">
+          Fahrenhits
+        </name>
+            </rs> scale this<lb/>
+space is divided into 180 equal parts,<lb/>
+and similar parts are taken above &amp;<lb/>
+below for extending the scale and the<lb/>
+freezing point of water is placed at<lb/>
+32<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">o</hi> and the boiling point 212<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">o</hi>-. <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>0</unclear> degree</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of <del rend="strikethrough">Fah</del>
+               <add>the centigrade thermometer</add>
+               <rs xml:id="ttag37" ref="#person_784" type="person">
+                  <name xml:id="tag37" type="person">
+                     <add>Fahrenheits</add>
+                  </name>
+               </rs> is equal to 1.8 of the centigrade &amp;</del>
+            <lb/>
+1.8 degrees of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag38"
+                ref="#person_784"
+                type="person">
+               <name xml:id="tag38" type="person">
+          Fahrenheit
+        </name>
+            </rs> are equal to 1 degree<lb/>
+of the centigrade thermometer &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to</del> 2.5 to one<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to</del> degree of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag39"
+                ref="#misc_324"
+                type="miscellaneous">
+               <term xml:id="tag39">
+          Reaumer
+        </term>
+            </rs>
+            <lb/>
+Other fluids besides <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag40"
+                ref="#chemical_012"
+                type="chemical">
+               <term xml:id="tag40">
+          Mercury
+          
+        </term>
+            </rs> such as<lb/>
+alcohol <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">or <rs xml:id="ttag41" ref="#chemical_350" type="chemical">
+                  <term xml:id="tag41">
+          oil of Terpentine
+          
+        </term>
+               </rs>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">are</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">are</del> some-<lb/>
+-times used <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in thermometers</add> particularly for measuring low<lb/>
+degrees when <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag42"
+                ref="#chemical_012"
+                type="chemical">
+               <term xml:id="tag42">
+          Mercury
+          
+        </term>
+            </rs> freezes -<lb/>
+Air is employed in the differential<lb/>
+thermometer which consists of two bulbs<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="30"
+                xml:id="pb-30"
+                facs="#i30"/>
+            <lb/>
+30<lb/>
+filled with air, and connected by a<lb/>
+capillary tube containing <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag43"
+                ref="#chemical_087"
+                type="chemical">
+               <term xml:id="tag43">
+          oil of<lb/>vitriol
+          
+        </term>
+            </rs>, the heated body is brought<lb/>
+in contact with one bulb: the<lb/>
+air of which expands &amp; drives<lb/>
+the fluid towards the other bulb<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">*</add>-<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">8</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">6</add>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Temperature</hi> is the power bodies<lb/>
+possess of communicating or receiving<lb/>
+heat, or the energy of repulsion<lb/>
+and the temperature of a body is<lb/>
+said to be high or low with<lb/>
+respect to another, in proportion<lb/>
+as it occasions an expansion or<lb/>
+contraction of its parts, and the<lb/>
+Plate 1. fig: 3 Represents <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag44"
+                ref="#person_786"
+                type="person">
+               <name xml:id="tag44" type="person">
+          M<hi rend="superscript">r</hi> Leslies
+        </name>
+            </rs> differential thermoter<lb/>
+Fig 4 <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Is[<del rend="strikethrough">x</del>
+            </unclear> copied from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag45"
+                ref="#person_221"
+                type="person">
+               <name xml:id="tag45" type="person">
+          Van Helmont
+        </name>
+            </rs>, this instrument appears to<lb/>
+have been the first in whic<unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">h</unclear>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>of</unclear>
+            </del> air was <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">measured</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">exhibited</add>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="31"
+                xml:id="pb-31"
+                facs="#i31"/>
+            <lb/>
+31<lb/>
+Thermometer is the common measure<lb/>
+of temperature. -<lb/>
+9 When equal <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">weights</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">volumes</add> of different bodies<lb/>
+of different temperatures are suffered<lb/>
+to remain in contact till they<lb/>
+are possessed of the same temperature,<lb/>
+it is <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">not</del> found that this temperature<lb/>
+is a <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">not</add> mean one, as it would be in<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">the</add> case of equal <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">weights</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">volumes</add> of the same body -<lb/>
+Thus if a <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">pound</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">pint</add> of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag46"
+                ref="#chemical_033"
+                type="chemical">
+               <term xml:id="tag46">
+          quicksilver
+          
+        </term>
+            </rs> at <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>50</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">100°</add>
+            <lb/>
+be mixed with a <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">pound</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">pint</add> of water at<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">100</del>50 The resulting temperature is<lb/>
+not 75° but about 70. The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag47"
+                ref="#chemical_012"
+                type="chemical">
+               <term xml:id="tag47">
+          Mercury
+          
+        </term>
+            </rs>
+            <lb/>
+has lost 30° <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <add>30</add>
+            </del> whereas the water has gained<lb/>
+only 20° - In the common language<lb/>
+In the common language of chemical<lb/>
+which the expansive power of heated<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xx</unclear> by its action upon cold air. -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="32"
+                xml:id="pb-32"
+                facs="#i32"/>
+            <lb/>
+32<lb/>
+of Philosophers this difference is said to<lb/>
+depend upon the different <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">capacities</hi>
+            <lb/>
+of bodies for heat, &amp; the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">capacity</hi> of<lb/>
+a body is said to be greater or<lb/>
+less in proportion as it as its<lb/>
+temperature is less or more raised<lb/>
+by the addition or diminished<lb/>
+by the Subtraction of equal quantities<lb/>
+of the power of repulsion, or heat. -<lb/>
+Thus <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag48"
+                ref="#chemical_012"
+                type="chemical">
+               <term xml:id="tag48">
+          Mercury
+          
+        </term>
+            </rs> is said to have<lb/>
+a much less capacity for heat<lb/>
+than water, and taking the<lb/>
+facts above stated as data, <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">&amp; comparing their weights which are as 13.3 to 1,</add>
+            <lb/>
+their capacity<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ies</del> will be to each<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="33"
+                xml:id="pb-33"
+                facs="#i33"/>
+            <lb/>
+33 <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">8</del> 9<lb/>
+other as about 19 to 1.<lb/>
+Tables of the relative capacities of<lb/>
+bodies are given in the works of different<lb/>
+authors, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">In referring to the various</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">bodies which are the subjects of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">chemistry, this property will be</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">described amongst other properties</del>
+            <lb/>
+In general it appears that the<lb/>
+substances most expansible by heat<lb/>
+are those which have the greatest<lb/>
+capacities; <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Thus gasses <del rend="strikethrough">have greater</del>
+            </add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">thus <rs xml:id="ttag49" ref="#chemical_078" type="chemical">
+                  <term xml:id="tag49">
+          elastic fluids 
+          
+        </term>
+               </rs>
+               <add>have</add> are</del>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in general have greater capacities</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">more expansible than fluids, &amp; fluids</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">than Solids</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">than fluids &amp; fluids than solids</add> but as yet it has<lb/>
+not been determined what is the<lb/>
+exact ratio between these powers. -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="34"
+                xml:id="pb-34"
+                facs="#i34"/>
+            <lb/>
+34<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">7</add> Different bodes it appears have their<lb/>
+temperatures differently raised by<lb/>
+the addition or diminished by the<lb/>
+subtraction of equal quantities of heat<lb/>
+or the power of repulsion, &amp; they are<lb/>
+likewise affected by heat or expanded<lb/>
+with very different degrees of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">quickness</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">celerity</add>
+            <lb/>
+If slender cyl<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">e</del>inders of Silver, of glass<lb/>
+&amp; of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag50"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag50">
+          charcoal
+          
+        </term>
+            </rs>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">of equal l</del> of equal length &amp; size,</add> be held in the central<lb/>
+part of the flame of a candle the<lb/>
+silver rapidly becomes heated thro<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">ou</add>gh -<lb/>
+-out and cannot be held in the<lb/>
+hand, the heat is more slowly com-<lb/>
+municated through the glass, but the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag51"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag51">
+          charcoal
+          
+        </term>
+            </rs> becomes red hot at the<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="35"
+                xml:id="pb-35"
+                facs="#i35"/>
+            <lb/>
+35<lb/>
+one extremity long before any heat<lb/>
+is felt at the other extremity -<lb/>
+These differences are said to depend upon<lb/>
+the different powers of these bodies <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">for</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">conducting</hi> heat thus the silver is said<lb/>
+is said to be a better conductor than<lb/>
+the glass, and the glass than the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag52"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag52">
+          charcoal
+          
+        </term>
+            </rs> - In general those bodies<lb/>
+that are the densest and that<lb/>
+have the least capacity for heat are<lb/>
+the best conductors - Thus the metals<lb/>
+conduct better than any other <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">substance</del>
+            <lb/>
+Solids, gasses are worse conductors than<lb/>
+fluids, and fluids than solids: but<lb/>
+there are exceptions <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">with respect to this correspondence</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">and a remarkable</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="36"
+                xml:id="pb-36"
+                facs="#i36"/>
+            <lb/>
+36<lb/>
+between conducting power &amp; density &amp; a remarkable<lb/>
+one, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">with respect to</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in</add> the densest body in<lb/>
+nature <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag53"
+                ref="#chemical_028"
+                type="chemical">
+               <term xml:id="tag53">
+          Platina
+          
+        </term>
+            </rs>, which is perhaps the<lb/>
+worst conductor amongst the metals. -<lb/>
+1.8<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">
+               <hi rend="underline">F</hi>
+            </hi>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">a</unclear>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Heat or the power of repulsion may</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">be considered as the <hi rend="underline">antagonist</hi>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">power to the attraction of cohesion,</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the one tending to separate the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">other to unite the parts of bodies</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">and the forms of bodies depend</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">upon their respective agencies -</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">In solids the attractive force predom-</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">-inates over the repulsive; in fluids</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">and in |_ <rs xml:id="ttag54" ref="#chemical_078" type="chemical">
+                  <term xml:id="tag54">
+          elastic fluids
+          
+        </term>
+               </rs> they may</del>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">vol. <hi rend="underline">1</hi>. <unclear>G</unclear> 81</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">be regarded as in different states</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of equilibrium; and in etherial substances</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="37"
+                xml:id="pb-37"
+                facs="#i37"/>
+            <lb/>
+37. <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>17</unclear>
+            </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The repulsive must be considered as predom-</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">-inating over and destroying the attractive</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">force -</del>
+            <lb/>
+All the different Substances in Nature<lb/>
+under certain circumstances are probably<lb/>
+capable of assuming all these forms;<lb/>
+Thus Solids by a certain increase of<lb/>
+temperature become fluids &amp; fluids<lb/>
+gasses; &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">vice versa</hi> by a diminution<lb/>
+temperature gasses become <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxx</unclear>
+            </del> fluids and<lb/>
+fluids solids -<lb/>
+Instances, of the fusion of solids<lb/>
+by heat are too familiar to require<lb/>
+any particular notice, when water<lb/>
+becomes steam by boiling, it is merely<lb/>
+the conversion of a fluid into an<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag56"
+                ref="#chemical_078"
+                type="chemical">
+               <term xml:id="tag56">
+                  <choice>
+                     <sic>
+                        <rs xml:id="ttag56" ref="##{tagvalue[1]!}" type="chemical">
+                           <term xml:id="tag56" xml:lang="{tagvalue[8]!}">
+                              <choice>
+                                 <sic>chemical_078</sic>
+                                 <corr>chemical_078</corr>
+                              </choice>
+                           </term>
+                           <gloss target="#tag56">chemical_078</gloss>
+                        </rs>
+                     </sic>
+                     <corr>elastic fluid[/chemical]</corr>
+                  </choice>
+               </term>
+            </rs>; and a simple instance<lb/>
+of this circumstance may be given in<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="38"
+                xml:id="pb-38"
+                facs="#i38"/>
+            <lb/>
+38<lb/>
+the ebullition of Ether.. <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">l</del> Let a little ether<lb/>
+be introduced into a small glass retort<lb/>
+filled with water and inverted in<lb/>
+water - The ether will swim above<lb/>
+the water in the uper part of the<lb/>
+retort. let a heated bar of metal<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">*</hi>
+            <lb/>
+be held near the part of the retort<lb/>
+containing the ether, as the heat is<lb/>
+communicated, globules will <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">arise</del> be<lb/>
+seen to rise and in a very short<lb/>
+time <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag57"
+                ref="#chemical_078"
+                type="chemical">
+               <term xml:id="tag57">
+          elastic fluid
+          
+        </term>
+            </rs> will be formed in<lb/>
+such quantities as to expel the water<lb/>
+from the vessel - on suffering the<lb/>
+glass to cool the elastic matter<lb/>
+will be condensed and will<lb/>
+* P. 1. Fig 6.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="39"
+                xml:id="pb-39"
+                facs="#i39"/>
+            <lb/>
+39<lb/>
+become again fluid -<lb/>
+If a globule<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">le</del> of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag58"
+                ref="#chemical_012"
+                type="chemical">
+               <term xml:id="tag58">
+          Mercury
+          
+        </term>
+            </rs> be held in<lb/>
+a spoon of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag59"
+                ref="#chemical_028"
+                type="chemical">
+               <term xml:id="tag59">
+          Platina
+          
+        </term>
+            </rs> over the flame<lb/>
+of a lamp, it will be vividly agitated<lb/>
+and will rapidly diminish - <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">no new <unclear>xxx</unclear>
+            </add>
+            <lb/>
+This is owing to its becoming elastic<lb/>
+and flying off in gas, &amp; by a very<lb/>
+low temperature which may be<lb/>
+artificially produced by mixing together<lb/>
+very cold snow and a salt called<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag60"
+                ref="#chemical_014"
+                type="chemical">
+               <term xml:id="tag60">
+          Muriate of Lime
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag61"
+                ref="#chemical_012"
+                type="chemical">
+               <term xml:id="tag61">
+          Mercury
+          
+        </term>
+            </rs> may be<lb/>
+congealed into the solid form -<lb/>
+Different bodies change their states<lb/>
+at very different temperatures -<lb/>
+Thus <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag62"
+                ref="#chemical_012"
+                type="chemical">
+               <term xml:id="tag62">
+          Mercury
+          
+        </term>
+            </rs>, which is a solid at<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="40"
+                xml:id="pb-40"
+                facs="#i40"/>
+            <lb/>
+40<lb/>
+about 40 below 0 <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag63"
+                ref="#person_784"
+                type="person">
+               <name xml:id="tag63" type="person">
+          Fah<hi rend="superscript">t</hi>
+               </name>
+            </rs>, boils at about<lb/>
+660; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag64"
+                ref="#chemical_037"
+                type="chemical">
+               <term xml:id="tag64">
+          Sulphur
+          
+        </term>
+            </rs> which becomes fluid at<lb/>
+218°boils at 570° - Ether boils at 98° -<lb/>
+The temperatures at which the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <add>commonly</add> metals</del>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">known</del>
+               <add>the common</add>
+               <del rend="strikethrough">known</del> metals</add> become gaseous are generally very<lb/>
+high and <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">not</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">most of them not</add> capable of being<lb/>
+produced by common means <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Iron, <rs xml:id="ttag65" ref="#chemical_060" type="chemical">
+                  <term xml:id="tag65">
+          Manganese
+          
+        </term>
+               </rs>
+               <del rend="strikethrough">&amp;</del>
+               <rs xml:id="ttag66" ref="#chemical_028" type="chemical">
+                  <term xml:id="tag66">
+          Platina
+          
+        </term>
+               </rs> &amp; some other</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">but</del>
+            <lb/>
+metals <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">cannot</del> which can scarcely be fused in the<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">strongest fu</del> best furnaces are readily melted<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">by the <rs xml:id="ttag68" ref="#chemical_161" type="chemical">
+                  <term xml:id="tag68">
+                     <choice>
+                        <sic>
+                           <rs xml:id="ttag68" ref="##{tagvalue[1]!}" type="chemical">
+                              <term xml:id="tag68" xml:lang="{tagvalue[8]!}">
+                                 <choice>
+                                    <sic>chemical_161</sic>
+                                    <corr>chemical_161</corr>
+                                 </choice>
+                              </term>
+                              <gloss target="#tag68">chemical_161</gloss>
+                           </rs>
+                        </sic>
+                        <corr>Voltaic[/chemical]</corr>
+                     </choice>
+                  </term>
+               </rs> apparatus a degree</del>
+            <lb/>
+by electricity &amp; by the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag69"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag69">
+          Voltaic
+          
+        </term>
+            </rs> apparatus a degree of<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>5</unclear>
+            </del> heat is attained, in which <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag70"
+                ref="#chemical_028"
+                type="chemical">
+               <term xml:id="tag70">
+          Platina
+          
+        </term>
+            </rs>
+            <lb/>
+not only fuses with <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">readiness</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">readiness</add> but<lb/>
+Seems even to evaporate. -<lb/>
+With respect to the conversion of Solids<lb/>
+fluids, or gases into etherial substances<lb/>
+the proofs are not of the same distinct<lb/>
+nature as those belonging to their<lb/>
+conversion into each other - When<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="41"
+                xml:id="pb-41"
+                facs="#i41"/>
+            <lb/>
+41<lb/>
+liable to most of the affections which the<lb/>
+particles of common matter are assumed<lb/>
+to possess, to account for the phenomena;<lb/>
+such as losing its motion when combining<lb/>
+with bodies, producing motion when<lb/>
+transmitted from one body to another,<lb/>
+&amp; gaining projectile motion, when<lb/>
+passing into free space: so that<lb/>
+many hypotheses must be adopted to<lb/>
+account for its mode of agency, which<lb/>
+renders this view of the subject<lb/>
+less simple than the other. Very<lb/>
+delicate experiments have been made<lb/>
+which shew that bodies when heated<lb/>
+do not increase in weight. This,<lb/>
+as far as it goes, is an evidence<lb/>
+against a specific subtile <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag71"
+                ref="#chemical_078"
+                type="chemical">
+               <term xml:id="tag71">
+          elastic<lb/>fluid
+          
+        </term>
+            </rs> producing the calorific expansion;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="42"
+                xml:id="pb-42"
+                facs="#i42"/>
+            <lb/>
+42<lb/>
+but it cannot be considered as decisive,<lb/>
+on account of the imperfection of our<lb/>
+instruments; a cubical inch of inflammable<lb/>
+air requires a good balance to ascertain<lb/>
+that it has any sensible weight,<lb/>
+&amp; a substance bearing the same relation<lb/>
+to this, that this bears to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag72"
+                ref="#chemical_369"
+                type="chemical">
+               <term xml:id="tag72">
+          Platinum
+          
+        </term>
+            </rs>
+            <lb/>
+could not perhaps be weighed by any<lb/>
+methods in our possession. -<lb/>
+Some arguments have been raised in<lb/>
+favour of the existence of a specific<lb/>
+fluid of heat, from the circumstances<lb/>
+of the communication of heat to bodies<lb/>
+in exhausted receivers, &amp; from the<lb/>
+manner in which they are affected<lb/>
+by this heat; but there are no<lb/>
+means known to experimental science<lb/>
+of producing a perfect vacuum; even<lb/>
+the best <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag73"
+                ref="#misc_363"
+                type="miscellaneous">
+               <term xml:id="tag73">
+          Torricellian vacuum
+        </term>
+            </rs>
+            <lb/>
+must contain elastic matter.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="43"
+                xml:id="pb-43"
+                facs="#i43"/>
+            <lb/>
+43<lb/>
+The great capacity of such highly rarefied<lb/>
+matter is an obstacle to the indication<lb/>
+of temperature; but supposing <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> a<lb/>
+communication of heat, the laws must<lb/>
+be analogous to those of heat communicated<lb/>
+to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag74"
+                ref="#chemical_254"
+                type="chemical">
+               <term xml:id="tag74">
+          common air
+          
+        </term>
+            </rs>. If a long <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">cylinder</hi> of<lb/>
+metal, placed perpendicularly, be<lb/>
+heated in the middle, the warmest<lb/>
+part will be above, from the ascent<lb/>
+of heated particles of the elastic<lb/>
+medium; but if a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">sphere</hi> be<lb/>
+heated in the middle, the hottest<lb/>
+portion will be below, as the heated<lb/>
+elastic matter must remain longer<lb/>
+in contact with the inferior than<lb/>
+with the superior portion. -<lb/>
+- I do not think we<lb/>
+have at present any<lb/>
+means of deciding upon this<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">+</unclear>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="44"
+                xml:id="pb-44"
+                facs="#i44"/>
+            <lb/>
+44<lb/>
+question of the nature of Heat.<lb/>
+&amp; its effects may be studied<lb/>
+&amp; it may be employed as<lb/>
+an instrument of experiment<lb/>
+without the necessity of adopting<lb/>
+any hypothetical views respecting<lb/>
+its course. - . In offering<lb/>
+the mechanical explanation -<lb/>
+- It is my intention merely<lb/>
+to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">caution</del> give a caution<lb/>
+with respect to the adoption<lb/>
+of the chemical solution; which<lb/>
+is by far the most generally<lb/>
+received - Indeed the matter<lb/>
+of Heat or caloric is sometimes<lb/>
+talked of with the same<lb/>
+confidence as <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">any</del>water or<lb/>
+any common ponderable<lb/>
+bodies. - |_ It is of great<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="45"
+                xml:id="pb-45"
+                facs="#i45"/>
+            <lb/>
+45<lb/>
+- :. The principle of the change of<lb/>
+place of air in consequence of the<lb/>
+accession of Heat is of great<lb/>
+importance i<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">t</del>n its relations to the<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">can for</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">ventilation of mines &amp;</add> the heating &amp; ventilation of<lb/>
+rooms - To ventilate a mine<lb/>
+properly two apertures are nececessary<lb/>
+one horizontal in the side of the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">mountain</hi>, one <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">perpendicular</hi>; &amp; when<lb/>
+these two apertures are connected<lb/>
+there is a constant current of<lb/>
+air; which is upwards in winter<lb/>
+&amp; downwards in summer. -<lb/>
+-: <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">For</del> The interior parts of the<lb/>
+earth preserves nearly the mean<lb/>
+temperature of the atmosphere<lb/>
+throughout the whole year, &amp; it<lb/>
+is warmer than the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>ai</unclear>
+            </del> external<lb/>
+air in winter &amp; colder in summer. -<lb/>
+air in wi<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">t</del>nter &amp; colder in summer. -<lb/>
+- In summer it cools the air<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="46"
+                xml:id="pb-46"
+                facs="#i46"/>
+            <lb/>
+&amp; it flows out at the horizontal<lb/>
+&amp; lowest aperture; in Winter<lb/>
+it heats it &amp; it flows<lb/>
+through this aperture upwards.. -<lb/>
+- .In all dwelling rooms<lb/>
+the fire place is a ventilator<lb/>
+fresh cold air continually<lb/>
+passes in from the external<lb/>
+atmosphere &amp; hot air<lb/>
+rises through the chimney -<lb/>
+-. In large rooms which contain<lb/>
+great assemblies &amp; where<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">for</del> large fires <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in the room</add> would be<lb/>
+inconvenient other plans<lb/>
+must be adopted -. This<lb/>
+model represents the manner<lb/>
+in which the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag75"
+                ref="#misc_361"
+                type="miscellaneous">
+               <term xml:id="tag75">
+          House of<lb/>
+                  <del rend="strikethrough">
+                     <unclear>x</unclear>
+                  </del> Lords
+        </term>
+            </rs> is ventilated after<lb/>
+a plan which was executed<lb/>
+after my directions by<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="47"
+                xml:id="pb-47"
+                facs="#i47"/>
+            <lb/>
+desire of the committee of<lb/>
+that August assembly<lb/>
+- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>.<lb/>
+-. A similar plan might be<lb/>
+applied to large rooms - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del>
+            <lb/>
+drawing rooms for instance<lb/>
+might be furnished with<lb/>
+large ventilating pipes which<lb/>
+might be carried into <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a</del> the<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Chamber</del> fire place of a chamber<lb/>
+above.: - . It would be<lb/>
+important for the health<lb/>
+of the higher classes of<lb/>
+the community if such<lb/>
+a plan was to be universally<lb/>
+adopted. -<lb/>
+- It would be a triffling<lb/>
+additional expence in the<lb/>
+erection of a building. -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="48"
+                xml:id="pb-48"
+                facs="#i48"/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

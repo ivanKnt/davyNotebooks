@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-10105</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-10105</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/1/A/5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Lectures</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/1/A/5</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent> pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1778-12-17"
+                                   notAfter="1829-05-29"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-10105-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="3846px"
+                  rend="landscape"
+                  url="MS-DAVY-10105-000-00001"
+                  width="5013px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5012"
+               lry="3845"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="2930px"
+                  rend="landscape"
+                  url="MS-DAVY-10105-000-00002"
+                  width="4787px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4786"
+               lry="2929"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="2921px"
+                  rend="landscape"
+                  url="MS-DAVY-10105-000-00003"
+                  width="4787px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4786"
+               lry="2920"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="3837px"
+                  rend="landscape"
+                  url="MS-DAVY-10105-000-00004"
+                  width="5014px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5013"
+               lry="3836"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listPerson>
+         <person xml:id="person_165">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">William</forename>
+               <surname>Higgins</surname>
+            </persName>
+            <birth when="1763"/>
+            <death when="1825"/>
+            <note>Nephew of Bryan Higgins. Professor of Chemistry at the Dublin Society where he proposed a theory of chemical atomism. Met Davy in London who supported Higgins's claim to the atomic theory over that of John Dalton. FRSL.</note>
+         </person>
+         <person xml:id="person_246">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Robert</forename>
+               <surname>Hooke</surname>
+            </persName>
+            <birth when="1635"/>
+            <death when="1703"/>
+            <note>Natural philosopher who acted as experimental demonstrator at the Royal Society of London during its early years. Prominent in the study of air and microscopy amongst other subjects. FRSL.</note>
+         </person>
+         <person xml:id="person_933">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Leonhard</forename>
+               <surname>Euler</surname>
+            </persName>
+            <birth when="1707"/>
+            <death when="1783"/>
+            <note>Swiss mathematician, physicist, astronomer, geographer, logician, and engineer who founded the studies of graph theory and topology and made pioneering and influential discoveries in many other branches of mathematics. He is also known for his work in mechanics, fluid dynamics, optics, astronomy, and music theory.</note>
+         </person>
+         <person xml:id="person_036">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Isaac</forename>
+               <surname>Newton</surname>
+            </persName>
+            <birth when="1642"/>
+            <death when="1727"/>
+            <note>Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy &amp; Newton' in one inch letters. FRSL.</note>
+         </person>
+         <person xml:id="person_318">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Étienne-Louis</forename>
+               <surname>Malus</surname>
+            </persName>
+            <birth when="1775"/>
+            <death when="1812"/>
+            <note>French army officer and optical researcher, especially on polarisation.</note>
+         </person>
+      </listPerson>
+      <listNym type="chemical">
+         <nym xml:id="chemical_324">
+            <form>tourmaline </form>
+            <def>
+               <p>Tourmaline is a boron silicate. Opaque and black in colour, tourmaline is a semi-precious stone that can be found in a variety of colours based on the presence of iron, magnesium, or lithium. Boron was first isolated by Davy in 1808.  </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_406">
+            <form>calcite</form>
+            <def>
+               <p>Symbol/formula: CaCO3</p>
+               <p>Calcite is a carbonate mineral and the most stable polymorph of calcium carbonate. Davy refers to it as Calcareous Spar.</p>
+            </def>
+         </nym>
+      </listNym>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+is of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the nature of the motions</hi> or&#xD;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">affections of radiant matter</hi>
+            <lb/>
+Two hypotheses have been <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">explained</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">invented</add> to&#xD;<lb/>
+account for the principal operations&#xD;<lb/>
+of radiant matter. In the first it&#xD;<lb/>
+is supposed that the universe contains&#xD;<lb/>
+a highly rare &amp; elastic substance which&#xD;<lb/>
+when put into a state of undulation&#xD;<lb/>
+produces these effects on our organs of sight&#xD;<lb/>
+which constitute the sensations of vision&#xD;<lb/>
+&amp; the other phaenomena occasioned by solar&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">solar</del> &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">elastic</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">terrestrial rays</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">light</del> In the second&#xD;<lb/>
+it is conceived that particles are emitted&#xD;<lb/>
+or sent off from luminous or heat making&#xD;<lb/>
+bodies with great velocity &amp; that they&#xD;<lb/>
+produce their effects by communicating their&#xD;<lb/>
+motions to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">bodies</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">substances</add> or by entering into&#xD;<lb/>
+them &amp; changing their composition.-&#xD;<lb/>
+- The first of the suppositions was adopted&#xD;<lb/>
+by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#person_165"
+                type="person">
+               <name xml:id="tag1" type="person">
+          Higgins
+        </name>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag2"
+                ref="#person_246"
+                type="person">
+               <name xml:id="tag2" type="person">
+          Hooke
+        </name>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag3"
+                ref="#person_933"
+                type="person">
+               <name xml:id="tag3" type="person">
+          Euler
+        </name>
+            </rs>; the second by&#xD;<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag4"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag4" type="person">
+          Newton
+        </name>
+            </rs> &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">by</del> the philosophers of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag5"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag5" type="person">
+          Newtonian
+        </name>
+            </rs>
+            <lb/>
+school. <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Most</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Many</add> of the phaenomena&#xD;<lb/>
+may be accounted for by either hypothesis&#xD;<lb/>
+but the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag6"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag6" type="person">
+          Newtonian
+        </name>
+            </rs> doctrine applies&#xD;<lb/>
+much more happily to most of the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">phaenomena</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+facts lately discovered respecting the modifications&#xD;<lb/>
+of light by double refraction &amp; reflection.&#xD;<lb/>
+- Indeed it does not seem possible to account&#xD;<lb/>
+for the circumstance that <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ext extraordinary</del> a&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">refracted</del> ray which has suffered extraordinary&#xD;<lb/>
+refraction in passing through one <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">or of</del> chrystal&#xD;<lb/>
+should suffer ordinary refraction in passing&#xD;<lb/>
+through another like chrystal on the idea&#xD;<lb/>
+of the effect being a mere undulation&#xD;<lb/>
+of the ethereal medium; but it may&#xD;<lb/>
+be <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">easily</del> explained by supposing the&#xD;<lb/>
+rays to consist of particles endowed&#xD;<lb/>
+with rectilineal motion &amp; possessed of a&#xD;<lb/>
+certain polarity that is an attraction&#xD;<lb/>
+for <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">certain</del> some surfaces of the chrystal &amp;&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxx</unclear>
+            </del> a repulsion for others. -&#xD;<lb/>
+M <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag7"
+                ref="#person_318"
+                type="person">
+               <name xml:id="tag7" type="person">
+          Malus
+        </name>
+            </rs> has given a very ingenious&#xD;<lb/>
+theory for the explication of these&#xD;<lb/>
+phaenomena by supposing that the&#xD;<lb/>
+molecules <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">producing</add> light are possessed of&#xD;<lb/>
+three rectangular axes of which&#xD;<lb/>
+one is always in the direction&#xD;<lb/>
+of the ray <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del> the other two are&#xD;<lb/>
+made by the influence of the repulsive&#xD;<lb/>
+forces exerted by the chrystaline medium&#xD;<lb/>
+perpendicular to the direction&#xD;<lb/>
+of these forces; &amp; such a firm&#xD;<lb/>
+&amp; such an effect would correspond&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+with the idea of the luminous particles&#xD;<lb/>
+being octaedrons.-&#xD;<lb/>
+As <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">its</del> the colored rays separated&#xD;<lb/>
+by the prism bear the same relation&#xD;<lb/>
+to double refraction <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">that</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">as with light</del>
+            <lb/>
+direct light <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">bears</add> it follows that&#xD;<lb/>
+their polarity must be of the&#xD;<lb/>
+same kind &amp; this is what might&#xD;<lb/>
+be expected if <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the solar beam</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">direct light</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">be composed of</del>
+            <lb/>
+be actually composed of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">different</del>
+            <lb/>
+the rays producing different colours&#xD;<lb/>
+The case may be conceived to be&#xD;<lb/>
+analogous to those of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxx</unclear>
+            </del> &amp;&#xD;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">chrystaline</del> bodies possessed of&#xD;<lb/>
+electrical polarity &amp; regular chrystaline&#xD;<lb/>
+forms. - When a <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag8"
+                ref="#chemical_324"
+                type="chemical">
+               <term xml:id="tag8">
+          Tourmaline
+          
+        </term>
+            </rs> is&#xD;<lb/>
+broken into pieces the pieces are&#xD;<lb/>
+found to possess similar electrical&#xD;<lb/>
+powers to the original chrystal &amp;&#xD;<lb/>
+a <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">large</add> rhomb of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag9"
+                ref="#chemical_406"
+                type="chemical">
+               <term xml:id="tag9">
+          Calcareous Spar
+          
+        </term>
+            </rs> easily&#xD;<lb/>
+breaks into a number of similar&#xD;<lb/>
+rhombs. -&#xD;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

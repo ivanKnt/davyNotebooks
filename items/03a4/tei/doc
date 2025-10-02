@@ -1,0 +1,3056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-10304</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-10304</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/3/A/4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Lectures</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/3/A/4</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent> pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1778-12-17"
+                                   notAfter="1829-05-29"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-10304-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="4073px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00001"
+                  width="5384px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5383"
+               lry="4072"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="3214px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00002"
+                  width="5231px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5230"
+               lry="3213"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="3206px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00003"
+                  width="5231px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5230"
+               lry="3205"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="4073px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00004"
+                  width="5376px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5375"
+               lry="4072"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="4099px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00005"
+                  width="5376px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5375"
+               lry="4098"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="3123px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00006"
+                  width="5203px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5202"
+               lry="3122"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="3188px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00007"
+                  width="5203px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5202"
+               lry="3187"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="4064px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00008"
+                  width="5348px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5347"
+               lry="4063"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="4172px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00009"
+                  width="5376px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5375"
+               lry="4171"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="3296px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00010"
+                  width="5195px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5194"
+               lry="3295"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+      <surface n="11" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="3287px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00011"
+                  width="5195px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5194"
+               lry="3286"
+               rotate="0"
+               xml:id="i11z1"/>
+      </surface>
+      <surface n="12" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="4145px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00012"
+                  width="5366px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5365"
+               lry="4144"
+               rotate="0"
+               xml:id="i12z1"/>
+      </surface>
+      <surface n="13" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="4199px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00013"
+                  width="5385px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5384"
+               lry="4198"
+               rotate="0"
+               xml:id="i13z1"/>
+      </surface>
+      <surface n="14" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="3278px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00014"
+                  width="5204px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5203"
+               lry="3277"
+               rotate="0"
+               xml:id="i14z1"/>
+      </surface>
+      <surface n="15" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="3314px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00015"
+                  width="5204px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5203"
+               lry="3313"
+               rotate="0"
+               xml:id="i15z1"/>
+      </surface>
+      <surface n="16" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="4190px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00016"
+                  width="5367px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5366"
+               lry="4189"
+               rotate="0"
+               xml:id="i16z1"/>
+      </surface>
+      <surface n="17" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="4181px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00017"
+                  width="5303px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5302"
+               lry="4180"
+               rotate="0"
+               xml:id="i17z1"/>
+      </surface>
+      <surface n="18" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="3287px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00018"
+                  width="5203px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5202"
+               lry="3286"
+               rotate="0"
+               xml:id="i18z1"/>
+      </surface>
+      <surface n="19" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="3287px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00019"
+                  width="5203px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5202"
+               lry="3286"
+               rotate="0"
+               xml:id="i19z1"/>
+      </surface>
+      <surface n="20" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="4163px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00020"
+                  width="5321px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5320"
+               lry="4162"
+               rotate="0"
+               xml:id="i20z1"/>
+      </surface>
+      <surface n="21" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="4190px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00021"
+                  width="5430px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5429"
+               lry="4189"
+               rotate="0"
+               xml:id="i21z1"/>
+      </surface>
+      <surface n="22" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="3278px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00022"
+                  width="5213px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5212"
+               lry="3277"
+               rotate="0"
+               xml:id="i22z1"/>
+      </surface>
+      <surface n="23" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="3323px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00023"
+                  width="5213px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5212"
+               lry="3322"
+               rotate="0"
+               xml:id="i23z1"/>
+      </surface>
+      <surface n="24" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="4199px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00024"
+                  width="5367px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5366"
+               lry="4198"
+               rotate="0"
+               xml:id="i24z1"/>
+      </surface>
+      <surface n="25" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="4172px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00025"
+                  width="5376px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5375"
+               lry="4171"
+               rotate="0"
+               xml:id="i25z1"/>
+      </surface>
+      <surface n="26" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="3287px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00026"
+                  width="5249px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5248"
+               lry="3286"
+               rotate="0"
+               xml:id="i26z1"/>
+      </surface>
+      <surface n="27" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="3287px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00027"
+                  width="5249px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5248"
+               lry="3286"
+               rotate="0"
+               xml:id="i27z1"/>
+      </surface>
+      <surface n="28" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="4181px"
+                  rend="landscape"
+                  url="MS-DAVY-10304-000-00028"
+                  width="5376px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5375"
+               lry="4180"
+               rotate="0"
+               xml:id="i28z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listNym type="chemical">
+         <nym xml:id="chemical_022">
+            <form>oxygene</form>
+            <def>
+               <p>Symbol/formula: O</p>
+               <p>Now known as oxygen. Oxygen is a colourless, odourless, tasteless gas essential to living organisms.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_303">
+            <form>Chlorine</form>
+            <def>
+               <p>Symbol/formula: Cl</p>
+               <p>Davy named chlorine in 1810 and insisted it was an element and not a compound. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_007">
+            <form>hydrogene</form>
+            <def>
+               <p>Symbol/formula: H</p>
+               <p>Now known as hydrogen. Hydrogen is the lightest element and, at standard conditions, is a gas of diatomic molecules. It is colourless, odourless, tasteless, non-toxic, and highly combustible.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_417">
+            <form>sulphuric acid</form>
+            <def>
+               <p>Symbol/formula: H2SO3</p>
+               <p>A mineral acid composed of the elements sulphur, oxygen, and hydrogen. It is a colourless, odourless, and viscous liquid that is miscible with water.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_087">
+            <form>oil of vitriol</form>
+            <def>
+               <p>Symbol/formula: H2SO4</p>
+               <p>Sulphuric acid. A mineral acid composed of the elements sulphur, oxygen, and hydrogen.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_161">
+            <form>voltaic</form>
+            <def>
+               <p>Refers to the current generated by voltaic pile, invented by Italian chemist Alessandro Volta.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_140">
+            <form>charcoal</form>
+            <def>
+               <p>A lightweight black carbon residue produced by strongly heating wood (or other animal and plant materials) in minimal oxygen to remove all water and volatile constituents.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_054">
+            <form>carbon</form>
+            <def>
+               <p>Symbol/formula: C</p>
+               <p>A non-metallic and tetravalent element. Well-known allotropes include graphite, diamond, amorphous carbon, and fullerenes.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_058">
+            <form>carbonic acid</form>
+            <def>
+               <p>Symbol/formula: CO2 or H2CO3 </p>
+               <p>Now known as Carbon dioxide (CO2), or a solution of carbon dioxide in water (H2CO3). </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_508">
+            <form>Diamond</form>
+            <def>
+               <p>a precious stone consisting of a clear and colourless crystalline form of pure carbon, the hardest naturally occurring substance. Davy was the first to prove that diamond was pure carbon in Italy: 'Some Experiments on the Combustion of the Diamond and Other Carbonaceous Substances', Philosophical Transactions of the Royal Society of London, Vol. 104 (1814), pp. 557-570.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_467">
+            <form>Carbonic oxide</form>
+            <def>
+               <p>Symbol/formula: CO</p>
+               <p>Now known as carbon monoxide, a colourless, odourless, poisonous and flammable gas.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_072">
+            <form>hydrocarbonate </form>
+            <def>
+               <p>Symbol/formula: H2 + CO</p>
+               <p>Hydrogen mixed with carbon monoxide. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_208">
+            <form>ethylene</form>
+            <def>
+               <p>Symbol/formula: C2H4</p>
+               <p>Ethylene is a flammable hydrocarbon gas.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_026">
+            <form>oxymuriatic acid</form>
+            <def>
+               <p>Symbol/formula: Cl</p>
+               <p>Chlorine. Chlorine is a yellow-green gas at room temperature, with a pungent, irritating odour that is detectable at low concentrations. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_031">
+            <form>potassium</form>
+            <def>
+               <p>Symbol/formula: K</p>
+               <p>A silvery white metal that is soft enough to easily cut with a knife. Potassium metal reacts rapidly with atmospheric oxygen to form flaky white potassium peroxide in only seconds of exposure.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_169">
+            <form>oxymuriate of potash</form>
+            <def>
+               <p>Symbol/formula: KClO3</p>
+               <p>Potassium chlorate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_350">
+            <form>turpentine</form>
+            <def>
+               <p>Turpentine, which is also called oil of turpentine, is a fluid obtained by the distillation of resin harvested from living trees, mainly pines.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_143">
+            <form>nitric acid</form>
+            <def>
+               <p>Symbol/formula: HNO3</p>
+               <p>A highly corrosive mineral acid. The compound is colourless, but samples tend to acquire a yellow cast over time due to decomposition into oxides of nitrogen</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_236">
+            <form>ether</form>
+            <def>
+               <p>In Davy's time this likely referred to the colorless, highly volatile, flammable liquid derived from ethyl alcohol by the action of sulphuric acid. It was used as a solvent and as an inhalant anesthetic. In the present day ether refers to a class of compounds that contain an ether group: an oxygen atom connected to two alkyl or aryl groups.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_315">
+            <form>oxalic acid</form>
+            <def>
+               <p>Symbol/formula: (CO2H)2</p>
+               <p>An organic acid with the systematic name ethanedioic acid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_366">
+            <form>camphor</form>
+            <def>
+               <p>Symbol/formula: C10H16O</p>
+               <p>A chemical made by distilling the wood and bark of the camphor tree. Commonly used in lotions and creams to relieve pain and irritation</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_340">
+            <form>gum</form>
+            <def>
+               <p>In botany, gum is found in the woody elements of plants or in seed coatings.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_367">
+            <form>pyroligneous acid </form>
+            <def>
+               <p>Pyroligneous acid, also called wood vinegar or wood acid, is a dark liquid produced by the destructive distillation of wood and other plant materials.</p>
+            </def>
+         </nym>
+      </listNym>
+      <listPerson>
+         <person xml:id="person_275">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Prometheus</surname>
+            </persName>
+            <note>In Greek mythology, defied the Olympian gods by stealing fire and giving it to humans.</note>
+         </person>
+         <person xml:id="person_103">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Robert</forename>
+               <surname>Boyle</surname>
+            </persName>
+            <birth when="1627"/>
+            <death when="1691"/>
+            <note>Irish-born chemist and one of the founders of modern chemistry. FRSL.</note>
+         </person>
+         <person xml:id="person_021">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Stephen</forename>
+               <surname>Hales</surname>
+            </persName>
+            <birth when="1677"/>
+            <death when="1761"/>
+            <note>English clergyman who made major contributions to a range of scientific fields including botany, pneumatic chemistry and physiology.  FRSL.</note>
+         </person>
+         <person xml:id="person_026">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Henry</forename>
+               <surname>Cavendish</surname>
+            </persName>
+            <birth when="1731"/>
+            <death when="1810"/>
+            <note>A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL. </note>
+         </person>
+         <person xml:id="person_224">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Carl Wilhelm</forename>
+               <surname>Scheele</surname>
+            </persName>
+            <birth when="1742"/>
+            <death when="1786"/>
+            <note>Swedish-German pharmaceutical chemist. One of the discoverers of what would later be called oxygen (1771) as well as other chemical elements including what Davy renamed chlorine.</note>
+         </person>
+         <person xml:id="person_389">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Pierre Joseph</forename>
+               <surname>Macquer</surname>
+            </persName>
+            <birth when="1718"/>
+            <death when="1784"/>
+            <note>French chemist who published his Dictionnaire de Chymie in 1766 and later opposed Lavoisier's theories.</note>
+         </person>
+         <person xml:id="person_030">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Antoine-Laurent</forename>
+               <surname>Lavoisier</surname>
+            </persName>
+            <birth when="1742"/>
+            <death when="1794"/>
+            <note>French chemist and tax farmer (for which he was guillotined). Developed a new nomenclature for chemistry (much of which is still in use today) and argued strongly against the existence of phlogiston. Davy read some of his writings while in Cornwall which he then opposed and throughout his career maintained an ambivalent attitude towards Lavoisierian chemisty. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_142">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Charles</forename>
+               <surname>Blagden</surname>
+            </persName>
+            <birth when="1748"/>
+            <death when="1820"/>
+            <note>Physician who kept a revealing diary for most of his life. A friend of Joseph Banks serving as a Secretary of the Royal Society of London, 1784-1797; Knighted 1792. FRSL</note>
+         </person>
+         <person xml:id="person_379">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Adriaan Paets van</forename>
+               <surname>Troostwijk</surname>
+            </persName>
+            <birth when="1752"/>
+            <death when="1837"/>
+            <note>Dutch chemist who was a colleague of Deiman and between them they founded what would become the Society of Dutch Chemists</note>
+         </person>
+         <person xml:id="person_378">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jan Rudolph</forename>
+               <surname>Deiman</surname>
+            </persName>
+            <birth when="1743"/>
+            <death when="1808"/>
+            <note>Dutch-German physician and chemist who examined the electrolysis of water and the application of electricity for medical purposes</note>
+         </person>
+         <person xml:id="person_236">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">William</forename>
+               <surname>Nicholson</surname>
+            </persName>
+            <birth when="1753"/>
+            <death when="1815"/>
+            <note>Founding editor of A Journal of Natural Philosophy, Chemistry, and the Arts (1797-1814) where Davy published some of his early papers. Part of the Godwin circle.</note>
+         </person>
+         <person xml:id="person_493">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Anthony</forename>
+               <surname>Carlisle</surname>
+            </persName>
+            <birth when="1768"/>
+            <death when="1840"/>
+            <note>London surgeon and anatomist. FRSL.</note>
+         </person>
+         <person xml:id="person_036">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Isaac</forename>
+               <surname>Newton</surname>
+            </persName>
+            <birth when="1642"/>
+            <death when="1727"/>
+            <note>Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy &amp; Newton' in one inch letters. FRSL.</note>
+         </person>
+         <person xml:id="person_138">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Aristotle</surname>
+            </persName>
+            <birth when="384 BCE"/>
+            <death when="322 BCE"/>
+            <note>A pupil of Plato's whose philosophical idealism he came to reject, arguing instead for the primacy of observations of natural phenomena. He thus established the divide between theory and experiment in science that can still be detected today. Aristotle's writings became the main way the natural world was understood from the Middle Ages to the seventeenth century, especially in the universities.</note>
+         </person>
+         <person xml:id="person_324">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Roger</forename>
+               <surname>Bacon</surname>
+            </persName>
+            <birth when="c. 1214"/>
+            <death when="c. 1292"/>
+            <note>Medieval English philosopher and Franciscan friar. </note>
+         </person>
+         <person xml:id="person_283">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Galileo</forename>
+               <surname>Galilei</surname>
+            </persName>
+            <birth when="1564"/>
+            <death when="1642"/>
+            <note>Italian astronomer, physicist, and engineer.</note>
+         </person>
+         <person xml:id="person_124">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Francis</forename>
+               <surname>Bacon</surname>
+            </persName>
+            <birth when="1561"/>
+            <death when="1626"/>
+            <note>English lawyer, politician and natural philosopher. His influential writings encouraged experimentation and the use of induction in investigating the natural world. He also recommended establishing institutions to promote collaborative research. </note>
+         </person>
+         <person xml:id="person_386">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Evangelista</forename>
+               <surname>Torrecelli</surname>
+            </persName>
+            <birth when="1608"/>
+            <death when="1647"/>
+            <note>Italian natural philosopher and mathematician who invented the barometer. He was a student of Galileo.</note>
+         </person>
+         <person xml:id="person_068">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Smithson</forename>
+               <surname>Tennant</surname>
+            </persName>
+            <birth when="1761"/>
+            <death when="1815"/>
+            <note>Tennant was a botanist and chemist and knew Davy through agricultural improvements. Appointed Professor of Chemistry at Cambridge University in 1813, he was killed in a riding accident on France. FRSL.</note>
+         </person>
+         <person xml:id="person_049">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Louis Bernard </forename>
+               <surname>Guyton de Morveau</surname>
+            </persName>
+            <birth when="1737"/>
+            <death when="1816"/>
+            <note>French chemist and revolutionary politician who is credited with producing the first systematic method of chemical nomenclature. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_645">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">William</forename>
+               <surname>Murdoch</surname>
+            </persName>
+            <birth when="1754"/>
+            <death when="1839"/>
+            <note>Scottish chemist, inventor, and mechanical engineer who worked for Boulton and Watt first in Cornwall and then Birmingham. One of the developers of gas lighting.</note>
+         </person>
+         <person xml:id="person_873">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Philippe</forename>
+               <surname>Lebon</surname>
+            </persName>
+            <birth when="1767"/>
+            <death when="1804"/>
+            <note>A French chemist who worked on coal gas. Lebon gave the first public demonstration of gas lighting in 1801.</note>
+         </person>
+      </listPerson>
+      <listAnnotation type="nonenglish">
+         <note xml:id="nonenglish_009" type="description">
+            <term id="nonenglish_009-term">quere</term>
+            <gloss id="nonenglish_009-gloss" target="#nonenglish_009-term">
+               <p>query; to enquire (Latin)</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_194" type="description">
+            <term id="misc_194-term">Plumbago</term>
+            <gloss id="misc_194-gloss" target="#misc_194-term">
+               <p>Plumbago is a genus of 10–20 species of flowering plants in the family Plumbaginaceae, native to warm temperate to tropical regions of the world. Common names include plumbago and leadwort.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_109" type="description">
+            <term id="misc_109-term">aeriform</term>
+            <gloss id="misc_109-gloss" target="#misc_109-term">
+               <p>Meaning having the form or nature of air; gaseous. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_192" type="description">
+            <term id="misc_192-term">Mucilage</term>
+            <gloss id="misc_192-gloss" target="#misc_192-term">
+               <p>Mucilage is a thick gluey substance produced by nearly all plants and some microorganisms. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_339" type="description">
+            <term id="misc_339-term">Pitcoal</term>
+            <gloss id="misc_339-gloss" target="#misc_339-term">
+               <p>Coal mined from the earth - distinguished from charcoal.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+102<lb/>
+Lecture IV<lb/>
+- 1809 -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The Atmosphere You have</del> seen<lb/>
+In the last two lectures <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag1">
+          Oxygene
+          
+        </term>
+            </rs> &amp;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">supplies one species of Matter</del>,<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">absolutely essential to combustion</del>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag2"
+                ref="#chemical_303"
+                type="chemical">
+               <term xml:id="tag2">
+          chlorine
+          
+        </term>
+            </rs> the supporters of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">inflammation</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">|_<rs xml:id="ttag3" ref="#chemical_022" type="chemical">
+                  <term xml:id="tag3">
+          Oxygene
+          
+        </term>
+               </rs> gas<del rend="strikethrough">from</del> in the</del>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">combustion were described</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">chemical arrangement forms</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a class, alone, It is distinguished</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">from all other substances by</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">its <del rend="strikethrough">energies</del> powers, its infinite variety</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of combinations - &amp; its importance</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in the system of <del rend="strikethrough">its</del> Nature</del>:<lb/>
+-: |_ <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">In</add>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Combustible Matters</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">contrary is extremely diversified</del>
+            <lb/>
+the energies of which <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">as a</del>
+            <lb/>
+class are opposed to those of the<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of <rs xml:id="ttag4" ref="#chemical_022" type="chemical">
+                  <term xml:id="tag4">
+          Oxygene
+          
+        </term>
+               </rs>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">&amp; <rs xml:id="ttag5" ref="#chemical_303" type="chemical">
+                     <term xml:id="tag5">
+          chlorine
+          
+        </term>
+                  </rs>
+               </del> empyreal substances</add> consists <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">on the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">contrary of an infinite</del> a number<lb/>
+of species, some of which<lb/>
+are simple &amp; some compound<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+but on surface of the earth<lb/>
+very few of them are exhibited<lb/>
+in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">an uncombined</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">a pure</add> state;<lb/>
+&amp; we acquire our Knowledge<lb/>
+of their <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">constitution</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">nature &amp; arrangements</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">inflammable bodies</del> only by<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">artificial</del> processes of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">refined</del>
+            <lb/>
+experiment. -<lb/>
+- <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The Chemical enquirer, in</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">searching for principles is</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">obliged to begin with the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">simplest and most common materials</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">objects, those the most connected</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">with the general series of</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">his observations. It would</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">avail him little to rush</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">like <del rend="strikethrough">
+                  <unclear>od</unclear>
+               </del> a poetical enthusiast</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">into the middle of his</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">subjects. He must survey</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">his various <del rend="strikethrough">
+                  <unclear>xx</unclear> of</del> objects</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in detail, consider their properties</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+103<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; last of all endeavour to</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">"point out their relations &amp;</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to connected them in some</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">theoretical order.</del>
+            <lb/>
+- It will be necessary for<lb/>
+me to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">think of</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">consider</add> the<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">com<unclear>b</unclear>
+            </del> various combustible bodies<lb/>
+in detail &amp; to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">shew you</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">examine</add>
+            <lb/>
+the modes of procuring<lb/>
+them &amp; of ascertaining<lb/>
+their nature <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">first that I shall speak</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of is <rs xml:id="ttag6" ref="#chemical_007" type="chemical">
+                  <term xml:id="tag6">
+          Hydrogene
+          
+        </term>
+               </rs> gas or</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag7" ref="#chemical_007" type="chemical">
+                  <term xml:id="tag7">
+          inflammable Air
+          
+        </term>
+               </rs>.</del>- The<lb/>
+Chemical enquirer cannot<lb/>
+enter like the poetical<lb/>
+Enthusiast at once into<lb/>
+the middle of his subject<lb/>
+&amp; make the results of<lb/>
+observation subservient to<lb/>
+an exalted imagination. He<lb/>
+their nature <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; the</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+must begin by using coarse<lb/>
+&amp; material instruments - He<lb/>
+must witness their effects<lb/>
+trust wholly to sensible results<lb/>
+&amp; last of all form <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">true</del>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">analogies</hi>, which may be<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">called theoretical</del>. -<lb/>
+- .<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">The first substance which</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">it will be necessary for</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">us to examine in this</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">enquiry is <rs xml:id="ttag8" ref="#chemical_007" type="chemical">
+                  <term xml:id="tag8">
+          Hydrogene
+          
+        </term>
+               </rs> gas</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">or <rs xml:id="ttag9" ref="#chemical_007" type="chemical">
+                  <term xml:id="tag9">
+          inflammable Air
+          
+        </term>
+               </rs>.</del>
+            <lb/>
+- |_ When it is considered<lb/>
+that the application of<lb/>
+substances to the artificial<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">production of fire</hi>, is <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> almost<lb/>
+the first step in civilization, &amp;<lb/>
+the source. of <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">almost</del> all<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">important</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">useful</add> arts, It<lb/>
+appears extraordinary that<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+104<lb/>
+"the nature &amp; composition<lb/>
+of inflammable <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> materials,<lb/>
+was not an early subject<lb/>
+of scientific research The<lb/>
+Ancients <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">contented with</del> in<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">application <add>feeble</add>
+            </del> of the torch<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag10"
+                ref="#person_275"
+                type="person">
+               <name xml:id="tag10" type="person">
+          prometheus
+        </name>
+            </rs>, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>Hesi</unclear>
+            </del> attribut<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ing</del>ed<lb/>
+a celestial origin to fire; &amp;<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxxx</unclear>
+            </del> this fable amused <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">them</del>
+            <lb/>
+more than a philosophical<lb/>
+truth could have done. - In<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">early</del> first chemistry of modern<lb/>
+times -. The idea of a simple<lb/>
+principle of inflammability<lb/>
+uniform in its properties checked<lb/>
+the progress of enquiry, &amp; as<lb/>
+the Discovery <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag11"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag11">
+                  <hi rend="underline">of oxygene</hi>
+               </term>
+            </rs>, led<lb/>
+to the first just views<lb/>
+of the phaenomena of<lb/>
+combustion, of the discovery<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag12"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag12">
+          Hydrogene
+          
+        </term>
+            </rs> gas produced<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+the earliest enlightened <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>res</unclear>
+            </del>
+            <lb/>
+conclusions respecting the<lb/>
+nature of inflammable bodies<lb/>
+-. It was known to some<lb/>
+of the alchemical enquirers<lb/>
+that <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in</del> elastic matter which<lb/>
+could be inflamed was<lb/>
+disengaged during the action<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">iron</hi> upon <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag13"
+                ref="#chemical_417"
+                type="chemical">
+               <term xml:id="tag13">
+          Sulphuric acid
+          
+        </term>
+            </rs>
+            <lb/>
+or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag14"
+                ref="#chemical_087"
+                type="chemical">
+               <term xml:id="tag14">
+          oil of Vitriol
+          
+        </term>
+            </rs> - <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag15"
+                ref="#person_103"
+                type="person">
+               <name xml:id="tag15" type="person">
+          Boyle
+        </name>
+            </rs>
+            <lb/>
+&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag16"
+                ref="#person_021"
+                type="person">
+               <name xml:id="tag16" type="person">
+          Hales
+        </name>
+            </rs> minutely described<lb/>
+the circumstances of<lb/>
+the experiment. &amp; the<lb/>
+apparatus was called<lb/>
+the Philosophical candle. -<lb/>
+- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">This is the combination</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+105<lb/>
+-: <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag17"
+                ref="#person_026"
+                type="person">
+               <name xml:id="tag17" type="person">
+                  <hi rend="underline">M<hi rend="superscript">r</hi> Cavendish</hi>
+               </name>
+            </rs>. <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Qu</unclear>. <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">65</hi>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">-</hi>
+            <lb/>
+He employed an apparatus<lb/>
+found that its<lb/>
+inflammability remained<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">unimpared</hi>. after it had<lb/>
+been preserved for some<lb/>
+time in contact with<lb/>
+water -<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Its extreme lightness</hi>
+            <lb/>
+Globe. -<lb/>
+Detonation with <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag18"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag18">
+          Oxygene
+          
+        </term>
+            </rs>
+            <lb/>
+-<lb/>
+What produced -<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag19"
+                ref="#person_224"
+                type="person">
+               <name xml:id="tag19" type="person">
+          Scheel<del rend="strikethrough">s</del>es
+        </name>
+            </rs> bold opinion<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag20"
+                ref="#person_389"
+                type="person">
+               <name xml:id="tag20" type="person">
+          Macquer
+        </name>
+            </rs> -<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag21"
+                ref="#person_026"
+                type="person">
+               <name xml:id="tag21" type="person">
+                  <hi rend="underline">Cavendish</hi>
+               </name>
+            </rs> -<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag22" ref="#person_030" type="person">
+                  <name xml:id="tag22" type="person">
+          Lavoisier
+        </name>
+               </rs>
+               <rs xml:id="ttag23" ref="#person_142" type="person">
+                  <name xml:id="tag23" type="person">
+          Blagden
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Decomposition</hi> - <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Iron</hi> -<lb/>
+-. Electricity - <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag24"
+                ref="#person_379"
+                type="person">
+               <name xml:id="tag24" type="person">
+          Trooswyk
+        </name>
+            </rs>.<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag25"
+                ref="#person_378"
+                type="person">
+               <name xml:id="tag25" type="person">
+                  <hi rend="underline">Deiman</hi>
+               </name>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag26"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag26">
+                  <hi rend="underline">Voltaic Electricity</hi>
+               </term>
+            </rs>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Theory</del>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag27"
+                ref="#person_236"
+                type="person">
+               <name xml:id="tag27" type="person">
+                  <hi rend="underline">Nicholson</hi>
+               </name>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag28"
+                ref="#person_493"
+                type="person">
+               <name xml:id="tag28" type="person">
+                  <hi rend="underline">carlisle</hi>
+               </name>
+            </rs>,<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag29" ref="#nonenglish_009" type="nonenglish">
+                  <term xml:id="tag29">
+          quere
+        </term>
+               </rs> my own</hi> exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag30"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag30" type="person">
+                  <hi rend="underline">Newton</hi>
+               </name>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Theory</hi>. analogous to neutral<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">salts</hi>.<lb/>
+- No more simple explanation<lb/>
+of these exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi> can be given<lb/>
+&amp; consequently in the course<lb/>
+of these lectures I shall continually<lb/>
+speak of the decomposition<lb/>
+&amp; composition of Water;- But<lb/>
+still <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">this</hi> must be regarded<lb/>
+as a probable inference &amp;<lb/>
+not as a <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">demonstrated</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">positive</add> truth<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="9"
+                xml:id="pb-9"
+                facs="#i9"/>
+            <lb/>
+106<lb/>
+- Another <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">explanation</del> solution of the <lb/>
+phaenomena <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">can be given</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">is</del>
+               <hi rend="underline">may</hi> be formed</add>
+            <lb/>
+it <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">may</hi> be said in the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag31" ref="#chemical_161" type="chemical">
+                  <term xml:id="tag31">
+          Voltaic
+          
+        </term>
+               </rs> - exp<hi rend="superscript">ts</hi>
+            </hi>
+            <lb/>
+Ins<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">e</hi>.<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag32"
+                ref="#nonenglish_009"
+                type="nonenglish">
+               <term xml:id="tag32">
+          quere
+        </term>
+            </rs>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">ice</hi> - <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">steam</hi>
+            <lb/>
+- But still whether <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag33"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag33">
+          Oxygene
+          
+        </term>
+            </rs>
+            <lb/>
+&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag34"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag34">
+          Hydrogene
+          
+        </term>
+            </rs> gasses are compounds<lb/>
+or simple bodies, we may<lb/>
+trace their arrangements &amp;<lb/>
+combinations with the same<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">precision</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">facility</add> &amp; reason upon them<lb/>
+with the same precision -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">I hope in throwing out these</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">hints I do not render the</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">subject perplexed or complicated</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">- My object is merely to</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">prevent That which is only</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="10"
+                xml:id="pb-10"
+                facs="#i10"/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">verisimility from being mistaken</del>
+            <lb/>
+Nor does it in the slightest<lb/>
+degree, diminish the merit of<lb/>
+the Authors of these noble<lb/>
+exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">ts</hi> that they are<lb/>
+not absolutely <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">demonstrative</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">demonstrative</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of one doctrine</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">of an opinion, their excellence</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">merit</del> is that they prove<lb/>
+a grand fact. -.<lb/>
+- .I trust that in throwing<lb/>
+out these hints, I shall<lb/>
+not have perplexed <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">my</del> the<lb/>
+subject; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">that there is</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">nothing</del>. It is a great<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">object</del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">matter</del> That we should<lb/>
+put no improper confidence<lb/>
+in any notion or do<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">gma</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">ctrine</add>.<lb/>
+|_Doubt in physical research<lb/>
+is highly salutary; &amp; is<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del> always the parent of<lb/>
+enquiry, &amp; often of truth.<lb/>
+Though our reasonings may have the perfect character<lb/>
+of verisimility as applied to known objects, yet we have<lb/>
+-|<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="11"
+                xml:id="pb-11"
+                facs="#i11"/>
+            <lb/>
+107<lb/>
+no right to say that our view is an ultimate<lb/>
+one. - Our <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">systems of Logic</hi> cannot unfold all the<lb/>
+resources of Nature.<lb/>
+The <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Motto of a</del> maxim of a chemical<lb/>
+Investigator should be that adopted<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">in the Motto</add> of an illustrious Society - To<lb/>
+rely on the word of no<lb/>
+Master. . - ( Nothing has so<lb/>
+much checked the progress<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Philosophy</hi>, as the confidence<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">teachers</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">as</del> in delivering<lb/>
+" <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">dogmas</hi>" as <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">incontrovertible</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">truths</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">not</del> which it would be<lb/>
+presumptuous to question. -<lb/>
+-. It was this spirit which<lb/>
+for more than 1<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">5</del>0 centuries<lb/>
+made the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">philosophy</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <hi rend="underline">crude Physics</hi>
+            </add> of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag35"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag35" type="person">
+          Aristotle
+        </name>
+            </rs>
+            <lb/>
+the natural Philosophy of<lb/>
+the whole of Europe. - It<lb/>
+was this spirit which<lb/>
+produced the imprisonment<lb/>
+of the elder <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag36"
+                ref="#person_324"
+                type="person">
+               <name xml:id="tag36" type="person">
+          Bacon
+        </name>
+            </rs>., &amp; the<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="12"
+                xml:id="pb-12"
+                facs="#i12"/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">violent</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">unhallowed</del> superstitious</add> persecution of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag37"
+                ref="#person_283"
+                type="person">
+               <name xml:id="tag37" type="person">
+          Gallileo
+        </name>
+            </rs>.<lb/>
+- It <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">was</del> is this spirit <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">which</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">induced men even</del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">after</del>
+            <lb/>
+notwithstanding the example<lb/>
+of the second <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag38"
+                ref="#person_124"
+                type="person">
+               <name xml:id="tag38" type="person">
+          Bacon
+        </name>
+            </rs>
+            <lb/>
+assisted by his reproofs,<lb/>
+his genius &amp; his influence<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">which</add> has induced Men even in<lb/>
+later times to look<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> for truth in the musty<lb/>
+records of an antiquated<lb/>
+metaphysical <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Science</add>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">philosophy</add>
+            <lb/>
+rather than in the objects<lb/>
+surrounding them, the surface<lb/>
+of the earth the atmosphere<lb/>
+&amp; the Heavens. -<lb/>
+[Horizontal Rule]<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="13"
+                xml:id="pb-13"
+                facs="#i13"/>
+            <lb/>
+108<lb/>
+-: The next inflammable substances<lb/>
+that will be examined are<lb/>
+the modifications of the<lb/>
+Carbonaceous element; -. You<lb/>
+will immediately perceive "Why<lb/>
+the discussion of this<lb/>
+subject should follow that<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag39"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag39">
+                  <hi rend="underline">Hydrogene</hi>
+               </term>
+            </rs>.<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag40"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag40">
+                  <hi rend="underline">charcoal</hi>
+               </term>
+            </rs>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">how</hi>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">procured</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">properties</hi>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Conductor</hi>
+            <lb/>
+Considered as pure <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag41"
+                ref="#chemical_054"
+                type="chemical">
+               <term xml:id="tag41">
+                  <hi rend="underline">Carbon</hi>
+               </term>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">is not</hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag42"
+                ref="#chemical_161"
+                type="chemical">
+               <term xml:id="tag42">
+          Voltaic
+          
+        </term>
+            </rs> Ex<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">pt</hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag43"
+                ref="#person_386"
+                type="person">
+               <name xml:id="tag43" type="person">
+          torricellian
+        </name>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">vacuum</hi> contains a<lb/>
+little <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag44"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag44">
+          Hydrogene
+          
+        </term>
+            </rs>.<lb/>
+This forms Water when<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag45" ref="#chemical_140" type="chemical">
+                  <term xml:id="tag45">
+          charcoal
+          
+        </term>
+               </rs> is burnt</hi>.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="14"
+                xml:id="pb-14"
+                facs="#i14"/>
+            <lb/>
+Ex<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">pt</hi>. in the formation<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of <rs xml:id="ttag46" ref="#chemical_058" type="chemical">
+                  <term xml:id="tag46">
+          Carbonic Acid
+          
+        </term>
+               </rs>
+            </hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag47" ref="#person_068" type="person">
+                  <name xml:id="tag47" type="person">
+          Tennants
+        </name>
+               </rs> decomposition of it</hi>. -<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag48"
+                ref="#misc_194"
+                type="miscellaneous">
+               <term xml:id="tag48">
+                  <hi rend="underline">plumbago</hi>
+               </term>
+            </rs> what<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag49" ref="#chemical_054" type="chemical">
+                  <term xml:id="tag49">
+          Carbon
+          
+        </term>
+               </rs> &amp; Iron</hi>
+            <lb/>
+reasons why not<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">so easily burnt</hi> - contains<lb/>
+no <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag50"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag50">
+          Hydrogene
+          
+        </term>
+            </rs>
+            <lb/>
+- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag51" ref="#chemical_508" type="chemical">
+                  <term xml:id="tag51">
+          diamond
+          
+        </term>
+               </rs>
+            </hi>, <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">what</hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag52"
+                ref="#person_036"
+                type="person">
+               <name xml:id="tag52" type="person">
+          Newton
+        </name>
+            </rs>. - Cosmo. 111. 1694<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag53" ref="#person_124" type="person">
+                  <name xml:id="tag53" type="person">
+          Francis
+        </name>
+               </rs> 1<hi rend="superscript">st</hi>
+            </hi>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">an</unclear> Experimenter<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag54"
+                ref="#person_030"
+                type="person">
+               <name xml:id="tag54" type="person">
+          Lavoisier
+        </name>
+            </rs> about <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">75</hi> -<lb/>
+burnt it<lb/>
+Tennant 91. -<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag55"
+                ref="#person_049"
+                type="person">
+               <name xml:id="tag55" type="person">
+          Guyton de Morveau
+        </name>
+            </rs>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="15"
+                xml:id="pb-15"
+                facs="#i15"/>
+            <lb/>
+109<lb/>
+- probably contains a little<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag56"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag56">
+                  <hi rend="underline">Oxygene</hi>
+               </term>
+            </rs>, <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">my exp<hi rend="superscript">t</hi>
+            </hi>
+            <lb/>
+hence less combustible<lb/>
+than either <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag57"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag57">
+                  <hi rend="underline">charcoal</hi>
+               </term>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag58"
+                ref="#misc_194"
+                type="miscellaneous">
+               <term xml:id="tag58">
+                  <hi rend="underline">or plumbago</hi>
+               </term>
+            </rs> -<lb/>
+- If the conclusion<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">be true</hi>, , <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">betw</del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag59"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag59">
+                  <del rend="strikethrough">Carbonic Acid</del>
+               </term>
+            </rs>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; <hi rend="underline">the <rs xml:id="ttag60" ref="#chemical_508" type="chemical">
+                     <term xml:id="tag60">
+          diamond
+          
+        </term>
+                  </rs>
+               </hi>
+            </del> In <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag61"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag61">
+          Carbonic<lb/>acid
+          
+        </term>
+            </rs>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag62"
+                ref="#chemical_054"
+                type="chemical">
+               <term xml:id="tag62">
+          Carbon
+          
+        </term>
+            </rs>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">is saturated</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">with <rs xml:id="ttag63" ref="#chemical_508" type="chemical">
+                     <term xml:id="tag63">
+          diamond
+          
+        </term>
+                  </rs>
+               </hi>
+            </del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">is united to its largest proportion</add> of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag64"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag64">
+          Oxygene
+          
+        </term>
+            </rs>
+            <lb/>
+in the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag65"
+                ref="#chemical_508"
+                type="chemical">
+               <term xml:id="tag65">
+          diamond
+          
+        </term>
+            </rs> with <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> its<lb/>
+least; there is likewise<lb/>
+an intermediate state of<lb/>
+union in which the<lb/>
+carbonaceous element <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">predominates</del>
+            <lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">exists in much greater quantities than in</add>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag66"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag66">
+                  <add>carbonic acid</add>
+               </term>
+            </rs>
+            <lb/>
+hence, this compound is<lb/>
+positive &amp; still inflammable<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">40.</hi>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag67"
+                ref="#chemical_054"
+                type="chemical">
+               <term xml:id="tag67">
+                  <add>Carbon</add>
+               </term>
+            </rs>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">60</hi>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <rs xml:id="ttag68" ref="#chemical_022" type="chemical">
+                  <term xml:id="tag68">
+          Oxygene
+          
+        </term>
+               </rs>
+            </add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xx</unclear>
+            </del> 8 measures require 3 1/2 <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag69"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag69">
+          Oxygene
+          
+        </term>
+            </rs> for<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="16"
+                xml:id="pb-16"
+                facs="#i16"/>
+            <lb/>
+detonation 100 to 40 <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">rather</unclear>
+            <lb/>
+92 cubical inches of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag70"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag70">
+          Carbonic<lb/>acid
+          
+        </term>
+            </rs> formed.<lb/>
+- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <del rend="strikethrough">Gaseous</del>
+               <rs xml:id="ttag71" ref="#chemical_467" type="chemical">
+                  <term xml:id="tag71">
+          Carbonic oxide
+          
+        </term>
+               </rs>
+               <del rend="strikethrough">of</del> how</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">formed</hi>. properties<lb/>
+100 - cubic: 30 grains<lb/>
+Decomposition - by Potassium<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag72"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag72">
+          Hydrogene
+          
+        </term>
+            </rs> is combined<lb/>
+in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag73"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag73">
+                  <hi rend="underline">charcoal</hi>
+               </term>
+            </rs>; &amp; there are<lb/>
+numerous <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">other compounds</hi>;<lb/>
+In which they exist together<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">both</del>but., as they both have a<lb/>
+strong affinity <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag74"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag74">
+                  <hi rend="underline">for oxygene</hi>
+               </term>
+            </rs>; -<lb/>
+these compounds likewise<lb/>
+always contain a certain<lb/>
+proportion of this ingredient<lb/>
+which considerably modifies<lb/>
+their <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">properties</hi>. -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="17"
+                xml:id="pb-17"
+                facs="#i17"/>
+            <lb/>
+110<lb/>
+- When moistened <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag75"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag75">
+          charcoal
+          
+        </term>
+            </rs> -<lb/>
+light <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag76"
+                ref="#chemical_072"
+                type="chemical">
+               <term xml:id="tag76">
+                  <hi rend="underline">Hydrocarbonate</hi>
+               </term>
+            </rs>,<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">other modes</hi>
+            <lb/>
+other modes<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">1.00 to 2.00</hi>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag77"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag77">
+          Oxygene
+          
+        </term>
+            </rs>
+            <lb/>
+100 <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag78"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag78">
+          Carbonic Acid
+          
+        </term>
+            </rs>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear>
+            </del>
+            <lb/>
+30 <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag79"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag79">
+          Hydrogene
+          
+        </term>
+            </rs>
+            <lb/>
+70. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag80"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag80">
+                  <hi rend="underline">charcoal</hi>
+               </term>
+            </rs>
+            <lb/>
+- <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Suspected</unclear> to contain no<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag81"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag81">
+          Oxygene
+          
+        </term>
+            </rs> proof that it<lb/>
+does by Potassium<lb/>
+- It is the <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <hi rend="underline">gas of</hi>
+            </add> stagnant <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">marshes</hi>.<lb/>
+-<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear>
+            </del>
+            <lb/>
+- When alcohol 1: <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag82"
+                ref="#chemical_417"
+                type="chemical">
+               <term xml:id="tag82">
+          sulphuric<lb/>acid
+          
+        </term>
+            </rs> . 4. <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Theory</del>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag83"
+                ref="#chemical_208"
+                type="chemical">
+               <term xml:id="tag83">
+                  <hi rend="underline">Olefiant part gas</hi>
+               </term>
+            </rs>
+            <lb/>
+956 mode of shewing it contains<lb/>
+coal <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag84"
+                ref="#chemical_026"
+                type="chemical">
+               <term xml:id="tag84">
+          oxymuriatic acid
+          
+        </term>
+            </rs>.<lb/>
+100. - 284 <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag85"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag85">
+          Oxygene
+          
+        </term>
+            </rs>
+            <lb/>
+179 <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag86"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag86">
+          Carbonic Acid
+          
+        </term>
+            </rs>
+            <lb/>
+1 <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag87"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag87">
+          Hydrogene
+          
+        </term>
+            </rs> to three of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag88"
+                ref="#chemical_054"
+                type="chemical">
+               <term xml:id="tag88">
+          Carbon
+          
+        </term>
+            </rs>.<lb/>
+            <milestone xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                       unit="section"
+                       rend="line"/>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="18"
+                xml:id="pb-18"
+                facs="#i18"/>
+            <lb/>
+"but <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag89"
+                ref="#chemical_031"
+                type="chemical">
+               <term xml:id="tag89">
+          Potassium 
+          
+        </term>
+            </rs>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">this powerful agent</add> shews that<lb/>
+it likewise contains <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag90"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag90">
+          Oxygene
+          
+        </term>
+            </rs>"<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">-Instance</hi>
+            <lb/>
+- .<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Mode of</hi> demonstrating<lb/>
+that <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">it, contains coal</hi>
+            <lb/>
+by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag91"
+                ref="#chemical_026"
+                type="chemical">
+               <term xml:id="tag91">
+                  <hi rend="underline">oxymuriatic acid</hi>
+               </term>
+            </rs>. -<lb/>
+- These different species of gas given out by coal Cloughton<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag92"
+                ref="#person_645"
+                type="person">
+               <name xml:id="tag92" type="person">
+          Murdoch
+        </name>
+            </rs>.-. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag93"
+                ref="#person_873"
+                type="person">
+               <name xml:id="tag93" type="person">
+                  <hi rend="underline">Le bon</hi>
+               </name>
+            </rs> - illumination Lees.- British<lb/>
+heat &amp; light Company - uses - Windmills for Electricity: <lb/>
+I am no friend<lb/>
+to monopolies,<lb/>
+but<lb/>
+if any<lb/>
+it should<lb/>
+be in<lb/>
+favour<lb/>
+of the<lb/>
+inventor.<lb/>
+These are all <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag94"
+                ref="#misc_109"
+                type="miscellaneous">
+               <term xml:id="tag94">
+          aeriform
+        </term>
+            </rs>
+            <lb/>
+Compounds of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag95"
+                ref="#chemical_054"
+                type="chemical">
+               <term xml:id="tag95">
+          Carbon
+          
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag96"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag96">
+          Hydrogene
+          
+        </term>
+            </rs>
+            <lb/>
+&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag97"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag97">
+          Oxygene
+          
+        </term>
+            </rs>; but there are<lb/>
+likewise a number of fluid<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del> &amp; solid . &amp; <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">fluid</del>
+            <lb/>
+compounds containing<lb/>
+different proportions<lb/>
+of the same ingredients<lb/>
+&amp; many of which are<lb/>
+in familiar &amp; common use<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="19"
+                xml:id="pb-19"
+                facs="#i19"/>
+            <lb/>
+111<lb/>
+-:- The fixed &amp; volatile<lb/>
+oils <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">are both</hi> species<lb/>
+of these combinations<lb/>
+&amp; the proofs of their<lb/>
+nature are easily furnished.<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">tube heated <del rend="strikethrough">to</del> red</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag98" ref="#nonenglish_009" type="nonenglish">
+                  <term xml:id="tag98">
+          quere
+        </term>
+               </rs> instance</hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag99"
+                ref="#chemical_169"
+                type="chemical">
+               <term xml:id="tag99">
+                  <hi rend="underline">Oxymuriate of Potash</hi>
+               </term>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag100"
+                ref="#chemical_350"
+                type="chemical">
+               <term xml:id="tag100">
+                  <hi rend="underline">oil of turpentine</hi>
+               </term>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag101"
+                ref="#chemical_143"
+                type="chemical">
+               <term xml:id="tag101">
+                  <hi rend="underline">Strong Nitric acid</hi>
+               </term>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag102"
+                ref="#chemical_208"
+                type="chemical">
+               <term xml:id="tag102">
+                  <hi rend="underline">olefiant gas</hi>
+               </term>
+            </rs> modes of production of <lb/>
+oil 5. Gas <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear>
+            </del>: 6 Oxymur<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Alcohol</hi>. similar<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">also</hi>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag103"
+                ref="#chemical_236"
+                type="chemical">
+               <term xml:id="tag103">
+                  <hi rend="underline">Ether</hi>
+               </term>
+            </rs>. - <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">experiment</hi>
+            <lb/>
+on <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">its production</hi>
+            <lb/>
+brilliant <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag104"
+                ref="#chemical_315"
+                type="chemical">
+               <term xml:id="tag104">
+          oxalic acid
+          
+        </term>
+            </rs>
+            <lb/>
+formed.<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Resins</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>f</unclear>
+            </del>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Similar</hi>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag105"
+                ref="#chemical_366"
+                type="chemical">
+               <term xml:id="tag105">
+                  <hi rend="underline">Camphor</hi>
+               </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag106"
+                ref="#nonenglish_009"
+                type="nonenglish">
+               <term xml:id="tag106">
+          quere
+        </term>
+            </rs> does<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="20"
+                xml:id="pb-20"
+                facs="#i20"/>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">it gives a black smoke.</hi>
+            <lb/>
+Sugar, gums, a little <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">earthy matter</hi>
+            <lb/>
+similar proof.<lb/>
+- These views offer some<lb/>
+interesting elucidations of<lb/>
+the Oeconomy of the<lb/>
+Vegetable Kingdom -<lb/>
+The Manure <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">existing in</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">thrown into</del>
+            <lb/>
+the soil, consists of the decomposing<lb/>
+remains of animal or vegetable<lb/>
+substances - <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag107" ref="#chemical_022" type="chemical">
+                  <term xml:id="tag107">
+          Oxygene
+          
+        </term>
+               </rs> &amp; <unclear>
+                  <rs xml:id="ttag108" ref="#chemical_054" type="chemical">
+                     <term xml:id="tag108">
+          Carbon
+          
+        </term>
+                  </rs>
+               </unclear>
+            </del>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag109"
+                ref="#chemical_054"
+                type="chemical">
+               <term xml:id="tag109">
+          Carbon
+          
+        </term>
+            </rs>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>ar</unclear>
+            </del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag110"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag110">
+          Oxygene
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag111"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag111">
+          Hydrogene
+          
+        </term>
+            </rs>
+            <lb/>
+are their <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">chief</add> elements &amp; the<lb/>
+Atmosphere <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>ab</unclear>
+            </del>abounds in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag112"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag112">
+          Oxygene
+          
+        </term>
+            </rs>
+            <lb/>
+&amp; water &amp; contains <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag113"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag113">
+          Carbonic<lb/>acid
+          
+        </term>
+            </rs>. -<lb/>
+|_ : All the essential <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">elements</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">constituents</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">elements</del>
+            <lb/>
+for the nourishment of plants<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="21"
+                xml:id="pb-21"
+                facs="#i21"/>
+            <lb/>
+112<lb/>
+are abundantly supplied by nature.<lb/>
+even the lichen upon the<lb/>
+barren Rock <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">as well as in the grain in the fertile soil</add> is furnished<lb/>
+with them,, <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">&amp;</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; from carbonic</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">acid &amp; water moisture</del>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag114"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag114">
+                  <del rend="strikethrough">oxygene</del>
+               </term>
+            </rs>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">from principles existing in the <unclear>air</unclear>
+            </add> is capable of forming<lb/>
+its woody fibre &amp; its<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag115"
+                ref="#chemical_340"
+                type="chemical">
+               <term xml:id="tag115">
+          Gum
+          
+        </term>
+            </rs>. -<lb/>
+- The different species of vegetable<lb/>
+productions consist of<lb/>
+different arrangements of similar<lb/>
+materials. &amp; hence it is easy<lb/>
+to explain <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">why in the</hi> same <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">land</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">soil</del>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the productions</hi> of<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">one <del rend="strikethrough">veg</del> tree should</hi> be<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">resinous of another</hi>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag116"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag116">
+          mucilaginous
+        </term>
+            </rs>
+            <lb/>
+&amp; a third saccharine. -<lb/>
+-. When <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag117"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag117">
+          charcoal
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag118"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag118">
+          Hydrogene
+          
+        </term>
+            </rs>
+            <lb/>
+predominate <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">tasteless</hi>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <hi rend="underline">inflammable</hi> matters</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">solids</del>
+            <lb/>
+are formed, - When <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag119"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag119">
+          Oxygene
+          
+        </term>
+            </rs>
+            <lb/>
+exists in the compound<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">|-</unclear>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="22"
+                xml:id="pb-22"
+                facs="#i22"/>
+            <lb/>
+in <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> larger <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">but different</add> proportions bitter<lb/>
+sweet, sour &amp; odorous matters<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">are <unclear>first</unclear> produced</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">result -</add>. - | In the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">liquid products</hi> there is<lb/>
+a larger proportion of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag120"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag120">
+          Hydrogene
+          
+        </term>
+            </rs>
+            <lb/>
+than in the solid, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxx</unclear>
+            </del> .<lb/>
+&amp; still more in the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag121"
+                ref="#misc_109"
+                type="miscellaneous">
+               <term xml:id="tag121">
+          aeriform
+        </term>
+            </rs>
+            <lb/>
+ones. - And by the influence<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag122"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag122">
+          Oxygene
+          
+        </term>
+            </rs> &amp; of Heat these<lb/>
+various substances <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">are</del>
+            <lb/>
+readily pass into each other,<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ultimately</del> assume <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> new<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">gaseous</del> forms; &amp; are<lb/>
+subservient <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to</del> in their<lb/>
+continued circulation<lb/>
+to the general welfare<lb/>
+of living beings. -<lb/>
+- It is a circumstance<lb/>
+well worthy of remark,<lb/>
+that the <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">fossile</unclear> combustible substance<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="23"
+                xml:id="pb-23"
+                facs="#i23"/>
+            <lb/>
+113<lb/>
+most abundant in the surface<lb/>
+of the earth &amp; that most<lb/>
+easily procured below the<lb/>
+surface; is th<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">e</del>at <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">substance</del>
+            <lb/>
+which is most admirably<lb/>
+fitted for the purposes <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">of Man.</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of life</del>
+            <lb/>
+&amp; for application to<lb/>
+important chemical arts<lb/>
+&amp; Manufactures - <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag123"
+                ref="#misc_339"
+                type="miscellaneous">
+               <term xml:id="tag123">
+          Pitcoal
+        </term>
+            </rs>
+            <lb/>
+produces only gaseous products<lb/>
+in combustion, &amp; has that<lb/>
+degree of inflammability, which<lb/>
+enables <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">to</del> us to burn it<lb/>
+either rapidly or slowly<lb/>
+as may suit our convenience<lb/>
+&amp; it furnishes no deleterious<lb/>
+matter during its consumption.<lb/>
+- When <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag124"
+                ref="#misc_339"
+                type="miscellaneous">
+               <term xml:id="tag124">
+                  <hi rend="underline">pitcoal</hi>
+               </term>
+            </rs> was first<lb/>
+commonly used about 2 centuries<lb/>
+ago, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the <unclear>xx</unclear> writers <unclear>on</unclear>
+            </del> it<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="24"
+                xml:id="pb-24"
+                facs="#i24"/>
+            <lb/>
+was supposed by many persons<lb/>
+that its effects were extremely<lb/>
+pernicious to health &amp;<lb/>
+that it rendered the air<lb/>
+impure; but no opinion<lb/>
+can be less correct,<lb/>
+( As far as the consumption<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag125"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag125">
+          Oxygene
+          
+        </term>
+            </rs> is concerned,<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag126"
+                ref="#misc_339"
+                type="miscellaneous">
+               <term xml:id="tag126">
+          Pitcoal
+        </term>
+            </rs> absorbs less in<lb/>
+burning than <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">wood coal</hi>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> for it contains less<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag127"
+                ref="#chemical_007"
+                type="chemical">
+               <term xml:id="tag127">
+          Hydrogene
+          
+        </term>
+            </rs>. ; (&amp; [&amp; <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">also</add> it developes<lb/>
+less of the peculiar acid<lb/>
+produced in the combustion<lb/>
+of wood <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> which has<lb/>
+been called the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag128"
+                ref="#chemical_367"
+                type="chemical">
+               <term xml:id="tag128">
+          pyroligneous<lb/>Acid
+          
+        </term>
+            </rs> &amp; which is extremely<lb/>
+offensive when <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>part or</unclear>
+            </del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="25"
+                xml:id="pb-25"
+                facs="#i25"/>
+            <lb/>
+114<lb/>
+wood or turf is burnt<lb/>
+in an open fire. without<lb/>
+a due circulation of air. -.<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">-: I need not say how much</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>how</unclear> our commercial prosperity</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp; the flourishing state of</del>
+            <lb/>
+- Some ingenious persons who<lb/>
+seem to have had the<lb/>
+spirit of fa<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">s</del>lse prophecy<lb/>
+have entertained fears that<lb/>
+our <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">coal mines</hi> may at no<lb/>
+very distant period become<lb/>
+exhausted; &amp; that in<lb/>
+consequence our flourishing <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">, state</del>
+            <lb/>
+our <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">evi</del> enviable state as<lb/>
+a great commercial nation<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>in</unclear>
+            </del> deriving wealth no less<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="26"
+                xml:id="pb-26"
+                facs="#i26"/>
+            <lb/>
+from our peculiar resources<lb/>
+that from our industry<lb/>
+&amp; ingenuity, may pass away.<lb/>
+- I do not beleive that<lb/>
+such an opinion is very<lb/>
+current; but yet it<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear>
+            </del> may not be improper<lb/>
+to state the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <hi rend="underline">grounds</hi>
+            </del>
+            <lb/>
+reasons which shew that<lb/>
+it is wholly unfounded. -<lb/>
+Coal formations _<lb/>
+not veins but layers<lb/>
+strata. -<lb/>
+-. The new castle coals<lb/>
+part of a great stratum<lb/>
+extending over <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">at least</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">5</del>40 miles square<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="27"
+                xml:id="pb-27"
+                facs="#i27"/>
+            <lb/>
+115<lb/>
+of country which may<lb/>
+be bored upon in<lb/>
+different districts -<lb/>
+- If we reason upon<lb/>
+the consumption that has<lb/>
+been made of this stratum<lb/>
+&amp; <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">calculate that a quarter of <add>a</add> square</add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">reckon it half a</del> mile<lb/>
+of it has been consumed<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in</del>within the last <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">hundred</del> 50<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">yea</del> years. &amp; suppose that<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">consumption</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">waste</add> is to go<lb/>
+on regularly - it would<lb/>
+require 320,000 years<lb/>
+for its entire consumption.<lb/>
+&amp; when this stratum is<lb/>
+exhausted, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">&amp;</del> there is<lb/>
+another &amp; another still<lb/>
+lower. - . And I cannot<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="28"
+                xml:id="pb-28"
+                facs="#i28"/>
+            <lb/>
+conceive that any individual<lb/>
+having an interest in<lb/>
+his children to the<lb/>
+10,000<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">th</hi> generation <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>w</unclear>
+            </del>
+            <lb/>
+has any need to<lb/>
+apprehend <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in despairing</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">that they will suffer from a want of fuel</add>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of coal</del>; , &amp; before this<lb/>
+happens, it is not<lb/>
+improbable that at<lb/>
+at least this part of<lb/>
+the Globe will bear<lb/>
+new relations to the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">general system of</hi>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Nature</del>. -<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>In</unclear>
+            </del>
+            <lb/>
+of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Universe</hi> -<lb/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

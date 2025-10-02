@@ -1,0 +1,3440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-11601</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-11601</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/16/A</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Notebook containing geology lecture notes</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/16/A</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent>58 pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <p>Green and black marbled hardcover with red leather binding, with sticker on cover</p>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1805-01-01"
+                                   notAfter="1805-12-31">1805</tei:origDate>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-11601-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="4525px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00001"
+                  width="5538px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5537"
+               lry="4524"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="4030px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00002"
+                  width="5394px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5393"
+               lry="4029"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="4148px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00003"
+                  width="5394px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5393"
+               lry="4147"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="4102px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00004"
+                  width="5412px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5411"
+               lry="4101"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="4093px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00005"
+                  width="5412px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5411"
+               lry="4092"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="4093px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00006"
+                  width="5403px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5402"
+               lry="4092"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="4102px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00007"
+                  width="5403px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5402"
+               lry="4101"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="4102px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00008"
+                  width="5421px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5420"
+               lry="4101"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="4102px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00009"
+                  width="5421px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5420"
+               lry="4101"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="4120px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00010"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="4119"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+      <surface n="11" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="4093px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00011"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="4092"
+               rotate="0"
+               xml:id="i11z1"/>
+      </surface>
+      <surface n="12" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="4120px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00012"
+                  width="5475px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5474"
+               lry="4119"
+               rotate="0"
+               xml:id="i12z1"/>
+      </surface>
+      <surface n="13" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="4111px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00013"
+                  width="5475px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5474"
+               lry="4110"
+               rotate="0"
+               xml:id="i13z1"/>
+      </surface>
+      <surface n="14" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="4129px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00014"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="4128"
+               rotate="0"
+               xml:id="i14z1"/>
+      </surface>
+      <surface n="15" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="4102px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00015"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="4101"
+               rotate="0"
+               xml:id="i15z1"/>
+      </surface>
+      <surface n="16" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="4147px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00016"
+                  width="5511px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5510"
+               lry="4146"
+               rotate="0"
+               xml:id="i16z1"/>
+      </surface>
+      <surface n="17" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="4093px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00017"
+                  width="5511px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5510"
+               lry="4092"
+               rotate="0"
+               xml:id="i17z1"/>
+      </surface>
+      <surface n="18" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="4157px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00018"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="4156"
+               rotate="0"
+               xml:id="i18z1"/>
+      </surface>
+      <surface n="19" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="4093px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00019"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="4092"
+               rotate="0"
+               xml:id="i19z1"/>
+      </surface>
+      <surface n="20" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="4166px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00020"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="4165"
+               rotate="0"
+               xml:id="i20z1"/>
+      </surface>
+      <surface n="21" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="4093px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00021"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="4092"
+               rotate="0"
+               xml:id="i21z1"/>
+      </surface>
+      <surface n="22" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="4148px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00022"
+                  width="5503px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5502"
+               lry="4147"
+               rotate="0"
+               xml:id="i22z1"/>
+      </surface>
+      <surface n="23" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="4102px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00023"
+                  width="5503px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5502"
+               lry="4101"
+               rotate="0"
+               xml:id="i23z1"/>
+      </surface>
+      <surface n="24" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="4157px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00024"
+                  width="5476px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5475"
+               lry="4156"
+               rotate="0"
+               xml:id="i24z1"/>
+      </surface>
+      <surface n="25" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="4102px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00025"
+                  width="5476px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5475"
+               lry="4101"
+               rotate="0"
+               xml:id="i25z1"/>
+      </surface>
+      <surface n="26" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="4129px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00026"
+                  width="5476px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5475"
+               lry="4128"
+               rotate="0"
+               xml:id="i26z1"/>
+      </surface>
+      <surface n="27" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="4102px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00027"
+                  width="5476px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5475"
+               lry="4101"
+               rotate="0"
+               xml:id="i27z1"/>
+      </surface>
+      <surface n="28" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="4148px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00028"
+                  width="5476px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5475"
+               lry="4147"
+               rotate="0"
+               xml:id="i28z1"/>
+      </surface>
+      <surface n="29" xml:id="i29">
+         <graphic decls="#downloadImageRights #download"
+                  height="4111px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00029"
+                  width="5476px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5475"
+               lry="4110"
+               rotate="0"
+               xml:id="i29z1"/>
+      </surface>
+      <surface n="30" xml:id="i30">
+         <graphic decls="#downloadImageRights #download"
+                  height="4157px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00030"
+                  width="5467px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5466"
+               lry="4156"
+               rotate="0"
+               xml:id="i30z1"/>
+      </surface>
+      <surface n="31" xml:id="i31">
+         <graphic decls="#downloadImageRights #download"
+                  height="4093px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00031"
+                  width="5467px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5466"
+               lry="4092"
+               rotate="0"
+               xml:id="i31z1"/>
+      </surface>
+      <surface n="32" xml:id="i32">
+         <graphic decls="#downloadImageRights #download"
+                  height="4166px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00032"
+                  width="5458px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5457"
+               lry="4165"
+               rotate="0"
+               xml:id="i32z1"/>
+      </surface>
+      <surface n="33" xml:id="i33">
+         <graphic decls="#downloadImageRights #download"
+                  height="4111px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00033"
+                  width="5458px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5457"
+               lry="4110"
+               rotate="0"
+               xml:id="i33z1"/>
+      </surface>
+      <surface n="34" xml:id="i34">
+         <graphic decls="#downloadImageRights #download"
+                  height="4175px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00034"
+                  width="5521px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5520"
+               lry="4174"
+               rotate="0"
+               xml:id="i34z1"/>
+      </surface>
+      <surface n="35" xml:id="i35">
+         <graphic decls="#downloadImageRights #download"
+                  height="4111px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00035"
+                  width="5521px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5520"
+               lry="4110"
+               rotate="0"
+               xml:id="i35z1"/>
+      </surface>
+      <surface n="36" xml:id="i36">
+         <graphic decls="#downloadImageRights #download"
+                  height="4184px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00036"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="4183"
+               rotate="0"
+               xml:id="i36z1"/>
+      </surface>
+      <surface n="37" xml:id="i37">
+         <graphic decls="#downloadImageRights #download"
+                  height="4111px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00037"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="4110"
+               rotate="0"
+               xml:id="i37z1"/>
+      </surface>
+      <surface n="38" xml:id="i38">
+         <graphic decls="#downloadImageRights #download"
+                  height="4184px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00038"
+                  width="5476px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5475"
+               lry="4183"
+               rotate="0"
+               xml:id="i38z1"/>
+      </surface>
+      <surface n="39" xml:id="i39">
+         <graphic decls="#downloadImageRights #download"
+                  height="4111px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00039"
+                  width="5476px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5475"
+               lry="4110"
+               rotate="0"
+               xml:id="i39z1"/>
+      </surface>
+      <surface n="40" xml:id="i40">
+         <graphic decls="#downloadImageRights #download"
+                  height="4193px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00040"
+                  width="5503px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5502"
+               lry="4192"
+               rotate="0"
+               xml:id="i40z1"/>
+      </surface>
+      <surface n="41" xml:id="i41">
+         <graphic decls="#downloadImageRights #download"
+                  height="4102px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00041"
+                  width="5503px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5502"
+               lry="4101"
+               rotate="0"
+               xml:id="i41z1"/>
+      </surface>
+      <surface n="42" xml:id="i42">
+         <graphic decls="#downloadImageRights #download"
+                  height="4202px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00042"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="4201"
+               rotate="0"
+               xml:id="i42z1"/>
+      </surface>
+      <surface n="43" xml:id="i43">
+         <graphic decls="#downloadImageRights #download"
+                  height="4093px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00043"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="4092"
+               rotate="0"
+               xml:id="i43z1"/>
+      </surface>
+      <surface n="44" xml:id="i44">
+         <graphic decls="#downloadImageRights #download"
+                  height="4202px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00044"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="4201"
+               rotate="0"
+               xml:id="i44z1"/>
+      </surface>
+      <surface n="45" xml:id="i45">
+         <graphic decls="#downloadImageRights #download"
+                  height="4093px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00045"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="4092"
+               rotate="0"
+               xml:id="i45z1"/>
+      </surface>
+      <surface n="46" xml:id="i46">
+         <graphic decls="#downloadImageRights #download"
+                  height="4193px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00046"
+                  width="5503px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5502"
+               lry="4192"
+               rotate="0"
+               xml:id="i46z1"/>
+      </surface>
+      <surface n="47" xml:id="i47">
+         <graphic decls="#downloadImageRights #download"
+                  height="4455px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00047"
+                  width="5503px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5502"
+               lry="4454"
+               rotate="0"
+               xml:id="i47z1"/>
+      </surface>
+      <surface n="48" xml:id="i48">
+         <graphic decls="#downloadImageRights #download"
+                  height="4202px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00048"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="4201"
+               rotate="0"
+               xml:id="i48z1"/>
+      </surface>
+      <surface n="49" xml:id="i49">
+         <graphic decls="#downloadImageRights #download"
+                  height="4093px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00049"
+                  width="5485px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5484"
+               lry="4092"
+               rotate="0"
+               xml:id="i49z1"/>
+      </surface>
+      <surface n="50" xml:id="i50">
+         <graphic decls="#downloadImageRights #download"
+                  height="4220px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00050"
+                  width="5493px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5492"
+               lry="4219"
+               rotate="0"
+               xml:id="i50z1"/>
+      </surface>
+      <surface n="51" xml:id="i51">
+         <graphic decls="#downloadImageRights #download"
+                  height="4084px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00051"
+                  width="5493px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5492"
+               lry="4083"
+               rotate="0"
+               xml:id="i51z1"/>
+      </surface>
+      <surface n="52" xml:id="i52">
+         <graphic decls="#downloadImageRights #download"
+                  height="4220px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00052"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="4219"
+               rotate="0"
+               xml:id="i52z1"/>
+      </surface>
+      <surface n="53" xml:id="i53">
+         <graphic decls="#downloadImageRights #download"
+                  height="4084px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00053"
+                  width="5457px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5456"
+               lry="4083"
+               rotate="0"
+               xml:id="i53z1"/>
+      </surface>
+      <surface n="54" xml:id="i54">
+         <graphic decls="#downloadImageRights #download"
+                  height="4220px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00054"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="4219"
+               rotate="0"
+               xml:id="i54z1"/>
+      </surface>
+      <surface n="55" xml:id="i55">
+         <graphic decls="#downloadImageRights #download"
+                  height="4084px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00055"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="4083"
+               rotate="0"
+               xml:id="i55z1"/>
+      </surface>
+      <surface n="56" xml:id="i56">
+         <graphic decls="#downloadImageRights #download"
+                  height="4211px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00056"
+                  width="5467px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5466"
+               lry="4210"
+               rotate="0"
+               xml:id="i56z1"/>
+      </surface>
+      <surface n="57" xml:id="i57">
+         <graphic decls="#downloadImageRights #download"
+                  height="4084px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00057"
+                  width="5467px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5466"
+               lry="4083"
+               rotate="0"
+               xml:id="i57z1"/>
+      </surface>
+      <surface n="58" xml:id="i58">
+         <graphic decls="#downloadImageRights #download"
+                  height="4211px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00058"
+                  width="5494px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5493"
+               lry="4210"
+               rotate="0"
+               xml:id="i58z1"/>
+      </surface>
+      <surface n="59" xml:id="i59">
+         <graphic decls="#downloadImageRights #download"
+                  height="4084px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00059"
+                  width="5494px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5493"
+               lry="4083"
+               rotate="0"
+               xml:id="i59z1"/>
+      </surface>
+      <surface n="60" xml:id="i60">
+         <graphic decls="#downloadImageRights #download"
+                  height="4220px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00060"
+                  width="5430px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5429"
+               lry="4219"
+               rotate="0"
+               xml:id="i60z1"/>
+      </surface>
+      <surface n="61" xml:id="i61">
+         <graphic decls="#downloadImageRights #download"
+                  height="4419px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00061"
+                  width="5430px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5429"
+               lry="4418"
+               rotate="0"
+               xml:id="i61z1"/>
+      </surface>
+      <surface n="62" xml:id="i62">
+         <graphic decls="#downloadImageRights #download"
+                  height="4543px"
+                  rend="landscape"
+                  url="MS-DAVY-11601-000-00062"
+                  width="5476px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5475"
+               lry="4542"
+               rotate="0"
+               xml:id="i62z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_823" type="description">
+            <term id="misc_823-term">So different are the exertions of the faculties</term>
+            <gloss id="misc_823-gloss" target="#misc_823-term">
+               <p>This lecture was given on Thursday 14th February 1805 at 2pm. It is published in Humphry Davy on Geology: The 1805 Lectures for the General Audience, ed. Robert Siegfried and Robert H. Dott (University of Wisconsin Press, Madison, 1980), pp. 10-21.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_339" type="description">
+            <term id="misc_339-term">Pitcoal</term>
+            <gloss id="misc_339-gloss" target="#misc_339-term">
+               <p>Coal mined from the earth - distinguished from charcoal.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_578" type="description">
+            <term id="misc_578-term">Manu the Son of Brama</term>
+            <gloss id="misc_578-gloss" target="#misc_578-term">
+               <p>The term Manu has various meanings in Hinduism; Davy probably alludes to the idea of the archetypal or first man, son of the God Brahma. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_577" type="description">
+            <term id="misc_577-term">Brahma</term>
+            <gloss id="misc_577-gloss" target="#misc_577-term">
+               <p>A Hindu god. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_511" type="description">
+            <term id="misc_511-term">God</term>
+            <gloss id="misc_511-gloss" target="#misc_511-term">
+               <p>God, within the Christian religion.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_564" type="description">
+            <term id="misc_564-term">Osiris</term>
+            <gloss id="misc_564-gloss" target="#misc_564-term">
+               <p>In ancient Egyptian religion, Osiris was the judge and lord of the dead and the underworld.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_487" type="description">
+            <term id="misc_487-term">Ishvara</term>
+            <gloss id="misc_487-gloss" target="#misc_487-term">
+               <p>An ancient Hindu concept that can mean can mean supreme Self, ruler, lord, king, queen or husband.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_565" type="description">
+            <term id="misc_565-term">Isis</term>
+            <gloss id="misc_565-gloss" target="#misc_565-term">
+               <p>In ancient Egyptian religion, Isis was a major goddess of magic and wisdom.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_672" type="description">
+            <term id="misc_672-term">Venus</term>
+            <gloss id="misc_672-gloss" target="#misc_672-term">
+               <p>a Roman goddess, whose functions encompass love, beauty, desire, sex, fertility, prosperity, and victory</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_561" type="description">
+            <term id="misc_561-term">Orpheus</term>
+            <gloss id="misc_561-gloss" target="#misc_561-term">
+               <p>In Greek mythology, Orpheus was a Thracian bard, legendary musician and prophet. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_455" type="description">
+            <term id="misc_455-term">Timeus the Locrian</term>
+            <gloss id="misc_455-gloss" target="#misc_455-term">
+               <p>a character in two of Plato's dialogues, Timaeus and Critias. In both, he appears as a philosopher of the Pythagorean school. If there ever existed a historical Timaeus of Locri, he would have lived in the fifth century BCE, but his historicity is dubious since he only appears as a literary figure in Plato's works.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_011" type="description">
+            <term id="misc_011-term">the muses</term>
+            <gloss id="misc_011-gloss" target="#misc_011-term">
+               <p>In ancient Greek mythology, the inspirational goddesses of literature, science and the arts.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listNym type="chemical">
+         <nym xml:id="chemical_092">
+            <form>granite</form>
+            <def>
+               <p>A coarse-grained intrusive igneous rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_184">
+            <form>shell limestone</form>
+            <def>
+               <p>A type of limestone composed largely of shells.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_398">
+            <form>slate </form>
+            <def>
+               <p>Slate is a fine-grained, foliated, homogeneous, metamorphic rock derived from an original shale-type sedimentary rock composed of clay or volcanic ash through low-grade, regional metamorphism</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_088">
+            <form>sandstone</form>
+            <def>
+               <p>A sedimentary rock consisting of sand or quartz grains cemented together, typically red, yellow, or brown in colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_097">
+            <form>sienite</form>
+            <def>
+               <p>Syenite. A coarse-grained intrusive igneous rock with a general composition similar to that of granite, but deficient in quartz, which, if present at all, occurs in relatively small concentrations.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_120">
+            <form>shist</form>
+            <def>
+               <p>Or schist. Any metamorphic rock that can be split into thin layers because of its thin bands of micaceous minerals, with mineral grains.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_105">
+            <form>basalt</form>
+            <def>
+               <p>A dark grey to black dense to fine-grained igneous rock that consists of basic plagioclase, augite, and usually magnetite. More than 90% of volcanic rock on earth is basaltic.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_399">
+            <form>gossan</form>
+            <def>
+               <p>Gossan (eiserner hut or eisenhut) is intensely oxidized, weathered or decomposed rock, usually the upper and exposed part of an ore deposit or mineral vein. As noted by Davy, its name comes from Cornish mining slang.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_090">
+            <form>limestone</form>
+            <def>
+               <p>A sedimentary rock composed mainly of calcium carbonate (CaCO3).</p>
+            </def>
+         </nym>
+      </listNym>
+      <listPlace>
+         <place xml:id="place_021">
+            <placeName>Cornwall</placeName>
+            <location>
+               <geo decls="#WGS84">50.25090807161931,  -5.1326462442719603</geo>
+            </location>
+            <note>Cornwall is a county in south-west England, birthplace of Humphry Davy.</note>
+         </place>
+         <place xml:id="place_531">
+            <placeName>India</placeName>
+            <location>
+               <geo decls="#WGS84">21.021002369595717,  77.784400651531399</geo>
+            </location>
+         </place>
+         <place xml:id="place_475">
+            <placeName>Egypt</placeName>
+            <location>
+               <geo decls="#WGS84">26.847302350713047,  29.800177329364502</geo>
+            </location>
+         </place>
+         <place xml:id="place_167">
+            <placeName>Greece</placeName>
+            <location>
+               <geo decls="#WGS84">39.47271804405826,  22.383511417155901</geo>
+            </location>
+         </place>
+         <place xml:id="place_404">
+            <placeName>Klazomenai</placeName>
+            <location>
+               <geo decls="#WGS84">38.37333096188491,  26.6982885635922</geo>
+            </location>
+            <note>An ancient Greek city on the coast of Ionia.</note>
+         </place>
+         <place xml:id="place_208">
+            <placeName>Athens</placeName>
+            <location>
+               <geo decls="#WGS84">37.9854254841492, 23.728211329282001</geo>
+            </location>
+            <note>Athens is the capital city of Greece.</note>
+         </place>
+         <place xml:id="place_868">
+            <placeName>Gos</placeName>
+            <location>
+               <geo decls="#WGS84">40.3648417665384,  26.631288538647699</geo>
+            </location>
+            <note>Aegospotami is the ancient Greek name for a small river issuing into the Hellespont northeast of Sestos. According to Pliny and Aristotle, a meteor landed here in 467 BC after reports of a comet.</note>
+         </place>
+         <place xml:id="place_867">
+            <placeName>Thrace</placeName>
+            <location>
+               <geo decls="#WGS84">44.4922551096188,  23.331593583526502</geo>
+            </location>
+            <note>Thrace is a geographical and historical region in Southeast Europe. Bounded by the Balkan Mountains to the north, the Aegean Sea to the south, and the Black Sea to the east, it comprises present-day southeastern Bulgaria, northeastern Greece, and the European part of Turkey, roughly the Roman Province of Thrace.</note>
+         </place>
+      </listPlace>
+      <listPerson>
+         <person xml:id="person_689">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Francis</forename>
+               <surname>Wilford</surname>
+            </persName>
+            <birth when="1761"/>
+            <death when="1822"/>
+            <note>Indologist, Orientalist, member of the Asiatic Society of Bengal, and constant contributor to its journal, Asiatic Researches, for which he wrote a number of unreliable articles on ancient Hindu geography, mythography and other subjects.</note>
+         </person>
+         <person xml:id="person_795">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jupiter</forename>
+            </persName>
+            <note>Also known as Jove. The god of the sky and thunder, and king of the gods in ancient Roman religion and mythology.</note>
+            <trait>Might be tagged in MS to avoid confusion with planet so leaving entry in</trait>
+         </person>
+         <person xml:id="person_860">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Hesiod</surname>
+            </persName>
+            <note>An ancient Greek poet generally thought to have been active between 750 and 650 BC, around the same time as Homer. In c. 730–700 BC. he wrote a poem, called the Theogony, describing the origins and genealogies of the Greek gods.</note>
+         </person>
+         <person xml:id="person_324">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Roger</forename>
+               <surname>Bacon</surname>
+            </persName>
+            <birth when="c. 1214"/>
+            <death when="c. 1292"/>
+            <note>Medieval English philosopher and Franciscan friar. </note>
+         </person>
+         <person xml:id="person_035">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Homer</surname>
+            </persName>
+            <note>Homer was a Greek poet who is believed to have written the epic poems, the Iliad and the Odyssey.</note>
+         </person>
+         <person xml:id="person_263">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Pluto</surname>
+            </persName>
+            <note>The ruler of the underworld in ancient Greek mythology and religion.</note>
+         </person>
+         <person xml:id="person_801">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Herodotus</surname>
+            </persName>
+            <birth when="c.484 BCE"/>
+            <death when="c.425 BCE"/>
+            <note>Greek historian and geographer who wrote a detailed account of the Greco-Persian Wars - one the earliest existing historical texts.</note>
+         </person>
+         <person xml:id="person_760">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Solon</surname>
+            </persName>
+            <birth when="c. 630 BCE  "/>
+            <death when="c. 560 BCE"/>
+            <note>Athenian statesman, lawmaker and poet, who was one of the Seven Sages of Greece, credited with laying the foundations for Athenian democracy</note>
+         </person>
+         <person xml:id="person_085">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Plato</surname>
+            </persName>
+            <birth when="c. 427 BCE"/>
+            <death when="c. 348 BCE"/>
+            <note>A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.</note>
+         </person>
+         <person xml:id="person_609">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Thales</surname>
+            </persName>
+            <birth when="c. 626 BCE"/>
+            <death when="c. 548 BCE"/>
+            <note>Ancient Greek pre-Socratic philosopher from Miletus in Ionia, Asia Minor.</note>
+         </person>
+         <person xml:id="person_951">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jesus</forename>
+               <surname>Christ</surname>
+            </persName>
+            <birth when="c. 6-4 BC"/>
+            <death when="AD 30 or 33"/>
+            <note>The central figure of Christianity; a first-century Jewish preacher and religious leader.</note>
+         </person>
+         <person xml:id="person_863">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Anaximander</surname>
+            </persName>
+            <birth when="c.610 BCE"/>
+            <death when="c.546 BCE"/>
+            <note>A philosopher who belonged to the Milesian school and learned the teachings of his master Thales. He succeeded Thales and became the second master of that school where he counted Anaximenes and, arguably, Pythagoras amongst his pupils.</note>
+            <trait>Also 310</trait>
+         </person>
+         <person xml:id="person_602">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Plutarch</surname>
+            </persName>
+            <birth when="45 CE"/>
+            <death when="120 CE"/>
+            <note>Greek writer most famous for his parallel lives of Greek and Roman statesmen and military leaders.</note>
+         </person>
+         <person xml:id="person_657">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Anaximenes</surname>
+            </persName>
+            <birth when="c. 586 BCE"/>
+            <death when="c. 526 BCE"/>
+            <note>Ancient Greek Pre-Socratic philosopher from Miletus in Anatolia. He was the last of the three philosophers of the Milesian School, after Thales and Anaximander. These three are regarded by historians as the first philosophers of the Western world.</note>
+         </person>
+         <person xml:id="person_605">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Anaxagoras</surname>
+            </persName>
+            <birth when="fl. 5th cent BCE"/>
+            <note>Greek Presocratic philosopher.</note>
+         </person>
+         <person xml:id="person_1038">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Timon</forename>
+            </persName>
+            <birth when="c.320BCE"/>
+            <death when="c.235BCE"/>
+            <note>of Phlius, an Ancient Greek philosopher from the Hellenistic period, who was the student of Pyrrho.</note>
+         </person>
+         <person xml:id="person_1039">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Diogenes</forename>
+               <surname>Laërtius</surname>
+            </persName>
+            <birth when="fl. 3rd century CE"/>
+            <note>a biographer of the Greek philosophers</note>
+         </person>
+         <person xml:id="person_138">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Aristotle</surname>
+            </persName>
+            <birth when="384 BCE"/>
+            <death when="322 BCE"/>
+            <note>A pupil of Plato's whose philosophical idealism he came to reject, arguing instead for the primacy of observations of natural phenomena. He thus established the divide between theory and experiment in science that can still be detected today. Aristotle's writings became the main way the natural world was understood from the Middle Ages to the seventeenth century, especially in the universities.</note>
+         </person>
+         <person xml:id="person_601">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Daimachus</surname>
+            </persName>
+            <birth when="fl. 3rd cent BCE"/>
+            <note>Probably: Daimachus, Greek diplomat and writer.</note>
+         </person>
+      </listPerson>
+      <listBibl>
+         <bibl xml:id="otherwork_266">
+            <author>Orpheus </author>
+            <title level="j">Hymns </title>
+            <title level="a" type="main">Hymn to Jupiter</title>
+            <note>The Orphic Hymns are a collection of eighty-seven hymns addressed to various deities. They were most likely composed in Asia Minor, possibly in the second or third centuries AD</note>
+         </bibl>
+         <bibl xml:id="otherwork_211">
+            <author>Homer</author>
+            <title level="j">The Iliad</title>
+            <note>Epic poem in 24 books traditionally attributed to the ancient Greek poet Homer. It takes the Trojan War as its subject, though the Greek warrior Achilles is its primary focus.</note>
+         </bibl>
+         <bibl xml:id="otherwork_111">
+            <author>Homer </author>
+            <title level="j">Odyssey</title>
+            <title level="a" type="main">Book 11 - Journey to the Underworld</title>
+            <note>Book 11 of Homer's Odyssey is known as the Nekya, the book where Odysseus calls on the dead of the underworld, in particular the blind seer Tireseas, to inform him of the future. </note>
+         </bibl>
+      </listBibl>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+Geology Lecture 1st 1805<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#misc_823"
+                type="miscellaneous">
+               <term xml:id="tag1">
+          So different are the exertions of the faculties
+        </term>
+            </rs>
+            <lb/>
+of the mind, and so infinitely various the<lb/>
+combinations of our ideas &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">that the same</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">objects</hi> may be examined with the most opposite<lb/>
+views and considered under many diversified<lb/>
+and beautiful relations.-<lb/>
+It is on this fact of our nature so familiar<lb/>
+to every understanding that the great extent <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of</del>
+            <lb/>
+and progression of science and philosophy depend -<lb/>
+Hence their division into various branches and<lb/>
+hence the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">distinguished</del> distinctness and<lb/>
+accuracy of the different species of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Knowledge</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+The Planet that we inhabit may be considered in<lb/>
+its connection with the general system of<lb/>
+the universe, as acted upon gravitation and<lb/>
+revolving round the sun -<lb/>
+It may be examined in the abode of<lb/>
+organization and life covered with vegetables<lb/>
+and peopled with animals, - or it may be<lb/>
+studied as composed of different inorganic <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">parts</hi>
+            <lb/>
+variously arranged and subservient to different<lb/>
+uses.-<lb/>
+It is under this last point of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">view</hi> that it<lb/>
+is the subject of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Geology</hi> - The Word is derived<lb/>
+from <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the Greek language</hi> it signifies the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Science of the Earth</hi>, but its acceptation is<lb/>
+limited and it is only <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">app</del> applied to<lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">branch of Knowledge</hi> relating to<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+The nature position and changes of the bodies<lb/>
+that compose the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">known part</hi> of the surface<lb/>
+of the Globe.<lb/>
+The facts belonging to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Geology</hi> are numerous<lb/>
+The objects of the study are as many as the<lb/>
+substances found in our soils our Rocks and<lb/>
+our Mountains in the Sea and in the Atmosphere<lb/>
+And the alterations that those great parts<lb/>
+of our system are continually undergoin<lb/>
+can only be explained on the principles of<lb/>
+this department of Philosophy.-<lb/>
+The information to be derived from Geology<lb/>
+is applicable to many purposes - In a number<lb/>
+of instances it may be made subservient to the<lb/>
+wants of life And all the theoretical views<lb/>
+belonging to it when accurately pursued lead to<lb/>
+beautiful <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">truths</hi>.-<lb/>
+substances found in our <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">vain</unclear> our Rocks and<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+Fixed <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">on the earth</hi> and dependent for our<lb/>
+existance upon the various objects surrounding us<lb/>
+Many of our necessities are supplied and some<lb/>
+of our comforts produced by applications of<lb/>
+the inorganic substances presented to us in<lb/>
+Nature.-<lb/>
+The soils from which we raise our vegetative<lb/>
+nourishment the stones of which our habitations<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">are formed</hi> the fuel we employ for so many<lb/>
+purposes and the metals <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">absolutely essential</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to civilized Man</hi> are all subjects for the<lb/>
+application <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of Geology</hi>
+            <lb/>
+And it is not merely <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">their nature</hi> which<lb/>
+is indicated by this science but methods<lb/>
+of discovering them and their <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">extensive relations</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+The rocks and stoney substances which are<lb/>
+found beneath the soil, or which compose<lb/>
+the foundations of our Hills though so various<lb/>
+in their appearances yet contain many common<lb/>
+substances.-<lb/>
+The same bodies are found in very distant Countries<lb/>
+There is an order in their position and the<lb/>
+general nature of the mineral bodies belonging<lb/>
+to a particular district, is in most cases<lb/>
+indicated by the examination of a few<lb/>
+specimens -<lb/>
+In a mountainous country for instance<lb/>
+if a stone of this nature occurs which is<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag2" ref="#chemical_092" type="chemical">
+                  <term xml:id="tag2">
+          Granite
+          
+        </term>
+               </rs>
+            </hi> there is great reason to suppose<lb/>
+that this <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">substance</hi> will be likewise <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">found</del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+found at no great distance but in such<lb/>
+a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">position</hi> it would be vain to search for<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag3"
+                ref="#chemical_184"
+                type="chemical">
+               <term xml:id="tag3">
+          Shell Limestone
+          
+        </term>
+            </rs> or <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">for Coal</hi>
+            <lb/>
+A gain (when <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag4"
+                ref="#chemical_184"
+                type="chemical">
+               <term xml:id="tag4">
+          Shell Limestone
+          
+        </term>
+            </rs> is found there<lb/>
+is a strong <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">presumption</hi> that soft-black<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag5"
+                ref="#chemical_398"
+                type="chemical">
+               <term xml:id="tag5">
+          slate
+          
+        </term>
+            </rs> or loose <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag6"
+                ref="#chemical_088"
+                type="chemical">
+               <term xml:id="tag6">
+          Sandstone
+          
+        </term>
+            </rs> will likewise occur<lb/>
+in some contiguous spot and in such<lb/>
+a country there can be little doubt that<lb/>
+at some depth or in some direction<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag7"
+                ref="#misc_339"
+                type="miscellaneous">
+               <term xml:id="tag7">
+                  <hi rend="underline">Pit coal</hi>
+               </term>
+            </rs> would exist.-<lb/>
+These circumstances which are <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">fundamental</del>
+            <lb/>
+fundamental facts of the science prove in<lb/>
+a strong manner that considerable<lb/>
+discoveries may often result from Geological<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="9"
+                xml:id="pb-9"
+                facs="#i9"/>
+            <lb/>
+Knowledge and that it affords information<lb/>
+capable of being immediately brought into use -<lb/>
+The person who is diggin for <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag8"
+                ref="#misc_339"
+                type="miscellaneous">
+               <term xml:id="tag8">
+                  <hi rend="underline">Pit coal</hi>
+               </term>
+            </rs>
+            <lb/>
+when He meets beneath the soil <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag9"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag9">
+          Granite
+          
+        </term>
+            </rs> Rocks<lb/>
+if acquainted with the arrangement of<lb/>
+and nature of Strata will be immediately<lb/>
+instructed to give over his labour and<lb/>
+to spare useless expence.<lb/>
+But should He find <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag10"
+                ref="#chemical_088"
+                type="chemical">
+               <term xml:id="tag10">
+                  <hi rend="underline">sandstone</hi>
+               </term>
+            </rs> a substance<lb/>
+which to an uninstructed eye appears much<lb/>
+of the same nature as <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag11"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag11">
+          Granite
+          
+        </term>
+            </rs>, it affords<lb/>
+him immediate encouragement to proceed<lb/>
+in his researches -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="10"
+                xml:id="pb-10"
+                facs="#i10"/>
+            <lb/>
+And a yellow of red <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag12"
+                ref="#chemical_088"
+                type="chemical">
+               <term xml:id="tag12">
+                  <hi rend="underline">sandstone</hi>
+               </term>
+            </rs> on a<lb/>
+soft <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag13"
+                ref="#chemical_398"
+                type="chemical">
+               <term xml:id="tag13">
+          slate
+          
+        </term>
+            </rs> bearing the impression of Vegetable<lb/>
+leaves would offer indications almost certain<lb/>
+of the substances sought for.<lb/>
+For these Rocks are generally immediately<lb/>
+incumbent on Coal.-<lb/>
+Similar reasoning may be applied to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">metallic</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">veins</hi>.<lb/>
+The metals seldom or never occur in<lb/>
+rocks of serpentine or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag14"
+                ref="#chemical_097"
+                type="chemical">
+               <term xml:id="tag14">
+          Sienite
+          
+        </term>
+            </rs> or in soft coaly<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag15"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag15">
+          Shist
+          
+        </term>
+            </rs> nor in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag16"
+                ref="#chemical_088"
+                type="chemical">
+               <term xml:id="tag16">
+          Sandstone
+          
+        </term>
+            </rs> nor in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag17"
+                ref="#chemical_105"
+                type="chemical">
+               <term xml:id="tag17">
+          Basalt
+          
+        </term>
+            </rs>
+            <lb/>
+but they may be looked for in soft <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag18"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag18">
+          Granite
+          
+        </term>
+            </rs>
+            <lb/>
+in hard <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag19"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag19">
+          Shist
+          
+        </term>
+            </rs> in hard <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag20"
+                ref="#chemical_184"
+                type="chemical">
+               <term xml:id="tag20">
+          Shell Limestone
+          
+        </term>
+            </rs>.<lb/>
+And if in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag21"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag21">
+          Granite
+          
+        </term>
+            </rs> or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag22"
+                ref="#chemical_120"
+                type="chemical">
+               <term xml:id="tag22">
+          Shist
+          
+        </term>
+            </rs> a vein<lb/>
+of white stone is found remaining in<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="11"
+                xml:id="pb-11"
+                facs="#i11"/>
+            <lb/>
+a direction from East to west there is much<lb/>
+probability that in some part of its depth<lb/>
+it may afford useful metal.<lb/>
+And if veins <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of spar</hi> occur in Rocks partly<lb/>
+hollow and partly filled with a yellow<lb/>
+substance of this kind which in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag23"
+                ref="#place_021"
+                type="place">
+               <name xml:id="tag23" type="place">
+          Cornwall
+        </name>
+            </rs>
+            <lb/>
+is called <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag24"
+                ref="#chemical_399"
+                type="chemical">
+               <term xml:id="tag24">
+          Gossan
+          
+        </term>
+            </rs> it may be always concluded<lb/>
+that these veins will be productive and the<lb/>
+larger the quantity of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag25"
+                ref="#chemical_399"
+                type="chemical">
+               <term xml:id="tag25">
+          Gossan
+          
+        </term>
+            </rs> the better <lb/>
+the indication.<lb/>
+A number of Instances of the same<lb/>
+kind might be <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">adduced</hi> the study of the<lb/>
+science is not <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">useful merely</hi> to the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Miner</hi>
+            <lb/>
+for as it explains the general Direction<lb/>
+of Strata and the substances they contain<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="12"
+                xml:id="pb-12"
+                facs="#i12"/>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">it offers</hi> applications to many more <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of the Arts</hi>
+            <lb/>
+of life.<lb/>
+It ought to be studied by the engineer who<lb/>
+is employed in the construction of Canals; as<lb/>
+certain <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">strata </hi> exceedingly hard are often with<lb/>
+others very soft and easily cut through.-<lb/>
+The drainer in order to make his operations<lb/>
+successful ought to be minutely acquainted<lb/>
+with the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">arrangement </hi> of the rocks in the<lb/>
+district from which the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">springs arise</hi> that<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">it is</hi> his business to divert -<lb/>
+And the improver of land may often<lb/>
+derive from Geology very useful instructions<lb/>
+with regard to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag26"
+                ref="#chemical_090"
+                type="chemical">
+               <term xml:id="tag26">
+                  <hi rend="underline">limestone</hi>
+               </term>
+            </rs>, marble, Clayes <lb/>
+their application and the nearest places<lb/>
+whence they <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">may be procured</hi>.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="13"
+                xml:id="pb-13"
+                facs="#i13"/>
+            <lb/>
+It is according to these <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">veiws</del> views that the<lb/>
+study may be of National as well as of particul<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">ar</add>
+            <lb/>
+advantage -<lb/>
+Such reasons shew that it is highly worthy of<lb/>
+being <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">pursued</hi> - and there are other<lb/>
+reasons of no less importance though <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">less</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">obvious and more refined</hi> which ought <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">not</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to be slighted</hi> in treating <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of its relations</hi>
+            <lb/>
+and general influence.<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">These reasons</hi> will appear indeed perhaps<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">more precisely</hi>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to general Enquiries after inform</hi>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">ation</add>
+            <lb/>
+for they depend upon circumstances which<lb/>
+can <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">scarcely fail</hi> to be equally interesting<lb/>
+to every refined understanding -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="14"
+                xml:id="pb-14"
+                facs="#i14"/>
+            <lb/>
+It will be needless to enter upon a subject<lb/>
+which has been often discharged in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">this</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">room</hi>.<lb/>
+The general usefulness <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of the Knowledge</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of Nature</hi> in increasing <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">mental enjoyment</hi>
+            <lb/>
+and in strengthening and exalting our<lb/>
+sentiments -<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">But it</hi> surely will not be deemed improper<lb/>
+to point out some of the peculiar<lb/>
+intellectual effects of the objects of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">these</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Lectures </hi>and some of the advantages of<lb/>
+the study as compared with that of other<lb/>
+branches of science -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="15"
+                xml:id="pb-15"
+                facs="#i15"/>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of all</del>
+            <lb/>
+Of all the material objects which can employ<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">our attention those which are nearest to us</hi>
+            <lb/>
+ought to excite the warmest and the most<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">immediate interest</hi>.<lb/>
+And after Man and animated Nature no<lb/>
+subject of physical enquiry nears a more<lb/>
+disinct relation to us than <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the place of</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">our abode</hi> the earth which is the cradle<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">our existance</hi> which affords the instrume<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">nts</add>
+            <lb/>
+of our power; and which thought not<lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">great parent</hi> is the peaceful and<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">useful nurse</hi> of some of the most constant<lb/>
+and uniform of our pleasures -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="16"
+                xml:id="pb-16"
+                facs="#i16"/>
+            <lb/>
+The study of the constitution of the Globe<lb/>
+of the manner in which its changes are<lb/>
+produced and of the laws by which dead<lb/>
+and inorganic matter are rendered<lb/>
+subservient to the purposes of living<lb/>
+beings affords some of the most <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">sublime</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">objects</hi>which can ever occupy our<lb/>
+contemplation.<lb/>
+The are objects which even the most<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">insensible mind</hi> can scarcely consider without<lb/>
+deep feeling -<lb/>
+And they are capable of filling even the<lb/>
+most comprehensive understanding and of<lb/>
+calling forth the highest exertions<lb/>
+of Genius.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="17"
+                xml:id="pb-17"
+                facs="#i17"/>
+            <lb/>
+The Rocks which are elevated in the<lb/>
+clouds <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">or those</hi> which resist the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">waves of</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the sea</hi> their composition the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">laws of their</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">formation </hi>and their alterations in consequence<lb/>
+of the action of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Atmosphere and of </hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">water</hi>these form only a part of the<lb/>
+subjects of discussion of Geology -<lb/>
+For this Science equally relates to the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Nature</hi> of soils <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">of all <add>the</add> solid</del>
+            </add>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">strata of our Earth </del>
+            <lb/>
+of all the solid strata <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of our Earth</hi>
+            <lb/>
+to the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">gradual</hi>changes produced by the Ocean <lb/>
+upon <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the land</hi> and to the great <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">convulsions</hi>
+            <lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Nature</hi>occasioned by innundations, by Volcanoes<lb/>
+and by <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Earthquakes</hi> -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="18"
+                xml:id="pb-18"
+                facs="#i18"/>
+            <lb/>
+The attainment of the Knowledge belonging to<lb/>
+these highly interesting <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">subjects is found</hi>
+            <lb/>
+almost wholly upon <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">observation</hi>; for in a<lb/>
+few cases only can instruments of experiment<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">be applied</hi>.<lb/>
+And the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">acquaintance</hi> with mineral bodies<lb/>
+which constitutes one of the most labourious<lb/>
+and most interesting of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the study</hi> may in<lb/>
+almost every case be derived from an<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">examination</hi> of their <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">external characters.</hi>
+            <lb/>
+Geology perhaps more than any other departm<lb/>
+of Natural Philosophy is a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">science</hi> of <lb/>
+contemplation.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="19"
+                xml:id="pb-19"
+                facs="#i19"/>
+            <lb/>
+It requires no experience or complicated<lb/>
+apparatus no minute processes upon the<lb/>
+unknown properties of matter; It demands<lb/>
+only an enquiring <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">mind</hi>; and senses alive<lb/>
+to the facts almost every where presented<lb/>
+in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Nature</hi>;<lb/>
+And as it may be acquired without<lb/>
+much difficulty so it may be improved<lb/>
+without <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">much painful</hi> exertion -<lb/>
+The person who is devoted to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Geological </hi>
+            <lb/>
+enquiries can scarcely ever want objects<lb/>
+of employment and of interest.<lb/>
+The ground on which He treads, the Country<lb/>
+that <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">surround Him </hi>and even the Rocks<lb/>
+and stones removed from their natural<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="20"
+                xml:id="pb-20"
+                facs="#i20"/>
+            <lb/>
+position by Art are all capable of<lb/>
+affording him some degree of amusement<lb/>
+and every new mine or Quarry that is<lb/>
+opened every new surface of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the earth</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">is laid bare</hi> and every new Country <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">that</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">is discovered</hi> offers to him novel sources<lb/>
+of information.<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">In</hi> travelling He is attracted to a pursuit<lb/>
+which must constantly preserve his mind<lb/>
+awake to the scenes presented to it.-<lb/>
+And the beauty the Majesty and sublimity<lb/>
+of the great forms of Nature have their<lb/>
+effect in the imagination rather increased.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="21"
+                xml:id="pb-21"
+                facs="#i21"/>
+            <lb/>
+Than diminished by beings connected<lb/>
+with the views of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Philosophy</hi> -<lb/>
+The imagery of a Mountain Country<lb/>
+which is the very theatre of the science<lb/>
+is in almost all cass highly impressive<lb/>
+and delightful but a new and a higher<lb/>
+species of enjoyment arises in the mind<lb/>
+when the arrangement in it, their harmony<lb/>
+and its subserviency to the purposes<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of life are considered</hi>.<lb/>
+To the Geological enquirer every<lb/>
+mountain chain offers striking Monuments<lb/>
+of the great alterations that the Globe<lb/>
+has undergone.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="22"
+                xml:id="pb-22"
+                facs="#i22"/>
+            <lb/>
+The most sublime speculations are<lb/>
+awakened, the present is disregarded<lb/>
+past ages crowd upon the fancy and the<lb/>
+the mind is lost in admiration of the<lb/>
+designs of that great power who has<lb/>
+established order in which at first view<lb/>
+appears as confusion -<lb/>
+It will not I trust be necessary to<lb/>
+preserve these views to any greater extent.<lb/>
+For sufficient I hope has been said<lb/>
+to prove that the study is adapted to<lb/>
+almost every mind and that any labour<lb/>
+which may be bestowed upon it can<lb/>
+scarcely be considered as vain.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="23"
+                xml:id="pb-23"
+                facs="#i23"/>
+            <lb/>
+A very few words will be sufficient to<lb/>
+explain the plan which is my intention<lb/>
+to adopt in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">develloping the principles</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of the Science</hi>, and in rendering them<lb/>
+plain and intelligible.-<lb/>
+As it may be supposed that some of my<lb/>
+hearers are unacquainted with many of the<lb/>
+terms belonging to Geology and as most<lb/>
+of these terms will appear Barbarous and<lb/>
+are really difficult to be rememberd, I shall<lb/>
+introduce them as gradually as possible<lb/>
+beginning with the History of the Science<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="24"
+                xml:id="pb-24"
+                facs="#i24"/>
+            <lb/>
+In this History the early opinions of the<lb/>
+ancients concerning the elements of the<lb/>
+Globe and their changes will first<lb/>
+be discussed; and the more refined <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Theories </hi>
+            <lb/>
+of the Moderns which involve the outline<lb/>
+of the science will be <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">afterwards </hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">considered</hi>, and in the general details<lb/>
+the opinions that are complicated will<lb/>
+follow those that are simple and distinct.<lb/>
+After the History of the Science the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">general </hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">order </hi>of the facts belonging to it <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">will be explained </hi>
+            <lb/>
+the Nature of Rocks ans stones; and the relations<lb/>
+of the different strata; and the changes that<lb/>
+they are at present undergoing -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="25"
+                xml:id="pb-25"
+                facs="#i25"/>
+            <lb/>
+This part of the subject I shall illustrate as<lb/>
+much as possible by large specimens by drawing <lb/>
+and by picturesque sketches of the position of Rocks.<lb/>
+From this last method much useful information<lb/>
+it is my hope, <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">may be derived</hi>.<lb/>
+This painting will show the nature of the<lb/>
+plan to be adopted.<lb/>
+From the liberality of the Managers I shall<lb/>
+be able to exhibit a number of the same kind<lb/>
+and on the same scale and most of them<lb/>
+will contain accurate portraits which will<lb/>
+be the more interesting as belonging to the<lb/>
+Island we inhabit.-<lb/>
+After having examined the existing state<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the Globe</hi>
+            <lb/>
+The last subject of the course will be<lb/>
+the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">description </del> discussion of the Theories<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="26"
+                xml:id="pb-26"
+                facs="#i26"/>
+            <lb/>
+that have been formed <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">to explain</hi> the<lb/>
+Nature and position of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">its parts</hi>. The<lb/>
+laws of their formation and the changes<lb/>
+that they have undergone in the lapse<lb/>
+of ages; and the principles and order<lb/>
+by which the whole is continually preserved.<lb/>
+It is this department of the science which<lb/>
+will perhaps be <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the most interesting</hi>.<lb/>
+It is the one that offers the greatest objects<lb/>
+of contemplation - It has most employed<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">human ingenuity</hi>: and many of the Theories<lb/>
+and speculations upon it exhibit brilliant<lb/>
+examples of the most powerful <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">gen</del>
+            <lb/>
+efforts of Genius -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="27"
+                xml:id="pb-27"
+                facs="#i27"/>
+            <lb/>
+The task which I have preposed to my self in<lb/>
+explaining all those various objects is one<lb/>
+which in this Country I beleive has never<lb/>
+been before <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">undertaken</hi> and it is one connected<lb/>
+with much labour and with many difficulties -<lb/>
+As yet no elementary treatise has been published<lb/>
+on Geology I have been obliged to form any<lb/>
+part of the arrangement and to collect the<lb/>
+different facts from very distant and very<lb/>
+scattered sources -<lb/>
+It is a subject in which very few only<lb/>
+of its parts will admit of the arrangement<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of language</hi> of beauty of description of elegance<lb/>
+of expression. I shall spare no exertions to<lb/>
+make it useful and <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">intelligible</hi>:<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="28"
+                xml:id="pb-28"
+                facs="#i28"/>
+            <lb/>
+And in mentioning these circumstances<lb/>
+I mean to apologise only for imperfections<lb/>
+that cannot be avoided -<lb/>
+The <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">History of Geology</hi> is a subject<lb/>
+that necessarily leads us to consider the state<lb/>
+of the human mind even in the elder<lb/>
+periods of time.<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Man</hi> in his most <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">savvage</del> savage must<lb/>
+have been strongly impressed with the<lb/>
+forms, appearances and changes of the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Earth and its diversified</hi> objects -<lb/>
+And some of his earliest reasonings directed<lb/>
+from effects to causes must have been connected<lb/>
+with speculations on unknown times or <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxxxx</unclear>
+            <lb/>
+alterations of matter and on the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">wonders of <del rend="strikethrough">Nature</del>
+            </hi>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">creation</add>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="29"
+                xml:id="pb-29"
+                facs="#i29"/>
+            <lb/>
+In all the earliest systems of religions of the<lb/>
+heathen Nations that have come down to the<lb/>
+present times either by history or tradition<lb/>
+certain doctrines are uniformly found relating<lb/>
+to the formation of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Earth and its early</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">changes</hi> -<lb/>
+And most of these doctrines appear to have<lb/>
+been in some manner derived from the grand<lb/>
+account of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">creation</hi> and of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">deluge</hi>
+            <lb/>
+delivered in the sacred writings -<lb/>
+The cosmogony of the Hindoes offers a<lb/>
+remarkable instance and is quoted as such<lb/>
+by Sir W<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">m</hi> Jones from the account of the<lb/>
+formation of the universe supposed to be given<lb/>
+by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag27"
+                ref="#misc_578"
+                type="miscellaneous">
+               <term xml:id="tag27">
+          Manu the Son of Brama
+        </term>
+            </rs> to the Indian<lb/>
+Sages.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="30"
+                xml:id="pb-30"
+                facs="#i30"/>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">D</unclear>
+            <lb/>
+The World, says He was all darkness undiscernible<lb/>
+undistinguishable altogether as in a profound<lb/>
+sleep still the self existing invisible God<lb/>
+making it manifest with five elements and<lb/>
+other glorious forms perfectly dispelled the<lb/>
+gloom.<lb/>
+He desiring to raise up various creatures<lb/>
+by an emanation from his own glory first<lb/>
+created the waters, and impressed them<lb/>
+with a power of motion - by that power<lb/>
+was produced a golden Egg blazing like a<lb/>
+thousand Suns on which was borm <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag28"
+                ref="#misc_577"
+                type="miscellaneous">
+               <term xml:id="tag28">
+          Brama
+        </term>
+            </rs>
+            <lb/>
+self <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">ex</del> existing the greatest parent of all<lb/>
+national beings.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="31"
+                xml:id="pb-31"
+                facs="#i31"/>
+            <lb/>
+To an unprejudiced enquirer this passage<lb/>
+must appear as a paraphase of the more<lb/>
+simple and more sublime detail of the<lb/>
+inspired writer -<lb/>
+In the beginning God created the heavens<lb/>
+and the Earth and the Earth was without form<lb/>
+and void and darkness was upon the face<lb/>
+of the deep and the spirit of God moved<lb/>
+upon the face of the waters and God said<lb/>
+let there be light and light was.-<lb/>
+The Early Egyptian <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Cosmogony</hi> according to a<lb/>
+late ingenious writer <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag29"
+                ref="#person_689"
+                type="person">
+               <name xml:id="tag29" type="person">
+          Cap<hi rend="superscript">t</hi> Wilford
+        </name>
+            </rs> is very<lb/>
+similar to that of the Hindous and is probably<lb/>
+derived from the same source; though the<lb/>
+account of it is less distinct -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="32"
+                xml:id="pb-32"
+                facs="#i32"/>
+            <lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Cre</unclear> or the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag30"
+                ref="#misc_511"
+                type="miscellaneous">
+               <term xml:id="tag30">
+          Supreme being
+        </term>
+            </rs> is supposed in<lb/>
+their mythology to be the one Author of<lb/>
+being and the father of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag31"
+                ref="#misc_564"
+                type="miscellaneous">
+               <term xml:id="tag31">
+          Osiris
+        </term>
+            </rs> or the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Sun</hi> the object of adoration who is imaged<lb/>
+as <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">issuing</del> the form of light from an<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Egg the first of created beings</hi>
+            <lb/>
+Amongst nations disposed to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">polytheism</hi>
+            <lb/>
+the great tradition and primary doctrine<lb/>
+must soon have been blended with a<lb/>
+number of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">opinions and dogmas</hi> arising<lb/>
+from the condition and peculiar <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">circumstances</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of society</hi>:-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="33"
+                xml:id="pb-33"
+                facs="#i33"/>
+            <lb/>
+And new reasonings concerning the universe<lb/>
+its productions the elements of matter and<lb/>
+the causes of things must have been<lb/>
+constantly awakened in the mind.-<lb/>
+To common understandings alive to the<lb/>
+impressions of superstition it is easy to conceive<lb/>
+that all natural objects connected with strong<lb/>
+feeling would readily be referred to some<lb/>
+unknown divine power and hence the<lb/>
+different parts of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Nature represented</hi> in an<lb/>
+extensive mythology -<lb/>
+And facts <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">prove that</hi> in nations the most<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">distant</hi> this <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">nr</del>has actually taken place<lb/>
+and in a similar manner;-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="34"
+                xml:id="pb-34"
+                facs="#i34"/>
+            <lb/>
+This <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the winds</hi> have been personified<lb/>
+Fire one of the most beneficial as<lb/>
+well as one of the most powerful material<lb/>
+agents has been worshiped under different<lb/>
+symbols in almost every part of the<lb/>
+ancient world:<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">(and</del>
+            <lb/>
+And that <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">power</hi> supposed to be <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">individual</hi>
+            <lb/>
+which raises water from the ocean and<lb/>
+causes it to fall upon the land giving<lb/>
+vigour to the plant and the animal<lb/>
+has been equally adored in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag32"
+                ref="#place_531"
+                type="place">
+               <name xml:id="tag32" type="place">
+          India
+        </name>
+            </rs>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Eygspt</del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag33"
+                ref="#place_475"
+                type="place">
+               <name xml:id="tag33" type="place">
+          Egypt
+        </name>
+            </rs> and <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag34"
+                ref="#place_167"
+                type="place">
+               <name xml:id="tag34" type="place">
+          Greece
+        </name>
+            </rs> In <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag35"
+                ref="#place_531"
+                type="place">
+               <name xml:id="tag35" type="place">
+          India
+        </name>
+            </rs>
+            <lb/>
+as <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag36"
+                ref="#misc_487"
+                type="miscellaneous">
+               <term xml:id="tag36">
+          Iswara
+        </term>
+            </rs> and Leia In <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag37"
+                ref="#place_475"
+                type="place">
+               <name xml:id="tag37" type="place">
+          Egypt
+        </name>
+            </rs> as <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag38"
+                ref="#misc_565"
+                type="miscellaneous">
+               <term xml:id="tag38">
+          Isis
+        </term>
+            </rs>
+            <lb/>
+and in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag39"
+                ref="#place_167"
+                type="place">
+               <name xml:id="tag39" type="place">
+          Greece
+        </name>
+            </rs> as that celestial <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag40"
+                ref="#misc_672"
+                type="miscellaneous">
+               <term xml:id="tag40">
+          Venus
+        </term>
+            </rs>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="35"
+                xml:id="pb-35"
+                facs="#i35"/>
+            <lb/>
+who is represented as rising from the bosom<lb/>
+of the ocean <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">clothed</del> cloathed in loveliness the<lb/>
+the parent of beauty and the preserver<lb/>
+of life -<lb/>
+Long before <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">men</hi> had examined the<lb/>
+x<lb/>
+present they endeavoured to reason concerning<lb/>
+the past and to predict <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">concerning the</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">future</hi>
+            <lb/>
+The imagination is always more active<lb/>
+than the reason in an <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">early state of society</hi>
+            <lb/>
+The first person who professed to teach others<lb/>
+attempted to combine the characters of the<lb/>
+Poet of the Philosopher of the Priest and<lb/>
+the only profane records of the opinions<lb/>
+of early ages that have been transmitted<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="36"
+                xml:id="pb-36"
+                facs="#i36"/>
+            <lb/>
+to the present time are adorned with the<lb/>
+language of passion and cloaked with<lb/>
+the graces of the fancy.<lb/>
+The Greeks have represented the Bards<lb/>
+as their first instructors -<lb/>
+The names of Cinus of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag41"
+                ref="#misc_561"
+                type="miscellaneous">
+               <term xml:id="tag41">
+          orpheus
+        </term>
+            </rs> and of<lb/>
+museus are celebrated by their earliest<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Historians</hi>: and the Hymns of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag42"
+                ref="#misc_561"
+                type="miscellaneous">
+               <term xml:id="tag42">
+          orpheus
+        </term>
+            </rs> if<lb/>
+they be admitted to be <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">genuine</hi> contain<lb/>
+some general expressions of facts with<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">regard to Nature</hi> and the powers acting<lb/>
+in Nature, which <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">are very admirable</hi>
+            <lb/>
+and which could scarcely be expected<lb/>
+in so early an age.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="37"
+                xml:id="pb-37"
+                facs="#i37"/>
+            <lb/>
+this <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag43"
+                ref="#otherwork_266"
+                type="otherwork">
+               <bibl xml:id="tag43">
+            Hymn to Jupiter
+        </bibl>
+            </rs> is filled with<lb/>
+beautiful poetry and with some <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">compreh <add>ension</add>
+            </del>
+            <lb/>
+comprehensive truths <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">concerning the</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">production</hi> of things and <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the cause</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of their</hi> relations and order<lb/>
+I have made a free translation of it<lb/>
+which <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">I shall venture to read</hi>.<lb/>
+The original even if its high antiquity<lb/>
+be doubted will at least be found<lb/>
+impressive from its views -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="38"
+                xml:id="pb-38"
+                facs="#i38"/>
+            <lb/>
+Almighty <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag44"
+                ref="#person_795"
+                type="person">
+               <name xml:id="tag44" type="person">
+          jove
+        </name>
+            </rs> the first the last<lb/>
+The present future and the past<lb/>
+Source of all existing things<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">From thee</hi> created being springs<lb/>
+From thee the heavens derive their birth<lb/>
+From thee arose the solid Earth<lb/>
+From thee the radiant solar light<lb/>
+From thee the stars that gild the night<lb/>
+Thine is the morning changeful hue<lb/>
+Thine is the ether bright and blue<lb/>
+Thine is the warmth of summer days<lb/>
+Thine is the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Air</del> land the Air the seas<lb/>
+Thy substance is our vital breath<lb/>
+Thy <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">spirit raises life</hi> from death<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="39"
+                xml:id="pb-39"
+                facs="#i39"/>
+            <lb/>
+In the <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Theogony</unclear> of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag45"
+                ref="#person_860"
+                type="person">
+               <name xml:id="tag45" type="person">
+          hesiod
+        </name>
+            </rs> as has been<lb/>
+observed by the great <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag46"
+                ref="#person_324"
+                type="person">
+               <name xml:id="tag46" type="person">
+          Bacon
+        </name>
+            </rs> there is evidently<lb/>
+much allegorical description which may be<lb/>
+supposed to apply to the constitution and <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">changes</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of the Earth</hi> but so many explanations of the<lb/>
+same fables may be given that any attempt<lb/>
+at accurate decyphering would be wholly<lb/>
+vain -<lb/>
+It would be wandering in a labyrinth<lb/>
+without end not for the sake of discovering truth<lb/>
+but merely with a view of detecting <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">error</hi>
+            <lb/>
+The poems of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag47"
+                ref="#person_035"
+                type="person">
+               <name xml:id="tag47" type="person">
+          Homer
+        </name>
+            </rs> evidently composed at<lb/>
+a time when the dawn of civilization was<lb/>
+opening upon the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">human mind</hi> contain <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">infinitely</del>
+            <lb/>
+infinitely more facts relating to Man than<lb/>
+to Nature and however great the extent<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="40"
+                xml:id="pb-40"
+                facs="#i40"/>
+            <lb/>
+to which mythology had been applied before<lb/>
+his time in explaining the phenomenon of<lb/>
+the universe it is chiefly made in the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag48" ref="#otherwork_211" type="otherwork">
+                  <bibl xml:id="tag48">
+            iliad
+        </bibl>
+               </rs>
+            </hi> and <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag49"
+                ref="#otherwork_111"
+                type="otherwork">
+               <bibl xml:id="tag49">
+            the Odyssey
+        </bibl>
+            </rs> the Machinery for<lb/>
+exiting the interest and <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">awakening</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">attention </hi> to the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">actions of Heroes and of Men</hi>
+            <lb/>
+Occasionally indeed the physical attributes<lb/>
+of the Gods occur -<lb/>
+And Jupiter is represented as the power<lb/>
+that acts in the Air, Neptune as<lb/>
+the moving forces of the waters and<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag50" ref="#person_263" type="person">
+                  <name xml:id="tag50" type="person">
+          Pluto
+        </name>
+               </rs>
+            </hi>as the principle residing in<lb/>
+the solid Earth -<lb/>
+Thus in the battle in the <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">20 book</unclear> -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="41"
+                xml:id="pb-41"
+                facs="#i41"/>
+            <lb/>
+Above, the sire of gods his thunder rolls<lb/>
+And Peals on Peals redoubled rend the poles<lb/>
+Beneath, stern Neptune shakes the solid ground<lb/>
+The forests wave, the mountains nod <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">aronnd</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">around</add>
+            <lb/>
+From all their summits tremble Idas woods<lb/>
+And from their sources boil her hundred floods<lb/>
+Troys turrets totter on the rocking plain,<lb/>
+And the tossed navies beat the heavy Main<lb/>
+Deep in the dismal regions of the dead<lb/>
+The infernal monarch reared his horned <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">head</add>
+            <lb/>
+Sprung from his throne lest Neptunes <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">arm should lay</add>
+            <lb/>
+His dark dominions open to the Day.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="42"
+                xml:id="pb-42"
+                facs="#i42"/>
+            <lb/>
+The first accurate accounts of the general<lb/>
+Philosophical opinions of the Elder Nations<lb/>
+concerning the universe freed from the<lb/>
+mysteries of mythology and from poetic<lb/>
+fables are those delivered to us in the<lb/>
+History of the philosophical schools of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag51"
+                ref="#place_167"
+                type="place">
+               <name xml:id="tag51" type="place">
+          Greece
+        </name>
+            </rs>.<lb/>
+At the era however of the foundation<lb/>
+of the Grecian Republics science was far<lb/>
+from being indigenous in that happy<lb/>
+Country: and both the legislators and<lb/>
+philosophers were obliged to travel into<lb/>
+foreign lands in quest of information<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag52"
+                ref="#place_475"
+                type="place">
+               <name xml:id="tag52" type="place">
+          Egypt
+        </name>
+            </rs> as we are instructed by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag53"
+                ref="#person_801"
+                type="person">
+               <name xml:id="tag53" type="person">
+          Herodotus
+        </name>
+            </rs>
+            <lb/>
+and by various other Authorities was the<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="43"
+                xml:id="pb-43"
+                facs="#i43"/>
+            <lb/>
+great nurse of Grecian Science and the<lb/>
+opinions of the first European Sages are<lb/>
+said to have been modifications of the<lb/>
+doctrine of the Egyptian <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Priests</hi> -<lb/>
+Of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">these doctrines</hi> in their pure and<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">esoteric</hi> form very few documents remain<lb/>
+and by the fertile imaginations of the<lb/>
+Greeks they were soon blended with their<lb/>
+own opinions<lb/>
+Water it is said they considered as the<lb/>
+great and active element the cause of the<lb/>
+changes of the Globe and the reproduction<lb/>
+of life -<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Fire likewise</hi> they regarded as a principle<lb/>
+And Air as a modification of water and fire<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="44"
+                xml:id="pb-44"
+                facs="#i44"/>
+            <lb/>
+In the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag54" ref="#misc_455" type="miscellaneous">
+                  <term xml:id="tag54">
+          Timeas of Plato
+        </term>
+               </rs>
+            </hi> the opinions<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">the</del> of an Egyptian Sage are detailed as<lb/>
+it is supposed they were delivered to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag55"
+                ref="#person_760"
+                type="person">
+               <name xml:id="tag55" type="person">
+          Solon
+        </name>
+            </rs>
+            <lb/>
+at Sais -<lb/>
+From them <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag56"
+                ref="#person_085"
+                type="person">
+               <name xml:id="tag56" type="person">
+          Plato
+        </name>
+            </rs> acknowledge that He<lb/>
+borrowed the idea of the Atlantis fable<lb/>
+and they are so very singular and contain<lb/>
+so many opinions different from those<lb/>
+of the Greeks concerning Nature and<lb/>
+the changes <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of the Globe</hi> that I shall<lb/>
+a translation of the most interesting part<lb/>
+You Greeks says the Egyptian<lb/>
+Philosopher to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag57"
+                ref="#person_760"
+                type="person">
+               <name xml:id="tag57" type="person">
+          Solon
+        </name>
+            </rs> -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="45"
+                xml:id="pb-45"
+                facs="#i45"/>
+            <lb/>
+You Greeks are always Children nor is<lb/>
+there an experienced man amongst you -<lb/>
+All your knowledge is lately acquired<lb/>
+Neither containing any antient opinion<lb/>
+derived from remote tradition nor any<lb/>
+truth of ages that are long past.<lb/>
+And the reason of this is the multitude<lb/>
+and variety of the destructions of the human<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">race which</hi> have been <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">and which</hi> will be<lb/>
+The greatest of these indeed arising from<lb/>
+fire and water, but the lesser from ten<lb/>
+thousand other contingencies.<lb/>
+For the relations subsisting among you<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">that <del rend="strikethrough">Phae</del> Phaeton the ofspring </hi>of the<lb/>
+sun <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">attempting to drive the Chariot </hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="46"
+                xml:id="pb-46"
+                facs="#i46"/>
+            <lb/>
+of his <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Father and not being able to</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">keep the track pointed out to him </hi>
+            <lb/>
+burnt up <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the substances</hi> belonging to<lb/>
+the Earth and perished himself, blasted<lb/>
+by thunder is indeed considered<lb/>
+as fabulous: yet it is in reality true.<lb/>
+For it expresses the mutations of the<lb/>
+bodies revolving in the Heavens above<lb/>
+the earth: and indicates that after<lb/>
+long periods of time a <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">destruction</hi>
+            <lb/>
+of terrestrial nature ensues from <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">devastation of fire</hi>.<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>xxxxxxxxxx</unclear> those who dwell either on </del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Mountains or lofty <unclear>xxxxxxxx</unclear>
+            </del>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="47"
+                xml:id="pb-47"
+                facs="#i47"/>
+            <lb/>
+Hence those who dwell either on mounta<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">ins</add>
+            <lb/>
+or  lofty and dry places perish more<lb/>
+abundantly than such as dwell near<lb/>
+rivers or on the borders of the sea<lb/>
+To us indeed the hill is both salutary<lb/>
+in this respect and in others and it preserves<lb/>
+us from such devastations<lb/>
+Again when the Gods purifying the<lb/>
+Earth by water deluges its surface then<lb/>
+the herdsmen and shepherds inhabiting<lb/>
+the Mountains are preserved while the<lb/>
+people of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">your</hi> cities are hurried away<lb/>
+to the sea by the impetuous inundations<lb/>
+of rivers.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="48"
+                xml:id="pb-48"
+                facs="#i48"/>
+            <lb/>
+On the contrary in our region neither<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">how</del> then nor at any other time did<lb/>
+the water <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">descending from above pour</hi>
+            <lb/>
+with desolation on the plains but they<lb/>
+naturally rise upwards from the bosom of<lb/>
+the earth:<lb/>
+And from these causes the most<lb/>
+antient traditions are preserved in our<lb/>
+country -<lb/>
+Indeed it may be truly asserted that<lb/>
+in the places where neither intense cold<lb/>
+nor immoderate heat prevails the race<lb/>
+of Mankind is always preserved. though<lb/>
+sometimes the number of individuals is<lb/>
+increased and sometimes diminished -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="49"
+                xml:id="pb-49"
+                facs="#i49"/>
+            <lb/>
+But what ever has been transacted<lb/>
+either by us or by you or in any other<lb/>
+place; beautiful or grand or wonderful<lb/>
+is to be found in our temples preserved<lb/>
+to the present day -<lb/>
+While on the contrary you and other<lb/>
+nations commit only recent transactions to<lb/>
+writing and the other inventions which<lb/>
+society has employed for transmitting<lb/>
+information<lb/>
+And hence when at stated periods of time<lb/>
+these changes ordained by heaven as if diseases<lb/>
+of nature destroys them among you who survive<lb/>
+are both destitute of literary acquisitions and<lb/>
+the inspiration of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag58"
+                ref="#misc_011"
+                type="miscellaneous">
+               <term xml:id="tag58">
+          the Muses
+        </term>
+            </rs> -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="50"
+                xml:id="pb-50"
+                facs="#i50"/>
+            <lb/>
+Hence it happens that you become<lb/>
+again as it were an infant people<lb/>
+and ignorant of the events which<lb/>
+happened in ancient times whether in<lb/>
+foreign lands or in your own <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Country</hi>
+            <lb/>
+Of the Grecian Philosophers <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag59"
+                ref="#person_609"
+                type="person">
+               <name xml:id="tag59" type="person">
+          Thales
+        </name>
+            </rs> the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Miletian</hi> is the first whose opinions<lb/>
+concerning the earth we have any<lb/>
+authentic documents -<lb/>
+He is said by Apollodorous to have<lb/>
+flourished about 600 years before <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag60" ref="#person_951" type="person">
+                  <name xml:id="tag60" type="person">
+          Christ
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+His principle physical doctrine was<lb/>
+that which has been before mentioned<lb/>
+as derived from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag61"
+                ref="#place_475"
+                type="place">
+               <name xml:id="tag61" type="place">
+          Egypt
+        </name>
+            </rs> that water was<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="51"
+                xml:id="pb-51"
+                facs="#i51"/>
+            <lb/>
+the principle of all things -<lb/>
+And that being set in motion by the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">supreme cause</hi> , the earth and all the<lb/>
+forms of being proceeded from it -<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag62"
+                ref="#person_863"
+                type="person">
+               <name xml:id="tag62" type="person">
+                  <hi rend="underline">Anaximander</hi>
+               </name>
+            </rs> the countryman and disciple<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag63" ref="#person_609" type="person">
+                  <name xml:id="tag63" type="person">
+          Thales
+        </name>
+               </rs>, </hi> as there is every reason to believe<lb/>
+went far beyond his master in the study<lb/>
+of Nature -<lb/>
+He considered an infinite cause as the<lb/>
+creator and mover of matter<lb/>
+He supposed that though the parts of the<lb/>
+world are continually changing the whole<lb/>
+is neverthless <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">immutable</hi> -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="52"
+                xml:id="pb-52"
+                facs="#i52"/>
+            <lb/>
+He developed, if one may believe<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <rs xml:id="ttag64" ref="#person_602" type="person">
+                  <name xml:id="tag64" type="person">
+          Plutarch
+        </name>
+               </rs>
+            </del>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag65"
+                ref="#person_602"
+                type="person">
+               <name xml:id="tag65" type="person">
+          Plutarch
+        </name>
+            </rs>, what is now known to be<lb/>
+the true causes of the winds that is to<lb/>
+say a motion and change of place<lb/>
+in the Air produced in consequence<lb/>
+of the rarefaction of its lower parts<lb/>
+by the solar Heat -<lb/>
+Some of the opinions of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag66"
+                ref="#person_863"
+                type="person">
+               <name xml:id="tag66" type="person">
+          Anaximander
+        </name>
+            </rs>
+            <lb/>
+concerning the great bodies of the<lb/>
+universe are exceedingly curious<lb/>
+He is said to have advanced that<lb/>
+the Sun is 28 times<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">big</del> as great<lb/>
+as the earth In <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">his</del> his age such<lb/>
+an opinion was exceedingly<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="53"
+                xml:id="pb-53"
+                facs="#i53"/>
+            <lb/>
+extraordinary but we should give him<lb/>
+more credit for it if He had not said<lb/>
+that the moon was 29 times <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline"> as large </hi> -<lb/>
+He conceived that the sun it self<lb/>
+was not luminous but that its light<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">proceeded</del>proceeded from a hollow circle<lb/>
+surrounding it -<lb/>
+This idea might at first view be<lb/>
+conceived to be very similar to that of<lb/>
+a celebrated modern <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Philosopher</hi>. but<lb/>
+the similarity <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">will disappear</hi> when it is<lb/>
+stated that the Greek considered the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">Elip</del>
+            <lb/>
+Eclipses of the Sun as owing to the<lb/>
+closing up of the orifices in the circle<lb/>
+necessary for emitting light -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="54"
+                xml:id="pb-54"
+                facs="#i54"/>
+            <lb/>
+The doctrines of Anaxemander were taught<lb/>
+after his death by his scholar <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag67"
+                ref="#person_657"
+                type="person">
+               <name xml:id="tag67" type="person">
+          Anaximenes
+        </name>
+            </rs> ,<lb/>
+who made many additions and ventured to<lb/>
+contradict generally the principles of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag68"
+                ref="#person_609"
+                type="person">
+               <name xml:id="tag68" type="person">
+          Thales
+        </name>
+            </rs>
+            <lb/>
+and to assert that Air and <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">not water </hi> is the<lb/>
+chief material element and that water is<lb/>
+capable of being composed from Air adducing<lb/>
+as a proof that by the condensation of Air<lb/>
+rain is <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">produced</hi> which when congealed becomes<lb/>
+snow or hail appearing then as it were a<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">species of</hi> Earth -<lb/>
+But the greatest of the Philosophers of<lb/>
+the early school was <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag69"
+                ref="#person_605"
+                type="person">
+               <name xml:id="tag69" type="person">
+          Anaxagorus
+        </name>
+            </rs> who<lb/>
+flourished in about 450 years before <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag70"
+                ref="#person_951"
+                type="person">
+               <name xml:id="tag70" type="person">
+          Christ
+        </name>
+            </rs>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="55"
+                xml:id="pb-55"
+                facs="#i55"/>
+            <lb/>
+Born at <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag71"
+                ref="#place_404"
+                type="place">
+               <name xml:id="tag71" type="place">
+          Clazomene
+        </name>
+            </rs>. He soon removed to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag72" ref="#place_208" type="place">
+                  <name xml:id="tag72" type="place">
+          Athens
+        </name>
+               </rs>
+            </hi>
+            <lb/>
+where He taught Philosophy for thirty years<lb/>
+till He was banished from this celebrated<lb/>
+City from the mere circumstance of his asserting<lb/>
+that the sun <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">was material</hi> and a mass of<lb/>
+ignited substance.-<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag73"
+                ref="#person_605"
+                type="person">
+               <name xml:id="tag73" type="person">
+          Anaxagorous
+        </name>
+            </rs> taught that one supreme<lb/>
+intelligence was the creator and governour of<lb/>
+the world.<lb/>
+And Hence he was honoured with the title of<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">Noss</unclear> or the Mind and thus <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag74"
+                ref="#person_1038"
+                type="person">
+               <name xml:id="tag74" type="person">
+          Timon
+        </name>
+            </rs> speaks<lb/>
+of him in verses quoted by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag75"
+                ref="#person_1039"
+                type="person">
+               <name xml:id="tag75" type="person">
+          Laertius
+        </name>
+            </rs> which<lb/>
+I have thus translated.-<lb/>
+He spoke of one eternal living mind<lb/>
+That all this glorious universe designed<lb/>
+And from compassion made it rise and shine<lb/>
+In order and in harmony divine.-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="56"
+                xml:id="pb-56"
+                facs="#i56"/>
+            <lb/>
+One of the most novel and the most remarkable<lb/>
+of the doctrines of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag76"
+                ref="#person_605"
+                type="person">
+               <name xml:id="tag76" type="person">
+          Anaxagorus
+        </name>
+            </rs> was that He<lb/>
+considered all bodies as composed of similar<lb/>
+parts or essences; and that if the ultimate<lb/>
+figure of particles could be obtained they<lb/>
+would be found <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">precisely similar </hi> to the original<lb/>
+body which they composed -<lb/>
+This philosopher supported the Idea of<lb/>
+three Elements Earth water and Heat - few<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">are worth quoting</hi>
+            <lb/>
+The most remarkable of them perhaps is<lb/>
+his speculations concerning the Nature of the<lb/>
+heavenly bodies all of which He recorded<lb/>
+as composed of Materials similar to those<lb/>
+of the Earth and he endeavoured to prove<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="57"
+                xml:id="pb-57"
+                facs="#i57"/>
+            <lb/>
+his operation by stating that at different<lb/>
+times stones had fallen from the heavens<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">This last idea</hi> is attributed to him by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag77"
+                ref="#person_138"
+                type="person">
+               <name xml:id="tag77" type="person">
+          Aristotle
+        </name>
+            </rs>
+            <lb/>
+by Pliny and by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag78"
+                ref="#person_602"
+                type="person">
+               <name xml:id="tag78" type="person">
+          Plutarch
+        </name>
+            </rs>. <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag79" ref="#person_138" type="person">
+                  <name xml:id="tag79" type="person">
+          Aristotle
+        </name>
+               </rs>
+            </hi> ridicules<lb/>
+the notion for in those days as well as<lb/>
+in the present times there were sceptics<lb/>
+concerning the bodies beleived to have fallen<lb/>
+from above -<lb/>
+But <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag80"
+                ref="#person_602"
+                type="person">
+               <name xml:id="tag80" type="person">
+          Plutarch
+        </name>
+            </rs> positively asserts on the<lb/>
+authority of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag81"
+                ref="#person_601"
+                type="person">
+               <name xml:id="tag81" type="person">
+          Damachus
+        </name>
+            </rs> that in the second<lb/>
+year of the 78 olympiad a large body of<lb/>
+fire which emitted many flashes like shooting<lb/>
+stars was seen to fall near the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag82"
+                ref="#place_868"
+                type="place">
+               <name xml:id="tag82" type="place">
+          river Egos
+        </name>
+            </rs>
+            <lb/>
+in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag83"
+                ref="#place_867"
+                type="place">
+               <name xml:id="tag83" type="place">
+          Thrace
+        </name>
+            </rs> and that it left in its place<lb/>
+a large and dark <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">coloured stone</hi> and that<lb/>
+such <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">one</del> an event and that other events<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="58"
+                xml:id="pb-58"
+                facs="#i58"/>
+            <lb/>
+of the same kind would happen was<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">foretold</hi> by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag84"
+                ref="#person_605"
+                type="person">
+               <name xml:id="tag84" type="person">
+          Anaxagorus
+        </name>
+            </rs> -<lb/>
+The few facts that we are in possession<lb/>
+of with regard to the first school of<lb/>
+Philosophy in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag85"
+                ref="#place_167"
+                type="place">
+               <name xml:id="tag85" type="place">
+          Greece
+        </name>
+            </rs> proves that as far<lb/>
+as their <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">means extended</hi> accurate observation<lb/>
+was a guide to their researches; but<lb/>
+their views were necessarily limited<lb/>
+They were unassisted by experiment<lb/>
+and instead of being rewarded for their<lb/>
+most enlightened opinions they were<lb/>
+constantly in danger of persecution<lb/>
+The people of that period were<lb/>
+wholly unprepared to receive the truths<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="59"
+                xml:id="pb-59"
+                facs="#i59"/>
+            <lb/>
+of natural philosophy <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">which opposed </hi>
+            <lb/>
+received superstitions -<lb/>
+And in consequence as will be shewn<lb/>
+in the next lecture the infant game<lb/>
+of the science of observation soon faded<lb/>
+and perished and then as if dazzled<lb/>
+by the light afforded them by Nature<lb/>
+soon closed their Eyes and found it more<lb/>
+expedient more profitable and more<lb/>
+conformable to the taste of the Age to<lb/>
+amuse themselves with the visions of<lb/>
+their own Creation -<lb/>
+-<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="60"
+                xml:id="pb-60"
+                facs="#i60"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="61"
+                xml:id="pb-61"
+                facs="#i61"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="62"
+                xml:id="pb-62"
+                facs="#i62"/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

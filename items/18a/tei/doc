@@ -1,0 +1,2688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-11801</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-11801</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/18/A</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Notebook containing agricultural chemistry lecture notes on atmosphere and soil. Watermark: <tei:date xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                  xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                  when="1802">1802</tei:date>
+                     </seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/18/A</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent>41 pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <p>Green and black marbled hardcover with red leather binding, with stain from missing sticker</p>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1805-01-01"
+                                   notAfter="1805-12-31">1805</tei:origDate>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-11801-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00001"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00002"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00003"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00004"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00005"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00006"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00007"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00008"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00009"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00010"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+      <surface n="11" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00011"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i11z1"/>
+      </surface>
+      <surface n="12" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00012"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i12z1"/>
+      </surface>
+      <surface n="13" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00013"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i13z1"/>
+      </surface>
+      <surface n="14" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00014"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i14z1"/>
+      </surface>
+      <surface n="15" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00015"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i15z1"/>
+      </surface>
+      <surface n="16" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00016"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i16z1"/>
+      </surface>
+      <surface n="17" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00017"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i17z1"/>
+      </surface>
+      <surface n="18" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00018"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i18z1"/>
+      </surface>
+      <surface n="19" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00019"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i19z1"/>
+      </surface>
+      <surface n="20" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00020"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i20z1"/>
+      </surface>
+      <surface n="21" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00021"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i21z1"/>
+      </surface>
+      <surface n="22" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00022"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i22z1"/>
+      </surface>
+      <surface n="23" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00023"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i23z1"/>
+      </surface>
+      <surface n="24" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00024"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i24z1"/>
+      </surface>
+      <surface n="25" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00025"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i25z1"/>
+      </surface>
+      <surface n="26" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00026"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i26z1"/>
+      </surface>
+      <surface n="27" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00027"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i27z1"/>
+      </surface>
+      <surface n="28" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00028"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i28z1"/>
+      </surface>
+      <surface n="29" xml:id="i29">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00029"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i29z1"/>
+      </surface>
+      <surface n="30" xml:id="i30">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00030"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i30z1"/>
+      </surface>
+      <surface n="31" xml:id="i31">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00031"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i31z1"/>
+      </surface>
+      <surface n="32" xml:id="i32">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00032"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i32z1"/>
+      </surface>
+      <surface n="33" xml:id="i33">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00033"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i33z1"/>
+      </surface>
+      <surface n="34" xml:id="i34">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00034"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i34z1"/>
+      </surface>
+      <surface n="35" xml:id="i35">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00035"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i35z1"/>
+      </surface>
+      <surface n="36" xml:id="i36">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00036"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i36z1"/>
+      </surface>
+      <surface n="37" xml:id="i37">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00037"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i37z1"/>
+      </surface>
+      <surface n="38" xml:id="i38">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00038"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i38z1"/>
+      </surface>
+      <surface n="39" xml:id="i39">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00039"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i39z1"/>
+      </surface>
+      <surface n="40" xml:id="i40">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00040"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i40z1"/>
+      </surface>
+      <surface n="41" xml:id="i41">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00041"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i41z1"/>
+      </surface>
+      <surface n="42" xml:id="i42">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00042"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i42z1"/>
+      </surface>
+      <surface n="43" xml:id="i43">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00043"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i43z1"/>
+      </surface>
+      <surface n="44" xml:id="i44">
+         <graphic decls="#downloadImageRights #download"
+                  height="3953px"
+                  rend="landscape"
+                  url="MS-DAVY-11801-000-00044"
+                  width="4995px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="4994"
+               lry="3952"
+               rotate="0"
+               xml:id="i44z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_818" type="description">
+            <term id="misc_818-term">That the process of vegetation the agency of manures and the effects of cultivation</term>
+            <gloss id="misc_818-gloss" target="#misc_818-term">
+               <p>This lecture was first given on Friday 13th May 1803 and was repeated on Thursday 2nd June 1803, at 2.30pm. The notebook is written in the hand of an amanuensis. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_192" type="description">
+            <term id="misc_192-term">Mucilage</term>
+            <gloss id="misc_192-gloss" target="#misc_192-term">
+               <p>Mucilage is a thick gluey substance produced by nearly all plants and some microorganisms. </p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listNym type="chemical">
+         <nym xml:id="chemical_078">
+            <form>elastic fluid</form>
+            <def>
+               <p>A descriptive term for a gas, emphasising its elastic quality of spontaneous expansion.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_091">
+            <form>Caustic lime</form>
+            <def>
+               <p>Symbol/formula: CaO</p>
+               <p>Quicklime, or calcium oxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_010">
+            <form>lime</form>
+            <def>
+               <p>Symbol/formula: CaO</p>
+               <p>Commonly known as quicklime or burnt lime, calcium oxide is a widely used chemical compound. It is a white, caustic, alkaline, crystalline solid at room temperature.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_058">
+            <form>carbonic acid</form>
+            <def>
+               <p>Symbol/formula: CO2 or H2CO3 </p>
+               <p>Now known as Carbon dioxide (CO2), or a solution of carbon dioxide in water (H2CO3). </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_022">
+            <form>oxygene</form>
+            <def>
+               <p>Symbol/formula: O</p>
+               <p>Now known as oxygen. Oxygen is a colourless, odourless, tasteless gas essential to living organisms.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_017">
+            <form>nitrogene</form>
+            <def>
+               <p>Symbol/formula: N</p>
+               <p>Now known as nitrogen. A colourless and odourless gas, nitrogen is non-combustible and non-toxic. Davy also refers to this as azote.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_149">
+            <form>atmospheric air</form>
+            <def>
+               <p>The air which is prevailing under atmospheric conditions. Earth's atmosphere is composed of about 78% nitrogen, 21% oxygen, and 1% percent other gases.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_037">
+            <form>sulphur</form>
+            <def>
+               <p>Symbol/formula: S</p>
+               <p>Pure sulphur is a tasteless, odourless, brittle solid that is pale yellow in colour, a poor conductor of electricity, and insoluble in water.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_150">
+            <form>aqua fortis</form>
+            <def>
+               <p>Archaic term for nitric acid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_151">
+            <form>phosphorus</form>
+            <def>
+               <p>Symbol/formula: P</p>
+               <p>A non-metallic chemical element of the nitrogen family. A colourless, semitransparent, soft, waxy solid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_468">
+            <form>pearlash</form>
+            <def>
+               <p>Symbol/formula: K2CO3</p>
+               <p>A white amorphous or granular substance which consists principally of potassium carbonate and has a strong alkaline reaction.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_167">
+            <form>saline</form>
+            <def>
+               <p>Symbol/formula: NaCl</p>
+               <p>Sodium chloride in solution.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_166">
+            <form>iron oxide </form>
+            <def>
+               <p>Symbol/formula: Fe2O3</p>
+               <p>Oxide of iron. A dark red solid which occurs as the mineral haematite and as the main component of rust.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_112">
+            <form>marl</form>
+            <def>
+               <p>Or marle. A loose, unconsolidated earthy deposit, consisting of clay mixed with calcium carbonate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_122">
+            <form>silicious</form>
+            <def>
+               <p>Symbol/formula: SiO2</p>
+               <p>Siliceous rocks: any of a group of sedimentary rocks that consist largely or almost entirely of silicon dioxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_081">
+            <form>calcareous</form>
+            <def>
+               <p>Composed of, or containing, lime or limestone.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_109">
+            <form>carbonate of lime</form>
+            <def>
+               <p>Symbol/formula: CaCO3</p>
+               <p>Calcium carbonate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_108">
+            <form>alumine</form>
+            <def>
+               <p>Symbol/formula: AL2O3</p>
+               <p>Alumine is an archaic name for alumina, which is aluminium oxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_034">
+            <form>silex</form>
+            <def>
+               <p>Symbol/formula: SiO2</p>
+               <p>Silica, an oxide of silicon.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_106">
+            <form>flint</form>
+            <def>
+               <p>Occasionally flintstone. A sedimentary cryptocrystalline form of the mineral quartz, categorised as the variety of chert that occurs in chalk or marly limestone.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_140">
+            <form>charcoal</form>
+            <def>
+               <p>A lightweight black carbon residue produced by strongly heating wood (or other animal and plant materials) in minimal oxygen to remove all water and volatile constituents.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_016">
+            <form>muriatic acid</form>
+            <def>
+               <p>Symbol/formula: HCl</p>
+               <p>Hydrochloric acid. Davy also refers to this as muriatic gas and marine acid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_111">
+            <form>silicious earth</form>
+            <def>
+               <p>Containing or consisting of silica.</p>
+            </def>
+         </nym>
+      </listNym>
+      <listBibl>
+         <bibl xml:id="otherwork_310">
+            <author>Horace Bénédict de Saussure</author>
+            <title level="j">Voyages dans les Alpes</title>
+            <date when="1796">1796</date>
+            <note>an accompanying number indicates the paragraph in one of the four volumes: Vol 1: §§ 1 - 606, Vol 2: §§ 606 - 1156, Vol 3: §§ 1157 - 1793, Vol 4: §§ 1794 - 2327</note>
+         </bibl>
+      </listBibl>
+      <listPlace>
+         <place xml:id="place_159">
+            <placeName>United Kingdom</placeName>
+            <location>
+               <geo decls="#WGS84">54.06171310994435,  -1.7434214141764799</geo>
+            </location>
+         </place>
+         <place xml:id="place_160">
+            <placeName>Somerset</placeName>
+            <location>
+               <geo decls="#WGS84">51.11108439911385, -3.2865818073214901</geo>
+            </location>
+            <note>A county in south-west England.</note>
+         </place>
+         <place xml:id="place_161">
+            <placeName>Sussex</placeName>
+            <location>
+               <geo decls="#WGS84">50.93916058319065, -0.46511525862418701</geo>
+            </location>
+            <note>A county in southern England.</note>
+         </place>
+         <place xml:id="place_162">
+            <placeName>Devon</placeName>
+            <location>
+               <geo decls="#WGS84">50.7831111085829,  -3.8387768410054801</geo>
+            </location>
+            <note>A county in south-west England.</note>
+         </place>
+         <place xml:id="place_235">
+            <placeName>Scotland</placeName>
+            <location>
+               <geo decls="#WGS84">56.23014782410645,  -4.1646793652431802</geo>
+            </location>
+         </place>
+         <place xml:id="place_084">
+            <placeName>East Lothian</placeName>
+            <location>
+               <geo decls="#WGS84">55.95616515688074,  -2.7858987686415402</geo>
+            </location>
+            <note>A district in Scotland with Haddington as its capital.</note>
+         </place>
+      </listPlace>
+      <listPerson>
+         <person xml:id="person_041">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John</forename>
+               <surname>Billingsley</surname>
+            </persName>
+            <birth when="1747"/>
+            <death when="1811"/>
+            <note>Wrote the Somerset volume for the Board of Agriculture county surveys. A founder of the Bath and West of England Society of which Davy was elected an honorary member in 1804.</note>
+         </person>
+         <person xml:id="person_105">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Thomas</forename>
+               <surname>Poole</surname>
+            </persName>
+            <birth when="1766"/>
+            <death when="1837"/>
+            <note>Tanner based in Nether Stowey, philanthropist and essayist; a friend of Davy and Coleridge.</note>
+         </person>
+      </listPerson>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+18425<lb/>
+Box 18 a<lb/>
+            <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">x</unclear> I<lb/>
+4 &amp; 5<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">th</hi> lect.<lb/>
+Agric - Chemi<lb/>
+Box 18 I 4th and 5th Lect. Agric - Chem<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+1<lb/>
+Lect<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">e</hi>. 3<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">d</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Atmosphere &amp; Soil</hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#misc_818"
+                type="miscellaneous">
+               <term xml:id="tag1">
+          That the process of vegetation the agency of<lb/>manures and the effects of cultivation
+        </term>
+            </rs> may<lb/>
+be 'understood it is necessary that an acquaintan<lb/>
+be gained with the natural agents to<lb/>
+which plants are exposed during their<lb/>
+growth. -<lb/>
+The knowledge of the composition of the<lb/>
+Atmosphere and of soils is one of the most<lb/>
+important parts of the subject of the chemistry<lb/>
+of Agriculture and one that offers the<lb/>
+greater number of theoretical instruction of<lb/>
+practical application -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+2<lb/>
+The presence of the Air is essential to the<lb/>
+health and life of plants and to the<lb/>
+operation of manures- the fertility of<lb/>
+the Land is immediately connected with<lb/>
+the influence of the surrounding Atm-<lb/>
+-osphere, and the History of its Constitution<lb/>
+and agencies is well worthy of a<lb/>
+particular examination<lb/>
+The appearances of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag2"
+                ref="#chemical_078"
+                type="chemical">
+               <term xml:id="tag2">
+          elastic fluid
+          
+        </term>
+            </rs>
+            <lb/>
+that every where envellopes us are so<lb/>
+simple and uniform that in the first<lb/>
+examination we might suppose it to be<lb/>
+an elementary body and this opinion<lb/>
+was prevalant in all former times<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+3<lb/>
+Air was supposed to be undecomposable the<lb/>
+the most active and pure of natural agents<lb/>
+by the lately discovered method of chemical<lb/>
+Analysis we are however taught that it is<lb/>
+compound in its essence and that it<lb/>
+contains many substances essentially differen<lb/>
+from each other.<lb/>
+When <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag3"
+                ref="#chemical_091"
+                type="chemical">
+               <term xml:id="tag3">
+          Quicklime
+          
+        </term>
+            </rs> is exposed to the<lb/>
+open Air a matter speedily forms upon its<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">surface</hi> and a part of it is by degrees<lb/>
+precipitated to the bottom of the vessel<lb/>
+when the fluid is examined after some<lb/>
+days it is found no longer possessed<lb/>
+of the acrid taste communicated by the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag4"
+                ref="#chemical_010"
+                type="chemical">
+               <term xml:id="tag4">
+                  <hi rend="underline">lime</hi>
+               </term>
+            </rs>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+4<lb/>
+The whole of the Earth will have been<lb/>
+deposited in a solid form and its weight<lb/>
+will have been considerably increased -<lb/>
+It is evident from this fact that<lb/>
+the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag5"
+                ref="#chemical_010"
+                type="chemical">
+               <term xml:id="tag5">
+          Lime
+          
+        </term>
+            </rs> in the water has combined<lb/>
+with something existing in the Atmosphir<lb/>
+and this is fixed Air or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag6"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag6">
+          Carbonic Acid
+          
+        </term>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+The existance of fixed Air or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag7"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag7">
+          Carbonic<lb/>acid
+          
+        </term>
+            </rs> in the Atmosphere is likewise shewn<lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">upon</del> by its action upon soap <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxx</unclear>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+5<lb/>
+other parts of the Atmosphere is very small<lb/>
+and it never exceeds the <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">100</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">1/800</add> part of the<lb/>
+whole <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">mass</hi>.<lb/>
+The gasses which compose the great<lb/>
+portion of the Air are very different in<lb/>
+their <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">nature</hi> One of them has been<lb/>
+already mentioned under the name of<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag8"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag8">
+          Oxygene
+          
+        </term>
+            </rs> and it is the substance that<lb/>
+supports <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">combustion</hi> and the other which<lb/>
+is incapable of supporting <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">combustion</hi> is<lb/>
+called not <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">respirable Air</hi> or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag9"
+                ref="#chemical_017"
+                type="chemical">
+               <term xml:id="tag9">
+                  <hi rend="underline">Nitrogene</hi>
+               </term>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">gas</hi>. -<lb/>
+When an inflamed taper or any<lb/>
+other burning body is introduced<lb/>
+into a close vessel filled with<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+6<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag10" ref="#chemical_149" type="chemical">
+                  <term xml:id="tag10">
+          atmospherical air
+          
+        </term>
+               </rs>
+            </hi> whether freed or not<lb/>
+from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag11"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag11">
+          Carbonic Acid
+          
+        </term>
+            </rs> its light gradually<lb/>
+diminishes the flame becomes smaller<lb/>
+and at last disappears altogether.<lb/>
+And after this effect has been<lb/>
+produced the qualities of the Air will<lb/>
+be found wholly altered.<lb/>
+It is no longer capable of supporting<lb/>
+Combustion and a small animal if<lb/>
+introduced into it would almost immedia<lb/>
+-tely expire -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="9"
+                xml:id="pb-9"
+                facs="#i9"/>
+            <lb/>
+7<lb/>
+Instance <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag12"
+                ref="#chemical_037"
+                type="chemical">
+               <term xml:id="tag12">
+          Sulphur
+          
+        </term>
+            </rs>.<lb/>
+In conducting this experiment with<lb/>
+perfect accuracy we find that water<lb/>
+is deposited upon the sides of the Vessel<lb/>
+and that the Air is diminished both<lb/>
+in volume and weight.<lb/>
+Hence it is evident that something has<lb/>
+been abstracted from it and this is<lb/>
+the principal essential to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Combustion</hi>
+            <lb/>
+The <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">pure</hi> Air on <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag13"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag13">
+                  <hi rend="underline">Oxygene</hi>
+               </term>
+            </rs> and <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">
+               <unclear>x</unclear>
+            </del>as<lb/>
+there have been no transmission of<lb/>
+ponderable matter through the glass it<lb/>
+must have united it self to the<lb/>
+inflamable body to form new<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">products</hi>;<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="10"
+                xml:id="pb-10"
+                facs="#i10"/>
+            <lb/>
+8<lb/>
+The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag14"
+                ref="#chemical_078"
+                type="chemical">
+               <term xml:id="tag14">
+          elastic fluid
+          
+        </term>
+            </rs> remaining which is<lb/>
+incapable of supporting the life of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Animals</hi>
+            <lb/>
+or the flame of burning bodies is the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag15"
+                ref="#chemical_017"
+                type="chemical">
+               <term xml:id="tag15">
+                  <hi rend="underline">Nitrogene</hi>
+               </term>
+            </rs> And it is called so because it is<lb/>
+one of the Elements <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of nitrous Acid or</hi>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag16"
+                ref="#chemical_150"
+                type="chemical">
+               <term xml:id="tag16">
+                  <hi rend="underline">Aqua fortis</hi>
+               </term>
+            </rs>
+            <lb/>
+It is evident from the combustion of<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag17"
+                ref="#chemical_037"
+                type="chemical">
+               <term xml:id="tag17">
+          Sulphur
+          
+        </term>
+            </rs> that the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag18"
+                ref="#chemical_017"
+                type="chemical">
+               <term xml:id="tag18">
+          Nitrogene
+          
+        </term>
+            </rs> in the Atmosphe<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">~</hi>
+            <lb/>
+considerably exceeds the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag19"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag19">
+          Oxygene
+          
+        </term>
+            </rs> in quantity<lb/>
+but this process is not the most accurate<lb/>
+for the Analysis as a little new ariform<lb/>
+substance is produced in it which requires<lb/>
+some time before it is dis<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">s</add>olved by water<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="11"
+                xml:id="pb-11"
+                facs="#i11"/>
+            <lb/>
+9<lb/>
+And that we may Know precisely the<lb/>
+composition of Air it is necessary that we<lb/>
+burn in it some inflamable body which<lb/>
+will absorb the whole of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag20"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag20">
+                  <hi rend="underline">Oxygene</hi>
+               </term>
+            </rs> and<lb/>
+form with it only solid matter such a<lb/>
+body is <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag21"
+                ref="#chemical_151"
+                type="chemical">
+               <term xml:id="tag21">
+                  <hi rend="underline">Phosphorus</hi>
+               </term>
+            </rs>
+            <lb/>
+When <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag22"
+                ref="#chemical_151"
+                type="chemical">
+               <term xml:id="tag22">
+          phosphorus
+          
+        </term>
+            </rs> is burnt in Air in a<lb/>
+manner similar to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag23"
+                ref="#chemical_037"
+                type="chemical">
+               <term xml:id="tag23">
+          Sulphur
+          
+        </term>
+            </rs> it is found<lb/>
+that the absorption is <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">one</del> 1/5 which<lb/>
+coresponds to the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag24"
+                ref="#chemical_017"
+                type="chemical">
+               <term xml:id="tag24">
+                  <hi rend="underline">Nitrogene</hi>
+               </term>
+            </rs>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">100</hi> parts in volume of Air Contain about<lb/>
+one part of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag25"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag25">
+          Carbonic Acid
+          
+        </term>
+            </rs> 20. or 21 parts of<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag26"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag26">
+          Oxygene
+          
+        </term>
+            </rs> gas and 78 or 79 parts of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag27"
+                ref="#chemical_017"
+                type="chemical">
+               <term xml:id="tag27">
+                  <hi rend="underline">Nitrogene</hi>
+               </term>
+            </rs>
+            <lb/>
+or contain diffused through their pores a<lb/>
+certain quantity of Water.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="12"
+                xml:id="pb-12"
+                facs="#i12"/>
+            <lb/>
+10<lb/>
+The fact of the existence of water in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Air</hi>
+            <lb/>
+in the form of invisible vapour or of<lb/>
+dissolved moisture is shewn by many very<lb/>
+simple experiments<lb/>
+When <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag28"
+                ref="#chemical_468"
+                type="chemical">
+               <term xml:id="tag28">
+          pearlash
+          
+        </term>
+            </rs> or any very soluble<lb/>
+salt is exposed to the atmosphere it soon<lb/>
+increases in weight and become moist even in<lb/>
+the dryest weather and this is owing<lb/>
+to its <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">absr</del> abstracting the invisible moisture<lb/>
+existing in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the Air</hi>. -<lb/>
+Likewise when we expose water in small<lb/>
+quantities upon a large surface it speedily<lb/>
+dissappears particularly in warm weather<lb/>
+and this depend upon its being diffused<lb/>
+through the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag29"
+                ref="#chemical_078"
+                type="chemical">
+               <term xml:id="tag29">
+          elastic fluid
+          
+        </term>
+            </rs> in contact with<lb/>
+it<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="13"
+                xml:id="pb-13"
+                facs="#i13"/>
+            <lb/>
+11<lb/>
+All the phenonena of evaporation depend<lb/>
+upon the power which water possesses of<lb/>
+being rendered elastic in the Air and<lb/>
+dew Rain and snow are occasioned by<lb/>
+its deposition which is generally owing<lb/>
+to a diminution of the Heat in the<lb/>
+upper strata of the Atmosphere as<lb/>
+moisture is much more diffusible through<lb/>
+warm than through Cold Air -<lb/>
+In <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the Hottest</hi> weather of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Summer</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">and when</hi> the Atmosphere is <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">fully</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Saturated</hi> with moisture in our<lb/>
+climates, according to the experiments<lb/>
+of de <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag30"
+                ref="#otherwork_310"
+                type="otherwork">
+               <bibl xml:id="tag30">
+            Saussure
+        </bibl>
+            </rs> it never contains<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="14"
+                xml:id="pb-14"
+                facs="#i14"/>
+            <lb/>
+12<lb/>
+more than 1/20 of its weight of water<lb/>
+and in the coldest and dryest<lb/>
+weather never less than 1/60<lb/>
+Besides the permantley elastic parts of<lb/>
+Air which are found throughout the<lb/>
+whole of its extent the Atmosphere often<lb/>
+contains solid and fluid matter which<lb/>
+are raised from the surface of the<lb/>
+Earth and which remain for a short<lb/>
+time mechanically suspended in it and<lb/>
+which are carried down by rain and<lb/>
+dews -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="15"
+                xml:id="pb-15"
+                facs="#i15"/>
+            <lb/>
+13<lb/>
+From C<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">c</del>ities and Towns a considerable<lb/>
+quantity of coaly matter in smoke of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag31"
+                ref="#chemical_167"
+                type="chemical">
+               <term xml:id="tag31">
+          saline
+          
+        </term>
+            </rs>
+            <lb/>
+matter and of Animal effluvia are<lb/>
+continually carried by the winds and<lb/>
+they are sometimes immediately deposited<lb/>
+in the vicinity and are sometime<lb/>
+transported to the distance of many miles<lb/>
+And this circumstance it is necessary<lb/>
+to attend to in considering the influence<lb/>
+of the Atmosphere on vegetables in differin<lb/>
+situations. <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">and under different</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">circumstances</del> -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="16"
+                xml:id="pb-16"
+                facs="#i16"/>
+            <lb/>
+14<lb/>
+Certain vegetables are capable of growing<lb/>
+when their roots are immersed in pure<lb/>
+water and their leaves being exposed to<lb/>
+the free <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Atmosphere</hi>
+            <lb/>
+But in this <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">case</hi> according to the Exp<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">
+               <hi rend="underline">mts</hi>
+            </hi>
+            <lb/>
+of M<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi> H<unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxxxxx</unclear> they are never found in a<lb/>
+healthy state they are incapable of<lb/>
+producing healthy seeds.<lb/>
+In the natural process of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Vegetation</hi>
+            <lb/>
+all plants are fixed by the different<lb/>
+fibres of their roots in the soil which<lb/>
+covers a very considerable proportion of the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Globe</hi>.<lb/>
+The Atmosphere is every where uniform<lb/>
+in its composition; but the soil is almost<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="17"
+                xml:id="pb-17"
+                facs="#i17"/>
+            <lb/>
+15<lb/>
+infinitely diversified with regard to its<lb/>
+constituent <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">parts</hi>.<lb/>
+leave off here<lb/>
+            <milestone xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                       unit="section"
+                       rend="line"/>
+            <lb/>
+In the greater number of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Cases</hi> its<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">basis</hi> is a certain mixture or Combination<lb/>
+of some of the primitive Earths and it<lb/>
+usually contains small quantities of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag32"
+                ref="#chemical_166"
+                type="chemical">
+               <term xml:id="tag32">
+          oxide<lb/>of iron
+          
+        </term>
+            </rs>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of <rs xml:id="ttag33" ref="#chemical_167" type="chemical">
+                  <term xml:id="tag33">
+          saline
+          
+        </term>
+               </rs> bodies</hi> and of vegetable<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">composing matter.</hi>
+            <lb/>
+When a portion of a Common fertile<lb/>
+soil freed from vegetable roots or fibres<lb/>
+and from stones <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">boiling water water</del>
+            <lb/>
+is diffused through boiling water for<lb/>
+a certain length of time if the water<lb/>
+be small in quantity it generally<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="18"
+                xml:id="pb-18"
+                facs="#i18"/>
+            <lb/>
+16<lb/>
+gains a slight degree of Colour and is<lb/>
+found to hold in solution a very small<lb/>
+quantity of vegetable matter and sometim<lb/>
+a little <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag34"
+                ref="#chemical_167"
+                type="chemical">
+               <term xml:id="tag34">
+          saline
+          
+        </term>
+            </rs> substance.<lb/>
+The solid matter remaining<lb/>
+at the bottom of the Vessel in which<lb/>
+the Experiment is made is found to<lb/>
+consist of a very finely divided Earth<lb/>
+which is usually Clay or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag35"
+                ref="#chemical_112"
+                type="chemical">
+               <term xml:id="tag35">
+          Marle
+          
+        </term>
+            </rs> -<lb/>
+and of Earth is a more solid state<lb/>
+of aggregation which is <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Sand</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="19"
+                xml:id="pb-19"
+                facs="#i19"/>
+            <lb/>
+17<lb/>
+The sand may be separated from the<lb/>
+Clay by washing through a sieve or by<lb/>
+agitating the vessel or by pouring off the<lb/>
+water containing the Clay diffused through<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">it</hi> -<lb/>
+The <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">sand</hi> of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">a soil</hi> is sometimes<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag36"
+                ref="#chemical_122"
+                type="chemical">
+               <term xml:id="tag36">
+          silicious
+          
+        </term>
+            </rs> and sometimes <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag37"
+                ref="#chemical_081"
+                type="chemical">
+               <term xml:id="tag37">
+                  <hi rend="underline">calcareous</hi>
+               </term>
+            </rs> when<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag38"
+                ref="#chemical_122"
+                type="chemical">
+               <term xml:id="tag38">
+          silicious
+          
+        </term>
+            </rs> it is insoluble in Acids,<lb/>
+when <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag39"
+                ref="#chemical_081"
+                type="chemical">
+               <term xml:id="tag39">
+                  <hi rend="underline">calcareous</hi>
+               </term>
+            </rs> it dissolves soon with<lb/>
+effervescence - .<lb/>
+The Clays in soils are very different<lb/>
+in their <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Composition</hi> - they often<lb/>
+effervesce with acids and in this<lb/>
+case they contain mild Calcareous Earth<lb/>
+or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag40"
+                ref="#chemical_109"
+                type="chemical">
+               <term xml:id="tag40">
+          carbonate of Lime
+          
+        </term>
+            </rs>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="20"
+                xml:id="pb-20"
+                facs="#i20"/>
+            <lb/>
+18<lb/>
+That part of them insoluble in cold acids<lb/>
+consists chiefly of two Earths <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag41" ref="#chemical_108" type="chemical">
+                  <term xml:id="tag41">
+          alumine
+          
+        </term>
+               </rs>
+            </hi> or<lb/>
+the pure matter of Clay and <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag42"
+                ref="#chemical_034"
+                type="chemical">
+               <term xml:id="tag42">
+          Silex
+          
+        </term>
+            </rs> or the<lb/>
+earth of flints. -<lb/>
+And these substances may be separated<lb/>
+from each other by being long boiled in<lb/>
+diluted acid of vitrol or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag43"
+                ref="#chemical_037"
+                type="chemical">
+               <term xml:id="tag43">
+          Sulp<hi rend="superscript">r</hi>
+               </term>
+            </rs> Acid<lb/>
+In this case the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag44"
+                ref="#chemical_108"
+                type="chemical">
+               <term xml:id="tag44">
+          alumine
+          
+        </term>
+            </rs> is dissolved<lb/>
+with the acid a salt resembling common<lb/>
+alum and the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag45"
+                ref="#chemical_106"
+                type="chemical">
+               <term xml:id="tag45">
+          Flint
+          
+        </term>
+            </rs> remain untouched<lb/>
+and appears in the form of a white<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">powder</hi>. -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="21"
+                xml:id="pb-21"
+                facs="#i21"/>
+            <lb/>
+19<lb/>
+The vegetable decomposing <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">matter</hi> in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">soils</hi> can<lb/>
+never be <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">obtained</del> wholly obtained by<lb/>
+washing or <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">boiling</hi>. -<lb/>
+It exists in greatest abundance in black<lb/>
+moulds and in all soils approaching in<lb/>
+their nature to <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">peat</hi> and some idea may<lb/>
+be formed of its quantity;<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Properties</hi> in their <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">pure state</hi>
+            <lb/>
+- <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">One</hi> principle use of the soil is to<lb/>
+recieve the roots and the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">plant</hi> so as<lb/>
+to enable it to be exposed in the best<lb/>
+possible manner to the agency of air<lb/>
+and of moisture<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="22"
+                xml:id="pb-22"
+                facs="#i22"/>
+            <lb/>
+20<lb/>
+Timber trees and fruit trees are capable<lb/>
+of growing in most of our common<lb/>
+soils. -<lb/>
+Wheat Barley and the plants producing<lb/>
+farinaceous grain vegetate best in a <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxx</unclear>
+            <lb/>
+mixture of clay and sand in which<lb/>
+the clay does not exceed 1/3 of the<lb/>
+weight of soil. Instance<lb/>
+But Potatoes and Turnips require <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">light</hi>
+            <lb/>
+soils and the Potatoe will flourish<lb/>
+in a land that contains nearly 5/6 -<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag46"
+                ref="#chemical_122"
+                type="chemical">
+               <term xml:id="tag46">
+          silicious
+          
+        </term>
+            </rs> sand.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="23"
+                xml:id="pb-23"
+                facs="#i23"/>
+            <lb/>
+21<lb/>
+In this case there is greater room for the<lb/>
+expansion of its solid matter and the<lb/>
+farinaceous substance that it containes is<lb/>
+less coherent and more proper for the<lb/>
+purposes of food.<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance - potatoe soil</hi>
+            <lb/>
+In <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag47"
+                ref="#chemical_112"
+                type="chemical">
+               <term xml:id="tag47">
+          marles
+          
+        </term>
+            </rs> and Clays the Aluminous<lb/>
+Earth is the substance that produce their<lb/>
+toughness and tenacity and when<lb/>
+they are dried if they contain any<lb/>
+considerable proportion of this substance<lb/>
+they will adhere to the tongue<lb/>
+Soils which contain a large<lb/>
+proportion of Calcareous earth are<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="24"
+                xml:id="pb-24"
+                facs="#i24"/>
+            <lb/>
+22<lb/>
+often hard and compact but never tough<lb/>
+and the lightest and losest clayey soils<lb/>
+are those that are composed of a large<lb/>
+proportion of finely divided <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag48"
+                ref="#chemical_122"
+                type="chemical">
+               <term xml:id="tag48">
+          silicious
+          
+        </term>
+            </rs>
+            <lb/>
+matter.<lb/>
+There are some light clays in different<lb/>
+parts of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag49"
+                ref="#place_159"
+                type="place">
+               <name xml:id="tag49" type="place">
+          Brit<del rend="strikethrough">i</del>ain
+        </name>
+            </rs> that approach in their<lb/>
+nature to porcelain clay which is nearly<lb/>
+pure <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag50"
+                ref="#chemical_034"
+                type="chemical">
+               <term xml:id="tag50">
+          Silex
+          
+        </term>
+            </rs> and yet by cultivation<lb/>
+they are made capable of producing<lb/>
+grain,- Instance<lb/>
+Very compact and tenacious soils<lb/>
+often contain a number of small<lb/>
+stones in a decomposing state.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="25"
+                xml:id="pb-25"
+                facs="#i25"/>
+            <lb/>
+23<lb/>
+and by those stones their texture is improved<lb/>
+and they are rendered more permeable<lb/>
+to the roots of Plants. -<lb/>
+Dead vegetable fibres besides their<lb/>
+operation as manure have another<lb/>
+effect in rendering the surface lighter<lb/>
+and by giving it a mechanical<lb/>
+constitution more permeable to the<lb/>
+Atmosphere and to Water -<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Instance</hi>
+            <lb/>
+The different substances in soils by their<lb/>
+more mechanical <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">agency</hi> promote vegetation<lb/>
+and are remotely subservient to the<lb/>
+growth of Plants -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="26"
+                xml:id="pb-26"
+                facs="#i26"/>
+            <lb/>
+24<lb/>
+Their chemical agencies however are<lb/>
+not less important than their mechanic<add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">al</add>
+            <lb/>
+ones though they have been much less<lb/>
+studied and still are less <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">understood</hi>
+            <lb/>
+All the Earths found in soils are possessed<lb/>
+of a considerable power of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">absorbing water</hi>
+            <lb/>
+and <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">immediately</del> in cases when water<lb/>
+is not immediately exposed to them in<lb/>
+its fluid form they are capable of<lb/>
+attracting it from the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Air</hi>. -<lb/>
+If a specimen of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">common soil</hi> be<lb/>
+dried before the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">fire</hi> and then exposed<lb/>
+to the air it will will be found to<lb/>
+increase in weight by combination<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="27"
+                xml:id="pb-27"
+                facs="#i27"/>
+            <lb/>
+25<lb/>
+with the invisible moisture which I have<lb/>
+already mentioned exists in the Atmosphere<lb/>
+If it be heated again it will diminish<lb/>
+in weight and closed vessels are<lb/>
+employed it is found that a certain<lb/>
+portion of pure water is given out<lb/>
+by it<lb/>
+of the primitive Earths <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">formed</del>
+            <lb/>
+found in soils <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag51"
+                ref="#chemical_108"
+                type="chemical">
+               <term xml:id="tag51">
+          alumine
+          
+        </term>
+            </rs> is that which<lb/>
+has the strongest power of absorbing water<lb/>
+next to it we may class mild calcareous<lb/>
+Earth or Carbonate of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag52"
+                ref="#chemical_010"
+                type="chemical">
+               <term xml:id="tag52">
+                  <hi rend="underline">lime</hi>
+               </term>
+            </rs> and last of<lb/>
+all <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag53"
+                ref="#chemical_034"
+                type="chemical">
+               <term xml:id="tag53">
+          Silex
+          
+        </term>
+            </rs> or pure <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag54"
+                ref="#chemical_106"
+                type="chemical">
+               <term xml:id="tag54">
+          Flint
+          
+        </term>
+            </rs> -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="28"
+                xml:id="pb-28"
+                facs="#i28"/>
+            <lb/>
+26<lb/>
+The soils most retentive of moisture are<lb/>
+the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag55"
+                ref="#chemical_112"
+                type="chemical">
+               <term xml:id="tag55">
+          marles
+          
+        </term>
+            </rs> and Clayes; but sandy soils<lb/>
+are comparatively dry and in incapable<lb/>
+of attracting any considerable portion<lb/>
+of Water from the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Air</hi>. -<lb/>
+In this climate the moisture deposited<lb/>
+from the Atmosphere in <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Rain</hi> or <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Dew</hi>
+            <lb/>
+is that commonly retained by the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">soil</hi>
+            <lb/>
+and supplied in due proportions to<lb/>
+the roots of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Plants</hi>;<lb/>
+But in warmer climates and even<lb/>
+in this Country in dry weather the<lb/>
+moisture essential to vegetation is<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="29"
+                xml:id="pb-29"
+                facs="#i29"/>
+            <lb/>
+27<lb/>
+partly attracted immediately from the<lb/>
+Air in which it was dissolved and<lb/>
+partly from the moisture subsoil or strata<lb/>
+beneath. -<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Calcareous Earth</hi> or <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag56"
+                ref="#chemical_010"
+                type="chemical">
+               <term xml:id="tag56">
+                  <hi rend="underline">lime</hi>
+               </term>
+            </rs> as we<lb/>
+have already seen has a strong attraction<lb/>
+for <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag57"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag57">
+          Carbonic Acid
+          
+        </term>
+            </rs> or fixed Air.<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag58" ref="#chemical_108" type="chemical">
+                  <term xml:id="tag58">
+          alumine
+          
+        </term>
+               </rs>
+            </hi> is capable of combining<lb/>
+with it; but its union takes place with<lb/>
+a much weaker force.<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag59"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag59">
+                  <hi rend="underline">charcoal</hi>
+               </term>
+            </rs> and <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag60"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag60">
+                  <hi rend="underline">Oxygene</hi>
+               </term>
+            </rs> as has been<lb/>
+already stated are amongst the principle<lb/>
+elements of vegetable matter and it<lb/>
+is extremely probable that the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag61"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag61">
+          Carbonic<lb/>acid
+          
+        </term>
+            </rs> of the Air<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="30"
+                xml:id="pb-30"
+                facs="#i30"/>
+            <lb/>
+28<lb/>
+becomes a part of the food of Vegetable<lb/>
+not only in its free and diffused state<lb/>
+but likewise in its state of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">union with</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag62" ref="#chemical_108" type="chemical">
+                  <term xml:id="tag62">
+          alumine
+          
+        </term>
+               </rs>
+            </hi> and <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag63"
+                ref="#chemical_010"
+                type="chemical">
+               <term xml:id="tag63">
+                  <hi rend="underline">lime</hi>
+               </term>
+            </rs>
+            <lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag64"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag64">
+                  <hi rend="underline">Carbonic acid</hi>
+               </term>
+            </rs> is absorbed by the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag65"
+                ref="#chemical_166"
+                type="chemical">
+               <term xml:id="tag65">
+          Oxide of Iron
+          
+        </term>
+            </rs>; but it adheres to it with<lb/>
+an attraction exceedingly feeble.<lb/>
+The fertility of red and yellow<lb/>
+soils is well known. These soils contain<lb/>
+a considerable proportion of oxide of<lb/>
+Iron and it is extremely probable<lb/>
+that this substance is in some measure<lb/>
+subservient to vegetation in consequence<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="31"
+                xml:id="pb-31"
+                facs="#i31"/>
+            <lb/>
+29<lb/>
+of its power of combining with <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag66"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag66">
+          Carbonic<lb/>acid
+          
+        </term>
+            </rs>.<lb/>
+It has however another distinct effect<lb/>
+upon soils that by its chemical action<lb/>
+upon them it preserves them in a Core<lb/>
+state of aggregation and prevents them<lb/>
+from remaining too close and tenacious.<lb/>
+The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag67"
+                ref="#chemical_166"
+                type="chemical">
+               <term xml:id="tag67">
+          Oxide of Iron
+          
+        </term>
+            </rs> in its common<lb/>
+state<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">s</del> is continually tending to combine<lb/>
+with pure Air and in consequence of<lb/>
+this tendency even the most solid<lb/>
+stones that contain it are often<lb/>
+decomposed and brought into a<lb/>
+finely divided state.<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="32"
+                xml:id="pb-32"
+                facs="#i32"/>
+            <lb/>
+30<lb/>
+I have examined some of these soils in which<lb/>
+Iron exists; but which are not fertile. -<lb/>
+Such are the red <unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxxx</unclear> B<unclear xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">xxxxxx</unclear> of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag68"
+                ref="#place_160"
+                type="place">
+               <name xml:id="tag68" type="place">
+          Somersetshire
+        </name>
+            </rs> and<lb/>
+the yellow sandy Soils of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag69"
+                ref="#place_161"
+                type="place">
+               <name xml:id="tag69" type="place">
+          Sussex
+        </name>
+            </rs>.<lb/>
+And I find that they consist of sandy <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag70"
+                ref="#chemical_122"
+                type="chemical">
+               <term xml:id="tag70">
+          silicious
+          
+        </term>
+            </rs>
+            <lb/>
+matter and are exceedingly loose in their texture<lb/>
+But the fertile Iron Land of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag71"
+                ref="#place_162"
+                type="place">
+               <name xml:id="tag71" type="place">
+          Devonshire
+        </name>
+            </rs>
+            <lb/>
+and <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag72"
+                ref="#place_160"
+                type="place">
+               <name xml:id="tag72" type="place">
+          Somersetshire
+        </name>
+            </rs> are loaded with Calcareous and<lb/>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <del rend="strikethrough">
+                  <unclear>x</unclear>
+               </del>
+            </add> Aluminous Earths.<lb/>
+Soils extremely different in their Chemical<lb/>
+Composition are found possessed of the same<lb/>
+degree of fertility and their productive powers<lb/>
+as will be more fully stated hereafter are<lb/>
+influenced by Climate by the nature of the<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="33"
+                xml:id="pb-33"
+                facs="#i33"/>
+            <lb/>
+31<lb/>
+Subsoil and by their position and relation<lb/>
+to rivers and streams.<lb/>
+The Soils in general that require the smalest<lb/>
+quantity of manure contain certain proportions<lb/>
+of Calcareous and Aluminous Earths; and<lb/>
+either of them may be in considerable excess<lb/>
+This is a specimen of a soil from the<lb/>
+marsh in the lower part of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag73"
+                ref="#place_160"
+                type="place">
+               <name xml:id="tag73" type="place">
+          Somersetshire
+        </name>
+            </rs>
+            <lb/>
+and it is mentioned by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag74"
+                ref="#person_041"
+                type="person">
+               <name xml:id="tag74" type="person">
+          M<hi rend="superscript">r</hi> Billingsley
+        </name>
+            </rs>
+            <lb/>
+in his survey of that County as <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">remarkable</del>
+            <lb/>
+extremely fertile and remarkable for producing<lb/>
+good crops of Wheat.<lb/>
+I made last year some experiments<lb/>
+upon a part of it. It appeared to<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="34"
+                xml:id="pb-34"
+                facs="#i34"/>
+            <lb/>
+32<lb/>
+contain only a small portion of Vegetable<lb/>
+matter and gave about 1/9 of Sand chiefly<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag75"
+                ref="#chemical_122"
+                type="chemical">
+               <term xml:id="tag75">
+          silicious
+          
+        </term>
+            </rs> and 8/9 of Clayey <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag76"
+                ref="#chemical_112"
+                type="chemical">
+               <term xml:id="tag76">
+          Marle
+          
+        </term>
+            </rs> which<lb/>
+was composed chiefly of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag77"
+                ref="#chemical_010"
+                type="chemical">
+               <term xml:id="tag77">
+          Lime
+          
+        </term>
+            </rs> and<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag78"
+                ref="#chemical_108"
+                type="chemical">
+               <term xml:id="tag78">
+          alumine
+          
+        </term>
+            </rs>.<lb/>
+The <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag79"
+                ref="#chemical_166"
+                type="chemical">
+               <term xml:id="tag79">
+          Oxide of Iron
+          
+        </term>
+            </rs> is evident in it<lb/>
+when it is calcined. -<lb/>
+This soil as I have been informed<lb/>
+by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag80"
+                ref="#person_105"
+                type="person">
+               <name xml:id="tag80" type="person">
+          M<hi rend="superscript">r</hi> Pool
+        </name>
+            </rs> of Stowey who was so good<lb/>
+as to procure it for me requires no<lb/>
+manure and produces alternately excellent<lb/>
+crops of wheat and beans and<lb/>
+it is never overflowed<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="35"
+                xml:id="pb-35"
+                facs="#i35"/>
+            <lb/>
+33<lb/>
+This specimen of Soil is from a very<lb/>
+distant part of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag81"
+                ref="#place_159"
+                type="place">
+               <name xml:id="tag81" type="place">
+          Britain
+        </name>
+            </rs>.<lb/>
+The Chavalier Edeleranth was so good as<lb/>
+to bring it to me from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag82"
+                ref="#place_235"
+                type="place">
+               <name xml:id="tag82" type="place">
+          Scotland
+        </name>
+            </rs> Ormithan<lb/>
+in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag83"
+                ref="#place_084"
+                type="place">
+               <name xml:id="tag83" type="place">
+          East Lothian
+        </name>
+            </rs> and He informs me that<lb/>
+it produces excellent crops without manure<lb/>
+- I have made afew chemical experiments<lb/>
+upon it and I find that it differs<lb/>
+altogether in its composition from the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag84"
+                ref="#place_160"
+                type="place">
+               <name xml:id="tag84" type="place">
+          Somersetshire
+        </name>
+            </rs> fertile soil<lb/>
+It contain in 100 parts only 11 p<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">r</hi>cent<lb/>
+of Calcareous matter and two of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag85"
+                ref="#chemical_166"
+                type="chemical">
+               <term xml:id="tag85">
+          oxide<lb/>of iron
+          
+        </term>
+            </rs> about 78 parts are Sand<lb/>
+and the remainder a finely divided<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="36"
+                xml:id="pb-36"
+                facs="#i36"/>
+            <lb/>
+34<lb/>
+aluminous Clay with a little decomposing<lb/>
+vegetable matter. -<lb/>
+The solution by <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">muratic</del>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag86"
+                ref="#chemical_016"
+                type="chemical">
+               <term xml:id="tag86">
+          Muriatic acid
+          
+        </term>
+            </rs>
+            <lb/>
+produces a slight precipitate so that it<lb/>
+contains a small quantity of Phosphate of<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag87"
+                ref="#chemical_010"
+                type="chemical">
+               <term xml:id="tag87">
+          Lime
+          
+        </term>
+            </rs> and perhaps this substance contributes<lb/>
+to its fertility<lb/>
+The most perfect Lands are<lb/>
+undoubtedly such as attract the largest<lb/>
+quantity of nutritive matter from the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Atmosphere</hi> that inexhaustible source<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag88"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag88">
+          Carbonic Acid
+          
+        </term>
+            </rs> and of Water<lb/>
+But in all <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">soils</hi> in the common<lb/>
+states of Cultivation a larger or<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="37"
+                xml:id="pb-37"
+                facs="#i37"/>
+            <lb/>
+35<lb/>
+smaller portion of vegetable matter is<lb/>
+constantly deposited in consequence of the<lb/>
+decomposition of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Roots</hi> and <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">leaves</hi>
+            <lb/>
+the remains of different <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Crops</hi>
+            <lb/>
+This Vegetable matter is differently modifyed<lb/>
+in different soils and according as tis altered<lb/>
+by the attractions of the Earths or the<lb/>
+agency of the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Atmosphere</hi> it becomes more<lb/>
+or less proper for the nourishment of Plants<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag89"
+                ref="#chemical_111"
+                type="chemical">
+               <term xml:id="tag89">
+          silicious earth
+          
+        </term>
+            </rs> has little or no attraction<lb/>
+for any of the Principles of decomposing<lb/>
+vegetable substances., and Hence these<lb/>
+substances are soonest exhausted in<lb/>
+a soil containing Air<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="38"
+                xml:id="pb-38"
+                facs="#i38"/>
+            <lb/>
+36<lb/>
+Excess of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag90"
+                ref="#chemical_034"
+                type="chemical">
+               <term xml:id="tag90">
+          Silex
+          
+        </term>
+            </rs> as is shewn by common<lb/>
+experience and such soils are I believe<lb/>
+named by Farmers hungry soils.<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag91"
+                ref="#chemical_108"
+                type="chemical">
+               <term xml:id="tag91">
+          alumine
+          
+        </term>
+            </rs> and <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag92"
+                ref="#chemical_010"
+                type="chemical">
+               <term xml:id="tag92">
+          Lime
+          
+        </term>
+            </rs> are capable of<lb/>
+entering into union with Colouring and<lb/>
+astringent matter, vegetable <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">acids</hi> and <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">soils</hi>
+            <lb/>
+and they form with them for the most<lb/>
+part difficultly soluble compounds<lb/>
+In consequence of their affinities the<lb/>
+organizable matter is supplied only in<lb/>
+small quantities to the living plants<lb/>
+and it is effectual in its agency<lb/>
+and the ultimate processess of<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="39"
+                xml:id="pb-39"
+                facs="#i39"/>
+            <lb/>
+37<lb/>
+decomposition are checked by new<lb/>
+combinations.<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag93"
+                ref="#misc_192"
+                type="miscellaneous">
+               <term xml:id="tag93">
+          Mucilage
+        </term>
+            </rs> whenever it exist in soils is<lb/>
+capable of being immediately dissolved<lb/>
+by water and as there is great<lb/>
+reason to believe it is absorbed by<lb/>
+plants pure and unaltered so as<lb/>
+to constitute a part of their Sap -<lb/>
+Woody fibre that it may become capable<lb/>
+of assimilation to the vegetable organs<lb/>
+requires the long continued action of<lb/>
+moisture and the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag94"
+                ref="#chemical_022"
+                type="chemical">
+               <term xml:id="tag94">
+          Oxygene
+          
+        </term>
+            </rs> of the Air -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="40"
+                xml:id="pb-40"
+                facs="#i40"/>
+            <lb/>
+38<lb/>
+When exposed to this action it slowly<lb/>
+gives out <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag95"
+                ref="#chemical_058"
+                type="chemical">
+               <term xml:id="tag95">
+          Carbonic Acid
+          
+        </term>
+            </rs> a part of<lb/>
+it becomes soluble and the residuum<lb/>
+is an imperfect and finely divided<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag96"
+                ref="#chemical_140"
+                type="chemical">
+               <term xml:id="tag96">
+          charcoal
+          
+        </term>
+            </rs>.-<lb/>
+The Earths of a soil form a bed<lb/>
+in which all those changes so<lb/>
+necessary to Vegetable life take place<lb/>
+And these appear themselves in<lb/>
+certain cases to be taken up in small<lb/>
+quantities into the organs of plants.<lb/>
+I have already mentioned salicious<lb/>
+Earth exists in the grasses and<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="41"
+                xml:id="pb-41"
+                facs="#i41"/>
+            <lb/>
+39<lb/>
+contributes to the firmness of their<lb/>
+stalks. -<lb/>
+And calcareous and <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag97"
+                ref="#chemical_166"
+                type="chemical">
+               <term xml:id="tag97">
+          Oxide of Iron
+          
+        </term>
+            </rs> are<lb/>
+found in al<del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">l</del>most all plants and there<lb/>
+is great reason to <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">believe</del> suppose that<lb/>
+they are carried into the sap from<lb/>
+the soil, but the general manner<lb/>
+in which these dead substances are<lb/>
+modified and made subservient to<lb/>
+vegetation will be discussed in the<lb/>
+next lecture which is on the<lb/>
+nourishment and growth of<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Plants</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="42"
+                xml:id="pb-42"
+                facs="#i42"/>
+            <lb/>
+40<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="43"
+                xml:id="pb-43"
+                facs="#i43"/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="44"
+                xml:id="pb-44"
+                facs="#i44"/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

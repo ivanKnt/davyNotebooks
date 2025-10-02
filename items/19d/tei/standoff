@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standOff>
+      <listNym type="chemical">
+         <nym xml:id="chemical_425">
+            <form>Obsdian</form>
+            <def>
+               <p>A naturally occurring volcanic glass formed when lava extruded from a volcano cools rapidly with minimal crystal growth. It is an igneous rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_070">
+            <form>copper</form>
+            <def>
+               <p>Symbol/formula: Cu</p>
+               <p>A soft, malleable, and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a pinkish-orange colour.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_035">
+            <form>soda</form>
+            <def>
+               <p>An alkaline substance obtained from the ashes of marine or salt-impregnated plants, especially species of Salsola. Davy decomposed soda to reveal its elemental sodium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_037">
+            <form>sulphur</form>
+            <def>
+               <p>Symbol/formula: S</p>
+               <p>Pure sulphur is a tasteless, odourless, brittle solid that is pale yellow in colour, a poor conductor of electricity, and insoluble in water.</p>
+            </def>
+         </nym>
+      </listNym>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_827" type="description">
+            <term id="misc_827-term">The earliest rudiments of</term>
+            <gloss id="misc_827-gloss" target="#misc_827-term">
+               <p>The intended date of this lecture, Thursday 30th May 1805 at 2pm, can be inferred from the Royal Institution's minutes of their managers' meetings for the 14th January 1805 [see Archives of the Royal Institution, Minutes of the Managers’ Meetings, 1799-1903, 15 volumes in 7 (Scholar Press, London, 1971-1976), Vol 4, p. 9]. However, the lecture was probably not delivered. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_376" type="description">
+            <term id="misc_376-term">Brahmin</term>
+            <gloss id="misc_376-gloss" target="#misc_376-term">
+               <p>Brahmin is a varna as well as a caste within Hindu society. In the Vedic- and post-Vedic Indian subcontinent, Brahmins were designated as the priestly class, serving as priests (purohit, pandit, or pujari) and spiritual teachers (guru or acharya). </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_292" type="description">
+            <term id="misc_292-term">Tartary </term>
+            <gloss id="misc_292-gloss" target="#misc_292-term">
+               <p>A blanket term used in Western European literature and cartography for a vast part of Asia bounded by the Caspian Sea, the Ural Mountains, the Pacific Ocean, and the northern borders of China, India and Persia, at a time when this region was largely unknown to European geographers. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_373" type="description">
+            <term id="misc_373-term">Hindostan</term>
+            <gloss id="misc_373-gloss" target="#misc_373-term">
+               <p>The historic Persian name for India, broadly referring to the Indian subcontinent.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_451" type="description">
+            <term id="misc_451-term">Parsis</term>
+            <gloss id="misc_451-gloss" target="#misc_451-term">
+               <p>An ethnoreligious group of the Indian subcontinent adhering to Zoroastrianism.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_452" type="description">
+            <term id="misc_452-term">riddle of the sphynx</term>
+            <gloss id="misc_452-gloss" target="#misc_452-term">
+               <p>In Greek tradition, the sphinx is a treacherous and merciless being with the head of a woman, the haunches of a lion, and the wings of a bird. According to Greek myth, she challenges those who encounter her to answer a riddle, and kills and eats them when they fail to do so.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_453" type="description">
+            <term id="misc_453-term">gordian knot</term>
+            <gloss id="misc_453-gloss" target="#misc_453-term">
+               <p>The cutting of the Gordian Knot is an Ancient Greek legend associated with Alexander the Great in Gordium in Phrygia, regarding a complex knot that tied an oxcart. Alexander was challenged to untie the knot. Instead of untangling it laboriously as expected, he dramatically cut through it with his sword, thus exercising another form of mental genius.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listPlace>
+         <place xml:id="place_475">
+            <placeName>Egypt</placeName>
+            <location>
+               <geo decls="#WGS84">26.847302350713047,  29.800177329364502</geo>
+            </location>
+         </place>
+         <place xml:id="place_1095">
+            <placeName>Giza Pyramids</placeName>
+            <location>
+               <geo decls="#WGS84">29.999966936913456, 31.213875846952099</geo>
+            </location>
+            <note>In Egypt, the Giza pyramid complex is home to the Great Pyramid, the Pyramid of Khafre, and the Pyramid of Menkaure, along with their associated pyramid complexes and the Great Sphinx.</note>
+         </place>
+         <place xml:id="place_531">
+            <placeName>India</placeName>
+            <location>
+               <geo decls="#WGS84">21.021002369595717,  77.784400651531399</geo>
+            </location>
+         </place>
+         <place xml:id="place_222">
+            <placeName>Africa</placeName>
+            <note>The world's second-largest and second-most populous continent.</note>
+         </place>
+         <place xml:id="place_019">
+            <placeName>China</placeName>
+            <location>
+               <geo decls="#WGS84">34.66744880146193,  103.91770840085999</geo>
+            </location>
+         </place>
+         <place xml:id="place_155">
+            <placeName>Rome</placeName>
+            <location>
+               <geo decls="#WGS84">41.901639083469824,  12.4814095854935</geo>
+            </location>
+            <note>The capital of Italy.</note>
+         </place>
+      </listPlace>
+      <listPerson>
+         <person xml:id="person_189">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">William</forename>
+               <surname>Wordsworth</surname>
+            </persName>
+            <birth when="1770"/>
+            <death when="1850"/>
+            <note>English poet who, with Samuel Taylor Coleridge, published Lyrical Ballads. Davy contributed to seeing the second edition (1800) through the press in Bristol. Poet Laureate from 1843.</note>
+         </person>
+         <person xml:id="person_439">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jean Sylvain</forename>
+               <surname>Bailly</surname>
+            </persName>
+            <birth when="1736"/>
+            <death when="1793"/>
+            <note>French astronomer, mathematician, and political leader of the early part of the French Revolution.</note>
+         </person>
+         <person xml:id="person_130">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Pierre-Simon</forename>
+               <surname>Laplace</surname>
+            </persName>
+            <birth when="1749"/>
+            <death when="1827"/>
+            <note>French mathematician seen as the Newton of France. He met Davy in 1813 and 1820. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_266">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Georges-Louis Leclerc, Comte de</forename>
+               <surname>Buffon</surname>
+            </persName>
+            <birth when="1707"/>
+            <death when="1788"/>
+            <note>French naturalist, mathematician and cosmologist. His Histoire Naturelle, published in 1789, ran to 37 volumes. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_610">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Etienne</forename>
+               <surname>Bonnot de Condillac</surname>
+            </persName>
+            <birth when="1714"/>
+            <death when="1780"/>
+            <note>French Catholic priest and philosopher who studied psychology and philosophy of the mind.</note>
+         </person>
+         <person xml:id="person_508">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Lucretius</surname>
+            </persName>
+            <birth when="99 BCE"/>
+            <death when="c. 55 BCE"/>
+            <note>Roman poet and philosopher. His only known work is the materialist philosophical poem De rerum natura.</note>
+         </person>
+         <person xml:id="person_300">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Déodat Gratet de</forename>
+               <surname>Dolomieu</surname>
+            </persName>
+            <birth when="1750"/>
+            <death when="1801"/>
+            <note>French geologist. The rock, and region of the Alps, dolomite was named after him.</note>
+         </person>
+      </listPerson>
+   </standOff>
+</TEI>

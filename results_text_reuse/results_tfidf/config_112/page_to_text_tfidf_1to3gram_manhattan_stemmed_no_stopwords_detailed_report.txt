@@ -1,0 +1,728 @@
+================================================================================
+TF-IDF TEXT REUSE INSTANCES - PAGE_TO_TEXT_TFIDF_1TO3GRAM_MANHATTAN_STEMMED_NO_STOPWORDS
+================================================================================
+Generated: 2025-09-25 10:41:58
+Configuration: ngram_range=(1, 3), max_features=10000, similarity_metric=manhattan, threshold=0.2, stemming=True, stopwords_removed=True
+================================================================================
+
+SUMMARY
+----------------------------------------
+Total text reuse instances found: 44
+Processing time: 230.53 seconds
+Segments analyzed: 501
+Comparisons made: 125028
+Vocabulary size: 10000 features
+Average TF-IDF similarity: 0.221
+Average cosine similarity: 0.040
+TF-IDF similarity range: 0.201 - 0.294
+Average shared features: 0.8
+High similarity instances (≥0.8): 0
+Medium similarity instances (0.5-0.8): 0
+Low similarity instances (<0.5): 44
+Reuse rate: 0.0004
+
+================================================================================
+
+TOP DISCRIMINATIVE FEATURES
+----------------------------------------
+Features most frequently shared between similar segments:
+  1. phosphoru            (appears in 21 comparisons)
+  2. unchang              (appears in 11 comparisons)
+  3. element              (appears in 11 comparisons)
+  4. known                (appears in 9 comparisons)
+  5. grave                (appears in 8 comparisons)
+  6. futur                (appears in 8 comparisons)
+  7. origin               (appears in 8 comparisons)
+  8. rock                 (appears in 7 comparisons)
+  9. life                 (appears in 5 comparisons)
+ 10. differ               (appears in 4 comparisons)
+
+Total unique features used: 87
+
+================================================================================
+
+DETAILED TEXT REUSE INSTANCES
+================================================================================
+Showing all 44 instances (sorted by TF-IDF similarity):
+
+Instance 1:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 60 ↔ 62
+ TF-IDF Similarity: 0.294
+ Shared Features: 0
+ Features in Text 1: 2
+ Features in Text 2: 1
+ Word Counts: 6 ↔ 44
+ Text 1 (14e): 57 And on the elements unchangeable.
+ Text 2 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Top Shared Features: phosphoru, unchang, element
+--------------------------------------------------------------------------------
+Instance 2:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 167 ↔ 62
+ TF-IDF Similarity: 0.272
+ Shared Features: 0
+ Features in Text 1: 3
+ Features in Text 2: 1
+ Word Counts: 8 ↔ 44
+ Text 1 (14e): Which is the future life beyond the grave. –
+ Text 2 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ravenna', 'description': 'Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.', 'id': 'place_245'}]
+ Top Shared Features: phosphoru, grave, futur, life
+--------------------------------------------------------------------------------
+Instance 3:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 2
+ Pages: 62 ↔ 80
+ TF-IDF Similarity: 0.269
+ Shared Features: 0
+ Features in Text 1: 1
+ Features in Text 2: 3
+ Word Counts: 44 ↔ 10
+ Text 1 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Text 2 (14g): In the rocks of known aqueous origin there is less
+ Top Shared Features: phosphoru, origin, known, rock
+--------------------------------------------------------------------------------
+Instance 4:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 157 ↔ 156
+ TF-IDF Similarity: 0.253
+ Shared Features: 6
+ Features in Text 1: 9
+ Features in Text 2: 17
+ Word Counts: 14 ↔ 34
+ Text 1 (14e): Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .
+ Text 2 (14g): when I return } return } . + , 6.12 1 On the road to the Baths of Lucca Baths of Lucca Baths of Lucca layers of Limestone & chert very near each other...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}]
+ Top Shared Features: bath lucca, bath, lucca, lucca bath, bath lucca bath
+--------------------------------------------------------------------------------
+Instance 5:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 60 ↔ 167
+ TF-IDF Similarity: 0.245
+ Shared Features: 0
+ Features in Text 1: 2
+ Features in Text 2: 3
+ Word Counts: 6 ↔ 8
+ Text 1 (14e): 57 And on the elements unchangeable.
+ Text 2 (14e): Which is the future life beyond the grave. –
+ Metadata Text 2 (14e):
+  places: [{'name': 'Ravenna', 'description': 'Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.', 'id': 'place_245'}]
+ Top Shared Features: unchang, grave, element, futur, life
+--------------------------------------------------------------------------------
+
+Instance 6:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 2 ↔ 0
+ Pages: 80 ↔ 83
+ TF-IDF Similarity: 0.243
+ Shared Features: 1
+ Features in Text 1: 3
+ Features in Text 2: 5
+ Word Counts: 10 ↔ 9
+ Text 1 (14g): In the rocks of known aqueous origin there is less
+ Text 2 (14g): history or tradition - are not now known to exist.
+ Top Shared Features: known, origin, histori tradit, tradit, rock
+--------------------------------------------------------------------------------
+Instance 7:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 2
+ Pages: 60 ↔ 80
+ TF-IDF Similarity: 0.242
+ Shared Features: 0
+ Features in Text 1: 2
+ Features in Text 2: 3
+ Word Counts: 6 ↔ 10
+ Text 1 (14e): 57 And on the elements unchangeable.
+ Text 2 (14g): In the rocks of known aqueous origin there is less
+ Top Shared Features: unchang, origin, element, known, rock
+--------------------------------------------------------------------------------
+Instance 8:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 62 ↔ 66
+ TF-IDF Similarity: 0.240
+ Shared Features: 0
+ Features in Text 1: 1
+ Features in Text 2: 5
+ Word Counts: 44 ↔ 8
+ Text 1 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Text 2 (14g): such as are now produced only in ages.
+ Metadata Text 2 (14g):
+  places: [{'name': 'Guernsey', 'description': 'One of the Channel Islands in the English Channel near the French coast.', 'id': 'place_938'}, {'name': 'Isles of Scilly', 'description': 'The Scilly Isles are an archipelago off the south western tip of Cornwall.', 'id': 'place_513'}, {'name': 'Jersey', 'description': 'The largest of the Channel Islands, between England and France.', 'id': 'place_939'}, {'name': 'England', 'description': 'England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.', 'id': 'place_121'}, {'name': 'Ireland', 'description': '', 'id': 'place_018'}, {'name': 'Orkney', 'description': 'An archipelago off the northeastern coast of Scotland.', 'id': 'place_940'}]
+ Top Shared Features: phosphoru, produc onli age, produc onli, age, onli
+--------------------------------------------------------------------------------
+Instance 9:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 62 ↔ 147
+ TF-IDF Similarity: 0.239
+ Shared Features: 0
+ Features in Text 1: 1
+ Features in Text 2: 5
+ Word Counts: 44 ↔ 13
+ Text 1 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Text 2 (14g): - A life in which no faculties are employed: but those of eating & generating
+ Top Shared Features: phosphoru, eat, employ, faculti, gener
+--------------------------------------------------------------------------------
+Instance 10:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 62 ↔ 83
+ TF-IDF Similarity: 0.238
+ Shared Features: 0
+ Features in Text 1: 1
+ Features in Text 2: 5
+ Word Counts: 44 ↔ 9
+ Text 1 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Text 2 (14g): history or tradition - are not now known to exist.
+ Top Shared Features: phosphoru, histori tradit, tradit, histori, known
+--------------------------------------------------------------------------------
+
+Instance 11:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 55 ↔ 62
+ TF-IDF Similarity: 0.237
+ Shared Features: 0
+ Features in Text 1: 5
+ Features in Text 2: 1
+ Word Counts: 15 ↔ 44
+ Text 1 (14g): 51 by xxxxxxx which in degrading or destroying different countries have carried down different materials.
+ Text 2 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Top Shared Features: phosphoru, differ, countri, carri, destroy
+--------------------------------------------------------------------------------
+Instance 12:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 62 ↔ 89
+ TF-IDF Similarity: 0.234
+ Shared Features: 0
+ Features in Text 1: 1
+ Features in Text 2: 6
+ Word Counts: 44 ↔ 24
+ Text 1 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Text 2 (14g): - Sunday - 18 Sunday 18. Sunday 18. Mantua 19 24 Ala - 20 23 } vegetation Riva - 2 x 28 6 days more 6 days more 22
+ Metadata Text 2 (14g):
+  persons: [{'name': 'DenisPapin', 'birth': '', 'death': '', 'description': 'French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.', 'id': 'person_304'}]
+  places: [{'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}, {'name': 'Filigare', 'description': 'Tuscany, Italy.', 'id': 'place_1004'}, {'name': 'Lago di Garda', 'description': 'Lake Garda is the largest lake in Italy.', 'id': 'place_551'}, {'name': 'Florence', 'description': 'The capital city of the Italian region of Tuscany.', 'id': 'place_1080'}, {'name': 'Bologna', 'description': 'A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.', 'id': 'place_942'}, {'name': 'Ala', 'description': 'A comune in Trentino, north-eastern Italy.', 'id': 'place_948'}, {'name': 'England', 'description': 'England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.', 'id': 'place_121'}, {'name': 'Mantua', 'description': 'A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.', 'id': 'place_947'}]
+ Top Shared Features: phosphoru, sunday, sunday sunday, riva, day day
+--------------------------------------------------------------------------------
+Instance 13:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 167 ↔ 147
+ TF-IDF Similarity: 0.229
+ Shared Features: 1
+ Features in Text 1: 3
+ Features in Text 2: 5
+ Word Counts: 8 ↔ 13
+ Text 1 (14e): Which is the future life beyond the grave. –
+ Text 2 (14g): - A life in which no faculties are employed: but those of eating & generating
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ravenna', 'description': 'Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.', 'id': 'place_245'}]
+ Top Shared Features: grave, futur, life, eat, employ
+--------------------------------------------------------------------------------
+Instance 14:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 98 ↔ 62
+ TF-IDF Similarity: 0.228
+ Shared Features: 0
+ Features in Text 1: 6
+ Features in Text 2: 1
+ Word Counts: 8 ↔ 44
+ Text 1 (14e): 95 Seeking the light of Valens morning star.
+ Text 2 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Top Shared Features: phosphoru, morn star, seek light, seek, morn
+--------------------------------------------------------------------------------
+Instance 15:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 2
+ Pages: 167 ↔ 80
+ TF-IDF Similarity: 0.228
+ Shared Features: 0
+ Features in Text 1: 3
+ Features in Text 2: 3
+ Word Counts: 8 ↔ 10
+ Text 1 (14e): Which is the future life beyond the grave. –
+ Text 2 (14g): In the rocks of known aqueous origin there is less
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ravenna', 'description': 'Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.', 'id': 'place_245'}]
+ Top Shared Features: grave, origin, futur, known, rock
+--------------------------------------------------------------------------------
+
+Instance 16:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 142 ↔ 62
+ TF-IDF Similarity: 0.226
+ Shared Features: 0
+ Features in Text 1: 6
+ Features in Text 2: 1
+ Word Counts: 13 ↔ 44
+ Text 1 (14e): & with respect to the attempt made by Demagoges whether in newspapers or speeches.
+ Text 2 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Top Shared Features: phosphoru, newspap, respect attempt demagog, respect attempt, newspap speech
+--------------------------------------------------------------------------------
+Instance 17:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 54 ↔ 62
+ TF-IDF Similarity: 0.225
+ Shared Features: 0
+ Features in Text 1: 6
+ Features in Text 2: 1
+ Word Counts: 17 ↔ 44
+ Text 1 (14e): 51 To a Child; daughter To a Child; daughter To a Child; daughter of T. and AB.
+ Text 2 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Top Shared Features: phosphoru, child daughter, daughter, daughter child, daughter child daughter
+--------------------------------------------------------------------------------
+Instance 18:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 60 ↔ 66
+ TF-IDF Similarity: 0.219
+ Shared Features: 0
+ Features in Text 1: 2
+ Features in Text 2: 5
+ Word Counts: 6 ↔ 8
+ Text 1 (14e): 57 And on the elements unchangeable.
+ Text 2 (14g): such as are now produced only in ages.
+ Metadata Text 2 (14g):
+  places: [{'name': 'Guernsey', 'description': 'One of the Channel Islands in the English Channel near the French coast.', 'id': 'place_938'}, {'name': 'Isles of Scilly', 'description': 'The Scilly Isles are an archipelago off the south western tip of Cornwall.', 'id': 'place_513'}, {'name': 'Jersey', 'description': 'The largest of the Channel Islands, between England and France.', 'id': 'place_939'}, {'name': 'England', 'description': 'England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.', 'id': 'place_121'}, {'name': 'Ireland', 'description': '', 'id': 'place_018'}, {'name': 'Orkney', 'description': 'An archipelago off the northeastern coast of Scotland.', 'id': 'place_940'}]
+ Top Shared Features: unchang, element, produc onli, produc onli age, age
+--------------------------------------------------------------------------------
+Instance 19:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 60 ↔ 147
+ TF-IDF Similarity: 0.218
+ Shared Features: 0
+ Features in Text 1: 2
+ Features in Text 2: 5
+ Word Counts: 6 ↔ 13
+ Text 1 (14e): 57 And on the elements unchangeable.
+ Text 2 (14g): - A life in which no faculties are employed: but those of eating & generating
+ Top Shared Features: unchang, element, eat, employ, faculti
+--------------------------------------------------------------------------------
+Instance 20:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 60 ↔ 83
+ TF-IDF Similarity: 0.217
+ Shared Features: 0
+ Features in Text 1: 2
+ Features in Text 2: 5
+ Word Counts: 6 ↔ 9
+ Text 1 (14e): 57 And on the elements unchangeable.
+ Text 2 (14g): history or tradition - are not now known to exist.
+ Top Shared Features: unchang, element, histori tradit, tradit, histori
+--------------------------------------------------------------------------------
+
+Instance 21:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 60 ↔ 55
+ TF-IDF Similarity: 0.217
+ Shared Features: 0
+ Features in Text 1: 2
+ Features in Text 2: 5
+ Word Counts: 6 ↔ 15
+ Text 1 (14e): 57 And on the elements unchangeable.
+ Text 2 (14g): 51 by xxxxxxx which in degrading or destroying different countries have carried down different materials.
+ Top Shared Features: unchang, element, differ, countri, carri
+--------------------------------------------------------------------------------
+Instance 22:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 47 ↔ 62
+ TF-IDF Similarity: 0.216
+ Shared Features: 0
+ Features in Text 1: 7
+ Features in Text 2: 1
+ Word Counts: 16 ↔ 44
+ Text 1 (14g): To determine if the opinion or the facts of Lanley be correct that the cold in
+ Text 2 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Carrara', 'description': 'Carrara is a city in central Italy.', 'id': 'place_243'}, {'name': 'Naples', 'description': 'Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.', 'id': 'place_156'}, {'name': 'Rome', 'description': 'The capital of Italy.', 'id': 'place_155'}, {'name': 'Vatican City', 'description': 'The Vatican City is a city-state surrounded by Rome, Italy.', 'id': 'place_178'}]
+ Top Shared Features: phosphoru, opinion fact, opinion fact lanley, opinion, correct
+--------------------------------------------------------------------------------
+Instance 23:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 60 ↔ 89
+ TF-IDF Similarity: 0.214
+ Shared Features: 0
+ Features in Text 1: 2
+ Features in Text 2: 6
+ Word Counts: 6 ↔ 24
+ Text 1 (14e): 57 And on the elements unchangeable.
+ Text 2 (14g): - Sunday - 18 Sunday 18. Sunday 18. Mantua 19 24 Ala - 20 23 } vegetation Riva - 2 x 28 6 days more 6 days more 22
+ Metadata Text 2 (14g):
+  persons: [{'name': 'DenisPapin', 'birth': '', 'death': '', 'description': 'French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.', 'id': 'person_304'}]
+  places: [{'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}, {'name': 'Filigare', 'description': 'Tuscany, Italy.', 'id': 'place_1004'}, {'name': 'Lago di Garda', 'description': 'Lake Garda is the largest lake in Italy.', 'id': 'place_551'}, {'name': 'Florence', 'description': 'The capital city of the Italian region of Tuscany.', 'id': 'place_1080'}, {'name': 'Bologna', 'description': 'A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.', 'id': 'place_942'}, {'name': 'Ala', 'description': 'A comune in Trentino, north-eastern Italy.', 'id': 'place_948'}, {'name': 'England', 'description': 'England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.', 'id': 'place_121'}, {'name': 'Mantua', 'description': 'A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.', 'id': 'place_947'}]
+ Top Shared Features: unchang, sunday, element, sunday sunday, day day
+--------------------------------------------------------------------------------
+Instance 24:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 2 ↔ 0
+ Pages: 54 ↔ 62
+ TF-IDF Similarity: 0.210
+ Shared Features: 0
+ Features in Text 1: 8
+ Features in Text 2: 1
+ Word Counts: 23 ↔ 44
+ Text 1 (14g): - It may seem incompatible with the existence of living beings in the Ocean that it should contain such substances as these which from
+ Text 2 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Rome', 'description': 'The capital of Italy.', 'id': 'place_155'}]
+ Top Shared Features: phosphoru, contain substanc, ocean contain, incompat, substanc
+--------------------------------------------------------------------------------
+Instance 25:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 141 ↔ 62
+ TF-IDF Similarity: 0.209
+ Shared Features: 0
+ Features in Text 1: 8
+ Features in Text 2: 1
+ Word Counts: 16 ↔ 44
+ Text 1 (14e): The Meteors blaze lighting the visible universe Is as transient And vainly should we search where
+ Text 2 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ravenna', 'description': 'Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.', 'id': 'place_245'}, {'name': 'Traunsee', 'description': 'A lake in the Salzkammergut, Upper Austria, Austria.', 'id': 'place_972'}]
+ Top Shared Features: phosphoru, visibl univers, search, meteor, blaze
+--------------------------------------------------------------------------------
+
+Instance 26:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 60 ↔ 98
+ TF-IDF Similarity: 0.209
+ Shared Features: 0
+ Features in Text 1: 2
+ Features in Text 2: 6
+ Word Counts: 6 ↔ 8
+ Text 1 (14e): 57 And on the elements unchangeable.
+ Text 2 (14e): 95 Seeking the light of Valens morning star.
+ Top Shared Features: unchang, element, morn star, seek light, seek
+--------------------------------------------------------------------------------
+Instance 27:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 3 ↔ 62
+ TF-IDF Similarity: 0.208
+ Shared Features: 0
+ Features in Text 1: 8
+ Features in Text 2: 1
+ Word Counts: 17 ↔ 44
+ Text 1 (14g): The last sovereign who claimed the name of Roman Emperor & who Cont renounced that name to purchase
+ Text 2 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Metadata Text 1 (14g):
+  places: [{'name': 'Caucasus Mountains', 'description': 'A mountain range at the intersection of Asia and Europe', 'id': 'place_1149'}, {'name': 'Rome', 'description': 'The capital of Italy.', 'id': 'place_155'}, {'name': 'Greece', 'description': '', 'id': 'place_167'}]
+ Top Shared Features: phosphoru, purchas, renounc, renounc purchas, sovereign
+--------------------------------------------------------------------------------
+Instance 28:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 167 ↔ 66
+ TF-IDF Similarity: 0.207
+ Shared Features: 0
+ Features in Text 1: 3
+ Features in Text 2: 5
+ Word Counts: 8 ↔ 8
+ Text 1 (14e): Which is the future life beyond the grave. –
+ Text 2 (14g): such as are now produced only in ages.
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ravenna', 'description': 'Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.', 'id': 'place_245'}]
+ Metadata Text 2 (14g):
+  places: [{'name': 'Guernsey', 'description': 'One of the Channel Islands in the English Channel near the French coast.', 'id': 'place_938'}, {'name': 'Isles of Scilly', 'description': 'The Scilly Isles are an archipelago off the south western tip of Cornwall.', 'id': 'place_513'}, {'name': 'Jersey', 'description': 'The largest of the Channel Islands, between England and France.', 'id': 'place_939'}, {'name': 'England', 'description': 'England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.', 'id': 'place_121'}, {'name': 'Ireland', 'description': '', 'id': 'place_018'}, {'name': 'Orkney', 'description': 'An archipelago off the northeastern coast of Scotland.', 'id': 'place_940'}]
+ Top Shared Features: grave, futur, produc onli, produc onli age, life
+--------------------------------------------------------------------------------
+Instance 29:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 60 ↔ 142
+ TF-IDF Similarity: 0.207
+ Shared Features: 0
+ Features in Text 1: 2
+ Features in Text 2: 6
+ Word Counts: 6 ↔ 13
+ Text 1 (14e): 57 And on the elements unchangeable.
+ Text 2 (14e): & with respect to the attempt made by Demagoges whether in newspapers or speeches.
+ Top Shared Features: unchang, element, newspap, respect attempt demagog, respect attempt
+--------------------------------------------------------------------------------
+Instance 30:
+ Notebooks: 14e ↔ 14e
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 54 ↔ 60
+ TF-IDF Similarity: 0.206
+ Shared Features: 0
+ Features in Text 1: 6
+ Features in Text 2: 2
+ Word Counts: 17 ↔ 6
+ Text 1 (14e): 51 To a Child; daughter To a Child; daughter To a Child; daughter of T. and AB.
+ Text 2 (14e): 57 And on the elements unchangeable.
+ Top Shared Features: unchang, element, child daughter, daughter, child daughter child
+--------------------------------------------------------------------------------
+
+Instance 31:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 167 ↔ 83
+ TF-IDF Similarity: 0.205
+ Shared Features: 0
+ Features in Text 1: 3
+ Features in Text 2: 5
+ Word Counts: 8 ↔ 9
+ Text 1 (14e): Which is the future life beyond the grave. –
+ Text 2 (14g): history or tradition - are not now known to exist.
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ravenna', 'description': 'Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.', 'id': 'place_245'}]
+ Top Shared Features: grave, futur, histori tradit, tradit, histori
+--------------------------------------------------------------------------------
+Instance 32:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 2
+ Pages: 66 ↔ 80
+ TF-IDF Similarity: 0.205
+ Shared Features: 0
+ Features in Text 1: 5
+ Features in Text 2: 3
+ Word Counts: 8 ↔ 10
+ Text 1 (14g): such as are now produced only in ages.
+ Text 2 (14g): In the rocks of known aqueous origin there is less
+ Metadata Text 1 (14g):
+  places: [{'name': 'Guernsey', 'description': 'One of the Channel Islands in the English Channel near the French coast.', 'id': 'place_938'}, {'name': 'Isles of Scilly', 'description': 'The Scilly Isles are an archipelago off the south western tip of Cornwall.', 'id': 'place_513'}, {'name': 'Jersey', 'description': 'The largest of the Channel Islands, between England and France.', 'id': 'place_939'}, {'name': 'England', 'description': 'England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.', 'id': 'place_121'}, {'name': 'Ireland', 'description': '', 'id': 'place_018'}, {'name': 'Orkney', 'description': 'An archipelago off the northeastern coast of Scotland.', 'id': 'place_940'}]
+ Top Shared Features: origin, known, produc onli, produc onli age, rock
+--------------------------------------------------------------------------------
+Instance 33:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 167 ↔ 55
+ TF-IDF Similarity: 0.205
+ Shared Features: 0
+ Features in Text 1: 3
+ Features in Text 2: 5
+ Word Counts: 8 ↔ 15
+ Text 1 (14e): Which is the future life beyond the grave. –
+ Text 2 (14g): 51 by xxxxxxx which in degrading or destroying different countries have carried down different materials.
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ravenna', 'description': 'Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.', 'id': 'place_245'}]
+ Top Shared Features: grave, futur, differ, countri, carri
+--------------------------------------------------------------------------------
+Instance 34:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 62 ↔ 129
+ TF-IDF Similarity: 0.204
+ Shared Features: 0
+ Features in Text 1: 1
+ Features in Text 2: 9
+ Word Counts: 44 ↔ 19
+ Text 1 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Text 2 (14g): upon the retina &c occasion a sensation of vision but this is expressing nothing more than that the sensation
+ Top Shared Features: phosphoru, sensat, occas sensat vision, occas sensat, vision thi
+--------------------------------------------------------------------------------
+Instance 35:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 2 ↔ 1
+ Pages: 80 ↔ 147
+ TF-IDF Similarity: 0.204
+ Shared Features: 0
+ Features in Text 1: 3
+ Features in Text 2: 5
+ Word Counts: 10 ↔ 13
+ Text 1 (14g): In the rocks of known aqueous origin there is less
+ Text 2 (14g): - A life in which no faculties are employed: but those of eating & generating
+ Top Shared Features: origin, known, eat, employ, faculti
+--------------------------------------------------------------------------------
+
+Instance 36:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 157 ↔ 62
+ TF-IDF Similarity: 0.204
+ Shared Features: 0
+ Features in Text 1: 9
+ Features in Text 2: 1
+ Word Counts: 14 ↔ 44
+ Text 1 (14e): Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .
+ Text 2 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Metadata Text 1 (14e):
+  places: [{'name': 'Bagni di Lucca', 'description': 'A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.', 'id': 'place_952'}, {'name': 'Lima', 'description': 'river in the Bagni di Lucca', 'id': 'place_1246'}]
+ Top Shared Features: phosphoru, bath lucca, bath, lucca, bath lucca bath
+--------------------------------------------------------------------------------
+Instance 37:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 0
+ Pages: 35 ↔ 62
+ TF-IDF Similarity: 0.204
+ Shared Features: 0
+ Features in Text 1: 10
+ Features in Text 2: 1
+ Word Counts: 24 ↔ 44
+ Text 1 (14g): as He expresses himself He should be able to succeed if be able to succeed if burn in this exp ts ; - He placed
+ Text 2 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Top Shared Features: phosphoru, abl succeed, abl, succeed, exp ts
+--------------------------------------------------------------------------------
+Instance 38:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 2
+ Pages: 55 ↔ 80
+ TF-IDF Similarity: 0.203
+ Shared Features: 0
+ Features in Text 1: 5
+ Features in Text 2: 3
+ Word Counts: 15 ↔ 10
+ Text 1 (14g): 51 by xxxxxxx which in degrading or destroying different countries have carried down different materials.
+ Text 2 (14g): In the rocks of known aqueous origin there is less
+ Top Shared Features: origin, known, differ, rock, countri
+--------------------------------------------------------------------------------
+Instance 39:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 99 ↔ 104
+ TF-IDF Similarity: 0.203
+ Shared Features: 28
+ Features in Text 1: 35
+ Features in Text 2: 43
+ Word Counts: 25 ↔ 33
+ Text 1 (14g): The torrent roaring from the moun- tain Which ravages a hundred fields Conducted tranquil from its fountain Bloom freshness, verdure, plenty yields. H...
+ Text 2 (14g): Give it its attribute divine But still subdue control repress The torrent roaring from the mountain Which ravages a thousand hundred fields Conducted ...
+ Top Shared Features: conduct, field conduct tranquil, bloom fresh, bloom fresh verdur, fountain bloom
+--------------------------------------------------------------------------------
+Instance 40:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 2
+ Pages: 62 ↔ 88
+ TF-IDF Similarity: 0.203
+ Shared Features: 0
+ Features in Text 1: 1
+ Features in Text 2: 9
+ Word Counts: 44 ↔ 12
+ Text 1 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Text 2 (14g): - But on penetrating beneath the surface the character & arrangement of nature is
+ Metadata Text 2 (14g):
+  places: [{'name': 'Bologna', 'description': 'A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.', 'id': 'place_942'}]
+ Top Shared Features: phosphoru, penetr beneath surfac, penetr beneath, beneath surfac, penetr
+--------------------------------------------------------------------------------
+
+Instance 41:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 1
+ Pages: 62 ↔ 139
+ TF-IDF Similarity: 0.202
+ Shared Features: 0
+ Features in Text 1: 1
+ Features in Text 2: 9
+ Word Counts: 44 ↔ 10
+ Text 1 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Text 2 (14g): - Chemic : Our language represents only thoughts which belonging to
+ Metadata Text 2 (14g):
+  persons: [{'name': 'Muhammad', 'birth': '', 'death': '', 'description': 'The Holy Prophet and founder of Islam.', 'id': 'person_114'}]
+ Top Shared Features: phosphoru, repres, repres onli, repres onli thought, thought belong
+--------------------------------------------------------------------------------
+Instance 42:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 0 ↔ 0
+ Pages: 61 ↔ 62
+ TF-IDF Similarity: 0.202
+ Shared Features: 0
+ Features in Text 1: 10
+ Features in Text 2: 1
+ Word Counts: 23 ↔ 44
+ Text 1 (14g): 57 The alluvial or diluvial The alluvial or diluvial changes in our globe are connected rather with destruction than consolidation than consolidation ...
+ Text 2 (14g): so if 67.15.70.3 1 67 / 10545 / 15.7 67 384 335 490 100 24.5 28.5 245 1425 11. 40 525 30325 297 / 1570 / 52 1485 285 850 594 53 2560 29.7. 1 5 7 157 2...
+ Top Shared Features: phosphoru, alluvi, alluvi diluvi, diluvi, consolid
+--------------------------------------------------------------------------------
+Instance 43:
+ Notebooks: 14e ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 1 ↔ 1
+ Pages: 167 ↔ 89
+ TF-IDF Similarity: 0.202
+ Shared Features: 0
+ Features in Text 1: 3
+ Features in Text 2: 6
+ Word Counts: 8 ↔ 24
+ Text 1 (14e): Which is the future life beyond the grave. –
+ Text 2 (14g): - Sunday - 18 Sunday 18. Sunday 18. Mantua 19 24 Ala - 20 23 } vegetation Riva - 2 x 28 6 days more 6 days more 22
+ Metadata Text 1 (14e):
+  places: [{'name': 'Ravenna', 'description': 'Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.', 'id': 'place_245'}]
+ Metadata Text 2 (14g):
+  persons: [{'name': 'DenisPapin', 'birth': '', 'death': '', 'description': 'French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.', 'id': 'person_304'}]
+  places: [{'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}, {'name': 'Filigare', 'description': 'Tuscany, Italy.', 'id': 'place_1004'}, {'name': 'Lago di Garda', 'description': 'Lake Garda is the largest lake in Italy.', 'id': 'place_551'}, {'name': 'Florence', 'description': 'The capital city of the Italian region of Tuscany.', 'id': 'place_1080'}, {'name': 'Bologna', 'description': 'A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.', 'id': 'place_942'}, {'name': 'Ala', 'description': 'A comune in Trentino, north-eastern Italy.', 'id': 'place_948'}, {'name': 'England', 'description': 'England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.', 'id': 'place_121'}, {'name': 'Mantua', 'description': 'A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.', 'id': 'place_947'}]
+ Top Shared Features: grave, sunday, futur, sunday sunday, life
+--------------------------------------------------------------------------------
+Instance 44:
+ Notebooks: 14g ↔ 14g
+ Files: page_to_text.json ↔ page_to_text.json
+ Segments (on page): 2 ↔ 1
+ Pages: 80 ↔ 89
+ TF-IDF Similarity: 0.201
+ Shared Features: 0
+ Features in Text 1: 3
+ Features in Text 2: 6
+ Word Counts: 10 ↔ 24
+ Text 1 (14g): In the rocks of known aqueous origin there is less
+ Text 2 (14g): - Sunday - 18 Sunday 18. Sunday 18. Mantua 19 24 Ala - 20 23 } vegetation Riva - 2 x 28 6 days more 6 days more 22
+ Metadata Text 2 (14g):
+  persons: [{'name': 'DenisPapin', 'birth': '', 'death': '', 'description': 'French-born assistant in the Royal Society of London. Developed an early form of the steam engine. FRSL.', 'id': 'person_304'}]
+  places: [{'name': 'Bagni Caldi', 'description': 'A village in north-western Italy famous for its thermal baths.', 'id': 'place_767'}, {'name': 'Filigare', 'description': 'Tuscany, Italy.', 'id': 'place_1004'}, {'name': 'Lago di Garda', 'description': 'Lake Garda is the largest lake in Italy.', 'id': 'place_551'}, {'name': 'Florence', 'description': 'The capital city of the Italian region of Tuscany.', 'id': 'place_1080'}, {'name': 'Bologna', 'description': 'A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.', 'id': 'place_942'}, {'name': 'Ala', 'description': 'A comune in Trentino, north-eastern Italy.', 'id': 'place_948'}, {'name': 'England', 'description': 'England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.', 'id': 'place_121'}, {'name': 'Mantua', 'description': 'A city surrounded by 3 artificial lakes in the northern Italian region of Lombardy.', 'id': 'place_947'}]
+ Top Shared Features: sunday, origin, known, sunday sunday, rock
+--------------------------------------------------------------------------------
+
+END OF DETAILED REPORT
+================================================================================

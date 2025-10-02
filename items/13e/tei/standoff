@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standOff>
+      <listPerson>
+         <person xml:id="person_951">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jesus</forename>
+               <surname>Christ</surname>
+            </persName>
+            <birth when="c. 6-4 BC"/>
+            <death when="AD 30 or 33"/>
+            <note>The central figure of Christianity; a first-century Jewish preacher and religious leader.</note>
+         </person>
+         <person xml:id="person_029">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Thomas</forename>
+               <surname>Beddoes</surname>
+            </persName>
+            <birth when="1760"/>
+            <death when="1808"/>
+            <note>A politically radical (Jacobin) chemist and physician who in the 1790s established the Medical Pneumatic Institution in Bristol to investigate the physiological and possible curative effects of all the gases discovered during the eighteenth century. Between late 1798 and early 1801 he employed Davy as Superintendent of the Institution.</note>
+         </person>
+         <person xml:id="person_736">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">William</forename>
+               <surname>Clayfield</surname>
+            </persName>
+            <birth when="1772"/>
+            <death when="1837"/>
+            <note>A Bristol man of science and a colleague of Davy's at the Medical Pneumatic Institution.</note>
+         </person>
+         <person xml:id="person_030">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Antoine-Laurent</forename>
+               <surname>Lavoisier</surname>
+            </persName>
+            <birth when="1742"/>
+            <death when="1794"/>
+            <note>French chemist and tax farmer (for which he was guillotined). Developed a new nomenclature for chemistry (much of which is still in use today) and argued strongly against the existence of phlogiston. Davy read some of his writings while in Cornwall which he then opposed and throughout his career maintained an ambivalent attitude towards Lavoisierian chemisty. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_018">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">David</forename>
+               <surname>Hartley</surname>
+            </persName>
+            <birth when="1705 (bap.)"/>
+            <death when="1757"/>
+            <note>Associationist, whose work argued that the vibrations of nerves created sensation. FRSL.</note>
+         </person>
+         <person xml:id="person_275">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Prometheus</surname>
+            </persName>
+            <note>In Greek mythology, defied the Olympian gods by stealing fire and giving it to humans.</note>
+         </person>
+      </listPerson>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_523" type="description">
+            <term id="misc_523-term">The Gospel</term>
+            <gloss id="misc_523-gloss" target="#misc_523-term">
+               <p>There are four gospels in the New Testament of the Bible.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_335" type="description">
+            <term id="misc_335-term">Mahometans</term>
+            <gloss id="misc_335-gloss" target="#misc_335-term">
+               <p>A historical term used to denote a follower of Muhammad, the Islamic prophet; the word Muslim is more acceptable today. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_878" type="description">
+            <term id="misc_878-term">Ignes fatui</term>
+            <gloss id="misc_878-gloss" target="#misc_878-term">
+               <p>The plural of ignis fatuus, or will-o'-the wisp. An atmospheric ghost light seen by travellers at night, especially over bogs or marshes.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_829" type="description">
+            <term id="misc_829-term">Letter to Davies Giddy, 12th November 1798</term>
+            <gloss id="misc_829-gloss" target="#misc_829-term">
+               <p>This is a letter to Davies Giddy, dated 12 November 1798, published in Paris, Life, i, 64-66 and the Collected Letters of Sir Humphry Davy, i, 14-16</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_879" type="description">
+            <term id="misc_879-term">Table of the Combination of Light</term>
+            <gloss id="misc_879-gloss" target="#misc_879-term">
+               <p>Draft of a table which appeared in Th. Beddoes 'Contributions to Physical and Medical Knowledge' Bristol 1799, page 91</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_272" type="description">
+            <term id="misc_272-term">Eudiometer</term>
+            <gloss id="misc_272-gloss" target="#misc_272-term">
+               <p>A eudiometer is a laboratory device that measures the change in volume of a gas mixture following a physical or chemical change. An early version was used by Priestley in the discovery of oxygen.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_103" type="description">
+            <term id="misc_103-term">Pyrophorus</term>
+            <gloss id="misc_103-gloss" target="#misc_103-term">
+               <p>A substance the ignites spontaneously after exposure to air, one of the earliest known is that of Homberg.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_109" type="description">
+            <term id="misc_109-term">aeriform</term>
+            <gloss id="misc_109-gloss" target="#misc_109-term">
+               <p>Meaning having the form or nature of air; gaseous. </p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listPlace>
+         <place xml:id="place_531">
+            <placeName>India</placeName>
+            <location>
+               <geo decls="#WGS84">21.021002369595717,  77.784400651531399</geo>
+            </location>
+         </place>
+         <place xml:id="place_645">
+            <placeName>Medical Pneumatic Institution</placeName>
+            <location>
+               <geo decls="#WGS84">51.45094392071816, -2.6199696113186799</geo>
+            </location>
+            <note>By 1798, located in 6-7 Dowry Square, Hotwells, Clifton, Bristol. Davy was employed by Thomas Beddoes to work as its Superindendent.</note>
+         </place>
+         <place xml:id="place_162">
+            <placeName>Devon</placeName>
+            <location>
+               <geo decls="#WGS84">50.7831111085829,  -3.8387768410054801</geo>
+            </location>
+            <note>A county in south-west England.</note>
+         </place>
+         <place xml:id="place_121">
+            <placeName>England</placeName>
+            <location>
+               <geo decls="#WGS84">52.12544136722214, -1.7566152421063299</geo>
+            </location>
+            <note>England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.</note>
+         </place>
+         <place xml:id="place_914">
+            <placeName>River Severn</placeName>
+            <location>
+               <geo decls="#WGS84">52.522460, -3.2715190000000001</geo>
+            </location>
+            <note>At 220 miles long, the longest river in Great Britain.</note>
+         </place>
+         <place xml:id="place_005">
+            <placeName>Clifton</placeName>
+            <location>
+               <geo decls="#WGS84">51.4664018428197 -2.6204596064644798</geo>
+            </location>
+            <note>A suburb of the city of Bristol, and the site of the Medical Pneumatic Institution.</note>
+         </place>
+         <place xml:id="place_006">
+            <placeName>Penzance</placeName>
+            <location>
+               <geo decls="#WGS84">50.118964210485103 -5.5376388527810203</geo>
+            </location>
+            <note>Penzance is a town, civil parish, and port in the Penwith district of Cornwall, and Davy's birthplace.</note>
+         </place>
+      </listPlace>
+      <listNym type="chemical">
+         <nym xml:id="chemical_022">
+            <form>oxygene</form>
+            <def>
+               <p>Symbol/formula: O</p>
+               <p>Now known as oxygen. Oxygen is a colourless, odourless, tasteless gas essential to living organisms.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_039">
+            <form>phosoxygen</form>
+            <def>
+               <p>Davy's working name for the combination of light and oxygen. He published his theories in a collection of essays entitled On Heat, Light, and the Combinations of Light, On Phos-oxygen and its Combinations (1799).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_042">
+            <form>baryte</form>
+            <def>
+               <p>Symbol/formula: BaSO4</p>
+               <p>In modern nomenclature, a mineral consisting of barium sulphate. In Davy's terminology it might have been equivalent to baryta, BaO.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_516">
+            <form>Phosphuret of strontian</form>
+            <def>
+               <p>Symbol/formula: Sr3P2</p>
+               <p>In modern terms this is strontium phosphide, an inorganic compound of strontium and phosphorus. The compound looks like black crystalline material.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_514">
+            <form>Strontian</form>
+            <def>
+               <p>Symbol/formula: Sr</p>
+               <p>Old terminology for strontium, an alkaline earth metal, a soft silver-white yellowish metallic element that is highly chemically reactive. The metal forms a dark oxide layer when it is exposed to air.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_016">
+            <form>muriatic acid</form>
+            <def>
+               <p>Symbol/formula: HCl</p>
+               <p>Hydrochloric acid. Davy also refers to this as muriatic gas and marine acid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_041">
+            <form>boric acid</form>
+            <def>
+               <p>Symbol/formula: B(OH)3</p>
+               <p>A compound of boron, oxygen, and hydrogen. Davy often refers to this as boracic acid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_010">
+            <form>lime</form>
+            <def>
+               <p>Symbol/formula: CaO</p>
+               <p>Commonly known as quicklime or burnt lime, calcium oxide is a widely used chemical compound. It is a white, caustic, alkaline, crystalline solid at room temperature.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_051">
+            <form>phosphate of lime</form>
+            <def>
+               <p>Symbol/formula: Ca3(PO4)2</p>
+               <p>Tricalcium phosphate (sometimes abbreviated TCP) is a calcium salt of phosphoric acid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_513">
+            <form>Sulphate of Strontian</form>
+            <def>
+               <p>Symbol/formula: SrSO4</p>
+               <p>The sulfate salt of strontium, in modern terms strontium sulphate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_190">
+            <form>barytes</form>
+            <def>
+               <p>Symbol/formula: BaSO4</p>
+               <p>Now known as barium sulphate (BaSO4), a white crystalline solid, occurring as the mineral barites.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_299">
+            <form>muriate of barytes</form>
+            <def>
+               <p>Symbol/formula: BaCl2</p>
+               <p>Now known as barium chloride. It is a white powder, highly toxic, and imparts a yellow-green coloration to a flame.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_052">
+            <form>gaseous oxide of azote</form>
+            <def>
+               <p>Symbol/formula: N2O</p>
+               <p>Nitrous oxide. Davy initially refered to nitrous oxide as 'gaseous oxide of azote', but changed to 'nitrous oxide' on the discovery that the gas was respirable.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_072">
+            <form>hydrocarbonate </form>
+            <def>
+               <p>Symbol/formula: H2 + CO</p>
+               <p>Hydrogen mixed with carbon monoxide. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_007">
+            <form>hydrogene</form>
+            <def>
+               <p>Symbol/formula: H</p>
+               <p>Now known as hydrogen. Hydrogen is the lightest element and, at standard conditions, is a gas of diatomic molecules. It is colourless, odourless, tasteless, non-toxic, and highly combustible.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_058">
+            <form>carbonic acid</form>
+            <def>
+               <p>Symbol/formula: CO2 or H2CO3 </p>
+               <p>Now known as Carbon dioxide (CO2), or a solution of carbon dioxide in water (H2CO3). </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_017">
+            <form>nitrogene</form>
+            <def>
+               <p>Symbol/formula: N</p>
+               <p>Now known as nitrogen. A colourless and odourless gas, nitrogen is non-combustible and non-toxic. Davy also refers to this as azote.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_054">
+            <form>carbon</form>
+            <def>
+               <p>Symbol/formula: C</p>
+               <p>A non-metallic and tetravalent element. Well-known allotropes include graphite, diamond, amorphous carbon, and fullerenes.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_512">
+            <form>Earths</form>
+            <def>
+               <p>Referring to metal oxides, compounds that contain a single element that is bonded with oxygen.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_055">
+            <form>caustic alkalis</form>
+            <def>
+               <p>The hydrate of potassium (caustic potash) or sodium (caustic soda).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_056">
+            <form>fluoric acid</form>
+            <def>
+               <p>Symbol/formula: HF</p>
+               <p>Hydrofluoric acid. A solution of hydrogen fluoride in water.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_012">
+            <form>mercury</form>
+            <def>
+               <p>Symbol/formula: Hg</p>
+               <p>Also known as quicksilver. A heavy, silvery element, mercury is the only metallic element that is known to be liquid at standard temperature and pressure.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_009">
+            <form>lead</form>
+            <def>
+               <p>Symbol/formula: Pb</p>
+               <p>A heavy metal that is denser than most common materials. Lead is soft and malleable, and also has a relatively low melting point.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_038">
+            <form>tin</form>
+            <def>
+               <p>Symbol/formula: Sn</p>
+               <p>A silvery-coloured metal, tin is soft enough to be cut with little force, and a bar of tin can be bent by hand with little effort.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_008">
+            <form>iron</form>
+            <def>
+               <p>Symbol/formula: Fe</p>
+               <p>A strong, hard, magnetic silvery-grey metal. It is, by mass, the most common element on Earth, just ahead of oxygen, forming much of Earth's outer and inner core.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_201">
+            <form>zinc</form>
+            <def>
+               <p>Symbol/formula: Zn</p>
+               <p>A a slightly brittle metal at room temperature and has a shiny-greyish appearance when oxidation is removed.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_060">
+            <form>manganese</form>
+            <def>
+               <p>Symbol/formula: Mn</p>
+               <p>A hard, brittle, silvery metal, often found in minerals in combination with iron. Manganese was first isolated in the 1770s.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_059">
+            <form>wolfram</form>
+            <def>
+               <p>Symbol/formula: W</p>
+               <p>Also known as tungsten. Tungsten is an exceptionally strong refractory metal. It was identified as a new element in 1781 and first isolated as a metal in 1783.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_030">
+            <form>potash</form>
+            <def>
+               <p>An alkaline substance consisting largely of impure potassium carbonate. In October 1807, Davy decomposed potash using electricity, revealing the previously unknown element potassium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_035">
+            <form>soda</form>
+            <def>
+               <p>An alkaline substance obtained from the ashes of marine or salt-impregnated plants, especially species of Salsola. Davy decomposed soda to reveal its elemental sodium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_003">
+            <form>ammonia</form>
+            <def>
+               <p>Symbol/formula: NH3</p>
+               <p>An inorganic chemical compound of nitrogen and hydrogen. Ammonia is a colourless gas with a distinct pungent smell.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_011">
+            <form>magnesia</form>
+            <def>
+               <p>Symbol/formula: MgO</p>
+               <p>A white hygroscopic solid mineral that occurs naturally as periclase and is a source of magnesium.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_138">
+            <form>phosacids</form>
+            <def>
+               <p>Davy used the phos to refer to these acids as chemical compounds that contained light as an element.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_078">
+            <form>elastic fluid</form>
+            <def>
+               <p>A descriptive term for a gas, emphasising its elastic quality of spontaneous expansion.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_048">
+            <form>nitrous oxide</form>
+            <def>
+               <p>Symbol/formula: N2O</p>
+               <p>Later known as 'laughing gas'. Davy discovered that nitrous oxide was respirable when not contaminated with nitric oxide (NO). Davy researched into the physiological effects of nitrous oxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_151">
+            <form>phosphorus</form>
+            <def>
+               <p>Symbol/formula: P</p>
+               <p>A non-metallic chemical element of the nitrogen family. A colourless, semitransparent, soft, waxy solid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_064">
+            <form>liver of sulphur</form>
+            <def>
+               <p>A mixture of potassium sulphide, potassium polysulphide, potassium thiosulphate, and potassium bisulphide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_037">
+            <form>sulphur</form>
+            <def>
+               <p>Symbol/formula: S</p>
+               <p>Pure sulphur is a tasteless, odourless, brittle solid that is pale yellow in colour, a poor conductor of electricity, and insoluble in water.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_352">
+            <form>green vitriol</form>
+            <def>
+               <p>Symbol/formula: FeSO4</p>
+               <p>Iron(II) sulphate, also known as ferrous sulphate.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_166">
+            <form>iron oxide </form>
+            <def>
+               <p>Symbol/formula: Fe2O3</p>
+               <p>Oxide of iron. A dark red solid which occurs as the mineral haematite and as the main component of rust.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_067">
+            <form>sulfurous acid</form>
+            <def>
+               <p>Symbol/formula: H2SO3</p>
+               <p>Sulphuric acid. A mineral acid composed of the elements sulphur, oxygen, and hydrogen. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_264">
+            <form>iron(II) chloride</form>
+            <def>
+               <p>Symbol/formula: FeCl2</p>
+               <p>A chemical compound also known as ferrous chloride. The compound is white, but typical samples are often off-white.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_143">
+            <form>nitric acid</form>
+            <def>
+               <p>Symbol/formula: HNO3</p>
+               <p>A highly corrosive mineral acid. The compound is colourless, but samples tend to acquire a yellow cast over time due to decomposition into oxides of nitrogen</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_068">
+            <form>sulphite</form>
+            <def>
+               <p>Symbol/formula: SO</p>
+               <p>Any salt or ester of sulphurous acid, containing the ions SO32- or HSO3- (hydrogen sulphite) or the groups -SO3 or -HSO3. The salts are usually soluble crystalline compounds.</p>
+            </def>
+         </nym>
+      </listNym>
+      <listBibl>
+         <bibl xml:id="otherwork_364">
+            <author>William Clayfield</author>
+            <title level="j">Contributions to Physical and Medical Knowledge, Principally from the West of England: collected by Thomas Beddoes, M.D</title>
+            <title level="a" type="main">An Account of several Veins of Sulphate of Strontian or Strontites, found in the neighbourhood of Bristol, with an analysis of the different varieties.</title>
+            <date when="1799">1799</date>
+            <biblScope unit="page">p. 429</biblScope>
+         </bibl>
+         <bibl xml:id="otherwork_014">
+            <author>Thomas Beddoes</author>
+            <author> Humphry Davy</author>
+            <title level="j">Contributions to Physical and Medical Knowledge, Principally from the West of England: collected by Thomas Beddoes, M.D</title>
+            <date when="1799">1799</date>
+            <note>Contains Davy's 'An Essay on Heat, Light and the Combinations of Light' and 'Essay on the Generation of Phosoxygen'.</note>
+         </bibl>
+      </listBibl>
+      <listAnnotation type="nonenglish">
+         <note xml:id="nonenglish_009" type="description">
+            <term id="nonenglish_009-term">quere</term>
+            <gloss id="nonenglish_009-gloss" target="#nonenglish_009-term">
+               <p>query; to enquire (Latin)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_364" type="description">
+            <term id="nonenglish_364-term">Post Salia Rex magnus Illi dabat coronam inferiorem</term>
+            <gloss id="nonenglish_364-gloss" target="#nonenglish_364-term">
+               <p>After the [xxxxx] the great king gave him a lesser crown. (Latin)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_365" type="description">
+            <term id="nonenglish_365-term">lauro verido erat coronatus</term>
+            <gloss id="nonenglish_365-gloss" target="#nonenglish_365-term">
+               <p>He was crowned with green laurel. (Latin)</p>
+            </gloss>
+         </note>
+         <note xml:id="nonenglish_366" type="description">
+            <term id="nonenglish_366-term">Currus Phaetonis</term>
+            <gloss id="nonenglish_366-gloss" target="#nonenglish_366-term">
+               <p>The chariot of Phaeton (Latin)</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

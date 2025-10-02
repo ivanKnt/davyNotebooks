@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standOff>
+      <listPlace>
+         <place xml:id="place_118">
+            <placeName>River Wye</placeName>
+            <location>
+               <geo decls="#WGS84">52.09173956860893,  -3.1802998560858202</geo>
+            </location>
+            <note>The River Wye is the fourth-longest river in the UK, stretching from its source on Plynlimon in mid-Wales to the Severn Estuary. For much of its length the river forms part of the border between England and Wales.</note>
+         </place>
+         <place xml:id="place_121">
+            <placeName>England</placeName>
+            <location>
+               <geo decls="#WGS84">52.12544136722214, -1.7566152421063299</geo>
+            </location>
+            <note>England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.</note>
+         </place>
+         <place xml:id="place_645">
+            <placeName>Medical Pneumatic Institution</placeName>
+            <location>
+               <geo decls="#WGS84">51.45094392071816, -2.6199696113186799</geo>
+            </location>
+            <note>By 1798, located in 6-7 Dowry Square, Hotwells, Clifton, Bristol. Davy was employed by Thomas Beddoes to work as its Superindendent.</note>
+         </place>
+      </listPlace>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_209" type="description">
+            <term id="misc_209-term">physiopatheist</term>
+            <gloss id="misc_209-gloss" target="#misc_209-term">
+               <p>A poetic or mystical capacity for empathic identification with objects in the natural world' (OED Online)</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_185" type="description">
+            <term id="misc_185-term">tabula rasa</term>
+            <gloss id="misc_185-gloss" target="#misc_185-term">
+               <p>Latin for 'blank slate'. The idea of individuals being born empty of any built-in mental content, so that all knowledge comes from later perceptions or sensory experiences. This idea is the central view posited in the theory of knowledge known as empiricism.</p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listPerson>
+         <person xml:id="person_115">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Moses</surname>
+            </persName>
+            <birth when="Probably mythical"/>
+            <note>According to the Old Testament Hebrew prophet who is considered the most important prophet in Judaism and one of the most important prophets in Christianity and other religions. </note>
+         </person>
+         <person xml:id="person_016">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Joseph</forename>
+               <surname>Priestley</surname>
+            </persName>
+            <birth when="1733"/>
+            <death when="1804"/>
+            <note>Unitarian and political radical forced into exile in Pennsylvania. As a natural philospher and chemist who retained belief in phlogiston, he discovered oxygen and nitrous oxide though not under those names. FRSL.</note>
+         </person>
+      </listPerson>
+      <listNym type="chemical">
+         <nym xml:id="chemical_254">
+            <form>common air</form>
+            <def>
+               <p>The air of the lower stratum of the atmosphere, or the air that we breathe, which is a mixture of several gases, including oxygen (O2), nitrogen (N2) and carbon dioxide (CO2).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_048">
+            <form>nitrous oxide</form>
+            <def>
+               <p>Symbol/formula: N2O</p>
+               <p>Later known as 'laughing gas'. Davy discovered that nitrous oxide was respirable when not contaminated with nitric oxide (NO). Davy researched into the physiological effects of nitrous oxide.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_017">
+            <form>nitrogene</form>
+            <def>
+               <p>Symbol/formula: N</p>
+               <p>Now known as nitrogen. A colourless and odourless gas, nitrogen is non-combustible and non-toxic. Davy also refers to this as azote.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_094">
+            <form>ammonium nitrate</form>
+            <def>
+               <p>Symbol/formula: NH4NO3</p>
+               <p>A white crystalline salt consisting of ions of ammonium and nitrate; previously called phosnitrate of ammoniac by Davy.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_201">
+            <form>zinc</form>
+            <def>
+               <p>Symbol/formula: Zn</p>
+               <p>A a slightly brittle metal at room temperature and has a shiny-greyish appearance when oxidation is removed.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_038">
+            <form>tin</form>
+            <def>
+               <p>Symbol/formula: Sn</p>
+               <p>A silvery-coloured metal, tin is soft enough to be cut with little force, and a bar of tin can be bent by hand with little effort.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_003">
+            <form>ammonia</form>
+            <def>
+               <p>Symbol/formula: NH3</p>
+               <p>An inorganic chemical compound of nitrogen and hydrogen. Ammonia is a colourless gas with a distinct pungent smell.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_268">
+            <form>nitro-muriatic acid</form>
+            <def>
+               <p>Symbol/formula: HNO3 + 3 HCI</p>
+               <p>Aqua regia, or nitrohydrochloric acid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_270">
+            <form>muriate of tin</form>
+            <def>
+               <p>Symbol/formula: SnCl4</p>
+               <p>Stannic chloride. Tin chloride is a white crystalline solid. It forms a stable dihydrate, but aqueous solutions tend to undergo hydrolysis, particularly if hot.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_068">
+            <form>sulphite</form>
+            <def>
+               <p>Symbol/formula: SO</p>
+               <p>Any salt or ester of sulphurous acid, containing the ions SO32- or HSO3- (hydrogen sulphite) or the groups -SO3 or -HSO3. The salts are usually soluble crystalline compounds.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_140">
+            <form>charcoal</form>
+            <def>
+               <p>A lightweight black carbon residue produced by strongly heating wood (or other animal and plant materials) in minimal oxygen to remove all water and volatile constituents.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_037">
+            <form>sulphur</form>
+            <def>
+               <p>Symbol/formula: S</p>
+               <p>Pure sulphur is a tasteless, odourless, brittle solid that is pale yellow in colour, a poor conductor of electricity, and insoluble in water.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_007">
+            <form>hydrogene</form>
+            <def>
+               <p>Symbol/formula: H</p>
+               <p>Now known as hydrogen. Hydrogen is the lightest element and, at standard conditions, is a gas of diatomic molecules. It is colourless, odourless, tasteless, non-toxic, and highly combustible.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_151">
+            <form>phosphorus</form>
+            <def>
+               <p>Symbol/formula: P</p>
+               <p>A non-metallic chemical element of the nitrogen family. A colourless, semitransparent, soft, waxy solid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_137">
+            <form>nitrous acid</form>
+            <def>
+               <p>Symbol/formula: HNO2</p>
+               <p>A weak and monoprotic acid known only in solution, in the gas phase and in the form of nitrite salts.</p>
+            </def>
+         </nym>
+      </listNym>
+   </standOff>
+</TEI>

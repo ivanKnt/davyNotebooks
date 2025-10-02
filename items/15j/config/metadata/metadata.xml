@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<man:metadata
+   xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+>
+  <man:meta id="MS-DAVY-11510">
+    <author id="humphry_davy" href="authors"/>
+    <binding>Marbled cover</binding>
+    <foliation/>
+    <hand/>
+    <height>8in</height>
+    <id>RI MS HD/15/J</id>
+    <origDate>
+      <!-- Check date range -->
+      <tei:origDate notBefore="1795-01-01" notAfter="1805-12-31" cert="medium">Earlyish</tei:origDate>
+    </origDate>
+    <pages>110</pages>
+    <provenance>Royal Institution</provenance>
+    <summary>Notebook containing philosophical and scientific notes and some poetry</summary>
+    <title>RI MS HD/15/J</title>
+    <width>6.5in</width>
+    <contents><!--
+      <tei:msItem>
+        <tei:locus from="" to=""/>
+        <tei:title></tei:title>
+      </tei:msItem>
+    --></contents>
+  </man:meta>
+</man:metadata>

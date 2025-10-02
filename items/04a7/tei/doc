@@ -1,0 +1,2904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphry Davy Notebooks</title>
+            <respStmt>
+               <resp>Project metadata editor</resp>
+               <name>Liz Fawcett</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="platform-coll">davy</idno>
+            <idno type="platform-item">MS-DAVY-10407</idno>
+            <publisher>Lancaster University Library</publisher>
+            <date calendar="Gregorian">2024</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Lancaster University Library</addrLine>
+                  <street>Bailrigg</street>
+                  <settlement>Lancaster</settlement>
+                  <postCode>LA1 4YH</postCode>
+               </address>
+            </pubPlace>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Zooming image © Royal Institution. All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are © Royal Institution. All rights reserved. and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="eng">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Royal Institution</institution>
+                  <repository>Royal Institution</repository>
+                  <collection>Humphry Davy Notebooks</collection>
+                  <idno>MS-DAVY-10407</idno>
+                  <altIdentifier>
+                     <idno>RI MS HD/4/A/7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg type="para">Lectures</seg>
+                  </summary>
+                  <msItem>
+                     <title>RI MS HD/4/A/7</title>
+                     <textLang mainLang="eng">English</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Paper</material>
+                        </support>
+                        <extent> pages
+                    <dimensions scope="all" type="leaf" unit="mm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <tei:origDate xmlns:man="https://www.lancaster.ac.uk/library/ns/digital-library/manifest/1"
+                                   xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                   notBefore="1778-12-17"
+                                   notAfter="1829-05-29"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance>
+                    Royal Institution
+                  </provenance>
+                  <acquisition>
+                    Royal Institution
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Original manuscript held at the Royal Institute, London</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/subjects.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         <geoDecl xml:id="WGS84" datum="WGS84">World Geodetic System</geoDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="el">Greek</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="kw">Cornish</language>
+            <language ident="la">Latin</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="ru">Russian</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-DAVY-10407-000-00001"/>
+      <surface n="1" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="4317px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00001"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="4316"
+               rotate="0"
+               xml:id="i1z1"/>
+      </surface>
+      <surface n="2" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="3365px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00002"
+                  width="5502px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5501"
+               lry="3364"
+               rotate="0"
+               xml:id="i2z1"/>
+      </surface>
+      <surface n="3" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="3374px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00003"
+                  width="5502px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5501"
+               lry="3373"
+               rotate="0"
+               xml:id="i3z1"/>
+      </surface>
+      <surface n="4" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="4299px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00004"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="4298"
+               rotate="0"
+               xml:id="i4z1"/>
+      </surface>
+      <surface n="5" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="4290px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00005"
+                  width="5493px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5492"
+               lry="4289"
+               rotate="0"
+               xml:id="i5z1"/>
+      </surface>
+      <surface n="6" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="3464px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00006"
+                  width="5511px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5510"
+               lry="3463"
+               rotate="0"
+               xml:id="i6z1"/>
+      </surface>
+      <surface n="7" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="3283px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00007"
+                  width="5511px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5510"
+               lry="3282"
+               rotate="0"
+               xml:id="i7z1"/>
+      </surface>
+      <surface n="8" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="4290px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00008"
+                  width="5502px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5501"
+               lry="4289"
+               rotate="0"
+               xml:id="i8z1"/>
+      </surface>
+      <surface n="9" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="4290px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00009"
+                  width="5502px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5501"
+               lry="4289"
+               rotate="0"
+               xml:id="i9z1"/>
+      </surface>
+      <surface n="10" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="3347px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00010"
+                  width="5521px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5520"
+               lry="3346"
+               rotate="0"
+               xml:id="i10z1"/>
+      </surface>
+      <surface n="11" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="3446px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00011"
+                  width="5521px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5520"
+               lry="3445"
+               rotate="0"
+               xml:id="i11z1"/>
+      </surface>
+      <surface n="12" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="4290px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00012"
+                  width="5503px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5502"
+               lry="4289"
+               rotate="0"
+               xml:id="i12z1"/>
+      </surface>
+      <surface n="13" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="4298px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00013"
+                  width="5521px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5520"
+               lry="4297"
+               rotate="0"
+               xml:id="i13z1"/>
+      </surface>
+      <surface n="14" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="3401px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00014"
+                  width="5511px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5510"
+               lry="3400"
+               rotate="0"
+               xml:id="i14z1"/>
+      </surface>
+      <surface n="15" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="3383px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00015"
+                  width="5511px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5510"
+               lry="3382"
+               rotate="0"
+               xml:id="i15z1"/>
+      </surface>
+      <surface n="16" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="4299px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00016"
+                  width="5511px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5510"
+               lry="4298"
+               rotate="0"
+               xml:id="i16z1"/>
+      </surface>
+      <surface n="17" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="4353px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00017"
+                  width="5502px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5501"
+               lry="4352"
+               rotate="0"
+               xml:id="i17z1"/>
+      </surface>
+      <surface n="18" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="3364px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00018"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="3363"
+               rotate="0"
+               xml:id="i18z1"/>
+      </surface>
+      <surface n="19" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="3383px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00019"
+                  width="5466px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5465"
+               lry="3382"
+               rotate="0"
+               xml:id="i19z1"/>
+      </surface>
+      <surface n="20" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="4317px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00020"
+                  width="5502px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5501"
+               lry="4316"
+               rotate="0"
+               xml:id="i20z1"/>
+      </surface>
+      <surface n="21" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="4326px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00021"
+                  width="5493px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5492"
+               lry="4325"
+               rotate="0"
+               xml:id="i21z1"/>
+      </surface>
+      <surface n="22" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="3419px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00022"
+                  width="5484px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5483"
+               lry="3418"
+               rotate="0"
+               xml:id="i22z1"/>
+      </surface>
+      <surface n="23" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="3365px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00023"
+                  width="5484px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5483"
+               lry="3364"
+               rotate="0"
+               xml:id="i23z1"/>
+      </surface>
+      <surface n="24" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="4317px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00024"
+                  width="5502px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5501"
+               lry="4316"
+               rotate="0"
+               xml:id="i24z1"/>
+      </surface>
+      <surface n="25" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="4317px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00025"
+                  width="5529px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5528"
+               lry="4316"
+               rotate="0"
+               xml:id="i25z1"/>
+      </surface>
+      <surface n="26" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="3392px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00026"
+                  width="5484px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5483"
+               lry="3391"
+               rotate="0"
+               xml:id="i26z1"/>
+      </surface>
+      <surface n="27" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="3356px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00027"
+                  width="5484px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5483"
+               lry="3355"
+               rotate="0"
+               xml:id="i27z1"/>
+      </surface>
+      <surface n="28" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="4471px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00028"
+                  width="5665px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5664"
+               lry="4470"
+               rotate="0"
+               xml:id="i28z1"/>
+      </surface>
+      <surface n="29" xml:id="i29">
+         <graphic decls="#downloadImageRights #download"
+                  height="4480px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00029"
+                  width="5666px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5665"
+               lry="4479"
+               rotate="0"
+               xml:id="i29z1"/>
+      </surface>
+      <surface n="30" xml:id="i30">
+         <graphic decls="#downloadImageRights #download"
+                  height="4462px"
+                  rend="landscape"
+                  url="MS-DAVY-10407-000-00030"
+                  width="5629px"/>
+         <zone ulx="0"
+               uly="0"
+               lrx="5628"
+               lry="4461"
+               rotate="0"
+               xml:id="i30z1"/>
+      </surface>
+   </facsimile>
+   <standOff>
+      <listPerson>
+         <person xml:id="person_842">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Pindar</forename>
+            </persName>
+            <birth when=" c. 518 BCE"/>
+            <death when="c. 438 BCE"/>
+            <note>An Ancient Greek lyric poet from Thebes. Of the canonical nine lyric poets of ancient Greece, his work is the best preserved.</note>
+         </person>
+         <person xml:id="person_843">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jupiter</forename>
+            </persName>
+            <note>Also known as Jove, the god of the sky and thunder, and king of the gods in ancient Roman religion and mythology.</note>
+            <trait>Duplicate 795 but unsure if tagged in MS and, if so, which number it is tagged to so leaving entry in.</trait>
+         </person>
+         <person xml:id="person_844">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Thucydides</forename>
+            </persName>
+            <birth when="c. 460 BCE"/>
+            <death when="c. 400 BCE"/>
+            <note>An Athenian historian and general, his History of the Peloponnesian War recounts the fifth-century BCE war between Sparta and Athens until the year 411 BCE. </note>
+         </person>
+         <person xml:id="person_951">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Jesus</forename>
+               <surname>Christ</surname>
+            </persName>
+            <birth when="c. 6-4 BC"/>
+            <death when="AD 30 or 33"/>
+            <note>The central figure of Christianity; a first-century Jewish preacher and religious leader.</note>
+         </person>
+         <person xml:id="person_448">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Diodorus</forename>
+               <surname>Siculus</surname>
+            </persName>
+            <birth when="fl 1st century BCE"/>
+            <note>Of Sicily was an ancient Greek historian. He is known for writing the monumental universal history Bibliotheca historica, in forty books, fifteen of which survive intact, between 60 and 30 BCE.</note>
+         </person>
+         <person xml:id="person_510">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Strabo</surname>
+            </persName>
+            <birth when="c. 64 BCE"/>
+            <death when="c. 24 CE"/>
+            <note>Greek geographer, philosopher, and historian who lived in Asia Minor during the transitional period of the Roman Republic into the Roman Empire.</note>
+         </person>
+         <person xml:id="person_699">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">William</forename>
+               <surname>Hamilton</surname>
+            </persName>
+            <birth when="1730"/>
+            <death when="1803"/>
+            <note>English diplomat, politician, antiquarian, and vulcanologist who served as the Envoy Extraordinary to the Kingdom of Naples from 1764 to 1800. FRSL.</note>
+         </person>
+         <person xml:id="person_300">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Déodat Gratet de</forename>
+               <surname>Dolomieu</surname>
+            </persName>
+            <birth when="1750"/>
+            <death when="1801"/>
+            <note>French geologist. The rock, and region of the Alps, dolomite was named after him.</note>
+         </person>
+         <person xml:id="person_820">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Scipione</forename>
+               <surname>Breislak</surname>
+            </persName>
+            <birth when="1748"/>
+            <death when="1826"/>
+            <note>Italian geologist of Swedish parentage. The vast works for the refining of sulphur in the volcanic district of Solfatara, near Naples, were erected under his direction. Professor of physics at the University of Ragusa, and subsequently at the Collegio Nazereno in Rome. He witnessed an eruption of Vesuvius in 1794 and subsequntly wrote Voyage Physique et Lithologique dans la Campagnie (1801). </note>
+         </person>
+         <person xml:id="person_845">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">John Thomas</forename>
+               <surname>Stanley</surname>
+            </persName>
+            <birth when="1735"/>
+            <death when="1807"/>
+            <note>A British landowner and amateur scienticist, in 1789 he made a celebrated voyage to the Faroe Islands and Iceland with James Wright, Isaac Benners and John Baine, including the climbing of Mount Hekla. In the same year he was elected a Fellow of the Royal Society of Edinburgh.</note>
+         </person>
+         <person xml:id="person_271">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Alexander von</forename>
+               <surname>Humboldt</surname>
+            </persName>
+            <birth when="1769"/>
+            <death when="1859"/>
+            <note>German geographer, naturalist and explorer. ForMemRSL.</note>
+         </person>
+         <person xml:id="person_855">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Giulio Cesare</forename>
+               <surname>Braccini</surname>
+            </persName>
+            <birth when="1570"/>
+            <death when="1632"/>
+            <note>An abbot from Lucca, Italy, who witnessed the 1631 eruption of Vesuvius, and wrote an account of it, Dell’incendio fattosi nel Vesuvio a’ XVI di dicembre M.DC.XXXI (Naples 1632). </note>
+         </person>
+         <person xml:id="person_596">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Uno von</forename>
+               <surname>Troil</surname>
+            </persName>
+            <birth when="1746"/>
+            <death when="1803"/>
+            <note>Swedish traveller and the archbishop of Uppsala. He travelled to Iceland with Joseph Banks.</note>
+         </person>
+         <person xml:id="person_597">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Francesco</forename>
+               <surname>Ferrara</surname>
+            </persName>
+            <birth when="1767"/>
+            <death when="1850"/>
+            <note>Italian geologist, active mainly in Sicily, and known especially for his vulcanology studies. </note>
+         </person>
+         <person xml:id="person_308">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Lazzaro</forename>
+               <surname>Spallanzani</surname>
+            </persName>
+            <birth when="1799"/>
+            <death when="1729"/>
+            <note>Italian priest, biologist and physiologist.</note>
+         </person>
+         <person xml:id="person_508">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <surname>Lucretius</surname>
+            </persName>
+            <birth when="99 BCE"/>
+            <death when="c. 55 BCE"/>
+            <note>Roman poet and philosopher. His only known work is the materialist philosophical poem De rerum natura.</note>
+         </person>
+         <person xml:id="person_664">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Nevil</forename>
+               <surname>Maskelyne</surname>
+            </persName>
+            <birth when="1732"/>
+            <death when="1811"/>
+            <note>Astronomer Royal and a Commissioner of the Board of Longitude. Contributed to scientifically measuring the density of the Earth. FRSL.</note>
+         </person>
+         <person xml:id="person_026">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Henry</forename>
+               <surname>Cavendish</surname>
+            </persName>
+            <birth when="1731"/>
+            <death when="1810"/>
+            <note>A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL. </note>
+         </person>
+         <person xml:id="person_246">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Robert</forename>
+               <surname>Hooke</surname>
+            </persName>
+            <birth when="1635"/>
+            <death when="1703"/>
+            <note>Natural philosopher who acted as experimental demonstrator at the Royal Society of London during its early years. Prominent in the study of air and microscopy amongst other subjects. FRSL.</note>
+         </person>
+         <person xml:id="person_125">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">James</forename>
+               <surname>Hutton</surname>
+            </persName>
+            <birth when="1726"/>
+            <death when="1797"/>
+            <note>Scottish geologist, agriculturalist and chemical manufacturer. His Theory of the Earth (1795) is one of the foundations of modern geology. Davy discussed Hutton's theories in his lectures and visited some of the key geological sites that Hutton used in his work. </note>
+         </person>
+         <person xml:id="person_164">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">James</forename>
+               <surname>Hall</surname>
+            </persName>
+            <birth when="1761"/>
+            <death when="1832"/>
+            <note>Scottish baronet (1776) and MP. Chemist and geologist who supported of James Hutton's theories of uniformitarian geology. FRSL.</note>
+         </person>
+         <person xml:id="person_261">
+            <persName xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">
+               <forename type="first">Gregory</forename>
+               <surname>Watt</surname>
+            </persName>
+            <birth when="1777"/>
+            <death when="1804"/>
+            <note>Youngest son of James Watt. Lodged with Davy's mother in Penzance during the winter of 1797-8 and became close friends with Davy.</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="place_184">
+            <placeName>Mount Etna</placeName>
+            <location>
+               <geo decls="#WGS84">37.751123181461516,  14.9934134370738</geo>
+            </location>
+            <note>Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.</note>
+         </place>
+         <place xml:id="place_569">
+            <placeName>Sicily</placeName>
+            <location>
+               <geo decls="#WGS84">37.65574735341652, 13.9118221346888</geo>
+            </location>
+            <note>Sicily is the largest and most populous island in the Mediterranean Sea and one of the twenty regions of Italy.</note>
+         </place>
+         <place xml:id="place_878">
+            <placeName>United States</placeName>
+            <location>
+               <geo decls="#WGS84">40.14226510979611,  -103.988989801965</geo>
+            </location>
+            <note>The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean.</note>
+         </place>
+         <place xml:id="place_877">
+            <placeName>Japan</placeName>
+            <location>
+               <geo decls="#WGS84">36.82248721690448,  138.384333365402</geo>
+            </location>
+            <note>an island country in East Asia. It is in the northwest Pacific Ocean.</note>
+         </place>
+         <place xml:id="place_1007">
+            <placeName>Kamchatka Krai</placeName>
+            <location>
+               <geo decls="#WGS84">56.13366817844588,  159.536417824099</geo>
+            </location>
+            <note>The Kamchatka Peninsula is a 1,250-kilometre-long peninsula in the Russian Far East.</note>
+         </place>
+         <place xml:id="place_237">
+            <placeName>Iceland</placeName>
+            <location>
+               <geo decls="#WGS84">65.03137079206361,  -18.761459110408101</geo>
+            </location>
+            <note>A Nordic island country between the North Atlantic and Arctic Oceans.</note>
+         </place>
+         <place xml:id="place_1191">
+            <placeName>Mediterranean Sea</placeName>
+            <note>Connected to the Atlantic Ocean and almost completely surrounded by land.</note>
+         </place>
+         <place xml:id="place_097">
+            <placeName>Italy</placeName>
+            <location>
+               <geo decls="#WGS84">43.01250014383429, 12.4664638037258</geo>
+            </location>
+         </place>
+         <place xml:id="place_714">
+            <placeName>Herculaneum</placeName>
+            <location>
+               <geo decls="#WGS84">40.806110960828086, 14.349098914097301</geo>
+            </location>
+            <note>Herculaneum was an ancient Roman town, located in the modern-day comune of Ercolano, Campania, Italy.</note>
+         </place>
+         <place xml:id="place_155">
+            <placeName>Rome</placeName>
+            <location>
+               <geo decls="#WGS84">41.901639083469824,  12.4814095854935</geo>
+            </location>
+            <note>The capital of Italy.</note>
+         </place>
+         <place xml:id="place_1261">
+            <placeName>Auvergne</placeName>
+            <location>
+               <geo decls="#WGS84">45.81159123003859,  3.2054333671880002</geo>
+            </location>
+            <note>A region of central France known for its mountain ranges and dormant volcanoes.</note>
+         </place>
+         <place xml:id="place_1168">
+            <placeName>Campania</placeName>
+            <location>
+               <geo decls="#WGS84">40.905648848210596, 14.9811949065611</geo>
+            </location>
+            <note>A region of Italy; most of it is in the south-western portion of the Italian peninsula (with the Tyrrhenian Sea to its west), but it also includes the small Phlegraean Islands and the island of Capri.</note>
+         </place>
+         <place xml:id="place_284">
+            <placeName>Edinburgh</placeName>
+            <location>
+               <geo decls="#WGS84">55.952743168058966,  -3.1904042104473902</geo>
+            </location>
+            <note>The capital city of Scotland.</note>
+         </place>
+         <place xml:id="place_169">
+            <placeName>Mount Vesuvius</placeName>
+            <location>
+               <geo decls="#WGS84">40.82295082311693,  14.4286697656167</geo>
+            </location>
+            <note>Mount Vesuvius is a somma-stratovolcano located on the Gulf of Naples in Campania, Italy.</note>
+         </place>
+         <place xml:id="place_177">
+            <placeName>Andes</placeName>
+            <note>Mountain range in western South America.</note>
+         </place>
+         <place xml:id="place_1037">
+            <placeName>Catania</placeName>
+            <location>
+               <geo decls="#WGS84">37.505800,  15.083608999999999</geo>
+            </location>
+            <note>An ancient port city in Italy, on Sicily's east coast.</note>
+         </place>
+         <place xml:id="place_751">
+            <placeName>Hekla</placeName>
+            <location>
+               <geo decls="#WGS84">63.99534619968239, -19.665621686038399</geo>
+            </location>
+            <note>Hekla is a volcano in Iceland. It has erupted many times in recorded history. 1766-68 was the eruption closest to Davy's time. </note>
+         </place>
+         <place xml:id="place_1174">
+            <placeName>Stromboli</placeName>
+            <location>
+               <geo decls="#WGS84">40.98453362061482,  21.6616861918125</geo>
+            </location>
+            <note>an island in the Tyrrhenian Sea, off the north coast of Sicily, containing Mount Stromboli, one of the four active volcanoes in Italy. It is one of the seven Aeolian Islands, a volcanic arc north of Sicily.</note>
+         </place>
+         <place xml:id="place_1169">
+            <placeName>Mount Somma</placeName>
+            <location>
+               <geo decls="#WGS84">40.83459730090285, 14.4363371620362</geo>
+            </location>
+            <note>A mountain located in the Province of Naples, in the Campania region of southern Italy. It has a collapsed caldera of an older volcano, with Mount Vesuvius rising up from the center.</note>
+         </place>
+         <place xml:id="place_156">
+            <placeName>Naples</placeName>
+            <location>
+               <geo decls="#WGS84">40.85176026322066,  14.2037545535986</geo>
+            </location>
+            <note>Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.</note>
+         </place>
+         <place xml:id="place_1041">
+            <placeName>Torre del Greco</placeName>
+            <location>
+               <geo decls="#WGS84">40.781417,  14.396506</geo>
+            </location>
+            <note>A comune in the Metropolitan City of Naples in Italy. Located at the foot of Mount Vesuvius, Torre del Greco was partly destroyed in an eruption of the volcano in 1631.</note>
+         </place>
+         <place xml:id="place_1042">
+            <placeName>Resina</placeName>
+            <location>
+               <geo decls="#WGS84">40.803236,  14.347239</geo>
+            </location>
+            <note>Now Ercolano, Resino was a medieval town built on the lava stream left by the eruption of Vesuvius (AD 79) that destroyed the ancient city of Herculaneum, from which the present name is derived.</note>
+         </place>
+         <place xml:id="place_1043">
+            <placeName>Ottaviano</placeName>
+            <location>
+               <geo decls="#WGS84">40.850269,  14.476957000000001</geo>
+            </location>
+            <note>A comune in the Italian region of Campania, located about 20 kilometres east of Naples in the Vesuvian Area. </note>
+         </place>
+         <place xml:id="place_071">
+            <placeName>London</placeName>
+            <location>
+               <geo decls="#WGS84">51.5081324796122 -0.12769117806126601</geo>
+            </location>
+            <note>The capital city of England and the United Kingdom.</note>
+         </place>
+         <place xml:id="place_1044">
+            <placeName>Azores</placeName>
+            <location>
+               <geo decls="#WGS84">38.641374,  -28.045473999999999</geo>
+            </location>
+            <note>An autonomous region of Portugal, the Azores are an archipelago in the mid-Atlantic.</note>
+         </place>
+         <place xml:id="place_846">
+            <placeName>Santorini</placeName>
+            <location>
+               <geo decls="#WGS84">36.391955153731445,  25.463546194239399</geo>
+            </location>
+            <note>One of the Cyclades islands in the Aegean Sea. The island was devastated by a volcanic eruption in the 16th century BC.</note>
+         </place>
+         <place xml:id="place_408">
+            <placeName>Lipari</placeName>
+            <location>
+               <geo decls="#WGS84">38.49459902628964,  14.926674045458199</geo>
+            </location>
+            <note>A commune including six of seven islands of the Aeolian Islands located in the Tyrrhenian Sea off the northern coast of Sicily in southern Italy.</note>
+         </place>
+         <place xml:id="place_407">
+            <placeName>Pompeii</placeName>
+            <location>
+               <geo decls="#WGS84">40.747249521286264, 14.4988069931492</geo>
+            </location>
+            <note>An ancient city located in what is now the comune of Pompei near Naples in the Campania region of Italy. Pompeii was buried in volcanic ash in the Eruption of Mount Vesuvius in 79 CE. </note>
+         </place>
+      </listPlace>
+      <listAnnotation type="miscellaneous">
+         <note xml:id="misc_375" type="description">
+            <term id="misc_375-term">Typhon</term>
+            <gloss id="misc_375-gloss" target="#misc_375-term">
+               <p>A monstrous serpentine giant and one of the deadliest creatures in Greek mythology. Defeated by Zeus, the king of the gods and goddesses. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_425" type="description">
+            <term id="misc_425-term">Titan</term>
+            <gloss id="misc_425-gloss" target="#misc_425-term">
+               <p>In Greek mythology, the Titans were the pre-Olympian gods.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_402" type="description">
+            <term id="misc_402-term">Cordilleras</term>
+            <gloss id="misc_402-gloss" target="#misc_402-term">
+               <p>A cordillera is an extensive chain and/or network system of mountain ranges. It is unclear exactly which mountain range Davy is referring to when he uses this term.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_806" type="description">
+            <term id="misc_806-term">Cinnamon</term>
+            <gloss id="misc_806-gloss" target="#misc_806-term">
+               <p>An aromatic spice derived from the inner bark of trees in the Cinnamomum genus.</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_805" type="description">
+            <term id="misc_805-term">Sassafras</term>
+            <gloss id="misc_805-gloss" target="#misc_805-term">
+               <p>A type of deciduous tree known for its aromatic properties. </p>
+            </gloss>
+         </note>
+         <note xml:id="misc_216" type="description">
+            <term id="misc_216-term">Aurora Borealis</term>
+            <gloss id="misc_216-gloss" target="#misc_216-term">
+               <p>Northern Lights - a natural light display in Earth's sky, predominantly seen in high-latitude regions</p>
+            </gloss>
+         </note>
+         <note xml:id="misc_416" type="description">
+            <term id="misc_416-term">Vestal Virgins</term>
+            <gloss id="misc_416-gloss" target="#misc_416-term">
+               <p>In Roman religion, six priestesses, representing the daughters of the royal house, who tended the state cult of Vesta, the goddess of the hearth. </p>
+            </gloss>
+         </note>
+      </listAnnotation>
+      <listBibl>
+         <bibl xml:id="otherwork_223">
+            <author>Pindar</author>
+            <author> translated by Gilbert West </author>
+            <title level="j">Odes of Pindar, with several other Pieces in Prose and Verse</title>
+            <date when="1749">1749</date>
+            <biblScope unit="volume">1</biblScope>
+         </bibl>
+         <bibl xml:id="otherwork_225">
+            <author>Dolomieu</author>
+            <title level="j">Mémoire sur les îles Ponces</title>
+            <date when="1783">1783</date>
+            <biblScope unit="page">1–434</biblScope>
+         </bibl>
+         <bibl xml:id="otherwork_227">
+            <author>Uno von Troil</author>
+            <title level="j">Letters on Iceland</title>
+            <date when="1780">1780</date>
+         </bibl>
+         <bibl xml:id="otherwork_228">
+            <author>Sir John Stanley</author>
+            <title level="j">Earth and Environmental Science Transactions of The Royal Society of Edinburgh </title>
+            <title level="a" type="main">VI. An Account of the Hot Springs near Haukadal in Iceland</title>
+            <date when="1794">1794</date>
+            <biblScope unit="volume">3</biblScope>
+            <biblScope unit="issue">2</biblScope>
+            <biblScope unit="page">138–153</biblScope>
+         </bibl>
+         <bibl xml:id="otherwork_229">
+            <author>Lucretius </author>
+            <title level="j">De Rerum Natura</title>
+            <biblScope unit="volume">6</biblScope>
+            <note>English translation: On the Nature of Things</note>
+         </bibl>
+         <bibl xml:id="otherwork_229">
+            <author>Lucretius </author>
+            <title level="j">De Rerum Natura</title>
+            <biblScope unit="volume">5</biblScope>
+            <note>English translation: On the Nature of Things</note>
+         </bibl>
+         <bibl xml:id="otherwork_230">
+            <author>Gregory Watt</author>
+            <title level="j">Philosophical Transactions of the Royal Society of London</title>
+            <title level="a" type="main">Observations on basalt, and on the transition from the vitreous to the stony texture, which occurs in the gradual refrigeration of melted basalt; with some geological remarks</title>
+            <date when="1804">1804</date>
+            <biblScope unit="volume">94</biblScope>
+            <biblScope unit="issue">94</biblScope>
+            <biblScope unit="page">279–314</biblScope>
+         </bibl>
+      </listBibl>
+      <listNym type="chemical">
+         <nym xml:id="chemical_184">
+            <form>shell limestone</form>
+            <def>
+               <p>A type of limestone composed largely of shells.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_092">
+            <form>granite</form>
+            <def>
+               <p>A coarse-grained intrusive igneous rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_125">
+            <form>porphyry</form>
+            <def>
+               <p>A hard, igneous purplish-red rock in which crystals of feldspar are embedded in a fine-grained groundmass.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_482">
+            <form>Pumice</form>
+            <def>
+               <p>a type of extrusive volcanic rock, produced when lava with a very high content of water and gases is discharged from a volcano.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_058">
+            <form>carbonic acid</form>
+            <def>
+               <p>Symbol/formula: CO2 or H2CO3 </p>
+               <p>Now known as Carbon dioxide (CO2), or a solution of carbon dioxide in water (H2CO3). </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_037">
+            <form>sulphur</form>
+            <def>
+               <p>Symbol/formula: S</p>
+               <p>Pure sulphur is a tasteless, odourless, brittle solid that is pale yellow in colour, a poor conductor of electricity, and insoluble in water.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_503">
+            <form>Aqueous vapour</form>
+            <def>
+               <p>Also known as water vapour; the gaseous phase of water which can be produced from the evaporation or boiling of water as a liquid, or from the sublimation of ice. Water vapour is invisible to the eye due to its gaseous form. </p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_425">
+            <form>Obsdian</form>
+            <def>
+               <p>A naturally occurring volcanic glass formed when lava extruded from a volcano cools rapidly with minimal crystal growth. It is an igneous rock.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_027">
+            <form>phosphoric acid</form>
+            <def>
+               <p>Symbol/formula: H3PO4</p>
+               <p>A corrosive acid that can form three different classes of salts, namely primary phosphates, dibasic phosphates, and tribasic phosphates. It is corrosive to ferrous metals and alloys.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_151">
+            <form>phosphorus</form>
+            <def>
+               <p>Symbol/formula: P</p>
+               <p>A non-metallic chemical element of the nitrogen family. A colourless, semitransparent, soft, waxy solid.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_022">
+            <form>oxygene</form>
+            <def>
+               <p>Symbol/formula: O</p>
+               <p>Now known as oxygen. Oxygen is a colourless, odourless, tasteless gas essential to living organisms.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_007">
+            <form>hydrogene</form>
+            <def>
+               <p>Symbol/formula: H</p>
+               <p>Now known as hydrogen. Hydrogen is the lightest element and, at standard conditions, is a gas of diatomic molecules. It is colourless, odourless, tasteless, non-toxic, and highly combustible.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_078">
+            <form>elastic fluid</form>
+            <def>
+               <p>A descriptive term for a gas, emphasising its elastic quality of spontaneous expansion.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_105">
+            <form>basalt</form>
+            <def>
+               <p>A dark grey to black dense to fine-grained igneous rock that consists of basic plagioclase, augite, and usually magnetite. More than 90% of volcanic rock on earth is basaltic.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_090">
+            <form>limestone</form>
+            <def>
+               <p>A sedimentary rock composed mainly of calcium carbonate (CaCO3).</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_166">
+            <form>iron oxide </form>
+            <def>
+               <p>Symbol/formula: Fe2O3</p>
+               <p>Oxide of iron. A dark red solid which occurs as the mineral haematite and as the main component of rust.</p>
+            </def>
+         </nym>
+         <nym xml:id="chemical_426">
+            <form>pozzuolana</form>
+            <def>
+               <p>A type of porous volcanic ash.</p>
+            </def>
+         </nym>
+      </listNym>
+   </standOff>
+   <text>
+      <body xml:lang="en">
+         <div>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="1"
+                xml:id="pb-1"
+                facs="#i1"/>
+            <lb/>
+1<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Geology Lect<hi rend="superscript">e</hi> 6.</hi>
+            <lb/>
+1811.<lb/>
+Most of the changes that now<lb/>
+take place in the solid parts of the Earth<lb/>
+except those produced by volcanic fires<lb/>
+were discussed in the last lecture. I<lb/>
+shall now ask permission to direct your<lb/>
+attention to this part of the subject, which<lb/>
+demands an extensive discussion.<lb/>
+To persons who inhabit countries, happily<lb/>
+not liable to these grand &amp; awful operations,<lb/>
+they may appear rather as <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">accidents</hi> than<lb/>
+as <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">essential events</hi> in the order of things -<lb/>
+But their extent, their constancy, &amp; the<lb/>
+ultimate tendency of their effects lead<lb/>
+to a very different conclusion; &amp;<lb/>
+inevitably prove to us, their importance<lb/>
+their efficacy, &amp; even their utility in the<lb/>
+great series of the phenomena of Nature<lb/>
+Volcanic fires have operated to a<lb/>
+great extent in all quarters of the Globe,<lb/>
+&amp; they appear to have occurred in the<lb/>
+earliest ages of which we have any<lb/>
+authentic records. -<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag1"
+                ref="#person_842"
+                type="person">
+               <name xml:id="tag1" type="person">
+                  <hi rend="underline">Pindar</hi>
+               </name>
+            </rs> who lived nearly 500<lb/>
+years before the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Christian</hi> Era mentions<lb/>
+the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Eruptions of <rs xml:id="ttag2" ref="#place_184" type="place">
+                  <name xml:id="tag2" type="place">
+          Etna
+        </name>
+               </rs>
+            </hi> &amp; blending the<lb/>
+description of this great <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">event</del> natural event<lb/>
+with poetic fable, he attributes the effect<lb/>
+to <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag3"
+                ref="#misc_375"
+                type="miscellaneous">
+               <term xml:id="tag3">
+                  <hi rend="underline">Typheus</hi>
+               </term>
+            </rs> who after being defeated<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="2"
+                xml:id="pb-2"
+                facs="#i2"/>
+            <lb/>
+by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag4"
+                ref="#person_843"
+                type="person">
+               <name xml:id="tag4" type="person">
+          Jupiter
+        </name>
+            </rs> in the wars of the Gods<lb/>
+&amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag5"
+                ref="#misc_425"
+                type="miscellaneous">
+               <term xml:id="tag5">
+          Titans
+        </term>
+            </rs> was supposed in the ancient<lb/>
+mythology to have been buried<lb/>
+under <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag6"
+                ref="#place_569"
+                type="place">
+               <name xml:id="tag6" type="place">
+          Sicily
+        </name>
+            </rs>. -<lb/>
+The passage is one of the finest in<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">the Odes</hi> - I shall read a few lines<lb/>
+of it in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag7"
+                ref="#otherwork_223"
+                type="otherwork">
+               <bibl xml:id="tag7">
+            West's translation
+        </bibl>
+            </rs>
+            <lb/>
+- "Now under Sulphurous Cumas sea seabound Coast<lb/>
+And vast <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag8"
+                ref="#place_569"
+                type="place">
+               <name xml:id="tag8" type="place">
+          Sicilia
+        </name>
+            </rs>, lies his shaggy breast<lb/>
+By snowy <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag9"
+                ref="#place_184"
+                type="place">
+               <name xml:id="tag9" type="place">
+          Etna
+        </name>
+            </rs> nurse of endless frost<lb/>
+The Eternal prop of heaven for ever fresh<lb/>
+Forth from whose nitrous caverns issuing, rise<lb/>
+Pure liquid fountains of tempestuous fire<lb/>
+And veil in ruddy mists the noon day skies<lb/>
+Whilst clothed in smoke the eddying flames aspire." -<lb/>
+- In South <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag10"
+                ref="#place_878"
+                type="place">
+               <name xml:id="tag10" type="place">
+          America
+        </name>
+            </rs>, in the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag11"
+                ref="#misc_402"
+                type="miscellaneous">
+               <term xml:id="tag11">
+                  <hi rend="underline">Cordilleras</hi>
+               </term>
+            </rs> the highest <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Mountain Chain</hi>
+            <lb/>
+belonging to the Earth, a number of<lb/>
+Volcanoes now exist in a state of<lb/>
+activity. In <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag12"
+                ref="#place_877"
+                type="place">
+               <name xml:id="tag12" type="place">
+          Japan
+        </name>
+            </rs>, in<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag13"
+                ref="#place_1007"
+                type="place">
+               <name xml:id="tag13" type="place">
+          Kamschatka
+        </name>
+            </rs> &amp; in <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag14"
+                ref="#place_237"
+                type="place">
+               <name xml:id="tag14" type="place">
+          Iceland
+        </name>
+            </rs>, a<lb/>
+great part of the surface has been<lb/>
+formed or modified by the agency<lb/>
+of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Volcanic Fires</hi>. In <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag15"
+                ref="#place_569"
+                type="place">
+               <name xml:id="tag15" type="place">
+          Sicily
+        </name>
+            </rs>, &amp;<lb/>
+in a number of the Islands of the<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag16"
+                ref="#place_1191"
+                type="place">
+               <name xml:id="tag16" type="place">
+          mediterranean
+        </name>
+            </rs> Sea, their effects are<lb/>
+equally visible. -<lb/>
+- A terrible eruption of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag17"
+                ref="#place_184"
+                type="place">
+               <name xml:id="tag17" type="place">
+          Etna
+        </name>
+            </rs>
+            <lb/>
+is recorded by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag18"
+                ref="#person_844"
+                type="person">
+               <name xml:id="tag18" type="person">
+          Thucydides
+        </name>
+            </rs> to have<lb/>
+taken place 476 years before <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag19"
+                ref="#person_951"
+                type="person">
+               <name xml:id="tag19" type="person">
+          Christ
+        </name>
+            </rs>,<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="3"
+                xml:id="pb-3"
+                facs="#i3"/>
+            <lb/>
+&amp; long anterior to this time "Its summit<lb/>
+crowned with snows, emitting flame" had<lb/>
+been celebrated by the Greek poets.<lb/>
+- In <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag20"
+                ref="#place_097"
+                type="place">
+               <name xml:id="tag20" type="place">
+          Italy
+        </name>
+            </rs> &amp; the South of France a<lb/>
+considerable portion of the Country exhibits<lb/>
+proofs of ancient Volcanoes. Vesuvius<lb/>
+as we learn from <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag21"
+                ref="#person_448"
+                type="person">
+               <name xml:id="tag21" type="person">
+          Diodorus Siculus
+        </name>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag22"
+                ref="#person_510"
+                type="person">
+               <name xml:id="tag22" type="person">
+          Strabo
+        </name>
+            </rs>
+            <lb/>
+was overspread with ashes before the first<lb/>
+recorded Eruption in the 79<hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="superscript">th</hi> year after<lb/>
+ the Christian Era. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag23"
+                ref="#place_714"
+                type="place">
+               <name xml:id="tag23" type="place">
+          Herculaneum
+        </name>
+            </rs> a City<lb/>
+buried by that event &amp; since partly uncovered<lb/>
+is found built of Lava. - Even <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag24"
+                ref="#place_155"
+                type="place">
+               <name xml:id="tag24" type="place">
+          Rome
+        </name>
+            </rs>
+            <lb/>
+itself proudly called by its ancient<lb/>
+inhabitants the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Eternal City</hi>, - (as would<lb/>
+appear from the testimony of an excellent<lb/>
+mineralogist) is founded upon the<lb/>
+ruins of an extinguished Volcano. And<lb/>
+many of the beautiful &amp; fertile hills<lb/>
+&amp; Vallies of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag25"
+                ref="#place_1261"
+                type="place">
+               <name xml:id="tag25" type="place">
+          Auvergne
+        </name>
+            </rs>, &amp; the Vivarais<lb/>
+are said to owe their rich &amp; abundant<lb/>
+soils to decomposing Lava. -<lb/>
+- The subject is extensive &amp;<lb/>
+sublime - It can hardly fail to<lb/>
+excite curiosity in all minds attached<lb/>
+to the knowledge of Nature &amp; it possesses<lb/>
+numerous relation to the general Theory<lb/>
+of the Earth. - |_ It affords the only<lb/>
+known <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">facts of the agency</hi> of Heat upon<lb/>
+rocks that occur on a great scale.<lb/>
+It exhibits to us the grandest of the<lb/>
+operations of Natural Chemistry; &amp; it<lb/>
+offers a rich &amp; as yet almost an<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="4"
+                xml:id="pb-4"
+                facs="#i4"/>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">untouched</hi> field of discovery. -<lb/>
+- Till within the last few years,<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Volcanoes</hi> had been merely a matter<lb/>
+of wonder &amp; vague narration - &amp;<lb/>
+had little occupied the attention<lb/>
+of philosophical Persons. - <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag26"
+                ref="#person_699"
+                type="person">
+               <name xml:id="tag26" type="person">
+          Sir<lb/>William Hamilton
+        </name>
+            </rs> may be said to have<lb/>
+been the first accurate observer<lb/>
+of the Phenomena. - His<lb/>
+magnificent work on the "Phlegraean<lb/>
+fields" is well known, it equally<lb/>
+demonstrates the extent of his knowledge<lb/>
+&amp; the refinement of his Taste. - It<lb/>
+affords the true &amp; picturesque<lb/>
+Character of a great Volcanic region<lb/>
+and the illustrations are the productions<lb/>
+of an elegant &amp; acute mind. -<lb/>
+The path pointed out by our<lb/>
+celebrated Countryman was immediately<lb/>
+followed by <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">a</del>
+            <add xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0">an able</add> Philosopher, <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">of whom</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">in a former lecture I made honorable</del>
+            <lb/>
+            <del xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                 rend="strikethrough">mention</del>; by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag27"
+                ref="#person_300"
+                type="person">
+               <name xml:id="tag27" type="person">
+          Dolomieu
+        </name>
+            </rs>. - In<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag28"
+                ref="#otherwork_225"
+                type="otherwork">
+               <bibl xml:id="tag28">
+            his work "Sur les isles Ponces"
+        </bibl>
+            </rs> the<lb/>
+most minute observations may be<lb/>
+found combined with the most<lb/>
+enlarged views. &amp; the Author<lb/>
+has enlightened his Geological researches<lb/>
+by the assistance of the most refined<lb/>
+methods of Chemistry known in his<lb/>
+time. -<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="5"
+                xml:id="pb-5"
+                facs="#i5"/>
+            <lb/>
+5<lb/>
+2<lb/>
+The last Edition of the philosophical<lb/>
+Travels into <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag29"
+                ref="#place_1168"
+                type="place">
+               <name xml:id="tag29" type="place">
+          Campania
+        </name>
+            </rs> Scip. <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag30"
+                ref="#person_820"
+                type="person">
+               <name xml:id="tag30" type="person">
+          Breislac
+        </name>
+            </rs> is likewise<lb/>
+an excellent work. The mineralogical<lb/>
+details are admirable, the descriptions are<lb/>
+animated and allowed by those who<lb/>
+have followed his steps to be peculiarly<lb/>
+accurate - To this book I shall<lb/>
+occasionally refer - it is replete with new<lb/>
+&amp; useful information. -<lb/>
+- <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag31"
+                ref="#otherwork_227"
+                type="otherwork">
+               <bibl xml:id="tag31">
+            The work of D<hi rend="superscript">r</hi> Van Troil on<lb/>Iceland
+        </bibl>
+            </rs> &amp; the letters published by<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag32"
+                ref="#person_845"
+                type="person">
+               <name xml:id="tag32" type="person">
+          Sir John Stanley
+        </name>
+            </rs> in the Transactions of<lb/>
+the Royal Society of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag33"
+                ref="#place_284"
+                type="place">
+               <name xml:id="tag33" type="place">
+          Edinburgh
+        </name>
+            </rs> offer<lb/>
+admirable details on some of the most<lb/>
+curious objects of a most interesting Volcanic<lb/>
+district |_ &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag34"
+                ref="#otherwork_228"
+                type="otherwork">
+               <bibl xml:id="tag34">
+            the letters on the hot Springs
+        </bibl>
+            </rs>
+            <lb/>
+are highly worth of perusal, not merely<lb/>
+on account of the excellent Scientific<lb/>
+details which they contain, but likewise<lb/>
+on account of the elegant &amp; vivid<lb/>
+descriptions of some of the most peculiar<lb/>
+&amp; magnificent phenomena in Nature<lb/>
+|_ The forms of Volcanic Mountains<lb/>
+in cases when they have been actually<lb/>
+produced or covered by <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">Lava</hi>, are<lb/>
+usually conical - They are<lb/>
+generally more steep, &amp; <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">abrupt</hi>, towards<lb/>
+the summit, than primary or secondary<lb/>
+Mountains. &amp; their tops present<lb/>
+a pointed &amp; irregular outline. -<lb/>
+- The Rocks that constitute the<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="6"
+                xml:id="pb-6"
+                facs="#i6"/>
+            <lb/>
+exterior bases of Volcanic Mountains, &amp;<lb/>
+which have not been altered by fire,<lb/>
+differ very much in species in different<lb/>
+Countries &amp; their nature is in no<lb/>
+way connected with the changes taking<lb/>
+place in the interior, &amp; lower regions<lb/>
+of the district. -<lb/>
+|_  - The seat of volcanic fires is deep<lb/>
+in the bosom of the Earth - &amp; they have<lb/>
+often broken out amidst primary as<lb/>
+well as Secondary strata. -<lb/>
+- |_  The Rocks that appear at the foot<lb/>
+of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag35"
+                ref="#place_169"
+                type="place">
+               <name xml:id="tag35" type="place">
+                  <hi rend="underline">Vesuvius</hi>
+               </name>
+            </rs> are principally <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">
+               <rs xml:id="ttag36" ref="#chemical_184" type="chemical">
+                  <term xml:id="tag36">
+          Shell Limestone
+          
+        </term>
+               </rs>
+            </hi>.<lb/>
+The foundations of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag37"
+                ref="#place_184"
+                type="place">
+               <name xml:id="tag37" type="place">
+          Etna
+        </name>
+            </rs> are said to be<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag38"
+                ref="#chemical_092"
+                type="chemical">
+               <term xml:id="tag38">
+          Granite
+          
+        </term>
+            </rs> &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag39"
+                ref="#chemical_125"
+                type="chemical">
+               <term xml:id="tag39">
+          Porphyry
+          
+        </term>
+            </rs> - &amp; these substances<lb/>
+according to the reports of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag40"
+                ref="#person_271"
+                type="person">
+               <name xml:id="tag40" type="person">
+          Humboldt
+        </name>
+            </rs>
+            <lb/>
+constitute the base of the great Volcanic<lb/>
+Chain of the <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag41"
+                ref="#place_177"
+                type="place">
+               <name xml:id="tag41" type="place">
+          Andes
+        </name>
+            </rs>, <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">some of the eminencies</hi>
+            <lb/>
+of which are elevated to the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">enormous</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">height</hi> of four miles above the <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">level</hi>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">of the Sea</hi>.<lb/>
+- The lower region of the Volcanic<lb/>
+Mountains, even when the substratum<lb/>
+of the soil is Lava, are usually<lb/>
+exceedingly fertile &amp; when a long<lb/>
+continued quiet has prevailed in the<lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">interior</hi>, vegetation is vigorous,<lb/>
+upon all parts of the surface, that<lb/>
+are not raised above the line of<lb/>
+perpetual snow.<lb/>
+- Even in the dreary Climate of<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag42"
+                ref="#place_1007"
+                type="place">
+               <name xml:id="tag42" type="place">
+          Kamschatka
+        </name>
+            </rs>, the lowlands, in the<lb/>
+Summer Months are clothed with <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">grass</hi>
+            <lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="7"
+                xml:id="pb-7"
+                facs="#i7"/>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">&amp; with trees</hi>, Soon as the snows have<lb/>
+disappeared, the warmth of the Sun acting<lb/>
+upon soil produced by the decomposed Volcanic<lb/>
+matter, covers it with verdure; &amp; by far<lb/>
+the most fertile parts of this wild &amp; desolate<lb/>
+Country are those situated in the neighbourhood<lb/>
+of Subterranean fires. -<lb/>
+- In <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">mild &amp; temperate</hi> Climates, the<lb/>
+fact is still more striking: &amp; <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag43"
+                ref="#place_097"
+                type="place">
+               <name xml:id="tag43" type="place">
+          Italy
+        </name>
+            </rs>
+            <lb/>
+affords a number of perfect instances. - <lb/>
+- In the account given of the Crater of<lb/>
+Vesuvius by <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag44"
+                ref="#person_855"
+                type="person">
+               <name xml:id="tag44" type="person">
+          Bracchni
+        </name>
+            </rs>, before the<lb/>
+Eruption of 1631, a time when it had<lb/>
+been quiet for a great number of years<lb/>
+the interior of the mountain is described<lb/>
+as in the form of the hollow of an<lb/>
+inverted cone, covered with luxuriant<lb/>
+vegetation, &amp; abounding in majestic Trees<lb/>
+(And in those places where of late years<lb/>
+the fiery flood of Lava has boiled up)<lb/>
+He describes, streams of <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">pure water</hi> as<lb/>
+flowing down, cooling the air &amp;<lb/>
+affording nourishment to the various<lb/>
+tribes of plants that adorn their banks. -<lb/>
+- The height of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag45"
+                ref="#place_184"
+                type="place">
+               <name xml:id="tag45" type="place">
+          Etna
+        </name>
+            </rs> is about<lb/>
+10,030 feet, &amp; its circumference no<lb/>
+more than 40 miles &amp; yet so fertile<lb/>
+are the soils in the lower part of<lb/>
+the Mountain, that the population<lb/>
+is immense, &amp; the number of the<lb/>
+inhabitants of the district is said to<lb/>
+            <lb/>
+            <pb xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                n="8"
+                xml:id="pb-8"
+                facs="#i8"/>
+            <lb/>
+            <hi xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                rend="underline">exceed 300.000</hi> -<lb/>
+X X X X Shall go read a few notes<lb/>
+- This Sketch will give an idea<lb/>
+of the general aspect of <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag46"
+                ref="#place_184"
+                type="place">
+               <name xml:id="tag46" type="place">
+          Etna
+        </name>
+            </rs>, &amp; some notes<lb/>
+with which I have been favoured by a<lb/>
+friend who visited the spot in the<lb/>
+Summer of 1803 will serve as a comment. -<lb/>
+Instance.<lb/>
+"At the base, fields of exuberant<lb/>
+fertility smile on very side - Sasaparilla<lb/>
+            <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag47"
+                ref="#misc_806"
+                type="miscellaneous">
+               <term xml:id="tag47">
+          Cinnamon
+        </term>
+            </rs>, <rs xmlns:conf="https://www.lancaster.ac.uk/library/ns/digital-library/config/1.0"
+                xml:id="ttag112"
+                ref="#misc_805"
+                type="miscellaneous">
+               <term xml:id="tag112">
+          Sassafras[/ misc], the Coffee plant<lb/>
+&amp; Saffron are all said to grow here<lb/>
+in abundance - It is certain that<lb/>
+no part of the Island, can vie with<lb/>
+the borders of <rs xml:id="ttag49" ref="#place_184" type="place">
+                     <name xml:id="tag49" type="place">
+          Etna
+        </name>
+                  </rs> in the verdure<lb/>
+of the herbage &amp; in the luxuriance<lb/>
+of the grain. - The ground is<lb/>
+agreeably diversified, by the number<lb/>
+of small hills which at different<lb/>
+periods have formed an outlet for<lb/>
+the subterranean fires; but which in<lb/>
+the long process of time, have become<lb/>
+covered with vegetable mould, &amp;<lb/>
+by their present abundance, atone<lb/>
+for their ancient sterility. - Trees,<lb/>
+so rare in other parts of the Island,<lb/>
+spring up here spontaneously, &amp; attain<lb/>
+a strength &amp; vigour rarely to be seen<lb/>
+elsewhere. - Amongst them peep<lb/>
+out a number of small Country houses<lb/>
+&amp; villages, the inhabitants of which are<lb/>
+well formed &amp; healthy. - The plains<lb/>
+of <rs xml:id="ttag50" ref="#place_1037" type="place">
+                     <name xml:id="tag50" type="place">
+          Catania
+        </name>
+                  </rs> in the Summer are<lb/>
+                  <lb/>
+                  <pb n="9" xml:id="pb-9" facs="#i9"/>
+                  <lb/>
+9<lb/>
+3<lb/>
+hot &amp; insupportably sultry here on the<lb/>
+contrary the air is fresh &amp; balmy<lb/>
+&amp; even in the brightest sunshine, cool<lb/>
+from the breeze of the Mountain. -<lb/>
+- The summits of Volcanic Hills when<lb/>
+elevated to any considerable height, or after<lb/>
+having felt the effects of an Eruption present<lb/>
+a striking contrast when examined in the<lb/>
+same view with the lower regions -<lb/>
+Black &amp; rugged &amp; barren; if not<lb/>
+covered with snow, they bear the<lb/>
+evidences of having been changed<lb/>
+by the force of fire. -<lb/>
+Formed of Lava &amp; strewed over<lb/>
+with <rs xml:id="ttag51" ref="#chemical_482" type="chemical">
+                     <term xml:id="tag51">
+          Pumice
+          
+        </term>
+                  </rs> stones or with volcanic<lb/>
+dust of sand, they present pictures<lb/>
+of which all the features are wild &amp;<lb/>
+sublime &amp; more impressive as<lb/>
+they necessarily call up in the mind<lb/>
+the ideas of the great natural events<lb/>
+by which they were formed. -<lb/>
+- Most of the Craters or interior cones<lb/>
+of the great Volcanic Mountains, in<lb/>
+                  <hi rend="underline">their common states emit smoke or</hi>
+                  <lb/>
+Some kind of vapour; &amp; the Lava<lb/>
+of which they are composed is very<lb/>
+irregular in its forms &amp; various<lb/>
+in its constitution. - <lb/>
+Brislac thus describes the Crater of<lb/>
+Vesuvius as it appeared in 1800 -<lb/>
+"The Cone" he says, "is cut in an inclined<lb/>
+plane, having its direction from North<lb/>
+                  <lb/>
+                  <pb n="10" xml:id="pb-10" facs="#i10"/>
+                  <lb/>
+East to South West. The circumference<lb/>
+of the Crater is about 3000 feet.<lb/>
+At the bottom is a considerable plain,<lb/>
+from which vapours of different degrees<lb/>
+ of density almost constently issue, &amp;<lb/>
+the sides of it offer the remains of the<lb/>
+last lava that issued from it in the<lb/>
+Eruption of 1794. -<lb/>
+Inst<hi rend="superscript">ce</hi> 1800. -<lb/>
+- <rs xml:id="ttag52" ref="#person_596" type="person">
+                     <name xml:id="tag52" type="person">
+          D<hi rend="superscript">r</hi> Van Troil
+        </name>
+                  </rs> mentions very similar<lb/>
+facts with regard to the different Craters<lb/>
+Of <rs xml:id="ttag53" ref="#place_751" type="place">
+                     <name xml:id="tag53" type="place">
+          Heckla
+        </name>
+                  </rs> in <rs xml:id="ttag54" ref="#place_237" type="place">
+                     <name xml:id="tag54" type="place">
+          Iceland
+        </name>
+                  </rs>, which having their<lb/>
+exterior covered with snow, constantly<lb/>
+emit from their interior vapours<lb/>
+insupportably hot, &amp; exhibit walls<lb/>
+of Lava having the appearance of<lb/>
+black Glass. -<lb/>
+But of all the volcanic craters<lb/>
+that have been accurately examined,<lb/>
+that of <rs xml:id="ttag55" ref="#place_184" type="place">
+                     <name xml:id="tag55" type="place">
+                        <hi rend="underline">Etna</hi>
+                     </name>
+                  </rs> is upon the grandest<lb/>
+&amp; most magnificent scale. The<lb/>
+exterior walls according to <rs xml:id="ttag56" ref="#person_597" type="person">
+                     <name xml:id="tag56" type="person">
+          Ferrara
+        </name>
+                  </rs>
+                  <lb/>
+are at least 1800 feet high &amp; the<lb/>
+circumference of their edges cannot be<lb/>
+less than a mile &amp; half. They are<lb/>
+composed of rugged pieces of Lava, &amp;<lb/>
+approach to each other internally -<lb/>
+The bottom is a horizontal plane<lb/>
+from which constantly issue immense<lb/>
+columns of smoke. -<lb/>
+- <del rend="strikethrough">A sketch will perhaps</del>
+                  <lb/>
+                  <lb/>
+                  <pb n="11" xml:id="pb-11" facs="#i11"/>
+                  <lb/>
+                  <del rend="strikethrough">communicate some idea of the nature</del>
+                  <lb/>
+                  <del rend="strikethrough">of this immense outlet of <hi rend="underline">Volcanic fire</hi>
+                  </del>
+                  <lb/>
+                  <del rend="strikethrough">but it can only give a very imperfect</del>
+                  <lb/>
+idea<lb/>
+                  <hi rend="underline">Instance</hi>
+                  <lb/>
+                  <rs xml:id="ttag57" ref="#person_308" type="person">
+                     <name xml:id="tag57" type="person">
+          Spallanzani
+        </name>
+                  </rs> asserts that he saw in<lb/>
+the bottom of the Crater at a time when<lb/>
+the smoke was blown off from it, an<lb/>
+aperture in which melted lava was in<lb/>
+continued motion, but it is generally<lb/>
+supposed that he was mistaken.<lb/>
+The friend whom I have already<lb/>
+mentioned describes the journey to the edge<lb/>
+of the great Crater as exceedingly difficult, -<lb/>
+"Large tracts of snow are at the base of it -<lb/>
+And the ashes, scoriae &amp; lava afford but<lb/>
+an uncertain footing," I shall give<lb/>
+in his own words the scene which presented<lb/>
+itself on the summit. "The view" he says<lb/>
+"was perfectly new, &amp; altogether different<lb/>
+from what I had expected. As you have<lb/>
+no object with which to compare the hollow<lb/>
+you can form no accurate judgement by<lb/>
+the eye of any of its dimensions. The<lb/>
+ground of the borders is so hot as to<lb/>
+burn the feet, vapours issue from numerous<lb/>
+orifices in it - &amp; from the huge abyss<lb/>
+itself arise volumes of this smoke,<lb/>
+which darken the face of heaven &amp; the<lb/>
+colour of which is constantly varying.<lb/>
+The sun seen through this smoke, sometimes<lb/>
+appears perfectly white, &amp; sometimes of a<lb/>
+blood red colour. We looked with<lb/>
+long &amp; anxious expectancy, for a<lb/>
+                  <lb/>
+                  <pb n="12" xml:id="pb-12" facs="#i12"/>
+                  <lb/>
+favoured moments, in which the currents<lb/>
+of vapour might disappear, or become<lb/>
+less dense, so as to exhibit to us the<lb/>
+interior of this wonderful Laboratory<lb/>
+ of Nature; |_ but we looked in vain, -<lb/>
+We rolled down large stones with the<lb/>
+hopes of being able to estimate the<lb/>
+depth from the time of their descent.<lb/>
+|_ The ground shook under us as often<lb/>
+as they struck against the side of the<lb/>
+precipice of the Sounds became<lb/>
+fainter &amp; more indistinct till<lb/>
+they were gradually lost; but we<lb/>
+had no reason of suppose that we<lb/>
+heard the noise of their last fall. -<lb/>
+                  <del rend="strikethrough">
+                     <hi rend="underline">View of Crater of <rs xml:id="ttag58" ref="#place_1174" type="place">
+                           <name xml:id="tag58" type="place">
+          Stromboli
+        </name>
+                        </rs>
+                     </hi>
+                  </del>
+                  <lb/>
+- The general aspect of a Volcanic<lb/>
+district, even in its most quiet state<lb/>
+must be highly impressive; but when<lb/>
+the <hi rend="underline">subterranean</hi> fires are displayed<lb/>
+in their full energy, when they burst<lb/>
+forth from the interior of the Earth,<lb/>
+desolating &amp; destroying, then the effect<lb/>
+must be beyond all comparsion the<lb/>
+most awful &amp; the most sublime<lb/>
+of the phenomena belonging to<lb/>
+our Globe. -<lb/>
+- Multiplied descriptions<lb/>
+have been given of the Eruptions<lb/>
+of Volcanoes; - Philosophers<lb/>
+have detailed them, Poets have<lb/>
+                  <lb/>
+                  <pb n="13" xml:id="pb-13" facs="#i13"/>
+                  <lb/>
+13<lb/>
+4<lb/>
+painted them; but language must<lb/>
+                  <hi rend="underline">necessarily</hi> fail when applied to such<lb/>
+a purpose; &amp; not even the most<lb/>
+perfect delineation of the most perfect<lb/>
+master could do justified to a<lb/>
+combination of circumstances in which<lb/>
+feeling &amp; hearing &amp; sight, are almost<lb/>
+equally concerned. In which the Earth<lb/>
+trembles - In which the continued<lb/>
+sound of thunder dwells upon the Ears;<lb/>
+&amp; in which the eye is constantly dazzled<lb/>
+by lightenings flashing in the heavens<lb/>
+&amp; by liquid fire bursting from the Earth.<lb/>
+From the most accurate accounts<lb/>
+it appears that before any great eruption<lb/>
+takes place, the Mountain for a<lb/>
+considerable time, is more than usually<lb/>
+tranquil; &amp; one of the most common<lb/>
+indications of the approach of the event,<lb/>
+is a great stillness in the air &amp;<lb/>
+a drying up of the streams in the<lb/>
+vicinity. -<lb/>
+- The period of quiet, announces<lb/>
+the <hi rend="underline">approach of danger</hi> |_ tis then<lb/>
+that Nature seems as if preparing<lb/>
+her materials for this terrible operation<lb/>
+her tranquillity is the forerunner<lb/>
+of destruction. -<lb/>
+Slight tremblings of the Earth from<lb/>
+the first phenomena in the series -<lb/>
+|_  The smoke issuing from the Crater<lb/>
+increases in quantity, &amp; spreads into<lb/>
+the air in the form of an inverted<lb/>
+                  <lb/>
+                  <pb n="14" xml:id="pb-14" facs="#i14"/>
+                  <lb/>
+cone, |_ an Earthquake usually announces<lb/>
+the first appearance of flame / and the<lb/>
+melted Lava is poured forth amidst<lb/>
+noises more <hi rend="underline">terrible,</hi> &amp; louder,<lb/>
+than thunder, whilst the ground<lb/>
+is agitated by a series of continual<lb/>
+shocks. - <hi rend="underline">Instance.</hi>
+                  <lb/>
+This sketch will give some faint<lb/>
+idea of an eruption. It represents<lb/>
+Vesuvius as it appeared in 1771<lb/>
+the design is Volairs the engraving<lb/>
+is<lb/>
+                  <rs xml:id="ttag59" ref="#place_1169" type="place">
+                     <name xml:id="tag59" type="place">
+          Somma
+        </name>
+                  </rs>.<lb/>
+Gulf of <rs xml:id="ttag60" ref="#place_156" type="place">
+                     <name xml:id="tag60" type="place">
+          Naples
+        </name>
+                  </rs> Moonlight<lb/>
+- The <hi rend="underline">same appearances,</hi> are almost<lb/>
+uniformly exhibited, &amp; the most<lb/>
+accurate &amp; perspicuous accounts<lb/>
+that have ever been given of a<lb/>
+volcanic fire, are those of the<lb/>
+Eruption of Vesuvius in 1794.<lb/>
+&amp; I shall read an abstract of<lb/>
+the detail of events which has been<lb/>
+principally made from the excellent<lb/>
+works of <rs xml:id="ttag61" ref="#person_820" type="person">
+                     <name xml:id="tag61" type="person">
+          Breislac
+        </name>
+                  </rs> &amp; <rs xml:id="ttag62" ref="#person_699" type="person">
+                     <name xml:id="tag62" type="person">
+          Sir W<hi rend="superscript">m</hi> Hamilton
+        </name>
+                  </rs>. -<lb/>
+The Mountain had been <add>remarkably</add> quiet for<lb/>
+seven Months, nor did the usual<lb/>
+Smoke issue from the Crater, but<lb/>
+at times it emitted Clouds, that<lb/>
+floated in the Air in the shape of little<lb/>
+Trees. It was remarked that for<lb/>
+some days preceding the eruption,<lb/>
+                  <lb/>
+                  <pb n="15" xml:id="pb-15" facs="#i15"/>
+                  <lb/>
+a thick vapour was seen to surround the<lb/>
+Mountain about a quarter of a mile<lb/>
+beneath the Crater |_ the Sun &amp; Moon<lb/>
+had an unusual reddish Cast. -<lb/>
+ The water of the great fountain <rs xml:id="ttag63" ref="#place_1041" type="place">
+                     <name xml:id="tag63" type="place">
+          Torre<lb/>del Greco
+        </name>
+                  </rs> &amp; of the other Springs in<lb/>
+the vicinity, began to decrease<lb/>
+some days before the Eruption. -<lb/>
+- On the 12<hi rend="superscript">th</hi> of June there was a<lb/>
+violent fall of rain, &amp; soon after<lb/>
+the inhabitants of <rs xml:id="ttag64" ref="#place_1042" type="place">
+                     <name xml:id="tag64" type="place">
+          Resina
+        </name>
+                  </rs> situated<lb/>
+directly over the ancient Town of<lb/>
+                  <rs xml:id="ttag65" ref="#place_714" type="place">
+                     <name xml:id="tag65" type="place">
+          Herculaneum
+        </name>
+                  </rs> were sensible of a<lb/>
+rumbling subterranious noise - &amp;<lb/>
+about 11 o'Clock at night, a violent<lb/>
+shock of an Earthquake was felt<lb/>
+at <rs xml:id="ttag66" ref="#place_156" type="place">
+                     <name xml:id="tag66" type="place">
+          Naples
+        </name>
+                  </rs>. -<lb/>
+On the 15<hi rend="superscript">th</hi> of June, soon after<lb/>
+ten oClock at night, another shock<lb/>
+occurred; but not to violent as that<lb/>
+of the 12<hi rend="superscript">th</hi>. And at the same moment<lb/>
+a fountain of bright fire, attended with<lb/>
+a very black smoke, &amp; a loud report<lb/>
+was seen to issue, &amp; rise to a great<lb/>
+height, from about the middle of the<lb/>
+Cone of Vesuvius. - And soon after<lb/>
+another of the same kind broke out at<lb/>
+a little distance lower down |_ &amp;<lb/>
+both of the openings immediately<lb/>
+pored forth Lava. - Fresh fountains<lb/>
+of liquid fire succeeded each other<lb/>
+hastily |_ &amp; in the space of a mile<lb/>
+&amp; half, fifteen of them might be<lb/>
+numbered; &amp; others most probably<lb/>
+                  <lb/>
+                  <pb n="16" xml:id="pb-16" facs="#i16"/>
+                  <lb/>
+were hidden by the smoke. - It is<lb/>
+impossible that any description can<lb/>
+give an idea of this fiery scene,<lb/>
+or of the horrid noises, that<lb/>
+attended this great operation of Nature.<lb/>
+- It was a mixture of the loudest<lb/>
+Thunder, with incessant reports like<lb/>
+those from a numerous heavy artillery,<lb/>
+&amp; accompanied by a continual hollow<lb/>
+murmur, like that of the roaring<lb/>
+of the Ocean during a violent<lb/>
+Storm. -<lb/>
+No Scene could be more impressive. -<lb/>
+As a contrast; the sky over the sea<lb/>
+at a distance from the volcano<lb/>
+was calm &amp; beautiful, |_ it was<lb/>
+such a night as is seldom experienced<lb/>
+except in the delicious Climate of<lb/>
+                  <rs xml:id="ttag67" ref="#place_156" type="place">
+                     <name xml:id="tag67" type="place">
+          Naples
+        </name>
+                  </rs>. -<lb/>
+- At the base of Vesuvius, appeared<lb/>
+a majestic river of fire about 12, 000<lb/>
+feet in length, &amp; 1500 feet broad. -<lb/>
+The reflection from so great an ignited<lb/>
+                  <del rend="strikethrough">mass</del> surface, appeared in the<lb/>
+atmosphere as a grand &amp; brilliant<lb/>
+                  <rs xml:id="ttag68" ref="#misc_216" type="miscellaneous">
+                     <term xml:id="tag68">
+          Aurora Borealis
+        </term>
+                  </rs> which rendered the<lb/>
+light of the Moon dim &amp; feeble. -<lb/>
+- The sea towards which it flowed<lb/>
+was of a bright red tint, &amp; the waves<lb/>
+opposite to it seemed as if inflamed. -<lb/>
+On the Shore, the Melancholy fate<lb/>
+of <hi rend="underline">Torre</hi> was distinctly exhibited;<lb/>
+Clouds of Smoke rose from the City<lb/>
+                  <lb/>
+                  <pb n="17" xml:id="pb-17" facs="#i17"/>
+                  <lb/>
+17<lb/>
+5<lb/>
+overwhelmed by the liquid fire - flames<lb/>
+burst forth in every part: And the<lb/>
+noise of the falling of houses &amp; Palaces,<lb/>
+was heard even amidst the roaring of the<lb/>
+Volcano. -<lb/>
+- To these effects so calculated to<lb/>
+impress the Senses - one was added<lb/>
+which strongly &amp; irresistibly affected<lb/>
+the heart. - It was the Spectacle<lb/>
+of a disordered Croud, of more than<lb/>
+15,000 persons lamenting the loss of<lb/>
+their City, &amp; their goods; &amp; having<lb/>
+scarcely had a moment to fly; &amp;<lb/>
+to abandon for ever . their houses &amp;<lb/>
+their property, compelled to wander<lb/>
+in search of an assylum, at once<lb/>
+under the influence of terror &amp; grief. -<lb/>
+- There was an intermission of the<lb/>
+Eruption at about 2 in the morning<lb/>
+of the 16<hi rend="superscript">th</hi> - but at four the crater<lb/>
+again shewed signs of a new action -<lb/>
+&amp; Lava issued from a new opening<lb/>
+on the other side of the Mountain,<lb/>
+facing <rs xml:id="ttag69" ref="#place_1043" type="place">
+                     <name xml:id="tag69" type="place">
+          Ottaiano
+        </name>
+                  </rs> &amp; in a short time<lb/>
+had passed over three miles of ground,<lb/>
+&amp; <hi rend="underline">overwhelmed</hi> &amp; burnt a <hi rend="underline">considerable</hi>
+                  <lb/>
+                  <hi rend="underline">wood</hi>. - |_ The upper part of Vesuvius<lb/>
+was again <add>soon</add> involved in Clouds &amp;<lb/>
+darkness; but above these clouds,<lb/>
+fresh columns of smoke were continually<lb/>
+rising, till the whole mass had the<lb/>
+form of a pine tree, stretching to<lb/>
+an <hi rend="underline">enormous height</hi> in the Atmosphere. -<lb/>
+                  <lb/>
+                  <pb n="18" xml:id="pb-18" facs="#i18"/>
+                  <lb/>
+|_ &amp; in that gigantic mass of heavy<lb/>
+clouds, flashes of forked lightning<lb/>
+were constantly observed, so bright<lb/>
+as to be visible in the day time. -<lb/>
+- At about 6 o'Clock in the Morning<lb/>
+of the 16<hi rend="superscript">th</hi> - The lava had reached<lb/>
+the Sea after having passed through<lb/>
+&amp; destroyed the greatest part of <rs xml:id="ttag70" ref="#place_1041" type="place">
+                     <name xml:id="tag70" type="place">
+                        <hi rend="underline">Torre</hi>
+                        <lb/>
+                        <hi rend="underline">del Greco</hi>
+                     </name>
+                  </rs> -<lb/>
+- It met the waves with a<lb/>
+hissing noise, &amp; with loud explosions,<lb/>
+&amp; continued for some time to flow<lb/>
+beneath them.<lb/>
+During the whole of the 16<hi rend="superscript">th</hi> a cloud<lb/>
+of ashes was spread across the bay.<lb/>
+The Sun was scarcely visible through it,<lb/>
+ &amp; more dim than in a total <hi rend="underline">Eclipse</hi>
+                  <lb/>
+|_ &amp; even at <rs xml:id="ttag71" ref="#place_156" type="place">
+                     <name xml:id="tag71" type="place">
+          Naples
+        </name>
+                  </rs>, there was only<lb/>
+a glimmering of day, more feeble<lb/>
+than the winter's twilight<lb/>
+Instances 2<hi rend="superscript">nd</hi> - 3<hi rend="superscript">rd</hi>
+                  <lb/>
+Aug<hi rend="superscript">t</hi> 9<lb/>
+- This description will serve to<lb/>
+give a general idea of the course<lb/>
+of the phenomena in a Volcanic<lb/>
+Eruption. In no other instance,<lb/>
+were so many Scientific Observers<lb/>
+present, nor was there ever a more<lb/>
+favourable opportunity for registering<lb/>
+the appearances. - The order of<lb/>
+Events is in all cases analogous;<lb/>
+&amp; it would be a waste of time,<lb/>
+an unnecessary multiplication of similar<lb/>
+instances, to bring forward the less<lb/>
+perfect histories that have been given<lb/>
+                  <lb/>
+                  <pb n="19" xml:id="pb-19" facs="#i19"/>
+                  <lb/>
+in earlier times, &amp; of the eruptions of<lb/>
+other volcanoes, - Whether the fire<lb/>
+breaks forth amidst the snows of<lb/>
+                  <rs xml:id="ttag72" ref="#place_237" type="place">
+                     <name xml:id="tag72" type="place">
+          Iceland
+        </name>
+                  </rs> or the fertile hills of <rs xml:id="ttag73" ref="#place_097" type="place">
+                     <name xml:id="tag73" type="place">
+          Italy
+        </name>
+                  </rs>,<lb/>
+it is announced by the same indications,<lb/>
+accompanied by the same effects, &amp;<lb/>
+has the same termination. -<lb/>
+- In cases where phenomena are so<lb/>
+similar, the same reasonings may<lb/>
+be applied to their causes; |_ And<lb/>
+the immediate agents in Volcanic<lb/>
+Eruptions are in all cases evident. -<lb/>
+- The trembling of the Earth, the<lb/>
+noise in the Crater, &amp; the loud<lb/>
+explosions are all evidently owing,<lb/>
+to the <hi rend="underline">energy of elastic vapours,</hi>
+                  <lb/>
+&amp; it is by these, that the stones &amp; ashes<lb/>
+are raised, the ground opened, &amp;<lb/>
+the torrent of Lava poured forth. -<lb/>
+This explanation is so evident that<lb/>
+it did not escape the genius of the<lb/>
+Ancients. - <rs xml:id="ttag74" ref="#person_508" type="person">
+                     <name xml:id="tag74" type="person">
+          Lucretius
+        </name>
+                  </rs> has given it in<lb/>
+                  <rs xml:id="ttag75" ref="#otherwork_229" type="otherwork">
+                     <bibl xml:id="tag75">
+            his 6<hi rend="superscript">th</hi> Book
+        </bibl>
+                  </rs>, in some lines that may<lb/>
+be thus translated<lb/>
+"In <rs xml:id="ttag76" ref="#place_184" type="place">
+                     <name xml:id="tag76" type="place">
+          Etna
+        </name>
+                  </rs>'s Caves expanded by her fires<lb/>
+With mighty force the imprisoned air aspires,<lb/>
+And whilst escaping from the vast profound<lb/>
+Shakes the firm earth, &amp; scatters rocks around<lb/>
+O'er the green fields, &amp; fertile vineyards pours<lb/>
+Ashes &amp; sand - in desolating showers."<lb/>
+                  <lb/>
+                  <pb n="20" xml:id="pb-20" facs="#i20"/>
+                  <lb/>
+The elastic matter given off in<lb/>
+volcanic eruptions is principally<lb/>
+steam mixed with inflammable<lb/>
+air with <rs xml:id="ttag77" ref="#chemical_058" type="chemical">
+                     <term xml:id="tag77">
+          Carbonic Acid
+          
+        </term>
+                  </rs> &amp; some<lb/>
+other acid vapours. <rs xml:id="ttag78" ref="#chemical_037" type="chemical">
+                     <term xml:id="tag78">
+          Sulphur
+          
+        </term>
+                  </rs> likewise<lb/>
+is raised in the volatile state, for<lb/>
+it condenses sometimes on the<lb/>
+sides of the Crater; &amp; the torrents<lb/>
+of rain which follow eruptions<lb/>
+&amp; which are often more destructive<lb/>
+to the labours of the husbandman<lb/>
+&amp; more extensive in their desolating<lb/>
+effects than fire, are owing to<lb/>
+the condensation of <rs xml:id="ttag79" ref="#chemical_503" type="chemical">
+                     <term xml:id="tag79">
+          aqueous vapour
+          
+        </term>
+                  </rs>. -<lb/>
+Sometimes Primary or Secondary<lb/>
+Rocks are thrown out by the force<lb/>
+of explosions unaltered by fire;<lb/>
+but the great products are matters<lb/>
+in igneous fusion, principally<lb/>
+consisting of the earths in intimate<lb/>
+combination with oxides of iron &amp; alkali;<lb/>
+&amp; mixed with more or less of the<lb/>
+unaltered materials of the Mountain. -<lb/>
+Specimens<lb/>
+                  <rs xml:id="ttag80" ref="#chemical_037" type="chemical">
+                     <term xml:id="tag80">
+                        <hi rend="underline">Sulphur</hi>
+                     </term>
+                  </rs>
+                  <lb/>
+                  <hi rend="underline">Lavas</hi>
+                  <lb/>
+                  <rs xml:id="ttag81" ref="#chemical_425" type="chemical">
+                     <term xml:id="tag81">
+                        <hi rend="underline">Obsidian</hi>
+                     </term>
+                  </rs>
+                  <lb/>
+|_ It is from the products of the agencies<lb/>
+of volcanic fires alone, that we can<lb/>
+reason concerning their causes. - And<lb/>
+a number of difficulties undoubtedly<lb/>
+oppose themselves to the investigation. -<lb/>
+                  <lb/>
+                  <pb n="21" xml:id="pb-21" facs="#i21"/>
+                  <lb/>
+6<lb/>
+21<lb/>
+The substances concerned, are hidden<lb/>
+deep in the bosom of the Earth, &amp;<lb/>
+it is scarcely possible for us to<lb/>
+contemplate them in their active states -<lb/>
+even their <hi rend="underline">effects</hi>, can only be examined<lb/>
+at a distance; &amp; from their awful<lb/>
+nature, it is scarcely possible for the<lb/>
+most philosophical &amp; courageous mind<lb/>
+to examine them with coolness &amp;<lb/>
+precision. -<lb/>
+- These circumstances have induced<lb/>
+many Philosophers to give up the<lb/>
+enquiry as hopeless; |_ but we<lb/>
+are possessed by the <hi rend="underline">discoveries</hi> of<lb/>
+Modern Chemistry of many analogies<lb/>
+on the Subject. - &amp; as far as these<lb/>
+can be our guides, it is certainly fair<lb/>
+to pursue the <hi rend="underline">investigation</hi>. -<lb/>
+The nature of Atmospherical Electricity,<lb/>
+- of lightning was much less known in<lb/>
+the beginning of the last century<lb/>
+than the causes of volcanic fires<lb/>
+are now - &amp; where analogy is capable<lb/>
+of being applied, discovery should never<lb/>
+be despaired of. - I do not mean<lb/>
+to insinuate that we shall probably<lb/>
+gain the same power of averting the<lb/>
+effects of Earthquakes &amp; Volcanoes as<lb/>
+we have done those of Thunder Clouds -.<lb/>
+but at least as a matter of curiosity<lb/>
+the enquiry is worthy of <hi rend="underline">pursuit</hi>; |_ &amp;<lb/>
+it is connected with objects so <hi rend="underline">grand</hi>
+                  <lb/>
+&amp; <hi rend="underline">magnificient</hi>, as necessary to excite<lb/>
+                  <lb/>
+                  <pb n="22" xml:id="pb-22" facs="#i22"/>
+                  <lb/>
+the active imagination<lb/>
+One of the earliest Hypotheses<lb/>
+formed to account for the origin of<lb/>
+Volcanoes is, that a permanent<lb/>
+central fire occupies the interior<lb/>
+of the Earth; &amp; that the apertures<lb/>
+of burning Mountains are the places<lb/>
+by which it finds vent, by which<lb/>
+it is sometimes discharged into the<lb/>
+Atmosphere. -<lb/>
+- This notion would be admirable<lb/>
+from its simplicity, if it did not<lb/>
+interfere with all our established ideas,<lb/>
+&amp; all known facts concerning the nature<lb/>
+&amp; communication of heat. -<lb/>
+Heat in all its states is capable<lb/>
+of being transferred from body to body<lb/>
+&amp; if the interior of the Globe had<lb/>
+been from all time in a state of<lb/>
+ignition; the effects must have been<lb/>
+long ago communicated to the surface<lb/>
+which would have exhibited, not<lb/>
+a few widely scattered volcanoes,<lb/>
+but one glowing and burning mass.<lb/>
+- The Philosophers who have defended<lb/>
+this opinion have gone further even<lb/>
+than the <add>ancient</add>
+                  <rs xml:id="ttag82" ref="#misc_416" type="miscellaneous">
+                     <term xml:id="tag82">
+          Priests of Vesta
+        </term>
+                  </rs>, who though<lb/>
+they attributed a divine nature to<lb/>
+fire; yet knew that without fuel<lb/>
+the flame on their altars would<lb/>
+be soon extinct. -<lb/>
+                  <lb/>
+                  <pb n="23" xml:id="pb-23" facs="#i23"/>
+                  <lb/>
+- We can reason only by induction<lb/>
+or analogy from facts that we are<lb/>
+acquainted with, &amp; all the common<lb/>
+phenomena of fire occurring on the<lb/>
+surface of the Globe are connected<lb/>
+with Chemical changes, with the<lb/>
+mutual agencies of different substances<lb/>
+on each other; &amp; by the quiet of a<lb/>
+Volcanic Mountain after eruptions<lb/>
+the cessation &amp; renovation of the<lb/>
+effects in the same district &amp; the<lb/>
+different intensity of the effects at<lb/>
+different times, all point out to<lb/>
+Chemical Changes as the probable<lb/>
+cause for these grand occurrences.<lb/>
+- But what Chemical agents<lb/>
+are capable of producing such<lb/>
+effects? -<lb/>
+- If an operation of Combustion<lb/>
+has taken place, &amp; I wish to<lb/>
+ascertain the causes, I examine<lb/>
+the results, &amp; form my conclusions<lb/>
+entirely upon their peculiar nature<lb/>
+- Here is a vivid Combustion: -<lb/>
+suppose a white powder is produced<lb/>
+- I examine it, &amp; find it<lb/>
+                  <rs xml:id="ttag83" ref="#chemical_027" type="chemical">
+                     <term xml:id="tag83">
+          Phosphoric acid
+          
+        </term>
+                  </rs>. - Of course<lb/>
+I conclude that the effect<lb/>
+depended upon <rs xml:id="ttag84" ref="#chemical_151" type="chemical">
+                     <term xml:id="tag84">
+          phosphorus
+          
+        </term>
+                  </rs>
+                  <lb/>
+Instance<lb/>
+Combus<hi rend="superscript">n</hi> of <rs xml:id="ttag85" ref="#chemical_151" type="chemical">
+                     <term xml:id="tag85">
+          phosphorus
+          
+        </term>
+                  </rs> in <rs xml:id="ttag86" ref="#chemical_022" type="chemical">
+                     <term xml:id="tag86">
+          oxy<hi rend="superscript">e</hi>
+                     </term>
+                  </rs>
+                  <lb/>
+                  <lb/>
+                  <pb n="24" xml:id="pb-24" facs="#i24"/>
+                  <lb/>
+What the results of a Volcanic<lb/>
+Eruption? Lava. principally the<lb/>
+Earths &amp; alkalies in a state of<lb/>
+ignition <rs xml:id="ttag87" ref="#chemical_503" type="chemical">
+                     <term xml:id="tag87">
+          aqueous vapour
+          
+        </term>
+                  </rs>, inflammable<lb/>
+gas which burns as it rises. -<lb/>
+But from what can these products<lb/>
+have arisen? - I have<lb/>
+mentioned the experiments which<lb/>
+shew that the Earths &amp; alkalies<lb/>
+are capable of being reduced into<lb/>
+Metals which are amongst the most<lb/>
+combustible bodies in nature, so<lb/>
+that they even burn in contact<lb/>
+with water. -<lb/>
+- And if it be supposed<lb/>
+that the interior of the Earth contains<lb/>
+Alloys of these Metals with common<lb/>
+metals a supposition which is<lb/>
+warranted by the observation of<lb/>
+D<hi rend="superscript">r</hi>
+                  <rs xml:id="ttag88" ref="#person_664" type="person">
+                     <name xml:id="tag88" type="person">
+          Maskelyne
+        </name>
+                  </rs> &amp; <rs xml:id="ttag89" ref="#person_026" type="person">
+                     <name xml:id="tag89" type="person">
+          M<hi rend="superscript">r</hi> Cavendish
+        </name>
+                  </rs>
+                  <lb/>
+on the mean density of the Earth;<lb/>
+the phenomena of Volcanic fires<lb/>
+might be easily explained<lb/>
+|_ Water it seems is always<lb/>
+connected with the effect. -<lb/>
+Most of the great Volcanoes<lb/>
+are near the Sea or extensive<lb/>
+Lakes, &amp; <rs xml:id="ttag90" ref="#chemical_503" type="chemical">
+                     <term xml:id="tag90">
+          aqueous vapour
+          
+        </term>
+                  </rs> as<lb/>
+I have said is one of the<lb/>
+products, &amp; <rs xml:id="ttag91" ref="#chemical_007" type="chemical">
+                     <term xml:id="tag91">
+          inflammable Air
+          
+        </term>
+                  </rs>
+                  <lb/>
+which would result from the<lb/>
+decomposition of water by the<lb/>
+Metals - The elastic substances<lb/>
+                  <lb/>
+                  <pb n="25" xml:id="pb-25" facs="#i25"/>
+                  <lb/>
+25<lb/>
+7<lb/>
+on such an idea would be such as<lb/>
+they are found to be, - the fluid<lb/>
+products would be Lavas; becoming<lb/>
+combinations of the Earths &amp; alkalies<lb/>
+on cooling<lb/>
+                  <del rend="strikethrough">
+                     <hi rend="underline">Instance.</hi>
+                  </del>
+                  <lb/>
+                  <del rend="strikethrough">I shewed in the Chemical Lectures</del>
+                  <lb/>
+                  <del rend="strikethrough">an experiment which on the hypothesis</del>
+                  <lb/>
+                  <del rend="strikethrough">advanced may be regarded as offering</del>
+                  <lb/>
+                  <del rend="strikethrough">an illustration of a volcanic eruption</del>
+                  <lb/>
+                  <del rend="strikethrough">I shall repeat it on a larger scale</del>
+                  <lb/>
+To be given<lb/>
+                  <hi rend="underline">Instance</hi>
+                  <lb/>
+Even this is a very feeble imitation. -<lb/>
+But in the operations of Nature where<lb/>
+immense masses of the metals of the Earths<lb/>
+may be supposed to exist &amp; to be acted<lb/>
+upon by great bodies of water flowing<lb/>
+in from the Ocean. The effects would<lb/>
+be correspondently grand. The Lava poured<lb/>
+fourth might cover miles of Country. -<lb/>
+Earthquakes <hi rend="underline">would be felt from the</hi> action<lb/>
+of the <hi rend="underline">great quantity</hi> of <rs xml:id="ttag92" ref="#chemical_007" type="chemical">
+                     <term xml:id="tag92">
+          inflammable Air
+          
+        </term>
+                  </rs>;<lb/>
+|_ Mountains might be raised on the Land,<lb/>
+&amp; Islands elevated in the Sea.<lb/>
+|_ Electrical changes in most cases<lb/>
+precede, or are connected with Chemical<lb/>
+Charges &amp; hence the explosions from<lb/>
+the <rs xml:id="ttag93" ref="#chemical_078" type="chemical">
+                     <term xml:id="tag93">
+          elastic matter 
+          
+        </term>
+                  </rs>&amp; the fire of<lb/>
+combustion would be associated as they<lb/>
+are found to be &amp; their effects enhanced<lb/>
+by Thunder &amp; Lightning. -<lb/>
+                  <lb/>
+                  <pb n="26" xml:id="pb-26" facs="#i26"/>
+                  <lb/>
+|_ On the idea of the subterranean<lb/>
+fire being produced by the action of<lb/>
+water &amp; air upon the Metals of the<lb/>
+Earths as I hinted in the Introductory<lb/>
+Lecture, / a general hypothesis of Geology<lb/>
+                  <hi rend="underline">may</hi> be founded. -<lb/>
+- Water &amp; Air in certain operations<lb/>
+decompose &amp; degrade Rocks. - but in<lb/>
+these operations, they may be considered<lb/>
+as acting a contrary part, as<lb/>
+consolidating &amp; elevating them. -<lb/>
+- Electricity has been the great agent<lb/>
+for producing metals from Earths &amp;<lb/>
+alkalies, &amp; if it can be supposed<lb/>
+that Electricity acting under the<lb/>
+pressure of the Ocean, or in the great<lb/>
+subterraneous Laboratory of the Mineral<lb/>
+Kingdom is capable of separating<lb/>
+the inflammable bases of the Earths<lb/>
+from their <rs xml:id="ttag94" ref="#chemical_022" type="chemical">
+                     <term xml:id="tag94">
+          Oxygene
+          
+        </term>
+                  </rs> - then these<lb/>
+might be assumed a perfect equilibrium<lb/>
+a consistent <hi rend="underline">balance of powers</hi>
+                  <lb/>
+in the <hi rend="underline">system of</hi> terrestrial Changes;<lb/>
+&amp; a completion of that Order to which<lb/>
+so many other <del rend="strikethrough">
+                     <unclear>xxxxxxxx</unclear>
+                  </del>
+                  <add>causes</add> as was<lb/>
+stated in the last lecture contribute. -<lb/>
+- The analogy of Nature likewise<lb/>
+is in favour of such a supposition<lb/>
+                  <hi rend="underline">Vegetables</hi>, absorb principles from the<lb/>
+Atmosphere which are again evolved<lb/>
+into it, at the time of their decay. -<lb/>
+                  <lb/>
+                  <pb n="27" xml:id="pb-27" facs="#i27"/>
+                  <lb/>
+Water carried into the Atmosphere<lb/>
+gradually returns to the Sea, from<lb/>
+whence it sprung. -<lb/>
+- In animal Bodies, the materials<lb/>
+derived from the external World, after<lb/>
+being subservient to Life, are again<lb/>
+converted into Elements to be prepared<lb/>
+for <hi rend="underline">another circulation</hi>. - (And the<lb/>
+idea corresponds with the <hi rend="underline">beautiful</hi>
+                  <lb/>
+ancient <hi rend="underline">hieroglyphic</hi>
+                  <hi rend="underline">representation</hi>
+                  <lb/>
+of Nature / the Phoenix rising<lb/>
+from the ashes. - )<lb/>
+- These views though analogous to<lb/>
+the views of <rs xml:id="ttag95" ref="#person_246" type="person">
+                     <name xml:id="tag95" type="person">
+          Hooke
+        </name>
+                  </rs> &amp; of <rs xml:id="ttag96" ref="#person_125" type="person">
+                     <name xml:id="tag96" type="person">
+          Hutton
+        </name>
+                  </rs> with<lb/>
+respect to the future changes of the<lb/>
+Globe, yet, do not necessarily involve<lb/>
+the idea that the primary Rocks &amp;<lb/>
+Secondary Rocks were formed in consequence<lb/>
+of the operation of similar agencies. -<lb/>
+- As far as Lavas have been<lb/>
+examined, none of their parts have<lb/>
+been found similar to those of Primary<lb/>
+&amp; Secondary Rocks. -<lb/>
+- It may be said that the want of<lb/>
+the pressure of the Ocean may occasion<lb/>
+the difference; but still there is required<lb/>
+some experiments, or some observations,<lb/>
+which will demonstrate that many<lb/>
+different crystals may be formed from<lb/>
+the same fused mass by slow cooling. -<lb/>
+                  <lb/>
+                  <pb n="28" xml:id="pb-28" facs="#i28"/>
+                  <lb/>
+                  <rs xml:id="ttag97" ref="#person_164" type="person">
+                     <name xml:id="tag97" type="person">
+          Sir James Hall
+        </name>
+                  </rs> by a series of<lb/>
+beautiful experiments has shewn that<lb/>
+                  <rs xml:id="ttag98" ref="#chemical_105" type="chemical">
+                     <term xml:id="tag98">
+          Basalt
+          
+        </term>
+                  </rs> &amp; even <rs xml:id="ttag99" ref="#chemical_090" type="chemical">
+                     <term xml:id="tag99">
+          Limestone
+          
+        </term>
+                  </rs> after being fused<lb/>
+will assume the crystalline form by<lb/>
+slow congelation <add>but in the <hi rend="underline">specimens</hi> of reproduced crystalline <rs xml:id="ttag100" ref="#chemical_105" type="chemical">
+                        <term xml:id="tag100">
+          Basalt
+          
+        </term>
+                     </rs> that I have seen the crystals were only of one species whereas in the original, they were of two distinct kinds.</add> but |_ Exp<hi rend="superscript">ts</hi> similar<lb/>
+to those of <rs xml:id="ttag101" ref="#person_164" type="person">
+                     <name xml:id="tag101" type="person">
+          Sir J. Hall
+        </name>
+                  </rs> were made by<lb/>
+M<hi rend="superscript">r</hi>
+                  <rs xml:id="ttag102" ref="#person_261" type="person">
+                     <name xml:id="tag102" type="person">
+          Gregory Watt
+        </name>
+                  </rs>. he fused some hundreds<lb/>
+weight of <rs xml:id="ttag103" ref="#chemical_105" type="chemical">
+                     <term xml:id="tag103">
+          Basalt
+          
+        </term>
+                  </rs>, &amp; by suffering it to<lb/>
+cool in a mass, examined the results<lb/>
+by breaking it into pieces. The<lb/>
+largest crystals were found in the interior<lb/>
+where the congelation must have been<lb/>
+comparatively slow. - <rs xml:id="ttag104" ref="#otherwork_230" type="otherwork">
+                     <bibl xml:id="tag104">
+            His paper on<lb/>this subject is published in the<lb/>Transactions of the Royal Society
+        </bibl>
+                  </rs> of<lb/>
+                  <rs xml:id="ttag105" ref="#place_071" type="place">
+                     <name xml:id="tag105" type="place">
+          London
+        </name>
+                  </rs>; &amp; abounds in acute observations<lb/>
+&amp; sagacious inferences . -<lb/>
+It was the first &amp; only Geological<lb/>
+production of a Mind full of talent<lb/>
+&amp; enthusiasm for Scientific pursuits. -<lb/>
+Of a Mind which promised much for<lb/>
+the Philosophy of this Subject; but<lb/>
+death cut off this bloom of promise<lb/>
+&amp; hope for the Scientific World at<lb/>
+the moment it was brightest. -<lb/>
+No person attached to truth can<lb/>
+read his paper without a feeling<lb/>
+of regret, &amp; I hope I may be<lb/>
+excused for the strong expression<lb/>
+of this regret, for whilst I admired him<lb/>
+as a Philosopher, I loved him as a<lb/>
+Man. He was the earliest &amp; one of the<lb/>
+dearest of my Scientific Friends. -<lb/>
+                  <lb/>
+                  <pb n="29" xml:id="pb-29" facs="#i29"/>
+                  <lb/>
+8<lb/>
+29<lb/>
+There is however, still a noble field<lb/>
+of Exp<hi rend="superscript">t</hi> in the effects of slowly conducted<lb/>
+heat, &amp; the results may be important,<lb/>
+in their application to the Arts as well<lb/>
+as to the Solution of the phenomena<lb/>
+of Geology |_ &amp; there cannot be a<lb/>
+more noble &amp; delightful Study<lb/>
+than the peculiarities of the combinations<lb/>
+of Nature, nor an Art more worthy<lb/>
+of being followed than that by which<lb/>
+her resources are imitated. -<lb/>
+- The Volcanic Rocks in general<lb/>
+are extremely liable to decompose. -<lb/>
+they contain alkali, <rs xml:id="ttag106" ref="#chemical_166" type="chemical">
+                     <term xml:id="tag106">
+          Oxide of Iron
+          
+        </term>
+                  </rs>, &amp;<lb/>
+calcareous matter, &amp; all the causes<lb/>
+described in the last lecture operate<lb/>
+powerfully upon them. -<lb/>
+- By their decomposition <rs xml:id="ttag107" ref="#chemical_426" type="chemical">
+                     <term xml:id="tag107">
+          Puzzulanoes
+          
+        </term>
+                  </rs>,<lb/>
+terrass &amp; fine red &amp; brown soils<lb/>
+are formed. -<lb/>
+- I mentioned in the beginning<lb/>
+of this Lecture, the fertility of most<lb/>
+of the Volcanic regions. - They<lb/>
+sooner become the abode of vegetation,<lb/>
+than any other Rocks; &amp; their<lb/>
+efficacy in combining with other<lb/>
+causes in increasing the habitable<lb/>
+surface of the Globe is consequently<lb/>
+distinct.<lb/>
+- In <rs xml:id="ttag108" ref="#place_1044" type="place">
+                     <name xml:id="tag108" type="place">
+          the Azores
+        </name>
+                  </rs>, in the different<lb/>
+Asiatic Archipelagoes, Islands have been<lb/>
+often raised - |_ That near<lb/>
+                  <lb/>
+                  <pb n="30" xml:id="pb-30" facs="#i30"/>
+                  <lb/>
+                  <rs xml:id="ttag109" ref="#place_846" type="place">
+                     <name xml:id="tag109" type="place">
+          Santerin
+        </name>
+                  </rs> which rose out of the<lb/>
+bosom of the Sea in 1707 is now<lb/>
+covered in many parts with<lb/>
+vegetables<lb/>
+- The <rs xml:id="ttag110" ref="#place_408" type="place">
+                     <name xml:id="tag110" type="place">
+          Lipari Islands
+        </name>
+                  </rs> were<lb/>
+probably all of them elevated<lb/>
+by submarine Volcanoes. -<lb/>
+Fertile fields now exist where<lb/>
+before there was a comparitively<lb/>
+useless expanse of Sea. -<lb/>
+The evil produced is transient,<lb/>
+the good is permanent. -<lb/>
+The Lava which destroyed<lb/>
+                  <rs xml:id="ttag111" ref="#place_714" type="place">
+                     <name xml:id="tag111" type="place">
+          Herculaneum
+        </name>
+                  </rs>, has been for 15<lb/>
+centuries a rich &amp; fertile soil;<lb/>
+The ashes which buried <rs xml:id="ttag112" ref="#place_407" type="place">
+                     <name xml:id="tag112" type="place">
+          Pompeia
+        </name>
+                  </rs>
+                  <lb/>
+have rendered a great Country<lb/>
+continually productive. The destruction<lb/>
+is small &amp; partial - the benefit<lb/>
+great &amp; general. -<lb/>
+- In Nature nothing must be<lb/>
+judged of in moments, or from<lb/>
+its immediate effects. - Her operations<lb/>
+are in years, &amp; in ages; &amp; the<lb/>
+ultimate tendency of them the<lb/>
+                  <hi rend="underline">preservation</hi> of Life. - It is by<lb/>
+events apparently destructive, that<lb/>
+her powers are renovated. -<lb/>
+By her most awful &amp; terrible<lb/>
+agencies even the equilibrium<lb/>
+                  <lb/>
+               </term>
+            </rs>
+         </div>
+      </body>
+   </text>
+</TEI>

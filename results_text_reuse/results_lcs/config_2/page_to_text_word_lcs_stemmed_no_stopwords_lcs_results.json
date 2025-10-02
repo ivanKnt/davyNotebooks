@@ -1,0 +1,1148 @@
+{
+  "method": "lcs_library_based",
+  "configuration": {
+    "similarity_threshold": 0.3,
+    "granularity": "word",
+    "use_stemming": true,
+    "remove_stopwords": true,
+    "min_segment_length": 20,
+    "min_words": 3,
+    "min_lcs_length": 3
+  },
+  "reuse_instances": [
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "11",
+      "segment1_text": "a bright 3/4 moon. T in window open at 10. 58. bright moon July 5 T at 7 in window 58. 59. In room 63. light clouds. shall D V D V D V proceed to Munich . Found it hot & disagreeable. T 70 in room. Vald. miser. Vald. miser. Vald. miser. xx Hir. temp. - July 6 a fine & cool night T 62 in window at 7 - 68 69. in room.",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "Marcus ElieserBloch",
+            "birth": "",
+            "death": "",
+            "description": "German physician and naturalist who specialised in the study of fish on which he published a 12 volume work with which Davy was familiar. (presumably in the French translation).",
+            "id": "person_235"
+          },
+          {
+            "name": "Johann AndreasWagner",
+            "birth": "",
+            "death": "",
+            "description": "a German palaeontologist, zoologist and archaeologist who wrote several important works on palaeontology.",
+            "id": "person_1008"
+          }
+        ],
+        "places": [
+          {
+            "name": "Munich",
+            "description": "the capital of Bavaria in Germany",
+            "id": "place_1264"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "160",
+      "segment2_text": "} 16.1 31 .1 x 5 Monte 1. 8 1. 8 2 Barrina 1 0 9 1 0 9 Varlo 31. 3.. 5 Monte Varlo Monte Varlo 14. Wednesday 15 . 16 F 17 S 18 S 31. 3. 5. 19. M. 20 T 30 . 19 21 W 22 T 9 23 F 12.5 24 S 11. 4 5 11. 4 5 25 S 26 M 27 T 4 7 5 28 W 29 T 1 . 4 . 5 1 . 4 . 5 30 F 4 3 1 S 2 S 3 M 39 6 39 6 4 T 36. 5 05 5. W 9. S. 10 M 11 T 6 T 12 W. 13 T 14 F 15 S 16 S 17 M 17 M 18 Tuesday 7 F 2 8 S",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.2542372881355932,
+      "lcs_dice": 0.40540540540540543,
+      "lcs_ratio": 0.40540540540540543,
+      "containment_1_in_2": 0.3,
+      "containment_2_in_1": 0.625,
+      "max_containment": 0.625,
+      "lcs_length": 15,
+      "lcs_text": ". . . . . . . . . . . . . . .",
+      "seq1_length": 50,
+      "seq2_length": 24,
+      "coverage_ratio": 0.3
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "111",
+      "segment1_text": "Lord Byron Lord Byron Lord Byron Lord Byron . written Whilst living Whilst living Whilst living Whilst living . – 23.",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "George GordonByron",
+            "birth": "",
+            "death": "",
+            "description": "From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.",
+            "id": "person_118"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "134",
+      "segment2_text": "131 Supplement to the poem on the death of Lord Byron Lord Byron Lord Byron . Fintl - July 28.27 Now passing near those high & blessed abodes ways. abodes ways.",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "Cain",
+            "birth": "",
+            "death": "",
+            "description": "A biblical figure in the Book of Genesis. He is the firstborn son of Adam and Eve and brother of Abel.",
+            "id": "person_956"
+          },
+          {
+            "name": "George GordonByron",
+            "birth": "",
+            "death": "",
+            "description": "From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.",
+            "id": "person_118"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.2571428571428571,
+      "lcs_dice": 0.4090909090909091,
+      "lcs_ratio": 0.4090909090909091,
+      "containment_1_in_2": 0.45,
+      "containment_2_in_1": 0.375,
+      "max_containment": 0.45,
+      "lcs_length": 9,
+      "lcs_text": "lord byron lord byron lord byron . . .",
+      "seq1_length": 20,
+      "seq2_length": 24,
+      "coverage_ratio": 0.375
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "111",
+      "segment1_text": "Lord Byron Lord Byron Lord Byron Lord Byron . written Whilst living Whilst living Whilst living Whilst living . – 23.",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "George GordonByron",
+            "birth": "",
+            "death": "",
+            "description": "From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.",
+            "id": "person_118"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "165",
+      "segment2_text": "On the death of Lord Byron On the death of Lord Byron On the death of Lord Byron composed at Westhill in the great storm, Nov r .",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.2413793103448276,
+      "lcs_dice": 0.3888888888888889,
+      "lcs_ratio": 0.3888888888888889,
+      "containment_1_in_2": 0.35,
+      "containment_2_in_1": 0.4375,
+      "max_containment": 0.4375,
+      "lcs_length": 7,
+      "lcs_text": "lord byron lord byron lord byron .",
+      "seq1_length": 20,
+      "seq2_length": 16,
+      "coverage_ratio": 0.35
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "122",
+      "segment1_text": "So is the rose destroyed by the child Who in his bosom hides the cherished flower. And Nature never feels so strong her powers As in the trusty worth of buds & flowers Love is the flower of life. too short its bloom lovelier its tint the sweeter its perfume Shorter the richer are its scents & hues scents & hues & scents And He that plucks it hastens its sad doom, And soon that He has xxxxxxx so fair a thing repents.",
+      "segment1_metadata": {},
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "160",
+      "segment2_text": "157 Love is the flower of life its brightest its brightest too short its too short its bloom too soon it fades too soon it fades Sooner the fairer are its changeful Sooner the fairer are its changeful Shortest when brightest richest & most rich most rich hues The sooner, when most rich its tints & The sooner, when most rich its tints & its scents its scents & scents And he that plucks it hastens its sad doom And soon that He has spoilt so bright a thing repents.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.2719298245614035,
+      "lcs_dice": 0.42758620689655175,
+      "lcs_ratio": 0.42758620689655175,
+      "containment_1_in_2": 0.4696969696969697,
+      "containment_2_in_1": 0.3924050632911392,
+      "max_containment": 0.4696969696969697,
+      "lcs_length": 31,
+      "lcs_text": "love is flower life too short it bloom it tint it it scent scent scent he that pluck it hasten it sad doom soon that he ha so thing repent .",
+      "seq1_length": 66,
+      "seq2_length": 79,
+      "coverage_ratio": 0.3924050632911392
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "134",
+      "segment1_text": "131 Supplement to the poem on the death of Lord Byron Lord Byron Lord Byron . Fintl - July 28.27 Now passing near those high & blessed abodes ways. abodes ways.",
+      "segment1_metadata": {
+        "persons": [
+          {
+            "name": "Cain",
+            "birth": "",
+            "death": "",
+            "description": "A biblical figure in the Book of Genesis. He is the firstborn son of Adam and Eve and brother of Abel.",
+            "id": "person_956"
+          },
+          {
+            "name": "George GordonByron",
+            "birth": "",
+            "death": "",
+            "description": "From 1798 6th Lord Byron. Famous poet who knew both Humphry and Jane Davy in London and Italy; he wrote a slightly risqué skit on their marriage in 1812. FRSL.",
+            "id": "person_118"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "165",
+      "segment2_text": "On the death of Lord Byron On the death of Lord Byron On the death of Lord Byron composed at Westhill in the great storm, Nov r .",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.25,
+      "lcs_dice": 0.4,
+      "lcs_ratio": 0.4,
+      "containment_1_in_2": 0.3333333333333333,
+      "containment_2_in_1": 0.5,
+      "max_containment": 0.5,
+      "lcs_length": 8,
+      "lcs_text": "death lord byron lord byron lord byron .",
+      "seq1_length": 24,
+      "seq2_length": 16,
+      "coverage_ratio": 0.3333333333333333
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "154",
+      "segment1_text": "151 By the imperial citys fallen walls Laying bare the bones of heroes & the monuments And Of generations of the ages past Or we might rest on that cloud covered hill Whose marble rocks are cloaked with brightest green. Where thousand flowers of unknown hues & names Scent the cool air, rarely by human breath inhaled But which the wild bee knows & ever haunts And whence descends the balmy influence Of those bright waters tepid from the fires Of ancient Appenine .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Apennines",
+            "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+            "id": "place_530"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "27",
+      "segment2_text": "Layin bare the bones of heroes & the monuments And records of the generations past. - Or wilt thou pass to that cloud covered hill Whose marble rocks are cloaked with brightest verdure green Where Flora reigns in mountain majesty Where a thousand flowers of nameless unknown sweets hues & virtues & virtues Scent the cool air rarely by human breath inhaled",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          },
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Tiber River",
+            "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
+            "id": "place_615"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.3815789473684211,
+      "lcs_dice": 0.5523809523809524,
+      "lcs_ratio": 0.5523809523809524,
+      "containment_1_in_2": 0.48333333333333334,
+      "containment_2_in_1": 0.6444444444444445,
+      "max_containment": 0.6444444444444445,
+      "lcs_length": 29,
+      "lcs_text": "bare bone hero monument gener past that cloud cover hill whose marbl rock are cloak brightest green where thousand flower unknown hue scent cool air rare human breath inhal",
+      "seq1_length": 60,
+      "seq2_length": 45,
+      "coverage_ratio": 0.48333333333333334
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "154",
+      "segment1_text": "151 By the imperial citys fallen walls Laying bare the bones of heroes & the monuments And Of generations of the ages past Or we might rest on that cloud covered hill Whose marble rocks are cloaked with brightest green. Where thousand flowers of unknown hues & names Scent the cool air, rarely by human breath inhaled But which the wild bee knows & ever haunts And whence descends the balmy influence Of those bright waters tepid from the fires Of ancient Appenine .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Apennines",
+            "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+            "id": "place_530"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "28",
+      "segment2_text": "But which the wild Bee knows & ever haunts. - And whence descends your balmy influence Ye waters tepid from the sleeping fires Of ancient Appenine whose source Hygeia loves, & midst the coolness Of the mountain xxxxx & neath the shade of chesnuts whose time worn trunks proclaim Their age of other centuries. -",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Apennines",
+            "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+            "id": "place_530"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.2,
+      "lcs_dice": 0.3333333333333333,
+      "lcs_ratio": 0.3333333333333333,
+      "containment_1_in_2": 0.2833333333333333,
+      "containment_2_in_1": 0.40476190476190477,
+      "max_containment": 0.40476190476190477,
+      "lcs_length": 17,
+      "lcs_text": "which wild bee know ever haunt whenc descend balmi influenc water tepid from fire ancient appenin .",
+      "seq1_length": 60,
+      "seq2_length": 42,
+      "coverage_ratio": 0.2833333333333333
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "154",
+      "segment1_text": "Whose sacred source Hygeia loves. There my weary limbs I have might repose beneath the shade Of chesnuts whose time worn trunks proclaim Their xx of other centuries.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Apennines",
+            "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+            "id": "place_530"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "28",
+      "segment2_text": "But which the wild Bee knows & ever haunts. - And whence descends your balmy influence Ye waters tepid from the sleeping fires Of ancient Appenine whose source Hygeia loves, & midst the coolness Of the mountain xxxxx & neath the shade of chesnuts whose time worn trunks proclaim Their age of other centuries. -",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Apennines",
+            "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+            "id": "place_530"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.2830188679245283,
+      "lcs_dice": 0.4411764705882353,
+      "lcs_ratio": 0.4411764705882353,
+      "containment_1_in_2": 0.5769230769230769,
+      "containment_2_in_1": 0.35714285714285715,
+      "max_containment": 0.5769230769230769,
+      "lcs_length": 15,
+      "lcs_text": "whose sourc hygeia love shade chesnut whose time worn trunk proclaim their other centuri .",
+      "seq1_length": 26,
+      "seq2_length": 42,
+      "coverage_ratio": 0.35714285714285715
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "155",
+      "segment1_text": "Nursing those lofty thoughts that in the mind Spontaneous rise, blending their sacred powers With images from moutain & from flood From chesnut groves amidst the broken rocks Where the blue Lima pours to meet the wave Of foaming Serchio or midst the odrus heath And cystus flowers that clothe the stream worn sides Of the green hills whence in purity.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Ravenna",
+            "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+            "id": "place_245"
+          },
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Tiber River",
+            "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
+            "id": "place_615"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "27",
+      "segment2_text": "25 To look on Nature with a poets eye Nursing those lofty thoughts which in the mind Spontaneous arise & blending all their power With images from mountain & from flood From chesnut groves amidst the broken rocks Where the blue Lima pours to meet the wave of foaming Serchio , or midst the odorous heath And cystus flowers Which cloaks the stream-worn sides of the green hills Whence rise in mountain xxxx & mountain xxxx mountain xxxx & mountain virgin purity virgin purity Thy limpid waves of mountain Tiber Not polluted yet, by mixture with the lowland muddy rills Or turbid with the ruins of the plains When then murmerest by of ancient Latium Washing Where thou murmurest by Where thou murmurest by the falling walls of the imperial city.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          },
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Tiber River",
+            "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
+            "id": "place_615"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.37373737373737376,
+      "lcs_dice": 0.5441176470588235,
+      "lcs_ratio": 0.5441176470588235,
+      "containment_1_in_2": 0.7872340425531915,
+      "containment_2_in_1": 0.4157303370786517,
+      "max_containment": 0.7872340425531915,
+      "lcs_length": 37,
+      "lcs_text": "nurs those lofti thought mind spontan blend their power imag from from flood from chesnut grove amidst broken rock where blue lima pour meet wave foam serchio midst heath cystu flower side green hill whenc puriti .",
+      "seq1_length": 47,
+      "seq2_length": 89,
+      "coverage_ratio": 0.4157303370786517
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "156",
+      "segment1_text": "153 Rise in a strait gigantic column Rise in a strait gigantic column Stand like a tree above. Een in my heart By sickness weakened & by sorrow chilled The balm of kindness calmness seems to penetrate Mild soothing genial in its influence Again I feel a freshness & a power As in my youthful days & hopes & thoughts Heroical & high.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "124",
+      "segment2_text": "By sickness weakened & by sorrow chil'd the balm of calmness seems to enter penetrate enter penetrate Mild & genial soothing in its influence And soothing And soothing Again I feel a freshness & a power & a power As in my youthful days & hopes & thoughts & hopes & thoughts Heroical of & Heroical of & high - is it that in the mind is it that in the mind in the mind As in the Body wound through when healed As in the Body wound through when healed when healed - Till with - Till with - The wasted frame Soon in corporeal strength recruits itself And wounds fill with new flesh",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.25555555555555554,
+      "lcs_dice": 0.40707964601769914,
+      "lcs_ratio": 0.40707964601769914,
+      "containment_1_in_2": 0.5348837209302325,
+      "containment_2_in_1": 0.32857142857142857,
+      "max_containment": 0.5348837209302325,
+      "lcs_length": 23,
+      "lcs_text": "sick weaken sorrow balm calm seem penetr mild sooth it influenc again feel fresh power as my youth day hope thought heroic high",
+      "seq1_length": 43,
+      "seq2_length": 70,
+      "coverage_ratio": 0.32857142857142857
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "156",
+      "segment1_text": "The wasted frame Soon in corporeal strength recruits itself And wounds fill with new flesh So in the mind the death of objects the death of objects The death of objects & the loss of hopes Are xx in the end succeeded by some births Of new creative faculties & powers Brought forth with pangs pains , such as the mother E'en with her first born: feels but like xx vigorous child Repaying by their its beauty for the pang.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "123",
+      "segment2_text": "119 So in the mind the death of objects or the loss of hopes is quick succeeded by some new born powers & faculties, brought forth with pangs of labour; but vigorous & strong - But vigorous & strong But vigorous & strong",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.21212121212121213,
+      "lcs_dice": 0.35,
+      "lcs_ratio": 0.35,
+      "containment_1_in_2": 0.25925925925925924,
+      "containment_2_in_1": 0.5384615384615384,
+      "max_containment": 0.5384615384615384,
+      "lcs_length": 14,
+      "lcs_text": "so mind death object loss hope succeed some new faculti brought forth pang vigor",
+      "seq1_length": 54,
+      "seq2_length": 26,
+      "coverage_ratio": 0.25925925925925924
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "157",
+      "segment1_text": "Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14e",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "163",
+      "segment2_text": "At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We catch the feeble echoes as it were Of other fainter dreams.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.25806451612903225,
+      "lcs_dice": 0.41025641025641024,
+      "lcs_ratio": 0.41025641025641024,
+      "containment_1_in_2": 0.8888888888888888,
+      "containment_2_in_1": 0.26666666666666666,
+      "max_containment": 0.8888888888888888,
+      "lcs_length": 8,
+      "lcs_text": "bath lucca bath lucca bath lucca . .",
+      "seq1_length": 9,
+      "seq2_length": 30,
+      "coverage_ratio": 0.26666666666666666
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "157",
+      "segment1_text": "Baths of Lucca Baths of Lucca Baths of Lucca . 1819. Aug t .",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "156",
+      "segment2_text": "when I return } return } . + , 6.12 1 On the road to the Baths of Lucca Baths of Lucca Baths of Lucca layers of Limestone & chert very near each other & almost blended & much twisted",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.23076923076923078,
+      "lcs_dice": 0.375,
+      "lcs_ratio": 0.375,
+      "containment_1_in_2": 0.6666666666666666,
+      "containment_2_in_1": 0.2608695652173913,
+      "max_containment": 0.6666666666666666,
+      "lcs_length": 6,
+      "lcs_text": "bath lucca bath lucca bath lucca",
+      "seq1_length": 9,
+      "seq2_length": 23,
+      "coverage_ratio": 0.2608695652173913
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "157",
+      "segment1_text": "Quando mia fu la bella Quando mia fu la bella Quando mia fu la bella spera n za ed anche piu Again that lovely orb lamp from half its from half its from half its orb Sends forth a mellow lustre that pervades The eastern sky & meets the rosy light Of the last sunbeams dying in the west The mountains all above are clear & bright Their giant forms distinctly visible Crested with shaggy chesnuts, or erect Bearing the helmed pine, or raising high Their marble columns crowned with grassy slopes From rock to rock the foaming Lima pours Full from the thunder storm, rapid & strong And turbid.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          },
+          {
+            "name": "Lima",
+            "description": "river in the Bagni di Lucca",
+            "id": "place_1246"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "126",
+      "segment2_text": "Yet still, Yet still, Again the lovely orb from half its lamp Sends forth a mellow lustre that pervades The western eastern sky, '& blends promiscuous '& blends promiscuous & meets the dying[ sun sunbeam & meets the dying[ sun sunbeam sun sunbeam With the light of Eve With the light of Eve With the light of Eve rosy light twilight Of the last sunbeams Of the last sunbeams Dying in the west - The Mountains all are clear all are clear And all And all their giant forms distinctly visible Bold in their Bold in their Crested with shaggy chestnuts.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.2462686567164179,
+      "lcs_dice": 0.39520958083832336,
+      "lcs_ratio": 0.39520958083832336,
+      "containment_1_in_2": 0.3548387096774194,
+      "containment_2_in_1": 0.44594594594594594,
+      "max_containment": 0.44594594594594594,
+      "lcs_length": 33,
+      "lcs_text": "again love orb from half it send forth mellow lustr that pervad eastern sky meet rosi light last sunbeam die west mountain all are clear their giant form distinctli visibl crest shaggi .",
+      "seq1_length": 93,
+      "seq2_length": 74,
+      "coverage_ratio": 0.3548387096774194
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "161",
+      "segment1_text": "When flowers & fruits together mature alone together grow To visit our rude peaks where still the snow Glitters een in the genial month of flowers But brightly do ye move in fiery showers Seen like the falling meteor from afar Not of Not of like the kindred of the evening star the kindred of the evening star the kindred of the evening star May not the stars themselves in orbits whil whirled in orbits whil whirled be but be but Be but - a different animated world In which a high & lofty breath of life xxxx xx xxxx xx xxxx xx Of worlds & insects calms the xxxxx the xxxxx the wakening strife the wakening strife strife.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Velino",
+            "description": "A river in central Italy, a tributary of the Nera.",
+            "id": "place_848"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "25",
+      "segment2_text": "- Why have Ye left your halcyon streams below - To visit our rude peaks on which the snow still glitters in the summer sun of june - But brightly do ye danse along the glade; As if the kindred of the evening stars -. May not the stars themselves Be but a different animated world Of which our narrow intellect can form no just conception",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.18867924528301888,
+      "lcs_dice": 0.31746031746031744,
+      "lcs_ratio": 0.31746031746031744,
+      "containment_1_in_2": 0.2564102564102564,
+      "containment_2_in_1": 0.4166666666666667,
+      "max_containment": 0.4166666666666667,
+      "lcs_length": 20,
+      "lcs_text": "visit our rude peak still glitter brightli do kindr even star may not star themselv be differ anim world which",
+      "seq1_length": 78,
+      "seq2_length": 48,
+      "coverage_ratio": 0.2564102564102564
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "162",
+      "segment1_text": "159 To the fire flies, the same place & summer written in blank verse but not Rhyme in May & June 1827. Ye moving stars that flit along Ye moving stars that flit along Ye moving stars that flit along the glade Ye animated lamps that midst the shade Of ancient chesnuts on the lofty hills Of Lucignano , by the foaming rills xxxx Which feed Blue Serchio Blue Serchio Blue Serchio , in the evening play.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Serchio",
+            "description": "The third longest river in the Italian region of Tuscany at 126 kilometres.",
+            "id": "place_932"
+          },
+          {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "22",
+      "segment2_text": "Ye moving stars, ye animated lamps Ye moving stars, ye animated lamps Ye moving stars that flit across the glade Ye animated lamps that midst the shade Of ancient chesnuts on the lofty hills of Liugrand . And may not all this varied life of man Be but a single longer dream - Sometimes in dreams We catch the feeble echoes as it were Of other fainter dreams - In xxxxxx The origin of thought life is lost.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.18,
+      "lcs_dice": 0.3050847457627119,
+      "lcs_ratio": 0.3050847457627119,
+      "containment_1_in_2": 0.3103448275862069,
+      "containment_2_in_1": 0.3,
+      "max_containment": 0.3103448275862069,
+      "lcs_length": 18,
+      "lcs_text": ", ye move star that flit glade ye anim lamp that midst shade ancient chesnut lofti hill .",
+      "seq1_length": 58,
+      "seq2_length": 60,
+      "coverage_ratio": 0.3
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "163",
+      "segment1_text": "At the Baths of Lucca Baths of Lucca Baths of Lucca . 1819.19 And may not all the varied life of Man Be but a larger dream. Sometimes in dreams We catch the feeble echoes as it were Of other fainter dreams.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "22",
+      "segment2_text": "Ye moving stars, ye animated lamps Ye moving stars, ye animated lamps Ye moving stars that flit across the glade Ye animated lamps that midst the shade Of ancient chesnuts on the lofty hills of Liugrand . And may not all this varied life of man Be but a single longer dream - Sometimes in dreams We catch the feeble echoes as it were Of other fainter dreams - In xxxxxx The origin of thought life is lost.",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.3235294117647059,
+      "lcs_dice": 0.4888888888888889,
+      "lcs_ratio": 0.4888888888888889,
+      "containment_1_in_2": 0.7333333333333333,
+      "containment_2_in_1": 0.36666666666666664,
+      "max_containment": 0.7333333333333333,
+      "lcs_length": 22,
+      "lcs_text": ". may not all vari life man be dream sometim dream we catch feebl echo as it were other fainter dream .",
+      "seq1_length": 30,
+      "seq2_length": 60,
+      "coverage_ratio": 0.36666666666666664
+    },
+    {
+      "notebook1": "14e",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "163",
+      "segment1_text": "In infancy The origin of life is lost to memory Yet powers existed of a glorious nature Reason & thought & feeling, How we know not Nor is there aught that teaches from what lamp The flame of human life had caught its fire So dreams have no connection, yet the past Arises sometimes in them And they may Image the future.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "22",
+      "segment2_text": "Yet power arises Reason & thought & thought & feeling how we know not nor is there aught that teaches in from what xxxxx the immortal flame of human life had burnt before burnt before caught its fire caught its fire So dreams have no connection - Yet the course Of human life & human accident",
+      "segment2_metadata": {
+        "places": [
+          {
+            "name": "Lucignano",
+            "description": "municipality in the Province of Arezzo in the Italian region Tuscany",
+            "id": "place_1245"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.44776119402985076,
+      "lcs_dice": 0.6185567010309279,
+      "lcs_ratio": 0.6185567010309279,
+      "containment_1_in_2": 0.5882352941176471,
+      "containment_2_in_1": 0.6521739130434783,
+      "max_containment": 0.6521739130434783,
+      "lcs_length": 30,
+      "lcs_text": "yet power reason thought feel how we know not nor is there aught that teach from what flame human life had caught it fire so dream have no connect yet",
+      "seq1_length": 51,
+      "seq2_length": 46,
+      "coverage_ratio": 0.5882352941176471
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "21",
+      "segment1_text": "19 of a lake . Roma [four pencil sketches of birds in profile, possibly snipe ]",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "155",
+      "segment2_text": "151 What plan . what source , What object What object [pencil sketches of possibly pyramids]",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.19047619047619047,
+      "lcs_dice": 0.32,
+      "lcs_ratio": 0.32,
+      "containment_1_in_2": 0.36363636363636365,
+      "containment_2_in_1": 0.2857142857142857,
+      "max_containment": 0.36363636363636365,
+      "lcs_length": 4,
+      "lcs_text": ". pencil sketch possibl",
+      "seq1_length": 11,
+      "seq2_length": 14,
+      "coverage_ratio": 0.2857142857142857
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "66",
+      "segment1_text": "such as are now produced only in ages.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Guernsey",
+            "description": "One of the Channel Islands in the English Channel near the French coast.",
+            "id": "place_938"
+          },
+          {
+            "name": "Isles of Scilly",
+            "description": "The Scilly Isles are an archipelago off the south western tip of Cornwall.",
+            "id": "place_513"
+          },
+          {
+            "name": "Jersey",
+            "description": "The largest of the Channel Islands, between England and France.",
+            "id": "place_939"
+          },
+          {
+            "name": "England",
+            "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
+            "id": "place_121"
+          },
+          {
+            "name": "Ireland",
+            "description": "",
+            "id": "place_018"
+          },
+          {
+            "name": "Orkney",
+            "description": "An archipelago off the northeastern coast of Scotland.",
+            "id": "place_940"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "83",
+      "segment2_text": "history or tradition - are not now known to exist.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.23076923076923078,
+      "lcs_dice": 0.375,
+      "lcs_ratio": 0.375,
+      "containment_1_in_2": 0.375,
+      "containment_2_in_1": 0.375,
+      "max_containment": 0.375,
+      "lcs_length": 3,
+      "lcs_text": "are now .",
+      "seq1_length": 8,
+      "seq2_length": 8,
+      "coverage_ratio": 0.375
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "88",
+      "segment1_text": "Bologna casa Martinetta . Sep r 30. 1819 Bologna casa Martinetta . Sep r 30. 1819 On the structure On the structure of the Solid the Solid parts of the Globe. parts of the Globe. or Geology. or Geology.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bologna",
+            "description": "A city in and the capital of the Emilia-Romagna region in Northern Italy, of which it is also its largest.",
+            "id": "place_942"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "160",
+      "segment2_text": "} 16.1 31 .1 x 5 Monte 1. 8 1. 8 2 Barrina 1 0 9 1 0 9 Varlo 31. 3.. 5 Monte Varlo Monte Varlo 14. Wednesday 15 . 16 F 17 S 18 S 31. 3. 5. 19. M. 20 T 30 . 19 21 W 22 T 9 23 F 12.5 24 S 11. 4 5 11. 4 5 25 S 26 M 27 T 4 7 5 28 W 29 T 1 . 4 . 5 1 . 4 . 5 30 F 4 3 1 S 2 S 3 M 39 6 39 6 4 T 36. 5 05 5. W 9. S. 10 M 11 T 6 T 12 W. 13 T 14 F 15 S 16 S 17 M 17 M 18 Tuesday 7 F 2 8 S",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.19047619047619047,
+      "lcs_dice": 0.32,
+      "lcs_ratio": 0.32,
+      "containment_1_in_2": 0.3076923076923077,
+      "containment_2_in_1": 0.3333333333333333,
+      "max_containment": 0.3333333333333333,
+      "lcs_length": 8,
+      "lcs_text": ". . . . . . . .",
+      "seq1_length": 26,
+      "seq2_length": 24,
+      "coverage_ratio": 0.3076923076923077
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "99",
+      "segment1_text": "95 And think that life's quick troubled stream Is made more troubled by the blast. - When touched by timid fingers weak Know that Affection's like the rose It wounds but press its thorns they break And all its odour sweeter flows. When the thunder cloud is darkest It is nearest to its fall And the gloom though sadly markest To no inmate of thy soul. Passions beams rays when too concentered Raise a tempest in the mind But by rain & clouds attempered They leave fertility behind.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "102",
+      "segment2_text": "Failings forget & let the beam of charity o'er all be cast And think that lifes quick troubled stream Is made more troubled by the blast 2 When touched by timid fingers weak Think that affections like the rose but if you but if you It wounds; but It wounds; but press its thorns they break And all its odour strong sweeter flows",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.3595505617977528,
+      "lcs_dice": 0.5289256198347108,
+      "lcs_ratio": 0.5289256198347108,
+      "containment_1_in_2": 0.4507042253521127,
+      "containment_2_in_1": 0.64,
+      "max_containment": 0.64,
+      "lcs_length": 32,
+      "lcs_text": "think that life quick troubl stream is made more troubl blast when touch timid finger weak that affect like rose it wound press it thorn they break all it odour sweeter flow",
+      "seq1_length": 71,
+      "seq2_length": 50,
+      "coverage_ratio": 0.4507042253521127
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "99",
+      "segment1_text": "95 And think that life's quick troubled stream Is made more troubled by the blast. - When touched by timid fingers weak Know that Affection's like the rose It wounds but press its thorns they break And all its odour sweeter flows. When the thunder cloud is darkest It is nearest to its fall And the gloom though sadly markest To no inmate of thy soul. Passions beams rays when too concentered Raise a tempest in the mind But by rain & clouds attempered They leave fertility behind.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "104",
+      "segment2_text": "When the thunder cloud is darkest It is nearest to its fall. And the gloom thou sadly markest Is no inmate of th e y soul Feelings rays when too concentered Raise a tempest in the mind But by rain & clouds attempered They leave fertility behind . - That magic charm of feelings thine And oh regret not its excess.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.3563218390804598,
+      "lcs_dice": 0.5254237288135594,
+      "lcs_ratio": 0.5254237288135594,
+      "containment_1_in_2": 0.43661971830985913,
+      "containment_2_in_1": 0.6595744680851063,
+      "max_containment": 0.6595744680851063,
+      "lcs_length": 31,
+      "lcs_text": "when thunder cloud is darkest it is nearest it fall gloom sadli markest no inmat soul ray when too concent rais tempest mind rain cloud attemp they leav fertil behind .",
+      "seq1_length": 71,
+      "seq2_length": 47,
+      "coverage_ratio": 0.43661971830985913
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "99",
+      "segment1_text": "The torrent roaring from the moun- tain Which ravages a hundred fields Conducted tranquil from its fountain Bloom freshness, verdure, plenty yields. H. D 56",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "104",
+      "segment2_text": "Give it its attribute divine But still subdue control repress The torrent roaring from the mountain Which ravages a thousand hundred fields Conducted tranquil from its fountain xxxx Bloom, freshness verdure plenty yeilds",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.47058823529411764,
+      "lcs_dice": 0.64,
+      "lcs_ratio": 0.64,
+      "containment_1_in_2": 0.7619047619047619,
+      "containment_2_in_1": 0.5517241379310345,
+      "max_containment": 0.7619047619047619,
+      "lcs_length": 16,
+      "lcs_text": "torrent roar from which ravag hundr field conduct tranquil from it fountain bloom fresh verdur plenti",
+      "seq1_length": 21,
+      "seq2_length": 29,
+      "coverage_ratio": 0.5517241379310345
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "100",
+      "segment1_text": "In it the statesman rules & lives And the low multitude controuls Fixed to the impulse that he gives As the firm earth around its poles. This magic light of life is thine And what if given in excess? It is excess of fire divine Which reason always can repress. Let not this gift which is from heaven Shine as a meteors transient light Or as the lightnings flashes given Amidst the gloom to pain our sight.",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "103",
+      "segment2_text": "99 Let not this gift which is from heaven Shine as a meteors transient light Or as the lightnings flashes given Amidst the gloom to pain our sight. - Let it on friendships verdant meads tranquil hours tranquil hours A stedfast may day sunshine beam Making a field of fruit & flowers Such as the Bards elisian dream To kindness professed kindness give And fresher will the feelings flow The marks of The marks of Affections offered gifts receive And still more precious gifts bestow",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.21904761904761905,
+      "lcs_dice": 0.359375,
+      "lcs_ratio": 0.359375,
+      "containment_1_in_2": 0.36507936507936506,
+      "containment_2_in_1": 0.35384615384615387,
+      "max_containment": 0.36507936507936506,
+      "lcs_length": 23,
+      "lcs_text": "let not thi gift which is from heaven shine as meteor transient light as lightn flash given amidst gloom pain our sight .",
+      "seq1_length": 63,
+      "seq2_length": 65,
+      "coverage_ratio": 0.35384615384615387
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "100",
+      "segment1_text": "Let it on friendships tranquil hours A stedfast may day sunshine beam Making a field of fruits & flowers Such as the Bards elisian dream. To kindness proferred kindness give And fresher will the feeling flow Affections offered gifts receive And still more precious gifts bestow. Failings forget & let the beam Of charity on all be cast",
+      "segment1_metadata": {},
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "103",
+      "segment2_text": "99 Let not this gift which is from heaven Shine as a meteors transient light Or as the lightnings flashes given Amidst the gloom to pain our sight. - Let it on friendships verdant meads tranquil hours tranquil hours A stedfast may day sunshine beam Making a field of fruit & flowers Such as the Bards elisian dream To kindness professed kindness give And fresher will the feelings flow The marks of The marks of Affections offered gifts receive And still more precious gifts bestow",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.4605263157894737,
+      "lcs_dice": 0.6306306306306306,
+      "lcs_ratio": 0.6306306306306306,
+      "containment_1_in_2": 0.7608695652173914,
+      "containment_2_in_1": 0.5384615384615384,
+      "max_containment": 0.7608695652173914,
+      "lcs_length": 35,
+      "lcs_text": "let it friendship tranquil hour stedfast may day sunshin beam make field fruit flower such as bard elisian dream kind kind give fresher will feel flow affect offer gift receiv still more preciou gift bestow",
+      "seq1_length": 46,
+      "seq2_length": 65,
+      "coverage_ratio": 0.5384615384615384
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "101",
+      "segment1_text": "97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold & earthborn clay Save feelings heavenly light. This is the spirit which subdues The Chaos of our mortal doom Gives it creations loveliest hues And kindles brightness midst the gloom It wakens in the mothers kiss It breathes profound in lovers sighs Dove like upon the dark abyss Of Life it rests & never dies.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "108",
+      "segment2_text": "What is these in lifes stormy day To xxxxx please or cheer our sight Save Loves Save Loves Or friendships softer light Or friendships softer light To warm our cold & earth born clay Save feelings heavenly light This is the true promethean flame This is the true promethean flame This is the true promethean flame This is the true promethean flame That one makes only branch That one makes only branch Who kindles eon is Who kindles eon is Which This is the spirit which awakes controuls subdues The chao a s of the mind soul the mind soul mortality doom has change has change has change has change our mortal soul state our mortal soul state mortal soul state Gives it creations loveliest hues And kindles brightness midst the gloom.",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "Prometheus",
+            "birth": null,
+            "death": null,
+            "description": "In Greek mythology, defied the Olympian gods by stealing fire and giving it to humans.",
+            "id": "person_275"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.24305555555555555,
+      "lcs_dice": 0.39106145251396646,
+      "lcs_ratio": 0.39106145251396646,
+      "containment_1_in_2": 0.5303030303030303,
+      "containment_2_in_1": 0.30973451327433627,
+      "max_containment": 0.5303030303030303,
+      "lcs_length": 35,
+      "lcs_text": "what is life stormi day pleas cheer our sight warm our cold clay save feel heavenli light thi is spirit which subdu chao our mortal give it creation loveliest hue kindl bright midst gloom .",
+      "seq1_length": 66,
+      "seq2_length": 113,
+      "coverage_ratio": 0.30973451327433627
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 0,
+      "segment1_page_key": "101",
+      "segment1_text": "97 Baths of Lucca Baths of Lucca Baths of Lucca Aug t 24, 1819 To - What is there in life's stormy day To please or cheer our sight Or warm our cold & earthborn clay Save feelings heavenly light. This is the spirit which subdues The Chaos of our mortal doom Gives it creations loveliest hues And kindles brightness midst the gloom It wakens in the mothers kiss It breathes profound in lovers sighs Dove like upon the dark abyss Of Life it rests & never dies.",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 1,
+      "segment2_page_key": "108",
+      "segment2_text": "It wakens in the mother's kiss It breathes profound in lovers sighs Dove like it rests it rests upon the dark abyss And never And never , never dies._ Of life it rests &",
+      "segment2_metadata": {
+        "persons": [
+          {
+            "name": "Prometheus",
+            "birth": null,
+            "death": null,
+            "description": "In Greek mythology, defied the Olympian gods by stealing fire and giving it to humans.",
+            "id": "person_275"
+          }
+        ]
+      },
+      "lcs_jaccard": 0.2236842105263158,
+      "lcs_dice": 0.3655913978494624,
+      "lcs_ratio": 0.3655913978494624,
+      "containment_1_in_2": 0.25757575757575757,
+      "containment_2_in_1": 0.6296296296296297,
+      "max_containment": 0.6296296296296297,
+      "lcs_length": 17,
+      "lcs_text": "it waken mother kiss it breath profound lover sigh dove like upon dark abyss life it rest",
+      "seq1_length": 66,
+      "seq2_length": 27,
+      "coverage_ratio": 0.25757575757575757
+    },
+    {
+      "notebook1": "14g",
+      "file1": "page_to_text.json",
+      "segment1_index_on_page": 1,
+      "segment1_page_key": "101",
+      "segment1_text": "From it the poets glories rise Which pass beyond our human being To things of other worlds & skies Carrying the prophets gift of seeing, By it the ruddy clotted blood that stains The Hero's laurels glow s like flame Or kindles in the warriors veins The never dying love of fame",
+      "segment1_metadata": {
+        "places": [
+          {
+            "name": "Bagni di Lucca",
+            "description": "A group of about 25 villages in northern Tuscany, less than 30 kilometres from Lucca, famous for its hot springs and thermal baths.",
+            "id": "place_952"
+          }
+        ]
+      },
+      "notebook2": "14g",
+      "file2": "page_to_text.json",
+      "segment2_index_on_page": 0,
+      "segment2_page_key": "107",
+      "segment2_text": "103 -. From it the Poets glories rise Which pass beyond our human being - To things of other worlds & skies Kindling Carrying the prophets gift of seeing. - By it the clotted ruddy blood that stains The Heroe's laurels glow like flame Or kindles in the warriors veins A never dying love of fame. By it the statesman xxxx & rules xxxx & rules xxxx & rules & lives rules & lives And the loud multitude controuls Fixed to the impulse that He gives. As the firm earth around its poles.",
+      "segment2_metadata": {},
+      "lcs_jaccard": 0.5373134328358209,
+      "lcs_dice": 0.6990291262135923,
+      "lcs_ratio": 0.6990291262135923,
+      "containment_1_in_2": 0.9473684210526315,
+      "containment_2_in_1": 0.5538461538461539,
+      "max_containment": 0.9473684210526315,
+      "lcs_length": 36,
+      "lcs_text": "from it poet glori rise which pass beyond our human be thing other world sky carri prophet gift see it ruddi blood that stain hero laurel glow like flame kindl warrior vein never die love fame",
+      "seq1_length": 38,
+      "seq2_length": 65,
+      "coverage_ratio": 0.5538461538461539
+    }
+  ],
+  "summary_metrics": {
+    "total_instances": 29,
+    "total_segments_analyzed": 504,
+    "total_comparisons_made": 126529,
+    "lcs_ratio_mean": 0.43877769171566544,
+    "lcs_ratio_std": 0.10686970015413375,
+    "lcs_ratio_median": 0.40540540540540543,
+    "lcs_ratio_min": 0.3050847457627119,
+    "lcs_ratio_max": 0.6990291262135923,
+    "lcs_jaccard_mean": 0.2875028576976812,
+    "lcs_jaccard_std": 0.09452816520229769,
+    "max_containment_mean": 0.5672284440739365,
+    "max_containment_std": 0.16558700266176465,
+    "lcs_length_mean": 20.06896551724138,
+    "lcs_length_std": 10.731619521327389,
+    "lcs_length_max": 37,
+    "high_similarity_count": 0,
+    "medium_similarity_count": 8,
+    "low_similarity_count": 21,
+    "processing_time_seconds": 5.8627769947052,
+    "lcs_computation_time_seconds": 4.838563919067383,
+    "similarity_calculation_time_seconds": 2.6064131259918213,
+    "comparisons_per_second": 21581.752148217656,
+    "reuse_rate": 0.00022878601407428446,
+    "granularity": "word",
+    "similarity_threshold": 0.3,
+    "stemming_used": true,
+    "stopwords_removed": true,
+    "min_lcs_length": 3
+  },
+  "timestamp": "2025-09-25T09:33:56.981175"
+}

@@ -1,4 +1,5 @@
 import os
+import argparse
 import json
 import logging
 import time
@@ -400,6 +401,19 @@ class LibraryBasedTFIDFDetector:
         logger.info(f"Vocabulary size: {self.metrics['vocabulary_size']} features")
         return reuse_instances
 
+
+def get_available_notebooks(base_dir: Path):
+    try:
+        return sorted([d.name for d in base_dir.iterdir() if d.is_dir()])
+    except Exception:
+        return []
+
+
+def parse_notebooks_arg(notebooks_arg: str, base_dir: Path):
+    if notebooks_arg.strip() == '*':
+        return get_available_notebooks(base_dir)
+    return [nb.strip() for nb in notebooks_arg.split(',') if nb.strip()]
+
     def calculate_comprehensive_metrics(self, reuse_instances, all_segments_count):
         """Calculate comprehensive summary metrics.
 
@@ -747,11 +761,23 @@ class LibraryBasedTFIDFDetector:
 
 def main():
     """Main function for TF-IDF-based text reuse analysis."""
+    parser = argparse.ArgumentParser(description="TF-IDF text reuse analysis")
+    parser.add_argument('--notebooks', type=str, default='*',
+                        help="Comma-separated notebook IDs (e.g., 14e,14g) or * for all")
+    parser.add_argument('--combo-size', type=str, default='2',
+                        help:"2,3,4 to run over combinations of that size, or 'all' to use all selected notebooks")
+    parser.add_argument('--filenames', type=str, default='page_to_text.json',
+                        help="Comma-separated filenames to process (default: page_to_text.json)")
+    args = parser.parse_args()
+
     script_dir = Path(__file__).resolve().parent
     project_root = script_dir.parent.parent
     base_dir = project_root / "preprocessing"
-    notebooks = ['14e', '14g']
-    filenames = ['page_to_text.json']
+    selected_notebooks = parse_notebooks_arg(args.notebooks, base_dir)
+    if not selected_notebooks:
+        logger.error("No notebooks selected. Check --notebooks argument or preprocessing directory.")
+        return
+    filenames = [f.strip() for f in args.filenames.split(',') if f.strip()]
     results_dir = project_root / "results_text_reuse" / "results_tfidf"
 
     configs = [
@@ -773,71 +799,89 @@ def main():
     print("Running configurations 2 and 112")
     print("=" * 80)
 
-    for config_id, config in configs:
-        ngram_desc = f"{config['ngram_range'][0]}-{config['ngram_range'][1]}gram" if config['ngram_range'][0] != config['ngram_range'][1] else f"{config['ngram_range'][0]}gram"
-        config_name = f"Config {config_id}: TF-IDF {ngram_desc} {config['similarity_metric']}"
-        if config['use_stemming']:
-            config_name += " + stemming"
-        if config['remove_stopwords']:
-            config_name += " + stopword removal"
-        else:
-            config_name += " (preserving stopwords)"
+    # Build notebook groups
+    combo_size_arg = args.combo_size.strip().lower()
+    if combo_size_arg == 'all':
+        notebook_groups = [tuple(selected_notebooks)]
+    else:
+        try:
+            k = int(combo_size_arg)
+            if k <= 0 or k > len(selected_notebooks):
+                k = min(2, len(selected_notebooks))
+            notebook_groups = list(combinations(selected_notebooks, k))
+        except ValueError:
+            notebook_groups = [tuple(selected_notebooks)]
 
-        logger.info(f"\n{'=' * 60}")
-        logger.info(f"Running {config_name}")
-        logger.info(f"Configuration: {config}")
-        logger.info(f"{'=' * 60}")
+    for group in notebook_groups:
+        group_list = list(group)
+        group_tag = "__nb_" + '-'.join(group_list)
 
-        detector = LibraryBasedTFIDFDetector(**config)
-        texts_data, all_metadata = detector.load_texts(base_dir, notebooks, filenames)
+        for config_id, config in configs:
+            ngram_desc = f"{config['ngram_range'][0]}-{config['ngram_range'][1]}gram" if config['ngram_range'][0] != config['ngram_range'][1] else f"{config['ngram_range'][0]}gram"
+            config_name = f"Config {config_id}: TF-IDF {ngram_desc} {config['similarity_metric']}"
+            if config['use_stemming']:
+                config_name += " + stemming"
+            if config['remove_stopwords']:
+                config_name += " + stopword removal"
+            else:
+                config_name += " (preserving stopwords)"
 
-        if not texts_data:
-            logger.error("No texts loaded. Check your configuration.")
-            continue
+            logger.info(f"\n{'=' * 60}")
+            logger.info(f"Running {config_name} on notebooks: {group_list}")
+            logger.info(f"Configuration: {config}")
+            logger.info(f"{'=' * 60}")
 
-        for filename in filenames:
-            current_texts = {(nb, fp): content for (nb, fp), content in texts_data.items()
-                             if Path(fp).name == filename}
-            if not current_texts:
-                logger.warning(f"No texts found for {filename}")
+            detector = LibraryBasedTFIDFDetector(**config)
+            texts_data, all_metadata = detector.load_texts(base_dir, group_list, filenames)
+
+            if not texts_data:
+                logger.error("No texts loaded. Check your configuration.")
                 continue
 
-            reuse_instances = detector.find_text_reuse_optimized(current_texts, all_metadata)
-            total_segments = detector.metrics['total_segments']
-            summary_metrics = detector.calculate_comprehensive_metrics(reuse_instances, total_segments)
+            for filename in filenames:
+                current_texts = {(nb, fp): content for (nb, fp), content in texts_data.items()
+                                 if Path(fp).name == filename}
+                if not current_texts:
+                    logger.warning(f"No texts found for {filename}")
+                    continue
 
-            ngram_str = f"{config['ngram_range'][0]}to{config['ngram_range'][1]}gram"
-            preprocessing = "stemmed" if config['use_stemming'] else "unstemmed"
-            stopwords = "no_stopwords" if config['remove_stopwords'] else "with_stopwords"
-            similarity_metric = config['similarity_metric']
-            base_name = f"{os.path.splitext(filename)[0]}_tfidf_{ngram_str}_{similarity_metric}_{preprocessing}_{stopwords}"
+                reuse_instances = detector.find_text_reuse_optimized(current_texts, all_metadata)
+                total_segments = detector.metrics['total_segments']
+                summary_metrics = detector.calculate_comprehensive_metrics(reuse_instances, total_segments)
 
-            detector.save_results_for_experiment(reuse_instances, summary_metrics,
-                                                results_dir, base_name, config_id)
+                ngram_str = f"{config['ngram_range'][0]}to{config['ngram_range'][1]}gram"
+                preprocessing = "stemmed" if config['use_stemming'] else "unstemmed"
+                stopwords = "no_stopwords" if config['remove_stopwords'] else "with_stopwords"
+                similarity_metric = config['similarity_metric']
+                base_name = f"{os.path.splitext(filename)[0]}_tfidf_{ngram_str}_{similarity_metric}_{preprocessing}_{stopwords}{group_tag}"
 
-            experiment_result = {
-                'config_id': config_id,
-                'config_name': config_name,
-                'ngram_range': config['ngram_range'],
-                'similarity_metric': config['similarity_metric'],
-                'configuration': config,
-                'filename': filename,
-                'summary_metrics': summary_metrics,
-                'instance_count': len(reuse_instances)
-            }
-            all_experiment_results.append(experiment_result)
+                detector.save_results_for_experiment(reuse_instances, summary_metrics,
+                                                    results_dir, base_name, config_id)
 
-            print(f"\n{config_name} Results for {filename}:")
-            print(f" Text reuse instances found: {len(reuse_instances)}")
-            print(f" Processing time: {summary_metrics['processing_time_seconds']:.2f}s")
-            print(f" Mean TF-IDF similarity: {summary_metrics['tfidf_similarity_mean']:.3f}")
-            print(f" Vocabulary size: {summary_metrics['vocabulary_size']}")
-            print(f" Segments analyzed: {summary_metrics['total_segments_analyzed']}")
-            print(f" Reuse rate: {summary_metrics['reuse_rate']:.4f}")
-            if len(reuse_instances) > 0:
-                print(
-                    f" TF-IDF similarity range: {summary_metrics['tfidf_similarity_min']:.3f} - {summary_metrics['tfidf_similarity_max']:.3f}")
-                print(f" Average shared features: {summary_metrics['avg_shared_features']:.1f}")
+                experiment_result = {
+                    'config_id': config_id,
+                    'config_name': config_name,
+                    'ngram_range': config['ngram_range'],
+                    'similarity_metric': config['similarity_metric'],
+                    'configuration': config,
+                    'filename': filename,
+                    'summary_metrics': summary_metrics,
+                    'instance_count': len(reuse_instances),
+                    'notebooks': group_list
+                }
+                all_experiment_results.append(experiment_result)
+
+                print(f"\n{config_name} Results for {filename} [notebooks: {group_list}]::")
+                print(f" Text reuse instances found: {len(reuse_instances)}")
+                print(f" Processing time: {summary_metrics['processing_time_seconds']:.2f}s")
+                print(f" Mean TF-IDF similarity: {summary_metrics['tfidf_similarity_mean']:.3f}")
+                print(f" Vocabulary size: {summary_metrics['vocabulary_size']}")
+                print(f" Segments analyzed: {summary_metrics['total_segments_analyzed']}")
+                print(f" Reuse rate: {summary_metrics['reuse_rate']:.4f}")
+                if len(reuse_instances) > 0:
+                    print(
+                        f" TF-IDF similarity range: {summary_metrics['tfidf_similarity_min']:.3f} - {summary_metrics['tfidf_similarity_max']:.3f}")
+                    print(f" Average shared features: {summary_metrics['avg_shared_features']:.1f}")
 
     print(f"\n{'=' * 80}")
     print("TF-IDF EXPERIMENT COMPLETED (Configurations 2 & 112 Only)")

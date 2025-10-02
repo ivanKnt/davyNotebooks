@@ -1,4 +1,5 @@
 import os
+import argparse
 import re
 import json
 import logging
@@ -178,6 +179,19 @@ class LibraryBasedNgramDetector:
         words = [word for word in words if (word.isalpha() and len(word) > 1) or word in ['.', ',', ';', ':']]
 
         return ' '.join(words)
+
+
+def get_available_notebooks(base_dir: Path):
+    try:
+        return sorted([d.name for d in base_dir.iterdir() if d.is_dir()])
+    except Exception:
+        return []
+
+
+def parse_notebooks_arg(notebooks_arg: str, base_dir: Path):
+    if notebooks_arg.strip() == '*':
+        return get_available_notebooks(base_dir)
+    return [nb.strip() for nb in notebooks_arg.split(',') if nb.strip()]
 
     def segment_text_advanced(self, content_item, notebook_id, file_path):
         """
@@ -636,11 +650,23 @@ def main():
     Main function for Sir David Humphry's 18th-century text analysis.
     Configured specifically for 2-grams, 3-grams, and 4-grams comparison.
     """
+    parser = argparse.ArgumentParser(description="N-gram text reuse analysis")
+    parser.add_argument('--notebooks', type=str, default='*',
+                        help="Comma-separated notebook IDs (e.g., 14e,14g) or * for all")
+    parser.add_argument('--combo-size', type=str, default='2',
+                        help="2,3,4 to run over combinations of that size, or 'all' to use all selected notebooks")
+    parser.add_argument('--filenames', type=str, default='page_to_text.json',
+                        help="Comma-separated filenames to process (default: page_to_text.json)")
+    args = parser.parse_args()
+
     script_dir = Path(__file__).resolve().parent
     project_root = script_dir.parent.parent
     base_dir = project_root / "preprocessing"
-    notebooks = ['14e', '14g']  # Adjust to your data
-    filenames = ['page_to_text.json']
+    selected_notebooks = parse_notebooks_arg(args.notebooks, base_dir)
+    if not selected_notebooks:
+        logger.error("No notebooks selected. Check --notebooks argument or preprocessing directory.")
+        return
+    filenames = [f.strip() for f in args.filenames.split(',') if f.strip()]
     results_dir = project_root / "results_text_reuse" / "results_ngram"
 
     # Focused set of N-gram configurations (Experiment IDs 2 and 5)
@@ -674,77 +700,94 @@ def main():
     print("Starting N-gram Analysis for 18th-Century Historical Text (Sir David Humphry)")
     print("Running configurations 2 and 5")
     print("=" * 80)
+    # Determine notebook groups to run
+    combo_size_arg = args.combo_size.strip().lower()
+    if combo_size_arg == 'all':
+        notebook_groups = [tuple(selected_notebooks)]
+    else:
+        try:
+            k = int(combo_size_arg)
+            if k <= 0 or k > len(selected_notebooks):
+                k = min(2, len(selected_notebooks))
+            notebook_groups = list(combinations(selected_notebooks, k))
+        except ValueError:
+            notebook_groups = [tuple(selected_notebooks)]
 
-    for config_id, config in configs:
-        config_name = f"Config {config_id}: {config['n_gram_size']}-gram"
-        if config['use_stemming']:
-            config_name += " + stemming"
-        if config['remove_stopwords']:
-            config_name += " + stopword removal"
-        else:
-            config_name += " (preserving stopwords)"
+    for group in notebook_groups:
+        group_list = list(group)
+        group_tag = "__nb_" + '-'.join(group_list)
 
-        logger.info(f"\n{'=' * 60}")
-        logger.info(f"Running {config_name}")
-        logger.info(f"Configuration: {config}")
-        logger.info(f"{'=' * 60}")
+        for config_id, config in configs:
+            config_name = f"Config {config_id}: {config['n_gram_size']}-gram"
+            if config['use_stemming']:
+                config_name += " + stemming"
+            if config['remove_stopwords']:
+                config_name += " + stopword removal"
+            else:
+                config_name += " (preserving stopwords)"
 
-        detector = LibraryBasedNgramDetector(**config)
+            logger.info(f"\n{'=' * 60}")
+            logger.info(f"Running {config_name} on notebooks: {group_list}")
+            logger.info(f"Configuration: {config}")
+            logger.info(f"{'=' * 60}")
 
-        # Load texts
-        texts_data, all_metadata = detector.load_texts(base_dir, notebooks, filenames)
+            detector = LibraryBasedNgramDetector(**config)
 
-        if not texts_data:
-            logger.error("No texts loaded. Check your configuration.")
-            continue
+            # Load texts
+            texts_data, all_metadata = detector.load_texts(base_dir, group_list, filenames)
 
-        # Process each filename
-        for filename in filenames:
-            current_texts = {(nb, fp): content for (nb, fp), content in texts_data.items()
-                             if os.path.basename(fp) == filename}
-
-            if not current_texts:
-                logger.warning(f"No texts found for {filename}")
+            if not texts_data:
+                logger.error("No texts loaded. Check your configuration.")
                 continue
 
-            # Detect reuse
-            reuse_instances = detector.find_text_reuse_optimized(current_texts, all_metadata)
+            # Process each filename
+            for filename in filenames:
+                current_texts = {(nb, fp): content for (nb, fp), content in texts_data.items()
+                                 if os.path.basename(fp) == filename}
 
-            # Calculate metrics
-            total_segments = detector.metrics['total_segments']
-            summary_metrics = detector.calculate_comprehensive_metrics(reuse_instances, total_segments)
+                if not current_texts:
+                    logger.warning(f"No texts found for {filename}")
+                    continue
 
-            # Save results with descriptive naming
-            ngram_type = f"{config['n_gram_size']}gram"
-            preprocessing = "stemmed" if config['use_stemming'] else "unstemmed"
-            stopwords = "no_stopwords" if config['remove_stopwords'] else "with_stopwords"
-            base_name = f"{os.path.splitext(filename)[0]}_{ngram_type}_{preprocessing}_{stopwords}"
+                # Detect reuse
+                reuse_instances = detector.find_text_reuse_optimized(current_texts, all_metadata)
 
-            detector.save_results_for_experiment(reuse_instances, summary_metrics,
-                                                 results_dir, base_name, config_id)
+                # Calculate metrics
+                total_segments = detector.metrics['total_segments']
+                summary_metrics = detector.calculate_comprehensive_metrics(reuse_instances, total_segments)
 
-            # Store for comparison
-            experiment_result = {
-                'config_id': config_id,
-                'config_name': config_name,
-                'n_gram_size': config['n_gram_size'],
-                'configuration': config,
-                'filename': filename,
-                'summary_metrics': summary_metrics,
-                'instance_count': len(reuse_instances)
-            }
-            all_experiment_results.append(experiment_result)
+                # Save results with descriptive naming
+                ngram_type = f"{config['n_gram_size']}gram"
+                preprocessing = "stemmed" if config['use_stemming'] else "unstemmed"
+                stopwords = "no_stopwords" if config['remove_stopwords'] else "with_stopwords"
+                base_name = f"{os.path.splitext(filename)[0]}_{ngram_type}_{preprocessing}_{stopwords}{group_tag}"
 
-            # Print summary
-            print(f"\n{config_name} Results for {filename}:")
-            print(f"  Text reuse instances found: {len(reuse_instances)}")
-            print(f"  Processing time: {summary_metrics['processing_time_seconds']:.2f}s")
-            print(f"  Mean Jaccard similarity: {summary_metrics['jaccard_mean']:.3f}")
-            print(f"  Segments analyzed: {summary_metrics['total_segments_analyzed']}")
-            print(f"  Reuse rate: {summary_metrics['reuse_rate']:.4f}")
-            if len(reuse_instances) > 0:
-                print(
-                    f"  Similarity range: {summary_metrics['jaccard_min']:.3f} - {summary_metrics['jaccard_max']:.3f}")
+                detector.save_results_for_experiment(reuse_instances, summary_metrics,
+                                                     results_dir, base_name, config_id)
+
+                # Store for comparison
+                experiment_result = {
+                    'config_id': config_id,
+                    'config_name': config_name,
+                    'n_gram_size': config['n_gram_size'],
+                    'configuration': config,
+                    'filename': filename,
+                    'summary_metrics': summary_metrics,
+                    'instance_count': len(reuse_instances),
+                    'notebooks': group_list
+                }
+                all_experiment_results.append(experiment_result)
+
+                # Print summary
+                print(f"\n{config_name} Results for {filename} [notebooks: {group_list}]:")
+                print(f"  Text reuse instances found: {len(reuse_instances)}")
+                print(f"  Processing time: {summary_metrics['processing_time_seconds']:.2f}s")
+                print(f"  Mean Jaccard similarity: {summary_metrics['jaccard_mean']:.3f}")
+                print(f"  Segments analyzed: {summary_metrics['total_segments_analyzed']}")
+                print(f"  Reuse rate: {summary_metrics['reuse_rate']:.4f}")
+                if len(reuse_instances) > 0:
+                    print(
+                        f"  Similarity range: {summary_metrics['jaccard_min']:.3f} - {summary_metrics['jaccard_max']:.3f}")
 
     print(f"\n{'=' * 80}")
     print("N-GRAM EXPERIMENT COMPLETED (Configurations 2 & 5 Only)")

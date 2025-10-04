@@ -662,6 +662,8 @@ def main():
                         help="2,3,4 to run over combinations of that size, or 'all' to use all selected notebooks")
     parser.add_argument('--filenames', type=str, default='page_to_text.json',
                         help="Comma-separated filenames to process (default: page_to_text.json)")
+    parser.add_argument('--config-id', type=int, default=None,
+                        help="Specific config ID to run (optional - runs all configs if not specified)")
     args = parser.parse_args()
 
     project_root = Path(__file__).resolve().parent.parent.parent
@@ -673,7 +675,7 @@ def main():
     filenames = [f.strip() for f in args.filenames.split(',') if f.strip()]
     results_dir = project_root / "results_text_reuse" / "results_gst"
 
-    configs = [
+    all_configs = [
         (
             2,
             {'similarity_threshold': 0.3, 'min_match_length': 3, 'use_stemming': True, 'remove_stopwords': True,
@@ -691,9 +693,21 @@ def main():
         )
     ]
 
+    # Filter configs if specific config_id is requested
+    if args.config_id:
+        configs = [c for c in all_configs if c[0] == args.config_id]
+        if not configs:
+            print(f"Config ID {args.config_id} not found. Available configs: {[c[0] for c in all_configs]}")
+            return
+    else:
+        configs = all_configs
+
     all_experiment_results = []
     print("Starting GST Analysis for 18th-Century Historical Text (Sir David Humphry)")
-    print("Running configurations 2, 3, and 4")
+    if args.config_id:
+        print(f"Running configuration {args.config_id}")
+    else:
+        print("Running configurations 2, 3, and 4")
     print("=" * 80)
 
     # Build notebook groups

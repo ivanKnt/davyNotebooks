@@ -21,27 +21,55 @@ def load_classifications(notebook_path):
 
 def process_page_classifications(page_data):
     """Process a single page's classifications into percentages and consensus."""
-    if not isinstance(page_data, list):
-        return {}
+    if isinstance(page_data, list):
+        # Handle list format: ['Electrochemistry', 'Lecture notes', ...]
+        classification_counts = Counter(page_data)
+        total_classifications = len(page_data)
 
-    # Count occurrences of each classification
-    classification_counts = Counter(page_data)
-    total_classifications = len(page_data)
+        if total_classifications == 0:
+            return {"page_consensus": "unknown"}
 
-    if total_classifications == 0:
+        # Calculate percentages
+        processed_data = {}
+        for classification, count in classification_counts.items():
+            percentage = count / total_classifications
+            processed_data[classification] = round(percentage, 3)
+
+        # Determine consensus (highest percentage)
+        consensus = max(classification_counts.keys(), key=lambda x: classification_counts[x])
+        processed_data["page_consensus"] = consensus.lower()
+
+        return processed_data
+
+    elif isinstance(page_data, dict):
+        # Handle dictionary format: {"Electrochemistry": 0.857, "Poetry": 0.143}
+        # This is pre-aggregated data, normalize and find consensus
+        processed_data = {}
+
+        # Normalize any numeric values to percentages if needed
+        for classification, value in page_data.items():
+            if isinstance(value, (int, float)):
+                # Convert to decimal if it's a percentage (0-100), otherwise assume it's already decimal (0-1)
+                if value > 1:
+                    processed_data[classification] = round(value / 100, 3)
+                else:
+                    processed_data[classification] = round(value, 3)
+            else:
+                # If not numeric, skip this classification
+                continue
+
+        if not processed_data:
+            return {"page_consensus": "unknown"}
+
+        # Find consensus (highest percentage)
+        consensus = max(processed_data.keys(), key=lambda x: processed_data[x])
+        processed_data["page_consensus"] = consensus.lower()
+
+        return processed_data
+
+    else:
+        # Unknown format
         return {"page_consensus": "unknown"}
-
-    # Calculate percentages
-    processed_data = {}
-    for classification, count in classification_counts.items():
-        percentage = count / total_classifications
-        processed_data[classification] = round(percentage, 3)
-
-    # Determine consensus (highest percentage)
-    consensus = max(classification_counts.keys(), key=lambda x: classification_counts[x])
-    processed_data["page_consensus"] = consensus.lower()
-
-    return processed_data
 
 
 def calculate_book_consensus(pages_data):

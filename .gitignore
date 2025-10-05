@@ -1,0 +1,36 @@
+# Python virtual environments
+venv/
+davy_web/venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Node modules
+davy-frontend/node_modules/
+node_modules/
+
+# Generated data (these are outputs from scripts, not source code)
+classifications/
+preprocessing/
+items/
+results_text_reuse/
+poetry_files/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary/debug files
+debug_*.py
+test_*.py
+fix_*.py

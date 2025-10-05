@@ -98,7 +98,7 @@ class LibraryBasedTFIDFDetector:
                 logger.warning(f"Directory {notebook_dir} not found, skipping.")
                 continue
 
-            metadata_file = os.path.join(notebook_dir, 'metadata_preserved.json')
+            metadata_file = os.path.join(notebook_dir, 'page_to_entities.json')
             all_metadata[notebook] = self._load_metadata(metadata_file)
 
             for filename in filenames:

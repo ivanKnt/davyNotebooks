@@ -461,20 +461,7 @@ class LibraryBasedGSTDetector:
                     f"{len(reuse_instances)} reuse instances found")
         logger.info(f"Total processing time: {self.metrics['processing_time']:.2f} seconds")
         return reuse_instances
-
-
-def get_available_notebooks(base_dir: Path):
-    try:
-        return sorted([d.name for d in base_dir.iterdir() if d.is_dir()])
-    except Exception:
-        return []
-
-
-def parse_notebooks_arg(notebooks_arg: str, base_dir: Path):
-    if notebooks_arg.strip() == '*':
-        return get_available_notebooks(base_dir)
-    return [nb.strip() for nb in notebooks_arg.split(',') if nb.strip()]
-
+    
     def calculate_comprehensive_metrics(self, reuse_instances, all_segments_count):
         """Calculate comprehensive summary metrics."""
         if not reuse_instances:
@@ -651,6 +638,20 @@ def parse_notebooks_arg(notebooks_arg: str, base_dir: Path):
                     f.write("\n")
             f.write("\nEND OF DETAILED REPORT\n")
             f.write("=" * 80 + "\n")
+
+
+def get_available_notebooks(base_dir: Path):
+    try:
+        return sorted([d.name for d in base_dir.iterdir() if d.is_dir()])
+    except Exception:
+        return []
+
+
+def parse_notebooks_arg(notebooks_arg: str, base_dir: Path):
+    if notebooks_arg.strip() == '*':
+        return get_available_notebooks(base_dir)
+    return [nb.strip() for nb in notebooks_arg.split(',') if nb.strip()]
+
 
 
 def main():

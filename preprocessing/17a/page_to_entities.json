@@ -10,25 +10,25 @@
         "id": "person_951"
       },
       {
-        "name": "Herodotus",
-        "birth": "",
-        "death": "",
-        "description": "Greek historian and geographer who wrote a detailed account of the Greco-Persian Wars - one the earliest existing historical texts.",
-        "id": "person_801"
-      },
-      {
         "name": "Xenophanes",
         "birth": "",
         "death": "",
         "description": "Greek philosopher, theologian, poet, and critic of Homer from Ionia who travelled throughout the Greek-speaking world in early Classical Antiquity. As a poet, Xenophanes was known for his critical style, writing poems that are considered among the first satires.",
         "id": "person_819"
+      },
+      {
+        "name": "Herodotus",
+        "birth": "",
+        "death": "",
+        "description": "Greek historian and geographer who wrote a detailed account of the Greco-Persian Wars - one the earliest existing historical texts.",
+        "id": "person_801"
       }
     ],
     "places": [
       {
-        "name": "Sicily",
-        "description": "Sicily is the largest and most populous island in the Mediterranean Sea and one of the twenty regions of Italy.",
-        "id": "place_569"
+        "name": "Greece",
+        "description": "",
+        "id": "place_167"
       },
       {
         "name": "Egypt",
@@ -36,9 +36,9 @@
         "id": "place_475"
       },
       {
-        "name": "Greece",
-        "description": "",
-        "id": "place_167"
+        "name": "Sicily",
+        "description": "Sicily is the largest and most populous island in the Mediterranean Sea and one of the twenty regions of Italy.",
+        "id": "place_569"
       }
     ]
   },
@@ -128,6 +128,13 @@
   "14": {
     "persons": [
       {
+        "name": "Jean-AndréDeluc",
+        "birth": "",
+        "death": "",
+        "description": "Swiss-born geologist, natural philosopher and meteorologist who spent much of his time working in England. FRSL.",
+        "id": "person_520"
+      },
+      {
         "name": "Carl WilhelmScheele",
         "birth": "",
         "death": "",
@@ -142,11 +149,11 @@
         "id": "person_033"
       },
       {
-        "name": "Déodat Gratet deDolomieu",
+        "name": "Abraham GottlobWerner",
         "birth": "",
         "death": "",
-        "description": "French geologist. The rock, and region of the Alps, dolomite was named after him.",
-        "id": "person_300"
+        "description": "German geologist who proposed the theory of Neptunism and who also proposed the chronological sequence found in stratified rocks.",
+        "id": "person_267"
       },
       {
         "name": "Martin HeinrichKlaproth",
@@ -156,18 +163,11 @@
         "id": "person_244"
       },
       {
-        "name": "Abraham GottlobWerner",
+        "name": "Déodat Gratet deDolomieu",
         "birth": "",
         "death": "",
-        "description": "German geologist who proposed the theory of Neptunism and who also proposed the chronological sequence found in stratified rocks.",
-        "id": "person_267"
-      },
-      {
-        "name": "Jean-AndréDeluc",
-        "birth": "",
-        "death": "",
-        "description": "Swiss-born geologist, natural philosopher and meteorologist who spent much of his time working in England. FRSL.",
-        "id": "person_520"
+        "description": "French geologist. The rock, and region of the Alps, dolomite was named after him.",
+        "id": "person_300"
       }
     ]
   },
@@ -179,14 +179,14 @@
         "id": "place_1321"
       },
       {
-        "name": "Yorkshire",
-        "description": "Yorkshire is a historic county in northern England and the largest by area size in the United Kingdom.",
-        "id": "place_287"
-      },
-      {
         "name": "United Kingdom",
         "description": "",
         "id": "place_159"
+      },
+      {
+        "name": "Yorkshire",
+        "description": "Yorkshire is a historic county in northern England and the largest by area size in the United Kingdom.",
+        "id": "place_287"
       }
     ]
   },
@@ -211,14 +211,14 @@
   "17": {
     "places": [
       {
-        "name": "Alps",
-        "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
-        "id": "place_247"
-      },
-      {
         "name": "Geneva",
         "description": "Geneva is a city in Switzerland on the border with France.",
         "id": "place_226"
+      },
+      {
+        "name": "Alps",
+        "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
+        "id": "place_247"
       }
     ],
     "works": [
@@ -241,11 +241,6 @@
   "19": {
     "places": [
       {
-        "name": "Minehead",
-        "description": "a coastal town and civil parish in Somerset, England",
-        "id": "place_1323"
-      },
-      {
         "name": "Devon",
         "description": "A county in south-west England.",
         "id": "place_162"
@@ -254,6 +249,11 @@
         "name": "Somerset",
         "description": "A county in south-west England.",
         "id": "place_160"
+      },
+      {
+        "name": "Minehead",
+        "description": "a coastal town and civil parish in Somerset, England",
+        "id": "place_1323"
       }
     ]
   },
@@ -323,14 +323,14 @@
   "45": {
     "places": [
       {
-        "name": "Staffa",
-        "description": "an island of the Inner Hebrides in Argyll and Bute, Scotland.",
-        "id": "place_1193"
-      },
-      {
         "name": "Scotland",
         "description": "",
         "id": "place_235"
+      },
+      {
+        "name": "Staffa",
+        "description": "an island of the Inner Hebrides in Argyll and Bute, Scotland.",
+        "id": "place_1193"
       }
     ]
   },
@@ -377,14 +377,14 @@
   "49": {
     "places": [
       {
+        "name": "Ireland",
+        "description": "",
+        "id": "place_018"
+      },
+      {
         "name": "Staffa",
         "description": "an island of the Inner Hebrides in Argyll and Bute, Scotland.",
         "id": "place_1193"
-      },
-      {
-        "name": "County Antrim",
-        "description": "A county in north-eastern Northern Ireland.",
-        "id": "place_301"
       },
       {
         "name": "Giant's Causeway",
@@ -392,9 +392,9 @@
         "id": "place_126"
       },
       {
-        "name": "Ireland",
-        "description": "",
-        "id": "place_018"
+        "name": "County Antrim",
+        "description": "A county in north-eastern Northern Ireland.",
+        "id": "place_301"
       }
     ]
   },
@@ -420,14 +420,14 @@
   "53": {
     "places": [
       {
-        "name": "Durham, England",
-        "description": "a city in northeast England, south of Newcastle upon Tyne.",
-        "id": "place_1029"
-      },
-      {
         "name": "Northumberland",
         "description": "County in the North East of England. It borders Scotland to the north and the county of Cumbria to the west.",
         "id": "place_1359"
+      },
+      {
+        "name": "Cumberland",
+        "description": "Cumberland is a historic county in the far north-west of England.",
+        "id": "place_079"
       },
       {
         "name": "Derbyshire",
@@ -435,9 +435,9 @@
         "id": "place_085"
       },
       {
-        "name": "River Tees",
-        "description": "The River Tees, in England, rises on the eastern slope of Cross Fell in the North Pennines and flows eastwards for 85 miles to reach the North Sea in the North East of England.",
-        "id": "place_1363"
+        "name": "Durham, England",
+        "description": "a city in northeast England, south of Newcastle upon Tyne.",
+        "id": "place_1029"
       },
       {
         "name": "Alston Moor",
@@ -445,9 +445,9 @@
         "id": "place_306"
       },
       {
-        "name": "Cumberland",
-        "description": "Cumberland is a historic county in the far north-west of England.",
-        "id": "place_079"
+        "name": "River Tees",
+        "description": "The River Tees, in England, rises on the eastern slope of Cross Fell in the North Pennines and flows eastwards for 85 miles to reach the North Sea in the North East of England.",
+        "id": "place_1363"
       }
     ]
   },

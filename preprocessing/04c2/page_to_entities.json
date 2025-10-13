@@ -36,28 +36,28 @@
   "18": {
     "places": [
       {
-        "name": "Cornwall",
-        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
-        "id": "place_021"
-      },
-      {
         "name": "Derbyshire",
         "description": "Derbyshire is a county in the East Midlands and includes part of the Peak District.",
         "id": "place_085"
+      },
+      {
+        "name": "Cornwall",
+        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
+        "id": "place_021"
       }
     ]
   },
   "19": {
     "places": [
       {
-        "name": "Saxony",
-        "description": "A state in eastern Germany.",
-        "id": "place_976"
-      },
-      {
         "name": "United States",
         "description": "The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean.",
         "id": "place_878"
+      },
+      {
+        "name": "Saxony",
+        "description": "A state in eastern Germany.",
+        "id": "place_976"
       }
     ]
   },
@@ -98,6 +98,13 @@
   "34": {
     "persons": [
       {
+        "name": "Torbern OlafBergman",
+        "birth": "",
+        "death": "",
+        "description": "Swedish chemist and mineralogist. At some point Davy acquired a set of letters from Bergman to Franz Schwediaur written in the 1780s which are retained in the Royal Institution (RI MS HD/27/A). ForMemRSL.",
+        "id": "person_033"
+      },
+      {
         "name": "IsaacNewton",
         "birth": "",
         "death": "",
@@ -110,79 +117,72 @@
         "death": "",
         "description": "Irish chemist, mineralogist and geologist who accused fellow geologist, James Hutton, of athiesm following publication of his Theory of the Earth (1788). FRSL",
         "id": "person_023"
-      },
-      {
-        "name": "Torbern OlafBergman",
-        "birth": "",
-        "death": "",
-        "description": "Swedish chemist and mineralogist. At some point Davy acquired a set of letters from Bergman to Franz Schwediaur written in the 1780s which are retained in the Royal Institution (RI MS HD/27/A). ForMemRSL.",
-        "id": "person_033"
       }
     ],
     "places": [
       {
-        "name": "Sweden",
-        "description": "",
-        "id": "place_246"
-      },
-      {
         "name": "Uppsala",
         "description": "A city in southern Sweden.",
         "id": "place_283"
+      },
+      {
+        "name": "Sweden",
+        "description": "",
+        "id": "place_246"
       }
     ]
   },
   "35": {
     "persons": [
       {
-        "name": "IsaacNewton",
-        "birth": "",
-        "death": "",
-        "description": "Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy & Newton' in one inch letters. FRSL.",
-        "id": "person_036"
-      },
-      {
         "name": "WilliamHiggins",
         "birth": "",
         "death": "",
         "description": "Nephew of Bryan Higgins. Professor of Chemistry at the Dublin Society where he proposed a theory of chemical atomism. Met Davy in London who supported Higgins's claim to the atomic theory over that of John Dalton. FRSL.",
         "id": "person_165"
+      },
+      {
+        "name": "IsaacNewton",
+        "birth": "",
+        "death": "",
+        "description": "Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy & Newton' in one inch letters. FRSL.",
+        "id": "person_036"
       }
     ]
   },
   "36": {
     "persons": [
       {
-        "name": "Jeremias BenjaminRichter",
-        "birth": "",
-        "death": "",
-        "description": "German chemist who worked on the idea of definite proportions.",
-        "id": "person_341"
-      },
-      {
         "name": "WilliamHiggins",
         "birth": "",
         "death": "",
         "description": "Nephew of Bryan Higgins. Professor of Chemistry at the Dublin Society where he proposed a theory of chemical atomism. Met Davy in London who supported Higgins's claim to the atomic theory over that of John Dalton. FRSL.",
         "id": "person_165"
+      },
+      {
+        "name": "Jeremias BenjaminRichter",
+        "birth": "",
+        "death": "",
+        "description": "German chemist who worked on the idea of definite proportions.",
+        "id": "person_341"
       }
     ]
   },
   "37": {
     "persons": [
       {
-        "name": "JohnDalton",
-        "birth": "",
-        "death": "",
-        "description": "Mancunian chemist and natural philosopher who lectured at the Royal Institution. He formulated a version of the atomic theory of matter much disliked by Davy. FRSL.",
-        "id": "person_066"
-      },
-      {
         "name": "Jeremias BenjaminRichter",
         "birth": "",
         "death": "",
         "description": "German chemist who worked on the idea of definite proportions.",
         "id": "person_341"
+      },
+      {
+        "name": "JohnDalton",
+        "birth": "",
+        "death": "",
+        "description": "Mancunian chemist and natural philosopher who lectured at the Royal Institution. He formulated a version of the atomic theory of matter much disliked by Davy. FRSL.",
+        "id": "person_066"
       }
     ]
   },
@@ -247,18 +247,18 @@
         "id": "person_349"
       },
       {
-        "name": "JohnDalton",
-        "birth": "",
-        "death": "",
-        "description": "Mancunian chemist and natural philosopher who lectured at the Royal Institution. He formulated a version of the atomic theory of matter much disliked by Davy. FRSL.",
-        "id": "person_066"
-      },
-      {
         "name": "WilliamHiggins",
         "birth": "",
         "death": "",
         "description": "Nephew of Bryan Higgins. Professor of Chemistry at the Dublin Society where he proposed a theory of chemical atomism. Met Davy in London who supported Higgins's claim to the atomic theory over that of John Dalton. FRSL.",
         "id": "person_165"
+      },
+      {
+        "name": "JohnDalton",
+        "birth": "",
+        "death": "",
+        "description": "Mancunian chemist and natural philosopher who lectured at the Royal Institution. He formulated a version of the atomic theory of matter much disliked by Davy. FRSL.",
+        "id": "person_066"
       }
     ]
   },

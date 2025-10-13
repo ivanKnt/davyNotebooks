@@ -1,4 +1,651 @@
 {
   "notebook_title": "Notebook 15F",
-  "consensus_book": "unknown"
+  "consensus_book": "other",
+  "0": {
+    "Geology": 0.667,
+    "Other": 0.333,
+    "page_consensus": "geology"
+  },
+  "1": {
+    "Philosophy": 0.5,
+    "Other": 0.25,
+    "Science": 0.25,
+    "page_consensus": "philosophy"
+  },
+  "2": {
+    "Other": 0.4,
+    "Poetry": 0.2,
+    "Philosophy": 0.2,
+    "Science": 0.2,
+    "page_consensus": "other"
+  },
+  "3": {
+    "Philosophy": 1.0,
+    "page_consensus": "philosophy"
+  },
+  "4": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "5": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "6": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "7": {
+    "Science": 1.0,
+    "page_consensus": "science"
+  },
+  "8": {
+    "Philosophy": 0.75,
+    "Other": 0.25,
+    "page_consensus": "philosophy"
+  },
+  "9": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "10": {
+    "Philosophy": 0.667,
+    "Other": 0.333,
+    "page_consensus": "philosophy"
+  },
+  "11": {
+    "Philosophy": 0.75,
+    "Other": 0.25,
+    "page_consensus": "philosophy"
+  },
+  "12": {
+    "Other": 0.4,
+    "Philosophy": 0.4,
+    "Poetry": 0.2,
+    "page_consensus": "other"
+  },
+  "13": {
+    "Science": 0.6,
+    "Poetry": 0.2,
+    "Other": 0.2,
+    "page_consensus": "science"
+  },
+  "14": {
+    "Philosophy": 0.667,
+    "Other": 0.333,
+    "page_consensus": "philosophy"
+  },
+  "15": {
+    "Philosophy": 1.0,
+    "page_consensus": "philosophy"
+  },
+  "16": {
+    "Philosophy": 0.2,
+    "Science": 0.2,
+    "Other": 0.2,
+    "Poetry": 0.2,
+    "Geology": 0.2,
+    "page_consensus": "philosophy"
+  },
+  "17": {
+    "Geology": 0.25,
+    "Other": 0.5,
+    "Science": 0.25,
+    "page_consensus": "other"
+  },
+  "18": {
+    "Philosophy": 0.25,
+    "Other": 0.75,
+    "page_consensus": "other"
+  },
+  "19": {
+    "Poetry": 0.5,
+    "Philosophy": 0.25,
+    "Science": 0.25,
+    "page_consensus": "poetry"
+  },
+  "20": {
+    "Philosophy": 1.0,
+    "page_consensus": "philosophy"
+  },
+  "21": {
+    "Poetry": 0.5,
+    "Other": 0.25,
+    "Philosophy": 0.25,
+    "page_consensus": "poetry"
+  },
+  "22": {
+    "Other": 0.333,
+    "Philosophy": 0.667,
+    "page_consensus": "philosophy"
+  },
+  "23": {
+    "Other": 0.75,
+    "Philosophy": 0.25,
+    "page_consensus": "other"
+  },
+  "24": {
+    "Other": 0.333,
+    "Poetry": 0.667,
+    "page_consensus": "poetry"
+  },
+  "25": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "26": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "27": {
+    "Philosophy": 1.0,
+    "page_consensus": "philosophy"
+  },
+  "28": {
+    "Philosophy": 0.25,
+    "Poetry": 0.5,
+    "Other": 0.25,
+    "page_consensus": "poetry"
+  },
+  "29": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "30": {
+    "Poetry": 0.75,
+    "Other": 0.25,
+    "page_consensus": "poetry"
+  },
+  "31": {
+    "Poetry": 0.667,
+    "Philosophy": 0.333,
+    "page_consensus": "poetry"
+  },
+  "32": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "33": {
+    "Science": 0.25,
+    "Poetry": 0.75,
+    "page_consensus": "poetry"
+  },
+  "34": {
+    "Science": 0.667,
+    "Geology": 0.333,
+    "page_consensus": "science"
+  },
+  "35": {
+    "Other": 0.25,
+    "Poetry": 0.5,
+    "Philosophy": 0.25,
+    "page_consensus": "poetry"
+  },
+  "36": {
+    "Other": 0.5,
+    "Philosophy": 0.25,
+    "Poetry": 0.25,
+    "page_consensus": "other"
+  },
+  "37": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "38": {
+    "Poetry": 0.75,
+    "Other": 0.25,
+    "page_consensus": "poetry"
+  },
+  "39": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "40": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "41": {
+    "Science": 0.667,
+    "Geology": 0.333,
+    "page_consensus": "science"
+  },
+  "42": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "43": {
+    "Poetry": 0.333,
+    "Geology": 0.333,
+    "Other": 0.167,
+    "Science": 0.167,
+    "page_consensus": "poetry"
+  },
+  "44": {
+    "Other": 0.6,
+    "Poetry": 0.2,
+    "Philosophy": 0.2,
+    "page_consensus": "other"
+  },
+  "45": {
+    "Other": 0.25,
+    "Philosophy": 0.5,
+    "Poetry": 0.25,
+    "page_consensus": "philosophy"
+  },
+  "46": {
+    "Poetry": 0.5,
+    "Science": 0.5,
+    "page_consensus": "poetry"
+  },
+  "47": {
+    "Poetry": 0.333,
+    "Other": 0.667,
+    "page_consensus": "other"
+  },
+  "48": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "49": {
+    "Poetry": 0.333,
+    "Philosophy": 0.667,
+    "page_consensus": "philosophy"
+  },
+  "50": {
+    "Science": 1.0,
+    "page_consensus": "science"
+  },
+  "51": {
+    "Geology": 0.333,
+    "Other": 0.667,
+    "page_consensus": "other"
+  },
+  "52": {
+    "Other": 0.25,
+    "Poetry": 0.75,
+    "page_consensus": "poetry"
+  },
+  "53": {
+    "Other": 0.667,
+    "Geology": 0.333,
+    "page_consensus": "other"
+  },
+  "54": {
+    "Other": 0.667,
+    "Poetry": 0.333,
+    "page_consensus": "other"
+  },
+  "55": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "56": {
+    "Poetry": 0.75,
+    "Philosophy": 0.25,
+    "page_consensus": "poetry"
+  },
+  "57": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "58": {
+    "Geology": 0.5,
+    "Other": 0.5,
+    "page_consensus": "geology"
+  },
+  "59": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "60": {
+    "Science": 0.333,
+    "Other": 0.667,
+    "page_consensus": "other"
+  },
+  "61": {
+    "Science": 0.667,
+    "Other": 0.333,
+    "page_consensus": "science"
+  },
+  "62": {
+    "Other": 0.667,
+    "Science": 0.333,
+    "page_consensus": "other"
+  },
+  "63": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "64": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "65": {
+    "Other": 0.667,
+    "Geology": 0.333,
+    "page_consensus": "other"
+  },
+  "66": {
+    "Other": 0.333,
+    "Science": 0.333,
+    "Geology": 0.333,
+    "page_consensus": "other"
+  },
+  "67": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "68": {
+    "Science": 0.667,
+    "Other": 0.333,
+    "page_consensus": "science"
+  },
+  "69": {
+    "Poetry": 0.4,
+    "Other": 0.4,
+    "Geology": 0.2,
+    "page_consensus": "poetry"
+  },
+  "70": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "71": {
+    "Geology": 0.667,
+    "Other": 0.333,
+    "page_consensus": "geology"
+  },
+  "72": {
+    "Other": 0.5,
+    "Science": 0.25,
+    "Geology": 0.25,
+    "page_consensus": "other"
+  },
+  "73": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "74": {
+    "Geology": 1.0,
+    "page_consensus": "geology"
+  },
+  "75": {
+    "Other": 0.333,
+    "Poetry": 0.333,
+    "Science": 0.333,
+    "page_consensus": "other"
+  },
+  "76": {
+    "Science": 0.333,
+    "Other": 0.667,
+    "page_consensus": "other"
+  },
+  "77": {
+    "Other": 0.5,
+    "Geology": 0.5,
+    "page_consensus": "other"
+  },
+  "78": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "79": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "80": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "81": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "82": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "83": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "84": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "85": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "86": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "87": {
+    "Poetry": 0.75,
+    "Other": 0.25,
+    "page_consensus": "poetry"
+  },
+  "88": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "89": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "90": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "91": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "92": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "93": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "94": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "95": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "96": {
+    "Poetry": 0.5,
+    "Philosophy": 0.5,
+    "page_consensus": "poetry"
+  },
+  "97": {
+    "Other": 0.667,
+    "Science": 0.333,
+    "page_consensus": "other"
+  },
+  "98": {
+    "Other": 0.667,
+    "Geology": 0.333,
+    "page_consensus": "other"
+  },
+  "99": {
+    "Geology": 0.429,
+    "Other": 0.286,
+    "Poetry": 0.143,
+    "Science": 0.143,
+    "page_consensus": "geology"
+  },
+  "100": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "101": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "102": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "103": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "104": {
+    "Other": 0.667,
+    "Philosophy": 0.333,
+    "page_consensus": "other"
+  },
+  "105": {
+    "Science": 1.0,
+    "page_consensus": "science"
+  },
+  "106": {
+    "Other": 0.5,
+    "Geology": 0.5,
+    "page_consensus": "other"
+  },
+  "107": {
+    "Geology": 0.667,
+    "Other": 0.333,
+    "page_consensus": "geology"
+  },
+  "108": {
+    "Geology": 0.5,
+    "Other": 0.5,
+    "page_consensus": "geology"
+  },
+  "109": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "110": {
+    "Other": 0.667,
+    "Geology": 0.333,
+    "page_consensus": "other"
+  },
+  "111": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "112": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "113": {
+    "Poetry": 0.8,
+    "Philosophy": 0.2,
+    "page_consensus": "poetry"
+  },
+  "114": {
+    "Other": 0.75,
+    "Geology": 0.25,
+    "page_consensus": "other"
+  },
+  "115": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "116": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "117": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "118": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "119": {
+    "Poetry": 1.0,
+    "page_consensus": "poetry"
+  },
+  "120": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "121": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "122": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "123": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "124": {
+    "Other": 0.75,
+    "Philosophy": 0.25,
+    "page_consensus": "other"
+  },
+  "125": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "126": {
+    "Other": 0.667,
+    "Philosophy": 0.333,
+    "page_consensus": "other"
+  },
+  "127": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "128": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "129": {
+    "Science": 0.25,
+    "Other": 0.75,
+    "page_consensus": "other"
+  },
+  "130": {
+    "Geology": 0.667,
+    "Other": 0.333,
+    "page_consensus": "geology"
+  },
+  "131": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "132": {
+    "Other": 0.2,
+    "Science": 0.4,
+    "Philosophy": 0.2,
+    "Geology": 0.2,
+    "page_consensus": "science"
+  },
+  "133": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "134": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  },
+  "135": {
+    "Philosophy": 0.2,
+    "Other": 0.6,
+    "Poetry": 0.2,
+    "page_consensus": "other"
+  },
+  "136": {
+    "Philosophy": 1.0,
+    "page_consensus": "philosophy"
+  },
+  "137": {
+    "Other": 1.0,
+    "page_consensus": "other"
+  }
 }

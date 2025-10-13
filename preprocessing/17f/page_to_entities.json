@@ -5,19 +5,24 @@
   "7": {
     "places": [
       {
-        "name": "Saxony",
-        "description": "A state in eastern Germany.",
-        "id": "place_976"
-      },
-      {
         "name": "Sicily",
         "description": "Sicily is the largest and most populous island in the Mediterranean Sea and one of the twenty regions of Italy.",
         "id": "place_569"
+      },
+      {
+        "name": "Saxony",
+        "description": "A state in eastern Germany.",
+        "id": "place_976"
       }
     ]
   },
   "8": {
     "places": [
+      {
+        "name": "Mount Etna",
+        "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
+        "id": "place_184"
+      },
       {
         "name": "Andes",
         "description": "Mountain range in western South America.",
@@ -32,11 +37,6 @@
         "name": "Mount Vesuvius",
         "description": "Mount Vesuvius is a somma-stratovolcano located on the Gulf of Naples in Campania, Italy.",
         "id": "place_169"
-      },
-      {
-        "name": "Mount Etna",
-        "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
-        "id": "place_184"
       }
     ]
   },
@@ -102,14 +102,14 @@
   "13": {
     "places": [
       {
-        "name": "Altofts",
-        "description": "Village located five miles from the centre of Wakefield, West Yorkshire, UK.",
-        "id": "place_1390"
-      },
-      {
         "name": "Birkwood Common",
         "description": "Located in Normanton, Yorkshire, in the UK. Birkwood Common was thought to be the location of an archeological henge; this has since been reassessed as surface remnants of nearby shallow coal mining.",
         "id": "place_1389"
+      },
+      {
+        "name": "Altofts",
+        "description": "Village located five miles from the centre of Wakefield, West Yorkshire, UK.",
+        "id": "place_1390"
       }
     ]
   },
@@ -229,18 +229,18 @@
   "37": {
     "persons": [
       {
-        "name": "JamesHall",
-        "birth": "",
-        "death": "",
-        "description": "Scottish baronet (1776) and MP. Chemist and geologist who supported of James Hutton's theories of uniformitarian geology. FRSL.",
-        "id": "person_164"
-      },
-      {
         "name": "GregoryWatt",
         "birth": "",
         "death": "",
         "description": "Youngest son of James Watt. Lodged with Davy's mother in Penzance during the winter of 1797-8 and became close friends with Davy.",
         "id": "person_261"
+      },
+      {
+        "name": "JamesHall",
+        "birth": "",
+        "death": "",
+        "description": "Scottish baronet (1776) and MP. Chemist and geologist who supported of James Hutton's theories of uniformitarian geology. FRSL.",
+        "id": "person_164"
       }
     ]
   },
@@ -267,21 +267,6 @@
   "58": {
     "places": [
       {
-        "name": "Cornwall",
-        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
-        "id": "place_021"
-      },
-      {
-        "name": "Dorset",
-        "description": "A county in southwest England. It’s known for the Jurassic Coast, a long stretch on the English Channel where the cliffs contain many fossils, and rock formations show millions of years of geological history.",
-        "id": "place_1012"
-      },
-      {
-        "name": "Devon",
-        "description": "A county in south-west England.",
-        "id": "place_162"
-      },
-      {
         "name": "Wiltshire",
         "description": "A county in south-western England. The county town is Trowbridge.",
         "id": "place_300"
@@ -292,9 +277,24 @@
         "id": "place_085"
       },
       {
+        "name": "Devon",
+        "description": "A county in south-west England.",
+        "id": "place_162"
+      },
+      {
         "name": "Darling Downs",
         "description": "The South Downs are a range of chalk hills extending from Hampshire to Sussex.",
         "id": "place_440"
+      },
+      {
+        "name": "Dorset",
+        "description": "A county in southwest England. It’s known for the Jurassic Coast, a long stretch on the English Channel where the cliffs contain many fossils, and rock formations show millions of years of geological history.",
+        "id": "place_1012"
+      },
+      {
+        "name": "Cornwall",
+        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
+        "id": "place_021"
       }
     ]
   },

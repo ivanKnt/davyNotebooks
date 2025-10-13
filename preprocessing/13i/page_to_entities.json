@@ -40,14 +40,14 @@
   "23": {
     "places": [
       {
-        "name": "Ontario",
-        "description": "Ontario is a province in east-central Canada.",
-        "id": "place_002"
-      },
-      {
         "name": "Atlantic",
         "description": "",
         "id": "place_056"
+      },
+      {
+        "name": "Ontario",
+        "description": "Ontario is a province in east-central Canada.",
+        "id": "place_002"
       }
     ]
   },
@@ -117,14 +117,14 @@
   "108": {
     "places": [
       {
-        "name": "Cotopaxi",
-        "description": "Cotopaxi is an active stratovolcano in the Andes Mountains, in Ecuador. The first European to climb it was Alexander Von Humboldt in 1802.",
-        "id": "place_001"
-      },
-      {
         "name": "Quito",
         "description": "Quito, Ecuador's capital, sits high in the Andean foothills at an altitude of 2,850m. It is constructed on the foundations of an ancient Incan city.",
         "id": "place_003"
+      },
+      {
+        "name": "Cotopaxi",
+        "description": "Cotopaxi is an active stratovolcano in the Andes Mountains, in Ecuador. The first European to climb it was Alexander Von Humboldt in 1802.",
+        "id": "place_001"
       }
     ]
   },
@@ -174,18 +174,18 @@
   "134": {
     "persons": [
       {
-        "name": "William HaseldinePepys",
-        "birth": "",
-        "death": "",
-        "description": "Pepys was a surgical and scientific instrument maker and chemist. Constructed large batteries used by Davy (amongst others). FRSL.",
-        "id": "person_015"
-      },
-      {
         "name": "WilliamAllen",
         "birth": "",
         "death": "",
         "description": "Allen was a Quaker who worked in the pharmaceutical industry. Davy asked him to give lectures on natural philosophy at the RI. FRSL.",
         "id": "person_003"
+      },
+      {
+        "name": "William HaseldinePepys",
+        "birth": "",
+        "death": "",
+        "description": "Pepys was a surgical and scientific instrument maker and chemist. Constructed large batteries used by Davy (amongst others). FRSL.",
+        "id": "person_015"
       }
     ]
   },
@@ -227,11 +227,11 @@
   "152": {
     "persons": [
       {
-        "name": "Louis BernardGuyton de Morveau",
+        "name": "WilliamAllen",
         "birth": "",
         "death": "",
-        "description": "French chemist and revolutionary politician who is credited with producing the first systematic method of chemical nomenclature. ForMemRSL.",
-        "id": "person_049"
+        "description": "Allen was a Quaker who worked in the pharmaceutical industry. Davy asked him to give lectures on natural philosophy at the RI. FRSL.",
+        "id": "person_003"
       },
       {
         "name": "Antoine-Francois deFourcroy",
@@ -241,11 +241,11 @@
         "id": "person_011"
       },
       {
-        "name": "WilliamAllen",
+        "name": "Louis BernardGuyton de Morveau",
         "birth": "",
         "death": "",
-        "description": "Allen was a Quaker who worked in the pharmaceutical industry. Davy asked him to give lectures on natural philosophy at the RI. FRSL.",
-        "id": "person_003"
+        "description": "French chemist and revolutionary politician who is credited with producing the first systematic method of chemical nomenclature. ForMemRSL.",
+        "id": "person_049"
       }
     ],
     "works": [
@@ -280,6 +280,13 @@
   "157": {
     "persons": [
       {
+        "name": "Daniel GabrielFahrenheit",
+        "birth": "",
+        "death": "",
+        "description": "German physicist, inventor, and scientific instrument maker, who invented the mercury-in-glass thermometer. The temperature scale he proposed is named after him. ForMemRSL.",
+        "id": "person_784"
+      },
+      {
         "name": "WilliamHenry",
         "birth": "",
         "death": "",
@@ -294,13 +301,6 @@
         "id": "person_398"
       },
       {
-        "name": "Daniel GabrielFahrenheit",
-        "birth": "",
-        "death": "",
-        "description": "German physicist, inventor, and scientific instrument maker, who invented the mercury-in-glass thermometer. The temperature scale he proposed is named after him. ForMemRSL.",
-        "id": "person_784"
-      },
-      {
         "name": "CharlesDesormes",
         "birth": "",
         "death": "",
@@ -310,11 +310,6 @@
     ],
     "works": [
       {
-        "name": "Philosophical Transactions of the Royal Society of London",
-        "author": "William Henry",
-        "id": "otherwork_269"
-      },
-      {
         "name": "Annales de Chimie",
         "author": "Nicolas Clement and Charles Desormes",
         "id": "otherwork_131"
@@ -323,24 +318,29 @@
         "name": "Traité Élémentaire de Chimie",
         "author": "Antoine Lavoisier",
         "id": "otherwork_056"
+      },
+      {
+        "name": "Philosophical Transactions of the Royal Society of London",
+        "author": "William Henry",
+        "id": "otherwork_269"
       }
     ]
   },
   "158": {
     "persons": [
       {
-        "name": "Joseph LouisGay-Lussac",
-        "birth": "",
-        "death": "",
-        "description": "French chemist and physicist, known mostly for his discovery that water is made of two parts hydrogen and one part oxygen by volume (with Alexander von Humboldt), for two laws related to gases, and for his work on alcohol-water mixtures. Became involved in controversies with Davy over various chemical discoveries. ForMemRSL.",
-        "id": "person_012"
-      },
-      {
         "name": "JohnDalton",
         "birth": "",
         "death": "",
         "description": "Mancunian chemist and natural philosopher who lectured at the Royal Institution. He formulated a version of the atomic theory of matter much disliked by Davy. FRSL.",
         "id": "person_066"
+      },
+      {
+        "name": "Joseph LouisGay-Lussac",
+        "birth": "",
+        "death": "",
+        "description": "French chemist and physicist, known mostly for his discovery that water is made of two parts hydrogen and one part oxygen by volume (with Alexander von Humboldt), for two laws related to gases, and for his work on alcohol-water mixtures. Became involved in controversies with Davy over various chemical discoveries. ForMemRSL.",
+        "id": "person_012"
       }
     ],
     "works": [
@@ -350,14 +350,14 @@
         "id": "otherwork_016"
       },
       {
-        "name": "Annales de Chimie",
-        "author": "Gay Lussac",
-        "id": "otherwork_268"
-      },
-      {
         "name": "Journal des Mines",
         "author": "J. B. Van Mons",
         "id": "otherwork_270"
+      },
+      {
+        "name": "Annales de Chimie",
+        "author": "Gay Lussac",
+        "id": "otherwork_268"
       }
     ]
   },

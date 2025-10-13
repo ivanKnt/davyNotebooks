@@ -1,3 +1,30 @@
+"""
+Davy Notebooks Preprocessing Pipeline
+======================================
+
+This script extracts and processes text from TEI XML files and volunteer classification data.
+
+What it does:
+1. Parses TEI XML files to extract clean text content, page by page
+2. Extracts entity annotations (persons, places, chemicals, events, organizations, works)
+3. Processes volunteer classification data from CSV files
+4. Generates structured JSON outputs for downstream analysis
+
+Input files:
+- items/<notebook_id>/tei/doc - TEI XML file with marked-up notebook text
+- items/<notebook_id>/transcription/source/classifications - CSV with volunteer classifications
+
+Output files (saved to preprocessing/<notebook_id>/):
+- page_to_text.json - Clean text for each page (key: page number, value: text)
+- all_entities_metadata.json - Complete entity metadata extracted from TEI <standOff>
+- page_to_entities.json - Entities appearing on each page
+- classifications.json - Volunteer classifications per page
+
+This preprocessing is required before running any analysis (classification, poetry detection,
+text reuse). It's the foundation that all other scripts build upon.
+
+Author: Developed for the Davy Notebooks Project
+"""
 
 import os
 import re
@@ -7,94 +34,161 @@ import csv
 from collections import defaultdict
 from bs4 import BeautifulSoup
 
-# Set up logging
+# Configure logging to show progress and any issues during processing
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 def deduplicate_successive_words(text):
-    """Remove successive duplicate words while preserving case and other text."""
+    """
+    Remove consecutive duplicate words from text.
+    
+    Sometimes the TEI XML contains accidental word duplications (e.g., "the the experiment").
+    This function removes such duplicates while preserving:
+    - Case sensitivity (won't remove "The the" because cases differ)
+    - Intentional repetitions that are separated by other words
+    
+    Example:
+        Input: "the the experiment was was successful"
+        Output: "the experiment was successful"
+    
+    Args:
+        text: String of text to clean
+    
+    Returns:
+        Text with consecutive duplicates removed
+    """
     words = text.split()
     if not words:
         return text
+    
+    # Always keep the first word
     result = [words[0]]
+    
+    # Add subsequent words only if they differ from the previous word
     for i in range(1, len(words)):
         if words[i] != words[i - 1]:
             result.append(words[i])
+    
     return ' '.join(result)
 
 def extract_text_from_tei(notebook_id):
+    """
+    Extract and process text content from a TEI XML file.
+    
+    TEI (Text Encoding Initiative) is an XML standard for encoding literary and historical texts.
+    Our notebooks are encoded in TEI with:
+    - <body>: Contains the main text with structural markup
+    - <standOff>: Contains entity metadata (persons, places, chemicals, etc.)
+    - <pb>: Page break markers (these define page boundaries)
+    - <lb>: Line break markers
+    - <rs ref="#entity_id">: References to entities defined in <standOff>
+    - <note>: Editorial notes (we remove these as they're not original notebook content)
+    
+    This function:
+    1. Parses the XML and extracts clean text page by page
+    2. Resolves entity references and maps them to pages
+    3. Cleans the text (removes duplicate words, normalizes whitespace)
+    4. Saves structured JSON outputs
+    
+    Args:
+        notebook_id: The notebook identifier (e.g., '14e', '01a1')
+    
+    Returns:
+        Success message or error description
+    """
     xml_file_path = os.path.join('../..', 'items', notebook_id, 'tei', 'doc')
     classifications_path = os.path.join('../..', 'items', notebook_id, 'transcription', 'source', 'classifications')
+    
     try:
         if not os.path.exists(xml_file_path):
             logger.error(f"TEI file not found at {xml_file_path}")
             return
 
+        # Create output directory for this notebook
         output_dir = os.path.join('../..', 'preprocessing', notebook_id)
         os.makedirs(output_dir, exist_ok=True)
 
+        # Parse the TEI XML file
         with open(xml_file_path, 'r', encoding='utf-8') as f:
             soup = BeautifulSoup(f, 'xml')
 
-        body_element = soup.find('body')
-        standoff_element = soup.find('standOff')
+        # Find the main content sections
+        body_element = soup.find('body')  # Contains the text
+        standoff_element = soup.find('standOff')  # Contains entity definitions
 
         if body_element is None:
             logger.error(f"<body> element not found in {notebook_id}.")
             return
 
-        # Remove <note> elements entirely before processing
+        # Remove editorial notes - these are modern annotations, not original content
         for note in body_element.find_all('note'):
             note.extract()
 
-        # Process page by page using a static list of descendants
+        # Process the XML tree node by node to extract text and track pages
+        # We use a static list to avoid issues with modifying the tree during iteration
         descendants = list(body_element.descendants)
-        pages = []
-        current_page_text = []
-        current_page_num = None
-        page_to_annotations = {}  # Map page numbers to annotation IDs
+        pages = []  # Will store (page_number, text) tuples
+        current_page_text = []  # Accumulate text for the current page
+        current_page_num = None  # Track which page we're currently processing
+        page_to_annotations = {}  # Map page numbers to the entities mentioned on that page
 
         for element in descendants:
             if element is None:
                 logger.debug("Encountered None element, skipping.")
                 continue
 
-            if element.name is None:  # NavigableString (text node)
+            # Text nodes (NavigableString in BeautifulSoup) - just plain text
+            if element.name is None:
                 if element.string and element.string.strip():
                     current_page_text.append(element.string.strip())
                 continue
 
             try:
+                # <pb> tags mark page boundaries
                 if element.name == 'pb':
+                    # Save the previous page's text before starting a new page
                     if current_page_text and current_page_num:
                         pages.append((current_page_num, '\n'.join(current_page_text)))
+                    # Start new page
                     current_page_num = element.get('n', 'unknown')
                     current_page_text = []
                     page_to_annotations[current_page_num] = set()
-                    element.extract()  # Remove pb tag after processing
+                    element.extract()  # Remove the tag to avoid processing it again
+                
+                # <lb> tags mark line breaks (like hitting Enter in a text editor)
                 elif element.name == 'lb':
                     if current_page_text:
                         current_page_text.append('\n')
-                    element.extract()  # Remove lb tag after processing
+                    element.extract()
+                
+                # <rs ref="#..."> tags reference entities (people, places, chemicals, etc.)
                 elif element.name == 'rs' and 'ref' in element.attrs:
+                    # Track which entities appear on this page
                     if current_page_num:
-                        annotation_id = element['ref'].lstrip('#')
+                        annotation_id = element['ref'].lstrip('#')  # Remove the '#' prefix
                         page_to_annotations[current_page_num].add(annotation_id)
+                    # Extract the text content within the <rs> tag
                     text_content = element.get_text(separator=' ', strip=True) if element.get_text(separator=' ', strip=True) else ''
                     if text_content:
                         current_page_text.append(text_content)
+                
+                # All other elements - extract their text content
                 elif element.name not in ['note', 'pb', 'lb', 'rs']:
                     text_content = element.get_text(separator=' ', strip=True) if element.get_text(separator=' ', strip=True) else ''
                     if text_content:
                         current_page_text.append(text_content)
+            
             except AttributeError as e:
                 logger.error(f"AttributeError on element {element}: {e}")
                 continue
 
+        # Don't forget to save the last page
         if current_page_text and current_page_num:
             pages.append((current_page_num, '\n'.join(current_page_text)))
 
-        # Extract all entities metadata from <standOff>
+        # Extract entity metadata from the <standOff> section
+        # This section contains definitions for all people, places, chemicals, etc. mentioned
+        # in the notebook. Each entity has an ID that's referenced in the main text via <rs> tags.
         all_entities_metadata = {
             'persons': {},
             'places': {},
@@ -177,14 +271,17 @@ def extract_text_from_tei(notebook_id):
                     'author': author
                 }
 
-        # Process each page into text and collect metadata
+        # Now process each page to create the final cleaned output
         page_to_text = {}
         page_to_entities = {}
 
         for page_num, page_text in pages:
-            # Clean text with spaces, deduplicate successive words
+            # Clean up the text:
+            # 1. Replace excessive newlines with spaces
             cleaned_text = re.sub(r'\n\n\n', ' ', page_text)
+            # 2. Remove accidental word duplications
             cleaned_text = deduplicate_successive_words(cleaned_text)
+            # 3. Normalize all whitespace to single spaces
             cleaned_text = re.sub(r'\s+', ' ', cleaned_text).strip()
             page_to_text[page_num] = cleaned_text
 

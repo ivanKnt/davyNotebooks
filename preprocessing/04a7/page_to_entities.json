@@ -27,21 +27,36 @@
         "id": "person_844"
       },
       {
-        "name": "JesusChrist",
-        "birth": "",
-        "death": "",
-        "description": "The central figure of Christianity; a first-century Jewish preacher and religious leader.",
-        "id": "person_951"
-      },
-      {
         "name": "Jupiter",
         "birth": null,
         "death": null,
         "description": "Also known as Jove, the god of the sky and thunder, and king of the gods in ancient Roman religion and mythology.",
         "id": "person_843"
+      },
+      {
+        "name": "JesusChrist",
+        "birth": "",
+        "death": "",
+        "description": "The central figure of Christianity; a first-century Jewish preacher and religious leader.",
+        "id": "person_951"
       }
     ],
     "places": [
+      {
+        "name": "Kamchatka Krai",
+        "description": "The Kamchatka Peninsula is a 1,250-kilometre-long peninsula in the Russian Far East.",
+        "id": "place_1007"
+      },
+      {
+        "name": "Mount Etna",
+        "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
+        "id": "place_184"
+      },
+      {
+        "name": "Mediterranean Sea",
+        "description": "Connected to the Atlantic Ocean and almost completely surrounded by land.",
+        "id": "place_1191"
+      },
       {
         "name": "Japan",
         "description": "an island country in East Asia. It is in the northwest Pacific Ocean.",
@@ -53,29 +68,14 @@
         "id": "place_237"
       },
       {
-        "name": "Mediterranean Sea",
-        "description": "Connected to the Atlantic Ocean and almost completely surrounded by land.",
-        "id": "place_1191"
-      },
-      {
-        "name": "Mount Etna",
-        "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
-        "id": "place_184"
-      },
-      {
-        "name": "Kamchatka Krai",
-        "description": "The Kamchatka Peninsula is a 1,250-kilometre-long peninsula in the Russian Far East.",
-        "id": "place_1007"
+        "name": "United States",
+        "description": "The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean.",
+        "id": "place_878"
       },
       {
         "name": "Sicily",
         "description": "Sicily is the largest and most populous island in the Mediterranean Sea and one of the twenty regions of Italy.",
         "id": "place_569"
-      },
-      {
-        "name": "United States",
-        "description": "The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean.",
-        "id": "place_878"
       }
     ],
     "works": [
@@ -129,18 +129,18 @@
   "4": {
     "persons": [
       {
-        "name": "WilliamHamilton",
-        "birth": "",
-        "death": "",
-        "description": "English diplomat, politician, antiquarian, and vulcanologist who served as the Envoy Extraordinary to the Kingdom of Naples from 1764 to 1800. FRSL.",
-        "id": "person_699"
-      },
-      {
         "name": "Déodat Gratet deDolomieu",
         "birth": "",
         "death": "",
         "description": "French geologist. The rock, and region of the Alps, dolomite was named after him.",
         "id": "person_300"
+      },
+      {
+        "name": "WilliamHamilton",
+        "birth": "",
+        "death": "",
+        "description": "English diplomat, politician, antiquarian, and vulcanologist who served as the Envoy Extraordinary to the Kingdom of Naples from 1764 to 1800. FRSL.",
+        "id": "person_699"
       }
     ],
     "works": [
@@ -154,18 +154,18 @@
   "5": {
     "persons": [
       {
-        "name": "ScipioneBreislak",
-        "birth": "",
-        "death": "",
-        "description": "Italian geologist of Swedish parentage. The vast works for the refining of sulphur in the volcanic district of Solfatara, near Naples, were erected under his direction. Professor of physics at the University of Ragusa, and subsequently at the Collegio Nazereno in Rome. He witnessed an eruption of Vesuvius in 1794 and subsequntly wrote Voyage Physique et Lithologique dans la Campagnie (1801).",
-        "id": "person_820"
-      },
-      {
         "name": "John ThomasStanley",
         "birth": "",
         "death": "",
         "description": "A British landowner and amateur scienticist, in 1789 he made a celebrated voyage to the Faroe Islands and Iceland with James Wright, Isaac Benners and John Baine, including the climbing of Mount Hekla. In the same year he was elected a Fellow of the Royal Society of Edinburgh.",
         "id": "person_845"
+      },
+      {
+        "name": "ScipioneBreislak",
+        "birth": "",
+        "death": "",
+        "description": "Italian geologist of Swedish parentage. The vast works for the refining of sulphur in the volcanic district of Solfatara, near Naples, were erected under his direction. Professor of physics at the University of Ragusa, and subsequently at the Collegio Nazereno in Rome. He witnessed an eruption of Vesuvius in 1794 and subsequntly wrote Voyage Physique et Lithologique dans la Campagnie (1801).",
+        "id": "person_820"
       }
     ],
     "places": [
@@ -182,14 +182,14 @@
     ],
     "works": [
       {
-        "name": "Earth and Environmental Science Transactions of The Royal Society of Edinburgh",
-        "author": "Sir John Stanley",
-        "id": "otherwork_228"
-      },
-      {
         "name": "Letters on Iceland",
         "author": "Uno von Troil",
         "id": "otherwork_227"
+      },
+      {
+        "name": "Earth and Environmental Science Transactions of The Royal Society of Edinburgh",
+        "author": "Sir John Stanley",
+        "id": "otherwork_228"
       }
     ]
   },
@@ -205,24 +205,24 @@
     ],
     "places": [
       {
-        "name": "Mount Etna",
-        "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
-        "id": "place_184"
-      },
-      {
-        "name": "Mount Vesuvius",
-        "description": "Mount Vesuvius is a somma-stratovolcano located on the Gulf of Naples in Campania, Italy.",
-        "id": "place_169"
-      },
-      {
         "name": "Kamchatka Krai",
         "description": "The Kamchatka Peninsula is a 1,250-kilometre-long peninsula in the Russian Far East.",
         "id": "place_1007"
       },
       {
+        "name": "Mount Etna",
+        "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
+        "id": "place_184"
+      },
+      {
         "name": "Andes",
         "description": "Mountain range in western South America.",
         "id": "place_177"
+      },
+      {
+        "name": "Mount Vesuvius",
+        "description": "Mount Vesuvius is a somma-stratovolcano located on the Gulf of Naples in Campania, Italy.",
+        "id": "place_169"
       }
     ]
   },
@@ -252,14 +252,14 @@
   "8": {
     "places": [
       {
-        "name": "Mount Etna",
-        "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
-        "id": "place_184"
-      },
-      {
         "name": "Catania",
         "description": "An ancient port city in Italy, on Sicily's east coast.",
         "id": "place_1037"
+      },
+      {
+        "name": "Mount Etna",
+        "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
+        "id": "place_184"
       }
     ]
   },
@@ -283,6 +283,11 @@
     ],
     "places": [
       {
+        "name": "Mount Etna",
+        "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
+        "id": "place_184"
+      },
+      {
         "name": "Iceland",
         "description": "A Nordic island country between the North Atlantic and Arctic Oceans.",
         "id": "place_237"
@@ -291,11 +296,6 @@
         "name": "Hekla",
         "description": "Hekla is a volcano in Iceland. It has erupted many times in recorded history. 1766-68 was the eruption closest to Davy's time.",
         "id": "place_751"
-      },
-      {
-        "name": "Mount Etna",
-        "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
-        "id": "place_184"
       }
     ]
   },
@@ -323,39 +323,39 @@
   "14": {
     "persons": [
       {
-        "name": "WilliamHamilton",
-        "birth": "",
-        "death": "",
-        "description": "English diplomat, politician, antiquarian, and vulcanologist who served as the Envoy Extraordinary to the Kingdom of Naples from 1764 to 1800. FRSL.",
-        "id": "person_699"
-      },
-      {
         "name": "ScipioneBreislak",
         "birth": "",
         "death": "",
         "description": "Italian geologist of Swedish parentage. The vast works for the refining of sulphur in the volcanic district of Solfatara, near Naples, were erected under his direction. Professor of physics at the University of Ragusa, and subsequently at the Collegio Nazereno in Rome. He witnessed an eruption of Vesuvius in 1794 and subsequntly wrote Voyage Physique et Lithologique dans la Campagnie (1801).",
         "id": "person_820"
+      },
+      {
+        "name": "WilliamHamilton",
+        "birth": "",
+        "death": "",
+        "description": "English diplomat, politician, antiquarian, and vulcanologist who served as the Envoy Extraordinary to the Kingdom of Naples from 1764 to 1800. FRSL.",
+        "id": "person_699"
       }
     ],
     "places": [
       {
-        "name": "Mount Somma",
-        "description": "A mountain located in the Province of Naples, in the Campania region of southern Italy. It has a collapsed caldera of an older volcano, with Mount Vesuvius rising up from the center.",
-        "id": "place_1169"
-      },
-      {
         "name": "Naples",
         "description": "Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.",
         "id": "place_156"
+      },
+      {
+        "name": "Mount Somma",
+        "description": "A mountain located in the Province of Naples, in the Campania region of southern Italy. It has a collapsed caldera of an older volcano, with Mount Vesuvius rising up from the center.",
+        "id": "place_1169"
       }
     ]
   },
   "15": {
     "places": [
       {
-        "name": "Torre del Greco",
-        "description": "A comune in the Metropolitan City of Naples in Italy. Located at the foot of Mount Vesuvius, Torre del Greco was partly destroyed in an eruption of the volcano in 1631.",
-        "id": "place_1041"
+        "name": "Resina",
+        "description": "Now Ercolano, Resino was a medieval town built on the lava stream left by the eruption of Vesuvius (AD 79) that destroyed the ancient city of Herculaneum, from which the present name is derived.",
+        "id": "place_1042"
       },
       {
         "name": "Herculaneum",
@@ -368,9 +368,9 @@
         "id": "place_156"
       },
       {
-        "name": "Resina",
-        "description": "Now Ercolano, Resino was a medieval town built on the lava stream left by the eruption of Vesuvius (AD 79) that destroyed the ancient city of Herculaneum, from which the present name is derived.",
-        "id": "place_1042"
+        "name": "Torre del Greco",
+        "description": "A comune in the Metropolitan City of Naples in Italy. Located at the foot of Mount Vesuvius, Torre del Greco was partly destroyed in an eruption of the volcano in 1631.",
+        "id": "place_1041"
       }
     ]
   },
@@ -395,14 +395,14 @@
   "18": {
     "places": [
       {
-        "name": "Torre del Greco",
-        "description": "A comune in the Metropolitan City of Naples in Italy. Located at the foot of Mount Vesuvius, Torre del Greco was partly destroyed in an eruption of the volcano in 1631.",
-        "id": "place_1041"
-      },
-      {
         "name": "Naples",
         "description": "Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.",
         "id": "place_156"
+      },
+      {
+        "name": "Torre del Greco",
+        "description": "A comune in the Metropolitan City of Naples in Italy. Located at the foot of Mount Vesuvius, Torre del Greco was partly destroyed in an eruption of the volcano in 1631.",
+        "id": "place_1041"
       }
     ]
   },
@@ -423,14 +423,14 @@
         "id": "place_097"
       },
       {
-        "name": "Iceland",
-        "description": "A Nordic island country between the North Atlantic and Arctic Oceans.",
-        "id": "place_237"
-      },
-      {
         "name": "Mount Etna",
         "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
         "id": "place_184"
+      },
+      {
+        "name": "Iceland",
+        "description": "A Nordic island country between the North Atlantic and Arctic Oceans.",
+        "id": "place_237"
       }
     ],
     "works": [
@@ -468,36 +468,36 @@
   "27": {
     "persons": [
       {
-        "name": "JamesHutton",
-        "birth": "",
-        "death": "",
-        "description": "Scottish geologist, agriculturalist and chemical manufacturer. His Theory of the Earth (1795) is one of the foundations of modern geology. Davy discussed Hutton's theories in his lectures and visited some of the key geological sites that Hutton used in his work.",
-        "id": "person_125"
-      },
-      {
         "name": "RobertHooke",
         "birth": "",
         "death": "",
         "description": "Natural philosopher who acted as experimental demonstrator at the Royal Society of London during its early years. Prominent in the study of air and microscopy amongst other subjects. FRSL.",
         "id": "person_246"
+      },
+      {
+        "name": "JamesHutton",
+        "birth": "",
+        "death": "",
+        "description": "Scottish geologist, agriculturalist and chemical manufacturer. His Theory of the Earth (1795) is one of the foundations of modern geology. Davy discussed Hutton's theories in his lectures and visited some of the key geological sites that Hutton used in his work.",
+        "id": "person_125"
       }
     ]
   },
   "28": {
     "persons": [
       {
-        "name": "JamesHall",
-        "birth": "",
-        "death": "",
-        "description": "Scottish baronet (1776) and MP. Chemist and geologist who supported of James Hutton's theories of uniformitarian geology. FRSL.",
-        "id": "person_164"
-      },
-      {
         "name": "GregoryWatt",
         "birth": "",
         "death": "",
         "description": "Youngest son of James Watt. Lodged with Davy's mother in Penzance during the winter of 1797-8 and became close friends with Davy.",
         "id": "person_261"
+      },
+      {
+        "name": "JamesHall",
+        "birth": "",
+        "death": "",
+        "description": "Scottish baronet (1776) and MP. Chemist and geologist who supported of James Hutton's theories of uniformitarian geology. FRSL.",
+        "id": "person_164"
       }
     ],
     "places": [
@@ -527,14 +527,14 @@
   "30": {
     "places": [
       {
-        "name": "Herculaneum",
-        "description": "Herculaneum was an ancient Roman town, located in the modern-day comune of Ercolano, Campania, Italy.",
-        "id": "place_714"
-      },
-      {
         "name": "Lipari",
         "description": "A commune including six of seven islands of the Aeolian Islands located in the Tyrrhenian Sea off the northern coast of Sicily in southern Italy.",
         "id": "place_408"
+      },
+      {
+        "name": "Herculaneum",
+        "description": "Herculaneum was an ancient Roman town, located in the modern-day comune of Ercolano, Campania, Italy.",
+        "id": "place_714"
       },
       {
         "name": "Pompeii",

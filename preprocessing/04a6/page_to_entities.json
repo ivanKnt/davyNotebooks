@@ -41,11 +41,6 @@
         "id": "place_508"
       },
       {
-        "name": "Cornwall",
-        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
-        "id": "place_021"
-      },
-      {
         "name": "Lizard Point",
         "description": "The Lizard is a peninsula of the southern coast of Cornwall. It is the most southerly point of the British mainland. The geology of the Lizard is complex: it contains some of Cornwall's oldest (Precambrian) rocks, as well as heavily metamorphosed rocks.",
         "id": "place_509"
@@ -54,6 +49,11 @@
         "name": "Cape Cornwall",
         "description": "Cape Cornwall is a headland north of Land's End.",
         "id": "place_523"
+      },
+      {
+        "name": "Cornwall",
+        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
+        "id": "place_021"
       }
     ]
   },
@@ -65,14 +65,14 @@
         "id": "place_1034"
       },
       {
-        "name": "Mam Tor",
-        "description": "A hill near Castleton in the High Peak of Derbyshire, England.",
-        "id": "place_1010"
-      },
-      {
         "name": "Derbyshire",
         "description": "Derbyshire is a county in the East Midlands and includes part of the Peak District.",
         "id": "place_085"
+      },
+      {
+        "name": "Mam Tor",
+        "description": "A hill near Castleton in the High Peak of Derbyshire, England.",
+        "id": "place_1010"
       }
     ]
   },
@@ -80,11 +80,6 @@
   "20": {},
   "21": {
     "places": [
-      {
-        "name": "Mullion, Cornwall",
-        "description": "Mullion is a village on the Lizard Peninsula, Cornwall.",
-        "id": "place_525"
-      },
       {
         "name": "Kynance Cove",
         "description": "Kynance Cove lies to the east of Mount's Bay in Cornwall, on the Lizard Peninsula.",
@@ -94,6 +89,11 @@
         "name": "Cader Idris",
         "description": "Cader Idris is a mountain in Merionnydd, near Dolgellau, Wales.",
         "id": "place_456"
+      },
+      {
+        "name": "Mullion, Cornwall",
+        "description": "Mullion is a village on the Lizard Peninsula, Cornwall.",
+        "id": "place_525"
       },
       {
         "name": "North Wales",
@@ -136,19 +136,14 @@
         "id": "place_1035"
       },
       {
-        "name": "Binevenagh",
-        "description": "Possibly Davy is mispelling Binevenagh here, a Basaltic mountain in County Derry, Northern Ireland, which was used to by French geologist Nicolas Desmarest in the debate between Neptunists and the Plutonists.",
-        "id": "place_1081"
-      },
-      {
         "name": "Glenmalure",
         "description": "A glacial valley in the Wicklow Mountains in Ireland.",
         "id": "place_682"
       },
       {
-        "name": "Giant's Causeway",
-        "description": "The Giant's Causeway is an extensive area of columnar basalt in County Antrim, Northern Ireland, formed by an ancient volcanic fissure eruption.",
-        "id": "place_126"
+        "name": "Fairhead",
+        "description": "Fairhead is a spectacular 5km long, 82m high cliff above the sea at Ballycastle, County Antrim, Northern Ireland. It is a dolerite sill.",
+        "id": "place_132"
       },
       {
         "name": "Wicklow",
@@ -161,9 +156,14 @@
         "id": "place_018"
       },
       {
-        "name": "Fairhead",
-        "description": "Fairhead is a spectacular 5km long, 82m high cliff above the sea at Ballycastle, County Antrim, Northern Ireland. It is a dolerite sill.",
-        "id": "place_132"
+        "name": "Giant's Causeway",
+        "description": "The Giant's Causeway is an extensive area of columnar basalt in County Antrim, Northern Ireland, formed by an ancient volcanic fissure eruption.",
+        "id": "place_126"
+      },
+      {
+        "name": "Binevenagh",
+        "description": "Possibly Davy is mispelling Binevenagh here, a Basaltic mountain in County Derry, Northern Ireland, which was used to by French geologist Nicolas Desmarest in the debate between Neptunists and the Plutonists.",
+        "id": "place_1081"
       }
     ]
   },
@@ -175,14 +175,14 @@
         "id": "place_1035"
       },
       {
-        "name": "Binevenagh",
-        "description": "Possibly Davy is mispelling Binevenagh here, a Basaltic mountain in County Derry, Northern Ireland, which was used to by French geologist Nicolas Desmarest in the debate between Neptunists and the Plutonists.",
-        "id": "place_1081"
-      },
-      {
         "name": "Fairhead",
         "description": "Fairhead is a spectacular 5km long, 82m high cliff above the sea at Ballycastle, County Antrim, Northern Ireland. It is a dolerite sill.",
         "id": "place_132"
+      },
+      {
+        "name": "Binevenagh",
+        "description": "Possibly Davy is mispelling Binevenagh here, a Basaltic mountain in County Derry, Northern Ireland, which was used to by French geologist Nicolas Desmarest in the debate between Neptunists and the Plutonists.",
+        "id": "place_1081"
       }
     ]
   },
@@ -216,9 +216,9 @@
   "35": {
     "places": [
       {
-        "name": "Dorset",
-        "description": "A county in southwest England. It’s known for the Jurassic Coast, a long stretch on the English Channel where the cliffs contain many fossils, and rock formations show millions of years of geological history.",
-        "id": "place_1012"
+        "name": "Wiltshire",
+        "description": "A county in south-western England. The county town is Trowbridge.",
+        "id": "place_300"
       },
       {
         "name": "Devon",
@@ -231,24 +231,29 @@
         "id": "place_440"
       },
       {
-        "name": "Wiltshire",
-        "description": "A county in south-western England. The county town is Trowbridge.",
-        "id": "place_300"
+        "name": "Bagshot Heath",
+        "description": "An area of wet and dry heath, bog, and unimproved grassland in Surrey, England.",
+        "id": "place_294"
+      },
+      {
+        "name": "Dorset",
+        "description": "A county in southwest England. It’s known for the Jurassic Coast, a long stretch on the English Channel where the cliffs contain many fossils, and rock formations show millions of years of geological history.",
+        "id": "place_1012"
       },
       {
         "name": "Cornwall",
         "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
         "id": "place_021"
-      },
-      {
-        "name": "Bagshot Heath",
-        "description": "An area of wet and dry heath, bog, and unimproved grassland in Surrey, England.",
-        "id": "place_294"
       }
     ]
   },
   "36": {
     "places": [
+      {
+        "name": "Norfolk",
+        "description": "A county in the east of England. The largest settlement is Norwich.",
+        "id": "place_320"
+      },
       {
         "name": "Sussex",
         "description": "A county in southern England.",
@@ -258,11 +263,6 @@
         "name": "Darling Downs",
         "description": "The South Downs are a range of chalk hills extending from Hampshire to Sussex.",
         "id": "place_440"
-      },
-      {
-        "name": "Norfolk",
-        "description": "A county in the east of England. The largest settlement is Norwich.",
-        "id": "place_320"
       }
     ]
   },
@@ -304,24 +304,24 @@
   "43": {
     "places": [
       {
-        "name": "Geneva",
-        "description": "Geneva is a city in Switzerland on the border with France.",
-        "id": "place_226"
-      },
-      {
         "name": "Capel Curig",
         "description": "Capel Curig is a village in Caernarfonshire, in the heart of Snowdonia.",
         "id": "place_453"
       },
       {
-        "name": "Yr Wyddfa",
-        "description": "Also known as Snowdon. The highest mountain peak in Wales.",
-        "id": "place_790"
-      },
-      {
         "name": "North Wales",
         "description": "A geographic region of Wales.",
         "id": "place_436"
+      },
+      {
+        "name": "Geneva",
+        "description": "Geneva is a city in Switzerland on the border with France.",
+        "id": "place_226"
+      },
+      {
+        "name": "Yr Wyddfa",
+        "description": "Also known as Snowdon. The highest mountain peak in Wales.",
+        "id": "place_790"
       }
     ]
   },
@@ -338,6 +338,11 @@
         "id": "place_1014"
       },
       {
+        "name": "Lodore falls",
+        "description": "A waterfall in Cumbria, England, close to Derwentwater and downstream from Watendlath.",
+        "id": "place_1016"
+      },
+      {
         "name": "Borrowdale",
         "description": "A valley and civil parish in the English Lake District in Cumberland, England.",
         "id": "place_1017"
@@ -346,11 +351,6 @@
         "name": "Bassenthwaite lake",
         "description": "A body of water in the Lake District in North West England, near the town of Keswick.",
         "id": "place_1015"
-      },
-      {
-        "name": "Lodore falls",
-        "description": "A waterfall in Cumbria, England, close to Derwentwater and downstream from Watendlath.",
-        "id": "place_1016"
       }
     ]
   },
@@ -385,18 +385,18 @@
   "47": {
     "persons": [
       {
-        "name": "Georges-Louis Leclerc, Comte deBuffon",
-        "birth": "",
-        "death": "",
-        "description": "French naturalist, mathematician and cosmologist. His Histoire Naturelle, published in 1789, ran to 37 volumes. ForMemRSL.",
-        "id": "person_266"
-      },
-      {
         "name": "JamesHutton",
         "birth": "",
         "death": "",
         "description": "Scottish geologist, agriculturalist and chemical manufacturer. His Theory of the Earth (1795) is one of the foundations of modern geology. Davy discussed Hutton's theories in his lectures and visited some of the key geological sites that Hutton used in his work.",
         "id": "person_125"
+      },
+      {
+        "name": "Georges-Louis Leclerc, Comte deBuffon",
+        "birth": "",
+        "death": "",
+        "description": "French naturalist, mathematician and cosmologist. His Histoire Naturelle, published in 1789, ran to 37 volumes. ForMemRSL.",
+        "id": "person_266"
       }
     ]
   },
@@ -409,24 +409,19 @@
         "id": "place_410"
       },
       {
-        "name": "United Kingdom",
-        "description": "",
-        "id": "place_159"
-      },
-      {
-        "name": "Devil's Bridge, Ceredigion",
-        "description": "A village and community in Ceredigion, Wales. Above the River Mynach on the edge of the village is a series of three stacked bridges, constructed hundreds of years apart, from which the village gets its English name.",
-        "id": "place_1019"
-      },
-      {
-        "name": "Hafod",
-        "description": "Hafod is a district of the city of Swansea, south Wales, and lies within the Landore ward. Hafod is home to the now-closed Hafod Copperworks, founded in 1810.",
-        "id": "place_563"
-      },
-      {
         "name": "Ceredigion",
         "description": "a county in the west of Wales.",
         "id": "place_1036"
+      },
+      {
+        "name": "Afon Rheidol",
+        "description": "A river in Ceredigion, Wales.",
+        "id": "place_411"
+      },
+      {
+        "name": "United Kingdom",
+        "description": "",
+        "id": "place_159"
       },
       {
         "name": "Monarch",
@@ -434,9 +429,14 @@
         "id": "place_409"
       },
       {
-        "name": "Afon Rheidol",
-        "description": "A river in Ceredigion, Wales.",
-        "id": "place_411"
+        "name": "Hafod",
+        "description": "Hafod is a district of the city of Swansea, south Wales, and lies within the Landore ward. Hafod is home to the now-closed Hafod Copperworks, founded in 1810.",
+        "id": "place_563"
+      },
+      {
+        "name": "Devil's Bridge, Ceredigion",
+        "description": "A village and community in Ceredigion, Wales. Above the River Mynach on the edge of the village is a series of three stacked bridges, constructed hundreds of years apart, from which the village gets its English name.",
+        "id": "place_1019"
       }
     ]
   },
@@ -453,29 +453,9 @@
     ],
     "places": [
       {
-        "name": "Bogotá river",
-        "description": "A major river of the Cundinamarca department of Colombia.",
-        "id": "place_1022"
-      },
-      {
-        "name": "London",
-        "description": "The capital city of England and the United Kingdom.",
-        "id": "place_071"
-      },
-      {
         "name": "Magdalena River Valley",
         "description": "A valley in Colombia located within the Colombian Andes. The valley is specifically situated between the Central and Eastern Ranges and crossed by the river of the same name, the Magdalena River.",
         "id": "place_1023"
-      },
-      {
-        "name": "Santa Fe",
-        "description": "New Mexico’s capital, sits in the Sangre de Cristo foothills.",
-        "id": "place_1020"
-      },
-      {
-        "name": "River Thames",
-        "description": "The River Thames, known alternatively in parts as the River Isis, is a river that flows through southern England including London.",
-        "id": "place_825"
       },
       {
         "name": "Cordillera Oriental (Colombia)",
@@ -483,9 +463,14 @@
         "id": "place_1054"
       },
       {
-        "name": "Bogotá",
-        "description": "The capital of Colombia.",
-        "id": "place_1021"
+        "name": "River Thames",
+        "description": "The River Thames, known alternatively in parts as the River Isis, is a river that flows through southern England including London.",
+        "id": "place_825"
+      },
+      {
+        "name": "Santa Fe",
+        "description": "New Mexico’s capital, sits in the Sangre de Cristo foothills.",
+        "id": "place_1020"
       },
       {
         "name": "Tequendama Falls",
@@ -493,9 +478,24 @@
         "id": "place_557"
       },
       {
+        "name": "Bogotá river",
+        "description": "A major river of the Cundinamarca department of Colombia.",
+        "id": "place_1022"
+      },
+      {
         "name": "United States",
         "description": "The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean.",
         "id": "place_878"
+      },
+      {
+        "name": "Bogotá",
+        "description": "The capital of Colombia.",
+        "id": "place_1021"
+      },
+      {
+        "name": "London",
+        "description": "The capital city of England and the United Kingdom.",
+        "id": "place_071"
       }
     ]
   },
@@ -507,9 +507,9 @@
         "id": "place_1024"
       },
       {
-        "name": "Bogotá river",
-        "description": "A major river of the Cundinamarca department of Colombia.",
-        "id": "place_1022"
+        "name": "Magdalena River Valley",
+        "description": "A valley in Colombia located within the Colombian Andes. The valley is specifically situated between the Central and Eastern Ranges and crossed by the river of the same name, the Magdalena River.",
+        "id": "place_1023"
       },
       {
         "name": "Bogotá",
@@ -517,9 +517,9 @@
         "id": "place_1021"
       },
       {
-        "name": "Magdalena River Valley",
-        "description": "A valley in Colombia located within the Colombian Andes. The valley is specifically situated between the Central and Eastern Ranges and crossed by the river of the same name, the Magdalena River.",
-        "id": "place_1023"
+        "name": "Bogotá river",
+        "description": "A major river of the Cundinamarca department of Colombia.",
+        "id": "place_1022"
       }
     ]
   },
@@ -551,14 +551,14 @@
   "55": {
     "places": [
       {
-        "name": "Alps",
-        "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
-        "id": "place_247"
-      },
-      {
         "name": "Cordillera Oriental (Colombia)",
         "description": "Although Cordillera can refer to a number of moutain ranges, Davy is here referring to the Cordillera Oriental in the Colombian Andes.",
         "id": "place_1054"
+      },
+      {
+        "name": "Alps",
+        "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
+        "id": "place_247"
       }
     ]
   },

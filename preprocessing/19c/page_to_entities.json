@@ -26,6 +26,13 @@
   "9": {
     "persons": [
       {
+        "name": "Xenophanes",
+        "birth": "",
+        "death": "",
+        "description": "Greek philosopher, theologian, poet, and critic of Homer from Ionia who travelled throughout the Greek-speaking world in early Classical Antiquity. As a poet, Xenophanes was known for his critical style, writing poems that are considered among the first satires.",
+        "id": "person_819"
+      },
+      {
         "name": "Parmenides",
         "birth": "",
         "death": "",
@@ -38,13 +45,6 @@
         "death": "",
         "description": "Athenian general and politician who supported the arts and literature.",
         "id": "person_606"
-      },
-      {
-        "name": "Xenophanes",
-        "birth": "",
-        "death": "",
-        "description": "Greek philosopher, theologian, poet, and critic of Homer from Ionia who travelled throughout the Greek-speaking world in early Classical Antiquity. As a poet, Xenophanes was known for his critical style, writing poems that are considered among the first satires.",
-        "id": "person_819"
       }
     ],
     "places": [
@@ -58,6 +58,11 @@
   "10": {
     "places": [
       {
+        "name": "Italy",
+        "description": "",
+        "id": "place_097"
+      },
+      {
         "name": "Sicily",
         "description": "Sicily is the largest and most populous island in the Mediterranean Sea and one of the twenty regions of Italy.",
         "id": "place_569"
@@ -66,11 +71,6 @@
         "name": "Greece",
         "description": "",
         "id": "place_167"
-      },
-      {
-        "name": "Italy",
-        "description": "",
-        "id": "place_097"
       }
     ]
   },
@@ -88,18 +88,18 @@
   "12": {
     "persons": [
       {
-        "name": "JesusChrist",
-        "birth": "",
-        "death": "",
-        "description": "The central figure of Christianity; a first-century Jewish preacher and religious leader.",
-        "id": "person_951"
-      },
-      {
         "name": "Pythagoras",
         "birth": "",
         "death": "",
         "description": "Pythagoras of Samos was an ancient Ionian Greek philosopher, polymath, and the eponymous founder of Pythagoreanism. Believed in the primacy of number.",
         "id": "person_445"
+      },
+      {
+        "name": "JesusChrist",
+        "birth": "",
+        "death": "",
+        "description": "The central figure of Christianity; a first-century Jewish preacher and religious leader.",
+        "id": "person_951"
       },
       {
         "name": "Leucippus",
@@ -157,25 +157,11 @@
   "16": {
     "persons": [
       {
-        "name": "Thales",
-        "birth": "",
-        "death": "",
-        "description": "Ancient Greek pre-Socratic philosopher from Miletus in Ionia, Asia Minor.",
-        "id": "person_609"
-      },
-      {
         "name": "Pythagoras",
         "birth": "",
         "death": "",
         "description": "Pythagoras of Samos was an ancient Ionian Greek philosopher, polymath, and the eponymous founder of Pythagoreanism. Believed in the primacy of number.",
         "id": "person_445"
-      },
-      {
-        "name": "Leucippus",
-        "birth": "",
-        "death": "",
-        "description": "a pre-Socratic Greek philosopher. He is traditionally credited as the founder of atomism, which he developed with his student Democritus. Leucippus divided the world into two entities: atoms, indivisible particles that make up all things, and the void, the nothingness that exists between the atoms.",
-        "id": "person_906"
       },
       {
         "name": "Democritus",
@@ -190,6 +176,20 @@
         "death": null,
         "description": "Greek Presocratic philosopher.",
         "id": "person_605"
+      },
+      {
+        "name": "Thales",
+        "birth": "",
+        "death": "",
+        "description": "Ancient Greek pre-Socratic philosopher from Miletus in Ionia, Asia Minor.",
+        "id": "person_609"
+      },
+      {
+        "name": "Leucippus",
+        "birth": "",
+        "death": "",
+        "description": "a pre-Socratic Greek philosopher. He is traditionally credited as the founder of atomism, which he developed with his student Democritus. Leucippus divided the world into two entities: atoms, indivisible particles that make up all things, and the void, the nothingness that exists between the atoms.",
+        "id": "person_906"
       }
     ]
   },
@@ -270,13 +270,6 @@
   "23": {
     "persons": [
       {
-        "name": "Pythagoras",
-        "birth": "",
-        "death": "",
-        "description": "Pythagoras of Samos was an ancient Ionian Greek philosopher, polymath, and the eponymous founder of Pythagoreanism. Believed in the primacy of number.",
-        "id": "person_445"
-      },
-      {
         "name": "Anaxagoras",
         "birth": "",
         "death": null,
@@ -289,6 +282,13 @@
         "death": "",
         "description": "Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.",
         "id": "person_140"
+      },
+      {
+        "name": "Pythagoras",
+        "birth": "",
+        "death": "",
+        "description": "Pythagoras of Samos was an ancient Ionian Greek philosopher, polymath, and the eponymous founder of Pythagoreanism. Believed in the primacy of number.",
+        "id": "person_445"
       }
     ],
     "places": [
@@ -320,36 +320,36 @@
   "25": {
     "persons": [
       {
-        "name": "Socrates",
-        "birth": "",
-        "death": "",
-        "description": "Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.",
-        "id": "person_140"
-      },
-      {
         "name": "Plato",
         "birth": "",
         "death": "",
         "description": "A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.",
         "id": "person_085"
+      },
+      {
+        "name": "Socrates",
+        "birth": "",
+        "death": "",
+        "description": "Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.",
+        "id": "person_140"
       }
     ]
   },
   "26": {
     "persons": [
       {
-        "name": "Socrates",
-        "birth": "",
-        "death": "",
-        "description": "Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.",
-        "id": "person_140"
-      },
-      {
         "name": "Plato",
         "birth": "",
         "death": "",
         "description": "A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.",
         "id": "person_085"
+      },
+      {
+        "name": "Socrates",
+        "birth": "",
+        "death": "",
+        "description": "Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.",
+        "id": "person_140"
       }
     ]
   },
@@ -357,18 +357,18 @@
   "28": {
     "persons": [
       {
-        "name": "Socrates",
-        "birth": "",
-        "death": "",
-        "description": "Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.",
-        "id": "person_140"
-      },
-      {
         "name": "Plato",
         "birth": "",
         "death": "",
         "description": "A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.",
         "id": "person_085"
+      },
+      {
+        "name": "Socrates",
+        "birth": "",
+        "death": "",
+        "description": "Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.",
+        "id": "person_140"
       }
     ],
     "works": [
@@ -485,18 +485,18 @@
   "36": {
     "persons": [
       {
-        "name": "Aristotle",
-        "birth": "",
-        "death": "",
-        "description": "A pupil of Plato's whose philosophical idealism he came to reject, arguing instead for the primacy of observations of natural phenomena. He thus established the divide between theory and experiment in science that can still be detected today. Aristotle's writings became the main way the natural world was understood from the Middle Ages to the seventeenth century, especially in the universities.",
-        "id": "person_138"
-      },
-      {
         "name": "Plato",
         "birth": "",
         "death": "",
         "description": "A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.",
         "id": "person_085"
+      },
+      {
+        "name": "Aristotle",
+        "birth": "",
+        "death": "",
+        "description": "A pupil of Plato's whose philosophical idealism he came to reject, arguing instead for the primacy of observations of natural phenomena. He thus established the divide between theory and experiment in science that can still be detected today. Aristotle's writings became the main way the natural world was understood from the Middle Ages to the seventeenth century, especially in the universities.",
+        "id": "person_138"
       }
     ],
     "places": [
@@ -511,36 +511,36 @@
   "38": {
     "persons": [
       {
-        "name": "Alexander III",
-        "birth": "",
-        "death": "",
-        "description": "The Great, King of Macedon, from which he conquered much of the world known in Greek antiquity.",
-        "id": "person_810"
-      },
-      {
         "name": "Archimedes",
         "birth": "",
         "death": "",
         "description": "Ancient Greek mathematician, physicist, engineer, astronomer and inventor from Syracuse in Sicily.",
         "id": "person_417"
+      },
+      {
+        "name": "Alexander III",
+        "birth": "",
+        "death": "",
+        "description": "The Great, King of Macedon, from which he conquered much of the world known in Greek antiquity.",
+        "id": "person_810"
       }
     ]
   },
   "39": {
     "persons": [
       {
-        "name": "Archimedes",
-        "birth": "",
-        "death": "",
-        "description": "Ancient Greek mathematician, physicist, engineer, astronomer and inventor from Syracuse in Sicily.",
-        "id": "person_417"
-      },
-      {
         "name": "Plutarch",
         "birth": "",
         "death": "",
         "description": "Greek writer most famous for his parallel lives of Greek and Roman statesmen and military leaders.",
         "id": "person_602"
+      },
+      {
+        "name": "Archimedes",
+        "birth": "",
+        "death": "",
+        "description": "Ancient Greek mathematician, physicist, engineer, astronomer and inventor from Syracuse in Sicily.",
+        "id": "person_417"
       }
     ],
     "places": [
@@ -642,18 +642,18 @@
   "45": {
     "persons": [
       {
-        "name": "Archimedes",
-        "birth": "",
-        "death": "",
-        "description": "Ancient Greek mathematician, physicist, engineer, astronomer and inventor from Syracuse in Sicily.",
-        "id": "person_417"
-      },
-      {
         "name": "Marcus ClaudiusMarcellus",
         "birth": "",
         "death": "",
         "description": "an important Roman military leader. He is noted for having conquered the fortified city of Syracuse in a protracted siege during which Archimedes was killed, despite Marcellus ordering the soldiers under his command not to harm him.",
         "id": "person_913"
+      },
+      {
+        "name": "Archimedes",
+        "birth": "",
+        "death": "",
+        "description": "Ancient Greek mathematician, physicist, engineer, astronomer and inventor from Syracuse in Sicily.",
+        "id": "person_417"
       }
     ]
   },
@@ -671,36 +671,36 @@
   "47": {
     "persons": [
       {
-        "name": "Archimedes",
-        "birth": "",
-        "death": "",
-        "description": "Ancient Greek mathematician, physicist, engineer, astronomer and inventor from Syracuse in Sicily.",
-        "id": "person_417"
-      },
-      {
         "name": "Marcus ClaudiusMarcellus",
         "birth": "",
         "death": "",
         "description": "an important Roman military leader. He is noted for having conquered the fortified city of Syracuse in a protracted siege during which Archimedes was killed, despite Marcellus ordering the soldiers under his command not to harm him.",
         "id": "person_913"
+      },
+      {
+        "name": "Archimedes",
+        "birth": "",
+        "death": "",
+        "description": "Ancient Greek mathematician, physicist, engineer, astronomer and inventor from Syracuse in Sicily.",
+        "id": "person_417"
       }
     ]
   },
   "48": {
     "persons": [
       {
-        "name": "Archimedes",
-        "birth": "",
-        "death": "",
-        "description": "Ancient Greek mathematician, physicist, engineer, astronomer and inventor from Syracuse in Sicily.",
-        "id": "person_417"
-      },
-      {
         "name": "Marcus ClaudiusMarcellus",
         "birth": "",
         "death": "",
         "description": "an important Roman military leader. He is noted for having conquered the fortified city of Syracuse in a protracted siege during which Archimedes was killed, despite Marcellus ordering the soldiers under his command not to harm him.",
         "id": "person_913"
+      },
+      {
+        "name": "Archimedes",
+        "birth": "",
+        "death": "",
+        "description": "Ancient Greek mathematician, physicist, engineer, astronomer and inventor from Syracuse in Sicily.",
+        "id": "person_417"
       }
     ]
   },
@@ -735,14 +735,14 @@
     ],
     "places": [
       {
-        "name": "Alexandria",
-        "description": "The second largest city in Egypt and the largest city on the Mediterranean coast. Alexandria was the intellectual and cultural centre of the ancient Mediterranean for much of the Hellenistic age and late antiquity, particularly famous for its lighthouse and library.",
-        "id": "place_1135"
-      },
-      {
         "name": "Pharos",
         "description": "The Lighthouse of Alexandria, or the Pharos Lighthouse, was built on an island offshore from the Nile Delta, between 280-247 BCE. It was estimated to be 100m high. It was damaged by earthquakes and abandoned as a ruin in 1323 CE.",
         "id": "place_187"
+      },
+      {
+        "name": "Alexandria",
+        "description": "The second largest city in Egypt and the largest city on the Mediterranean coast. Alexandria was the intellectual and cultural centre of the ancient Mediterranean for much of the Hellenistic age and late antiquity, particularly famous for its lighthouse and library.",
+        "id": "place_1135"
       }
     ],
     "works": [
@@ -839,18 +839,18 @@
   "62": {
     "persons": [
       {
+        "name": "Plato",
+        "birth": "",
+        "death": "",
+        "description": "A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.",
+        "id": "person_085"
+      },
+      {
         "name": "FrancisBacon",
         "birth": "",
         "death": "",
         "description": "English lawyer, politician and natural philosopher. His influential writings encouraged experimentation and the use of induction in investigating the natural world. He also recommended establishing institutions to promote collaborative research.",
         "id": "person_124"
-      },
-      {
-        "name": "Aristotle",
-        "birth": "",
-        "death": "",
-        "description": "A pupil of Plato's whose philosophical idealism he came to reject, arguing instead for the primacy of observations of natural phenomena. He thus established the divide between theory and experiment in science that can still be detected today. Aristotle's writings became the main way the natural world was understood from the Middle Ages to the seventeenth century, especially in the universities.",
-        "id": "person_138"
       },
       {
         "name": "IsaacNewton",
@@ -860,11 +860,11 @@
         "id": "person_036"
       },
       {
-        "name": "Plato",
+        "name": "Aristotle",
         "birth": "",
         "death": "",
-        "description": "A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.",
-        "id": "person_085"
+        "description": "A pupil of Plato's whose philosophical idealism he came to reject, arguing instead for the primacy of observations of natural phenomena. He thus established the divide between theory and experiment in science that can still be detected today. Aristotle's writings became the main way the natural world was understood from the Middle Ages to the seventeenth century, especially in the universities.",
+        "id": "person_138"
       }
     ]
   },

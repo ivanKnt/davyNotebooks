@@ -68,6 +68,13 @@
   "15": {
     "persons": [
       {
+        "name": "RobertHooke",
+        "birth": "",
+        "death": "",
+        "description": "Natural philosopher who acted as experimental demonstrator at the Royal Society of London during its early years. Prominent in the study of air and microscopy amongst other subjects. FRSL.",
+        "id": "person_246"
+      },
+      {
         "name": "John JoachimBecher",
         "birth": "",
         "death": "",
@@ -80,13 +87,6 @@
         "death": "",
         "description": "Cornish physiologist and chemist, investigated respiration especially. FRSL.",
         "id": "person_377"
-      },
-      {
-        "name": "RobertHooke",
-        "birth": "",
-        "death": "",
-        "description": "Natural philosopher who acted as experimental demonstrator at the Royal Society of London during its early years. Prominent in the study of air and microscopy amongst other subjects. FRSL.",
-        "id": "person_246"
       }
     ],
     "works": [
@@ -118,11 +118,11 @@
   "17": {
     "persons": [
       {
-        "name": "Georg ErnstStahl",
+        "name": "RobertHooke",
         "birth": "",
         "death": "",
-        "description": "German physician, chemist and philosopher who strongly promoted the phlogiston theory.",
-        "id": "person_388"
+        "description": "Natural philosopher who acted as experimental demonstrator at the Royal Society of London during its early years. Prominent in the study of air and microscopy amongst other subjects. FRSL.",
+        "id": "person_246"
       },
       {
         "name": "RobertBoyle",
@@ -132,40 +132,40 @@
         "id": "person_103"
       },
       {
-        "name": "RobertHooke",
+        "name": "Georg ErnstStahl",
         "birth": "",
         "death": "",
-        "description": "Natural philosopher who acted as experimental demonstrator at the Royal Society of London during its early years. Prominent in the study of air and microscopy amongst other subjects. FRSL.",
-        "id": "person_246"
+        "description": "German physician, chemist and philosopher who strongly promoted the phlogiston theory.",
+        "id": "person_388"
       }
     ]
   },
   "18": {
     "persons": [
       {
-        "name": "Georg ErnstStahl",
-        "birth": "",
-        "death": "",
-        "description": "German physician, chemist and philosopher who strongly promoted the phlogiston theory.",
-        "id": "person_388"
-      },
-      {
         "name": "JosephPriestley",
         "birth": "",
         "death": "",
         "description": "Unitarian and political radical forced into exile in Pennsylvania. As a natural philospher and chemist who retained belief in phlogiston, he discovered oxygen and nitrous oxide though not under those names. FRSL.",
         "id": "person_016"
+      },
+      {
+        "name": "Georg ErnstStahl",
+        "birth": "",
+        "death": "",
+        "description": "German physician, chemist and philosopher who strongly promoted the phlogiston theory.",
+        "id": "person_388"
       }
     ]
   },
   "19": {
     "persons": [
       {
-        "name": "Georg ErnstStahl",
+        "name": "JosephPriestley",
         "birth": "",
         "death": "",
-        "description": "German physician, chemist and philosopher who strongly promoted the phlogiston theory.",
-        "id": "person_388"
+        "description": "Unitarian and political radical forced into exile in Pennsylvania. As a natural philospher and chemist who retained belief in phlogiston, he discovered oxygen and nitrous oxide though not under those names. FRSL.",
+        "id": "person_016"
       },
       {
         "name": "RobertBoyle",
@@ -175,11 +175,11 @@
         "id": "person_103"
       },
       {
-        "name": "JosephPriestley",
+        "name": "Georg ErnstStahl",
         "birth": "",
         "death": "",
-        "description": "Unitarian and political radical forced into exile in Pennsylvania. As a natural philospher and chemist who retained belief in phlogiston, he discovered oxygen and nitrous oxide though not under those names. FRSL.",
-        "id": "person_016"
+        "description": "German physician, chemist and philosopher who strongly promoted the phlogiston theory.",
+        "id": "person_388"
       }
     ]
   },
@@ -239,25 +239,11 @@
   "26": {
     "persons": [
       {
-        "name": "RichardKirwan",
-        "birth": "",
-        "death": "",
-        "description": "Irish chemist, mineralogist and geologist who accused fellow geologist, James Hutton, of athiesm following publication of his Theory of the Earth (1788). FRSL",
-        "id": "person_023"
-      },
-      {
         "name": "BryanHiggins",
         "birth": "",
         "death": "",
         "description": "Irish chemist and natural philosopher who developed a form of the atomic theory of matter. Worked in London, St Petersburg and Jamacia. Uncle of William Higgins.",
         "id": "person_166"
-      },
-      {
-        "name": "Antoine-LaurentLavoisier",
-        "birth": "",
-        "death": "",
-        "description": "French chemist and tax farmer (for which he was guillotined). Developed a new nomenclature for chemistry (much of which is still in use today) and argued strongly against the existence of phlogiston. Davy read some of his writings while in Cornwall which he then opposed and throughout his career maintained an ambivalent attitude towards Lavoisierian chemisty. ForMemRSL.",
-        "id": "person_030"
       },
       {
         "name": "HenryCavendish",
@@ -272,18 +258,25 @@
         "death": "",
         "description": "Nephew of Bryan Higgins. Professor of Chemistry at the Dublin Society where he proposed a theory of chemical atomism. Met Davy in London who supported Higgins's claim to the atomic theory over that of John Dalton. FRSL.",
         "id": "person_165"
+      },
+      {
+        "name": "RichardKirwan",
+        "birth": "",
+        "death": "",
+        "description": "Irish chemist, mineralogist and geologist who accused fellow geologist, James Hutton, of athiesm following publication of his Theory of the Earth (1788). FRSL",
+        "id": "person_023"
+      },
+      {
+        "name": "Antoine-LaurentLavoisier",
+        "birth": "",
+        "death": "",
+        "description": "French chemist and tax farmer (for which he was guillotined). Developed a new nomenclature for chemistry (much of which is still in use today) and argued strongly against the existence of phlogiston. Davy read some of his writings while in Cornwall which he then opposed and throughout his career maintained an ambivalent attitude towards Lavoisierian chemisty. ForMemRSL.",
+        "id": "person_030"
       }
     ]
   },
   "27": {
     "persons": [
-      {
-        "name": "PierreBayen",
-        "birth": "",
-        "death": "",
-        "description": "French chemist best known for experiments on water toxicity. He also performed experiements related to the discovery of oxygen.",
-        "id": "person_931"
-      },
       {
         "name": "BryanHiggins",
         "birth": "",
@@ -292,11 +285,11 @@
         "id": "person_166"
       },
       {
-        "name": "Antoine-LaurentLavoisier",
+        "name": "PierreBayen",
         "birth": "",
         "death": "",
-        "description": "French chemist and tax farmer (for which he was guillotined). Developed a new nomenclature for chemistry (much of which is still in use today) and argued strongly against the existence of phlogiston. Davy read some of his writings while in Cornwall which he then opposed and throughout his career maintained an ambivalent attitude towards Lavoisierian chemisty. ForMemRSL.",
-        "id": "person_030"
+        "description": "French chemist best known for experiments on water toxicity. He also performed experiements related to the discovery of oxygen.",
+        "id": "person_931"
       },
       {
         "name": "WilliamHiggins",
@@ -304,6 +297,13 @@
         "death": "",
         "description": "Nephew of Bryan Higgins. Professor of Chemistry at the Dublin Society where he proposed a theory of chemical atomism. Met Davy in London who supported Higgins's claim to the atomic theory over that of John Dalton. FRSL.",
         "id": "person_165"
+      },
+      {
+        "name": "Antoine-LaurentLavoisier",
+        "birth": "",
+        "death": "",
+        "description": "French chemist and tax farmer (for which he was guillotined). Developed a new nomenclature for chemistry (much of which is still in use today) and argued strongly against the existence of phlogiston. Davy read some of his writings while in Cornwall which he then opposed and throughout his career maintained an ambivalent attitude towards Lavoisierian chemisty. ForMemRSL.",
+        "id": "person_030"
       }
     ]
   },
@@ -313,18 +313,18 @@
   "31": {
     "persons": [
       {
-        "name": "IsaacNewton",
-        "birth": "",
-        "death": "",
-        "description": "Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy & Newton' in one inch letters. FRSL.",
-        "id": "person_036"
-      },
-      {
         "name": "RobertHooke",
         "birth": "",
         "death": "",
         "description": "Natural philosopher who acted as experimental demonstrator at the Royal Society of London during its early years. Prominent in the study of air and microscopy amongst other subjects. FRSL.",
         "id": "person_246"
+      },
+      {
+        "name": "HenryCavendish",
+        "birth": "",
+        "death": "",
+        "description": "A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL.",
+        "id": "person_026"
       },
       {
         "name": "RobertBoyle",
@@ -334,17 +334,22 @@
         "id": "person_103"
       },
       {
-        "name": "HenryCavendish",
+        "name": "IsaacNewton",
         "birth": "",
         "death": "",
-        "description": "A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL.",
-        "id": "person_026"
+        "description": "Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy & Newton' in one inch letters. FRSL.",
+        "id": "person_036"
       }
     ]
   },
   "32": {},
   "33": {
     "places": [
+      {
+        "name": "Saxony",
+        "description": "A state in eastern Germany.",
+        "id": "place_976"
+      },
       {
         "name": "United Kingdom",
         "description": "",
@@ -354,11 +359,6 @@
         "name": "Sweden",
         "description": "",
         "id": "place_246"
-      },
-      {
-        "name": "Saxony",
-        "description": "A state in eastern Germany.",
-        "id": "place_976"
       },
       {
         "name": "Germany",
@@ -422,11 +422,11 @@
   "42": {
     "persons": [
       {
-        "name": "CornelisDrebbel",
+        "name": "EdmundGoodwyn",
         "birth": "",
         "death": "",
-        "description": "Dutch engineer and inventor. He was the builder of the first operational submarine in 1620 and an innovator who contributed to the development of measurement and control systems, optics and chemistry.",
-        "id": "person_932"
+        "description": "Physician who studied with Thomas Beddoes at the University of Edinburgh.",
+        "id": "person_683"
       },
       {
         "name": "AdairCrawford",
@@ -436,18 +436,18 @@
         "id": "person_922"
       },
       {
+        "name": "CornelisDrebbel",
+        "birth": "",
+        "death": "",
+        "description": "Dutch engineer and inventor. He was the builder of the first operational submarine in 1620 and an innovator who contributed to the development of measurement and control systems, optics and chemistry.",
+        "id": "person_932"
+      },
+      {
         "name": "Antoine-LaurentLavoisier",
         "birth": "",
         "death": "",
         "description": "French chemist and tax farmer (for which he was guillotined). Developed a new nomenclature for chemistry (much of which is still in use today) and argued strongly against the existence of phlogiston. Davy read some of his writings while in Cornwall which he then opposed and throughout his career maintained an ambivalent attitude towards Lavoisierian chemisty. ForMemRSL.",
         "id": "person_030"
-      },
-      {
-        "name": "EdmundGoodwyn",
-        "birth": "",
-        "death": "",
-        "description": "Physician who studied with Thomas Beddoes at the University of Edinburgh.",
-        "id": "person_683"
       }
     ]
   },

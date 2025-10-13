@@ -511,18 +511,18 @@
   "156": {
     "persons": [
       {
-        "name": "SmithsonTennant",
-        "birth": "",
-        "death": "",
-        "description": "Tennant was a botanist and chemist and knew Davy through agricultural improvements. Appointed Professor of Chemistry at Cambridge University in 1813, he was killed in a riding accident in France. FRSL.",
-        "id": "person_068"
-      },
-      {
         "name": "RobertSouthey",
         "birth": "",
         "death": "",
         "description": "Poet who met Davy in Bristol and included some of his poems in Annual Anthology. Poet Laureate from 1813 until death.",
         "id": "person_186"
+      },
+      {
+        "name": "SmithsonTennant",
+        "birth": "",
+        "death": "",
+        "description": "Tennant was a botanist and chemist and knew Davy through agricultural improvements. Appointed Professor of Chemistry at Cambridge University in 1813, he was killed in a riding accident in France. FRSL.",
+        "id": "person_068"
       }
     ]
   },
@@ -607,18 +607,18 @@
   "190": {
     "persons": [
       {
-        "name": "IsaacNewton",
-        "birth": "",
-        "death": "",
-        "description": "Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy & Newton' in one inch letters. FRSL.",
-        "id": "person_036"
-      },
-      {
         "name": "Antoine-LaurentLavoisier",
         "birth": "",
         "death": "",
         "description": "French chemist and tax farmer (for which he was guillotined). Developed a new nomenclature for chemistry (much of which is still in use today) and argued strongly against the existence of phlogiston. Davy read some of his writings while in Cornwall which he then opposed and throughout his career maintained an ambivalent attitude towards Lavoisierian chemisty. ForMemRSL.",
         "id": "person_030"
+      },
+      {
+        "name": "IsaacNewton",
+        "birth": "",
+        "death": "",
+        "description": "Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy & Newton' in one inch letters. FRSL.",
+        "id": "person_036"
       }
     ]
   },
@@ -627,18 +627,18 @@
   "193": {
     "persons": [
       {
-        "name": "Georg ErnstStahl",
-        "birth": "",
-        "death": "",
-        "description": "German physician, chemist and philosopher who strongly promoted the phlogiston theory.",
-        "id": "person_388"
-      },
-      {
         "name": "Antoine-LaurentLavoisier",
         "birth": "",
         "death": "",
         "description": "French chemist and tax farmer (for which he was guillotined). Developed a new nomenclature for chemistry (much of which is still in use today) and argued strongly against the existence of phlogiston. Davy read some of his writings while in Cornwall which he then opposed and throughout his career maintained an ambivalent attitude towards Lavoisierian chemisty. ForMemRSL.",
         "id": "person_030"
+      },
+      {
+        "name": "Georg ErnstStahl",
+        "birth": "",
+        "death": "",
+        "description": "German physician, chemist and philosopher who strongly promoted the phlogiston theory.",
+        "id": "person_388"
       }
     ]
   },
@@ -701,18 +701,18 @@
   "206": {
     "persons": [
       {
-        "name": "Antoine-LaurentLavoisier",
-        "birth": "",
-        "death": "",
-        "description": "French chemist and tax farmer (for which he was guillotined). Developed a new nomenclature for chemistry (much of which is still in use today) and argued strongly against the existence of phlogiston. Davy read some of his writings while in Cornwall which he then opposed and throughout his career maintained an ambivalent attitude towards Lavoisierian chemisty. ForMemRSL.",
-        "id": "person_030"
-      },
-      {
         "name": "Claude LouisBerthollet",
         "birth": "",
         "death": "",
         "description": "French Chemist. ForMemRSL.",
         "id": "person_005"
+      },
+      {
+        "name": "Antoine-LaurentLavoisier",
+        "birth": "",
+        "death": "",
+        "description": "French chemist and tax farmer (for which he was guillotined). Developed a new nomenclature for chemistry (much of which is still in use today) and argued strongly against the existence of phlogiston. Davy read some of his writings while in Cornwall which he then opposed and throughout his career maintained an ambivalent attitude towards Lavoisierian chemisty. ForMemRSL.",
+        "id": "person_030"
       }
     ]
   },
@@ -756,13 +756,6 @@
   "227": {
     "persons": [
       {
-        "name": "ErasmusDarwin",
-        "birth": "",
-        "death": "",
-        "description": "Physician and natural philosopher who was member of the Lunar Society and friend of Priestley and Watt; also a correspondent with Beddoes. FRSL.",
-        "id": "person_240"
-      },
-      {
         "name": "DavidHartley",
         "birth": "",
         "death": "",
@@ -775,6 +768,13 @@
         "death": "",
         "description": "French natural philosopher and mathematician, a seminal figure in the emergence of modern philosophy and science. Mathematics was central to his method of inquiry, and he connected the previously separate fields of geometry and algebra into analytic geometry.",
         "id": "person_693"
+      },
+      {
+        "name": "ErasmusDarwin",
+        "birth": "",
+        "death": "",
+        "description": "Physician and natural philosopher who was member of the Lunar Society and friend of Priestley and Watt; also a correspondent with Beddoes. FRSL.",
+        "id": "person_240"
       }
     ]
   },
@@ -838,6 +838,21 @@
   "240": {
     "places": [
       {
+        "name": "Oerinium",
+        "description": "The Latin name for the Lizard, Cornwall.",
+        "id": "place_560"
+      },
+      {
+        "name": "Land's End",
+        "description": "Land's End is a headland on the west coast of Cornwall. It is the most westerly point of mainland England. The underlying rock at Land's End is granite.",
+        "id": "place_508"
+      },
+      {
+        "name": "Lizard Point",
+        "description": "The Lizard is a peninsula of the southern coast of Cornwall. It is the most southerly point of the British mainland. The geology of the Lizard is complex: it contains some of Cornwall's oldest (Precambrian) rocks, as well as heavily metamorphosed rocks.",
+        "id": "place_509"
+      },
+      {
         "name": "St Michael's Mount",
         "description": "St Michael's Mount is a tidal island in Mount's Bay, Cornwall, with a distinct conical shape.",
         "id": "place_013"
@@ -846,21 +861,6 @@
         "name": "Cornwall",
         "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
         "id": "place_021"
-      },
-      {
-        "name": "Oerinium",
-        "description": "The Latin name for the Lizard, Cornwall.",
-        "id": "place_560"
-      },
-      {
-        "name": "Lizard Point",
-        "description": "The Lizard is a peninsula of the southern coast of Cornwall. It is the most southerly point of the British mainland. The geology of the Lizard is complex: it contains some of Cornwall's oldest (Precambrian) rocks, as well as heavily metamorphosed rocks.",
-        "id": "place_509"
-      },
-      {
-        "name": "Land's End",
-        "description": "Land's End is a headland on the west coast of Cornwall. It is the most westerly point of mainland England. The underlying rock at Land's End is granite.",
-        "id": "place_508"
       }
     ]
   },

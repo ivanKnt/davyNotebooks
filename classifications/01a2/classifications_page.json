@@ -1,4 +1,571 @@
 {
-  "notebook_title": "Unknown",
-  "consensus_book": "unknown"
+  "notebook_title": "Notebook 01A2 (T6, 2023; lecture notes)",
+  "consensus_book": "lecture notes",
+  "1": {
+    "Electrochemistry": 0.333,
+    "Lecture notes": 0.5,
+    "Other electric (static, electromagnetism, etc.)": 0.167,
+    "page_consensus": "lecture notes"
+  },
+  "2": {
+    "Electrochemistry": 0.143,
+    "Lecture notes": 0.571,
+    "Philosophy": 0.143,
+    "Other (anything that doesn't fit into the other categories!)": 0.143,
+    "page_consensus": "lecture notes"
+  },
+  "3": {
+    "Electrochemistry": 0.167,
+    "Lecture notes": 0.333,
+    "Other electric (static, electromagnetism, etc.)": 0.333,
+    "Philosophy": 0.167,
+    "page_consensus": "lecture notes"
+  },
+  "4": {
+    "Electrochemistry": 0.111,
+    "Lecture notes": 0.222,
+    "Refers to other writers/their works": 0.222,
+    "Other electric (static, electromagnetism, etc.)": 0.222,
+    "Philosophy": 0.111,
+    "Other (anything that doesn't fit into the other categories!)": 0.111,
+    "page_consensus": "lecture notes"
+  },
+  "5": {
+    "Geology": 0.286,
+    "Chemistry": 0.143,
+    "Refers to other writers/their works": 0.143,
+    "Other electric (static, electromagnetism, etc.)": 0.214,
+    "Other (anything that doesn't fit into the other categories!)": 0.071,
+    "Electrochemistry": 0.071,
+    "Lecture notes": 0.071,
+    "page_consensus": "geology"
+  },
+  "6": {
+    "Electrochemistry": 0.182,
+    "Refers to other writers/their works": 0.182,
+    "Philosophy": 0.273,
+    "Other electric (static, electromagnetism, etc.)": 0.091,
+    "Geology": 0.091,
+    "Other (anything that doesn't fit into the other categories!)": 0.091,
+    "Lecture notes": 0.091,
+    "page_consensus": "philosophy"
+  },
+  "7": {
+    "Refers to other writers/their works": 0.357,
+    "Geology": 0.071,
+    "Other electric (static, electromagnetism, etc.)": 0.143,
+    "Electrochemistry": 0.143,
+    "Philosophy": 0.071,
+    "Chemistry": 0.071,
+    "Other (anything that doesn't fit into the other categories!)": 0.071,
+    "Lecture notes": 0.071,
+    "page_consensus": "refers to other writers/their works"
+  },
+  "8": {
+    "Mathematics": 0.105,
+    "Other electric (static, electromagnetism, etc.)": 0.158,
+    "Philosophy": 0.158,
+    "Refers to other writers/their works": 0.211,
+    "Other (anything that doesn't fit into the other categories!)": 0.105,
+    "Electrochemistry": 0.105,
+    "Lecture notes": 0.158,
+    "page_consensus": "refers to other writers/their works"
+  },
+  "9": {
+    "Chemistry": 0.133,
+    "Other electric (static, electromagnetism, etc.)": 0.133,
+    "Philosophy": 0.133,
+    "Electrochemistry": 0.067,
+    "Refers to other writers/their works": 0.333,
+    "Lecture notes": 0.2,
+    "page_consensus": "refers to other writers/their works"
+  },
+  "10": {
+    "Astronomy": 0.2,
+    "Refers to other writers/their works": 0.4,
+    "Geology": 0.1,
+    "Lecture notes": 0.2,
+    "Other electric (static, electromagnetism, etc.)": 0.1,
+    "page_consensus": "refers to other writers/their works"
+  },
+  "11": {
+    "Astronomy": 0.214,
+    "Other electric (static, electromagnetism, etc.)": 0.214,
+    "Geology": 0.143,
+    "Refers to other writers/their works": 0.214,
+    "Lecture notes": 0.143,
+    "Electrochemistry": 0.071,
+    "page_consensus": "astronomy"
+  },
+  "12": {
+    "Electrochemistry": 0.167,
+    "Refers to other writers/their works": 0.25,
+    "Philosophy": 0.167,
+    "Other (anything that doesn't fit into the other categories!)": 0.083,
+    "Lecture notes": 0.25,
+    "Other electric (static, electromagnetism, etc.)": 0.083,
+    "page_consensus": "refers to other writers/their works"
+  },
+  "13": {
+    "Chemistry": 0.182,
+    "Electrochemistry": 0.182,
+    "Other electric (static, electromagnetism, etc.)": 0.273,
+    "Refers to other writers/their works": 0.182,
+    "Philosophy": 0.091,
+    "Lecture notes": 0.091,
+    "page_consensus": "other electric (static, electromagnetism, etc.)"
+  },
+  "14": {
+    "Other electric (static, electromagnetism, etc.)": 0.333,
+    "Refers to other writers/their works": 0.333,
+    "Lecture notes": 0.333,
+    "page_consensus": "other electric (static, electromagnetism, etc.)"
+  },
+  "15": {
+    "Other (anything that doesn't fit into the other categories!)": 0.083,
+    "Electrochemistry": 0.083,
+    "Other electric (static, electromagnetism, etc.)": 0.167,
+    "Refers to other writers/their works": 0.167,
+    "Lecture notes": 0.417,
+    "Chemistry": 0.083,
+    "page_consensus": "lecture notes"
+  },
+  "16": {
+    "Electrochemistry": 0.091,
+    "Other electric (static, electromagnetism, etc.)": 0.182,
+    "Other (anything that doesn't fit into the other categories!)": 0.091,
+    "Refers to other writers/their works": 0.182,
+    "Lecture notes": 0.364,
+    "Chemistry": 0.091,
+    "page_consensus": "lecture notes"
+  },
+  "17": {
+    "Other electric (static, electromagnetism, etc.)": 0.125,
+    "Refers to other writers/their works": 0.25,
+    "Other (anything that doesn't fit into the other categories!)": 0.25,
+    "Lecture notes": 0.375,
+    "page_consensus": "lecture notes"
+  },
+  "18": {
+    "Astronomy": 0.091,
+    "Mathematics": 0.091,
+    "Philosophy": 0.091,
+    "Other electric (static, electromagnetism, etc.)": 0.091,
+    "Electrochemistry": 0.091,
+    "Refers to other writers/their works": 0.182,
+    "Lecture notes": 0.273,
+    "Other (anything that doesn't fit into the other categories!)": 0.091,
+    "page_consensus": "lecture notes"
+  },
+  "19": {
+    "Refers to other writers/their works": 0.2,
+    "Philosophy": 0.1,
+    "Other electric (static, electromagnetism, etc.)": 0.3,
+    "Electrochemistry": 0.1,
+    "Lecture notes": 0.3,
+    "page_consensus": "other electric (static, electromagnetism, etc.)"
+  },
+  "20": {
+    "Electrochemistry": 0.1,
+    "Other electric (static, electromagnetism, etc.)": 0.3,
+    "Refers to other writers/their works": 0.3,
+    "Lecture notes": 0.3,
+    "page_consensus": "other electric (static, electromagnetism, etc.)"
+  },
+  "21": {
+    "Philosophy": 0.1,
+    "Refers to other writers/their works": 0.3,
+    "Other electric (static, electromagnetism, etc.)": 0.3,
+    "Electrochemistry": 0.1,
+    "Lecture notes": 0.2,
+    "page_consensus": "refers to other writers/their works"
+  },
+  "22": {
+    "Electrochemistry": 0.111,
+    "Refers to other writers/their works": 0.333,
+    "Other electric (static, electromagnetism, etc.)": 0.222,
+    "Lecture notes": 0.333,
+    "page_consensus": "refers to other writers/their works"
+  },
+  "23": {
+    "Refers to other writers/their works": 0.167,
+    "Electrochemistry": 0.167,
+    "Lecture notes": 0.5,
+    "Other (anything that doesn't fit into the other categories!)": 0.167,
+    "page_consensus": "lecture notes"
+  },
+  "24": {
+    "Refers to other writers/their works": 0.125,
+    "Philosophy": 0.25,
+    "Electrochemistry": 0.125,
+    "Lecture notes": 0.25,
+    "Other (anything that doesn't fit into the other categories!)": 0.25,
+    "page_consensus": "philosophy"
+  },
+  "25": {
+    "Electrochemistry": 0.143,
+    "Medicine": 0.143,
+    "Refers to other writers/their works": 0.286,
+    "Lecture notes": 0.286,
+    "Other electric (static, electromagnetism, etc.)": 0.143,
+    "page_consensus": "refers to other writers/their works"
+  },
+  "26": {
+    "Chemistry": 0.111,
+    "Medicine": 0.222,
+    "Refers to other writers/their works": 0.111,
+    "Lecture notes": 0.444,
+    "Other (anything that doesn't fit into the other categories!)": 0.111,
+    "page_consensus": "lecture notes"
+  },
+  "27": {
+    "Medicine": 0.167,
+    "Refers to other writers/their works": 0.167,
+    "Lecture notes": 0.333,
+    "Other (anything that doesn't fit into the other categories!)": 0.333,
+    "page_consensus": "lecture notes"
+  },
+  "28": {
+    "Agriculture": 0.111,
+    "Lecture notes": 0.333,
+    "Refers to other writers/their works": 0.222,
+    "Electrochemistry": 0.222,
+    "Other (anything that doesn't fit into the other categories!)": 0.111,
+    "page_consensus": "lecture notes"
+  },
+  "29": {
+    "Medicine": 0.4,
+    "Lecture notes": 0.6,
+    "page_consensus": "lecture notes"
+  },
+  "30": {
+    "Medicine": 0.2,
+    "Lecture notes": 0.8,
+    "page_consensus": "lecture notes"
+  },
+  "31": {
+    "Other electric (static, electromagnetism, etc.)": 0.143,
+    "Electrochemistry": 0.143,
+    "Refers to other writers/their works": 0.143,
+    "Lecture notes": 0.571,
+    "page_consensus": "lecture notes"
+  },
+  "32": {
+    "Electrochemistry": 0.143,
+    "Other electric (static, electromagnetism, etc.)": 0.143,
+    "Refers to other writers/their works": 0.143,
+    "Lecture notes": 0.571,
+    "page_consensus": "lecture notes"
+  },
+  "33": {
+    "Other (anything that doesn't fit into the other categories!)": 0.5,
+    "Lecture notes": 0.5,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "34": {
+    "Philosophy": 0.167,
+    "Other (anything that doesn't fit into the other categories!)": 0.333,
+    "Lecture notes": 0.5,
+    "page_consensus": "lecture notes"
+  },
+  "35": {
+    "Philosophy": 0.125,
+    "Refers to other writers/their works": 0.125,
+    "Electrochemistry": 0.125,
+    "Other electric (static, electromagnetism, etc.)": 0.125,
+    "Other (anything that doesn't fit into the other categories!)": 0.125,
+    "Lecture notes": 0.375,
+    "page_consensus": "lecture notes"
+  },
+  "36": {
+    "Refers to other writers/their works": 0.286,
+    "Philosophy": 0.071,
+    "Other (anything that doesn't fit into the other categories!)": 0.214,
+    "Lecture notes": 0.357,
+    "Chemistry": 0.071,
+    "page_consensus": "lecture notes"
+  },
+  "37": {
+    "Refers to other writers/their works": 0.333,
+    "Electrochemistry": 0.083,
+    "Lecture notes": 0.333,
+    "Other electric (static, electromagnetism, etc.)": 0.25,
+    "page_consensus": "refers to other writers/their works"
+  },
+  "38": {
+    "Refers to other writers/their works": 0.1,
+    "Electrochemistry": 0.2,
+    "Other electric (static, electromagnetism, etc.)": 0.3,
+    "Lecture notes": 0.3,
+    "Chemistry": 0.1,
+    "page_consensus": "other electric (static, electromagnetism, etc.)"
+  },
+  "39": {
+    "Philosophy": 0.125,
+    "Lecture notes": 0.375,
+    "Other electric (static, electromagnetism, etc.)": 0.125,
+    "Refers to other writers/their works": 0.125,
+    "Other (anything that doesn't fit into the other categories!)": 0.125,
+    "Chemistry": 0.125,
+    "page_consensus": "lecture notes"
+  },
+  "40": {
+    "Philosophy": 0.125,
+    "Other electric (static, electromagnetism, etc.)": 0.375,
+    "Lecture notes": 0.375,
+    "Refers to other writers/their works": 0.125,
+    "page_consensus": "other electric (static, electromagnetism, etc.)"
+  },
+  "41": {
+    "Electrochemistry": 0.1,
+    "Mathematics": 0.1,
+    "Other electric (static, electromagnetism, etc.)": 0.4,
+    "Lecture notes": 0.2,
+    "Refers to other writers/their works": 0.2,
+    "page_consensus": "other electric (static, electromagnetism, etc.)"
+  },
+  "42": {
+    "Refers to other writers/their works": 0.2,
+    "Electrochemistry": 0.1,
+    "Other electric (static, electromagnetism, etc.)": 0.4,
+    "Geology": 0.1,
+    "Lecture notes": 0.2,
+    "page_consensus": "other electric (static, electromagnetism, etc.)"
+  },
+  "43": {
+    "Refers to other writers/their works": 0.25,
+    "Lecture notes": 0.375,
+    "Other electric (static, electromagnetism, etc.)": 0.125,
+    "Other (anything that doesn't fit into the other categories!)": 0.25,
+    "page_consensus": "lecture notes"
+  },
+  "44": {
+    "Refers to other writers/their works": 0.286,
+    "Lecture notes": 0.286,
+    "Other (anything that doesn't fit into the other categories!)": 0.429,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "45": {
+    "Refers to other writers/their works": 0.286,
+    "Lecture notes": 0.286,
+    "Other electric (static, electromagnetism, etc.)": 0.286,
+    "Other (anything that doesn't fit into the other categories!)": 0.143,
+    "page_consensus": "refers to other writers/their works"
+  },
+  "46": {
+    "Refers to other writers/their works": 0.25,
+    "Other electric (static, electromagnetism, etc.)": 0.375,
+    "Electrochemistry": 0.125,
+    "Lecture notes": 0.125,
+    "Other (anything that doesn't fit into the other categories!)": 0.125,
+    "page_consensus": "other electric (static, electromagnetism, etc.)"
+  },
+  "47": {
+    "Electrochemistry": 0.111,
+    "Geology": 0.111,
+    "Other electric (static, electromagnetism, etc.)": 0.222,
+    "Refers to other writers/their works": 0.222,
+    "Lecture notes": 0.111,
+    "Other (anything that doesn't fit into the other categories!)": 0.222,
+    "page_consensus": "other electric (static, electromagnetism, etc.)"
+  },
+  "48": {
+    "Electrochemistry": 0.143,
+    "Refers to other writers/their works": 0.429,
+    "Other electric (static, electromagnetism, etc.)": 0.143,
+    "Other (anything that doesn't fit into the other categories!)": 0.143,
+    "Lecture notes": 0.143,
+    "page_consensus": "refers to other writers/their works"
+  },
+  "49": {
+    "Electrochemistry": 0.111,
+    "Medicine": 0.111,
+    "Other electric (static, electromagnetism, etc.)": 0.222,
+    "Refers to other writers/their works": 0.333,
+    "Other (anything that doesn't fit into the other categories!)": 0.111,
+    "Lecture notes": 0.111,
+    "page_consensus": "refers to other writers/their works"
+  },
+  "50": {
+    "Philosophy": 1.0,
+    "page_consensus": "philosophy"
+  },
+  "51": {
+    "Philosophy": 0.167,
+    "Other (anything that doesn't fit into the other categories!)": 0.167,
+    "Other electric (static, electromagnetism, etc.)": 0.167,
+    "Lecture notes": 0.5,
+    "page_consensus": "lecture notes"
+  },
+  "52": {
+    "Philosophy": 0.333,
+    "Other electric (static, electromagnetism, etc.)": 0.333,
+    "Lecture notes": 0.333,
+    "page_consensus": "philosophy"
+  },
+  "53": {
+    "Medicine": 0.125,
+    "Refers to other writers/their works": 0.25,
+    "Chemistry": 0.125,
+    "Electrochemistry": 0.125,
+    "Lecture notes": 0.375,
+    "page_consensus": "lecture notes"
+  },
+  "54": {
+    "Other electric (static, electromagnetism, etc.)": 0.143,
+    "Medicine": 0.286,
+    "Refers to other writers/their works": 0.143,
+    "Lecture notes": 0.286,
+    "Electrochemistry": 0.143,
+    "page_consensus": "medicine"
+  },
+  "55": {
+    "Chemistry": 0.2,
+    "Electrochemistry": 0.4,
+    "Lecture notes": 0.4,
+    "page_consensus": "electrochemistry"
+  },
+  "56": {
+    "Other (anything that doesn't fit into the other categories!)": 0.5,
+    "Lecture notes": 0.5,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "57": {
+    "Philosophy": 0.111,
+    "Medicine": 0.111,
+    "Other electric (static, electromagnetism, etc.)": 0.111,
+    "Electrochemistry": 0.111,
+    "Lecture notes": 0.333,
+    "Chemistry": 0.111,
+    "Refers to other writers/their works": 0.111,
+    "page_consensus": "lecture notes"
+  },
+  "58": {
+    "Chemistry": 0.143,
+    "Philosophy": 0.143,
+    "Lecture notes": 0.286,
+    "Electrochemistry": 0.143,
+    "Refers to other writers/their works": 0.143,
+    "Other electric (static, electromagnetism, etc.)": 0.143,
+    "page_consensus": "lecture notes"
+  },
+  "59": {
+    "Chemistry": 0.1,
+    "Electrochemistry": 0.3,
+    "Other electric (static, electromagnetism, etc.)": 0.1,
+    "Philosophy": 0.1,
+    "Refers to other writers/their works": 0.1,
+    "Lecture notes": 0.3,
+    "page_consensus": "electrochemistry"
+  },
+  "60": {
+    "Other (anything that doesn't fit into the other categories!)": 0.5,
+    "Lecture notes": 0.5,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "61": {
+    "Refers to other writers/their works": 0.182,
+    "Philosophy": 0.091,
+    "Other electric (static, electromagnetism, etc.)": 0.182,
+    "Electrochemistry": 0.091,
+    "Lecture notes": 0.364,
+    "Other (anything that doesn't fit into the other categories!)": 0.091,
+    "page_consensus": "lecture notes"
+  },
+  "62": {
+    "Other electric (static, electromagnetism, etc.)": 0.286,
+    "Lecture notes": 0.571,
+    "Electrochemistry": 0.143,
+    "page_consensus": "lecture notes"
+  },
+  "63": {
+    "Other electric (static, electromagnetism, etc.)": 0.3,
+    "Lecture notes": 0.4,
+    "Refers to other writers/their works": 0.2,
+    "Electrochemistry": 0.1,
+    "page_consensus": "lecture notes"
+  },
+  "64": {
+    "Chemistry": 0.154,
+    "Lecture notes": 0.308,
+    "Electrochemistry": 0.231,
+    "Refers to other writers/their works": 0.231,
+    "Other (anything that doesn't fit into the other categories!)": 0.077,
+    "page_consensus": "lecture notes"
+  },
+  "65": {
+    "Electrochemistry": 0.273,
+    "Lecture notes": 0.364,
+    "Refers to other writers/their works": 0.182,
+    "Philosophy": 0.091,
+    "Other electric (static, electromagnetism, etc.)": 0.091,
+    "page_consensus": "lecture notes"
+  },
+  "66": {
+    "Other (anything that doesn't fit into the other categories!)": 0.222,
+    "Lecture notes": 0.333,
+    "Electrochemistry": 0.111,
+    "Refers to other writers/their works": 0.333,
+    "page_consensus": "lecture notes"
+  },
+  "67": {
+    "Philosophy": 0.182,
+    "Other (anything that doesn't fit into the other categories!)": 0.182,
+    "Lecture notes": 0.455,
+    "Electrochemistry": 0.091,
+    "Refers to other writers/their works": 0.091,
+    "page_consensus": "lecture notes"
+  },
+  "68": {
+    "Philosophy": 0.333,
+    "Lecture notes": 0.5,
+    "Other (anything that doesn't fit into the other categories!)": 0.167,
+    "page_consensus": "lecture notes"
+  },
+  "69": {
+    "Agriculture": 0.111,
+    "Lecture notes": 0.556,
+    "Philosophy": 0.111,
+    "Refers to other writers/their works": 0.111,
+    "Other (anything that doesn't fit into the other categories!)": 0.111,
+    "page_consensus": "lecture notes"
+  },
+  "70": {
+    "Other (anything that doesn't fit into the other categories!)": 0.1,
+    "Lecture notes": 0.6,
+    "Electrochemistry": 0.1,
+    "Philosophy": 0.1,
+    "Refers to other writers/their works": 0.1,
+    "page_consensus": "lecture notes"
+  },
+  "71": {
+    "Agriculture": 0.143,
+    "Lecture notes": 0.857,
+    "page_consensus": "lecture notes"
+  },
+  "72": {
+    "Electrochemistry": 0.25,
+    "Lecture notes": 0.75,
+    "page_consensus": "lecture notes"
+  },
+  "73": {
+    "Electrochemistry": 0.167,
+    "Lecture notes": 0.833,
+    "page_consensus": "lecture notes"
+  },
+  "74": {
+    "Other (anything that doesn't fit into the other categories!)": 0.5,
+    "Lecture notes": 0.5,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  },
+  "75": {
+    "Lecture notes": 0.8,
+    "Electrochemistry": 0.2,
+    "page_consensus": "lecture notes"
+  },
+  "76": {
+    "Other (anything that doesn't fit into the other categories!)": 0.5,
+    "Lecture notes": 0.5,
+    "page_consensus": "other (anything that doesn't fit into the other categories!)"
+  }
 }

@@ -136,14 +136,14 @@
   "42": {
     "places": [
       {
-        "name": "Cornwall",
-        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
-        "id": "place_021"
-      },
-      {
         "name": "Mount's Bay",
         "description": "A bay on the English Channel coast of Cornwall, England, stretching from the Lizard Point to Gwennap Head.",
         "id": "place_419"
+      },
+      {
+        "name": "Cornwall",
+        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
+        "id": "place_021"
       }
     ]
   },
@@ -207,19 +207,14 @@
   "55": {
     "places": [
       {
+        "name": "Cumberland",
+        "description": "Cumberland is a historic county in the far north-west of England.",
+        "id": "place_079"
+      },
+      {
         "name": "Wales",
         "description": "Wales is a country in southwest Great Britain known for its rugged coastline, mountainous national parks, distinctive Welsh language and Celtic culture.",
         "id": "place_122"
-      },
-      {
-        "name": "Cornwall",
-        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
-        "id": "place_021"
-      },
-      {
-        "name": "Devon",
-        "description": "A county in south-west England.",
-        "id": "place_162"
       },
       {
         "name": "Scotland",
@@ -227,9 +222,14 @@
         "id": "place_235"
       },
       {
-        "name": "Cumberland",
-        "description": "Cumberland is a historic county in the far north-west of England.",
-        "id": "place_079"
+        "name": "Devon",
+        "description": "A county in south-west England.",
+        "id": "place_162"
+      },
+      {
+        "name": "Cornwall",
+        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
+        "id": "place_021"
       }
     ]
   },

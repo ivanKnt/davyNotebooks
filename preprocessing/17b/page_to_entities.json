@@ -102,14 +102,14 @@
     ],
     "places": [
       {
-        "name": "Sussex",
-        "description": "A county in southern England.",
-        "id": "place_161"
-      },
-      {
         "name": "Iceland",
         "description": "A Nordic island country between the North Atlantic and Arctic Oceans.",
         "id": "place_237"
+      },
+      {
+        "name": "Sussex",
+        "description": "A county in southern England.",
+        "id": "place_161"
       }
     ]
   },
@@ -126,14 +126,14 @@
   "31": {
     "places": [
       {
-        "name": "Bovey Formation (Devon)",
-        "description": "The Bovey Formation in Devon contains lignite, a poor brown coal with a visibly woody structure.",
-        "id": "place_692"
-      },
-      {
         "name": "Glasgow",
         "description": "Glasgow is a port city on the River Clyde in Scotland's western Lowlands.",
         "id": "place_887"
+      },
+      {
+        "name": "Bovey Formation (Devon)",
+        "description": "The Bovey Formation in Devon contains lignite, a poor brown coal with a visibly woody structure.",
+        "id": "place_692"
       }
     ]
   },
@@ -143,14 +143,14 @@
   "35": {
     "places": [
       {
-        "name": "Teesdale",
-        "description": "Teesdale is a dale, or valley, in northern England.",
-        "id": "place_373"
-      },
-      {
         "name": "Alston Moor",
         "description": "A civil parish in Cumbria, England, based around the small town of Alston.",
         "id": "place_306"
+      },
+      {
+        "name": "Teesdale",
+        "description": "Teesdale is a dale, or valley, in northern England.",
+        "id": "place_373"
       }
     ]
   },
@@ -158,14 +158,14 @@
   "37": {
     "places": [
       {
+        "name": "Scotland",
+        "description": "",
+        "id": "place_235"
+      },
+      {
         "name": "Staffa",
         "description": "an island of the Inner Hebrides in Argyll and Bute, Scotland.",
         "id": "place_1193"
-      },
-      {
-        "name": "County Antrim",
-        "description": "A county in north-eastern Northern Ireland.",
-        "id": "place_301"
       },
       {
         "name": "Giant's Causeway",
@@ -173,9 +173,9 @@
         "id": "place_126"
       },
       {
-        "name": "Scotland",
-        "description": "",
-        "id": "place_235"
+        "name": "County Antrim",
+        "description": "A county in north-eastern Northern Ireland.",
+        "id": "place_301"
       }
     ]
   },
@@ -212,9 +212,9 @@
   "43": {
     "places": [
       {
-        "name": "Durham, England",
-        "description": "a city in northeast England, south of Newcastle upon Tyne.",
-        "id": "place_1029"
+        "name": "Northumberland",
+        "description": "County in the North East of England. It borders Scotland to the north and the county of Cumbria to the west.",
+        "id": "place_1359"
       },
       {
         "name": "Derbyshire",
@@ -222,9 +222,9 @@
         "id": "place_085"
       },
       {
-        "name": "Northumberland",
-        "description": "County in the North East of England. It borders Scotland to the north and the county of Cumbria to the west.",
-        "id": "place_1359"
+        "name": "Durham, England",
+        "description": "a city in northeast England, south of Newcastle upon Tyne.",
+        "id": "place_1029"
       }
     ]
   },
@@ -232,30 +232,30 @@
   "45": {
     "persons": [
       {
-        "name": "JamesHall",
-        "birth": "",
-        "death": "",
-        "description": "Scottish baronet (1776) and MP. Chemist and geologist who supported of James Hutton's theories of uniformitarian geology. FRSL.",
-        "id": "person_164"
-      },
-      {
         "name": "GregoryWatt",
         "birth": "",
         "death": "",
         "description": "Youngest son of James Watt. Lodged with Davy's mother in Penzance during the winter of 1797-8 and became close friends with Davy.",
         "id": "person_261"
+      },
+      {
+        "name": "JamesHall",
+        "birth": "",
+        "death": "",
+        "description": "Scottish baronet (1776) and MP. Chemist and geologist who supported of James Hutton's theories of uniformitarian geology. FRSL.",
+        "id": "person_164"
       }
     ],
     "works": [
       {
         "name": "Philosophical Transactions of the Royal Society of London",
-        "author": null,
-        "id": "otherwork_004"
+        "author": "Gregory Watt",
+        "id": "otherwork_230"
       },
       {
         "name": "Philosophical Transactions of the Royal Society of London",
-        "author": "Gregory Watt",
-        "id": "otherwork_230"
+        "author": null,
+        "id": "otherwork_004"
       }
     ]
   },
@@ -296,18 +296,18 @@
   "53": {
     "persons": [
       {
-        "name": "Georges-Louis Leclerc, Comte deBuffon",
-        "birth": "",
-        "death": "",
-        "description": "French naturalist, mathematician and cosmologist. His Histoire Naturelle, published in 1789, ran to 37 volumes. ForMemRSL.",
-        "id": "person_266"
-      },
-      {
         "name": "Jean-AndréDeluc",
         "birth": "",
         "death": "",
         "description": "Swiss-born geologist, natural philosopher and meteorologist who spent much of his time working in England. FRSL.",
         "id": "person_520"
+      },
+      {
+        "name": "Georges-Louis Leclerc, Comte deBuffon",
+        "birth": "",
+        "death": "",
+        "description": "French naturalist, mathematician and cosmologist. His Histoire Naturelle, published in 1789, ran to 37 volumes. ForMemRSL.",
+        "id": "person_266"
       }
     ]
   },

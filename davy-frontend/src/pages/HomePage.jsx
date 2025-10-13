@@ -3,21 +3,21 @@ import { Link } from 'react-router-dom'
 const featureCards = [
   {
     title: 'Preprocessing Pipeline',
-    description: 'Extract and normalize text from TEI XML sources. Generate page-to-text mappings, entity annotations, and classification metadata for downstream analysis.',
+    description: 'Must be run before any other analysis. Extract and normalize text from TEI XML sources. Generate page-to-text mappings, entity annotations, and classification metadata for any upcoming analysis.',
     to: '/preprocessing',
     status: 'Available',
     tone: 'green'
   },
   {
-    title: 'Classification Reader',
-    description: 'Browse notebooks with interactive per-page classifications. View consensus labels, percentage breakdowns, and explore thematic patterns across Davy\'s writing.',
+    title: 'Notebooks Classifications ',
+    description: 'Browse notebooks with interactive per-page classifications. View consensus labels, percentage breakdowns, and explore thematic patterns across Davy\'s writing . Made up with the data provided by Zooniverse volunteers ',
     to: '/classification',
     status: 'Available',
     tone: 'green'
   },
   {
     title: 'Poetry Explorer (Traditional)',
-    description: 'Discover pages classified as poetry across the entire corpus. Filter by notebook, view classification confidence, and read poetic excerpts in context.',
+    description: 'Discover pages classified as poetry across the entire corpus. Filter by notebook, view classification confidence, and read poetic excerpts in context. Made up with the data provided by Zooniverse volunteers ',
     to: '/poetry/traditional',
     status: 'Available',
     tone: 'green'
@@ -38,7 +38,7 @@ const featureCards = [
   },
   {
     title: 'Text Reuse Lab (Advanced)',
-    description: 'Semantic similarity detection with BERT embeddings, cross-notebook network visualization, and advanced filtering. Planned for future release.',
+    description: 'Semantic similarity detection with BERT embeddings, and modern LLms models. To be used with the text reuse lab (traditional) to find connections between notebooks. Planned for future release.',
     status: 'Coming Soon',
     disabled: true,
     tone: 'yellow'
@@ -57,17 +57,17 @@ export default function HomePage() {
                 Humphry Davy Digital Humanities Project
               </span>
               <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-slate-900">
-                Mapping the intellectual currents of the <span className="text-indigo-600">Davy Notebooks</span> project.
+                Mapping the intellectual works of  <span className="text-indigo-600">Sir Humphry Davy</span> .
               </h1>
               <p className="text-lg text-slate-600 leading-relaxed">
-                A unified laboratory for preprocessing, classification, poetry analysis, and text reuse experiments. Dive into annotated notebooks, run comparative algorithms, and trace literary influence across centuries.
+                This project is a unified laboratory for preprocessing, classification, poetry analysis, and text reuse experiments. You can Analyse the different works of Davy and find connections between them through the different tools provided. This project was developed with the collaboration of the UCREL and Lancaster University led by Dr Paul Rayson , Professor Sharon Ruston and Andy Hartland.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link to="/text-reuse/traditional" className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-5 py-2.5 text-sm font-medium text-white shadow-lg shadow-indigo-600/20 transition hover:bg-indigo-500">
-                  Explore Text Reuse Workbench
+                  Explore Text Reuse Lab
                 </Link>
                 <Link to="/classification" className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-medium text-slate-700 ring-1 ring-slate-200 transition hover:ring-indigo-200 hover:text-indigo-600">
-                  Open Classification Reader
+                  Open notebooks Classifications 
                 </Link>
               </div>
             </div>

@@ -73,7 +73,7 @@ export default function ClassificationPage() {
         <header className="space-y-3 text-center sm:text-left">
           <h1 className="text-3xl font-semibold text-slate-900">Classification Reader</h1>
           <p className="text-slate-600 text-base sm:max-w-3xl">
-            Browse thematic classifications for each notebook and page. Explore consensus labels, percentage distributions, and the full text content.
+            Lists classifications made by Zooniverse volunteers for each notebook and page. Explore consensus labels, percentage distributions, and the full text content.
           </p>
         </header>
 

@@ -35,11 +35,6 @@
         "id": "place_663"
       },
       {
-        "name": "Montgomeryshire",
-        "description": "Montgomeryshire is a historic county that now forms the northern part of Powys, Wales.",
-        "id": "place_460"
-      },
-      {
         "name": "Shropshire",
         "description": "A county in the West Midlands of England.",
         "id": "place_659"
@@ -48,16 +43,16 @@
         "name": "Shrewsbury",
         "description": "The county town of Shropshire.",
         "id": "place_658"
+      },
+      {
+        "name": "Montgomeryshire",
+        "description": "Montgomeryshire is a historic county that now forms the northern part of Powys, Wales.",
+        "id": "place_460"
       }
     ]
   },
   "4": {
     "places": [
-      {
-        "name": "Berwyn Hills",
-        "description": "The Berwyn Range is an isolated and sparsely populated area of moorland in the north-east of Wales, roughly bounded by Llangollen in the north-east, Corwen in the north-west, Bala in the south-west, and Oswestry in the south-east.",
-        "id": "place_665"
-      },
       {
         "name": "Nant Ffrancon",
         "description": "A steep-sided glacial valley dropping to Bethesda between the Glyderau and the Carneddau, Wales.",
@@ -72,15 +67,20 @@
         "name": "Capel Curig",
         "description": "Capel Curig is a village in Caernarfonshire, in the heart of Snowdonia.",
         "id": "place_453"
+      },
+      {
+        "name": "Berwyn Hills",
+        "description": "The Berwyn Range is an isolated and sparsely populated area of moorland in the north-east of Wales, roughly bounded by Llangollen in the north-east, Corwen in the north-west, Bala in the south-west, and Oswestry in the south-east.",
+        "id": "place_665"
       }
     ]
   },
   "5": {
     "places": [
       {
-        "name": "Bettws, Bridgend",
-        "description": "a small ex-mining and farming village in the South Wales Valleys in the county borough of Bridgend, Wales.",
-        "id": "place_1354"
+        "name": "Capel Curig",
+        "description": "Capel Curig is a village in Caernarfonshire, in the heart of Snowdonia.",
+        "id": "place_453"
       },
       {
         "name": "Ogwen Quarry",
@@ -88,14 +88,14 @@
         "id": "place_669"
       },
       {
+        "name": "Bettws, Bridgend",
+        "description": "a small ex-mining and farming village in the South Wales Valleys in the county borough of Bridgend, Wales.",
+        "id": "place_1354"
+      },
+      {
         "name": "Corwen",
         "description": "Corwen is a town in Denbighshire, Wales.",
         "id": "place_454"
-      },
-      {
-        "name": "Capel Curig",
-        "description": "Capel Curig is a village in Caernarfonshire, in the heart of Snowdonia.",
-        "id": "place_453"
       }
     ]
   },
@@ -120,24 +120,24 @@
   "8": {
     "places": [
       {
-        "name": "Beddgelert",
-        "description": "Beddgelert is a village in the Snowdonia area of the county of Gwynedd, Wales.",
-        "id": "place_448"
-      },
-      {
         "name": "Caernarfon",
         "description": "Caernarfon is a town and port in Caernarfonshire, Wales.",
         "id": "place_450"
       },
       {
-        "name": "Penmorfa",
-        "description": "Penmorfa is a village close to Porthmadog in Gwynedd, Wales.",
-        "id": "place_449"
+        "name": "Beddgelert",
+        "description": "Beddgelert is a village in the Snowdonia area of the county of Gwynedd, Wales.",
+        "id": "place_448"
       },
       {
         "name": "Dolgellau",
         "description": "Dolgellau is a town in the county of Gwynedd, north Wales.",
         "id": "place_447"
+      },
+      {
+        "name": "Penmorfa",
+        "description": "Penmorfa is a village close to Porthmadog in Gwynedd, Wales.",
+        "id": "place_449"
       }
     ]
   },
@@ -262,14 +262,19 @@
   "21": {
     "places": [
       {
-        "name": "Berwyn Hills",
-        "description": "The Berwyn Range is an isolated and sparsely populated area of moorland in the north-east of Wales, roughly bounded by Llangollen in the north-east, Corwen in the north-west, Bala in the south-west, and Oswestry in the south-east.",
-        "id": "place_665"
-      },
-      {
         "name": "Cader Idris",
         "description": "Cader Idris is a mountain in Merionnydd, near Dolgellau, Wales.",
         "id": "place_456"
+      },
+      {
+        "name": "Aran Fawddwy",
+        "description": "A mountain in southern Snowdonia or Eryri, Wales.",
+        "id": "place_791"
+      },
+      {
+        "name": "Berwyn Hills",
+        "description": "The Berwyn Range is an isolated and sparsely populated area of moorland in the north-east of Wales, roughly bounded by Llangollen in the north-east, Corwen in the north-west, Bala in the south-west, and Oswestry in the south-east.",
+        "id": "place_665"
       },
       {
         "name": "Caernarfon",
@@ -280,20 +285,15 @@
         "name": "Yr Wyddfa",
         "description": "Also known as Snowdon. The highest mountain peak in Wales.",
         "id": "place_790"
-      },
-      {
-        "name": "Aran Fawddwy",
-        "description": "A mountain in southern Snowdonia or Eryri, Wales.",
-        "id": "place_791"
       }
     ]
   },
   "22": {
     "places": [
       {
-        "name": "Beaumaris",
-        "description": "Beaumaris is a town on the Isle of Anglesey in North Wales, well known for its 13th-century castle.",
-        "id": "place_462"
+        "name": "Caernarfonshire",
+        "description": "Caernarfonshire is a county in the north west of Wales.",
+        "id": "place_458"
       },
       {
         "name": "Anglesey",
@@ -301,14 +301,14 @@
         "id": "place_461"
       },
       {
+        "name": "Beaumaris",
+        "description": "Beaumaris is a town on the Isle of Anglesey in North Wales, well known for its 13th-century castle.",
+        "id": "place_462"
+      },
+      {
         "name": "Cemlyn",
         "description": "On the north coast of Anglesey, Wales.",
         "id": "place_765"
-      },
-      {
-        "name": "Caernarfonshire",
-        "description": "Caernarfonshire is a county in the north west of Wales.",
-        "id": "place_458"
       }
     ]
   },
@@ -338,14 +338,14 @@
   "25": {
     "places": [
       {
-        "name": "Caernarfonshire",
-        "description": "Caernarfonshire is a county in the north west of Wales.",
-        "id": "place_458"
-      },
-      {
         "name": "Parys Mine",
         "description": "A mountain in Northern Wales known for copper-mining.",
         "id": "place_655"
+      },
+      {
+        "name": "Caernarfonshire",
+        "description": "Caernarfonshire is a county in the north west of Wales.",
+        "id": "place_458"
       }
     ]
   },
@@ -357,24 +357,24 @@
         "id": "place_122"
       },
       {
-        "name": "Wicklow",
-        "description": "County Wicklow is a county in Ireland on the east coast, south of Dublin.",
-        "id": "place_044"
-      },
-      {
         "name": "Wicklow Bay",
         "description": "Wicklow Bay is on the east coast of Ireland, south of Dublin. Wicklow town is the harbour in the bay.",
         "id": "place_481"
       },
       {
-        "name": "Wicklow Mountains",
-        "description": "The Wicklow Mountains are the largest upland area in the Republic of Ireland, located on the east coast. They are formed largely of granite.",
-        "id": "place_045"
+        "name": "Wicklow",
+        "description": "County Wicklow is a county in Ireland on the east coast, south of Dublin.",
+        "id": "place_044"
       },
       {
         "name": "Scotland",
         "description": "",
         "id": "place_235"
+      },
+      {
+        "name": "Wicklow Mountains",
+        "description": "The Wicklow Mountains are the largest upland area in the Republic of Ireland, located on the east coast. They are formed largely of granite.",
+        "id": "place_045"
       }
     ]
   },
@@ -410,6 +410,11 @@
   "32": {
     "places": [
       {
+        "name": "River Slaney",
+        "description": "The River Slaney is a river in south-east Ireland, in part flowing through County Wicklow.",
+        "id": "place_477"
+      },
+      {
         "name": "Kildare",
         "description": "Kildare is a town in County Kildare, Ireland.",
         "id": "place_036"
@@ -418,11 +423,6 @@
         "name": "Wicklow",
         "description": "County Wicklow is a county in Ireland on the east coast, south of Dublin.",
         "id": "place_044"
-      },
-      {
-        "name": "River Slaney",
-        "description": "The River Slaney is a river in south-east Ireland, in part flowing through County Wicklow.",
-        "id": "place_477"
       },
       {
         "name": "Grangecon",
@@ -439,23 +439,23 @@
         "id": "place_682"
       },
       {
-        "name": "Cronebane",
-        "description": "A townland in County Wicklow, Ireland.",
-        "id": "place_683"
-      },
-      {
         "name": "Croghan Mountain",
         "description": "In Wicklow, Ireland, a location of a late eighteenth-century gold rush.",
         "id": "place_684"
+      },
+      {
+        "name": "Cronebane",
+        "description": "A townland in County Wicklow, Ireland.",
+        "id": "place_683"
       }
     ]
   },
   "34": {
     "places": [
       {
-        "name": "River Dargle",
-        "description": "A river that flows from the Wicklow Mountains to the Irish Sea. It forms a waterfull at the Powerscourt Estate.",
-        "id": "place_810"
+        "name": "Powerscourt",
+        "description": "Powerscourt Estate, Enniskerry, County Wicklow, Ireland.",
+        "id": "place_486"
       },
       {
         "name": "The Devils Glen",
@@ -463,9 +463,9 @@
         "id": "place_679"
       },
       {
-        "name": "An Scailp",
-        "description": "An Scailp on the border of counties Wicklow & Dublin means '(the) rocky chasm', a name which accurately describes that valley.",
-        "id": "place_1356"
+        "name": "River Dargle",
+        "description": "A river that flows from the Wicklow Mountains to the Irish Sea. It forms a waterfull at the Powerscourt Estate.",
+        "id": "place_810"
       },
       {
         "name": "Dublin",
@@ -473,28 +473,28 @@
         "id": "place_399"
       },
       {
-        "name": "Powerscourt",
-        "description": "Powerscourt Estate, Enniskerry, County Wicklow, Ireland.",
-        "id": "place_486"
-      },
-      {
         "name": "Glen of the Downs",
         "description": "The Glen of the Downs is a 2 km long wooded glacial valley with steep sides rising to almost 250m on the east coast of Ireland.",
         "id": "place_681"
+      },
+      {
+        "name": "An Scailp",
+        "description": "An Scailp on the border of counties Wicklow & Dublin means '(the) rocky chasm', a name which accurately describes that valley.",
+        "id": "place_1356"
       }
     ]
   },
   "35": {
     "places": [
       {
-        "name": "Killiney",
-        "description": "Killiney is a coastal area of County Dublin, Ireland. In the 19th Century it was a popular seaside resort and many of the pebbles and rocks along Killiney Beach are examples of carboniferous limestone, some of which contain fossils of corals, sea shells and other sea life that existed millions of years ago.",
-        "id": "place_470"
-      },
-      {
         "name": "Dublin",
         "description": "The capital city of the Republic of Ireland.",
         "id": "place_399"
+      },
+      {
+        "name": "Killiney",
+        "description": "Killiney is a coastal area of County Dublin, Ireland. In the 19th Century it was a popular seaside resort and many of the pebbles and rocks along Killiney Beach are examples of carboniferous limestone, some of which contain fossils of corals, sea shells and other sea life that existed millions of years ago.",
+        "id": "place_470"
       }
     ]
   },
@@ -512,9 +512,9 @@
   "39": {
     "places": [
       {
-        "name": "Coalisland",
-        "description": "Coalisland is a town in County Tyrone in Northern Ireland.",
-        "id": "place_474"
+        "name": "Newry",
+        "description": "Newry is a city in the counties of Armagh and Down in southern Northern Ireland.",
+        "id": "place_472"
       },
       {
         "name": "Dundalk",
@@ -522,29 +522,24 @@
         "id": "place_471"
       },
       {
-        "name": "Lough Neagh",
-        "description": "Lough Neagh is a freshwater lake in Northern Ireland, and the largest lake in Ireland.",
-        "id": "place_473"
-      },
-      {
         "name": "Dublin",
         "description": "The capital city of the Republic of Ireland.",
         "id": "place_399"
       },
       {
-        "name": "Newry",
-        "description": "Newry is a city in the counties of Armagh and Down in southern Northern Ireland.",
-        "id": "place_472"
+        "name": "Lough Neagh",
+        "description": "Lough Neagh is a freshwater lake in Northern Ireland, and the largest lake in Ireland.",
+        "id": "place_473"
+      },
+      {
+        "name": "Coalisland",
+        "description": "Coalisland is a town in County Tyrone in Northern Ireland.",
+        "id": "place_474"
       }
     ]
   },
   "40": {
     "places": [
-      {
-        "name": "Coleraine",
-        "description": "Coleraine is a town in County Derry, Northern Ireland.",
-        "id": "place_480"
-      },
       {
         "name": "Portrush",
         "description": "A small seaside town on north coast of County Antrim, Northern Ireland.",
@@ -554,6 +549,11 @@
         "name": "Lough Neagh",
         "description": "Lough Neagh is a freshwater lake in Northern Ireland, and the largest lake in Ireland.",
         "id": "place_473"
+      },
+      {
+        "name": "Coleraine",
+        "description": "Coleraine is a town in County Derry, Northern Ireland.",
+        "id": "place_480"
       }
     ]
   },
@@ -616,11 +616,6 @@
   "48": {
     "places": [
       {
-        "name": "Giant's Causeway",
-        "description": "The Giant's Causeway is an extensive area of columnar basalt in County Antrim, Northern Ireland, formed by an ancient volcanic fissure eruption.",
-        "id": "place_126"
-      },
-      {
         "name": "Dunluce",
         "description": "Dunluce is the site of a ruined castle on the Antrim coastline, Northern Ireland.",
         "id": "place_127"
@@ -629,6 +624,11 @@
         "name": "Pleaskin Cliff",
         "description": "Pleaskin Head is a cliff that is part of the Giant's Causeway coastline, Northern Ireland.",
         "id": "place_479"
+      },
+      {
+        "name": "Giant's Causeway",
+        "description": "The Giant's Causeway is an extensive area of columnar basalt in County Antrim, Northern Ireland, formed by an ancient volcanic fissure eruption.",
+        "id": "place_126"
       }
     ]
   },
@@ -644,14 +644,14 @@
   "50": {
     "places": [
       {
-        "name": "Dunluce",
-        "description": "Dunluce is the site of a ruined castle on the Antrim coastline, Northern Ireland.",
-        "id": "place_127"
-      },
-      {
         "name": "Portrush",
         "description": "A small seaside town on north coast of County Antrim, Northern Ireland.",
         "id": "place_146"
+      },
+      {
+        "name": "Dunluce",
+        "description": "Dunluce is the site of a ruined castle on the Antrim coastline, Northern Ireland.",
+        "id": "place_127"
       }
     ]
   },
@@ -735,14 +735,14 @@
   "64": {
     "places": [
       {
-        "name": "Giant's Causeway",
-        "description": "The Giant's Causeway is an extensive area of columnar basalt in County Antrim, Northern Ireland, formed by an ancient volcanic fissure eruption.",
-        "id": "place_126"
-      },
-      {
         "name": "Pleaskin Cliff",
         "description": "Pleaskin Head is a cliff that is part of the Giant's Causeway coastline, Northern Ireland.",
         "id": "place_479"
+      },
+      {
+        "name": "Giant's Causeway",
+        "description": "The Giant's Causeway is an extensive area of columnar basalt in County Antrim, Northern Ireland, formed by an ancient volcanic fissure eruption.",
+        "id": "place_126"
       }
     ]
   },
@@ -805,14 +805,14 @@
   "72": {
     "places": [
       {
-        "name": "Ballycastle, County Antrim",
-        "description": "A small town in County Antrim, Northern Ireland.",
-        "id": "place_135"
-      },
-      {
         "name": "Fairhead",
         "description": "Fairhead is a spectacular 5km long, 82m high cliff above the sea at Ballycastle, County Antrim, Northern Ireland. It is a dolerite sill.",
         "id": "place_132"
+      },
+      {
+        "name": "Ballycastle, County Antrim",
+        "description": "A small town in County Antrim, Northern Ireland.",
+        "id": "place_135"
       }
     ]
   },
@@ -824,14 +824,14 @@
         "id": "place_482"
       },
       {
-        "name": "Ballycastle, County Antrim",
-        "description": "A small town in County Antrim, Northern Ireland.",
-        "id": "place_135"
-      },
-      {
         "name": "Fairhead",
         "description": "Fairhead is a spectacular 5km long, 82m high cliff above the sea at Ballycastle, County Antrim, Northern Ireland. It is a dolerite sill.",
         "id": "place_132"
+      },
+      {
+        "name": "Ballycastle, County Antrim",
+        "description": "A small town in County Antrim, Northern Ireland.",
+        "id": "place_135"
       }
     ]
   },
@@ -902,24 +902,24 @@
   "79": {
     "places": [
       {
-        "name": "Bangor, County Down",
-        "description": "Bangor is a coastal town in County Down, Northern Ireland. It lies on the southern shore of Belfast Lough.",
-        "id": "place_495"
-      },
-      {
-        "name": "Mull of Galloway",
-        "description": "The Mull of Galloway is the headland of a peninsula in south-west Scotland, across the Irish Sea from County Antrim, Northern Ireland.",
-        "id": "place_496"
-      },
-      {
         "name": "Donegal",
         "description": "Donegal is a town at the mouth of the River Eske, in north-west Ireland.",
         "id": "place_047"
       },
       {
+        "name": "Bangor, County Down",
+        "description": "Bangor is a coastal town in County Down, Northern Ireland. It lies on the southern shore of Belfast Lough.",
+        "id": "place_495"
+      },
+      {
         "name": "Mourne Mountains",
         "description": "Slieve Donard is located in the Mourne Mountains of County Down, Northern Ireland. It is Northern Ireland's highest mountain at 850m.",
         "id": "place_494"
+      },
+      {
+        "name": "Mull of Galloway",
+        "description": "The Mull of Galloway is the headland of a peninsula in south-west Scotland, across the Irish Sea from County Antrim, Northern Ireland.",
+        "id": "place_496"
       }
     ]
   },
@@ -940,14 +940,14 @@
   "81": {
     "places": [
       {
+        "name": "Cumberland",
+        "description": "Cumberland is a historic county in the far north-west of England.",
+        "id": "place_079"
+      },
+      {
         "name": "Wales",
         "description": "Wales is a country in southwest Great Britain known for its rugged coastline, mountainous national parks, distinctive Welsh language and Celtic culture.",
         "id": "place_122"
-      },
-      {
-        "name": "Whitehaven",
-        "description": "Whitehaven is a town on the west coast of the Lake District county of Cumbria. Historically it was in Cumberland.",
-        "id": "place_488"
       },
       {
         "name": "Westmorland",
@@ -955,29 +955,19 @@
         "id": "place_078"
       },
       {
-        "name": "Cumberland",
-        "description": "Cumberland is a historic county in the far north-west of England.",
-        "id": "place_079"
-      },
-      {
         "name": "Kendal",
         "description": "Kendal is a market town in the Lake District County of Cumbria.",
         "id": "place_489"
+      },
+      {
+        "name": "Whitehaven",
+        "description": "Whitehaven is a town on the west coast of the Lake District county of Cumbria. Historically it was in Cumberland.",
+        "id": "place_488"
       }
     ]
   },
   "82": {
     "places": [
-      {
-        "name": "Chorley",
-        "description": "A town in Lancashire, England.",
-        "id": "place_762"
-      },
-      {
-        "name": "Maryport",
-        "description": "A town in Cumbria, near the Lake District.",
-        "id": "place_754"
-      },
       {
         "name": "Helvellyn",
         "description": "A mountain in the English Lake District. Davy climbed this on 14 August 1805 with William Wordsworth and Walter Scott.",
@@ -989,9 +979,9 @@
         "id": "place_761"
       },
       {
-        "name": "Skiddaw",
-        "description": "A mountain in the Lake District, near Keswick.",
-        "id": "place_755"
+        "name": "Kendal",
+        "description": "Kendal is a market town in the Lake District County of Cumbria.",
+        "id": "place_489"
       },
       {
         "name": "Scotland",
@@ -999,24 +989,24 @@
         "id": "place_235"
       },
       {
-        "name": "Kendal",
-        "description": "Kendal is a market town in the Lake District County of Cumbria.",
-        "id": "place_489"
+        "name": "Chorley",
+        "description": "A town in Lancashire, England.",
+        "id": "place_762"
+      },
+      {
+        "name": "Maryport",
+        "description": "A town in Cumbria, near the Lake District.",
+        "id": "place_754"
+      },
+      {
+        "name": "Skiddaw",
+        "description": "A mountain in the Lake District, near Keswick.",
+        "id": "place_755"
       }
     ]
   },
   "83": {
     "places": [
-      {
-        "name": "Ashbourne, Derbyshire",
-        "description": "Ashbourne is a town in Derbyshire, England, close to the entrance of Dovedale.",
-        "id": "place_491"
-      },
-      {
-        "name": "Coleorton",
-        "description": "Coleorton is a village in Leicestershire and the location of Coleorton Hall, the home of George Beaumont, friend of William Wordsworth, Samuel Taylor Coleridge, and Davy.",
-        "id": "place_493"
-      },
       {
         "name": "Buxton",
         "description": "Buxton is a spa town in Derbyshire, England.",
@@ -1026,6 +1016,16 @@
         "name": "Derbyshire",
         "description": "Derbyshire is a county in the East Midlands and includes part of the Peak District.",
         "id": "place_085"
+      },
+      {
+        "name": "Ashbourne, Derbyshire",
+        "description": "Ashbourne is a town in Derbyshire, England, close to the entrance of Dovedale.",
+        "id": "place_491"
+      },
+      {
+        "name": "Coleorton",
+        "description": "Coleorton is a village in Leicestershire and the location of Coleorton Hall, the home of George Beaumont, friend of William Wordsworth, Samuel Taylor Coleridge, and Davy.",
+        "id": "place_493"
       },
       {
         "name": "Derby",

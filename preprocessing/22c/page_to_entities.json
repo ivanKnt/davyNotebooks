@@ -2,6 +2,11 @@
   "2": {
     "places": [
       {
+        "name": "Axbridge",
+        "description": "Possibly the small town of Axbridge in Somerset.",
+        "id": "place_368"
+      },
+      {
         "name": "Lainaston",
         "description": "Untraced.",
         "id": "place_369"
@@ -10,11 +15,6 @@
         "name": "London Institution",
         "description": "The London Institution was founded in 1806. Francis Baring (1740–1810), a wealthy banker, was an instigator of the London Institution and became its first President.",
         "id": "place_365"
-      },
-      {
-        "name": "Axbridge",
-        "description": "Possibly the small town of Axbridge in Somerset.",
-        "id": "place_368"
       }
     ]
   },
@@ -50,18 +50,18 @@
   "15": {
     "persons": [
       {
-        "name": "Pluto",
-        "birth": null,
-        "death": null,
-        "description": "The ruler of the underworld in ancient Greek mythology and religion.",
-        "id": "person_263"
-      },
-      {
         "name": "Muhammad",
         "birth": "",
         "death": "",
         "description": "The Holy Prophet and founder of Islam.",
         "id": "person_114"
+      },
+      {
+        "name": "Pluto",
+        "birth": null,
+        "death": null,
+        "description": "The ruler of the underworld in ancient Greek mythology and religion.",
+        "id": "person_263"
       }
     ]
   },
@@ -70,6 +70,13 @@
   "19": {},
   "20": {
     "persons": [
+      {
+        "name": "Georges-Louis Leclerc, Comte deBuffon",
+        "birth": "",
+        "death": "",
+        "description": "French naturalist, mathematician and cosmologist. His Histoire Naturelle, published in 1789, ran to 37 volumes. ForMemRSL.",
+        "id": "person_266"
+      },
       {
         "name": "Abraham GottlobWerner",
         "birth": "",
@@ -83,13 +90,6 @@
         "death": "",
         "description": "French priest, crystallographer and mineralogist who wrote the five volume Traité de minéralogie (1801). ForMemRSL.",
         "id": "person_307"
-      },
-      {
-        "name": "Georges-Louis Leclerc, Comte deBuffon",
-        "birth": "",
-        "death": "",
-        "description": "French naturalist, mathematician and cosmologist. His Histoire Naturelle, published in 1789, ran to 37 volumes. ForMemRSL.",
-        "id": "person_266"
       }
     ],
     "works": [
@@ -150,18 +150,18 @@
   "35": {
     "persons": [
       {
-        "name": "HenryPemberton",
-        "birth": "",
-        "death": "",
-        "description": "An English physician and man of letters, who edited the third edition of Isaac Newton's Principia Mathematica. FRSL.",
-        "id": "person_298"
-      },
-      {
         "name": "IsaacBarrow",
         "birth": "",
         "death": "",
         "description": "First Lucasian Professor of Mathematics at Cambridge University. Isaac Newton was his student. FRSL.",
         "id": "person_299"
+      },
+      {
+        "name": "HenryPemberton",
+        "birth": "",
+        "death": "",
+        "description": "An English physician and man of letters, who edited the third edition of Isaac Newton's Principia Mathematica. FRSL.",
+        "id": "person_298"
       },
       {
         "name": "IsaacNewton",
@@ -277,29 +277,29 @@
         "id": "person_275"
       },
       {
-        "name": "UlisseAldrovandi",
-        "birth": "",
-        "death": "",
-        "description": "Italian naturalist and father of natural history according to Buffon and Linneaus.",
-        "id": "person_276"
-      },
-      {
         "name": "CarlLinnaeus",
         "birth": "",
         "death": "",
         "description": "Professor of Physic and Botany at Uppsala University. Developed the modern system of taxonomic classification. ForMemFRSL.",
         "id": "person_247"
+      },
+      {
+        "name": "UlisseAldrovandi",
+        "birth": "",
+        "death": "",
+        "description": "Italian naturalist and father of natural history according to Buffon and Linneaus.",
+        "id": "person_276"
       }
     ]
   },
   "54": {
     "persons": [
       {
-        "name": "SamuelJohnson",
+        "name": "UlisseAldrovandi",
         "birth": "",
         "death": "",
-        "description": "Johnson was a poet, novelist, essayist, playwright and lexicographer.",
-        "id": "person_088"
+        "description": "Italian naturalist and father of natural history according to Buffon and Linneaus.",
+        "id": "person_276"
       },
       {
         "name": "Georges-Louis Leclerc, Comte deBuffon",
@@ -309,23 +309,16 @@
         "id": "person_266"
       },
       {
-        "name": "UlisseAldrovandi",
+        "name": "SamuelJohnson",
         "birth": "",
         "death": "",
-        "description": "Italian naturalist and father of natural history according to Buffon and Linneaus.",
-        "id": "person_276"
+        "description": "Johnson was a poet, novelist, essayist, playwright and lexicographer.",
+        "id": "person_088"
       }
     ]
   },
   "55": {
     "persons": [
-      {
-        "name": "Theophrastus",
-        "birth": "",
-        "death": "",
-        "description": "A Greek philosopher and the successor to Aristotle in the Peripatetic school.",
-        "id": "person_277"
-      },
       {
         "name": "FrancisBacon",
         "birth": "",
@@ -339,6 +332,13 @@
         "death": "",
         "description": "The Elder. Roman army officer and author who wrote an encyclopedic Natural History. Died in the aftermath of the eruption of Vesuvius.",
         "id": "person_185"
+      },
+      {
+        "name": "Theophrastus",
+        "birth": "",
+        "death": "",
+        "description": "A Greek philosopher and the successor to Aristotle in the Peripatetic school.",
+        "id": "person_277"
       }
     ]
   },
@@ -359,13 +359,6 @@
   "61": {
     "persons": [
       {
-        "name": "Jan Baptist vanHelmont",
-        "birth": "",
-        "death": "",
-        "description": "Experimental alchemist and physician born in Brussels. Is credited as the founded of pneumatic chemistry and coined the word gas.",
-        "id": "person_221"
-      },
-      {
         "name": "SlareFrederick",
         "birth": "",
         "death": "",
@@ -378,6 +371,13 @@
         "death": "",
         "description": "Dutch physician and alchemical writer, usually known as Helvetius.",
         "id": "person_278"
+      },
+      {
+        "name": "Jan Baptist vanHelmont",
+        "birth": "",
+        "death": "",
+        "description": "Experimental alchemist and physician born in Brussels. Is credited as the founded of pneumatic chemistry and coined the word gas.",
+        "id": "person_221"
       }
     ]
   },
@@ -386,23 +386,30 @@
   "64": {
     "persons": [
       {
-        "name": "Jan Baptist vanHelmont",
-        "birth": "",
-        "death": "",
-        "description": "Experimental alchemist and physician born in Brussels. Is credited as the founded of pneumatic chemistry and coined the word gas.",
-        "id": "person_221"
-      },
-      {
         "name": "FrancisBacon",
         "birth": "",
         "death": "",
         "description": "English lawyer, politician and natural philosopher. His influential writings encouraged experimentation and the use of induction in investigating the natural world. He also recommended establishing institutions to promote collaborative research.",
         "id": "person_124"
+      },
+      {
+        "name": "Jan Baptist vanHelmont",
+        "birth": "",
+        "death": "",
+        "description": "Experimental alchemist and physician born in Brussels. Is credited as the founded of pneumatic chemistry and coined the word gas.",
+        "id": "person_221"
       }
     ]
   },
   "65": {
     "persons": [
+      {
+        "name": "RobertHooke",
+        "birth": "",
+        "death": "",
+        "description": "Natural philosopher who acted as experimental demonstrator at the Royal Society of London during its early years. Prominent in the study of air and microscopy amongst other subjects. FRSL.",
+        "id": "person_246"
+      },
       {
         "name": "RobertBoyle",
         "birth": "",
@@ -418,11 +425,11 @@
         "id": "person_283"
       },
       {
-        "name": "RobertHooke",
+        "name": "IsaacNewton",
         "birth": "",
         "death": "",
-        "description": "Natural philosopher who acted as experimental demonstrator at the Royal Society of London during its early years. Prominent in the study of air and microscopy amongst other subjects. FRSL.",
-        "id": "person_246"
+        "description": "Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy & Newton' in one inch letters. FRSL.",
+        "id": "person_036"
       },
       {
         "name": "MissSlater",
@@ -430,13 +437,6 @@
         "death": null,
         "description": "Dates untraced. Female subscriber at Royal Institution, full details untraced.",
         "id": "person_285"
-      },
-      {
-        "name": "IsaacNewton",
-        "birth": "",
-        "death": "",
-        "description": "Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy & Newton' in one inch letters. FRSL.",
-        "id": "person_036"
       },
       {
         "name": "Mrs S.Turner",
@@ -471,6 +471,13 @@
   "70": {
     "persons": [
       {
+        "name": "HenryCavendish",
+        "birth": "",
+        "death": "",
+        "description": "A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL.",
+        "id": "person_026"
+      },
+      {
         "name": "JosephPriestley",
         "birth": "",
         "death": "",
@@ -483,13 +490,6 @@
         "death": "",
         "description": "From 1766, Professor of Medcine and Chemistry at the University of Edinburgh. Discovered latent heat and fixed air, later renamed carbon dioxide. A correspondent of James Watt and Thomas Beddoes (who studied under him).",
         "id": "person_231"
-      },
-      {
-        "name": "HenryCavendish",
-        "birth": "",
-        "death": "",
-        "description": "A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL.",
-        "id": "person_026"
       }
     ]
   },
@@ -512,11 +512,6 @@
   "77": {
     "places": [
       {
-        "name": "London",
-        "description": "The capital city of England and the United Kingdom.",
-        "id": "place_071"
-      },
-      {
         "name": "Rome",
         "description": "The capital of Italy.",
         "id": "place_155"
@@ -525,6 +520,11 @@
         "name": "Athens",
         "description": "Athens is the capital city of Greece.",
         "id": "place_208"
+      },
+      {
+        "name": "London",
+        "description": "The capital city of England and the United Kingdom.",
+        "id": "place_071"
       }
     ]
   },
@@ -533,13 +533,6 @@
   "80": {},
   "81": {
     "persons": [
-      {
-        "name": "JohnMilton",
-        "birth": "",
-        "death": "",
-        "description": "Milton was a poet and polemicist. He wrote the epic poem Paradise Lost.",
-        "id": "person_031"
-      },
       {
         "name": "FrancisBacon",
         "birth": "",
@@ -553,24 +546,31 @@
         "death": "",
         "description": "Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy & Newton' in one inch letters. FRSL.",
         "id": "person_036"
-      }
-    ]
-  },
-  "82": {
-    "persons": [
+      },
       {
         "name": "JohnMilton",
         "birth": "",
         "death": "",
         "description": "Milton was a poet and polemicist. He wrote the epic poem Paradise Lost.",
         "id": "person_031"
-      },
+      }
+    ]
+  },
+  "82": {
+    "persons": [
       {
         "name": "TorquatoTasso",
         "birth": "",
         "death": "",
         "description": "Italian poet.",
         "id": "person_529"
+      },
+      {
+        "name": "JohnMilton",
+        "birth": "",
+        "death": "",
+        "description": "Milton was a poet and polemicist. He wrote the epic poem Paradise Lost.",
+        "id": "person_031"
       }
     ]
   },
@@ -598,11 +598,11 @@
   "87": {
     "persons": [
       {
-        "name": "ThomasWebster",
+        "name": "GeorgeShaw",
         "birth": "",
         "death": "",
-        "description": "Assisted lecturers at the RI, including making transparencies use in Davy's courses of lectures on geology.",
-        "id": "person_287"
+        "description": "Assistant Keeper and then Keeper of natural history at the British Museum. A friend of Davy's. FRSL.",
+        "id": "person_289"
       },
       {
         "name": "ThomasBernard",
@@ -619,11 +619,11 @@
         "id": "person_286"
       },
       {
-        "name": "GeorgeShaw",
+        "name": "ThomasWebster",
         "birth": "",
         "death": "",
-        "description": "Assistant Keeper and then Keeper of natural history at the British Museum. A friend of Davy's. FRSL.",
-        "id": "person_289"
+        "description": "Assisted lecturers at the RI, including making transparencies use in Davy's courses of lectures on geology.",
+        "id": "person_287"
       }
     ]
   },
@@ -671,18 +671,18 @@
   "94": {
     "persons": [
       {
-        "name": "Jean-ClaudeDelamétherie",
-        "birth": "",
-        "death": "",
-        "description": "French mineralogist and naturalist.",
-        "id": "person_291"
-      },
-      {
         "name": "Eugene Louis MelchiorPatrin",
         "birth": "",
         "death": "",
         "description": "French mineralogist and naturalist.",
         "id": "person_290"
+      },
+      {
+        "name": "Jean-ClaudeDelamétherie",
+        "birth": "",
+        "death": "",
+        "description": "French mineralogist and naturalist.",
+        "id": "person_291"
       },
       {
         "name": "GregoryWatt",
@@ -710,18 +710,18 @@
         "id": "person_301"
       },
       {
-        "name": "Déodat Gratet deDolomieu",
-        "birth": "",
-        "death": "",
-        "description": "French geologist. The rock, and region of the Alps, dolomite was named after him.",
-        "id": "person_300"
-      },
-      {
         "name": "Abraham GottlobWerner",
         "birth": "",
         "death": "",
         "description": "German geologist who proposed the theory of Neptunism and who also proposed the chronological sequence found in stratified rocks.",
         "id": "person_267"
+      },
+      {
+        "name": "Déodat Gratet deDolomieu",
+        "birth": "",
+        "death": "",
+        "description": "French geologist. The rock, and region of the Alps, dolomite was named after him.",
+        "id": "person_300"
       }
     ],
     "works": [
@@ -770,14 +770,14 @@
   "112": {
     "places": [
       {
-        "name": "Cornwall",
-        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
-        "id": "place_021"
-      },
-      {
         "name": "Dublin",
         "description": "The capital city of the Republic of Ireland.",
         "id": "place_399"
+      },
+      {
+        "name": "Cornwall",
+        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
+        "id": "place_021"
       }
     ]
   },
@@ -834,18 +834,18 @@
   "125": {
     "persons": [
       {
-        "name": "JamesHall",
-        "birth": "",
-        "death": "",
-        "description": "Scottish baronet (1776) and MP. Chemist and geologist who supported of James Hutton's theories of uniformitarian geology. FRSL.",
-        "id": "person_164"
-      },
-      {
         "name": "GregoryWatt",
         "birth": "",
         "death": "",
         "description": "Youngest son of James Watt. Lodged with Davy's mother in Penzance during the winter of 1797-8 and became close friends with Davy.",
         "id": "person_261"
+      },
+      {
+        "name": "JamesHall",
+        "birth": "",
+        "death": "",
+        "description": "Scottish baronet (1776) and MP. Chemist and geologist who supported of James Hutton's theories of uniformitarian geology. FRSL.",
+        "id": "person_164"
       }
     ]
   },
@@ -853,18 +853,18 @@
   "127": {
     "persons": [
       {
-        "name": "Johann GottlobLehmann",
-        "birth": "",
-        "death": "",
-        "description": "German mineralogist and geologist.",
-        "id": "person_305"
-      },
-      {
         "name": "AthanasiusKircher",
         "birth": "",
         "death": "",
         "description": "Prolific German Jesuit scholar and polymath who published many book, including on geology.",
         "id": "person_306"
+      },
+      {
+        "name": "Johann GottlobLehmann",
+        "birth": "",
+        "death": "",
+        "description": "German mineralogist and geologist.",
+        "id": "person_305"
       },
       {
         "name": "JohnWoodward",
@@ -899,14 +899,14 @@
   "133": {
     "places": [
       {
-        "name": "Edinburgh",
-        "description": "The capital city of Scotland.",
-        "id": "place_284"
-      },
-      {
         "name": "London Institution",
         "description": "The London Institution was founded in 1806. Francis Baring (1740–1810), a wealthy banker, was an instigator of the London Institution and became its first President.",
         "id": "place_365"
+      },
+      {
+        "name": "Edinburgh",
+        "description": "The capital city of Scotland.",
+        "id": "place_284"
       }
     ]
   },
@@ -981,6 +981,13 @@
   "150": {
     "persons": [
       {
+        "name": "GregoryWatt",
+        "birth": "",
+        "death": "",
+        "description": "Youngest son of James Watt. Lodged with Davy's mother in Penzance during the winter of 1797-8 and became close friends with Davy.",
+        "id": "person_261"
+      },
+      {
         "name": "JamesHall",
         "birth": "",
         "death": "",
@@ -993,13 +1000,6 @@
         "death": "",
         "description": "A Scottish scientific instrument maker who studied with the chemist Joseph Black at Glasgow University. He developed the separate condenser for steam engines which increased their effieciency significantly. He took out a twenty-five-year patent (ending in 1800) and moved to Birmingham where he went into partnership with the businessman and industrialist Matthew Boulton. They made their fortune by having an effective monopoly of manufacturing steam engines. A friend of Thomas Beddoes, he met Davy on a number of occasions and Davy gave the oration at the unveiling of Watt's statue in Greenock. FRSL.",
         "id": "person_146"
-      },
-      {
-        "name": "GregoryWatt",
-        "birth": "",
-        "death": "",
-        "description": "Youngest son of James Watt. Lodged with Davy's mother in Penzance during the winter of 1797-8 and became close friends with Davy.",
-        "id": "person_261"
       }
     ]
   },

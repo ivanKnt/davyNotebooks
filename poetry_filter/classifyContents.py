@@ -20,62 +20,101 @@ def load_classifications(notebook_path):
 
 
 def process_page_classifications(page_data):
-    """Process a single page's classifications into percentages and consensus."""
+    """
+    Process raw classification data for a single page into a structured format.
+    
+    The raw data from volunteer classifications comes in two possible formats:
+    1. List format: ['Electrochemistry', 'Lecture notes', 'Electrochemistry', ...]
+       This represents individual volunteer classifications
+    2. Dictionary format: {"Electrochemistry": 0.857, "Poetry": 0.143}
+       This represents pre-aggregated percentages
+    
+    This function:
+    - Counts votes and calculates percentage agreement
+    - Determines the "consensus" (most common classification)
+    - Normalizes the output format for consistency
+    
+    Returns:
+        dict: {
+            "Electrochemistry": 0.857,
+            "Poetry": 0.143,
+            "page_consensus": "electrochemistry"
+        }
+    """
     if isinstance(page_data, list):
-        # Handle list format: ['Electrochemistry', 'Lecture notes', ...]
+        # Format 1: Individual volunteer classifications
+        # Example: ['Electrochemistry', 'Electrochemistry', 'Lecture notes']
         classification_counts = Counter(page_data)
         total_classifications = len(page_data)
 
         if total_classifications == 0:
             return {"page_consensus": "unknown"}
 
-        # Calculate percentages
+        # Calculate percentage agreement for each classification type
         processed_data = {}
         for classification, count in classification_counts.items():
             percentage = count / total_classifications
             processed_data[classification] = round(percentage, 3)
 
-        # Determine consensus (highest percentage)
+        # Determine consensus - the classification with the most votes
         consensus = max(classification_counts.keys(), key=lambda x: classification_counts[x])
         processed_data["page_consensus"] = consensus.lower()
 
         return processed_data
 
     elif isinstance(page_data, dict):
-        # Handle dictionary format: {"Electrochemistry": 0.857, "Poetry": 0.143}
-        # This is pre-aggregated data, normalize and find consensus
+        # Format 2: Pre-aggregated percentages
+        # Example: {"Electrochemistry": 0.857, "Poetry": 0.143}
         processed_data = {}
 
-        # Normalize any numeric values to percentages if needed
+        # Normalize the values to ensure they're in decimal format (0-1)
         for classification, value in page_data.items():
             if isinstance(value, (int, float)):
-                # Convert to decimal if it's a percentage (0-100), otherwise assume it's already decimal (0-1)
+                # If value > 1, assume it's a percentage (0-100) and convert to decimal
                 if value > 1:
                     processed_data[classification] = round(value / 100, 3)
                 else:
+                    # Already in decimal format (0-1)
                     processed_data[classification] = round(value, 3)
             else:
-                # If not numeric, skip this classification
+                # Skip non-numeric values (shouldn't happen, but defensive programming)
                 continue
 
         if not processed_data:
             return {"page_consensus": "unknown"}
 
-        # Find consensus (highest percentage)
+        # Find the classification with the highest percentage
         consensus = max(processed_data.keys(), key=lambda x: processed_data[x])
         processed_data["page_consensus"] = consensus.lower()
 
         return processed_data
 
     else:
-        # Unknown format
+        # Unknown format - shouldn't happen with valid data
         return {"page_consensus": "unknown"}
 
 
 def calculate_book_consensus(pages_data):
-    """Calculate the overall book consensus based on page consensuses."""
+    """
+    Determine the overall classification for an entire notebook.
+    
+    This is a "majority vote" approach - we look at the consensus classification
+    for each page and find which classification type appears most frequently
+    across all pages.
+    
+    For example:
+    - If 15 pages are classified as "Electrochemistry" and 5 as "Poetry",
+      the book consensus will be "Electrochemistry"
+    
+    Args:
+        pages_data: Dictionary of processed page data, where each page has a "page_consensus"
+    
+    Returns:
+        str: The most common page classification across the notebook
+    """
     page_consensuses = []
 
+    # Collect the consensus classification from each page
     for page_data in pages_data.values():
         if isinstance(page_data, dict) and "page_consensus" in page_data:
             page_consensuses.append(page_data["page_consensus"])
@@ -83,8 +122,9 @@ def calculate_book_consensus(pages_data):
     if not page_consensuses:
         return "unknown"
 
-    # Find most common consensus
+    # Count how many pages have each classification
     consensus_counts = Counter(page_consensuses)
+    # Find the most frequent classification
     book_consensus = max(consensus_counts.keys(), key=lambda x: consensus_counts[x])
 
     return book_consensus

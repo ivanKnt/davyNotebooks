@@ -23,14 +23,14 @@
     ],
     "places": [
       {
+        "name": "Monte Nuovo",
+        "description": "A cinder cone volcano near Naples, Italy, that first formed in the sixteenth century.",
+        "id": "place_720"
+      },
+      {
         "name": "Lake Avernus",
         "description": "A volcanic crater lake located in the Avernus crater in the Campania region of southern Italy. It is near the volcanic field known as the Phlegraean Fields and comprises part of the wider Campanian volcanic arc.",
         "id": "place_1165"
-      },
-      {
-        "name": "Naples",
-        "description": "Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.",
-        "id": "place_156"
       },
       {
         "name": "phlegrean fields",
@@ -38,9 +38,9 @@
         "id": "place_183"
       },
       {
-        "name": "Monte Nuovo",
-        "description": "A cinder cone volcano near Naples, Italy, that first formed in the sixteenth century.",
-        "id": "place_720"
+        "name": "Naples",
+        "description": "Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.",
+        "id": "place_156"
       }
     ]
   },
@@ -121,6 +121,11 @@
     ],
     "places": [
       {
+        "name": "Mount Somma",
+        "description": "A mountain located in the Province of Naples, in the Campania region of southern Italy. It has a collapsed caldera of an older volcano, with Mount Vesuvius rising up from the center.",
+        "id": "place_1169"
+      },
+      {
         "name": "Mount Vesuvius",
         "description": "Mount Vesuvius is a somma-stratovolcano located on the Gulf of Naples in Campania, Italy.",
         "id": "place_169"
@@ -129,16 +134,21 @@
         "name": "Naples",
         "description": "Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.",
         "id": "place_156"
-      },
-      {
-        "name": "Mount Somma",
-        "description": "A mountain located in the Province of Naples, in the Campania region of southern Italy. It has a collapsed caldera of an older volcano, with Mount Vesuvius rising up from the center.",
-        "id": "place_1169"
       }
     ]
   },
   "11": {
     "places": [
+      {
+        "name": "Grotto del Cane",
+        "description": "A cave by the Lake of Agnano, in southern Italy, that has a high concentration of carbon dioxide. Dogs were used to demonstrate this as a kind of tourist attraction, which the Shelleys refused to allow when they visited.",
+        "id": "place_718"
+      },
+      {
+        "name": "Monte Nuovo",
+        "description": "A cinder cone volcano near Naples, Italy, that first formed in the sixteenth century.",
+        "id": "place_720"
+      },
       {
         "name": "Solfatara Caldera",
         "description": "Solfatara di Pozzuoli is a volcanic crater near Naples. Though a dormant volcano, it emits jets of steam and sulphurous fumes.",
@@ -150,19 +160,9 @@
         "id": "place_1165"
       },
       {
-        "name": "Grotto del Cane",
-        "description": "A cave by the Lake of Agnano, in southern Italy, that has a high concentration of carbon dioxide. Dogs were used to demonstrate this as a kind of tourist attraction, which the Shelleys refused to allow when they visited.",
-        "id": "place_718"
-      },
-      {
         "name": "Lake of Agnano",
         "description": "Lake Agnano, in southern Italy, was a lake in the crater of the extinct volcano (Agnano). It was drained in 1870.",
         "id": "place_717"
-      },
-      {
-        "name": "Monte Nuovo",
-        "description": "A cinder cone volcano near Naples, Italy, that first formed in the sixteenth century.",
-        "id": "place_720"
       }
     ]
   },
@@ -207,35 +207,30 @@
   "16": {
     "persons": [
       {
-        "name": "Déodat Gratet deDolomieu",
-        "birth": "",
-        "death": "",
-        "description": "French geologist. The rock, and region of the Alps, dolomite was named after him.",
-        "id": "person_300"
-      },
-      {
         "name": "LazzaroSpallanzani",
         "birth": "",
         "death": "",
         "description": "Italian priest, biologist and physiologist.",
         "id": "person_308"
+      },
+      {
+        "name": "Déodat Gratet deDolomieu",
+        "birth": "",
+        "death": "",
+        "description": "French geologist. The rock, and region of the Alps, dolomite was named after him.",
+        "id": "person_300"
       }
     ],
     "places": [
-      {
-        "name": "Lipari",
-        "description": "A commune including six of seven islands of the Aeolian Islands located in the Tyrrhenian Sea off the northern coast of Sicily in southern Italy.",
-        "id": "place_408"
-      },
       {
         "name": "Antilles",
         "description": "An archipelago bordered by the Caribbean Sea to the south and west, the Gulf of Mexico to the northwest, and the Atlantic Ocean to the north and east.",
         "id": "place_1170"
       },
       {
-        "name": "Azores",
-        "description": "An autonomous region of Portugal, the Azores are an archipelago in the mid-Atlantic.",
-        "id": "place_1044"
+        "name": "Lipari",
+        "description": "A commune including six of seven islands of the Aeolian Islands located in the Tyrrhenian Sea off the northern coast of Sicily in southern Italy.",
+        "id": "place_408"
       },
       {
         "name": "Society Islands",
@@ -246,6 +241,11 @@
         "name": "Madeira Islands",
         "description": "Madeira, an autonomous region of Portugal, is an archipelago comprising 4 islands off the northwest coast of Africa.",
         "id": "place_1172"
+      },
+      {
+        "name": "Azores",
+        "description": "An autonomous region of Portugal, the Azores are an archipelago in the mid-Atlantic.",
+        "id": "place_1044"
       }
     ]
   },
@@ -261,6 +261,11 @@
     ],
     "places": [
       {
+        "name": "phlegrean fields",
+        "description": "A volcano/volcanic area near Naples, Italy.",
+        "id": "place_183"
+      },
+      {
         "name": "Vulcano",
         "description": "a small volcanic island belonging to Italy in the Tyrrhenian Sea, about 20 km (12 mi) north of Sicily and located at the southernmost end of the seven Aeolian Islands.",
         "id": "place_1173"
@@ -269,11 +274,6 @@
         "name": "Stromboli",
         "description": "an island in the Tyrrhenian Sea, off the north coast of Sicily, containing Mount Stromboli, one of the four active volcanoes in Italy. It is one of the seven Aeolian Islands, a volcanic arc north of Sicily.",
         "id": "place_1174"
-      },
-      {
-        "name": "phlegrean fields",
-        "description": "A volcano/volcanic area near Naples, Italy.",
-        "id": "place_183"
       }
     ]
   },
@@ -327,9 +327,9 @@
     ],
     "places": [
       {
-        "name": "Vulcano",
-        "description": "a small volcanic island belonging to Italy in the Tyrrhenian Sea, about 20 km (12 mi) north of Sicily and located at the southernmost end of the seven Aeolian Islands.",
-        "id": "place_1173"
+        "name": "Vulcanello",
+        "description": "A small peninsula on Vulcano with black-sand beaches & the Valle dei Mostri’s grotesque lava rock formations.",
+        "id": "place_1175"
       },
       {
         "name": "Lipari",
@@ -342,9 +342,9 @@
         "id": "place_704"
       },
       {
-        "name": "Vulcanello",
-        "description": "A small peninsula on Vulcano with black-sand beaches & the Valle dei Mostri’s grotesque lava rock formations.",
-        "id": "place_1175"
+        "name": "Vulcano",
+        "description": "a small volcanic island belonging to Italy in the Tyrrhenian Sea, about 20 km (12 mi) north of Sicily and located at the southernmost end of the seven Aeolian Islands.",
+        "id": "place_1173"
       }
     ]
   },
@@ -356,14 +356,14 @@
         "id": "place_1176"
       },
       {
-        "name": "Terceira Island",
-        "description": "a volcanic island in the Azores archipelago.",
-        "id": "place_1177"
-      },
-      {
         "name": "Mount Etna",
         "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
         "id": "place_184"
+      },
+      {
+        "name": "Terceira Island",
+        "description": "a volcanic island in the Azores archipelago.",
+        "id": "place_1177"
       },
       {
         "name": "Azores",
@@ -382,50 +382,50 @@
   "27": {
     "places": [
       {
-        "name": "Manila",
-        "description": "Capital city of the Philippines",
-        "id": "place_1178"
-      },
-      {
-        "name": "The Philippines",
-        "description": "an archipelagic country in Southeast Asia.",
-        "id": "place_1179"
-      },
-      {
         "name": "Cyclades",
         "description": "an island group in the Aegean Sea. It is likely where Davy is referring to when he says \"Western Asiatic Archipelago\"",
         "id": "place_1180"
       },
       {
+        "name": "Manila",
+        "description": "Capital city of the Philippines",
+        "id": "place_1178"
+      },
+      {
         "name": "Santorini",
         "description": "One of the Cyclades islands in the Aegean Sea. The island was devastated by a volcanic eruption in the 16th century BC.",
         "id": "place_846"
+      },
+      {
+        "name": "The Philippines",
+        "description": "an archipelagic country in Southeast Asia.",
+        "id": "place_1179"
       }
     ],
     "works": [
       {
-        "name": "The Philosophical Transactions (From the Year 1719, to the Year 1733) Abridged and Disposed under General Heads",
-        "author": "Thomas Foster (eds. John Eames and John Martyn)",
-        "id": "otherwork_279"
-      },
-      {
         "name": "Philosophical Transactions of the Royal Society of London",
         "author": "John Michell",
         "id": "otherwork_280"
+      },
+      {
+        "name": "The Philosophical Transactions (From the Year 1719, to the Year 1733) Abridged and Disposed under General Heads",
+        "author": "Thomas Foster (eds. John Eames and John Martyn)",
+        "id": "otherwork_279"
       }
     ]
   },
   "28": {
     "places": [
       {
-        "name": "Mediterranean Sea",
-        "description": "Connected to the Atlantic Ocean and almost completely surrounded by land.",
-        "id": "place_1191"
-      },
-      {
         "name": "Crete",
         "description": "The largest and most populous of the Greek islands. Davy refers to it as Candia, the name of the island under Venetian rule between the 13th and 17th centuries.",
         "id": "place_1181"
+      },
+      {
+        "name": "Mediterranean Sea",
+        "description": "Connected to the Atlantic Ocean and almost completely surrounded by land.",
+        "id": "place_1191"
       }
     ],
     "works": [

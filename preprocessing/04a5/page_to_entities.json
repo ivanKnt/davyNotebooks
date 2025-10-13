@@ -37,24 +37,24 @@
         "id": "place_508"
       },
       {
-        "name": "Mam Tor",
-        "description": "A hill near Castleton in the High Peak of Derbyshire, England.",
-        "id": "place_1010"
-      },
-      {
-        "name": "Cornwall",
-        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
-        "id": "place_021"
-      },
-      {
         "name": "Lizard Point",
         "description": "The Lizard is a peninsula of the southern coast of Cornwall. It is the most southerly point of the British mainland. The geology of the Lizard is complex: it contains some of Cornwall's oldest (Precambrian) rocks, as well as heavily metamorphosed rocks.",
         "id": "place_509"
       },
       {
+        "name": "Mam Tor",
+        "description": "A hill near Castleton in the High Peak of Derbyshire, England.",
+        "id": "place_1010"
+      },
+      {
         "name": "Cape Cornwall",
         "description": "Cape Cornwall is a headland north of Land's End.",
         "id": "place_523"
+      },
+      {
+        "name": "Cornwall",
+        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
+        "id": "place_021"
       }
     ]
   },
@@ -105,9 +105,29 @@
         "id": "place_1035"
       },
       {
+        "name": "Fairhead",
+        "description": "Fairhead is a spectacular 5km long, 82m high cliff above the sea at Ballycastle, County Antrim, Northern Ireland. It is a dolerite sill.",
+        "id": "place_132"
+      },
+      {
         "name": "Scotland",
         "description": "",
         "id": "place_235"
+      },
+      {
+        "name": "Ireland",
+        "description": "",
+        "id": "place_018"
+      },
+      {
+        "name": "Pleaskin Cliff",
+        "description": "Pleaskin Head is a cliff that is part of the Giant's Causeway coastline, Northern Ireland.",
+        "id": "place_479"
+      },
+      {
+        "name": "Morton",
+        "description": "A castle located by an artificial loch in the hills above Nithsdale, in Dumfries and Galloway, south-west Scotland.",
+        "id": "place_1011"
       },
       {
         "name": "Giant's Causeway",
@@ -118,26 +138,6 @@
         "name": "Binevenagh",
         "description": "Binevenagh is a large, steep-sided hill in County Londonderry, Northern Ireland.",
         "id": "place_592"
-      },
-      {
-        "name": "Ireland",
-        "description": "",
-        "id": "place_018"
-      },
-      {
-        "name": "Morton",
-        "description": "A castle located by an artificial loch in the hills above Nithsdale, in Dumfries and Galloway, south-west Scotland.",
-        "id": "place_1011"
-      },
-      {
-        "name": "Pleaskin Cliff",
-        "description": "Pleaskin Head is a cliff that is part of the Giant's Causeway coastline, Northern Ireland.",
-        "id": "place_479"
-      },
-      {
-        "name": "Fairhead",
-        "description": "Fairhead is a spectacular 5km long, 82m high cliff above the sea at Ballycastle, County Antrim, Northern Ireland. It is a dolerite sill.",
-        "id": "place_132"
       }
     ]
   },
@@ -146,14 +146,14 @@
   "17": {
     "places": [
       {
-        "name": "Cornwall",
-        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
-        "id": "place_021"
+        "name": "Wiltshire",
+        "description": "A county in south-western England. The county town is Trowbridge.",
+        "id": "place_300"
       },
       {
-        "name": "Dorset",
-        "description": "A county in southwest England. It’s known for the Jurassic Coast, a long stretch on the English Channel where the cliffs contain many fossils, and rock formations show millions of years of geological history.",
-        "id": "place_1012"
+        "name": "Derbyshire",
+        "description": "Derbyshire is a county in the East Midlands and includes part of the Peak District.",
+        "id": "place_085"
       },
       {
         "name": "Devon",
@@ -166,33 +166,23 @@
         "id": "place_440"
       },
       {
-        "name": "Wiltshire",
-        "description": "A county in south-western England. The county town is Trowbridge.",
-        "id": "place_300"
+        "name": "Dorset",
+        "description": "A county in southwest England. It’s known for the Jurassic Coast, a long stretch on the English Channel where the cliffs contain many fossils, and rock formations show millions of years of geological history.",
+        "id": "place_1012"
       },
       {
-        "name": "Derbyshire",
-        "description": "Derbyshire is a county in the East Midlands and includes part of the Peak District.",
-        "id": "place_085"
+        "name": "Cornwall",
+        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
+        "id": "place_021"
       }
     ]
   },
   "18": {
     "places": [
       {
-        "name": "Sussex",
-        "description": "A county in southern England.",
-        "id": "place_161"
-      },
-      {
-        "name": "Berkshire",
-        "description": "Berkshire is a county in south-east England.",
-        "id": "place_028"
-      },
-      {
-        "name": "Darling Downs",
-        "description": "The South Downs are a range of chalk hills extending from Hampshire to Sussex.",
-        "id": "place_440"
+        "name": "Cambridgeshire",
+        "description": "A ceremonial county in the East of England and East Anglia.",
+        "id": "place_1013"
       },
       {
         "name": "Norfolk",
@@ -200,9 +190,19 @@
         "id": "place_320"
       },
       {
-        "name": "Cambridgeshire",
-        "description": "A ceremonial county in the East of England and East Anglia.",
-        "id": "place_1013"
+        "name": "Berkshire",
+        "description": "Berkshire is a county in south-east England.",
+        "id": "place_028"
+      },
+      {
+        "name": "Sussex",
+        "description": "A county in southern England.",
+        "id": "place_161"
+      },
+      {
+        "name": "Darling Downs",
+        "description": "The South Downs are a range of chalk hills extending from Hampshire to Sussex.",
+        "id": "place_440"
       },
       {
         "name": "Bagshot Heath",
@@ -220,9 +220,9 @@
         "id": "place_945"
       },
       {
-        "name": "Switzerland",
-        "description": "",
-        "id": "place_198"
+        "name": "Lake Geneva",
+        "description": "Lake Geneva is the largest body of water in Switzerland.",
+        "id": "place_241"
       },
       {
         "name": "Rhone River",
@@ -230,9 +230,9 @@
         "id": "place_355"
       },
       {
-        "name": "Lake Geneva",
-        "description": "Lake Geneva is the largest body of water in Switzerland.",
-        "id": "place_241"
+        "name": "Switzerland",
+        "description": "",
+        "id": "place_198"
       }
     ]
   },
@@ -244,14 +244,19 @@
         "id": "place_079"
       },
       {
+        "name": "Derwentwater",
+        "description": "A lake in the Lake District in North West England, immediately south of Keswick.",
+        "id": "place_1014"
+      },
+      {
         "name": "Snowdonia",
         "description": "Snowdonia is a mountainous region of north Wales.",
         "id": "place_451"
       },
       {
-        "name": "Derwentwater",
-        "description": "A lake in the Lake District in North West England, immediately south of Keswick.",
-        "id": "place_1014"
+        "name": "Lodore falls",
+        "description": "A waterfall in Cumbria, England, close to Derwentwater and downstream from Watendlath.",
+        "id": "place_1016"
       },
       {
         "name": "Borrowdale",
@@ -269,28 +274,23 @@
         "id": "place_1015"
       },
       {
-        "name": "Lodore falls",
-        "description": "A waterfall in Cumbria, England, close to Derwentwater and downstream from Watendlath.",
-        "id": "place_1016"
+        "name": "North Wales",
+        "description": "A geographic region of Wales.",
+        "id": "place_436"
       },
       {
         "name": "Yr Wyddfa",
         "description": "Also known as Snowdon. The highest mountain peak in Wales.",
         "id": "place_790"
-      },
-      {
-        "name": "North Wales",
-        "description": "A geographic region of Wales.",
-        "id": "place_436"
       }
     ]
   },
   "22": {
     "places": [
       {
-        "name": "Ganges",
-        "description": "The Ganges is a river in Asia running through India and Bangladesh. It is part of the third largest river on earth.",
-        "id": "place_518"
+        "name": "Lochleven",
+        "description": "Loch Leven is the largest, lowland, freshwater lake in Scotland. Loch Leven trout are red in colour.",
+        "id": "place_402"
       },
       {
         "name": "Loch Lomond",
@@ -303,27 +303,27 @@
         "id": "place_1018"
       },
       {
-        "name": "Lochleven",
-        "description": "Loch Leven is the largest, lowland, freshwater lake in Scotland. Loch Leven trout are red in colour.",
-        "id": "place_402"
+        "name": "Ganges",
+        "description": "The Ganges is a river in Asia running through India and Bangladesh. It is part of the third largest river on earth.",
+        "id": "place_518"
       }
     ]
   },
   "23": {
     "persons": [
       {
-        "name": "Georges-Louis Leclerc, Comte deBuffon",
-        "birth": "",
-        "death": "",
-        "description": "French naturalist, mathematician and cosmologist. His Histoire Naturelle, published in 1789, ran to 37 volumes. ForMemRSL.",
-        "id": "person_266"
-      },
-      {
         "name": "JamesHutton",
         "birth": "",
         "death": "",
         "description": "Scottish geologist, agriculturalist and chemical manufacturer. His Theory of the Earth (1795) is one of the foundations of modern geology. Davy discussed Hutton's theories in his lectures and visited some of the key geological sites that Hutton used in his work.",
         "id": "person_125"
+      },
+      {
+        "name": "Georges-Louis Leclerc, Comte deBuffon",
+        "birth": "",
+        "death": "",
+        "description": "French naturalist, mathematician and cosmologist. His Histoire Naturelle, published in 1789, ran to 37 volumes. ForMemRSL.",
+        "id": "person_266"
       }
     ]
   },
@@ -335,24 +335,19 @@
         "id": "place_410"
       },
       {
-        "name": "United Kingdom",
-        "description": "",
-        "id": "place_159"
-      },
-      {
-        "name": "Devil's Bridge, Ceredigion",
-        "description": "A village and community in Ceredigion, Wales. Above the River Mynach on the edge of the village is a series of three stacked bridges, constructed hundreds of years apart, from which the village gets its English name.",
-        "id": "place_1019"
-      },
-      {
-        "name": "Hafod",
-        "description": "Hafod is a district of the city of Swansea, south Wales, and lies within the Landore ward. Hafod is home to the now-closed Hafod Copperworks, founded in 1810.",
-        "id": "place_563"
-      },
-      {
         "name": "Ceredigion",
         "description": "a county in the west of Wales.",
         "id": "place_1036"
+      },
+      {
+        "name": "Afon Rheidol",
+        "description": "A river in Ceredigion, Wales.",
+        "id": "place_411"
+      },
+      {
+        "name": "United Kingdom",
+        "description": "",
+        "id": "place_159"
       },
       {
         "name": "Monarch",
@@ -360,9 +355,14 @@
         "id": "place_409"
       },
       {
-        "name": "Afon Rheidol",
-        "description": "A river in Ceredigion, Wales.",
-        "id": "place_411"
+        "name": "Hafod",
+        "description": "Hafod is a district of the city of Swansea, south Wales, and lies within the Landore ward. Hafod is home to the now-closed Hafod Copperworks, founded in 1810.",
+        "id": "place_563"
+      },
+      {
+        "name": "Devil's Bridge, Ceredigion",
+        "description": "A village and community in Ceredigion, Wales. Above the River Mynach on the edge of the village is a series of three stacked bridges, constructed hundreds of years apart, from which the village gets its English name.",
+        "id": "place_1019"
       }
     ]
   },
@@ -378,24 +378,14 @@
     ],
     "places": [
       {
-        "name": "London",
-        "description": "The capital city of England and the United Kingdom.",
-        "id": "place_071"
-      },
-      {
-        "name": "Santa Fe",
-        "description": "New Mexico’s capital, sits in the Sangre de Cristo foothills.",
-        "id": "place_1020"
-      },
-      {
         "name": "River Thames",
         "description": "The River Thames, known alternatively in parts as the River Isis, is a river that flows through southern England including London.",
         "id": "place_825"
       },
       {
-        "name": "Bogotá",
-        "description": "The capital of Colombia.",
-        "id": "place_1021"
+        "name": "Santa Fe",
+        "description": "New Mexico’s capital, sits in the Sangre de Cristo foothills.",
+        "id": "place_1020"
       },
       {
         "name": "Tequendama Falls",
@@ -406,6 +396,16 @@
         "name": "United States",
         "description": "The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean.",
         "id": "place_878"
+      },
+      {
+        "name": "Bogotá",
+        "description": "The capital of Colombia.",
+        "id": "place_1021"
+      },
+      {
+        "name": "London",
+        "description": "The capital city of England and the United Kingdom.",
+        "id": "place_071"
       }
     ]
   },
@@ -417,9 +417,9 @@
         "id": "place_1024"
       },
       {
-        "name": "Bogotá river",
-        "description": "A major river of the Cundinamarca department of Colombia.",
-        "id": "place_1022"
+        "name": "Magdalena River Valley",
+        "description": "A valley in Colombia located within the Colombian Andes. The valley is specifically situated between the Central and Eastern Ranges and crossed by the river of the same name, the Magdalena River.",
+        "id": "place_1023"
       },
       {
         "name": "Alps",
@@ -427,9 +427,9 @@
         "id": "place_247"
       },
       {
-        "name": "Magdalena River Valley",
-        "description": "A valley in Colombia located within the Colombian Andes. The valley is specifically situated between the Central and Eastern Ranges and crossed by the river of the same name, the Magdalena River.",
-        "id": "place_1023"
+        "name": "Bogotá river",
+        "description": "A major river of the Cundinamarca department of Colombia.",
+        "id": "place_1022"
       }
     ]
   },

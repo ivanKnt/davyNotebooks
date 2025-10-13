@@ -137,9 +137,9 @@
         "id": "place_1414"
       },
       {
-        "name": "United States",
-        "description": "The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean.",
-        "id": "place_878"
+        "name": "United Kingdom",
+        "description": "",
+        "id": "place_159"
       },
       {
         "name": "Britain",
@@ -147,9 +147,9 @@
         "id": "place_1415"
       },
       {
-        "name": "United Kingdom",
-        "description": "",
-        "id": "place_159"
+        "name": "United States",
+        "description": "The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean.",
+        "id": "place_878"
       }
     ]
   },
@@ -158,14 +158,14 @@
   "37": {
     "places": [
       {
-        "name": "Cornwall",
-        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
-        "id": "place_021"
-      },
-      {
         "name": "Devon",
         "description": "A county in south-west England.",
         "id": "place_162"
+      },
+      {
+        "name": "Cornwall",
+        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
+        "id": "place_021"
       }
     ]
   },
@@ -303,9 +303,9 @@
   "70": {
     "places": [
       {
-        "name": "Stockbridge",
-        "description": "Stockbridge is a town in Hampshire.",
-        "id": "place_025"
+        "name": "Somerset",
+        "description": "A county in south-west England.",
+        "id": "place_160"
       },
       {
         "name": "England",
@@ -313,9 +313,9 @@
         "id": "place_121"
       },
       {
-        "name": "Somerset",
-        "description": "A county in south-west England.",
-        "id": "place_160"
+        "name": "Stockbridge",
+        "description": "Stockbridge is a town in Hampshire.",
+        "id": "place_025"
       }
     ]
   },
@@ -466,6 +466,11 @@
     ],
     "places": [
       {
+        "name": "Loch Ness",
+        "description": "Loch Ness is a large freshwater loch in the Scottish Highlands.",
+        "id": "place_026"
+      },
+      {
         "name": "Berkshire",
         "description": "Berkshire is a county in south-east England.",
         "id": "place_028"
@@ -474,11 +479,6 @@
         "name": "Hampshire",
         "description": "Hampshire is a county in southern England.",
         "id": "place_027"
-      },
-      {
-        "name": "Loch Ness",
-        "description": "Loch Ness is a large freshwater loch in the Scottish Highlands.",
-        "id": "place_026"
       }
     ]
   },

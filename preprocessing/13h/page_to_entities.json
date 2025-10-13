@@ -35,36 +35,36 @@
   "8": {
     "persons": [
       {
-        "name": "RichardKirwan",
-        "birth": "",
-        "death": "",
-        "description": "Irish chemist, mineralogist and geologist who accused fellow geologist, James Hutton, of atheism following publication of his Theory of the Earth (1788). FRSL",
-        "id": "person_023"
-      },
-      {
         "name": "Carl FriedrichWenzel",
         "birth": "",
         "death": "",
         "description": "German chemist and metallurgist",
         "id": "person_025"
+      },
+      {
+        "name": "RichardKirwan",
+        "birth": "",
+        "death": "",
+        "description": "Irish chemist, mineralogist and geologist who accused fellow geologist, James Hutton, of atheism following publication of his Theory of the Earth (1788). FRSL",
+        "id": "person_023"
       }
     ]
   },
   "9": {
     "persons": [
       {
-        "name": "WilliamAustin",
-        "birth": "",
-        "death": "",
-        "description": "Physician and mathematician",
-        "id": "person_004"
-      },
-      {
         "name": "HenryCavendish",
         "birth": "",
         "death": "",
         "description": "A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL.",
         "id": "person_026"
+      },
+      {
+        "name": "WilliamAustin",
+        "birth": "",
+        "death": "",
+        "description": "Physician and mathematician",
+        "id": "person_004"
       },
       {
         "name": "Claude LouisBerthollet",
@@ -85,6 +85,13 @@
   "10": {
     "persons": [
       {
+        "name": "HenryCavendish",
+        "birth": "",
+        "death": "",
+        "description": "A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL.",
+        "id": "person_026"
+      },
+      {
         "name": "IsaacMilner",
         "birth": "",
         "death": "",
@@ -97,25 +104,18 @@
         "death": "",
         "description": "Physician and mathematician",
         "id": "person_004"
-      },
-      {
-        "name": "HenryCavendish",
-        "birth": "",
-        "death": "",
-        "description": "A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL.",
-        "id": "person_026"
       }
     ],
     "works": [
       {
         "name": "Philosophical Transactions of the Royal Society of London",
-        "author": "Isaac Milner",
-        "id": "otherwork_010"
+        "author": "Henry Cavendish",
+        "id": "otherwork_011"
       },
       {
         "name": "Philosophical Transactions of the Royal Society of London",
-        "author": "Henry Cavendish",
-        "id": "otherwork_011"
+        "author": "Isaac Milner",
+        "id": "otherwork_010"
       }
     ]
   },
@@ -187,6 +187,13 @@
   "33": {
     "persons": [
       {
+        "name": "Claude LouisBerthollet",
+        "birth": "",
+        "death": "",
+        "description": "French Chemist. ForMemRSL.",
+        "id": "person_005"
+      },
+      {
         "name": "JohnCanton",
         "birth": "",
         "death": "",
@@ -199,13 +206,6 @@
         "death": "",
         "description": "English natural philosopher best known for his work on electricity and electrostatic repulsion. FRSL",
         "id": "person_032"
-      },
-      {
-        "name": "Claude LouisBerthollet",
-        "birth": "",
-        "death": "",
-        "description": "French Chemist. ForMemRSL.",
-        "id": "person_005"
       }
     ]
   },

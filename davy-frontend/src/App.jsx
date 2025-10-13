@@ -72,7 +72,7 @@ export default function App() {
       </main>
 
       <footer className="border-t border-slate-800 bg-slate-900 text-center text-xs text-slate-400 py-6">
-        © {new Date().getFullYear()} Davy Notebooks Project · Lancaster University
+        © {new Date().getFullYear()} Davy Notebooks Project · Lancaster University · UCREL
       </footer>
     </div>
   )

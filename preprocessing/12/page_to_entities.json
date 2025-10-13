@@ -38,11 +38,6 @@
   "19": {
     "places": [
       {
-        "name": "Laura",
-        "description": "A southern Italian village and hamlet of Capaccio, a municipality in the province of Salerno, Campania.",
-        "id": "place_830"
-      },
-      {
         "name": "Paestum",
         "description": "Paestum was an ancient Greek city on the coast of southern Italy.",
         "id": "place_180"
@@ -51,6 +46,11 @@
         "name": "Eboli",
         "description": "An Italian town in the province of Salerno.",
         "id": "place_1032"
+      },
+      {
+        "name": "Laura",
+        "description": "A southern Italian village and hamlet of Capaccio, a municipality in the province of Salerno, Campania.",
+        "id": "place_830"
       }
     ]
   },
@@ -134,11 +134,25 @@
         "id": "person_049"
       },
       {
-        "name": "SmithsonTennant",
+        "name": "Dominique François JeanArago",
         "birth": "",
         "death": "",
-        "description": "Tennant was a botanist and chemist and knew Davy through agricultural improvements. Appointed Professor of Chemistry at Cambridge University in 1813, he was killed in a riding accident in France. FRSL.",
-        "id": "person_068"
+        "description": "French mathematician, physicist, astronomer and political liberal. Davy presented him with the Copley Medal in 1825. ForMemRSL.",
+        "id": "person_202"
+      },
+      {
+        "name": "WilliamAllen",
+        "birth": "",
+        "death": "",
+        "description": "Allen was a Quaker who worked in the pharmaceutical industry. Davy asked him to give lectures on natural philosophy at the RI. FRSL.",
+        "id": "person_003"
+      },
+      {
+        "name": "Jean-BaptisteBiot",
+        "birth": "",
+        "death": "",
+        "description": "French mathematician, physicist and astronomer; Professor of Physics at the Collège de France. ForMemRSL.",
+        "id": "person_203"
       },
       {
         "name": "Antoine-LaurentLavoisier",
@@ -155,25 +169,11 @@
         "id": "person_015"
       },
       {
-        "name": "Jean-BaptisteBiot",
+        "name": "SmithsonTennant",
         "birth": "",
         "death": "",
-        "description": "French mathematician, physicist and astronomer; Professor of Physics at the Collège de France. ForMemRSL.",
-        "id": "person_203"
-      },
-      {
-        "name": "Dominique François JeanArago",
-        "birth": "",
-        "death": "",
-        "description": "French mathematician, physicist, astronomer and political liberal. Davy presented him with the Copley Medal in 1825. ForMemRSL.",
-        "id": "person_202"
-      },
-      {
-        "name": "WilliamAllen",
-        "birth": "",
-        "death": "",
-        "description": "Allen was a Quaker who worked in the pharmaceutical industry. Davy asked him to give lectures on natural philosophy at the RI. FRSL.",
-        "id": "person_003"
+        "description": "Tennant was a botanist and chemist and knew Davy through agricultural improvements. Appointed Professor of Chemistry at Cambridge University in 1813, he was killed in a riding accident in France. FRSL.",
+        "id": "person_068"
       }
     ]
   },
@@ -189,36 +189,29 @@
     ],
     "places": [
       {
-        "name": "Florence",
-        "description": "The capital city of the Italian region of Tuscany.",
-        "id": "place_1080"
-      },
-      {
-        "name": "Tuscany",
-        "description": "a region in central Italy",
-        "id": "place_1268"
-      },
-      {
         "name": "Italy",
         "description": "",
         "id": "place_097"
       },
       {
+        "name": "Florence",
+        "description": "The capital city of the Italian region of Tuscany.",
+        "id": "place_1080"
+      },
+      {
         "name": "Rome",
         "description": "The capital of Italy.",
         "id": "place_155"
+      },
+      {
+        "name": "Tuscany",
+        "description": "a region in central Italy",
+        "id": "place_1268"
       }
     ]
   },
   "60": {
     "persons": [
-      {
-        "name": "Count GirolamoBardi",
-        "birth": "",
-        "death": "",
-        "description": "Italian geologist and mineralogist. He was the director of the Museum of Physics and Natural History of Florence where Davy experimented in 1814.",
-        "id": "person_587"
-      },
       {
         "name": "Domenico LinoMorichini",
         "birth": "",
@@ -232,6 +225,13 @@
         "death": "",
         "description": "(Gazzeri) was an Italian chemist who published Compendio d'un trattato elementare di chimica - a chemistry textbook based on the work of the French Chemists.",
         "id": "person_588"
+      },
+      {
+        "name": "Count GirolamoBardi",
+        "birth": "",
+        "death": "",
+        "description": "Italian geologist and mineralogist. He was the director of the Museum of Physics and Natural History of Florence where Davy experimented in 1814.",
+        "id": "person_587"
       }
     ],
     "places": [
@@ -272,19 +272,49 @@
   "71": {
     "places": [
       {
-        "name": "Bay of Naples",
-        "description": "The Bay (or Gulf) of Naples is located on the south-western coast of Italy, with Naples to the north, Vesuvius to the east, and the Sorrento Peninsula to the south.",
-        "id": "place_704"
-      },
-      {
         "name": "Pontine Marshes",
         "description": "Now agricultural land, the Pontine Marshes are located south-east of Rome.",
         "id": "place_700"
       },
       {
+        "name": "Cava de' Tirreni",
+        "description": "Monte Cavo (Monte Albano) is an extinct volcano in the Alban Hills, near Rome.",
+        "id": "place_701"
+      },
+      {
         "name": "Paestum",
         "description": "Paestum was an ancient Greek city on the coast of southern Italy.",
         "id": "place_180"
+      },
+      {
+        "name": "Rome",
+        "description": "The capital of Italy.",
+        "id": "place_155"
+      },
+      {
+        "name": "Temple of Neptune",
+        "description": "Roman temple located in Paestum, near Naples, Italy.",
+        "id": "place_706"
+      },
+      {
+        "name": "Bay of Naples",
+        "description": "The Bay (or Gulf) of Naples is located on the south-western coast of Italy, with Naples to the north, Vesuvius to the east, and the Sorrento Peninsula to the south.",
+        "id": "place_704"
+      },
+      {
+        "name": "Caserta",
+        "description": "A city in south-western Italy.",
+        "id": "place_703"
+      },
+      {
+        "name": "Sele River",
+        "description": "The Sele River flows through southwestern Italy and enters the Tyrrhenian Sea close to the ancient city of Paestum.",
+        "id": "place_705"
+      },
+      {
+        "name": "Naples",
+        "description": "Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.",
+        "id": "place_156"
       },
       {
         "name": "Apennines",
@@ -295,60 +325,15 @@
         "name": "Lake of Nemi",
         "description": "A volcanic lake south of Rome, Italy. The lake was sacred to the goddess Diana Nemorensis.",
         "id": "place_702"
-      },
-      {
-        "name": "Cava de' Tirreni",
-        "description": "Monte Cavo (Monte Albano) is an extinct volcano in the Alban Hills, near Rome.",
-        "id": "place_701"
-      },
-      {
-        "name": "Caserta",
-        "description": "A city in south-western Italy.",
-        "id": "place_703"
-      },
-      {
-        "name": "Naples",
-        "description": "Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.",
-        "id": "place_156"
-      },
-      {
-        "name": "Rome",
-        "description": "The capital of Italy.",
-        "id": "place_155"
-      },
-      {
-        "name": "Sele River",
-        "description": "The Sele River flows through southwestern Italy and enters the Tyrrhenian Sea close to the ancient city of Paestum.",
-        "id": "place_705"
-      },
-      {
-        "name": "Temple of Neptune",
-        "description": "Roman temple located in Paestum, near Naples, Italy.",
-        "id": "place_706"
       }
     ]
   },
   "72": {
     "places": [
       {
-        "name": "Miseno",
-        "description": "A port near Naples, Italy, to the north of the Gulf of Naples.",
-        "id": "place_710"
-      },
-      {
-        "name": "Pompeii",
-        "description": "An ancient city located in what is now the comune of Pompei near Naples in the Campania region of Italy. Pompeii was buried in volcanic ash in the Eruption of Mount Vesuvius in 79 CE.",
-        "id": "place_407"
-      },
-      {
-        "name": "Paestum",
-        "description": "Paestum was an ancient Greek city on the coast of southern Italy.",
-        "id": "place_180"
-      },
-      {
-        "name": "Salerno",
-        "description": "City in south-western Italy, located on the Gulf of Salerno. Salerno is the capital city of the Italian province also named Salerno, in the Campania region of Italy.",
-        "id": "place_711"
+        "name": "Posillipo, a hill in Naples",
+        "description": "A district of Naples, Italy, built upon a rock peninsula.",
+        "id": "place_707"
       },
       {
         "name": "Herculaneum",
@@ -356,14 +341,14 @@
         "id": "place_714"
       },
       {
-        "name": "Posillipo, a hill in Naples",
-        "description": "A district of Naples, Italy, built upon a rock peninsula.",
-        "id": "place_707"
-      },
-      {
         "name": "Capri",
         "description": "An island in the Gulf of Naples, Italy.",
         "id": "place_709"
+      },
+      {
+        "name": "Paestum",
+        "description": "Paestum was an ancient Greek city on the coast of southern Italy.",
+        "id": "place_180"
       },
       {
         "name": "Ischia",
@@ -371,9 +356,24 @@
         "id": "place_708"
       },
       {
+        "name": "Miseno",
+        "description": "A port near Naples, Italy, to the north of the Gulf of Naples.",
+        "id": "place_710"
+      },
+      {
         "name": "Mount Vesuvius",
         "description": "Mount Vesuvius is a somma-stratovolcano located on the Gulf of Naples in Campania, Italy.",
         "id": "place_169"
+      },
+      {
+        "name": "Salerno",
+        "description": "City in south-western Italy, located on the Gulf of Salerno. Salerno is the capital city of the Italian province also named Salerno, in the Campania region of Italy.",
+        "id": "place_711"
+      },
+      {
+        "name": "Pompeii",
+        "description": "An ancient city located in what is now the comune of Pompei near Naples in the Campania region of Italy. Pompeii was buried in volcanic ash in the Eruption of Mount Vesuvius in 79 CE.",
+        "id": "place_407"
       },
       {
         "name": "Naples",
@@ -395,33 +395,23 @@
         "id": "place_528"
       },
       {
-        "name": "Theatre of Herculaneum",
-        "description": "An archaeological site, buried by the eruption of Vesuvius in 79 CE and discovered by a farmer in 1709.",
-        "id": "place_716"
-      },
-      {
         "name": "Pompeii",
         "description": "An ancient city located in what is now the comune of Pompei near Naples in the Campania region of Italy. Pompeii was buried in volcanic ash in the Eruption of Mount Vesuvius in 79 CE.",
         "id": "place_407"
+      },
+      {
+        "name": "Theatre of Herculaneum",
+        "description": "An archaeological site, buried by the eruption of Vesuvius in 79 CE and discovered by a farmer in 1709.",
+        "id": "place_716"
       }
     ]
   },
   "74": {
     "places": [
       {
-        "name": "Astroni Crater",
-        "description": "A nature reserve in an extinct volcanic crater near Naples, Italy.",
-        "id": "place_719"
-      },
-      {
-        "name": "Cave Lazio",
-        "description": "Subterranean chamber beneath the ancient city of Cumae, now Naples, Italy. Said to have been the dwelling place of Sibyl, ancient priestess and oracle.",
-        "id": "place_946"
-      },
-      {
-        "name": "Monte Nuovo",
-        "description": "A cinder cone volcano near Naples, Italy, that first formed in the sixteenth century.",
-        "id": "place_720"
+        "name": "Posillipo, a hill in Naples",
+        "description": "A district of Naples, Italy, built upon a rock peninsula.",
+        "id": "place_707"
       },
       {
         "name": "Grotto del Cane",
@@ -429,19 +419,29 @@
         "id": "place_718"
       },
       {
-        "name": "Posillipo, a hill in Naples",
-        "description": "A district of Naples, Italy, built upon a rock peninsula.",
-        "id": "place_707"
+        "name": "Monte Nuovo",
+        "description": "A cinder cone volcano near Naples, Italy, that first formed in the sixteenth century.",
+        "id": "place_720"
       },
       {
-        "name": "Pozzuoli",
-        "description": "A city within the city of Naples, Italy. It is the main city of the Phlegrean Peninsula.",
-        "id": "place_721"
+        "name": "Cave Lazio",
+        "description": "Subterranean chamber beneath the ancient city of Cumae, now Naples, Italy. Said to have been the dwelling place of Sibyl, ancient priestess and oracle.",
+        "id": "place_946"
+      },
+      {
+        "name": "Astroni Crater",
+        "description": "A nature reserve in an extinct volcanic crater near Naples, Italy.",
+        "id": "place_719"
       },
       {
         "name": "Columns of Macellum",
         "description": "The columns contain borings made by the marine bivalve, Lithophaga. This indicated that the columns had been submerged beneath the sea and then uplifted. This observation was included in Charles Lyell's first volume of Principles of Geology, published shortly after Davy's death in 1830.",
         "id": "place_827"
+      },
+      {
+        "name": "Pozzuoli",
+        "description": "A city within the city of Naples, Italy. It is the main city of the Phlegrean Peninsula.",
+        "id": "place_721"
       },
       {
         "name": "Lake of Agnano",
@@ -487,14 +487,14 @@
   "79": {
     "places": [
       {
-        "name": "Alps",
-        "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
-        "id": "place_247"
-      },
-      {
         "name": "Rhone River",
         "description": "A major river in France and Switzerland.",
         "id": "place_355"
+      },
+      {
+        "name": "Alps",
+        "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
+        "id": "place_247"
       }
     ]
   },
@@ -540,14 +540,14 @@
   "84": {
     "places": [
       {
-        "name": "Montpellier",
-        "description": "A city in southern France.",
-        "id": "place_289"
-      },
-      {
         "name": "Mediterranean Sea",
         "description": "Connected to the Atlantic Ocean and almost completely surrounded by land.",
         "id": "place_1191"
+      },
+      {
+        "name": "Montpellier",
+        "description": "A city in southern France.",
+        "id": "place_289"
       },
       {
         "name": "River Thames",
@@ -559,31 +559,21 @@
   "85": {
     "persons": [
       {
-        "name": "Plato",
-        "birth": "",
-        "death": "",
-        "description": "A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.",
-        "id": "person_085"
-      },
-      {
         "name": "Socrates",
         "birth": "",
         "death": "",
         "description": "Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.",
         "id": "person_140"
+      },
+      {
+        "name": "Plato",
+        "birth": "",
+        "death": "",
+        "description": "A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.",
+        "id": "person_085"
       }
     ],
     "places": [
-      {
-        "name": "Egypt",
-        "description": "",
-        "id": "place_475"
-      },
-      {
-        "name": "Bosphorus",
-        "description": "A passage of water in northwestern Turkey that connects the Black Sea to the Mediterranean. Forming part of the border between Asia and Europe, the strait bisects the city of Istanbul.",
-        "id": "place_951"
-      },
       {
         "name": "Africa",
         "description": "The world's second-largest and second-most populous continent.",
@@ -595,11 +585,6 @@
         "id": "place_954"
       },
       {
-        "name": "Rome",
-        "description": "The capital of Italy.",
-        "id": "place_155"
-      },
-      {
         "name": "Calpe",
         "description": "A municipality located on the Mediterranean coast of Spain.",
         "id": "place_950"
@@ -608,6 +593,21 @@
         "name": "Greece",
         "description": "",
         "id": "place_167"
+      },
+      {
+        "name": "Rome",
+        "description": "The capital of Italy.",
+        "id": "place_155"
+      },
+      {
+        "name": "Egypt",
+        "description": "",
+        "id": "place_475"
+      },
+      {
+        "name": "Bosphorus",
+        "description": "A passage of water in northwestern Turkey that connects the Black Sea to the Mediterranean. Forming part of the border between Asia and Europe, the strait bisects the city of Istanbul.",
+        "id": "place_951"
       }
     ]
   },
@@ -615,9 +615,14 @@
   "87": {
     "places": [
       {
-        "name": "Monte Bolca",
-        "description": "A locality near Verona, Italy, that is an important site for marine fossils, and has been known of since the 16th century.",
-        "id": "place_725"
+        "name": "Nîmes",
+        "description": "A town in the region of Namur in Belgium, known for its limestone and caves.",
+        "id": "place_727"
+      },
+      {
+        "name": "Mediterranean Sea",
+        "description": "Connected to the Atlantic Ocean and almost completely surrounded by land.",
+        "id": "place_1191"
       },
       {
         "name": "Lombardy",
@@ -630,14 +635,14 @@
         "id": "place_724"
       },
       {
-        "name": "Apennines",
-        "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
-        "id": "place_530"
+        "name": "Sandy Braes",
+        "description": "Perhaps part of the Tardree Mountain complex, County Antrim, Northern Ireland, a volcanic vent complex with very rare rocks, which belong to the Tardree Rhyolite Complex, or Sallagh Braes, a mountain in County Antrim.",
+        "id": "place_763"
       },
       {
-        "name": "Mediterranean Sea",
-        "description": "Connected to the Atlantic Ocean and almost completely surrounded by land.",
-        "id": "place_1191"
+        "name": "Monte Bolca",
+        "description": "A locality near Verona, Italy, that is an important site for marine fossils, and has been known of since the 16th century.",
+        "id": "place_725"
       },
       {
         "name": "Desenzano del Garda",
@@ -645,40 +650,40 @@
         "id": "place_726"
       },
       {
-        "name": "Sandy Braes",
-        "description": "Perhaps part of the Tardree Mountain complex, County Antrim, Northern Ireland, a volcanic vent complex with very rare rocks, which belong to the Tardree Rhyolite Complex, or Sallagh Braes, a mountain in County Antrim.",
-        "id": "place_763"
-      },
-      {
         "name": "Verona",
         "description": "Verona is a city located on the Adige River in the north of Italy.",
         "id": "place_622"
       },
       {
-        "name": "Nîmes",
-        "description": "A town in the region of Namur in Belgium, known for its limestone and caves.",
-        "id": "place_727"
+        "name": "Apennines",
+        "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+        "id": "place_530"
       }
     ]
   },
   "88": {
     "persons": [
       {
-        "name": "AlessandroVolta",
-        "birth": "",
-        "death": "",
-        "description": "Professor of experimental physics at the University of Pavia. At the end of the eighteenth century he Invented the Voltaic pile which produced electric current and which Davy shortly dubbed the battery. Davy described meeting him in 1814 in notebook 14/I, p.38. ForMemRSL.",
-        "id": "person_199"
-      },
-      {
         "name": "William HydeWollaston",
         "birth": "",
         "death": "",
         "description": "Originally a physician he became a prominent chemist, physicist and physiologist isolating the chemical elements osmium, palladium and rhodium. He made his fortune by developing a method of obtaining metallic platinum. A friend and to some extent a rival of Davy's, in 1820 he served briefly as President of the Royal Society of London between Banks's death and Davy's election. FRSL.",
         "id": "person_150"
+      },
+      {
+        "name": "AlessandroVolta",
+        "birth": "",
+        "death": "",
+        "description": "Professor of experimental physics at the University of Pavia. At the end of the eighteenth century he Invented the Voltaic pile which produced electric current and which Davy shortly dubbed the battery. Davy described meeting him in 1814 in notebook 14/I, p.38. ForMemRSL.",
+        "id": "person_199"
       }
     ],
     "places": [
+      {
+        "name": "Rimini",
+        "description": "A city in north-eastern Italy located on the coast of the Adriatic Sea.",
+        "id": "place_728"
+      },
       {
         "name": "Adriatic Sea",
         "description": "The Adriatic Sea lies between the Italian Peninsula and the Balkan Peninsula. It is the northernmost section of the Mediterranean Sea.",
@@ -688,11 +693,6 @@
         "name": "Milan",
         "description": "A city in northern Italy, and the capital of Lombardy.",
         "id": "place_730"
-      },
-      {
-        "name": "Rimini",
-        "description": "A city in north-eastern Italy located on the coast of the Adriatic Sea.",
-        "id": "place_728"
       },
       {
         "name": "Geneva",
@@ -707,14 +707,14 @@
   "92": {
     "places": [
       {
-        "name": "Salerno",
-        "description": "City in south-western Italy, located on the Gulf of Salerno. Salerno is the capital city of the Italian province also named Salerno, in the Campania region of Italy.",
-        "id": "place_711"
-      },
-      {
         "name": "Eboli",
         "description": "An Italian town in the province of Salerno.",
         "id": "place_1032"
+      },
+      {
+        "name": "Salerno",
+        "description": "City in south-western Italy, located on the Gulf of Salerno. Salerno is the capital city of the Italian province also named Salerno, in the Campania region of Italy.",
+        "id": "place_711"
       }
     ]
   },
@@ -726,18 +726,18 @@
   "99": {
     "persons": [
       {
-        "name": "JohnLubbock",
-        "birth": "",
-        "death": "",
-        "description": "Sir John Lubbock, 1st Baronet of Lammas, was a merchant, MP and prominent London banker. He helped establish and was a partner in the bank of Lemon, Buller, Finlay and Lubbock of London in 1772. He was also involved in diverse business ventures as a merchant.",
-        "id": "person_859"
-      },
-      {
         "name": "GiuseppeGazzaris",
         "birth": "",
         "death": "",
         "description": "(Gazzeri) was an Italian chemist who published Compendio d'un trattato elementare di chimica - a chemistry textbook based on the work of the French Chemists.",
         "id": "person_588"
+      },
+      {
+        "name": "JohnLubbock",
+        "birth": "",
+        "death": "",
+        "description": "Sir John Lubbock, 1st Baronet of Lammas, was a merchant, MP and prominent London banker. He helped establish and was a partner in the bank of Lemon, Buller, Finlay and Lubbock of London in 1772. He was also involved in diverse business ventures as a merchant.",
+        "id": "person_859"
       }
     ],
     "places": [
@@ -764,14 +764,14 @@
   "105": {
     "places": [
       {
-        "name": "Greece",
-        "description": "",
-        "id": "place_167"
-      },
-      {
         "name": "Egypt",
         "description": "",
         "id": "place_475"
+      },
+      {
+        "name": "Greece",
+        "description": "",
+        "id": "place_167"
       }
     ]
   },
@@ -812,14 +812,14 @@
   "116": {
     "places": [
       {
-        "name": "Alps",
-        "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
-        "id": "place_247"
-      },
-      {
         "name": "Genoa",
         "description": "Italian port city in northwestern Italy. It is the capital of the Liguria region.",
         "id": "place_1039"
+      },
+      {
+        "name": "Alps",
+        "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
+        "id": "place_247"
       }
     ]
   },
@@ -870,74 +870,9 @@
     ],
     "places": [
       {
-        "name": "Paros",
-        "description": "A Greek island situated in the Mediterranean Sea, famous for its Parian marble: a fine-grained semi translucent pure-white and entirely flawless marble quarried during the classical era .",
-        "id": "place_1040"
-      },
-      {
-        "name": "Paestum",
-        "description": "Paestum was an ancient Greek city on the coast of southern Italy.",
-        "id": "place_180"
-      },
-      {
-        "name": "Pietramala",
-        "description": "A town near Florence, Italy.",
-        "id": "place_694"
-      },
-      {
-        "name": "Lake of Agnano",
-        "description": "Lake Agnano, in southern Italy, was a lake in the crater of the extinct volcano (Agnano). It was drained in 1870.",
-        "id": "place_717"
-      },
-      {
-        "name": "Adda River",
-        "description": "The Adda is a river in northern Italy and is a tributary of the Po River.",
-        "id": "place_737"
-      },
-      {
-        "name": "Grotto del Cane",
-        "description": "A cave by the Lake of Agnano, in southern Italy, that has a high concentration of carbon dioxide. Dogs were used to demonstrate this as a kind of tourist attraction, which the Shelleys refused to allow when they visited.",
-        "id": "place_718"
-      },
-      {
-        "name": "Moray Firth",
-        "description": "A  large inlet on the north-east coast of Scotland.",
-        "id": "place_735"
-      },
-      {
-        "name": "Albulae Aquae",
-        "description": "White Waters'; a group of springs to the west of Tivolo, Italy, and location of an ancient Roman settlement.",
-        "id": "place_179"
-      },
-      {
-        "name": "The Colosseum",
-        "description": "The Colosseum, the largest amphitheatre ever built, is located in the centre of Rome. Now a ruin, its construction began 2,000 years ago.",
-        "id": "place_199"
-      },
-      {
-        "name": "Apennines",
-        "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
-        "id": "place_530"
-      },
-      {
         "name": "Iser",
         "description": "The Isar River originates in the Karwendal mountains of the Alps, flowing through Bavaria in Germany, before reaching the Danube.",
         "id": "place_1038"
-      },
-      {
-        "name": "Rhine",
-        "description": "The Rhine is one of Europe's major rivers. It rises in Switzerland, flows through Germany, and enters the North Sea in the Netherlands.",
-        "id": "place_266"
-      },
-      {
-        "name": "Carrara",
-        "description": "Carrara is a city in central Italy.",
-        "id": "place_243"
-      },
-      {
-        "name": "Bienne River",
-        "description": "A river in eastern France.",
-        "id": "place_734"
       },
       {
         "name": "Ticino River",
@@ -945,18 +880,24 @@
         "id": "place_736"
       },
       {
+        "name": "Rhine",
+        "description": "The Rhine is one of Europe's major rivers. It rises in Switzerland, flows through Germany, and enters the North Sea in the Netherlands.",
+        "id": "place_266"
+      },
+      {
+        "name": "Paros",
+        "description": "A Greek island situated in the Mediterranean Sea, famous for its Parian marble: a fine-grained semi translucent pure-white and entirely flawless marble quarried during the classical era .",
+        "id": "place_1040"
+      },
+      {
+        "name": "Carrara",
+        "description": "Carrara is a city in central Italy.",
+        "id": "place_243"
+      },
+      {
         "name": "Rhone River",
         "description": "A major river in France and Switzerland.",
         "id": "place_355"
-      }
-    ]
-  },
-  "124": {
-    "places": [
-      {
-        "name": "Radicofani",
-        "description": "A town in the Province of Siena, Italy.",
-        "id": "place_743"
       },
       {
         "name": "Albulae Aquae",
@@ -964,19 +905,34 @@
         "id": "place_179"
       },
       {
-        "name": "Aniene River",
-        "description": "The Aniene is a river rising in the Apennines and flowing west to join the Tiber in northern Rome. It is famous for the Tivoli waterfall.",
-        "id": "place_527"
+        "name": "Pietramala",
+        "description": "A town near Florence, Italy.",
+        "id": "place_694"
       },
       {
-        "name": "Alexandrine Aqueduct",
-        "description": "Also known as the Aquedutto Alexandrina or Aqua Alexandrina. Built in the 3rd century CE to carry water to Rome.",
-        "id": "place_782"
+        "name": "Moray Firth",
+        "description": "A  large inlet on the north-east coast of Scotland.",
+        "id": "place_735"
       },
       {
-        "name": "Nar",
-        "description": "The Nera River. It runs through Romania and Serbia and is a tributary of the Danube.",
-        "id": "place_740"
+        "name": "The Colosseum",
+        "description": "The Colosseum, the largest amphitheatre ever built, is located in the centre of Rome. Now a ruin, its construction began 2,000 years ago.",
+        "id": "place_199"
+      },
+      {
+        "name": "Lake of Agnano",
+        "description": "Lake Agnano, in southern Italy, was a lake in the crater of the extinct volcano (Agnano). It was drained in 1870.",
+        "id": "place_717"
+      },
+      {
+        "name": "Grotto del Cane",
+        "description": "A cave by the Lake of Agnano, in southern Italy, that has a high concentration of carbon dioxide. Dogs were used to demonstrate this as a kind of tourist attraction, which the Shelleys refused to allow when they visited.",
+        "id": "place_718"
+      },
+      {
+        "name": "Bienne River",
+        "description": "A river in eastern France.",
+        "id": "place_734"
       },
       {
         "name": "Paestum",
@@ -984,9 +940,28 @@
         "id": "place_180"
       },
       {
+        "name": "Adda River",
+        "description": "The Adda is a river in northern Italy and is a tributary of the Po River.",
+        "id": "place_737"
+      },
+      {
         "name": "Apennines",
         "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
         "id": "place_530"
+      }
+    ]
+  },
+  "124": {
+    "places": [
+      {
+        "name": "Velino",
+        "description": "A river in central Italy, a tributary of the Nera.",
+        "id": "place_848"
+      },
+      {
+        "name": "Aniene River",
+        "description": "The Aniene is a river rising in the Apennines and flowing west to join the Tiber in northern Rome. It is famous for the Tivoli waterfall.",
+        "id": "place_527"
       },
       {
         "name": "Terni",
@@ -994,14 +969,29 @@
         "id": "place_565"
       },
       {
-        "name": "Velino",
-        "description": "A river in central Italy, a tributary of the Nera.",
-        "id": "place_848"
+        "name": "Paestum",
+        "description": "Paestum was an ancient Greek city on the coast of southern Italy.",
+        "id": "place_180"
+      },
+      {
+        "name": "Alexandrine Aqueduct",
+        "description": "Also known as the Aquedutto Alexandrina or Aqua Alexandrina. Built in the 3rd century CE to carry water to Rome.",
+        "id": "place_782"
+      },
+      {
+        "name": "Albulae Aquae",
+        "description": "White Waters'; a group of springs to the west of Tivolo, Italy, and location of an ancient Roman settlement.",
+        "id": "place_179"
       },
       {
         "name": "Rome",
         "description": "The capital of Italy.",
         "id": "place_155"
+      },
+      {
+        "name": "Nar",
+        "description": "The Nera River. It runs through Romania and Serbia and is a tributary of the Danube.",
+        "id": "place_740"
       },
       {
         "name": "Siena",
@@ -1012,6 +1002,16 @@
         "name": "Tivoli, Lazio",
         "description": "Tivoli is a town north east of Rome and known for the waterfall on the Aniene River.",
         "id": "place_529"
+      },
+      {
+        "name": "Radicofani",
+        "description": "A town in the Province of Siena, Italy.",
+        "id": "place_743"
+      },
+      {
+        "name": "Apennines",
+        "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+        "id": "place_530"
       }
     ]
   },
@@ -1039,6 +1039,11 @@
         "id": "place_170"
       },
       {
+        "name": "Marcellina",
+        "description": "Marcellina is a district of Rome, Italy.",
+        "id": "place_744"
+      },
+      {
         "name": "Ostia",
         "description": "An area in Rome, Italy.",
         "id": "place_168"
@@ -1047,11 +1052,6 @@
         "name": "Pantano Borghese",
         "description": "On the outskirts of Rome south of Tivoli, an estate that since 1613 has belonged to the Borghese family.",
         "id": "place_174"
-      },
-      {
-        "name": "Marcellina",
-        "description": "Marcellina is a district of Rome, Italy.",
-        "id": "place_744"
       }
     ]
   },
@@ -1067,11 +1067,6 @@
     ],
     "places": [
       {
-        "name": "Pantano Borghese",
-        "description": "On the outskirts of Rome south of Tivoli, an estate that since 1613 has belonged to the Borghese family.",
-        "id": "place_174"
-      },
-      {
         "name": "Marcigliana",
         "description": "A protected rural area to the north-east of Rome, now a nature reserve.",
         "id": "place_831"
@@ -1080,6 +1075,11 @@
         "name": "Malafede",
         "description": "Decima Malafede is a nature reserve within the district of Rome.",
         "id": "place_157"
+      },
+      {
+        "name": "Pantano Borghese",
+        "description": "On the outskirts of Rome south of Tivoli, an estate that since 1613 has belonged to the Borghese family.",
+        "id": "place_174"
       }
     ]
   },
@@ -1146,14 +1146,14 @@
         "id": "place_475"
       },
       {
-        "name": "Herculaneum",
-        "description": "Herculaneum was an ancient Roman town, located in the modern-day comune of Ercolano, Campania, Italy.",
-        "id": "place_714"
-      },
-      {
         "name": "Rome",
         "description": "The capital of Italy.",
         "id": "place_155"
+      },
+      {
+        "name": "Herculaneum",
+        "description": "Herculaneum was an ancient Roman town, located in the modern-day comune of Ercolano, Campania, Italy.",
+        "id": "place_714"
       }
     ]
   },
@@ -1168,18 +1168,18 @@
         "id": "person_224"
       },
       {
-        "name": "Antoine-LaurentLavoisier",
-        "birth": "",
-        "death": "",
-        "description": "French chemist and tax farmer (for which he was guillotined). Developed a new nomenclature for chemistry (much of which is still in use today) and argued strongly against the existence of phlogiston. Davy read some of his writings while in Cornwall which he then opposed and throughout his career maintained an ambivalent attitude towards Lavoisierian chemisty. ForMemRSL.",
-        "id": "person_030"
-      },
-      {
         "name": "Claude LouisBerthollet",
         "birth": "",
         "death": "",
         "description": "French Chemist. ForMemRSL.",
         "id": "person_005"
+      },
+      {
+        "name": "Antoine-LaurentLavoisier",
+        "birth": "",
+        "death": "",
+        "description": "French chemist and tax farmer (for which he was guillotined). Developed a new nomenclature for chemistry (much of which is still in use today) and argued strongly against the existence of phlogiston. Davy read some of his writings while in Cornwall which he then opposed and throughout his career maintained an ambivalent attitude towards Lavoisierian chemisty. ForMemRSL.",
+        "id": "person_030"
       }
     ]
   },
@@ -1377,30 +1377,23 @@
         "id": "person_398"
       },
       {
-        "name": "Joseph LouisGay-Lussac",
-        "birth": "",
-        "death": "",
-        "description": "French chemist and physicist, known mostly for his discovery that water is made of two parts hydrogen and one part oxygen by volume (with Alexander von Humboldt), for two laws related to gases, and for his work on alcohol-water mixtures. Became involved in controversies with Davy over various chemical discoveries. ForMemRSL.",
-        "id": "person_012"
-      },
-      {
         "name": "André-MarieAmpère",
         "birth": "",
         "death": "",
         "description": "French physicist and mathematician and one of the key figure in the early study of electro-magnetism. Davy met him in Paris in 1813 and they developed a scientific rivalry. ForMemRSL.",
         "id": "person_157"
+      },
+      {
+        "name": "Joseph LouisGay-Lussac",
+        "birth": "",
+        "death": "",
+        "description": "French chemist and physicist, known mostly for his discovery that water is made of two parts hydrogen and one part oxygen by volume (with Alexander von Humboldt), for two laws related to gases, and for his work on alcohol-water mixtures. Became involved in controversies with Davy over various chemical discoveries. ForMemRSL.",
+        "id": "person_012"
       }
     ]
   },
   "164": {
     "persons": [
-      {
-        "name": "BernardCourtois",
-        "birth": "",
-        "death": "",
-        "description": "French chemist who first isolated iodine. though he did not recognise it as an element which Davy did whilst in Paris.",
-        "id": "person_676"
-      },
       {
         "name": "NicolasClément",
         "birth": "",
@@ -1414,6 +1407,13 @@
         "death": "",
         "description": "Desormes was a French physicist and chemist. He did most of his scientific work in collaboration with his son-in-law, Nicolas Clément.",
         "id": "person_008"
+      },
+      {
+        "name": "BernardCourtois",
+        "birth": "",
+        "death": "",
+        "description": "French chemist who first isolated iodine. though he did not recognise it as an element which Davy did whilst in Paris.",
+        "id": "person_676"
       }
     ],
     "places": [
@@ -1541,6 +1541,11 @@
         "id": "place_289"
       },
       {
+        "name": "Pézenas",
+        "description": "Pézenas is a commune in the Herault department of southern France, close to Saint-Thibéry.",
+        "id": "place_748"
+      },
+      {
         "name": "Languedoc",
         "description": "Languedoc is a historical province of France located on the south coast.",
         "id": "place_745"
@@ -1549,11 +1554,6 @@
         "name": "Provence",
         "description": "Provence is a region in southeastern France which borders the Mediterranean Sea and Italy.",
         "id": "place_1087"
-      },
-      {
-        "name": "Pézenas",
-        "description": "Pézenas is a commune in the Herault department of southern France, close to Saint-Thibéry.",
-        "id": "place_748"
       }
     ]
   },
@@ -1594,14 +1594,14 @@
   "191": {
     "places": [
       {
+        "name": "Sestri Levante",
+        "description": "Sestri Levante is a town with the city of Genoa, Liguria, in Italy.",
+        "id": "place_747"
+      },
+      {
         "name": "Liguria",
         "description": "Liguria is a region of north west Italy. Its capital is Genoa.",
         "id": "place_538"
-      },
-      {
-        "name": "Porto fino",
-        "description": "A coastal town in north-western Italy, within the city of Genoa.",
-        "id": "place_732"
       },
       {
         "name": "Genoa",
@@ -1609,9 +1609,9 @@
         "id": "place_1039"
       },
       {
-        "name": "Sestri Levante",
-        "description": "Sestri Levante is a town with the city of Genoa, Liguria, in Italy.",
-        "id": "place_747"
+        "name": "Porto fino",
+        "description": "A coastal town in north-western Italy, within the city of Genoa.",
+        "id": "place_732"
       },
       {
         "name": "Alps",
@@ -1623,14 +1623,14 @@
   "192": {
     "places": [
       {
-        "name": "Apennines",
-        "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
-        "id": "place_530"
-      },
-      {
         "name": "Sestri Levante",
         "description": "Sestri Levante is a town with the city of Genoa, Liguria, in Italy.",
         "id": "place_747"
+      },
+      {
+        "name": "Apennines",
+        "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+        "id": "place_530"
       }
     ]
   },
@@ -1696,54 +1696,54 @@
   "210": {
     "persons": [
       {
-        "name": "Michel EugèneChevreul",
-        "birth": "",
-        "death": "",
-        "description": "French organic chemist. Met Davy when he was in Paris in 1813. ForMemRSL.",
-        "id": "person_152"
-      },
-      {
         "name": "Jöns JacobBerzelius",
         "birth": "",
         "death": "",
         "description": "Swedish chemist. He discovered the chemical elements cerium and selenium, and was the first to isolate silicon, thorium, titanium, and zirconium. A rival of Davy's whom he met a few times.",
         "id": "person_349"
+      },
+      {
+        "name": "Michel EugèneChevreul",
+        "birth": "",
+        "death": "",
+        "description": "French organic chemist. Met Davy when he was in Paris in 1813. ForMemRSL.",
+        "id": "person_152"
       }
     ]
   },
   "211": {
     "persons": [
       {
-        "name": "Jöns JacobBerzelius",
-        "birth": "",
-        "death": "",
-        "description": "Swedish chemist. He discovered the chemical elements cerium and selenium, and was the first to isolate silicon, thorium, titanium, and zirconium. A rival of Davy's whom he met a few times.",
-        "id": "person_349"
-      },
-      {
         "name": "Michel EugèneChevreul",
         "birth": "",
         "death": "",
         "description": "French organic chemist. Met Davy when he was in Paris in 1813. ForMemRSL.",
         "id": "person_152"
+      },
+      {
+        "name": "Jöns JacobBerzelius",
+        "birth": "",
+        "death": "",
+        "description": "Swedish chemist. He discovered the chemical elements cerium and selenium, and was the first to isolate silicon, thorium, titanium, and zirconium. A rival of Davy's whom he met a few times.",
+        "id": "person_349"
       }
     ]
   },
   "212": {
     "persons": [
       {
+        "name": "Michel EugèneChevreul",
+        "birth": "",
+        "death": "",
+        "description": "French organic chemist. Met Davy when he was in Paris in 1813. ForMemRSL.",
+        "id": "person_152"
+      },
+      {
         "name": "Jöns JacobBerzelius",
         "birth": "",
         "death": "",
         "description": "Swedish chemist. He discovered the chemical elements cerium and selenium, and was the first to isolate silicon, thorium, titanium, and zirconium. A rival of Davy's whom he met a few times.",
         "id": "person_349"
-      },
-      {
-        "name": "Louis NicolasVauquelin",
-        "birth": "",
-        "death": "",
-        "description": "French pharmacist and chemist who met Davy in Paris in 1813. ForMemRSL.",
-        "id": "person_050"
       },
       {
         "name": "Martin HeinrichKlaproth",
@@ -1753,11 +1753,11 @@
         "id": "person_244"
       },
       {
-        "name": "Michel EugèneChevreul",
+        "name": "Louis NicolasVauquelin",
         "birth": "",
         "death": "",
-        "description": "French organic chemist. Met Davy when he was in Paris in 1813. ForMemRSL.",
-        "id": "person_152"
+        "description": "French pharmacist and chemist who met Davy in Paris in 1813. ForMemRSL.",
+        "id": "person_050"
       }
     ]
   },
@@ -1840,11 +1840,11 @@
   "234": {
     "persons": [
       {
-        "name": "Pierre-SimonLaplace",
+        "name": "RichardChenevix",
         "birth": "",
         "death": "",
-        "description": "French mathematician seen as the Newton of France. He met Davy in 1813 and 1820. ForMemRSL.",
-        "id": "person_130"
+        "description": "Irish chemist, mineralogist and playwright. He was known for his sharp cynicism and for engaging in combative criticism. FRSL.",
+        "id": "person_690"
       },
       {
         "name": "Antoine-LaurentLavoisier",
@@ -1854,11 +1854,11 @@
         "id": "person_030"
       },
       {
-        "name": "RichardChenevix",
+        "name": "Pierre-SimonLaplace",
         "birth": "",
         "death": "",
-        "description": "Irish chemist, mineralogist and playwright. He was known for his sharp cynicism and for engaging in combative criticism. FRSL.",
-        "id": "person_690"
+        "description": "French mathematician seen as the Newton of France. He met Davy in 1813 and 1820. ForMemRSL.",
+        "id": "person_130"
       }
     ],
     "works": [
@@ -1891,11 +1891,11 @@
   "238": {
     "persons": [
       {
-        "name": "Johann FriedrichJohn",
+        "name": "Martin HeinrichKlaproth",
         "birth": "",
         "death": "",
-        "description": "German chemist and pharmacist.",
-        "id": "person_594"
+        "description": "Pharmacist and chemist. Professor of Chemistry in Berlin. ForMemRSL.",
+        "id": "person_244"
       },
       {
         "name": "Antoine-Francois deFourcroy",
@@ -1905,11 +1905,11 @@
         "id": "person_011"
       },
       {
-        "name": "Martin HeinrichKlaproth",
+        "name": "Johann FriedrichJohn",
         "birth": "",
         "death": "",
-        "description": "Pharmacist and chemist. Professor of Chemistry in Berlin. ForMemRSL.",
-        "id": "person_244"
+        "description": "German chemist and pharmacist.",
+        "id": "person_594"
       }
     ]
   },
@@ -1923,6 +1923,27 @@
   "246": {},
   "247": {
     "persons": [
+      {
+        "name": "Dominique François JeanArago",
+        "birth": "",
+        "death": "",
+        "description": "French mathematician, physicist, astronomer and political liberal. Davy presented him with the Copley Medal in 1825. ForMemRSL.",
+        "id": "person_202"
+      },
+      {
+        "name": "Jean-BaptisteBiot",
+        "birth": "",
+        "death": "",
+        "description": "French mathematician, physicist and astronomer; Professor of Physics at the Collège de France. ForMemRSL.",
+        "id": "person_203"
+      },
+      {
+        "name": "Claude LouisBerthollet",
+        "birth": "",
+        "death": "",
+        "description": "French Chemist. ForMemRSL.",
+        "id": "person_005"
+      },
       {
         "name": "Johann GeorgTralles",
         "birth": "",
@@ -1938,13 +1959,6 @@
         "id": "person_012"
       },
       {
-        "name": "RichardKirwan",
-        "birth": "",
-        "death": "",
-        "description": "Irish chemist, mineralogist and geologist who accused fellow geologist, James Hutton, of atheism following publication of his Theory of the Earth (1788). FRSL",
-        "id": "person_023"
-      },
-      {
         "name": "Louis JacquesThénard",
         "birth": "",
         "death": "",
@@ -1952,25 +1966,11 @@
         "id": "person_201"
       },
       {
-        "name": "Claude LouisBerthollet",
+        "name": "RichardKirwan",
         "birth": "",
         "death": "",
-        "description": "French Chemist. ForMemRSL.",
-        "id": "person_005"
-      },
-      {
-        "name": "Jean-BaptisteBiot",
-        "birth": "",
-        "death": "",
-        "description": "French mathematician, physicist and astronomer; Professor of Physics at the Collège de France. ForMemRSL.",
-        "id": "person_203"
-      },
-      {
-        "name": "Dominique François JeanArago",
-        "birth": "",
-        "death": "",
-        "description": "French mathematician, physicist, astronomer and political liberal. Davy presented him with the Copley Medal in 1825. ForMemRSL.",
-        "id": "person_202"
+        "description": "Irish chemist, mineralogist and geologist who accused fellow geologist, James Hutton, of atheism following publication of his Theory of the Earth (1788). FRSL",
+        "id": "person_023"
       }
     ],
     "works": [
@@ -2019,9 +2019,9 @@
     ],
     "places": [
       {
-        "name": "Aix-en-Provence",
-        "description": "Aix is a town in southern France, once the capital of the region of Provence.",
-        "id": "place_757"
+        "name": "Laval, Mayenne",
+        "description": "Laval is the capital town of the Mayenne department in north-west France.",
+        "id": "place_750"
       },
       {
         "name": "Ballachulish",
@@ -2034,14 +2034,14 @@
         "id": "place_749"
       },
       {
+        "name": "Aix-en-Provence",
+        "description": "Aix is a town in southern France, once the capital of the region of Provence.",
+        "id": "place_757"
+      },
+      {
         "name": "Marseille",
         "description": "The second largest city in France and located on the Mediterranean coast.",
         "id": "place_758"
-      },
-      {
-        "name": "Laval, Mayenne",
-        "description": "Laval is the capital town of the Mayenne department in north-west France.",
-        "id": "place_750"
       }
     ]
   },
@@ -2140,14 +2140,14 @@
     ],
     "places": [
       {
-        "name": "Albulae Aquae",
-        "description": "White Waters'; a group of springs to the west of Tivolo, Italy, and location of an ancient Roman settlement.",
-        "id": "place_179"
-      },
-      {
         "name": "Paestum",
         "description": "Paestum was an ancient Greek city on the coast of southern Italy.",
         "id": "place_180"
+      },
+      {
+        "name": "Albulae Aquae",
+        "description": "White Waters'; a group of springs to the west of Tivolo, Italy, and location of an ancient Roman settlement.",
+        "id": "place_179"
       }
     ]
   },
@@ -2170,11 +2170,6 @@
     ],
     "places": [
       {
-        "name": "Rue de Bourgogne No. 28",
-        "description": "The address of the apartment where Edme-François Jomard, French engineer and archaelogist, lived.",
-        "id": "place_1157"
-      },
-      {
         "name": "Cour du commerce",
         "description": "Cour du commerce is a Parisian passageway that dates back to 1776. It was a meeting place for intellectuals and revolutionaries. It now houses shops and one of Paris' oldest restaurants.",
         "id": "place_1156"
@@ -2183,24 +2178,29 @@
         "name": "Rue de Clery 32",
         "description": "",
         "id": "place_1155"
+      },
+      {
+        "name": "Rue de Bourgogne No. 28",
+        "description": "The address of the apartment where Edme-François Jomard, French engineer and archaelogist, lived.",
+        "id": "place_1157"
       }
     ]
   },
   "281": {
     "persons": [
       {
-        "name": "MichaelFaraday",
-        "birth": "",
-        "death": "",
-        "description": "From 1812 Davy used Faraday as his amanuensis and the following year secured his appointment as laboratory assistant at the Royal Institution. Despite a difficult relationship with Davy, Faraday later became the dominant figure at the Royal Institution and one of the leading scientific personalities of the middle third of the nineteenth century. FRSL.",
-        "id": "person_551"
-      },
-      {
         "name": "JaneDavy",
         "birth": "",
         "death": "",
         "description": "Daughter of Charles Kerr, an Antiguan merchant who made his fortune in highly dubious circumstances. Following his death she moved to Britain where she married Schukbrugh Apreece who died in 1807. After running a successful literary salon in Edinburgh she moved to London where she met Davy and they married on 11 April 1812 two days after he had been knighted by the Prince Regent.",
         "id": "person_070"
+      },
+      {
+        "name": "MichaelFaraday",
+        "birth": "",
+        "death": "",
+        "description": "From 1812 Davy used Faraday as his amanuensis and the following year secured his appointment as laboratory assistant at the Royal Institution. Despite a difficult relationship with Davy, Faraday later became the dominant figure at the Royal Institution and one of the leading scientific personalities of the middle third of the nineteenth century. FRSL.",
+        "id": "person_551"
       },
       {
         "name": "WilliamKerr",

@@ -653,12 +653,7 @@ def parse_notebooks_arg(notebooks_arg: str, base_dir: Path):
     return [nb.strip() for nb in notebooks_arg.split(',') if nb.strip()]
 
 
-# Example usage function
 def main():
-    """
-    Main function for Sir David Humphry's 18th-century text analysis.
-    Configured specifically for 2-grams, 3-grams, and 4-grams comparison.
-    """
     parser = argparse.ArgumentParser(description="N-gram text reuse analysis")
     parser.add_argument('--notebooks', type=str, default='*',
                         help="Comma-separated notebook IDs (e.g., 14e,14g) or * for all")
@@ -706,7 +701,6 @@ def main():
         )
     ]
 
-    # Filter configs if specific config_id is requested
     if args.config_id:
         configs = [c for c in all_configs if c[0] == args.config_id]
         if not configs:

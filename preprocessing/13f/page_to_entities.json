@@ -33,14 +33,14 @@
     ],
     "places": [
       {
-        "name": "Greece",
-        "description": "",
-        "id": "place_167"
-      },
-      {
         "name": "Egypt",
         "description": "",
         "id": "place_475"
+      },
+      {
+        "name": "Greece",
+        "description": "",
+        "id": "place_167"
       }
     ]
   },
@@ -128,6 +128,13 @@
   "48": {
     "persons": [
       {
+        "name": "Aristotle",
+        "birth": "",
+        "death": "",
+        "description": "A pupil of Plato's whose philosophical idealism he came to reject, arguing instead for the primacy of observations of natural phenomena. He thus established the divide between theory and experiment in science that can still be detected today. Aristotle's writings became the main way the natural world was understood from the Middle Ages to the seventeenth century, especially in the universities.",
+        "id": "person_138"
+      },
+      {
         "name": "Plato",
         "birth": "",
         "death": "",
@@ -142,11 +149,11 @@
         "id": "person_445"
       },
       {
-        "name": "Aristotle",
+        "name": "Epicurus",
         "birth": "",
         "death": "",
-        "description": "A pupil of Plato's whose philosophical idealism he came to reject, arguing instead for the primacy of observations of natural phenomena. He thus established the divide between theory and experiment in science that can still be detected today. Aristotle's writings became the main way the natural world was understood from the Middle Ages to the seventeenth century, especially in the universities.",
-        "id": "person_138"
+        "description": "Ancient Greek philosopher, an atomist and materialist, following in the steps of Democritus and founder of Epicureanism.",
+        "id": "person_723"
       },
       {
         "name": "Democritus",
@@ -154,13 +161,6 @@
         "death": "",
         "description": "Pre-Socratic Greek philosopher who proposed a form of atomism.",
         "id": "person_182"
-      },
-      {
-        "name": "Epicurus",
-        "birth": "",
-        "death": "",
-        "description": "Ancient Greek philosopher, an atomist and materialist, following in the steps of Democritus and founder of Epicureanism.",
-        "id": "person_723"
       },
       {
         "name": "Anaxagoras",
@@ -173,13 +173,6 @@
   },
   "49": {
     "persons": [
-      {
-        "name": "Solomon",
-        "birth": "",
-        "death": null,
-        "description": "King of ancient Israel and the son and successor of King David, according to the Hebrew Bible and the Old Testament.",
-        "id": "person_724"
-      },
       {
         "name": "Johann KasparLavater",
         "birth": "",
@@ -195,18 +188,25 @@
         "id": "person_085"
       },
       {
-        "name": "Zoroaster",
-        "birth": "",
-        "death": null,
-        "description": "Zoroaster, also known as Zarathustra, is regarded as the spiritual founder of Zoroastrianism.",
-        "id": "person_715"
-      },
-      {
         "name": "Pythagoras",
         "birth": "",
         "death": "",
         "description": "Pythagoras of Samos was an ancient Ionian Greek philosopher, polymath, and the eponymous founder of Pythagoreanism. Believed in the primacy of number.",
         "id": "person_445"
+      },
+      {
+        "name": "Solomon",
+        "birth": "",
+        "death": null,
+        "description": "King of ancient Israel and the son and successor of King David, according to the Hebrew Bible and the Old Testament.",
+        "id": "person_724"
+      },
+      {
+        "name": "Zoroaster",
+        "birth": "",
+        "death": null,
+        "description": "Zoroaster, also known as Zarathustra, is regarded as the spiritual founder of Zoroastrianism.",
+        "id": "person_715"
       }
     ],
     "places": [
@@ -238,18 +238,18 @@
   "58": {
     "persons": [
       {
-        "name": "JesusChrist",
-        "birth": "",
-        "death": "",
-        "description": "The central figure of Christianity; a first-century Jewish preacher and religious leader.",
-        "id": "person_951"
-      },
-      {
         "name": "Plato",
         "birth": "",
         "death": "",
         "description": "A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.",
         "id": "person_085"
+      },
+      {
+        "name": "JesusChrist",
+        "birth": "",
+        "death": "",
+        "description": "The central figure of Christianity; a first-century Jewish preacher and religious leader.",
+        "id": "person_951"
       }
     ]
   },
@@ -279,9 +279,9 @@
   "74": {
     "places": [
       {
-        "name": "Arva",
-        "description": "Likely a misspelling of the fictitious place mentioned previously, Arna.",
-        "id": "place_1413"
+        "name": "Devon",
+        "description": "A county in south-west England.",
+        "id": "place_162"
       },
       {
         "name": "Cornwall",
@@ -289,9 +289,9 @@
         "id": "place_021"
       },
       {
-        "name": "Devon",
-        "description": "A county in south-west England.",
-        "id": "place_162"
+        "name": "Arva",
+        "description": "Likely a misspelling of the fictitious place mentioned previously, Arna.",
+        "id": "place_1413"
       }
     ]
   },
@@ -342,18 +342,18 @@
   "91": {
     "persons": [
       {
-        "name": "Socrates",
-        "birth": "",
-        "death": "",
-        "description": "Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.",
-        "id": "person_140"
-      },
-      {
         "name": "Plato",
         "birth": "",
         "death": "",
         "description": "A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.",
         "id": "person_085"
+      },
+      {
+        "name": "Socrates",
+        "birth": "",
+        "death": "",
+        "description": "Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.",
+        "id": "person_140"
       }
     ]
   },
@@ -409,11 +409,11 @@
   "102": {
     "persons": [
       {
-        "name": "Bernard Le Bovier deFontenelle",
+        "name": "Augustus",
         "birth": "",
         "death": "",
-        "description": "French author and Perpetual Secretary of the Académie Royale des Sciences, 1697-1739. ForMemRSL.",
-        "id": "person_751"
+        "description": "Nephew of Julius Ceasar and first Roman emperor.",
+        "id": "person_190"
       },
       {
         "name": "François-MarieArouet",
@@ -421,20 +421,6 @@
         "death": "",
         "description": "Known as Voltaire. French Enlightenment writer, philosopher (philosophe), satirist, and historian. ForMemFRSL.",
         "id": "person_449"
-      },
-      {
-        "name": "RenéDescartes",
-        "birth": "",
-        "death": "",
-        "description": "French natural philosopher and mathematician, a seminal figure in the emergence of modern philosophy and science. Mathematics was central to his method of inquiry, and he connected the previously separate fields of geometry and algebra into analytic geometry.",
-        "id": "person_693"
-      },
-      {
-        "name": "Augustus",
-        "birth": "",
-        "death": "",
-        "description": "Nephew of Julius Ceasar and first Roman emperor.",
-        "id": "person_190"
       },
       {
         "name": "PierreCorneille",
@@ -449,23 +435,32 @@
         "death": "",
         "description": "French poet and critic.",
         "id": "person_748"
+      },
+      {
+        "name": "RenéDescartes",
+        "birth": "",
+        "death": "",
+        "description": "French natural philosopher and mathematician, a seminal figure in the emergence of modern philosophy and science. Mathematics was central to his method of inquiry, and he connected the previously separate fields of geometry and algebra into analytic geometry.",
+        "id": "person_693"
+      },
+      {
+        "name": "Bernard Le Bovier deFontenelle",
+        "birth": "",
+        "death": "",
+        "description": "French author and Perpetual Secretary of the Académie Royale des Sciences, 1697-1739. ForMemRSL.",
+        "id": "person_751"
       }
     ],
     "places": [
-      {
-        "name": "Egypt",
-        "description": "",
-        "id": "place_475"
-      },
       {
         "name": "Italy",
         "description": "",
         "id": "place_097"
       },
       {
-        "name": "England",
-        "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
-        "id": "place_121"
+        "name": "Rome",
+        "description": "The capital of Italy.",
+        "id": "place_155"
       },
       {
         "name": "Greece",
@@ -473,21 +468,19 @@
         "id": "place_167"
       },
       {
-        "name": "Rome",
-        "description": "The capital of Italy.",
-        "id": "place_155"
+        "name": "England",
+        "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
+        "id": "place_121"
+      },
+      {
+        "name": "Egypt",
+        "description": "",
+        "id": "place_475"
       }
     ]
   },
   "103": {
     "persons": [
-      {
-        "name": "Solon",
-        "birth": "",
-        "death": "",
-        "description": "Athenian statesman, lawmaker and poet, who was one of the Seven Sages of Greece, credited with laying the foundations for Athenian democracy",
-        "id": "person_760"
-      },
       {
         "name": "Louis XIV",
         "birth": "",
@@ -501,18 +494,25 @@
         "death": "",
         "description": "French theologian, pastor and reformer in Geneva during the Protestant Reformation.",
         "id": "person_759"
+      },
+      {
+        "name": "Solon",
+        "birth": "",
+        "death": "",
+        "description": "Athenian statesman, lawmaker and poet, who was one of the Seven Sages of Greece, credited with laying the foundations for Athenian democracy",
+        "id": "person_760"
       }
     ],
     "places": [
       {
-        "name": "Athens",
-        "description": "Athens is the capital city of Greece.",
-        "id": "place_208"
-      },
-      {
         "name": "Africa",
         "description": "The world's second-largest and second-most populous continent.",
         "id": "place_222"
+      },
+      {
+        "name": "Athens",
+        "description": "Athens is the capital city of Greece.",
+        "id": "place_208"
       },
       {
         "name": "France",
@@ -575,11 +575,6 @@
     ],
     "places": [
       {
-        "name": "China",
-        "description": "",
-        "id": "place_019"
-      },
-      {
         "name": "Africa",
         "description": "The world's second-largest and second-most populous continent.",
         "id": "place_222"
@@ -593,6 +588,11 @@
         "name": "Rome",
         "description": "The capital of Italy.",
         "id": "place_155"
+      },
+      {
+        "name": "China",
+        "description": "",
+        "id": "place_019"
       }
     ],
     "works": [
@@ -606,9 +606,9 @@
   "107": {
     "places": [
       {
-        "name": "Iran",
-        "description": "Iran, also known as Persia and officially the Islamic Republic of Iran, is a country located at the crossroads of West, Central and South Asia.",
-        "id": "place_873"
+        "name": "England",
+        "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
+        "id": "place_121"
       },
       {
         "name": "Sweden",
@@ -616,14 +616,14 @@
         "id": "place_246"
       },
       {
-        "name": "England",
-        "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
-        "id": "place_121"
-      },
-      {
         "name": "Norway",
         "description": "",
         "id": "place_188"
+      },
+      {
+        "name": "Iran",
+        "description": "Iran, also known as Persia and officially the Islamic Republic of Iran, is a country located at the crossroads of West, Central and South Asia.",
+        "id": "place_873"
       },
       {
         "name": "France",
@@ -635,6 +635,11 @@
   "108": {
     "places": [
       {
+        "name": "Egypt",
+        "description": "",
+        "id": "place_475"
+      },
+      {
         "name": "France",
         "description": "France, officially the French Republic, is a country located primarily in Western Europe.",
         "id": "place_897"
@@ -643,11 +648,6 @@
         "name": "England",
         "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
         "id": "place_121"
-      },
-      {
-        "name": "Egypt",
-        "description": "",
-        "id": "place_475"
       }
     ]
   },
@@ -713,38 +713,38 @@
   "114": {
     "places": [
       {
-        "name": "Egypt",
-        "description": "",
-        "id": "place_475"
-      },
-      {
         "name": "Italy",
         "description": "",
         "id": "place_097"
       },
       {
-        "name": "England",
-        "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
-        "id": "place_121"
-      },
-      {
         "name": "Greece",
         "description": "",
         "id": "place_167"
+      },
+      {
+        "name": "Egypt",
+        "description": "",
+        "id": "place_475"
+      },
+      {
+        "name": "England",
+        "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
+        "id": "place_121"
       }
     ]
   },
   "115": {
     "places": [
       {
-        "name": "Russia",
-        "description": "",
-        "id": "place_295"
-      },
-      {
         "name": "Egypt",
         "description": "",
         "id": "place_475"
+      },
+      {
+        "name": "Russia",
+        "description": "",
+        "id": "place_295"
       }
     ]
   },
@@ -760,14 +760,14 @@
   "117": {
     "places": [
       {
-        "name": "Italy",
-        "description": "",
-        "id": "place_097"
-      },
-      {
         "name": "Egypt",
         "description": "",
         "id": "place_475"
+      },
+      {
+        "name": "Italy",
+        "description": "",
+        "id": "place_097"
       }
     ]
   },
@@ -802,6 +802,11 @@
     ],
     "places": [
       {
+        "name": "Italy",
+        "description": "",
+        "id": "place_097"
+      },
+      {
         "name": "Wales",
         "description": "Wales is a country in southwest Great Britain known for its rugged coastline, mountainous national parks, distinctive Welsh language and Celtic culture.",
         "id": "place_122"
@@ -810,30 +815,15 @@
         "name": "Cornwall",
         "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
         "id": "place_021"
-      },
-      {
-        "name": "Italy",
-        "description": "",
-        "id": "place_097"
       }
     ]
   },
   "122": {
     "places": [
       {
-        "name": "Novaya Zemlya",
-        "description": "An archipelago in northern Russia.",
-        "id": "place_881"
-      },
-      {
-        "name": "Egypt",
+        "name": "Italy",
         "description": "",
-        "id": "place_475"
-      },
-      {
-        "name": "China",
-        "description": "",
-        "id": "place_019"
+        "id": "place_097"
       },
       {
         "name": "Greenland",
@@ -841,9 +831,19 @@
         "id": "place_865"
       },
       {
-        "name": "Italy",
+        "name": "China",
         "description": "",
-        "id": "place_097"
+        "id": "place_019"
+      },
+      {
+        "name": "Egypt",
+        "description": "",
+        "id": "place_475"
+      },
+      {
+        "name": "Lapland",
+        "description": "The largest and northernmost region of Finland.",
+        "id": "place_876"
       },
       {
         "name": "England",
@@ -851,9 +851,9 @@
         "id": "place_121"
       },
       {
-        "name": "Lapland",
-        "description": "The largest and northernmost region of Finland.",
-        "id": "place_876"
+        "name": "Novaya Zemlya",
+        "description": "An archipelago in northern Russia.",
+        "id": "place_881"
       }
     ]
   },
@@ -899,9 +899,9 @@
   "131": {
     "places": [
       {
-        "name": "Greece",
+        "name": "Egypt",
         "description": "",
-        "id": "place_167"
+        "id": "place_475"
       },
       {
         "name": "Africa",
@@ -909,9 +909,9 @@
         "id": "place_222"
       },
       {
-        "name": "Egypt",
+        "name": "Greece",
         "description": "",
-        "id": "place_475"
+        "id": "place_167"
       }
     ]
   },
@@ -964,14 +964,14 @@
   "141": {
     "places": [
       {
-        "name": "St Michael's Mount",
-        "description": "St Michael's Mount is a tidal island in Mount's Bay, Cornwall, with a distinct conical shape.",
-        "id": "place_013"
-      },
-      {
         "name": "Woburn",
         "description": "Davy mentions Priestley Bog and meadow near Woburn in Elements of Agricultural Chemistry p. 265.",
         "id": "place_031"
+      },
+      {
+        "name": "St Michael's Mount",
+        "description": "St Michael's Mount is a tidal island in Mount's Bay, Cornwall, with a distinct conical shape.",
+        "id": "place_013"
       }
     ]
   },

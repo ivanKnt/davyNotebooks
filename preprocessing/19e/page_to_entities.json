@@ -121,26 +121,21 @@
   "72": {
     "persons": [
       {
-        "name": "Abu Ishaq al-Mu'tasim ibn Harun",
-        "birth": "",
-        "death": "",
-        "description": "The eighth Abbasid caliph who reigned from 833-842 CE",
-        "id": "person_137"
-      },
-      {
         "name": "Almanon",
         "birth": "",
         "death": "",
         "description": "The Anglicised form of Al-Ma'mun, the seventh Abbasid caliph who reigned from 813-833 CE - a patron of learning.",
         "id": "person_136"
+      },
+      {
+        "name": "Abu Ishaq al-Mu'tasim ibn Harun",
+        "birth": "",
+        "death": "",
+        "description": "The eighth Abbasid caliph who reigned from 833-842 CE",
+        "id": "person_137"
       }
     ],
     "places": [
-      {
-        "name": "Baghdad",
-        "description": "the capital of Iraq and the second-largest city in the Arab world after Cairo",
-        "id": "place_1311"
-      },
       {
         "name": "Greece",
         "description": "",
@@ -150,6 +145,11 @@
         "name": "Rome",
         "description": "The capital of Italy.",
         "id": "place_155"
+      },
+      {
+        "name": "Baghdad",
+        "description": "the capital of Iraq and the second-largest city in the Arab world after Cairo",
+        "id": "place_1311"
       }
     ]
   },
@@ -220,18 +220,18 @@
         "id": "person_177"
       },
       {
-        "name": "Themistocles",
-        "birth": null,
-        "death": "",
-        "description": "Athenian politician and general.",
-        "id": "person_176"
-      },
-      {
         "name": "Sophocles",
         "birth": "",
         "death": "",
         "description": "Greek tragidian.",
         "id": "person_179"
+      },
+      {
+        "name": "Themistocles",
+        "birth": null,
+        "death": "",
+        "description": "Athenian politician and general.",
+        "id": "person_176"
       },
       {
         "name": "Miltiades",
@@ -243,14 +243,14 @@
     ],
     "places": [
       {
-        "name": "Iran",
-        "description": "Iran, also known as Persia and officially the Islamic Republic of Iran, is a country located at the crossroads of West, Central and South Asia.",
-        "id": "place_873"
-      },
-      {
         "name": "Thermopylae",
         "description": "Site of the Battle of Thermopylae in 480 BCE.",
         "id": "place_209"
+      },
+      {
+        "name": "Iran",
+        "description": "Iran, also known as Persia and officially the Islamic Republic of Iran, is a country located at the crossroads of West, Central and South Asia.",
+        "id": "place_873"
       }
     ]
   },
@@ -262,13 +262,6 @@
         "death": null,
         "description": "Homer was a Greek poet who is believed to have written the epic poems, the Iliad and the Odyssey.",
         "id": "person_035"
-      },
-      {
-        "name": "Hippocrates",
-        "birth": "",
-        "death": "",
-        "description": "Green physician of the classical period.",
-        "id": "person_181"
       },
       {
         "name": "Democritus",
@@ -283,18 +276,25 @@
         "death": null,
         "description": "Greek Presocratic philosopher.",
         "id": "person_605"
+      },
+      {
+        "name": "Hippocrates",
+        "birth": "",
+        "death": "",
+        "description": "Green physician of the classical period.",
+        "id": "person_181"
       }
     ],
     "places": [
       {
-        "name": "Athens",
-        "description": "Athens is the capital city of Greece.",
-        "id": "place_208"
-      },
-      {
         "name": "Greece",
         "description": "",
         "id": "place_167"
+      },
+      {
+        "name": "Athens",
+        "description": "Athens is the capital city of Greece.",
+        "id": "place_208"
       }
     ]
   },

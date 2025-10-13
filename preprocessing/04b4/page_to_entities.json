@@ -22,25 +22,18 @@
   "4": {
     "persons": [
       {
+        "name": "Daimachus",
+        "birth": "",
+        "death": null,
+        "description": "Probably: Daimachus, Greek diplomat and writer.",
+        "id": "person_601"
+      },
+      {
         "name": "Aristotle",
         "birth": "",
         "death": "",
         "description": "A pupil of Plato's whose philosophical idealism he came to reject, arguing instead for the primacy of observations of natural phenomena. He thus established the divide between theory and experiment in science that can still be detected today. Aristotle's writings became the main way the natural world was understood from the Middle Ages to the seventeenth century, especially in the universities.",
         "id": "person_138"
-      },
-      {
-        "name": "Plutarch",
-        "birth": "",
-        "death": "",
-        "description": "Greek writer most famous for his parallel lives of Greek and Roman statesmen and military leaders.",
-        "id": "person_602"
-      },
-      {
-        "name": "Lysander",
-        "birth": "",
-        "death": "",
-        "description": "A Spartan military and political leader. He destroyed the Athenian fleet at the Battle of Aegospotami in 405 BCE, forcing Athens to capitulate and bringing the Peloponnesian War to an end.",
-        "id": "person_756"
       },
       {
         "name": "SilenusCalatinus",
@@ -50,23 +43,30 @@
         "id": "person_604"
       },
       {
-        "name": "Daimachus",
+        "name": "Lysander",
         "birth": "",
-        "death": null,
-        "description": "Probably: Daimachus, Greek diplomat and writer.",
-        "id": "person_601"
+        "death": "",
+        "description": "A Spartan military and political leader. He destroyed the Athenian fleet at the Battle of Aegospotami in 405 BCE, forcing Athens to capitulate and bringing the Peloponnesian War to an end.",
+        "id": "person_756"
+      },
+      {
+        "name": "Plutarch",
+        "birth": "",
+        "death": "",
+        "description": "Greek writer most famous for his parallel lives of Greek and Roman statesmen and military leaders.",
+        "id": "person_602"
       }
     ],
     "places": [
       {
-        "name": "Gos",
-        "description": "Aegospotami is the ancient Greek name for a small river issuing into the Hellespont northeast of Sestos. According to Pliny and Aristotle, a meteor landed here in 467 BC after reports of a comet.",
-        "id": "place_868"
-      },
-      {
         "name": "Thrace",
         "description": "Thrace is a geographical and historical region in Southeast Europe. Bounded by the Balkan Mountains to the north, the Aegean Sea to the south, and the Black Sea to the east, it comprises present-day southeastern Bulgaria, northeastern Greece, and the European part of Turkey, roughly the Roman Province of Thrace.",
         "id": "place_867"
+      },
+      {
+        "name": "Gos",
+        "description": "Aegospotami is the ancient Greek name for a small river issuing into the Hellespont northeast of Sestos. According to Pliny and Aristotle, a meteor landed here in 467 BC after reports of a comet.",
+        "id": "place_868"
       },
       {
         "name": "Athens",
@@ -87,14 +87,14 @@
     ],
     "places": [
       {
-        "name": "Provence",
-        "description": "Provence is a region in southeastern France which borders the Mediterranean Sea and Italy.",
-        "id": "place_1087"
-      },
-      {
         "name": "Mount Vaisi",
         "description": "A mountain in the Alpes-Maritimes which was the site of a meteor fall in 1637. The coordinates given are approximate.",
         "id": "place_905"
+      },
+      {
+        "name": "Provence",
+        "description": "Provence is a region in southeastern France which borders the Mediterranean Sea and Italy.",
+        "id": "place_1087"
       }
     ]
   },
@@ -119,14 +119,14 @@
   "8": {
     "places": [
       {
-        "name": "Artois",
-        "description": "a region of northern France.",
-        "id": "place_870"
-      },
-      {
         "name": "Maine (France)",
         "description": "Maine is one of the traditional provinces of France. It corresponds to the former County of Maine, whose capital was also the city of Le Mans.",
         "id": "place_871"
+      },
+      {
+        "name": "Artois",
+        "description": "a region of northern France.",
+        "id": "place_870"
       }
     ]
   },
@@ -156,14 +156,14 @@
     ],
     "places": [
       {
-        "name": "Mediterranean Sea",
-        "description": "Connected to the Atlantic Ocean and almost completely surrounded by land.",
-        "id": "place_1191"
-      },
-      {
         "name": "Rome",
         "description": "The capital of Italy.",
         "id": "place_155"
+      },
+      {
+        "name": "Mediterranean Sea",
+        "description": "Connected to the Atlantic Ocean and almost completely surrounded by land.",
+        "id": "place_1191"
       },
       {
         "name": "Yorkshire",
@@ -186,14 +186,14 @@
   "12": {
     "places": [
       {
-        "name": "Yorkshire",
-        "description": "Yorkshire is a historic county in northern England and the largest by area size in the United Kingdom.",
-        "id": "place_287"
-      },
-      {
         "name": "Varanasi",
         "description": "a city in the northern Indian state of Uttar Pradesh dating to the 11th century B.C. now known as Varanasi",
         "id": "place_880"
+      },
+      {
+        "name": "Yorkshire",
+        "description": "Yorkshire is a historic county in northern England and the largest by area size in the United Kingdom.",
+        "id": "place_287"
       },
       {
         "name": "India",
@@ -208,16 +208,6 @@
         "name": "Italy",
         "description": "",
         "id": "place_097"
-      },
-      {
-        "name": "Lyon",
-        "description": "Lyon is the third-largest city in France. It is located at the confluence of the Rivers Rhône and Saône, to the north-west of the French Alps.",
-        "id": "place_356"
-      },
-      {
-        "name": "Siena",
-        "description": "A city in Tuscany, and the capital of the Province of Siena.",
-        "id": "place_741"
       },
       {
         "name": "Glasgow",
@@ -243,6 +233,16 @@
         "name": "Bavaria",
         "description": "A German state.",
         "id": "place_1128"
+      },
+      {
+        "name": "Lyon",
+        "description": "Lyon is the third-largest city in France. It is located at the confluence of the Rivers Rhône and Saône, to the north-west of the French Alps.",
+        "id": "place_356"
+      },
+      {
+        "name": "Siena",
+        "description": "A city in Tuscany, and the capital of the Province of Siena.",
+        "id": "place_741"
       }
     ]
   },
@@ -286,14 +286,14 @@
   "17": {
     "places": [
       {
-        "name": "Glasgow",
-        "description": "Glasgow is a port city on the River Clyde in Scotland's western Lowlands.",
-        "id": "place_887"
-      },
-      {
         "name": "Scotland",
         "description": "",
         "id": "place_235"
+      },
+      {
+        "name": "Glasgow",
+        "description": "Glasgow is a port city on the River Clyde in Scotland's western Lowlands.",
+        "id": "place_887"
       }
     ]
   },
@@ -309,42 +309,42 @@
     ],
     "places": [
       {
-        "name": "Yorkshire",
-        "description": "Yorkshire is a historic county in northern England and the largest by area size in the United Kingdom.",
-        "id": "place_287"
-      },
-      {
         "name": "Germany",
         "description": "",
         "id": "place_324"
       },
       {
-        "name": "France",
-        "description": "France, officially the French Republic, is a country located primarily in Western Europe.",
-        "id": "place_897"
+        "name": "Yorkshire",
+        "description": "Yorkshire is a historic county in northern England and the largest by area size in the United Kingdom.",
+        "id": "place_287"
       },
       {
         "name": "Varanasi",
         "description": "a city in the northern Indian state of Uttar Pradesh dating to the 11th century B.C. now known as Varanasi",
         "id": "place_880"
+      },
+      {
+        "name": "France",
+        "description": "France, officially the French Republic, is a country located primarily in Western Europe.",
+        "id": "place_897"
       }
     ]
   },
   "19": {
     "persons": [
       {
-        "name": "Louis NicolasVauquelin",
-        "birth": "",
-        "death": "",
-        "description": "French pharmacist and chemist who met Davy in Paris in 1813. ForMemRSL.",
-        "id": "person_050"
-      },
-      {
         "name": "David BailieWarden",
         "birth": "",
         "death": "",
         "description": "Republican insurgent in the Irish Rebellion of 1798 and, in later exile, a United States consul in Paris.",
         "id": "person_772"
+      },
+      {
+        "name": "Louis NicolasVauquelin",
+        "birth": "",
+        "death": "",
+        "description": "French pharmacist and chemist who met Davy in Paris in 1813. ForMemRSL.",
+        "id": "person_050"
       },
       {
         "name": "LukeHoward",
@@ -485,14 +485,14 @@
     ],
     "places": [
       {
-        "name": "Punjab, India",
-        "description": "Punjab, a state bordering Pakistan, is the heart of India’s Sikh community.",
-        "id": "place_893"
-      },
-      {
         "name": "Siberia",
         "description": "a vast Russian province encompassing most of Northern Asia, with terrain spanning tundra, coniferous forest and mountain ranges",
         "id": "place_990"
+      },
+      {
+        "name": "Punjab, India",
+        "description": "Punjab, a state bordering Pakistan, is the heart of India’s Sikh community.",
+        "id": "place_893"
       }
     ]
   },

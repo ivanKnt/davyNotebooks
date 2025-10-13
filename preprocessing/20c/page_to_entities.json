@@ -5,11 +5,11 @@
   "4": {
     "persons": [
       {
-        "name": "AlessandroVolta",
+        "name": "WilliamNicholson",
         "birth": "",
         "death": "",
-        "description": "Professor of experimental physics at the University of Pavia. At the end of the eighteenth century he Invented the Voltaic pile which produced electric current and which Davy shortly dubbed the battery. Davy described meeting him in 1814 in notebook 14/I, p.38. ForMemRSL.",
-        "id": "person_199"
+        "description": "Founding editor of A Journal of Natural Philosophy, Chemistry, and the Arts (1797-1814) where Davy published some of his early papers. Part of the Godwin circle.",
+        "id": "person_236"
       },
       {
         "name": "AnthonyCarlisle",
@@ -19,11 +19,11 @@
         "id": "person_493"
       },
       {
-        "name": "WilliamNicholson",
+        "name": "AlessandroVolta",
         "birth": "",
         "death": "",
-        "description": "Founding editor of A Journal of Natural Philosophy, Chemistry, and the Arts (1797-1814) where Davy published some of his early papers. Part of the Godwin circle.",
-        "id": "person_236"
+        "description": "Professor of experimental physics at the University of Pavia. At the end of the eighteenth century he Invented the Voltaic pile which produced electric current and which Davy shortly dubbed the battery. Davy described meeting him in 1814 in notebook 14/I, p.38. ForMemRSL.",
+        "id": "person_199"
       }
     ]
   },
@@ -44,6 +44,13 @@
   "9": {
     "persons": [
       {
+        "name": "WilliamNicholson",
+        "birth": "",
+        "death": "",
+        "description": "Founding editor of A Journal of Natural Philosophy, Chemistry, and the Arts (1797-1814) where Davy published some of his early papers. Part of the Godwin circle.",
+        "id": "person_236"
+      },
+      {
         "name": "AnthonyCarlisle",
         "birth": "",
         "death": "",
@@ -56,13 +63,6 @@
         "death": "",
         "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
         "id": "person_269"
-      },
-      {
-        "name": "WilliamNicholson",
-        "birth": "",
-        "death": "",
-        "description": "Founding editor of A Journal of Natural Philosophy, Chemistry, and the Arts (1797-1814) where Davy published some of his early papers. Part of the Godwin circle.",
-        "id": "person_236"
       }
     ]
   },
@@ -79,6 +79,13 @@
   },
   "11": {
     "persons": [
+      {
+        "name": "WilliamNicholson",
+        "birth": "",
+        "death": "",
+        "description": "Founding editor of A Journal of Natural Philosophy, Chemistry, and the Arts (1797-1814) where Davy published some of his early papers. Part of the Godwin circle.",
+        "id": "person_236"
+      },
       {
         "name": "AnthonyCarlisle",
         "birth": "",
@@ -99,13 +106,6 @@
         "death": "",
         "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
         "id": "person_269"
-      },
-      {
-        "name": "WilliamNicholson",
-        "birth": "",
-        "death": "",
-        "description": "Founding editor of A Journal of Natural Philosophy, Chemistry, and the Arts (1797-1814) where Davy published some of his early papers. Part of the Godwin circle.",
-        "id": "person_236"
       }
     ],
     "works": [
@@ -213,18 +213,18 @@
   "22": {
     "persons": [
       {
-        "name": "Carl FriedrichWenzel",
-        "birth": "",
-        "death": "",
-        "description": "German chemist and metallurgist",
-        "id": "person_025"
-      },
-      {
         "name": "RichardKirwan",
         "birth": "",
         "death": "",
         "description": "Irish chemist, mineralogist and geologist who accused fellow geologist, James Hutton, of atheism following publication of his Theory of the Earth (1788). FRSL",
         "id": "person_023"
+      },
+      {
+        "name": "Carl FriedrichWenzel",
+        "birth": "",
+        "death": "",
+        "description": "German chemist and metallurgist",
+        "id": "person_025"
       }
     ]
   },
@@ -294,11 +294,11 @@
   "39": {
     "persons": [
       {
-        "name": "LuigiGalvani",
+        "name": "PatrickDwyer",
         "birth": "",
-        "death": "",
-        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
-        "id": "person_269"
+        "death": null,
+        "description": "Assisted Davy during his research into the physiological effects of nitrous oxide at the Medical Pneumatic Intitution.",
+        "id": "person_813"
       },
       {
         "name": "JohnKing",
@@ -308,11 +308,11 @@
         "id": "person_1026"
       },
       {
-        "name": "PatrickDwyer",
+        "name": "LuigiGalvani",
         "birth": "",
-        "death": null,
-        "description": "Assisted Davy during his research into the physiological effects of nitrous oxide at the Medical Pneumatic Intitution.",
-        "id": "person_813"
+        "death": "",
+        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
+        "id": "person_269"
       }
     ]
   },
@@ -330,18 +330,18 @@
   "41": {
     "persons": [
       {
-        "name": "LuigiGalvani",
-        "birth": "",
-        "death": "",
-        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
-        "id": "person_269"
-      },
-      {
         "name": "AlessandroVolta",
         "birth": "",
         "death": "",
         "description": "Professor of experimental physics at the University of Pavia. At the end of the eighteenth century he Invented the Voltaic pile which produced electric current and which Davy shortly dubbed the battery. Davy described meeting him in 1814 in notebook 14/I, p.38. ForMemRSL.",
         "id": "person_199"
+      },
+      {
+        "name": "LuigiGalvani",
+        "birth": "",
+        "death": "",
+        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
+        "id": "person_269"
       }
     ]
   },
@@ -391,18 +391,18 @@
   "48": {
     "persons": [
       {
-        "name": "JosephPriestley",
-        "birth": "",
-        "death": "",
-        "description": "Unitarian and political radical forced into exile in Pennsylvania. As a natural philospher and chemist who retained belief in phlogiston, he discovered oxygen and nitrous oxide though not under those names. FRSL.",
-        "id": "person_016"
-      },
-      {
         "name": "WilliamWordsworth",
         "birth": "",
         "death": "",
         "description": "English poet who, with Samuel Taylor Coleridge, published Lyrical Ballads. Davy contributed to seeing the second edition (1800) through the press in Bristol. Poet Laureate from 1843.",
         "id": "person_189"
+      },
+      {
+        "name": "JosephPriestley",
+        "birth": "",
+        "death": "",
+        "description": "Unitarian and political radical forced into exile in Pennsylvania. As a natural philospher and chemist who retained belief in phlogiston, he discovered oxygen and nitrous oxide though not under those names. FRSL.",
+        "id": "person_016"
       }
     ]
   },
@@ -434,36 +434,36 @@
   "56": {
     "persons": [
       {
-        "name": "LuigiGalvani",
-        "birth": "",
-        "death": "",
-        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
-        "id": "person_269"
-      },
-      {
         "name": "ThomasBeddoes",
         "birth": "",
         "death": "",
         "description": "A politically radical (Jacobin) chemist and physician who in the 1790s established the Medical Pneumatic Institution in Bristol to investigate the physiological and possible curative effects of all the gases discovered during the eighteenth century. Between late 1798 and early 1801 he employed Davy as Superintendent of the Institution.",
         "id": "person_029"
+      },
+      {
+        "name": "LuigiGalvani",
+        "birth": "",
+        "death": "",
+        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
+        "id": "person_269"
       }
     ]
   },
   "57": {
     "persons": [
       {
-        "name": "LuigiGalvani",
-        "birth": "",
-        "death": "",
-        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
-        "id": "person_269"
-      },
-      {
         "name": "JohnKing",
         "birth": "",
         "death": "",
         "description": "Nicholas Johann Koenig, Bristol-based surgeon, painter and linguist, originally from Bern, Switzerland. A friend of Davy's in Bristol, King took his position at the Medical Pneumatic Institute after Davy left for London in 1801. King married Emmeline Edgeworth in 1803.",
         "id": "person_1026"
+      },
+      {
+        "name": "LuigiGalvani",
+        "birth": "",
+        "death": "",
+        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
+        "id": "person_269"
       }
     ],
     "works": [
@@ -570,18 +570,18 @@
   "74": {
     "persons": [
       {
-        "name": "LuigiGalvani",
-        "birth": "",
-        "death": "",
-        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
-        "id": "person_269"
-      },
-      {
         "name": "AlessandroVolta",
         "birth": "",
         "death": "",
         "description": "Professor of experimental physics at the University of Pavia. At the end of the eighteenth century he Invented the Voltaic pile which produced electric current and which Davy shortly dubbed the battery. Davy described meeting him in 1814 in notebook 14/I, p.38. ForMemRSL.",
         "id": "person_199"
+      },
+      {
+        "name": "LuigiGalvani",
+        "birth": "",
+        "death": "",
+        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
+        "id": "person_269"
       }
     ]
   },
@@ -722,18 +722,11 @@
   "84": {
     "persons": [
       {
-        "name": "Johann WilhelmRitter",
+        "name": "Alexander vonHumboldt",
         "birth": "",
         "death": "",
-        "description": "German physician and natural philosopher.",
-        "id": "person_268"
-      },
-      {
-        "name": "EdwardAsh",
-        "birth": "",
-        "death": "",
-        "description": "Oxford trained physician and a friend of Rumford's whom he met in Italy. An Annual Subscriber to the Royal Institution. FRSL.",
-        "id": "person_270"
+        "description": "German geographer, naturalist and explorer. ForMemRSL.",
+        "id": "person_271"
       },
       {
         "name": "LuigiGalvani",
@@ -743,11 +736,11 @@
         "id": "person_269"
       },
       {
-        "name": "Alexander vonHumboldt",
+        "name": "Johann WilhelmRitter",
         "birth": "",
         "death": "",
-        "description": "German geographer, naturalist and explorer. ForMemRSL.",
-        "id": "person_271"
+        "description": "German physician and natural philosopher.",
+        "id": "person_268"
       },
       {
         "name": "Giovanni Valentino MattiaFabbroni",
@@ -755,6 +748,13 @@
         "death": "",
         "description": "Italian naturalist, economist, agronomist and chemist.",
         "id": "person_327"
+      },
+      {
+        "name": "EdwardAsh",
+        "birth": "",
+        "death": "",
+        "description": "Oxford trained physician and a friend of Rumford's whom he met in Italy. An Annual Subscriber to the Royal Institution. FRSL.",
+        "id": "person_270"
       }
     ]
   },
@@ -784,6 +784,13 @@
   "88": {
     "persons": [
       {
+        "name": "JohnKing",
+        "birth": "",
+        "death": "",
+        "description": "Nicholas Johann Koenig, Bristol-based surgeon, painter and linguist, originally from Bern, Switzerland. A friend of Davy's in Bristol, King took his position at the Medical Pneumatic Institute after Davy left for London in 1801. King married Emmeline Edgeworth in 1803.",
+        "id": "person_1026"
+      },
+      {
         "name": "AlessandroVolta",
         "birth": "",
         "death": "",
@@ -796,13 +803,6 @@
         "death": "",
         "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
         "id": "person_269"
-      },
-      {
-        "name": "JohnKing",
-        "birth": "",
-        "death": "",
-        "description": "Nicholas Johann Koenig, Bristol-based surgeon, painter and linguist, originally from Bern, Switzerland. A friend of Davy's in Bristol, King took his position at the Medical Pneumatic Institute after Davy left for London in 1801. King married Emmeline Edgeworth in 1803.",
-        "id": "person_1026"
       }
     ],
     "works": [
@@ -891,18 +891,18 @@
   "97": {
     "persons": [
       {
-        "name": "LuigiGalvani",
-        "birth": "",
-        "death": "",
-        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
-        "id": "person_269"
-      },
-      {
         "name": "ThomasBeddoes",
         "birth": "",
         "death": "",
         "description": "A politically radical (Jacobin) chemist and physician who in the 1790s established the Medical Pneumatic Institution in Bristol to investigate the physiological and possible curative effects of all the gases discovered during the eighteenth century. Between late 1798 and early 1801 he employed Davy as Superintendent of the Institution.",
         "id": "person_029"
+      },
+      {
+        "name": "LuigiGalvani",
+        "birth": "",
+        "death": "",
+        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
+        "id": "person_269"
       }
     ]
   },
@@ -997,18 +997,18 @@
   "109": {
     "persons": [
       {
-        "name": "LuigiGalvani",
-        "birth": "",
-        "death": "",
-        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
-        "id": "person_269"
-      },
-      {
         "name": "WilliamCruikshank",
         "birth": null,
         "death": "",
         "description": "FRS. Scottish military surgeon and assistant to the Professor of Chemistry at the Royal Military Academy, Woolwich. He designed the trough battery.",
         "id": "person_948"
+      },
+      {
+        "name": "LuigiGalvani",
+        "birth": "",
+        "death": "",
+        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
+        "id": "person_269"
       }
     ]
   },
@@ -1292,18 +1292,18 @@
   "153": {
     "persons": [
       {
-        "name": "LuigiGalvani",
-        "birth": "",
-        "death": "",
-        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
-        "id": "person_269"
-      },
-      {
         "name": "WilliamCruikshank",
         "birth": null,
         "death": "",
         "description": "FRS. Scottish military surgeon and assistant to the Professor of Chemistry at the Royal Military Academy, Woolwich. He designed the trough battery.",
         "id": "person_948"
+      },
+      {
+        "name": "LuigiGalvani",
+        "birth": "",
+        "death": "",
+        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
+        "id": "person_269"
       }
     ]
   },
@@ -1386,18 +1386,18 @@
   "166": {
     "persons": [
       {
-        "name": "LuigiGalvani",
-        "birth": "",
-        "death": "",
-        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
-        "id": "person_269"
-      },
-      {
         "name": "ThomasBeddoes",
         "birth": "",
         "death": "",
         "description": "A politically radical (Jacobin) chemist and physician who in the 1790s established the Medical Pneumatic Institution in Bristol to investigate the physiological and possible curative effects of all the gases discovered during the eighteenth century. Between late 1798 and early 1801 he employed Davy as Superintendent of the Institution.",
         "id": "person_029"
+      },
+      {
+        "name": "LuigiGalvani",
+        "birth": "",
+        "death": "",
+        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
+        "id": "person_269"
       }
     ],
     "works": [
@@ -1497,18 +1497,18 @@
   "176": {
     "persons": [
       {
-        "name": "LuigiGalvani",
-        "birth": "",
-        "death": "",
-        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
-        "id": "person_269"
-      },
-      {
         "name": "WilliamNicholson",
         "birth": "",
         "death": "",
         "description": "Founding editor of A Journal of Natural Philosophy, Chemistry, and the Arts (1797-1814) where Davy published some of his early papers. Part of the Godwin circle.",
         "id": "person_236"
+      },
+      {
+        "name": "LuigiGalvani",
+        "birth": "",
+        "death": "",
+        "description": "Italian surgeon and anatomist who carried out experiments with electricity and animals. The term 'galvanism' was named after him to refer to the generation of electric current by chemical action.",
+        "id": "person_269"
       }
     ]
   },

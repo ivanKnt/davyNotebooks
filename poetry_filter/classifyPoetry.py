@@ -21,18 +21,56 @@ def load_classification_data(notebook_id, classifications_dir):
         return None
 
 def is_poetry_classification(classification):
-    """Check if a classification indicates poetry content."""
-    # Normalize classification to lowercase for comparison
+    """
+    Determine if a classification label indicates poetry content.
+    
+    This function uses a keyword-matching approach to identify poetry-related
+    classifications. It's designed to catch variations like:
+    - "Poetry"
+    - "Poem"
+    - "Poetic content"
+    - "Verse"
+    
+    Args:
+        classification: The classification string to check
+    
+    Returns:
+        bool: True if the classification indicates poetry content
+    
+    Note: This is case-insensitive and checks for substring matches,
+          so "Poetry and Philosophy" would also return True.
+    """
+    # Normalize to lowercase for case-insensitive comparison
     classification_lower = classification.lower()
     
-    # Check for poetry-related terms
+    # Define keywords that indicate poetry content
     poetry_terms = ['poetry', 'poem', 'verse', 'poetic']
+    
+    # Check if any poetry keyword appears in the classification
     return any(term in classification_lower for term in poetry_terms)
 
 def extract_poetry_notebooks_and_pages(classifications_dir):
-    """Extract poetry notebooks and pages from classification data."""
-    poetry_notebooks = []  # Notebooks with overall poetry consensus
-    poetry_pages = defaultdict(list)  # All pages with poetry content, grouped by notebook
+    """
+    Scan all notebooks and identify those with poetry content.
+    
+    This function performs two levels of analysis:
+    1. Notebook level: Notebooks where the overall consensus is poetry
+    2. Page level: Individual pages within any notebook that contain poetry
+    
+    This distinction is important because:
+    - A notebook might have some poetry pages without being primarily a poetry notebook
+    - We want to support both "show me poetry notebooks" and "show me all poetry pages"
+    
+    Args:
+        classifications_dir: Path to the classifications/ directory
+    
+    Returns:
+        tuple: (poetry_notebooks, poetry_pages)
+            - poetry_notebooks: List of notebooks with overall poetry consensus
+            - poetry_pages: Dict mapping notebook_id -> list of poetry pages
+    """
+    poetry_notebooks = []  # Notebooks where the overall consensus is "poetry"
+    poetry_pages = defaultdict(list)  # All pages with poetry, grouped by notebook ID
     
     # Get all notebook directories
     notebook_dirs = [d for d in classifications_dir.iterdir() if d.is_dir()]

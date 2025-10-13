@@ -13,25 +13,25 @@
   "14": {
     "persons": [
       {
-        "name": "Onuphrio",
-        "birth": null,
-        "death": null,
-        "description": "Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.",
-        "id": "person_108"
-      },
-      {
         "name": "Ambrosio",
         "birth": null,
         "death": null,
         "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
         "id": "person_101"
+      },
+      {
+        "name": "Onuphrio",
+        "birth": null,
+        "death": null,
+        "description": "Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.",
+        "id": "person_108"
       }
     ],
     "places": [
       {
-        "name": "London",
-        "description": "The capital city of England and the United Kingdom.",
-        "id": "place_071"
+        "name": "Rome",
+        "description": "The capital of Italy.",
+        "id": "place_155"
       },
       {
         "name": "England",
@@ -39,9 +39,9 @@
         "id": "place_121"
       },
       {
-        "name": "Rome",
-        "description": "The capital of Italy.",
-        "id": "place_155"
+        "name": "London",
+        "description": "The capital city of England and the United Kingdom.",
+        "id": "place_071"
       }
     ]
   },
@@ -68,6 +68,11 @@
   "19": {
     "places": [
       {
+        "name": "Nice",
+        "description": "Capital of the Alpes-Maritimes department on the French Riviera.",
+        "id": "place_907"
+      },
+      {
         "name": "Naples",
         "description": "Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.",
         "id": "place_156"
@@ -76,11 +81,6 @@
         "name": "Sicily",
         "description": "Sicily is the largest and most populous island in the Mediterranean Sea and one of the twenty regions of Italy.",
         "id": "place_569"
-      },
-      {
-        "name": "Nice",
-        "description": "Capital of the Alpes-Maritimes department on the French Riviera.",
-        "id": "place_907"
       }
     ]
   },
@@ -97,19 +97,9 @@
   "22": {
     "places": [
       {
-        "name": "Noric Alps",
-        "description": "The Noric Alps is a collective term for a group of mountain ranges in the Eastern Alps.",
-        "id": "place_193"
-      },
-      {
-        "name": "Illyrian Alps",
-        "description": "Illyria was the name of a mountainous region in the western part of the Balkan Peninsula in south-eastern Europe.",
-        "id": "place_192"
-      },
-      {
-        "name": "Styria",
-        "description": "Styria is a state in the south-east of Austria.",
-        "id": "place_196"
+        "name": "Salzburg",
+        "description": "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.",
+        "id": "place_197"
       },
       {
         "name": "Austria",
@@ -117,9 +107,9 @@
         "id": "place_201"
       },
       {
-        "name": "Tyrol",
-        "description": "Tyrol is a historical region in the Alps located in northern Italy and western Austria.",
-        "id": "place_328"
+        "name": "Illyrian Alps",
+        "description": "Illyria was the name of a mountainous region in the western part of the Balkan Peninsula in south-eastern Europe.",
+        "id": "place_192"
       },
       {
         "name": "Julian Alps",
@@ -127,14 +117,24 @@
         "id": "place_194"
       },
       {
+        "name": "Noric Alps",
+        "description": "The Noric Alps is a collective term for a group of mountain ranges in the Eastern Alps.",
+        "id": "place_193"
+      },
+      {
+        "name": "Styria",
+        "description": "Styria is a state in the south-east of Austria.",
+        "id": "place_196"
+      },
+      {
         "name": "Alps",
         "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
         "id": "place_247"
       },
       {
-        "name": "Salzburg",
-        "description": "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.",
-        "id": "place_197"
+        "name": "Tyrol",
+        "description": "Tyrol is a historical region in the Alps located in northern Italy and western Austria.",
+        "id": "place_328"
       }
     ]
   },
@@ -168,14 +168,14 @@
   "26": {
     "places": [
       {
-        "name": "Austrian States",
-        "description": "Austria is a federal republic consisting of nine federal states. The European Commission calls them provinces.",
-        "id": "place_1404"
-      },
-      {
         "name": "Paestum",
         "description": "Paestum was an ancient Greek city on the coast of southern Italy.",
         "id": "place_180"
+      },
+      {
+        "name": "Austrian States",
+        "description": "Austria is a federal republic consisting of nine federal states. The European Commission calls them provinces.",
+        "id": "place_1404"
       },
       {
         "name": "England",
@@ -187,28 +187,23 @@
   "27": {
     "places": [
       {
-        "name": "Germany",
-        "description": "",
-        "id": "place_324"
-      },
-      {
         "name": "France",
         "description": "France, officially the French Republic, is a country located primarily in Western Europe.",
         "id": "place_897"
+      },
+      {
+        "name": "Germany",
+        "description": "",
+        "id": "place_324"
       }
     ]
   },
   "28": {
     "places": [
       {
-        "name": "River Danube",
-        "description": "The Danube is the second longest river in Europe. It flows through central and south eastern Europe into the Black Sea.",
-        "id": "place_217"
-      },
-      {
-        "name": "Traunsee",
-        "description": "A lake in the Salzkammergut, Upper Austria, Austria.",
-        "id": "place_972"
+        "name": "Traun",
+        "description": "Traunfall in Desselbrunn, Upper Austria. Memoirs contains a poem Davy wrote about them, also in notebook 14E.",
+        "id": "place_182"
       },
       {
         "name": "Austria",
@@ -216,9 +211,9 @@
         "id": "place_201"
       },
       {
-        "name": "Linz",
-        "description": "Linz is a city in Upper Austria, straddling the Danube River midway between Salzburg and Vienna.",
-        "id": "place_687"
+        "name": "Traunsee",
+        "description": "A lake in the Salzkammergut, Upper Austria, Austria.",
+        "id": "place_972"
       },
       {
         "name": "England",
@@ -226,14 +221,19 @@
         "id": "place_121"
       },
       {
+        "name": "Linz",
+        "description": "Linz is a city in Upper Austria, straddling the Danube River midway between Salzburg and Vienna.",
+        "id": "place_687"
+      },
+      {
         "name": "Gmunden",
         "description": "Gmunden is a town in Upper Austria, frequented as a health and summer resort.",
         "id": "place_257"
       },
       {
-        "name": "Traun",
-        "description": "Traunfall in Desselbrunn, Upper Austria. Memoirs contains a poem Davy wrote about them, also in notebook 14E.",
-        "id": "place_182"
+        "name": "River Danube",
+        "description": "The Danube is the second longest river in Europe. It flows through central and south eastern Europe into the Black Sea.",
+        "id": "place_217"
       }
     ]
   },
@@ -289,11 +289,6 @@
   "36": {
     "places": [
       {
-        "name": "River Danube",
-        "description": "The Danube is the second longest river in Europe. It flows through central and south eastern Europe into the Black Sea.",
-        "id": "place_217"
-      },
-      {
         "name": "Gmunden",
         "description": "Gmunden is a town in Upper Austria, frequented as a health and summer resort.",
         "id": "place_257"
@@ -302,6 +297,11 @@
         "name": "Traun",
         "description": "Traunfall in Desselbrunn, Upper Austria. Memoirs contains a poem Davy wrote about them, also in notebook 14E.",
         "id": "place_182"
+      },
+      {
+        "name": "River Danube",
+        "description": "The Danube is the second longest river in Europe. It flows through central and south eastern Europe into the Black Sea.",
+        "id": "place_217"
       }
     ]
   },
@@ -310,24 +310,19 @@
   "39": {
     "places": [
       {
-        "name": "Adriatic Sea",
-        "description": "The Adriatic Sea lies between the Italian Peninsula and the Balkan Peninsula. It is the northernmost section of the Mediterranean Sea.",
-        "id": "place_729"
+        "name": "Lake Toplitz",
+        "description": "A lake in a dense forest high in the Austrian Alps.",
+        "id": "place_424"
+      },
+      {
+        "name": "Hallstätter See",
+        "description": "Hallstatter is a lake in Austria named after the small town on its shore.",
+        "id": "place_259"
       },
       {
         "name": "Drava River",
         "description": "The Drava is a river in central southern Europe and is the fifth longest tributary of the Danube.",
         "id": "place_260"
-      },
-      {
-        "name": "Black Sea",
-        "description": "The Black Sea is a marginal Mediterranean sea lying between Europe and Asia, east of the Balkans, south of the East European Plain, west of the Caucasus, and north of Anatolia.",
-        "id": "place_582"
-      },
-      {
-        "name": "Styria",
-        "description": "Styria is a state in the south-east of Austria.",
-        "id": "place_196"
       },
       {
         "name": "Sava River",
@@ -340,19 +335,19 @@
         "id": "place_229"
       },
       {
-        "name": "Hallstätter See",
-        "description": "Hallstatter is a lake in Austria named after the small town on its shore.",
-        "id": "place_259"
+        "name": "Adriatic Sea",
+        "description": "The Adriatic Sea lies between the Italian Peninsula and the Balkan Peninsula. It is the northernmost section of the Mediterranean Sea.",
+        "id": "place_729"
       },
       {
-        "name": "Tyrol",
-        "description": "Tyrol is a historical region in the Alps located in northern Italy and western Austria.",
-        "id": "place_328"
+        "name": "Styria",
+        "description": "Styria is a state in the south-east of Austria.",
+        "id": "place_196"
       },
       {
-        "name": "Lake Toplitz",
-        "description": "A lake in a dense forest high in the Austrian Alps.",
-        "id": "place_424"
+        "name": "Adige",
+        "description": "The second-longest river in Italy, which rises in the province of South Tyrol, near the Italian border with Austria and Switzerland.",
+        "id": "place_426"
       },
       {
         "name": "Traun",
@@ -360,23 +355,28 @@
         "id": "place_182"
       },
       {
-        "name": "Adige",
-        "description": "The second-longest river in Italy, which rises in the province of South Tyrol, near the Italian border with Austria and Switzerland.",
-        "id": "place_426"
+        "name": "Black Sea",
+        "description": "The Black Sea is a marginal Mediterranean sea lying between Europe and Asia, east of the Balkans, south of the East European Plain, west of the Caucasus, and north of Anatolia.",
+        "id": "place_582"
+      },
+      {
+        "name": "Tyrol",
+        "description": "Tyrol is a historical region in the Alps located in northern Italy and western Austria.",
+        "id": "place_328"
       }
     ]
   },
   "40": {
     "places": [
       {
+        "name": "Illyrian Alps",
+        "description": "Illyria was the name of a mountainous region in the western part of the Balkan Peninsula in south-eastern Europe.",
+        "id": "place_192"
+      },
+      {
         "name": "Manhart",
         "description": "Mangart is a mountain in the Julian Alps on the border between Austria and Slovenia.",
         "id": "place_314"
-      },
-      {
-        "name": "Triglav",
-        "description": "Also known as Terglou. Triglav is the highest mountain in Slovenia, located in the Julian Alps.",
-        "id": "place_343"
       },
       {
         "name": "Lake Bohinj",
@@ -384,14 +384,14 @@
         "id": "place_558"
       },
       {
-        "name": "Illyrian Alps",
-        "description": "Illyria was the name of a mountainous region in the western part of the Balkan Peninsula in south-eastern Europe.",
-        "id": "place_192"
-      },
-      {
         "name": "Wurzen Pass",
         "description": "Wurzen Pass is a mountain pass in a col of the Karawanks Mountain range between the Austrian state of Carinthia and the the Slovenian Kranjska Gora. It is named after the town of Podkoren (Wurzen).",
         "id": "place_256"
+      },
+      {
+        "name": "Triglav",
+        "description": "Also known as Terglou. Triglav is the highest mountain in Slovenia, located in the Julian Alps.",
+        "id": "place_343"
       }
     ]
   },
@@ -403,9 +403,9 @@
         "id": "place_428"
       },
       {
-        "name": "Lake Cerknica",
-        "description": "An intermittent lake in the southern part of the Cerknica Polje, a region in south-western Slovenia.",
-        "id": "place_423"
+        "name": "Sava River",
+        "description": "The Sava River, 990km in length, rises in Slovenia (Carnolia) and is the largest tributary of the Danube by volume of water.",
+        "id": "place_214"
       },
       {
         "name": "Ljubljana",
@@ -413,9 +413,9 @@
         "id": "place_216"
       },
       {
-        "name": "Sava River",
-        "description": "The Sava River, 990km in length, rises in Slovenia (Carnolia) and is the largest tributary of the Danube by volume of water.",
-        "id": "place_214"
+        "name": "Lake Cerknica",
+        "description": "An intermittent lake in the southern part of the Cerknica Polje, a region in south-western Slovenia.",
+        "id": "place_423"
       }
     ]
   },
@@ -449,14 +449,14 @@
     ],
     "places": [
       {
-        "name": "Illyrian Alps",
-        "description": "Illyria was the name of a mountainous region in the western part of the Balkan Peninsula in south-eastern Europe.",
-        "id": "place_192"
-      },
-      {
         "name": "Carniola",
         "description": "The Alpine region whose capital was Laybach (now Ljubljana). In 1827, Carniola was a Duchy within the Austrian Kingdom of Illyria.",
         "id": "place_181"
+      },
+      {
+        "name": "Illyrian Alps",
+        "description": "Illyria was the name of a mountainous region in the western part of the Balkan Peninsula in south-eastern Europe.",
+        "id": "place_192"
       }
     ],
     "works": [
@@ -504,11 +504,11 @@
   "48": {
     "persons": [
       {
-        "name": "The Unknown",
-        "birth": null,
-        "death": null,
-        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
-        "id": "person_122"
+        "name": "SigmundZois",
+        "birth": "",
+        "death": "",
+        "description": "Sigmund Zois Freiherr von Edelstein, usually referred as Sigmund Zois, was a Carniolan nobleman, natural scientist and patron of the arts. He is considered one of the most influential figures of the Enlightenment Era in the Slovene Lands of Habsburg Austria.",
+        "id": "person_1119"
       },
       {
         "name": "SigmundZois",
@@ -518,23 +518,23 @@
         "id": "person_421"
       },
       {
-        "name": "SigmundZois",
-        "birth": "",
-        "death": "",
-        "description": "Sigmund Zois Freiherr von Edelstein, usually referred as Sigmund Zois, was a Carniolan nobleman, natural scientist and patron of the arts. He is considered one of the most influential figures of the Enlightenment Era in the Slovene Lands of Habsburg Austria.",
-        "id": "person_1119"
+        "name": "The Unknown",
+        "birth": null,
+        "death": null,
+        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
+        "id": "person_122"
       }
     ],
     "places": [
       {
-        "name": "Stična",
-        "description": "Also known as Sittich. Stična is a village in Slovenia, lying just north of Ivančna Gorica and is best known for its Cistercian abbey.",
-        "id": "place_593"
-      },
-      {
         "name": "Carniola",
         "description": "The Alpine region whose capital was Laybach (now Ljubljana). In 1827, Carniola was a Duchy within the Austrian Kingdom of Illyria.",
         "id": "place_181"
+      },
+      {
+        "name": "Stična",
+        "description": "Also known as Sittich. Stična is a village in Slovenia, lying just north of Ivančna Gorica and is best known for its Cistercian abbey.",
+        "id": "place_593"
       }
     ]
   },
@@ -568,14 +568,14 @@
     ],
     "places": [
       {
-        "name": "Stična",
-        "description": "Also known as Sittich. Stična is a village in Slovenia, lying just north of Ivančna Gorica and is best known for its Cistercian abbey.",
-        "id": "place_593"
-      },
-      {
         "name": "Postojna",
         "description": "a town in the traditional region of Inner Carniola, in southwestern Slovenia",
         "id": "place_1248"
+      },
+      {
+        "name": "Stična",
+        "description": "Also known as Sittich. Stična is a village in Slovenia, lying just north of Ivančna Gorica and is best known for its Cistercian abbey.",
+        "id": "place_593"
       }
     ]
   },
@@ -592,14 +592,14 @@
     ],
     "places": [
       {
-        "name": "Postojna",
-        "description": "a town in the traditional region of Inner Carniola, in southwestern Slovenia",
-        "id": "place_1248"
-      },
-      {
         "name": "Africa",
         "description": "The world's second-largest and second-most populous continent.",
         "id": "place_222"
+      },
+      {
+        "name": "Illyrian Alps",
+        "description": "Illyria was the name of a mountainous region in the western part of the Balkan Peninsula in south-eastern Europe.",
+        "id": "place_192"
       },
       {
         "name": "Arctic",
@@ -607,9 +607,9 @@
         "id": "place_1426"
       },
       {
-        "name": "Illyrian Alps",
-        "description": "Illyria was the name of a mountainous region in the western part of the Balkan Peninsula in south-eastern Europe.",
-        "id": "place_192"
+        "name": "Postojna",
+        "description": "a town in the traditional region of Inner Carniola, in southwestern Slovenia",
+        "id": "place_1248"
       }
     ]
   },
@@ -618,57 +618,29 @@
   "55": {
     "persons": [
       {
-        "name": "The Unknown",
-        "birth": null,
-        "death": null,
-        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
-        "id": "person_122"
-      },
-      {
         "name": "WilliamHarvey",
         "birth": "",
         "death": "",
         "description": "Physician who discovered the circulation of the blood.",
         "id": "person_471"
+      },
+      {
+        "name": "The Unknown",
+        "birth": null,
+        "death": null,
+        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
+        "id": "person_122"
       }
     ]
   },
   "56": {
     "persons": [
       {
-        "name": "Alexander vonHumboldt",
-        "birth": "",
-        "death": "",
-        "description": "German geographer, naturalist and explorer. ForMemRSL.",
-        "id": "person_271"
-      },
-      {
-        "name": "PietroConfigliachi",
-        "birth": "",
-        "death": "",
-        "description": "Italian physicist.",
-        "id": "person_1120"
-      },
-      {
         "name": "Philalethes",
         "birth": null,
         "death": null,
         "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
         "id": "person_102"
-      },
-      {
-        "name": "The Unknown",
-        "birth": null,
-        "death": null,
-        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
-        "id": "person_122"
-      },
-      {
-        "name": "LuigiConfigliachi",
-        "birth": "",
-        "death": "",
-        "description": "Italian botanist and translator.",
-        "id": "person_966"
       },
       {
         "name": "Alexander III",
@@ -678,11 +650,39 @@
         "id": "person_810"
       },
       {
+        "name": "Alexander vonHumboldt",
+        "birth": "",
+        "death": "",
+        "description": "German geographer, naturalist and explorer. ForMemRSL.",
+        "id": "person_271"
+      },
+      {
         "name": "Carl Franz Anton Rittervon Schreibers",
         "birth": "",
         "death": "",
         "description": "an Austrian naturalist who was the first to perform a comprehensive anatomical study of the olm.",
         "id": "person_965"
+      },
+      {
+        "name": "PietroConfigliachi",
+        "birth": "",
+        "death": "",
+        "description": "Italian physicist.",
+        "id": "person_1120"
+      },
+      {
+        "name": "LuigiConfigliachi",
+        "birth": "",
+        "death": "",
+        "description": "Italian botanist and translator.",
+        "id": "person_966"
+      },
+      {
+        "name": "The Unknown",
+        "birth": null,
+        "death": null,
+        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
+        "id": "person_122"
       }
     ]
   },
@@ -700,18 +700,18 @@
   "58": {
     "persons": [
       {
-        "name": "The Unknown",
-        "birth": null,
-        "death": null,
-        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
-        "id": "person_122"
-      },
-      {
         "name": "Philalethes",
         "birth": null,
         "death": null,
         "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
         "id": "person_102"
+      },
+      {
+        "name": "The Unknown",
+        "birth": null,
+        "death": null,
+        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
+        "id": "person_122"
       }
     ]
   },
@@ -743,18 +743,18 @@
   "64": {
     "persons": [
       {
-        "name": "The Unknown",
-        "birth": null,
-        "death": null,
-        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
-        "id": "person_122"
-      },
-      {
         "name": "JosephBlack",
         "birth": "",
         "death": "",
         "description": "From 1766, Professor of Medcine and Chemistry at the University of Edinburgh. Discovered latent heat and fixed air, later renamed carbon dioxide. A correspondent of James Watt and Thomas Beddoes (who studied under him).",
         "id": "person_231"
+      },
+      {
+        "name": "The Unknown",
+        "birth": null,
+        "death": null,
+        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
+        "id": "person_122"
       }
     ]
   },
@@ -806,39 +806,9 @@
     ],
     "places": [
       {
-        "name": "Noric Alps",
-        "description": "The Noric Alps is a collective term for a group of mountain ranges in the Eastern Alps.",
-        "id": "place_193"
-      },
-      {
-        "name": "River Danube",
-        "description": "The Danube is the second longest river in Europe. It flows through central and south eastern Europe into the Black Sea.",
-        "id": "place_217"
-      },
-      {
-        "name": "Styria",
-        "description": "Styria is a state in the south-east of Austria.",
-        "id": "place_196"
-      },
-      {
         "name": "Rhine",
         "description": "The Rhine is one of Europe's major rivers. It rises in Switzerland, flows through Germany, and enters the North Sea in the Netherlands.",
         "id": "place_266"
-      },
-      {
-        "name": "Sava River",
-        "description": "The Sava River, 990km in length, rises in Slovenia (Carnolia) and is the largest tributary of the Danube by volume of water.",
-        "id": "place_214"
-      },
-      {
-        "name": "Switzerland",
-        "description": "",
-        "id": "place_198"
-      },
-      {
-        "name": "Tyrol",
-        "description": "Tyrol is a historical region in the Alps located in northern Italy and western Austria.",
-        "id": "place_328"
       },
       {
         "name": "Julian Alps",
@@ -846,9 +816,39 @@
         "id": "place_194"
       },
       {
+        "name": "Sava River",
+        "description": "The Sava River, 990km in length, rises in Slovenia (Carnolia) and is the largest tributary of the Danube by volume of water.",
+        "id": "place_214"
+      },
+      {
         "name": "Aare",
         "description": "The Aare or Aaris the main tributary of the High Rhine (its discharge even exceeds that of the latter at their confluence)and the longest river that both rises and ends entirely within Switzerland",
         "id": "place_1412"
+      },
+      {
+        "name": "Noric Alps",
+        "description": "The Noric Alps is a collective term for a group of mountain ranges in the Eastern Alps.",
+        "id": "place_193"
+      },
+      {
+        "name": "Styria",
+        "description": "Styria is a state in the south-east of Austria.",
+        "id": "place_196"
+      },
+      {
+        "name": "Switzerland",
+        "description": "",
+        "id": "place_198"
+      },
+      {
+        "name": "River Danube",
+        "description": "The Danube is the second longest river in Europe. It flows through central and south eastern Europe into the Black Sea.",
+        "id": "place_217"
+      },
+      {
+        "name": "Tyrol",
+        "description": "Tyrol is a historical region in the Alps located in northern Italy and western Austria.",
+        "id": "place_328"
       }
     ]
   },
@@ -941,18 +941,18 @@
         "id": "person_1113"
       },
       {
-        "name": "The Unknown",
-        "birth": null,
-        "death": null,
-        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
-        "id": "person_122"
-      },
-      {
         "name": "Saint Paul",
         "birth": "",
         "death": "",
         "description": "A Christian apostle who spread the teachings of Jesus in the first-century world. For his contributions towards the New Testament, he is generally regarded as one of the most important figures of the Apostolic Age.",
         "id": "person_973"
+      },
+      {
+        "name": "The Unknown",
+        "birth": null,
+        "death": null,
+        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
+        "id": "person_122"
       }
     ]
   },
@@ -1025,14 +1025,14 @@
     ],
     "places": [
       {
-        "name": "Postojna",
-        "description": "a town in the traditional region of Inner Carniola, in southwestern Slovenia",
-        "id": "place_1248"
-      },
-      {
         "name": "Italy",
         "description": "",
         "id": "place_097"
+      },
+      {
+        "name": "Postojna",
+        "description": "a town in the traditional region of Inner Carniola, in southwestern Slovenia",
+        "id": "place_1248"
       }
     ]
   },
@@ -1146,18 +1146,18 @@
   "122": {
     "persons": [
       {
-        "name": "Philalethes",
-        "birth": null,
-        "death": null,
-        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
-        "id": "person_102"
-      },
-      {
         "name": "Prometheus",
         "birth": null,
         "death": null,
         "description": "In Greek mythology, defied the Olympian gods by stealing fire and giving it to humans.",
         "id": "person_275"
+      },
+      {
+        "name": "Philalethes",
+        "birth": null,
+        "death": null,
+        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
+        "id": "person_102"
       },
       {
         "name": "Lucretius",
@@ -1210,13 +1210,6 @@
   "127": {
     "persons": [
       {
-        "name": "Plutarch",
-        "birth": "",
-        "death": "",
-        "description": "Greek writer most famous for his parallel lives of Greek and Roman statesmen and military leaders.",
-        "id": "person_602"
-      },
-      {
         "name": "Archimedes",
         "birth": "",
         "death": "",
@@ -1236,6 +1229,13 @@
         "death": null,
         "description": "Greek Presocratic philosopher.",
         "id": "person_605"
+      },
+      {
+        "name": "Plutarch",
+        "birth": "",
+        "death": "",
+        "description": "Greek writer most famous for his parallel lives of Greek and Roman statesmen and military leaders.",
+        "id": "person_602"
       }
     ]
   },
@@ -1264,14 +1264,14 @@
     ],
     "places": [
       {
-        "name": "Germany",
-        "description": "",
-        "id": "place_324"
-      },
-      {
         "name": "Sevres",
         "description": "a French commune in the southwestern suburbs of Paris",
         "id": "place_1407"
+      },
+      {
+        "name": "Germany",
+        "description": "",
+        "id": "place_324"
       },
       {
         "name": "Dresden",
@@ -1322,13 +1322,6 @@
   "139": {
     "persons": [
       {
-        "name": "Louis BernardGuyton de Morveau",
-        "birth": "",
-        "death": "",
-        "description": "French chemist and revolutionary politician who is credited with producing the first systematic method of chemical nomenclature. ForMemRSL.",
-        "id": "person_049"
-      },
-      {
         "name": "JosephPriestley",
         "birth": "",
         "death": "",
@@ -1341,6 +1334,13 @@
         "death": "",
         "description": "French Chemist. ForMemRSL.",
         "id": "person_005"
+      },
+      {
+        "name": "Louis BernardGuyton de Morveau",
+        "birth": "",
+        "death": "",
+        "description": "French chemist and revolutionary politician who is credited with producing the first systematic method of chemical nomenclature. ForMemRSL.",
+        "id": "person_049"
       }
     ]
   },
@@ -1421,9 +1421,9 @@
   "161": {
     "places": [
       {
-        "name": "Pula",
-        "description": "A seafront city on the tip of Croatia’s Istrian Peninsula.",
-        "id": "place_1145"
+        "name": "Istria",
+        "description": "The largest peninsula within the Adriatic Sea",
+        "id": "place_1144"
       },
       {
         "name": "Illyrian Alps",
@@ -1431,9 +1431,9 @@
         "id": "place_192"
       },
       {
-        "name": "Istria",
-        "description": "The largest peninsula within the Adriatic Sea",
-        "id": "place_1144"
+        "name": "Pula",
+        "description": "A seafront city on the tip of Croatia’s Istrian Peninsula.",
+        "id": "place_1145"
       }
     ]
   },
@@ -1465,9 +1465,14 @@
   "169": {
     "places": [
       {
-        "name": "Sabina",
-        "description": "Also called the Sabine Hills, a region in central Italy.",
-        "id": "place_926"
+        "name": "Pantheon",
+        "description": "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+        "id": "place_1411"
+      },
+      {
+        "name": "Rome",
+        "description": "The capital of Italy.",
+        "id": "place_155"
       },
       {
         "name": "Egypt",
@@ -1475,19 +1480,14 @@
         "id": "place_475"
       },
       {
-        "name": "Pantheon",
-        "description": "https://en.wikipedia.org/wiki/Pantheon,_Rome",
-        "id": "place_1411"
+        "name": "Sabina",
+        "description": "Also called the Sabine Hills, a region in central Italy.",
+        "id": "place_926"
       },
       {
         "name": "Tiber River",
         "description": "The Tiber River is the third longest river in Italy. Rome is located on its banks.",
         "id": "place_615"
-      },
-      {
-        "name": "Rome",
-        "description": "The capital of Italy.",
-        "id": "place_155"
       }
     ]
   },
@@ -1520,14 +1520,14 @@
   "173": {
     "places": [
       {
-        "name": "Parthenon",
-        "description": "The Parthenon is a former temple on the Athenian Acropolis, Greece, that was dedicated to the goddess Athena. Its decorative sculptures are considered some of the high points of classical Greek art, and the Parthenon is considered an enduring symbol of Ancient Greece, democracy, and Western civilization.",
-        "id": "place_1427"
-      },
-      {
         "name": "British Museum",
         "description": "The British Museum is a public museum dedicated to human history, art, and culture located in the Bloomsbury area of London.",
         "id": "place_211"
+      },
+      {
+        "name": "Parthenon",
+        "description": "The Parthenon is a former temple on the Athenian Acropolis, Greece, that was dedicated to the goddess Athena. Its decorative sculptures are considered some of the high points of classical Greek art, and the Parthenon is considered an enduring symbol of Ancient Greece, democracy, and Western civilization.",
+        "id": "place_1427"
       }
     ]
   },
@@ -1552,11 +1552,6 @@
     ],
     "places": [
       {
-        "name": "Ravenna",
-        "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
-        "id": "place_245"
-      },
-      {
         "name": "Mausoleum of Theodoric",
         "description": "An ancient monument just outside Ravenna, Italy",
         "id": "place_1408"
@@ -1565,6 +1560,11 @@
         "name": "Pantheon",
         "description": "https://en.wikipedia.org/wiki/Pantheon,_Rome",
         "id": "place_1411"
+      },
+      {
+        "name": "Ravenna",
+        "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+        "id": "place_245"
       },
       {
         "name": "Mediterranean Sea",
@@ -1582,14 +1582,14 @@
   "177": {
     "places": [
       {
+        "name": "Elba",
+        "description": "Mediterranean Island in Tuscany, Italy",
+        "id": "place_1410"
+      },
+      {
         "name": "Egypt",
         "description": "",
         "id": "place_475"
-      },
-      {
-        "name": "Corsica",
-        "description": "an island in the Mediterranean Sea",
-        "id": "place_1409"
       },
       {
         "name": "Rome",
@@ -1597,14 +1597,14 @@
         "id": "place_155"
       },
       {
-        "name": "Elba",
-        "description": "Mediterranean Island in Tuscany, Italy",
-        "id": "place_1410"
-      },
-      {
         "name": "Pisa",
         "description": "Pisa is a city in Italy's Tuscany region best known for its iconic Leaning Tower.",
         "id": "place_770"
+      },
+      {
+        "name": "Corsica",
+        "description": "an island in the Mediterranean Sea",
+        "id": "place_1409"
       }
     ]
   },
@@ -1683,13 +1683,6 @@
   "192": {
     "persons": [
       {
-        "name": "Pierre-SimonLaplace",
-        "birth": "",
-        "death": "",
-        "description": "French mathematician seen as the Newton of France. He met Davy in 1813 and 1820. ForMemRSL.",
-        "id": "person_130"
-      },
-      {
         "name": "The Unknown",
         "birth": null,
         "death": null,
@@ -1702,6 +1695,13 @@
         "death": "",
         "description": "Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy & Newton' in one inch letters. FRSL.",
         "id": "person_036"
+      },
+      {
+        "name": "Pierre-SimonLaplace",
+        "birth": "",
+        "death": "",
+        "description": "French mathematician seen as the Newton of France. He met Davy in 1813 and 1820. ForMemRSL.",
+        "id": "person_130"
       }
     ]
   },
@@ -1789,11 +1789,6 @@
   "202": {
     "places": [
       {
-        "name": "New South Wales",
-        "description": "Today, a state on the east coast of Australia; named in 1770 by Lieutenant James Cook, and founded as a British penal colony in 1788, it originally comprised more than half of the Australian mainland with its western boundary set at 129th meridian east in 1825.",
-        "id": "place_1136"
-      },
-      {
         "name": "China",
         "description": "",
         "id": "place_019"
@@ -1802,6 +1797,11 @@
         "name": "England",
         "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
         "id": "place_121"
+      },
+      {
+        "name": "New South Wales",
+        "description": "Today, a state on the east coast of Australia; named in 1770 by Lieutenant James Cook, and founded as a British penal colony in 1788, it originally comprised more than half of the Australian mainland with its western boundary set at 129th meridian east in 1825.",
+        "id": "place_1136"
       }
     ]
   },

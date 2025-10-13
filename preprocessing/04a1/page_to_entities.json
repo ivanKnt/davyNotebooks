@@ -23,21 +23,6 @@
   "14": {
     "places": [
       {
-        "name": "Saxony",
-        "description": "A state in eastern Germany.",
-        "id": "place_976"
-      },
-      {
-        "name": "Scotland",
-        "description": "",
-        "id": "place_235"
-      },
-      {
-        "name": "Alps",
-        "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
-        "id": "place_247"
-      },
-      {
         "name": "Cornwall",
         "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
         "id": "place_021"
@@ -46,6 +31,21 @@
         "name": "Siberia",
         "description": "a vast Russian province encompassing most of Northern Asia, with terrain spanning tundra, coniferous forest and mountain ranges",
         "id": "place_990"
+      },
+      {
+        "name": "Scotland",
+        "description": "",
+        "id": "place_235"
+      },
+      {
+        "name": "Saxony",
+        "description": "A state in eastern Germany.",
+        "id": "place_976"
+      },
+      {
+        "name": "Alps",
+        "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
+        "id": "place_247"
       }
     ]
   },
@@ -66,13 +66,6 @@
   "19": {
     "persons": [
       {
-        "name": "André-Jean-François-Marie Brochant deVilliers",
-        "birth": "",
-        "death": "",
-        "description": "French mineralogist and geologist.",
-        "id": "person_467"
-      },
-      {
         "name": "ThomasThomson",
         "birth": "",
         "death": "",
@@ -85,6 +78,13 @@
         "death": "",
         "description": "German geologist who proposed the theory of Neptunism and who also proposed the chronological sequence found in stratified rocks.",
         "id": "person_267"
+      },
+      {
+        "name": "André-Jean-François-Marie Brochant deVilliers",
+        "birth": "",
+        "death": "",
+        "description": "French mineralogist and geologist.",
+        "id": "person_467"
       }
     ],
     "places": [
@@ -125,14 +125,14 @@
     ],
     "places": [
       {
-        "name": "Edinburgh",
-        "description": "The capital city of Scotland.",
-        "id": "place_284"
-      },
-      {
         "name": "Mountsorrel",
         "description": "Mountsorrel is a village in Leicestershire bordering the Charnwood Forest, an upland area with isolated outcrops of ancient Precambrian igneous rocks.",
         "id": "place_485"
+      },
+      {
+        "name": "Leicestershire",
+        "description": "A county in the East Midlands of England.",
+        "id": "place_286"
       },
       {
         "name": "Charnwood Forest",
@@ -140,9 +140,9 @@
         "id": "place_507"
       },
       {
-        "name": "Leicestershire",
-        "description": "A county in the East Midlands of England.",
-        "id": "place_286"
+        "name": "Edinburgh",
+        "description": "The capital city of Scotland.",
+        "id": "place_284"
       }
     ],
     "works": [
@@ -174,18 +174,18 @@
   "23": {
     "persons": [
       {
-        "name": "Alexander vonHumboldt",
-        "birth": "",
-        "death": "",
-        "description": "German geographer, naturalist and explorer. ForMemRSL.",
-        "id": "person_271"
-      },
-      {
         "name": "Déodat Gratet deDolomieu",
         "birth": "",
         "death": "",
         "description": "French geologist. The rock, and region of the Alps, dolomite was named after him.",
         "id": "person_300"
+      },
+      {
+        "name": "Alexander vonHumboldt",
+        "birth": "",
+        "death": "",
+        "description": "German geographer, naturalist and explorer. ForMemRSL.",
+        "id": "person_271"
       }
     ]
   },
@@ -231,14 +231,14 @@
   "32": {
     "places": [
       {
-        "name": "Nether Stowey",
-        "description": "A village in Somerset, home of the tanner Thomas Poole and formerly Samuel Taylor Coleridge.",
-        "id": "place_302"
-      },
-      {
         "name": "Somerset",
         "description": "A county in south-west England.",
         "id": "place_160"
+      },
+      {
+        "name": "Nether Stowey",
+        "description": "A village in Somerset, home of the tanner Thomas Poole and formerly Samuel Taylor Coleridge.",
+        "id": "place_302"
       },
       {
         "name": "Cornwall",

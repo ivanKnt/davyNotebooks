@@ -2,21 +2,26 @@
   "5": {
     "persons": [
       {
-        "name": "Onuphrio",
-        "birth": null,
-        "death": null,
-        "description": "Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.",
-        "id": "person_108"
-      },
-      {
         "name": "Ambrosio",
         "birth": null,
         "death": null,
         "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
         "id": "person_101"
+      },
+      {
+        "name": "Onuphrio",
+        "birth": null,
+        "death": null,
+        "description": "Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.",
+        "id": "person_108"
       }
     ],
     "places": [
+      {
+        "name": "Rome",
+        "description": "The capital of Italy.",
+        "id": "place_155"
+      },
       {
         "name": "The Colosseum",
         "description": "The Colosseum, the largest amphitheatre ever built, is located in the centre of Rome. Now a ruin, its construction began 2,000 years ago.",
@@ -31,11 +36,6 @@
         "name": "Naples",
         "description": "Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.",
         "id": "place_156"
-      },
-      {
-        "name": "Rome",
-        "description": "The capital of Italy.",
-        "id": "place_155"
       }
     ]
   },
@@ -92,30 +92,30 @@
   "11": {
     "persons": [
       {
-        "name": "Philalethes",
-        "birth": null,
-        "death": null,
-        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
-        "id": "person_102"
-      },
-      {
         "name": "Onuphrio",
         "birth": null,
         "death": null,
         "description": "Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.",
         "id": "person_108"
+      },
+      {
+        "name": "Philalethes",
+        "birth": null,
+        "death": null,
+        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
+        "id": "person_102"
       }
     ],
     "places": [
       {
-        "name": "Mount Somma",
-        "description": "A mountain located in the Province of Naples, in the Campania region of southern Italy. It has a collapsed caldera of an older volcano, with Mount Vesuvius rising up from the center.",
-        "id": "place_1169"
-      },
-      {
         "name": "Portici",
         "description": "A town and comune of the Metropolitan City of Naples in Italy",
         "id": "place_413"
+      },
+      {
+        "name": "Mount Somma",
+        "description": "A mountain located in the Province of Naples, in the Campania region of southern Italy. It has a collapsed caldera of an older volcano, with Mount Vesuvius rising up from the center.",
+        "id": "place_1169"
       }
     ]
   },
@@ -131,14 +131,14 @@
     ],
     "places": [
       {
-        "name": "Portici",
-        "description": "A town and comune of the Metropolitan City of Naples in Italy",
-        "id": "place_413"
-      },
-      {
         "name": "Herculaneum",
         "description": "Herculaneum was an ancient Roman town, located in the modern-day comune of Ercolano, Campania, Italy.",
         "id": "place_714"
+      },
+      {
+        "name": "Portici",
+        "description": "A town and comune of the Metropolitan City of Naples in Italy",
+        "id": "place_413"
       }
     ]
   },
@@ -188,20 +188,6 @@
   "15": {
     "persons": [
       {
-        "name": "Philalethes",
-        "birth": null,
-        "death": null,
-        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
-        "id": "person_102"
-      },
-      {
-        "name": "Onuphrio",
-        "birth": null,
-        "death": null,
-        "description": "Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.",
-        "id": "person_108"
-      },
-      {
         "name": "JakobBöhme",
         "birth": "",
         "death": "",
@@ -209,11 +195,25 @@
         "id": "person_935"
       },
       {
+        "name": "Philalethes",
+        "birth": null,
+        "death": null,
+        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
+        "id": "person_102"
+      },
+      {
         "name": "Muhammad",
         "birth": "",
         "death": "",
         "description": "The Holy Prophet and founder of Islam.",
         "id": "person_114"
+      },
+      {
+        "name": "Onuphrio",
+        "birth": null,
+        "death": null,
+        "description": "Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.",
+        "id": "person_108"
       }
     ]
   },
@@ -302,14 +302,14 @@
     ],
     "places": [
       {
-        "name": "New Holland",
-        "description": "New Holland was the name first given to Australia by the Dutch seafarer, Abel Tasman.",
-        "id": "place_685"
-      },
-      {
         "name": "New Zealand",
         "description": "An island country in the southwestern Pacific Ocean.",
         "id": "place_1160"
+      },
+      {
+        "name": "New Holland",
+        "description": "New Holland was the name first given to Australia by the Dutch seafarer, Abel Tasman.",
+        "id": "place_685"
       }
     ]
   },
@@ -343,14 +343,14 @@
         "id": "place_155"
       },
       {
-        "name": "Italy",
-        "description": "",
-        "id": "place_097"
-      },
-      {
         "name": "northern coast of Africa",
         "description": "The coastal region of North Africa bounded by Egypt (east), by the Atlantic (west), by the Sahara (south), and by the Mediterranean Sea (north), and now comprising Morocco, Algeria, Tunisia, and Libya.",
         "id": "place_1162"
+      },
+      {
+        "name": "Italy",
+        "description": "",
+        "id": "place_097"
       }
     ]
   },
@@ -391,18 +391,18 @@
         "id": "person_102"
       },
       {
-        "name": "Constantine",
-        "birth": "",
-        "death": "",
-        "description": "Roman emperor from AD 306 to 337; he patronised Christianity and was converted to it on his deathbed.",
-        "id": "person_955"
-      },
-      {
         "name": "Ambrosio",
         "birth": null,
         "death": null,
         "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
         "id": "person_101"
+      },
+      {
+        "name": "Constantine",
+        "birth": "",
+        "death": "",
+        "description": "Roman emperor from AD 306 to 337; he patronised Christianity and was converted to it on his deathbed.",
+        "id": "person_955"
       },
       {
         "name": "Onuphrio",
@@ -469,6 +469,13 @@
   "35": {
     "persons": [
       {
+        "name": "Ambrosio",
+        "birth": null,
+        "death": null,
+        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
+        "id": "person_101"
+      },
+      {
         "name": "JesusChrist",
         "birth": "",
         "death": "",
@@ -481,13 +488,6 @@
         "death": null,
         "description": "Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.",
         "id": "person_108"
-      },
-      {
-        "name": "Ambrosio",
-        "birth": null,
-        "death": null,
-        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
-        "id": "person_101"
       }
     ]
   },
@@ -515,18 +515,18 @@
   "41": {
     "persons": [
       {
-        "name": "DavidHartley",
-        "birth": "",
-        "death": "",
-        "description": "Associationist, whose work argued that the vibrations of nerves created sensation. FRSL.",
-        "id": "person_018"
-      },
-      {
         "name": "JohnLocke",
         "birth": "",
         "death": "",
         "description": "English philosopher and physician, widely regarded as one of the most influential of early Enlightenment thinkers. FRSL.",
         "id": "person_078"
+      },
+      {
+        "name": "DavidHartley",
+        "birth": "",
+        "death": "",
+        "description": "Associationist, whose work argued that the vibrations of nerves created sensation. FRSL.",
+        "id": "person_018"
       },
       {
         "name": "IsaacNewton",
@@ -558,18 +558,18 @@
   "43": {
     "persons": [
       {
-        "name": "Ambrosio",
-        "birth": null,
-        "death": null,
-        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
-        "id": "person_101"
-      },
-      {
         "name": "Philalethes",
         "birth": null,
         "death": null,
         "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
         "id": "person_102"
+      },
+      {
+        "name": "Ambrosio",
+        "birth": null,
+        "death": null,
+        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
+        "id": "person_101"
       },
       {
         "name": "Onuphrio",
@@ -640,13 +640,6 @@
   "61": {
     "persons": [
       {
-        "name": "Onuphrio",
-        "birth": null,
-        "death": null,
-        "description": "Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.",
-        "id": "person_108"
-      },
-      {
         "name": "Moses",
         "birth": "",
         "death": null,
@@ -666,6 +659,13 @@
         "death": "",
         "description": "The Holy Prophet and founder of Islam.",
         "id": "person_114"
+      },
+      {
+        "name": "Onuphrio",
+        "birth": null,
+        "death": null,
+        "description": "Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.",
+        "id": "person_108"
       }
     ]
   },
@@ -749,36 +749,36 @@
         "id": "person_101"
       },
       {
-        "name": "Moses",
-        "birth": "",
-        "death": null,
-        "description": "According to the Old Testament Hebrew prophet who is considered the most important prophet in Judaism and one of the most important prophets in Christianity and other religions.",
-        "id": "person_115"
-      },
-      {
         "name": "JesusChrist",
         "birth": "",
         "death": "",
         "description": "The central figure of Christianity; a first-century Jewish preacher and religious leader.",
         "id": "person_951"
+      },
+      {
+        "name": "Moses",
+        "birth": "",
+        "death": null,
+        "description": "According to the Old Testament Hebrew prophet who is considered the most important prophet in Judaism and one of the most important prophets in Christianity and other religions.",
+        "id": "person_115"
       }
     ]
   },
   "69": {
     "persons": [
       {
-        "name": "Moses",
-        "birth": "",
-        "death": null,
-        "description": "According to the Old Testament Hebrew prophet who is considered the most important prophet in Judaism and one of the most important prophets in Christianity and other religions.",
-        "id": "person_115"
-      },
-      {
         "name": "JesusChrist",
         "birth": "",
         "death": "",
         "description": "The central figure of Christianity; a first-century Jewish preacher and religious leader.",
         "id": "person_951"
+      },
+      {
+        "name": "Moses",
+        "birth": "",
+        "death": null,
+        "description": "According to the Old Testament Hebrew prophet who is considered the most important prophet in Judaism and one of the most important prophets in Christianity and other religions.",
+        "id": "person_115"
       }
     ]
   },
@@ -883,18 +883,18 @@
   "83": {
     "persons": [
       {
-        "name": "Philalethes",
-        "birth": null,
-        "death": null,
-        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
-        "id": "person_102"
-      },
-      {
         "name": "Ambrosio",
         "birth": null,
         "death": null,
         "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
         "id": "person_101"
+      },
+      {
+        "name": "Philalethes",
+        "birth": null,
+        "death": null,
+        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
+        "id": "person_102"
       }
     ]
   },
@@ -903,18 +903,18 @@
   "86": {
     "persons": [
       {
-        "name": "Philalethes",
-        "birth": null,
-        "death": null,
-        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
-        "id": "person_102"
-      },
-      {
         "name": "Ambrosio",
         "birth": null,
         "death": null,
         "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
         "id": "person_101"
+      },
+      {
+        "name": "Philalethes",
+        "birth": null,
+        "death": null,
+        "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
+        "id": "person_102"
       }
     ]
   },
@@ -934,18 +934,18 @@
   "90": {
     "persons": [
       {
-        "name": "Onuphrio",
-        "birth": null,
-        "death": null,
-        "description": "Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.",
-        "id": "person_108"
-      },
-      {
         "name": "Ambrosio",
         "birth": null,
         "death": null,
         "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
         "id": "person_101"
+      },
+      {
+        "name": "Onuphrio",
+        "birth": null,
+        "death": null,
+        "description": "Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.",
+        "id": "person_108"
       }
     ]
   },
@@ -964,18 +964,18 @@
   "93": {
     "persons": [
       {
-        "name": "Onuphrio",
-        "birth": null,
-        "death": null,
-        "description": "Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.",
-        "id": "person_108"
-      },
-      {
         "name": "Ambrosio",
         "birth": null,
         "death": null,
         "description": "A fictional character in Humphry Davy's Consolations in Travel (1830).",
         "id": "person_101"
+      },
+      {
+        "name": "Onuphrio",
+        "birth": null,
+        "death": null,
+        "description": "Onuphiro is the name of a fictional character in the dialogues of Davy's Consolations in Travel. The anglicized version of the name is Humphry.",
+        "id": "person_108"
       }
     ]
   },
@@ -1038,14 +1038,14 @@
   "101": {
     "places": [
       {
-        "name": "Naples",
-        "description": "Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.",
-        "id": "place_156"
-      },
-      {
         "name": "Paestum",
         "description": "Paestum was an ancient Greek city on the coast of southern Italy.",
         "id": "place_180"
+      },
+      {
+        "name": "Naples",
+        "description": "Naples is the regional capital of Campania in Italy. It is located beneath the volcano, Vesuvius.",
+        "id": "place_156"
       },
       {
         "name": "Eboli",
@@ -1066,14 +1066,14 @@
   "103": {
     "places": [
       {
-        "name": "Sorrento",
-        "description": "A coastal town in southwestern Italy.",
-        "id": "place_1202"
-      },
-      {
         "name": "Bay of Naples",
         "description": "The Bay (or Gulf) of Naples is located on the south-western coast of Italy, with Naples to the north, Vesuvius to the east, and the Sorrento Peninsula to the south.",
         "id": "place_704"
+      },
+      {
+        "name": "Sorrento",
+        "description": "A coastal town in southwestern Italy.",
+        "id": "place_1202"
       }
     ]
   },
@@ -1191,24 +1191,24 @@
   "133": {
     "places": [
       {
-        "name": "Lipari",
-        "description": "A commune including six of seven islands of the Aeolian Islands located in the Tyrrhenian Sea off the northern coast of Sicily in southern Italy.",
-        "id": "place_408"
-      },
-      {
         "name": "Italy",
         "description": "",
         "id": "place_097"
       },
       {
-        "name": "Rome",
-        "description": "The capital of Italy.",
-        "id": "place_155"
-      },
-      {
         "name": "Mount Etna",
         "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
         "id": "place_184"
+      },
+      {
+        "name": "Lipari",
+        "description": "A commune including six of seven islands of the Aeolian Islands located in the Tyrrhenian Sea off the northern coast of Sicily in southern Italy.",
+        "id": "place_408"
+      },
+      {
+        "name": "Rome",
+        "description": "The capital of Italy.",
+        "id": "place_155"
       },
       {
         "name": "Stromboli",
@@ -1234,9 +1234,9 @@
   "135": {
     "places": [
       {
-        "name": "Alps",
-        "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
-        "id": "place_247"
+        "name": "Velino",
+        "description": "A river in central Italy, a tributary of the Nera.",
+        "id": "place_848"
       },
       {
         "name": "Terni",
@@ -1244,24 +1244,19 @@
         "id": "place_565"
       },
       {
-        "name": "Velino",
-        "description": "A river in central Italy, a tributary of the Nera.",
-        "id": "place_848"
-      },
-      {
         "name": "Po Valley",
         "description": "A vast plain area in Northern Italy, featuring the Po River.",
         "id": "place_1204"
+      },
+      {
+        "name": "Alps",
+        "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
+        "id": "place_247"
       }
     ]
   },
   "136": {
     "places": [
-      {
-        "name": "Aniene River",
-        "description": "The Aniene is a river rising in the Apennines and flowing west to join the Tiber in northern Rome. It is famous for the Tivoli waterfall.",
-        "id": "place_527"
-      },
       {
         "name": "Aniene",
         "description": "A river that originates in the Appenines in Italy, formerly called the Teverone.",
@@ -1271,6 +1266,11 @@
         "name": "Velino",
         "description": "A river in central Italy, a tributary of the Nera.",
         "id": "place_848"
+      },
+      {
+        "name": "Aniene River",
+        "description": "The Aniene is a river rising in the Apennines and flowing west to join the Tiber in northern Rome. It is famous for the Tivoli waterfall.",
+        "id": "place_527"
       }
     ]
   },
@@ -1286,24 +1286,24 @@
     ],
     "places": [
       {
-        "name": "Solfatara Caldera",
-        "description": "Solfatara di Pozzuoli is a volcanic crater near Naples. Though a dormant volcano, it emits jets of steam and sulphurous fumes.",
-        "id": "place_528"
-      },
-      {
         "name": "Albulae Aquae",
         "description": "White Waters'; a group of springs to the west of Tivolo, Italy, and location of an ancient Roman settlement.",
         "id": "place_179"
       },
       {
-        "name": "Campagna",
-        "description": "The Roman Campagna is an area of low-lying countryside surrounding Rome, where both the Tiber and Aniene Rivers flow.",
-        "id": "place_612"
+        "name": "Solfatara Caldera",
+        "description": "Solfatara di Pozzuoli is a volcanic crater near Naples. Though a dormant volcano, it emits jets of steam and sulphurous fumes.",
+        "id": "place_528"
       },
       {
         "name": "Tivoli, Lazio",
         "description": "Tivoli is a town north east of Rome and known for the waterfall on the Aniene River.",
         "id": "place_529"
+      },
+      {
+        "name": "Campagna",
+        "description": "The Roman Campagna is an area of low-lying countryside surrounding Rome, where both the Tiber and Aniene Rivers flow.",
+        "id": "place_612"
       }
     ]
   },

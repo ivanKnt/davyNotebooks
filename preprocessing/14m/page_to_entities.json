@@ -2,14 +2,14 @@
   "1": {
     "places": [
       {
-        "name": "Southern Provinces",
-        "description": "The southern provinces of Austria are Tyrol, Carinthia, and Styria.",
-        "id": "place_238"
-      },
-      {
         "name": "Ljubljana",
         "description": "Also known as Laybach or Laibach. Ljubljana is the capital city of Slovenia.",
         "id": "place_216"
+      },
+      {
+        "name": "Southern Provinces",
+        "description": "The southern provinces of Austria are Tyrol, Carinthia, and Styria.",
+        "id": "place_238"
       }
     ],
     "works": [
@@ -38,14 +38,14 @@
   "5": {
     "places": [
       {
-        "name": "Bad Ischl",
-        "description": "Bad Ischl is a spa town in Austria. It lies in the southern part of Upper Austria, at the River Traun in the centre of the Salzkammergut region.",
-        "id": "place_774"
-      },
-      {
         "name": "Traun",
         "description": "Traunfall in Desselbrunn, Upper Austria. Memoirs contains a poem Davy wrote about them, also in notebook 14E.",
         "id": "place_182"
+      },
+      {
+        "name": "Bad Ischl",
+        "description": "Bad Ischl is a spa town in Austria. It lies in the southern part of Upper Austria, at the River Traun in the centre of the Salzkammergut region.",
+        "id": "place_774"
       }
     ]
   },
@@ -78,11 +78,6 @@
         "id": "place_260"
       },
       {
-        "name": "Ager River",
-        "description": "The Ager River in Austria is a tributary of the Traun.",
-        "id": "place_268"
-      },
-      {
         "name": "Sava River",
         "description": "The Sava River, 990km in length, rises in Slovenia (Carnolia) and is the largest tributary of the Danube by volume of water.",
         "id": "place_214"
@@ -91,6 +86,11 @@
         "name": "Traun",
         "description": "Traunfall in Desselbrunn, Upper Austria. Memoirs contains a poem Davy wrote about them, also in notebook 14E.",
         "id": "place_182"
+      },
+      {
+        "name": "Ager River",
+        "description": "The Ager River in Austria is a tributary of the Traun.",
+        "id": "place_268"
       }
     ]
   },
@@ -173,9 +173,9 @@
   "22": {
     "places": [
       {
-        "name": "Kammersee",
-        "description": "The Kammersee, or Attersee, is a lake in Upper Austria.",
-        "id": "place_269"
+        "name": "Vöcklabruck",
+        "description": "Vöcklabruck is a town in the western part of Upper Austria.",
+        "id": "place_400"
       },
       {
         "name": "Gmunden",
@@ -183,9 +183,9 @@
         "id": "place_257"
       },
       {
-        "name": "Vöcklabruck",
-        "description": "Vöcklabruck is a town in the western part of Upper Austria.",
-        "id": "place_400"
+        "name": "Kammersee",
+        "description": "The Kammersee, or Attersee, is a lake in Upper Austria.",
+        "id": "place_269"
       }
     ]
   },
@@ -211,14 +211,14 @@
   "26": {
     "places": [
       {
-        "name": "Ager River",
-        "description": "The Ager River in Austria is a tributary of the Traun.",
-        "id": "place_268"
-      },
-      {
         "name": "Traun",
         "description": "Traunfall in Desselbrunn, Upper Austria. Memoirs contains a poem Davy wrote about them, also in notebook 14E.",
         "id": "place_182"
+      },
+      {
+        "name": "Ager River",
+        "description": "The Ager River in Austria is a tributary of the Traun.",
+        "id": "place_268"
       }
     ],
     "works": [
@@ -242,14 +242,9 @@
   "29": {
     "places": [
       {
-        "name": "Vöcklamarkt",
-        "description": "Town on the Vöckla river, between Vöcklabruck and Frankenmarkt",
-        "id": "place_1339"
-      },
-      {
-        "name": "Frankenmarkt",
-        "description": "Town on the Vöckla river, roughly one third of the way between Vöcklabruck and Salzburg.",
-        "id": "place_1338"
+        "name": "Salzburg",
+        "description": "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.",
+        "id": "place_197"
       },
       {
         "name": "Kammer",
@@ -257,9 +252,14 @@
         "id": "place_895"
       },
       {
-        "name": "Salzburg",
-        "description": "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.",
-        "id": "place_197"
+        "name": "Frankenmarkt",
+        "description": "Town on the Vöckla river, roughly one third of the way between Vöcklabruck and Salzburg.",
+        "id": "place_1338"
+      },
+      {
+        "name": "Vöcklamarkt",
+        "description": "Town on the Vöckla river, between Vöcklabruck and Frankenmarkt",
+        "id": "place_1339"
       }
     ]
   },
@@ -275,14 +275,14 @@
   "31": {
     "places": [
       {
-        "name": "Golling an der Salzach",
-        "description": "Golling an der Salzach is a market town in the Hallein district of Salzburg, Austria.",
-        "id": "place_1341"
-      },
-      {
         "name": "River Danube",
         "description": "The Danube is the second longest river in Europe. It flows through central and south eastern Europe into the Black Sea.",
         "id": "place_217"
+      },
+      {
+        "name": "Golling an der Salzach",
+        "description": "Golling an der Salzach is a market town in the Hallein district of Salzburg, Austria.",
+        "id": "place_1341"
       }
     ]
   },
@@ -315,6 +315,11 @@
   "38": {
     "places": [
       {
+        "name": "Untertauern",
+        "description": "Untertauern is a municipality in the district of St Johann im Pongau in the Austrian state of Salzburg.",
+        "id": "place_781"
+      },
+      {
         "name": "Werfen",
         "description": "Werfen is a market town in the district of St. Johann im Pongau, in the Austrian state of Salzburg.",
         "id": "place_1342"
@@ -323,11 +328,6 @@
         "name": "Golling an der Salzach",
         "description": "Golling an der Salzach is a market town in the Hallein district of Salzburg, Austria.",
         "id": "place_1341"
-      },
-      {
-        "name": "Untertauern",
-        "description": "Untertauern is a municipality in the district of St Johann im Pongau in the Austrian state of Salzburg.",
-        "id": "place_781"
       }
     ],
     "works": [
@@ -355,6 +355,11 @@
   "40": {
     "places": [
       {
+        "name": "Tamsweg",
+        "description": "Tamsweg is a market town in the Austrian state of Salzburg near the border with Styria.",
+        "id": "place_779"
+      },
+      {
         "name": "Radstadt",
         "description": "Radstadt is a town in the Austrian state of Salzburg.",
         "id": "place_680"
@@ -363,25 +368,20 @@
         "name": "Murau",
         "description": "A town in the western part of the Austrian federal state of Styria.",
         "id": "place_850"
-      },
-      {
-        "name": "Tamsweg",
-        "description": "Tamsweg is a market town in the Austrian state of Salzburg near the border with Styria.",
-        "id": "place_779"
       }
     ]
   },
   "41": {
     "places": [
       {
-        "name": "Mur River",
-        "description": "The Mur or Mura is a river in Central Europe rising in the Hohe Tauern national park of the Central Eastern Alps in Austria.",
-        "id": "place_602"
-      },
-      {
         "name": "Murau",
         "description": "A town in the western part of the Austrian federal state of Styria.",
         "id": "place_850"
+      },
+      {
+        "name": "Mur River",
+        "description": "The Mur or Mura is a river in Central Europe rising in the Hohe Tauern national park of the Central Eastern Alps in Austria.",
+        "id": "place_602"
       }
     ],
     "works": [
@@ -395,6 +395,11 @@
   "42": {
     "places": [
       {
+        "name": "Sankt Veit im Innkreis",
+        "description": "Sankt Veit im Innkreis is a town in Upper Austria.",
+        "id": "place_672"
+      },
+      {
         "name": "Friesach",
         "description": "Friesach is a historic town in the Sankt Veit an der Glan district of Carinthia, Austria.",
         "id": "place_1343"
@@ -403,11 +408,6 @@
         "name": "Klagenfurt",
         "description": "Klagenfurt is the capital city of the Austrian state of Carinthia.",
         "id": "place_674"
-      },
-      {
-        "name": "Sankt Veit im Innkreis",
-        "description": "Sankt Veit im Innkreis is a town in Upper Austria.",
-        "id": "place_672"
       }
     ]
   },
@@ -440,18 +440,11 @@
   "51": {
     "persons": [
       {
-        "name": "Joseph LouisGay-Lussac",
+        "name": "Claude LouisBerthollet",
         "birth": "",
         "death": "",
-        "description": "French chemist and physicist, known mostly for his discovery that water is made of two parts hydrogen and one part oxygen by volume (with Alexander von Humboldt), for two laws related to gases, and for his work on alcohol-water mixtures. Became involved in controversies with Davy over various chemical discoveries. ForMemRSL.",
-        "id": "person_012"
-      },
-      {
-        "name": "WilliamCullen",
-        "birth": "",
-        "death": "",
-        "description": "Scottish physician and chemist. Professor of Medicine at Glasgow University and then Edinburgh. FRSL.",
-        "id": "person_243"
+        "description": "French Chemist. ForMemRSL.",
+        "id": "person_005"
       },
       {
         "name": "CharlesBlagden",
@@ -461,11 +454,18 @@
         "id": "person_142"
       },
       {
-        "name": "Claude LouisBerthollet",
+        "name": "WilliamCullen",
         "birth": "",
         "death": "",
-        "description": "French Chemist. ForMemRSL.",
-        "id": "person_005"
+        "description": "Scottish physician and chemist. Professor of Medicine at Glasgow University and then Edinburgh. FRSL.",
+        "id": "person_243"
+      },
+      {
+        "name": "Joseph LouisGay-Lussac",
+        "birth": "",
+        "death": "",
+        "description": "French chemist and physicist, known mostly for his discovery that water is made of two parts hydrogen and one part oxygen by volume (with Alexander von Humboldt), for two laws related to gases, and for his work on alcohol-water mixtures. Became involved in controversies with Davy over various chemical discoveries. ForMemRSL.",
+        "id": "person_012"
       }
     ]
   },
@@ -473,14 +473,14 @@
   "53": {
     "places": [
       {
-        "name": "Ravenna",
-        "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
-        "id": "place_245"
-      },
-      {
         "name": "Wurzen Pass",
         "description": "Wurzen Pass is a mountain pass in a col of the Karawanks Mountain range between the Austrian state of Carinthia and the the Slovenian Kranjska Gora. It is named after the town of Podkoren (Wurzen).",
         "id": "place_256"
+      },
+      {
+        "name": "Ravenna",
+        "description": "Ravenna is a city in the north-east of Italy, near the coast of the Adriatic Sea.",
+        "id": "place_245"
       }
     ],
     "works": [
@@ -496,29 +496,9 @@
   "56": {
     "places": [
       {
-        "name": "Drava River",
-        "description": "The Drava is a river in central southern Europe and is the fifth longest tributary of the Danube.",
-        "id": "place_260"
-      },
-      {
-        "name": "Rhone River",
-        "description": "A major river in France and Switzerland.",
-        "id": "place_355"
-      },
-      {
         "name": "Rhine",
         "description": "The Rhine is one of Europe's major rivers. It rises in Switzerland, flows through Germany, and enters the North Sea in the Netherlands.",
         "id": "place_266"
-      },
-      {
-        "name": "Switzerland",
-        "description": "",
-        "id": "place_198"
-      },
-      {
-        "name": "Germany",
-        "description": "",
-        "id": "place_324"
       },
       {
         "name": "Italy",
@@ -529,6 +509,26 @@
         "name": "Illyrian Alps",
         "description": "Illyria was the name of a mountainous region in the western part of the Balkan Peninsula in south-eastern Europe.",
         "id": "place_192"
+      },
+      {
+        "name": "Drava River",
+        "description": "The Drava is a river in central southern Europe and is the fifth longest tributary of the Danube.",
+        "id": "place_260"
+      },
+      {
+        "name": "Rhone River",
+        "description": "A major river in France and Switzerland.",
+        "id": "place_355"
+      },
+      {
+        "name": "Germany",
+        "description": "",
+        "id": "place_324"
+      },
+      {
+        "name": "Switzerland",
+        "description": "",
+        "id": "place_198"
       },
       {
         "name": "Traun",
@@ -559,16 +559,6 @@
   "60": {
     "places": [
       {
-        "name": "Rieti",
-        "description": "A town and comune in Lazio, central Italy,",
-        "id": "place_955"
-      },
-      {
-        "name": "Terni",
-        "description": "Terni is a city in the southern portion of the region of Umbria in central Italy.",
-        "id": "place_565"
-      },
-      {
         "name": "Rome",
         "description": "The capital of Italy.",
         "id": "place_155"
@@ -577,15 +567,25 @@
         "name": "Velino",
         "description": "A river in central Italy, a tributary of the Nera.",
         "id": "place_848"
+      },
+      {
+        "name": "Terni",
+        "description": "Terni is a city in the southern portion of the region of Umbria in central Italy.",
+        "id": "place_565"
+      },
+      {
+        "name": "Rieti",
+        "description": "A town and comune in Lazio, central Italy,",
+        "id": "place_955"
       }
     ]
   },
   "61": {
     "places": [
       {
-        "name": "Apennines",
-        "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
-        "id": "place_530"
+        "name": "Sabina",
+        "description": "Also called the Sabine Hills, a region in central Italy.",
+        "id": "place_926"
       },
       {
         "name": "Velino",
@@ -598,9 +598,9 @@
         "id": "place_121"
       },
       {
-        "name": "Sabina",
-        "description": "Also called the Sabine Hills, a region in central Italy.",
-        "id": "place_926"
+        "name": "Apennines",
+        "description": "The Apennines are a range of mountains that run down the spine of peninsular Italy.",
+        "id": "place_530"
       }
     ]
   },
@@ -624,9 +624,9 @@
   "66": {
     "places": [
       {
-        "name": "Wurzen Pass",
-        "description": "Wurzen Pass is a mountain pass in a col of the Karawanks Mountain range between the Austrian state of Carinthia and the the Slovenian Kranjska Gora. It is named after the town of Podkoren (Wurzen).",
-        "id": "place_256"
+        "name": "Ratmansdorff",
+        "description": "Also known as Radovljica. Radovljica is a town in the Upper Carnolia region of Slovenia, located on the banks of the Sava River.",
+        "id": "place_342"
       },
       {
         "name": "Bled",
@@ -639,9 +639,9 @@
         "id": "place_216"
       },
       {
-        "name": "Ratmansdorff",
-        "description": "Also known as Radovljica. Radovljica is a town in the Upper Carnolia region of Slovenia, located on the banks of the Sava River.",
-        "id": "place_342"
+        "name": "Wurzen Pass",
+        "description": "Wurzen Pass is a mountain pass in a col of the Karawanks Mountain range between the Austrian state of Carinthia and the the Slovenian Kranjska Gora. It is named after the town of Podkoren (Wurzen).",
+        "id": "place_256"
       }
     ]
   },
@@ -852,14 +852,14 @@
   "120": {
     "places": [
       {
-        "name": "Sava River",
-        "description": "The Sava River, 990km in length, rises in Slovenia (Carnolia) and is the largest tributary of the Danube by volume of water.",
-        "id": "place_214"
-      },
-      {
         "name": "Illyrian Alps",
         "description": "Illyria was the name of a mountainous region in the western part of the Balkan Peninsula in south-eastern Europe.",
         "id": "place_192"
+      },
+      {
+        "name": "Sava River",
+        "description": "The Sava River, 990km in length, rises in Slovenia (Carnolia) and is the largest tributary of the Danube by volume of water.",
+        "id": "place_214"
       }
     ]
   },
@@ -876,38 +876,38 @@
   "123": {
     "places": [
       {
-        "name": "Trieste",
-        "description": "Trieste is the capital city of the Friuli Venezia Giulia region in north-east Italy. A port city, it occupies a thin strip of land between the Adriatic coast and Slovenia’s border on the limestone-dominated Karst Plateau.",
-        "id": "place_519"
-      },
-      {
         "name": "Cerknica",
         "description": "Known in German as Zirknitz, Cerknica is a town in the Karst region of southwestern Slovenia.",
         "id": "place_1346"
       },
       {
-        "name": "Postojna",
-        "description": "a town in the traditional region of Inner Carniola, in southwestern Slovenia",
-        "id": "place_1248"
-      },
-      {
         "name": "Planina",
         "description": "A village in the Inner Carniola region of Slovenia.",
         "id": "place_1064"
+      },
+      {
+        "name": "Trieste",
+        "description": "Trieste is the capital city of the Friuli Venezia Giulia region in north-east Italy. A port city, it occupies a thin strip of land between the Adriatic coast and Slovenia’s border on the limestone-dominated Karst Plateau.",
+        "id": "place_519"
+      },
+      {
+        "name": "Postojna",
+        "description": "a town in the traditional region of Inner Carniola, in southwestern Slovenia",
+        "id": "place_1248"
       }
     ]
   },
   "124": {
     "places": [
       {
-        "name": "Ljubljana",
-        "description": "Also known as Laybach or Laibach. Ljubljana is the capital city of Slovenia.",
-        "id": "place_216"
-      },
-      {
         "name": "Cerknica",
         "description": "Known in German as Zirknitz, Cerknica is a town in the Karst region of southwestern Slovenia.",
         "id": "place_1346"
+      },
+      {
+        "name": "Ljubljana",
+        "description": "Also known as Laybach or Laibach. Ljubljana is the capital city of Slovenia.",
+        "id": "place_216"
       }
     ]
   },
@@ -923,23 +923,23 @@
   "126": {
     "places": [
       {
-        "name": "Ljubljanica River",
-        "description": "The Ljubljanica is a river in the southern part of the Ljubljana Basin in Slovenia. Davy also refers to the \"fall of the Lubiana\"  as Kaltenbrun.",
-        "id": "place_553"
-      },
-      {
         "name": "Sava River",
         "description": "The Sava River, 990km in length, rises in Slovenia (Carnolia) and is the largest tributary of the Danube by volume of water.",
         "id": "place_214"
+      },
+      {
+        "name": "Ljubljanica River",
+        "description": "The Ljubljanica is a river in the southern part of the Ljubljana Basin in Slovenia. Davy also refers to the \"fall of the Lubiana\"  as Kaltenbrun.",
+        "id": "place_553"
       }
     ]
   },
   "127": {
     "places": [
       {
-        "name": "Calais",
-        "description": "A port city in North-West France",
-        "id": "place_989"
+        "name": "Salzburg",
+        "description": "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.",
+        "id": "place_197"
       },
       {
         "name": "Trieste",
@@ -952,25 +952,20 @@
         "id": "place_216"
       },
       {
+        "name": "Calais",
+        "description": "A port city in North-West France",
+        "id": "place_989"
+      },
+      {
         "name": "England",
         "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
         "id": "place_121"
-      },
-      {
-        "name": "Salzburg",
-        "description": "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.",
-        "id": "place_197"
       }
     ]
   },
   "128": {},
   "129": {
     "places": [
-      {
-        "name": "Planina",
-        "description": "A village in the Inner Carniola region of Slovenia.",
-        "id": "place_1064"
-      },
       {
         "name": "Cerknica",
         "description": "Known in German as Zirknitz, Cerknica is a town in the Karst region of southwestern Slovenia.",
@@ -980,20 +975,25 @@
         "name": "Gorizia",
         "description": "Gorizia is a town and comune in north-eastern Italy, in the autonomous region of Friuli Venezia Giulia.",
         "id": "place_586"
+      },
+      {
+        "name": "Planina",
+        "description": "A village in the Inner Carniola region of Slovenia.",
+        "id": "place_1064"
       }
     ]
   },
   "130": {
     "places": [
       {
-        "name": "Pordenone",
-        "description": "Pordenone is a comune of the north-east Italian region of Friuli Venezia Giulia.",
-        "id": "place_587"
-      },
-      {
         "name": "Padua",
         "description": "A province and a city in italy, west of Venice.",
         "id": "place_1075"
+      },
+      {
+        "name": "Pordenone",
+        "description": "Pordenone is a comune of the north-east Italian region of Friuli Venezia Giulia.",
+        "id": "place_587"
       }
     ]
   },
@@ -1014,14 +1014,14 @@
         "id": "place_942"
       },
       {
-        "name": "Rovigo",
-        "description": "A city and comune in the Veneto region of Northeast Italy.",
-        "id": "place_1079"
-      },
-      {
         "name": "Padua",
         "description": "A province and a city in italy, west of Venice.",
         "id": "place_1075"
+      },
+      {
+        "name": "Rovigo",
+        "description": "A city and comune in the Veneto region of Northeast Italy.",
+        "id": "place_1079"
       }
     ]
   },
@@ -1047,11 +1047,6 @@
   "133": {
     "places": [
       {
-        "name": "Nocera Umbra",
-        "description": "Nocera Umbra is a town and comune in the province of Perugia, Italy.",
-        "id": "place_549"
-      },
-      {
         "name": "Cagli",
         "description": "Cagli is a town and comune in the province of Pesaro e Urbino, Marche, central Italy.",
         "id": "place_542"
@@ -1060,16 +1055,16 @@
         "name": "Spoleto",
         "description": "A city in Umbria, Italy.",
         "id": "place_927"
+      },
+      {
+        "name": "Nocera Umbra",
+        "description": "Nocera Umbra is a town and comune in the province of Perugia, Italy.",
+        "id": "place_549"
       }
     ]
   },
   "134": {
     "places": [
-      {
-        "name": "Foligno",
-        "description": "Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.",
-        "id": "place_564"
-      },
       {
         "name": "Rome",
         "description": "The capital of Italy.",
@@ -1079,20 +1074,25 @@
         "name": "Terni",
         "description": "Terni is a city in the southern portion of the region of Umbria in central Italy.",
         "id": "place_565"
+      },
+      {
+        "name": "Foligno",
+        "description": "Foligno is an ancient town of Italy in the province of Perugia in east central Umbria, on the Topino river.",
+        "id": "place_564"
       }
     ]
   },
   "135": {
     "places": [
       {
-        "name": "Rome",
-        "description": "The capital of Italy.",
-        "id": "place_155"
-      },
-      {
         "name": "Baccano",
         "description": "A town in Italy in the Campagnano di Roma",
         "id": "place_1347"
+      },
+      {
+        "name": "Rome",
+        "description": "The capital of Italy.",
+        "id": "place_155"
       }
     ]
   },
@@ -1123,18 +1123,18 @@
   "146": {
     "persons": [
       {
-        "name": "AlessandroVolta",
-        "birth": "",
-        "death": "",
-        "description": "Professor of experimental physics at the University of Pavia. At the end of the eighteenth century he Invented the Voltaic pile which produced electric current and which Davy shortly dubbed the battery. Davy described meeting him in 1814 in notebook 14/I, p.38. ForMemRSL.",
-        "id": "person_199"
-      },
-      {
         "name": "HenryCavendish",
         "birth": "",
         "death": "",
         "description": "A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL.",
         "id": "person_026"
+      },
+      {
+        "name": "AlessandroVolta",
+        "birth": "",
+        "death": "",
+        "description": "Professor of experimental physics at the University of Pavia. At the end of the eighteenth century he Invented the Voltaic pile which produced electric current and which Davy shortly dubbed the battery. Davy described meeting him in 1814 in notebook 14/I, p.38. ForMemRSL.",
+        "id": "person_199"
       }
     ]
   },
@@ -1186,6 +1186,27 @@
   "150": {
     "persons": [
       {
+        "name": "FrancescoRedi",
+        "birth": "",
+        "death": "",
+        "description": "Italian physician and naturalist. He is referred to as the \"founder of experimental biology\"",
+        "id": "person_1076"
+      },
+      {
+        "name": "HenryCavendish",
+        "birth": "",
+        "death": "",
+        "description": "A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL.",
+        "id": "person_026"
+      },
+      {
+        "name": "Giovanni AlfonsoBorelli",
+        "birth": "",
+        "death": "",
+        "description": "Italian physicist, physiologist and mathematician who is often described as the father of biomechanics.",
+        "id": "person_789"
+      },
+      {
         "name": "AlessandroVolta",
         "birth": "",
         "death": "",
@@ -1205,27 +1226,6 @@
         "death": "",
         "description": "Nabob and later an MP he experimented on the electrical properties of torpedo fish. FRSL.",
         "id": "person_525"
-      },
-      {
-        "name": "Giovanni AlfonsoBorelli",
-        "birth": "",
-        "death": "",
-        "description": "Italian physicist, physiologist and mathematician who is often described as the father of biomechanics.",
-        "id": "person_789"
-      },
-      {
-        "name": "HenryCavendish",
-        "birth": "",
-        "death": "",
-        "description": "A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL.",
-        "id": "person_026"
-      },
-      {
-        "name": "FrancescoRedi",
-        "birth": "",
-        "death": "",
-        "description": "Italian physician and naturalist. He is referred to as the \"founder of experimental biology\"",
-        "id": "person_1076"
       }
     ]
   },
@@ -1248,9 +1248,9 @@
   "159": {
     "places": [
       {
-        "name": "Saxony",
-        "description": "A state in eastern Germany.",
-        "id": "place_976"
+        "name": "England",
+        "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
+        "id": "place_121"
       },
       {
         "name": "Arabian Peninsula",
@@ -1258,9 +1258,9 @@
         "id": "place_1212"
       },
       {
-        "name": "England",
-        "description": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers approximately 62%, and over 100 smaller adjacent islands.",
-        "id": "place_121"
+        "name": "Saxony",
+        "description": "A state in eastern Germany.",
+        "id": "place_976"
       }
     ]
   },

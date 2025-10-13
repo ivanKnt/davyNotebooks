@@ -52,7 +52,7 @@ export default function PoetryTraditionalPage() {
         <header className="space-y-3 text-center sm:text-left">
           <h1 className="text-3xl font-semibold text-slate-900">Poetry Explorer (Traditional)</h1>
           <p className="text-slate-600 text-base sm:max-w-3xl">
-            Discover pages classified as poetry using citizen science classifications. Filter by notebook and explore poetic content confidence scores.
+            Discover pages classified only as  poetry using  zooniverse participants  classifications. Filter by notebook and by poetic content confidence scores.
           </p>
         </header>
 

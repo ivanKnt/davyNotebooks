@@ -7,46 +7,82 @@ import os
 import json
 import csv
 
-# --- Configuration --- #
-# Project root = parent of davy_web
+"""
+Configuration and Path Setup
+-----------------------------
+This section defines all the critical paths for the Davy Notebooks Project.
+The structure is organized to keep scripts, inputs, and outputs clearly separated.
+
+Directory Structure:
+- scripts/: Contains all processing scripts (preprocessing, text reuse analysis)
+- poetry_filter/: Scripts for poetry classification
+- preprocessing/: Output directory for extracted and cleaned text data
+- classifications/: Output directory for content classification results
+- poetry_files/: Output directory for poetry-specific analysis
+- results_text_reuse/: Output directory for text reuse detection results
+
+The project root is determined relative to this file's location (davy_web/app.py)
+"""
 DAVY_PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
+# Script directories - where processing scripts live
 SCRIPTS_DIR = DAVY_PROJECT_ROOT / "scripts"
 PREPROCESSING_SCRIPTS_DIR = SCRIPTS_DIR / "preprocessing_scripts"
 POETRY_FILTER_DIR = DAVY_PROJECT_ROOT / "poetry_filter"
 TEXT_REUSE_SCRIPTS_DIR = SCRIPTS_DIR / "text_reuse"
 
+# Output directories - where processed data is stored
 PREPROCESSING_OUTPUT_DIR = DAVY_PROJECT_ROOT / "preprocessing"
 CLASSIFICATION_OUTPUT_DIR = DAVY_PROJECT_ROOT / "classifications"
 POETRY_OUTPUT_DIR = DAVY_PROJECT_ROOT / "poetry_files"
 TEXT_REUSE_OUTPUT_DIR = DAVY_PROJECT_ROOT / "results_text_reuse"
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+CORS(app)  # Enable CORS to allow requests from the React frontend (different port)
 
 
 def run_python_script(script_path: Path, args=None):
-    """Run a Python script using the current interpreter (venv-aware)."""
+    """
+    Execute a Python script using the active virtual environment's interpreter.
+    
+    This function is the core mechanism for running all backend processing scripts
+    (preprocessing, classification, text reuse analysis). It ensures that:
+    1. The correct Python interpreter (from venv) is used
+    2. All output is captured for logging and error reporting
+    3. Encoding is properly set to UTF-8 to handle historical text characters
+    
+    Args:
+        script_path: Full path to the Python script to execute
+        args: Optional list of command-line arguments to pass to the script
+    
+    Returns:
+        tuple: (success: bool, output: str) where output is either stdout or error message
+    
+    Note: Scripts are executed from the project root to ensure relative paths work correctly.
+    """
     if not script_path.exists():
         return False, f"Script not found: {script_path}"
 
+    # Use custom Python path if set (for development), otherwise use the active interpreter
     interpreter = os.environ.get('DAVY_SCRIPT_PYTHON') or sys.executable
     command = [interpreter, str(script_path)]
     if args:
         command.extend(args)
 
     try:
+        # Force UTF-8 encoding to handle special characters in historical texts
         env = {**os.environ, 'PYTHONIOENCODING': 'utf-8'}
         result = subprocess.run(
             command,
-            capture_output=True,
-            text=True,
-            check=True,
-            cwd=str(DAVY_PROJECT_ROOT),
+            capture_output=True,  # Capture both stdout and stderr
+            text=True,  # Return strings instead of bytes
+            check=True,  # Raise exception on non-zero exit code
+            cwd=str(DAVY_PROJECT_ROOT),  # Run from project root
             env=env,
         )
         return True, result.stdout
     except subprocess.CalledProcessError as e:
+        # Combine stdout and stderr for complete error context
         combined = (e.stdout or '') + '\n' + (e.stderr or '')
         return False, combined.strip()
     except Exception as e:
@@ -85,8 +121,26 @@ def preprocessing_status():
     }), 200
 
 
-# --- Helpers: page key normalization --- #
+"""
+Page Key Normalization Helpers
+-------------------------------
+These functions handle the inconsistency in page numbering across different notebooks.
+Some notebooks use "1", others use "01" or "001". The frontend might request "1" 
+but the data files might have "01" as the key. These helpers try all reasonable 
+variations to find the correct page.
+
+This is crucial because failing to match page numbers would result in "page not found" 
+errors even when the data exists.
+"""
+
 def _trim_leading_zeros(value: str) -> str:
+    """
+    Remove leading zeros from a page number string.
+    Converts "01" -> "1", "001" -> "1", etc.
+    
+    If the value can't be converted to int (e.g., "1a"), returns it as-is.
+    This handles edge cases where page numbers might have suffixes.
+    """
     try:
         return str(int(str(value)))
     except Exception:
@@ -94,15 +148,30 @@ def _trim_leading_zeros(value: str) -> str:
 
 
 def _candidate_page_keys(requested: str) -> list[str]:
+    """
+    Generate all possible page key variations for a requested page number.
+    
+    For example, if requested="1", this returns ["1", "01", "001"]
+    If requested="01", this returns ["01", "1", "001"]
+    
+    This allows us to match pages regardless of how they're formatted in the data files.
+    The order matters - we try the original format first, then common variations.
+    
+    Returns:
+        List of unique page key candidates, preserving order for efficient lookup
+    """
     s = str(requested)
     trimmed = _trim_leading_zeros(s)
-    candidates = [s]
-    # common paddings
+    candidates = [s]  # Always try the original format first
+    
+    # Add common zero-padded versions (2-digit and 3-digit)
     for width in (2, 3):
         candidates.append(trimmed.zfill(width))
-    # always include trimmed
+    
+    # Always include the trimmed (no leading zeros) version
     candidates.append(trimmed)
-    # de-dup while preserving order
+    
+    # Remove duplicates while preserving order (important for performance)
     seen = set()
     unique = []
     for c in candidates:
@@ -332,24 +401,55 @@ def _text_reuse_configs_for(algorithm: str):
 
 
 def _find_results_file(algorithm: str, config_id: int, notebooks: list[str]):
+    """
+    Locate the results file for a specific text reuse analysis.
+    
+    Results files follow a naming convention:
+        page_to_text_<config_name>__nb_<notebook1>-<notebook2>_<alg>_results.json
+    
+    For example:
+        page_to_text_2gram_stemmed_no_stopwords__nb_14e-14g_ngram_results.json
+    
+    This function parses these filenames to find the exact match for the requested
+    algorithm, configuration, and notebook pair, this is done this way  because multiple
+    configurations might exist for the same notebooks.
+    
+    Args:
+        algorithm: One of 'ngram', 'gst', or 'tfidf'
+        config_id: The configuration ID (e.g., 2, 3, 4)
+        notebooks: List of notebook IDs (e.g., ['14e', '14g'])
+    
+    Returns:
+        Path to the results file if found, None otherwise
+    """
     alg_key = 'ngram' if algorithm == 'ngram' else ('gst' if algorithm == 'gst' else 'tfidf')
     base_dir = TEXT_REUSE_OUTPUT_DIR / f"results_{alg_key}" / f"config_{config_id}"
+    
     if not base_dir.exists():
         return None
+    
     suffix = f"_{alg_key}_results.json"
-    expected_notebooks = sorted(notebooks)
-    fallback = None
+    expected_notebooks = sorted(notebooks)  # Sort for consistent comparison
+    fallback = None  # Keep first file as fallback if exact match not found
+    
     for p in base_dir.glob(f"*{suffix}"):
+        # Parse the notebook pair from filename: __nb_14e-14g
         parts = p.stem.split('__nb_')
         if len(parts) == 2:
             nb_part = parts[1]
+            # Remove the algorithm suffix if present
             if nb_part.endswith(f"_{alg_key}_results"):
                 nb_part = nb_part[: -len(f"_{alg_key}_results")]
+            # Extract and sort the notebook IDs
             nb_list = sorted(nb_part.split('-'))
+            # Check if this matches the requested notebooks
             if nb_list == expected_notebooks:
                 return p
         else:
+            # Store first file as fallback
             fallback = fallback or p
+    
+    # Return fallback only if no notebooks specified (for legacy support)
     if not notebooks:
         return fallback
     return fallback if fallback and not expected_notebooks else None
@@ -385,12 +485,38 @@ def tr_get_results(algorithm: str, config_id: int, notebooks: str):
         return jsonify({"status": "error", "message": str(e)}), 500
 @app.route("/api/text-reuse/run", methods=["POST"])
 def tr_run():
+    """
+    Run or retrieve text reuse analysis for a pair of notebooks.
+    
+    This endpoint handles the most computationally expensive operation in the system.
+    Text reuse analysis can take several minutes for large notebooks, so we:
+    1. First check if results already exist (avoid re-running)
+    2. If not, run the appropriate algorithm script
+    3. Return results immediately after computation completes
+    
+    The frontend should show a loading indicator while this runs.
+    
+    Request body:
+        {
+            "algorithm": "ngram" | "gst" | "tfidf",
+            "config_id": 2,  // Which configuration to use
+            "notebooks": ["14e", "14g"],  // Exactly 2 notebooks
+            "filename": "page_to_text.json"  // Optional, defaults to page_to_text.json
+        }
+    
+    Returns:
+        - 200: Results found and returned (either existing or newly computed)
+        - 202: Script completed but results file not yet located (rare timing issue)
+        - 400: Invalid parameters
+        - 500: Script execution failed
+    """
     payload = request.get_json(silent=True) or {}
     algorithm = (payload.get('algorithm') or '').lower()
     config_id = payload.get('config_id')
     notebooks = payload.get('notebooks') or []
     filename = payload.get('filename') or 'page_to_text.json'
 
+    # Validate parameters
     if algorithm not in {"ngram", "gst", "tfidf"}:
         return jsonify({"status": "error", "message": "algorithm must be one of: ngram, gst, tfidf"}), 400
     if not isinstance(config_id, int):
@@ -398,7 +524,7 @@ def tr_run():
     if not isinstance(notebooks, list) or len(notebooks) != 2:
         return jsonify({"status": "error", "message": "Provide exactly two notebooks in an array"}), 400
 
-    # If results already exist, return them
+    # Check if results already exist (avoid expensive re-computation)
     existing = _find_results_file(algorithm, config_id, notebooks)
     if existing:
         with open(existing, 'r', encoding='utf-8') as f:
@@ -408,7 +534,7 @@ def tr_run():
                 "data": json.load(f)
             }), 200
 
-    # Choose script path
+    # Select the appropriate analysis script
     if algorithm == 'ngram':
         script = TEXT_REUSE_SCRIPTS_DIR / 'ngram_code.py'
     elif algorithm == 'gst':
@@ -416,25 +542,30 @@ def tr_run():
     else:
         script = TEXT_REUSE_SCRIPTS_DIR / 'tf_idf_code.py'
 
-    # Run script for only the two notebooks; scripts will write results with group tag
+    # Run the analysis script with the specified parameters
+    # The scripts will automatically save results in the correct location
     args = [
         '--notebooks', ','.join(notebooks),
-        '--combo-size', '2',
+        '--combo-size', '2',  # We only support pairwise comparison for now
         '--filenames', filename,
-        '--config-id', str(config_id)
+        '--config-id', str(config_id)  # Tell script which configuration to use
     ]
     success, message = run_python_script(script, args=args)
     if not success:
         return jsonify({"status": "error", "message": message}), 500
 
-    # Attempt to locate the expected results file post-run
+    # Try to locate the results file that was just created
     res_file = _find_results_file(algorithm, config_id, notebooks)
     if not res_file:
+        # This is rare - the script completed but we can't find the output file yet
+        # Could be a timing/filesystem issue. Return 202 to indicate processing complete.
         return jsonify({
             "status": "partial",
             "message": "Run completed but results file not located yet",
             "log": message
         }), 202
+    
+    # Load and return the newly created results
     with open(res_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     return jsonify({"status": "success", "file": str(res_file), "data": data}), 200

@@ -30,14 +30,14 @@
     ],
     "works": [
       {
-        "name": "Philosophical Transactions",
-        "author": null,
-        "id": "otherwork_366"
-      },
-      {
         "name": "Philosophical Transactions of the Royal Society of London",
         "author": null,
         "id": "otherwork_063"
+      },
+      {
+        "name": "Philosophical Transactions",
+        "author": null,
+        "id": "otherwork_366"
       }
     ]
   },
@@ -69,6 +69,13 @@
         "id": "person_019"
       },
       {
+        "name": "StephenHales",
+        "birth": "",
+        "death": "",
+        "description": "English clergyman who made major contributions to a range of scientific fields including botany, pneumatic chemistry and physiology.  FRSL.",
+        "id": "person_021"
+      },
+      {
         "name": "AntoineParent",
         "birth": "",
         "death": "",
@@ -81,13 +88,6 @@
         "death": "",
         "description": "English plant anatomist and physiologist, known as the 'Father of Plant Anatomy'. FRSL.",
         "id": "person_020"
-      },
-      {
-        "name": "StephenHales",
-        "birth": "",
-        "death": "",
-        "description": "English clergyman who made major contributions to a range of scientific fields including botany, pneumatic chemistry and physiology.  FRSL.",
-        "id": "person_021"
       }
     ],
     "works": [
@@ -230,6 +230,13 @@
   "15": {
     "persons": [
       {
+        "name": "Heinrich CorneliusAgrippa",
+        "birth": "",
+        "death": "",
+        "description": "Alchemist and occultist.",
+        "id": "person_069"
+      },
+      {
         "name": "GeorgiusAgricola",
         "birth": "",
         "death": "",
@@ -249,13 +256,6 @@
         "death": null,
         "description": "Seventeenth-century translator of Heinrich Cornelius Agrippa.",
         "id": "person_071"
-      },
-      {
-        "name": "Heinrich CorneliusAgrippa",
-        "birth": "",
-        "death": "",
-        "description": "Alchemist and occultist.",
-        "id": "person_069"
       }
     ],
     "places": [
@@ -267,9 +267,9 @@
     ],
     "works": [
       {
-        "name": "De animantibus subterraneis",
-        "author": "Georgius Agricola",
-        "id": "otherwork_030"
+        "name": "Three Books of Occult Philosophy (De occulta philosophia libri III)",
+        "author": "Heinrich Cornelius Agrippa",
+        "id": "otherwork_033"
       },
       {
         "name": "Liber secretorum de virtutibus herbarum, lapidum et animalium quorundam",
@@ -282,9 +282,9 @@
         "id": "otherwork_029"
       },
       {
-        "name": "Three Books of Occult Philosophy (De occulta philosophia libri III)",
-        "author": "Heinrich Cornelius Agrippa",
-        "id": "otherwork_033"
+        "name": "De animantibus subterraneis",
+        "author": "Georgius Agricola",
+        "id": "otherwork_030"
       }
     ]
   },
@@ -300,6 +300,11 @@
     ],
     "works": [
       {
+        "name": "Recueil d'Auteurs Hermetiques",
+        "author": "Jaques Girard",
+        "id": "otherwork_034"
+      },
+      {
         "name": "Trois Traitez de la Philosophie Naturelle non Encore Imprimez",
         "author": "Pierre Arnauld",
         "id": "otherwork_339"
@@ -308,11 +313,6 @@
         "name": "De Lapide Philosophorum Tractatus duodecim e naturae fonte et manuali experientia deprompti.",
         "author": "Michael Sendivogius",
         "id": "otherwork_338"
-      },
-      {
-        "name": "Recueil d'Auteurs Hermetiques",
-        "author": "Jaques Girard",
-        "id": "otherwork_034"
       },
       {
         "name": "Traicté du Soulphre etc. etc",
@@ -356,18 +356,18 @@
   "19": {
     "persons": [
       {
-        "name": "AndreaCesalpino",
-        "birth": "",
-        "death": "",
-        "description": "Florentine physician, philosopher, and botanist. In his works he classified plants according to their fruits and seeds, rather than alphabetically or by medicinal properties.",
-        "id": "person_744"
-      },
-      {
         "name": "AndreasLibavius",
         "birth": "",
         "death": "",
         "description": "German physician and alchemist and chemist.",
         "id": "person_370"
+      },
+      {
+        "name": "AndreaCesalpino",
+        "birth": "",
+        "death": "",
+        "description": "Florentine physician, philosopher, and botanist. In his works he classified plants according to their fruits and seeds, rather than alphabetically or by medicinal properties.",
+        "id": "person_744"
       }
     ],
     "works": [
@@ -395,18 +395,18 @@
   "21": {
     "persons": [
       {
-        "name": "HamerPoppius",
-        "birth": "",
-        "death": "",
-        "description": "Author of \"Basilica Antimonii\"",
-        "id": "person_1107"
-      },
-      {
         "name": "OleBorch",
         "birth": "",
         "death": "",
         "description": "Danish royal physician who taught Nicolas Steno.",
         "id": "person_623"
+      },
+      {
+        "name": "HamerPoppius",
+        "birth": "",
+        "death": "",
+        "description": "Author of \"Basilica Antimonii\"",
+        "id": "person_1107"
       }
     ],
     "works": [
@@ -439,55 +439,41 @@
         "id": "person_1099"
       },
       {
-        "name": "Charles VIII",
-        "birth": "",
-        "death": "",
-        "description": "Charles the Affable. King of France from 1483 to death, known as Charles the Affable.",
-        "id": "person_747"
-      },
-      {
         "name": "Giovanni AurelioAugurello",
         "birth": "",
         "death": "",
         "description": "Italian humanist scholar, poet and alchemist",
         "id": "person_1108"
+      },
+      {
+        "name": "Charles VIII",
+        "birth": "",
+        "death": "",
+        "description": "Charles the Affable. King of France from 1483 to death, known as Charles the Affable.",
+        "id": "person_747"
       }
     ],
     "works": [
       {
         "name": "Trois Anciens Traictez de la Philosophie Naturelle",
-        "author": null,
-        "id": "otherwork_376"
+        "author": "Jean Aurelle Augurel",
+        "id": "otherwork_377"
       },
       {
         "name": "Trois Anciens Traictez de la Philosophie Naturelle",
-        "author": "Jean Aurelle Augurel",
-        "id": "otherwork_377"
+        "author": null,
+        "id": "otherwork_376"
       }
     ]
   },
   "23": {
     "persons": [
       {
-        "name": "JohnDee",
+        "name": "Giambatistadella Porta",
         "birth": "",
         "death": "",
-        "description": "English mathematician, astronomer, astrologer, teacher, occultist and alchemist. He was the court astronomer for, and advisor to, Elizabeth I.",
-        "id": "person_754"
-      },
-      {
-        "name": "AndreasLibavius",
-        "birth": "",
-        "death": "",
-        "description": "German physician and alchemist and chemist.",
-        "id": "person_370"
-      },
-      {
-        "name": "Giovanni Pico dellaMirandola",
-        "birth": "",
-        "death": "",
-        "description": "Italian Renaissance nobleman and philosopher.",
-        "id": "person_753"
+        "description": "Author of \"Magia Naturalis\", he was nicknamed \"Baptista Porta\" by Libavius.",
+        "id": "person_1110"
       },
       {
         "name": "ThomasAquinas",
@@ -497,11 +483,11 @@
         "id": "person_692"
       },
       {
-        "name": "Giambatistadella Porta",
+        "name": "Arnaldusde Villa Nova",
         "birth": "",
         "death": "",
-        "description": "Author of \"Magia Naturalis\", he was nicknamed \"Baptista Porta\" by Libavius.",
-        "id": "person_1110"
+        "description": "A physician and a religious reformer. He is credited with translating a number of medical texts from Arabic, including works by Ibn Sina Avicenna, Abu-l-Salt, and Galen.",
+        "id": "person_1092"
       },
       {
         "name": "Abū MūsāJābir ibn Ḥayyān",
@@ -511,23 +497,37 @@
         "id": "person_1054"
       },
       {
-        "name": "Arnaldusde Villa Nova",
+        "name": "Giovanni Pico dellaMirandola",
         "birth": "",
         "death": "",
-        "description": "A physician and a religious reformer. He is credited with translating a number of medical texts from Arabic, including works by Ibn Sina Avicenna, Abu-l-Salt, and Galen.",
-        "id": "person_1092"
+        "description": "Italian Renaissance nobleman and philosopher.",
+        "id": "person_753"
+      },
+      {
+        "name": "AndreasLibavius",
+        "birth": "",
+        "death": "",
+        "description": "German physician and alchemist and chemist.",
+        "id": "person_370"
+      },
+      {
+        "name": "JohnDee",
+        "birth": "",
+        "death": "",
+        "description": "English mathematician, astronomer, astrologer, teacher, occultist and alchemist. He was the court astronomer for, and advisor to, Elizabeth I.",
+        "id": "person_754"
       }
     ],
     "works": [
       {
-        "name": "Defensio et declaratio perspicua alchymiae transmutatoriae",
-        "author": "Andreas Libavius",
-        "id": "otherwork_188"
-      },
-      {
         "name": "Tractatus duo physici",
         "author": "Andreas Libavius",
         "id": "otherwork_187"
+      },
+      {
+        "name": "Defensio et declaratio perspicua alchymiae transmutatoriae",
+        "author": "Andreas Libavius",
+        "id": "otherwork_188"
       }
     ]
   },
@@ -543,14 +543,14 @@
     ],
     "works": [
       {
-        "name": "Congeries Paracelsicæ chemiæ de transmutationibus metallorum, ex omnibus quæ de his ab ipso scripta reperire licuit hactenus : accessit genealogia mineralium, atq[ue] metallorum omnium, eiusdem autoris",
-        "author": "Gerhard Dorn",
-        "id": "otherwork_342"
-      },
-      {
         "name": "Of the Supreme Mysteries of Nature",
         "author": "Paracelsus",
         "id": "otherwork_191"
+      },
+      {
+        "name": "Congeries Paracelsicæ chemiæ de transmutationibus metallorum, ex omnibus quæ de his ab ipso scripta reperire licuit hactenus : accessit genealogia mineralium, atq[ue] metallorum omnium, eiusdem autoris",
+        "author": "Gerhard Dorn",
+        "id": "otherwork_342"
       },
       {
         "name": "De metallicis libri tres",
@@ -603,9 +603,9 @@
     ],
     "works": [
       {
-        "name": "Ars Magna Sciendi sive Combinatoriae",
-        "author": "Athanasius Kircher",
-        "id": "otherwork_192"
+        "name": "Öffentliche Zuschrift von dem Phosphor Mirabil",
+        "author": "Johann von Löwenstern-Kunckel",
+        "id": "otherwork_344"
       },
       {
         "name": "Cubicularii intimi et Chymici, Utiles Observationes sive Animadversiones de Salibus fixis et volatilibus, Auro et argento potabili, Spiritu mundi et similibus",
@@ -618,27 +618,27 @@
         "id": "otherwork_193"
       },
       {
-        "name": "Öffentliche Zuschrift von dem Phosphor Mirabil",
-        "author": "Johann von Löwenstern-Kunckel",
-        "id": "otherwork_344"
+        "name": "Ars Magna Sciendi sive Combinatoriae",
+        "author": "Athanasius Kircher",
+        "id": "otherwork_192"
       }
     ]
   },
   "27": {
     "persons": [
       {
-        "name": "PedaniusDioscorides",
-        "birth": "",
-        "death": "",
-        "description": "\"the father of pharmacognosy\", was a Greek physician, pharmacologist, botanist, and author of De materia medica a 5-volume Greek encyclopedic pharmacopeia on herbal medicine and related medicinal substances, that was widely read for more than 1,500 years. For almost two millennia Dioscorides was regarded as the most prominent writer on plants and plant drugs.",
-        "id": "person_1093"
-      },
-      {
         "name": "Arnaldusde Villa Nova",
         "birth": "",
         "death": "",
         "description": "A physician and a religious reformer. He is credited with translating a number of medical texts from Arabic, including works by Ibn Sina Avicenna, Abu-l-Salt, and Galen.",
         "id": "person_1092"
+      },
+      {
+        "name": "PedaniusDioscorides",
+        "birth": "",
+        "death": "",
+        "description": "\"the father of pharmacognosy\", was a Greek physician, pharmacologist, botanist, and author of De materia medica a 5-volume Greek encyclopedic pharmacopeia on herbal medicine and related medicinal substances, that was widely read for more than 1,500 years. For almost two millennia Dioscorides was regarded as the most prominent writer on plants and plant drugs.",
+        "id": "person_1093"
       }
     ]
   },
@@ -656,18 +656,18 @@
   "29": {
     "persons": [
       {
-        "name": "NicolasGuibert",
-        "birth": "",
-        "death": "",
-        "description": "A Franco-German physician and alchemist who later became a fierce critic of alchemy, opposing ideas on transmutation.",
-        "id": "person_1094"
-      },
-      {
         "name": "ThomasErastus",
         "birth": "",
         "death": "",
         "description": "Thomas Erastus was a Swiss physician and Calvinist theologian. He published several pieces focused on medicine, astrology, alchemy, and attacked in his publications the system of Paracelsus. In doing so, he defended medieval tradition in general, and Galen in particular, while conceding some merit to specific points in Paracelsus.",
         "id": "person_1096"
+      },
+      {
+        "name": "NicolasGuibert",
+        "birth": "",
+        "death": "",
+        "description": "A Franco-German physician and alchemist who later became a fierce critic of alchemy, opposing ideas on transmutation.",
+        "id": "person_1094"
       }
     ],
     "works": [
@@ -742,6 +742,11 @@
     ],
     "works": [
       {
+        "name": "Opus Saturni",
+        "author": "Johannes Isaac Hollandus",
+        "id": "otherwork_351"
+      },
+      {
         "name": "The Actes and Monuments (full title: Actes and Monuments of these Latter and Perillous Days, Touching Matters of the Church), popularly known as Foxe's Book of Martyrs",
         "author": "John Foxe",
         "id": "otherwork_350"
@@ -750,11 +755,6 @@
         "name": "Brevis Tractatus de natura Elementorum quomodo ventum, pluuiam, fulgura & tonitrua pariant & ad quid vtilia sint",
         "author": "Cornelis Drebbel",
         "id": "otherwork_359"
-      },
-      {
-        "name": "Opus Saturni",
-        "author": "Johannes Isaac Hollandus",
-        "id": "otherwork_351"
       }
     ]
   },
@@ -779,11 +779,11 @@
   "37": {
     "persons": [
       {
-        "name": "Khalid ibnYazid",
+        "name": "GeorgeRipley",
         "birth": "",
         "death": "",
-        "description": "Alchemist.",
-        "id": "person_060"
+        "description": "English Augustinian canon, author, and alchemist.",
+        "id": "person_464"
       },
       {
         "name": "RicardusAnglicus",
@@ -793,11 +793,11 @@
         "id": "person_1099"
       },
       {
-        "name": "GeorgeRipley",
+        "name": "Khalid ibnYazid",
         "birth": "",
         "death": "",
-        "description": "English Augustinian canon, author, and alchemist.",
-        "id": "person_464"
+        "description": "Alchemist.",
+        "id": "person_060"
       },
       {
         "name": "Arnaldusde Villa Nova",
@@ -809,11 +809,6 @@
     ],
     "works": [
       {
-        "name": "Correctorium alchemiae, also known as Corrector (fatuorum)",
-        "author": "Richardus Anglicus",
-        "id": "otherwork_355"
-      },
-      {
         "name": "Liber Fornacum",
         "author": "Pseudo-Geber",
         "id": "otherwork_357"
@@ -822,36 +817,34 @@
         "name": "Liber Secretorum Alchemiae",
         "author": "Khalid ibn Yazid",
         "id": "otherwork_354"
+      },
+      {
+        "name": "Correctorium alchemiae, also known as Corrector (fatuorum)",
+        "author": "Richardus Anglicus",
+        "id": "otherwork_355"
       }
     ]
   },
   "38": {
     "persons": [
       {
-        "name": "Arnaldusde Villa Nova",
-        "birth": "",
-        "death": "",
-        "description": "A physician and a religious reformer. He is credited with translating a number of medical texts from Arabic, including works by Ibn Sina Avicenna, Abu-l-Salt, and Galen.",
-        "id": "person_1092"
-      },
-      {
         "name": "RamonLlull",
         "birth": "",
         "death": "",
         "description": "Catalonian philosopher, theologian, poet, missionary, Christian apologist.",
         "id": "person_459"
+      },
+      {
+        "name": "Arnaldusde Villa Nova",
+        "birth": "",
+        "death": "",
+        "description": "A physician and a religious reformer. He is credited with translating a number of medical texts from Arabic, including works by Ibn Sina Avicenna, Abu-l-Salt, and Galen.",
+        "id": "person_1092"
       }
     ]
   },
   "39": {
     "persons": [
-      {
-        "name": "ChristopherGlaser",
-        "birth": "",
-        "death": "",
-        "description": "a pharmaceutical chemist of the 17th century, the mineral glaserite is named after him.",
-        "id": "person_836"
-      },
       {
         "name": "ChristopherPacke",
         "birth": "",
@@ -872,6 +865,13 @@
         "death": "",
         "description": "Roman statesman and general who was a consul of the Roman Republic in 267 BC and 256 BC. Much of his career was spent fighting the Carthaginians during the first Punic War.",
         "id": "person_814"
+      },
+      {
+        "name": "ChristopherGlaser",
+        "birth": "",
+        "death": "",
+        "description": "a pharmaceutical chemist of the 17th century, the mineral glaserite is named after him.",
+        "id": "person_836"
       },
       {
         "name": "RogerBacon",
@@ -934,18 +934,18 @@
   "108": {
     "persons": [
       {
-        "name": "William HaseldinePepys",
-        "birth": "",
-        "death": "",
-        "description": "Pepys was a surgical and scientific instrument maker and chemist. Constructed large batteries used by Davy (amongst others). FRSL.",
-        "id": "person_015"
-      },
-      {
         "name": "RichardKnight",
         "birth": "",
         "death": "",
         "description": "Brother of George who were both scientific instrument makers based in Foster Lane, Cheapside, London.",
         "id": "person_371"
+      },
+      {
+        "name": "William HaseldinePepys",
+        "birth": "",
+        "death": "",
+        "description": "Pepys was a surgical and scientific instrument maker and chemist. Constructed large batteries used by Davy (amongst others). FRSL.",
+        "id": "person_015"
       }
     ],
     "places": [
@@ -1004,9 +1004,9 @@
   "134": {
     "places": [
       {
-        "name": "Mucrish",
-        "description": "Muckish, one of the Derryveagh Mountains. See the poem 'Mucrish and Arokil, ye pair...' in Tait's Edinburgh Magazine for 1836, vol. iii, p. 252. See also Memoirs, vol. 1, pp. 287 ff.",
-        "id": "place_070"
+        "name": "Arakil",
+        "description": "Arokil is the Errigal mountain of the same range; the handwriting on page 69 in notebook 15B was reproduced by John Davy along with the poem 'Mucrish and Arokil, ye pair...' in Tait's Edinburgh Magazine for 1836, vol. iii, p. 252. See also Memoirs, vol. 1, pp. 287 ff.",
+        "id": "place_064"
       },
       {
         "name": "Donegal",
@@ -1014,9 +1014,9 @@
         "id": "place_047"
       },
       {
-        "name": "Arakil",
-        "description": "Arokil is the Errigal mountain of the same range; the handwriting on page 69 in notebook 15B was reproduced by John Davy along with the poem 'Mucrish and Arokil, ye pair...' in Tait's Edinburgh Magazine for 1836, vol. iii, p. 252. See also Memoirs, vol. 1, pp. 287 ff.",
-        "id": "place_064"
+        "name": "Mucrish",
+        "description": "Muckish, one of the Derryveagh Mountains. See the poem 'Mucrish and Arokil, ye pair...' in Tait's Edinburgh Magazine for 1836, vol. iii, p. 252. See also Memoirs, vol. 1, pp. 287 ff.",
+        "id": "place_070"
       }
     ]
   },
@@ -1056,14 +1056,14 @@
   "152": {
     "places": [
       {
-        "name": "Cyprus",
-        "description": "Cyprus is the third largest and third-most populous island in the Mediterranean. It is east of Greece, north of Egypt, south of Turkey, and west of Lebanon and Syria. Cyprus occupies an important role in Greek mythology, being the birthplace of Aphrodite and Adonis, and home to King Cinyras, Teucer and Pygmalion.",
-        "id": "place_1392"
-      },
-      {
         "name": "Athens",
         "description": "Athens is the capital city of Greece.",
         "id": "place_208"
+      },
+      {
+        "name": "Cyprus",
+        "description": "Cyprus is the third largest and third-most populous island in the Mediterranean. It is east of Greece, north of Egypt, south of Turkey, and west of Lebanon and Syria. Cyprus occupies an important role in Greek mythology, being the birthplace of Aphrodite and Adonis, and home to King Cinyras, Teucer and Pygmalion.",
+        "id": "place_1392"
       }
     ]
   },
@@ -1114,14 +1114,14 @@
   "166": {
     "places": [
       {
-        "name": "River Severn",
-        "description": "At 220 miles long, the longest river in Great Britain.",
-        "id": "place_914"
-      },
-      {
         "name": "River Avon",
         "description": "The River Avon in central England flows generally south-westwards and is a major left-bank tributary of the River Severn.",
         "id": "place_605"
+      },
+      {
+        "name": "River Severn",
+        "description": "At 220 miles long, the longest river in Great Britain.",
+        "id": "place_914"
       }
     ]
   },

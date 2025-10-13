@@ -107,18 +107,11 @@
   "38": {
     "persons": [
       {
-        "name": "William HydeWollaston",
+        "name": "John Frederick WilliamHerschel",
         "birth": "",
         "death": "",
-        "description": "Originally a physician he became a prominent chemist, physicist and physiologist isolating the chemical elements osmium, palladium and rhodium. He made his fortune by developing a method of obtaining metallic platinum. A friend and to some extent a rival of Davy's, in 1820 he served briefly as President of the Royal Society of London between Banks's death and Davy's election. FRSL.",
-        "id": "person_150"
-      },
-      {
-        "name": "CharlesBlagden",
-        "birth": "",
-        "death": "",
-        "description": "Physician who kept a revealing diary for most of his life. A friend of Joseph Banks serving as a Secretary of the Royal Society of London, 1784-1797; Knighted 1792. FRSL",
-        "id": "person_142"
+        "description": "Son of William Herschel and a ploymathic mathematician, natural philosopher, astronomer and chemist who coined the word photograph. Unsuccesful in being elected President of the Royal Society of London, he later became Master of the Mint. FRSL.",
+        "id": "person_399"
       },
       {
         "name": "HenryWarburton",
@@ -126,13 +119,6 @@
         "death": "",
         "description": "A member of the Animal Chemistry Club, the Chemical Club, and the Geological Society of London, and a sporting friend of Davy's. FRSL.",
         "id": "person_355"
-      },
-      {
-        "name": "John Frederick WilliamHerschel",
-        "birth": "",
-        "death": "",
-        "description": "Son of William Herschel and a ploymathic mathematician, natural philosopher, astronomer and chemist who coined the word photograph. Unsuccesful in being elected President of the Royal Society of London, he later became Master of the Mint. FRSL.",
-        "id": "person_399"
       },
       {
         "name": "Frederick WilliamHerschel",
@@ -147,6 +133,20 @@
         "death": "",
         "description": "A central figure in English natural philosophy and chemistry, among other research he determined the density of the earth and discovered what would later be named hydrogen. He was one of the people who helped appoint Davy to the Royal Institution. Following his death in 1810 Davy delivered a widely-quoted eulogy on Cavendish and later arranged for some of his apparatus to be transferred to the Royal Institution. FRSL.",
         "id": "person_026"
+      },
+      {
+        "name": "William HydeWollaston",
+        "birth": "",
+        "death": "",
+        "description": "Originally a physician he became a prominent chemist, physicist and physiologist isolating the chemical elements osmium, palladium and rhodium. He made his fortune by developing a method of obtaining metallic platinum. A friend and to some extent a rival of Davy's, in 1820 he served briefly as President of the Royal Society of London between Banks's death and Davy's election. FRSL.",
+        "id": "person_150"
+      },
+      {
+        "name": "CharlesBlagden",
+        "birth": "",
+        "death": "",
+        "description": "Physician who kept a revealing diary for most of his life. A friend of Joseph Banks serving as a Secretary of the Royal Society of London, 1784-1797; Knighted 1792. FRSL",
+        "id": "person_142"
       }
     ]
   },
@@ -308,25 +308,11 @@
   "124": {
     "persons": [
       {
-        "name": "CharlesDesormes",
-        "birth": "",
-        "death": "",
-        "description": "Desormes was a French physicist and chemist. He did most of his scientific work in collaboration with his son-in-law, Nicolas Clément.",
-        "id": "person_008"
-      },
-      {
         "name": "WilliamNicholson",
         "birth": "",
         "death": "",
         "description": "Founding editor of A Journal of Natural Philosophy, Chemistry, and the Arts (1797-1814) where Davy published some of his early papers. Part of the Godwin circle.",
         "id": "person_236"
-      },
-      {
-        "name": "Louis BernardGuyton de Morveau",
-        "birth": "",
-        "death": "",
-        "description": "French chemist and revolutionary politician who is credited with producing the first systematic method of chemical nomenclature. ForMemRSL.",
-        "id": "person_049"
       },
       {
         "name": "NicolasClément",
@@ -336,11 +322,25 @@
         "id": "person_398"
       },
       {
+        "name": "CharlesDesormes",
+        "birth": "",
+        "death": "",
+        "description": "Desormes was a French physicist and chemist. He did most of his scientific work in collaboration with his son-in-law, Nicolas Clément.",
+        "id": "person_008"
+      },
+      {
         "name": "RichardKirwan",
         "birth": "",
         "death": "",
         "description": "Irish chemist, mineralogist and geologist who accused fellow geologist, James Hutton, of athiesm following publication of his Theory of the Earth (1788). FRSL",
         "id": "person_023"
+      },
+      {
+        "name": "Louis BernardGuyton de Morveau",
+        "birth": "",
+        "death": "",
+        "description": "French chemist and revolutionary politician who is credited with producing the first systematic method of chemical nomenclature. ForMemRSL.",
+        "id": "person_049"
       }
     ]
   },
@@ -433,14 +433,14 @@
   "194": {
     "places": [
       {
-        "name": "Grand Surrey Canal",
-        "description": "A canal constructed in south London in the early nineteenth century.",
-        "id": "place_815"
-      },
-      {
         "name": "Ravensbourne River",
         "description": "This was a tributary of the Thames and the now-non-existent Grand Surrey Canal.",
         "id": "place_816"
+      },
+      {
+        "name": "Grand Surrey Canal",
+        "description": "A canal constructed in south London in the early nineteenth century.",
+        "id": "place_815"
       }
     ]
   },
@@ -498,18 +498,18 @@
         "id": "person_003"
       },
       {
-        "name": "WilliamFeetham",
-        "birth": "",
-        "death": "",
-        "description": "Ironmonger and maker of apparatus of 296 Oxford Street. Described as having a workshop at the Royal Institution, annexed to the laboratory.",
-        "id": "person_404"
-      },
-      {
         "name": "RichardKnight",
         "birth": "",
         "death": "",
         "description": "Brother of George who were both scientific instrument makers based in Foster Lane, Cheapside, London.",
         "id": "person_371"
+      },
+      {
+        "name": "WilliamFeetham",
+        "birth": "",
+        "death": "",
+        "description": "Ironmonger and maker of apparatus of 296 Oxford Street. Described as having a workshop at the Royal Institution, annexed to the laboratory.",
+        "id": "person_404"
       }
     ]
   },

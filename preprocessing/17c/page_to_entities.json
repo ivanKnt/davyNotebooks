@@ -111,18 +111,18 @@
   "11": {
     "persons": [
       {
-        "name": "Pliny",
-        "birth": "",
-        "death": "",
-        "description": "The Elder. Roman army officer and author who wrote an encyclopedic Natural History. Died in the aftermath of the eruption of Vesuvius.",
-        "id": "person_185"
-      },
-      {
         "name": "Strabo",
         "birth": "",
         "death": "",
         "description": "Greek geographer, philosopher, and historian who lived in Asia Minor during the transitional period of the Roman Republic into the Roman Empire.",
         "id": "person_510"
+      },
+      {
+        "name": "Pliny",
+        "birth": "",
+        "death": "",
+        "description": "The Elder. Roman army officer and author who wrote an encyclopedic Natural History. Died in the aftermath of the eruption of Vesuvius.",
+        "id": "person_185"
       }
     ],
     "places": [
@@ -136,11 +136,6 @@
   "12": {
     "places": [
       {
-        "name": "Portugal",
-        "description": "",
-        "id": "place_163"
-      },
-      {
         "name": "Spain",
         "description": "",
         "id": "place_164"
@@ -149,6 +144,11 @@
         "name": "United Kingdom",
         "description": "",
         "id": "place_159"
+      },
+      {
+        "name": "Portugal",
+        "description": "",
+        "id": "place_163"
       }
     ]
   },
@@ -164,9 +164,9 @@
     ],
     "places": [
       {
-        "name": "Anatolia",
-        "description": "Also known as Asia Minor. A large peninsula in West Asia it is the western-most extension of continental Asia as it borders European Turkey.",
-        "id": "place_1083"
+        "name": "Cyprus",
+        "description": "Cyprus is the third largest and third-most populous island in the Mediterranean. It is east of Greece, north of Egypt, south of Turkey, and west of Lebanon and Syria. Cyprus occupies an important role in Greek mythology, being the birthplace of Aphrodite and Adonis, and home to King Cinyras, Teucer and Pygmalion.",
+        "id": "place_1392"
       },
       {
         "name": "Crete",
@@ -174,24 +174,24 @@
         "id": "place_1181"
       },
       {
-        "name": "Greece",
-        "description": "",
-        "id": "place_167"
-      },
-      {
         "name": "Phoenicia",
         "description": "An ancient civilization originating in the coastal strip of the Levant region of the eastern Mediterranean, primarily located in modern Lebanon.",
         "id": "place_1085"
       },
       {
-        "name": "Cyprus",
-        "description": "Cyprus is the third largest and third-most populous island in the Mediterranean. It is east of Greece, north of Egypt, south of Turkey, and west of Lebanon and Syria. Cyprus occupies an important role in Greek mythology, being the birthplace of Aphrodite and Adonis, and home to King Cinyras, Teucer and Pygmalion.",
-        "id": "place_1392"
+        "name": "Greece",
+        "description": "",
+        "id": "place_167"
       },
       {
         "name": "United Kingdom",
         "description": "",
         "id": "place_159"
+      },
+      {
+        "name": "Anatolia",
+        "description": "Also known as Asia Minor. A large peninsula in West Asia it is the western-most extension of continental Asia as it borders European Turkey.",
+        "id": "place_1083"
       }
     ]
   },
@@ -207,9 +207,9 @@
     ],
     "places": [
       {
-        "name": "Cornwall",
-        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
-        "id": "place_021"
+        "name": "Devon",
+        "description": "A county in south-west England.",
+        "id": "place_162"
       },
       {
         "name": "Iran",
@@ -217,14 +217,19 @@
         "id": "place_873"
       },
       {
-        "name": "Devon",
-        "description": "A county in south-west England.",
-        "id": "place_162"
+        "name": "Cornwall",
+        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
+        "id": "place_021"
       }
     ]
   },
   "15": {
     "places": [
+      {
+        "name": "Derbyshire",
+        "description": "Derbyshire is a county in the East Midlands and includes part of the Peak District.",
+        "id": "place_085"
+      },
       {
         "name": "Wales",
         "description": "Wales is a country in southwest Great Britain known for its rugged coastline, mountainous national parks, distinctive Welsh language and Celtic culture.",
@@ -236,19 +241,14 @@
         "id": "place_976"
       },
       {
-        "name": "Cornwall",
-        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
-        "id": "place_021"
-      },
-      {
-        "name": "Derbyshire",
-        "description": "Derbyshire is a county in the East Midlands and includes part of the Peak District.",
-        "id": "place_085"
-      },
-      {
         "name": "United Kingdom",
         "description": "",
         "id": "place_159"
+      },
+      {
+        "name": "Cornwall",
+        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
+        "id": "place_021"
       }
     ]
   },
@@ -431,19 +431,14 @@
   "40": {
     "places": [
       {
-        "name": "Cornwall",
-        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
-        "id": "place_021"
-      },
-      {
-        "name": "Hungary",
-        "description": "a landlocked country in Central Europe. Its capital, Budapest, is bisected by the Danube River.",
-        "id": "place_1027"
-      },
-      {
         "name": "Devon",
         "description": "A county in south-west England.",
         "id": "place_162"
+      },
+      {
+        "name": "United Kingdom",
+        "description": "",
+        "id": "place_159"
       },
       {
         "name": "Transylvania",
@@ -451,19 +446,34 @@
         "id": "place_1008"
       },
       {
+        "name": "Hungary",
+        "description": "a landlocked country in Central Europe. Its capital, Budapest, is bisected by the Danube River.",
+        "id": "place_1027"
+      },
+      {
         "name": "Argyll",
         "description": "a historic county and registration county of western Scotland.",
         "id": "place_1028"
       },
       {
-        "name": "United Kingdom",
-        "description": "",
-        "id": "place_159"
+        "name": "Cornwall",
+        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
+        "id": "place_021"
       }
     ]
   },
   "41": {
     "places": [
+      {
+        "name": "Cumberland",
+        "description": "Cumberland is a historic county in the far north-west of England.",
+        "id": "place_079"
+      },
+      {
+        "name": "Northumberland",
+        "description": "County in the North East of England. It borders Scotland to the north and the county of Cumbria to the west.",
+        "id": "place_1359"
+      },
       {
         "name": "Durham, England",
         "description": "a city in northeast England, south of Newcastle upon Tyne.",
@@ -473,16 +483,6 @@
         "name": "Cornwall",
         "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
         "id": "place_021"
-      },
-      {
-        "name": "Northumberland",
-        "description": "County in the North East of England. It borders Scotland to the north and the county of Cumbria to the west.",
-        "id": "place_1359"
-      },
-      {
-        "name": "Cumberland",
-        "description": "Cumberland is a historic county in the far north-west of England.",
-        "id": "place_079"
       }
     ]
   },
@@ -567,18 +567,18 @@
   "55": {
     "persons": [
       {
-        "name": "Johann FriedrichHenckel",
-        "birth": "",
-        "death": "",
-        "description": "Prussian physician, chemist, metallurgist, and mineralogist.",
-        "id": "person_470"
-      },
-      {
         "name": "Johann GottlobLehmann",
         "birth": "",
         "death": "",
         "description": "German mineralogist and geologist.",
         "id": "person_305"
+      },
+      {
+        "name": "Johann FriedrichHenckel",
+        "birth": "",
+        "death": "",
+        "description": "Prussian physician, chemist, metallurgist, and mineralogist.",
+        "id": "person_470"
       }
     ],
     "places": [
@@ -617,6 +617,13 @@
   "61": {
     "persons": [
       {
+        "name": "Jean-AndréDeluc",
+        "birth": "",
+        "death": "",
+        "description": "Swiss-born geologist, natural philosopher and meteorologist who spent much of his time working in England. FRSL.",
+        "id": "person_520"
+      },
+      {
         "name": "Abraham GottlobWerner",
         "birth": "",
         "death": "",
@@ -629,13 +636,6 @@
         "death": "",
         "description": "Irish chemist, mineralogist and geologist who accused fellow geologist, James Hutton, of atheism following publication of his Theory of the Earth (1788). FRSL",
         "id": "person_023"
-      },
-      {
-        "name": "Jean-AndréDeluc",
-        "birth": "",
-        "death": "",
-        "description": "Swiss-born geologist, natural philosopher and meteorologist who spent much of his time working in England. FRSL.",
-        "id": "person_520"
       }
     ]
   },

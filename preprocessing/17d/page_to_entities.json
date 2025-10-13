@@ -4,18 +4,18 @@
   "5": {
     "persons": [
       {
-        "name": "JesusChrist",
-        "birth": "",
-        "death": "",
-        "description": "The central figure of Christianity; a first-century Jewish preacher and religious leader.",
-        "id": "person_951"
-      },
-      {
         "name": "Thucydides",
         "birth": "",
         "death": "",
         "description": "An Athenian historian and general, his History of the Peloponnesian War recounts the fifth-century BCE war between Sparta and Athens until the year 411 BCE.",
         "id": "person_844"
+      },
+      {
+        "name": "JesusChrist",
+        "birth": "",
+        "death": "",
+        "description": "The central figure of Christianity; a first-century Jewish preacher and religious leader.",
+        "id": "person_951"
       },
       {
         "name": "Aristotle",
@@ -27,25 +27,25 @@
     ],
     "places": [
       {
-        "name": "Aeolian Islands",
-        "description": "sometimes referred to as the Lipari Islands after their largest island, are a volcanic archipelago in the Tyrrhenian Sea north of Sicily",
-        "id": "place_1325"
-      },
-      {
         "name": "Mount Etna",
         "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
         "id": "place_184"
+      },
+      {
+        "name": "Aeolian Islands",
+        "description": "sometimes referred to as the Lipari Islands after their largest island, are a volcanic archipelago in the Tyrrhenian Sea north of Sicily",
+        "id": "place_1325"
       }
     ]
   },
   "6": {
     "persons": [
       {
-        "name": "DiodorusSiculus",
+        "name": "Strabo",
         "birth": "",
-        "death": null,
-        "description": "Of Sicily was an ancient Greek historian. He is known for writing the monumental universal history Bibliotheca historica, in forty books, fifteen of which survive intact, between 60 and 30 BCE.",
-        "id": "person_448"
+        "death": "",
+        "description": "Greek geographer, philosopher, and historian who lived in Asia Minor during the transitional period of the Roman Republic into the Roman Empire.",
+        "id": "person_510"
       },
       {
         "name": "Pliny",
@@ -55,11 +55,11 @@
         "id": "person_185"
       },
       {
-        "name": "Strabo",
+        "name": "DiodorusSiculus",
         "birth": "",
-        "death": "",
-        "description": "Greek geographer, philosopher, and historian who lived in Asia Minor during the transitional period of the Roman Republic into the Roman Empire.",
-        "id": "person_510"
+        "death": null,
+        "description": "Of Sicily was an ancient Greek historian. He is known for writing the monumental universal history Bibliotheca historica, in forty books, fifteen of which survive intact, between 60 and 30 BCE.",
+        "id": "person_448"
       },
       {
         "name": "JuliusCaesar",
@@ -71,6 +71,11 @@
     ],
     "places": [
       {
+        "name": "Herculaneum",
+        "description": "Herculaneum was an ancient Roman town, located in the modern-day comune of Ercolano, Campania, Italy.",
+        "id": "place_714"
+      },
+      {
         "name": "Sicily",
         "description": "Sicily is the largest and most populous island in the Mediterranean Sea and one of the twenty regions of Italy.",
         "id": "place_569"
@@ -79,11 +84,6 @@
         "name": "Pompeii",
         "description": "An ancient city located in what is now the comune of Pompei near Naples in the Campania region of Italy. Pompeii was buried in volcanic ash in the Eruption of Mount Vesuvius in 79 CE.",
         "id": "place_407"
-      },
-      {
-        "name": "Herculaneum",
-        "description": "Herculaneum was an ancient Roman town, located in the modern-day comune of Ercolano, Campania, Italy.",
-        "id": "place_714"
       }
     ]
   },
@@ -108,26 +108,21 @@
         "id": "person_820"
       },
       {
-        "name": "Déodat Gratet deDolomieu",
-        "birth": "",
-        "death": "",
-        "description": "French geologist. The rock, and region of the Alps, dolomite was named after him.",
-        "id": "person_300"
-      },
-      {
         "name": "LazzaroSpallanzani",
         "birth": "",
         "death": "",
         "description": "Italian priest, biologist and physiologist.",
         "id": "person_308"
+      },
+      {
+        "name": "Déodat Gratet deDolomieu",
+        "birth": "",
+        "death": "",
+        "description": "French geologist. The rock, and region of the Alps, dolomite was named after him.",
+        "id": "person_300"
       }
     ],
     "places": [
-      {
-        "name": "phlegrean fields",
-        "description": "A volcano/volcanic area near Naples, Italy.",
-        "id": "place_183"
-      },
       {
         "name": "Campania",
         "description": "A region of Italy; most of it is in the south-western portion of the Italian peninsula (with the Tyrrhenian Sea to its west), but it also includes the small Phlegraean Islands and the island of Capri.",
@@ -137,6 +132,11 @@
         "name": "Mount Vesuvius",
         "description": "Mount Vesuvius is a somma-stratovolcano located on the Gulf of Naples in Campania, Italy.",
         "id": "place_169"
+      },
+      {
+        "name": "phlegrean fields",
+        "description": "A volcano/volcanic area near Naples, Italy.",
+        "id": "place_183"
       }
     ],
     "works": [
@@ -176,14 +176,14 @@
   "11": {
     "places": [
       {
-        "name": "Mount Vesuvius",
-        "description": "Mount Vesuvius is a somma-stratovolcano located on the Gulf of Naples in Campania, Italy.",
-        "id": "place_169"
-      },
-      {
         "name": "Mount Etna",
         "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
         "id": "place_184"
+      },
+      {
+        "name": "Mount Vesuvius",
+        "description": "Mount Vesuvius is a somma-stratovolcano located on the Gulf of Naples in Campania, Italy.",
+        "id": "place_169"
       }
     ]
   },
@@ -219,14 +219,14 @@
   "16": {
     "places": [
       {
-        "name": "Sicily",
-        "description": "Sicily is the largest and most populous island in the Mediterranean Sea and one of the twenty regions of Italy.",
-        "id": "place_569"
-      },
-      {
         "name": "Mount Etna",
         "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
         "id": "place_184"
+      },
+      {
+        "name": "Sicily",
+        "description": "Sicily is the largest and most populous island in the Mediterranean Sea and one of the twenty regions of Italy.",
+        "id": "place_569"
       }
     ]
   },
@@ -254,18 +254,18 @@
   "22": {
     "persons": [
       {
-        "name": "WilliamHamilton",
-        "birth": "",
-        "death": "",
-        "description": "English diplomat, politician, antiquarian, and vulcanologist who served as the Envoy Extraordinary to the Kingdom of Naples from 1764 to 1800. FRSL.",
-        "id": "person_699"
-      },
-      {
         "name": "ScipioneBreislak",
         "birth": "",
         "death": "",
         "description": "Italian geologist of Swedish parentage. The vast works for the refining of sulphur in the volcanic district of Solfatara, near Naples, were erected under his direction. Professor of physics at the University of Ragusa, and subsequently at the Collegio Nazereno in Rome. He witnessed an eruption of Vesuvius in 1794 and subsequntly wrote Voyage Physique et Lithologique dans la Campagnie (1801).",
         "id": "person_820"
+      },
+      {
+        "name": "WilliamHamilton",
+        "birth": "",
+        "death": "",
+        "description": "English diplomat, politician, antiquarian, and vulcanologist who served as the Envoy Extraordinary to the Kingdom of Naples from 1764 to 1800. FRSL.",
+        "id": "person_699"
       }
     ]
   },
@@ -287,14 +287,14 @@
         "id": "place_237"
       },
       {
-        "name": "Mount Etna",
-        "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
-        "id": "place_184"
-      },
-      {
         "name": "Hekla",
         "description": "Hekla is a volcano in Iceland. It has erupted many times in recorded history. 1766-68 was the eruption closest to Davy's time.",
         "id": "place_751"
+      },
+      {
+        "name": "Mount Etna",
+        "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
+        "id": "place_184"
       }
     ]
   },
@@ -356,9 +356,9 @@
         "id": "place_1042"
       },
       {
-        "name": "Torre del Greco",
-        "description": "A comune in the Metropolitan City of Naples in Italy. Located at the foot of Mount Vesuvius, Torre del Greco was partly destroyed in an eruption of the volcano in 1631.",
-        "id": "place_1041"
+        "name": "Herculaneum",
+        "description": "Herculaneum was an ancient Roman town, located in the modern-day comune of Ercolano, Campania, Italy.",
+        "id": "place_714"
       },
       {
         "name": "Naples",
@@ -366,9 +366,9 @@
         "id": "place_156"
       },
       {
-        "name": "Herculaneum",
-        "description": "Herculaneum was an ancient Roman town, located in the modern-day comune of Ercolano, Campania, Italy.",
-        "id": "place_714"
+        "name": "Torre del Greco",
+        "description": "A comune in the Metropolitan City of Naples in Italy. Located at the foot of Mount Vesuvius, Torre del Greco was partly destroyed in an eruption of the volcano in 1631.",
+        "id": "place_1041"
       }
     ]
   },
@@ -435,14 +435,14 @@
   "43": {
     "places": [
       {
-        "name": "Mount Etna",
-        "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
-        "id": "place_184"
-      },
-      {
         "name": "Catania",
         "description": "An ancient port city in Italy, on Sicily's east coast.",
         "id": "place_1037"
+      },
+      {
+        "name": "Mount Etna",
+        "description": "Mount Etna, or simply Etna, is an active stratovolcano on the east coast of Sicily, Italy.",
+        "id": "place_184"
       }
     ]
   },
@@ -489,14 +489,14 @@
     ],
     "places": [
       {
-        "name": "Yorkshire",
-        "description": "Yorkshire is a historic county in northern England and the largest by area size in the United Kingdom.",
-        "id": "place_287"
-      },
-      {
         "name": "Ealand",
         "description": "English village in the county of Lincolnshire and the region of Yorkshire and the Humber.",
         "id": "place_1360"
+      },
+      {
+        "name": "Yorkshire",
+        "description": "Yorkshire is a historic county in northern England and the largest by area size in the United Kingdom.",
+        "id": "place_287"
       }
     ],
     "works": [

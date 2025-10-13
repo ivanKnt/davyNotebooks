@@ -34,18 +34,18 @@
   "15": {
     "persons": [
       {
-        "name": "Plato",
-        "birth": "",
-        "death": "",
-        "description": "A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.",
-        "id": "person_085"
-      },
-      {
         "name": "RobertHooke",
         "birth": "",
         "death": "",
         "description": "Natural philosopher who acted as experimental demonstrator at the Royal Society of London during its early years. Prominent in the study of air and microscopy amongst other subjects. FRSL.",
         "id": "person_246"
+      },
+      {
+        "name": "Plato",
+        "birth": "",
+        "death": "",
+        "description": "A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.",
+        "id": "person_085"
       }
     ]
   },
@@ -82,18 +82,18 @@
         "id": "person_520"
       },
       {
-        "name": "Plato",
-        "birth": "",
-        "death": "",
-        "description": "A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.",
-        "id": "person_085"
-      },
-      {
         "name": "Abraham GottlobWerner",
         "birth": "",
         "death": "",
         "description": "German geologist who proposed the theory of Neptunism and who also proposed the chronological sequence found in stratified rocks.",
         "id": "person_267"
+      },
+      {
+        "name": "Plato",
+        "birth": "",
+        "death": "",
+        "description": "A pupil of Socrates, much of Plato's large corpus of surviving philosophical texts are written in the form of Socratic dialogues. He espoused a philosophical idealism including the primacy of mathematics and an anti-democratic political philosophy because of the execution of Socrates. Plato's writings have been, and are, so influential that all subsequent philosophy has been described as footnotes to Plato.",
+        "id": "person_085"
       },
       {
         "name": "RichardKirwan",
@@ -118,18 +118,18 @@
   "21": {
     "persons": [
       {
-        "name": "WilliamWhiston",
-        "birth": "",
-        "death": "",
-        "description": "English (unorthodox) theologian, historian, natural philosopher, and mathematician. A leading figure in promoting the ideas of Isaac Newton whom he succeeded as Lucasian Professor.",
-        "id": "person_519"
-      },
-      {
         "name": "Gottfried WilhelmLeibniz",
         "birth": "",
         "death": "",
         "description": "A German polymath active as a mathematician, philosopher, scientist and diplomat who invented calculus",
         "id": "person_1005"
+      },
+      {
+        "name": "WilliamWhiston",
+        "birth": "",
+        "death": "",
+        "description": "English (unorthodox) theologian, historian, natural philosopher, and mathematician. A leading figure in promoting the ideas of Isaac Newton whom he succeeded as Lucasian Professor.",
+        "id": "person_519"
       }
     ]
   },
@@ -165,13 +165,6 @@
   "35": {
     "persons": [
       {
-        "name": "André-Jean-François-Marie Brochant deVilliers",
-        "birth": "",
-        "death": "",
-        "description": "French mineralogist and geologist.",
-        "id": "person_467"
-      },
-      {
         "name": "ThomasThomson",
         "birth": "",
         "death": "",
@@ -184,6 +177,13 @@
         "death": "",
         "description": "German geologist who proposed the theory of Neptunism and who also proposed the chronological sequence found in stratified rocks.",
         "id": "person_267"
+      },
+      {
+        "name": "André-Jean-François-Marie Brochant deVilliers",
+        "birth": "",
+        "death": "",
+        "description": "French mineralogist and geologist.",
+        "id": "person_467"
       },
       {
         "name": "RichardKirwan",
@@ -232,18 +232,18 @@
   "39": {
     "persons": [
       {
-        "name": "RobertJameson",
-        "birth": "",
-        "death": "",
-        "description": "Scottish geologist and Regius Professor of Natural History at the University of Edinburgh. FRSL.",
-        "id": "person_301"
-      },
-      {
         "name": "Abraham GottlobWerner",
         "birth": "",
         "death": "",
         "description": "German geologist who proposed the theory of Neptunism and who also proposed the chronological sequence found in stratified rocks.",
         "id": "person_267"
+      },
+      {
+        "name": "RobertJameson",
+        "birth": "",
+        "death": "",
+        "description": "Scottish geologist and Regius Professor of Natural History at the University of Edinburgh. FRSL.",
+        "id": "person_301"
       }
     ],
     "places": [
@@ -274,9 +274,14 @@
     ],
     "places": [
       {
-        "name": "Sligo",
-        "description": "The town of Sligo, in the north of Ireland, straddles the Garavogue River where it meets Sligo Bay.",
-        "id": "place_053"
+        "name": "Donegal",
+        "description": "Donegal is a town at the mouth of the River Eske, in north-west Ireland.",
+        "id": "place_047"
+      },
+      {
+        "name": "Cornwall",
+        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
+        "id": "place_021"
       },
       {
         "name": "Leicestershire",
@@ -284,9 +289,9 @@
         "id": "place_286"
       },
       {
-        "name": "Saxony",
-        "description": "A state in eastern Germany.",
-        "id": "place_976"
+        "name": "Siberia",
+        "description": "a vast Russian province encompassing most of Northern Asia, with terrain spanning tundra, coniferous forest and mountain ranges",
+        "id": "place_990"
       },
       {
         "name": "Mountsorrel",
@@ -294,19 +299,24 @@
         "id": "place_485"
       },
       {
+        "name": "Wicklow",
+        "description": "County Wicklow is a county in Ireland on the east coast, south of Dublin.",
+        "id": "place_044"
+      },
+      {
         "name": "Scotland",
         "description": "",
         "id": "place_235"
       },
       {
-        "name": "Alps",
-        "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
-        "id": "place_247"
+        "name": "Saxony",
+        "description": "A state in eastern Germany.",
+        "id": "place_976"
       },
       {
-        "name": "Wicklow",
-        "description": "County Wicklow is a county in Ireland on the east coast, south of Dublin.",
-        "id": "place_044"
+        "name": "Sligo",
+        "description": "The town of Sligo, in the north of Ireland, straddles the Garavogue River where it meets Sligo Bay.",
+        "id": "place_053"
       },
       {
         "name": "Mayo",
@@ -319,19 +329,9 @@
         "id": "place_507"
       },
       {
-        "name": "Donegal",
-        "description": "Donegal is a town at the mouth of the River Eske, in north-west Ireland.",
-        "id": "place_047"
-      },
-      {
-        "name": "Cornwall",
-        "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
-        "id": "place_021"
-      },
-      {
-        "name": "Siberia",
-        "description": "a vast Russian province encompassing most of Northern Asia, with terrain spanning tundra, coniferous forest and mountain ranges",
-        "id": "place_990"
+        "name": "Alps",
+        "description": "The Alps are the highest and most extensive mountain range that lies entirely in Europe. They are located in eight European countries.",
+        "id": "place_247"
       }
     ]
   },
@@ -363,18 +363,18 @@
   "43": {
     "persons": [
       {
-        "name": "Alexander vonHumboldt",
-        "birth": "",
-        "death": "",
-        "description": "German geographer, naturalist and explorer. ForMemRSL.",
-        "id": "person_271"
-      },
-      {
         "name": "Déodat Gratet deDolomieu",
         "birth": "",
         "death": "",
         "description": "French geologist. The rock, and region of the Alps, dolomite was named after him.",
         "id": "person_300"
+      },
+      {
+        "name": "Alexander vonHumboldt",
+        "birth": "",
+        "death": "",
+        "description": "German geographer, naturalist and explorer. ForMemRSL.",
+        "id": "person_271"
       }
     ]
   },
@@ -435,18 +435,18 @@
   "48": {
     "persons": [
       {
-        "name": "JohnPlayfair",
-        "birth": "",
-        "death": "",
-        "description": "Professor of Natural Philosophy at Edinburgh University. His Illustrations of the Huttonian Theory of the Earth (1802) gave strong support to James Hutton's theory of uniformitarianism. FRSL.",
-        "id": "person_162"
-      },
-      {
         "name": "JamesHutton",
         "birth": "",
         "death": "",
         "description": "Scottish geologist, agriculturalist and chemical manufacturer. His Theory of the Earth (1795) is one of the foundations of modern geology. Davy discussed Hutton's theories in his lectures and visited some of the key geological sites that Hutton used in his work.",
         "id": "person_125"
+      },
+      {
+        "name": "JohnPlayfair",
+        "birth": "",
+        "death": "",
+        "description": "Professor of Natural Philosophy at Edinburgh University. His Illustrations of the Huttonian Theory of the Earth (1802) gave strong support to James Hutton's theory of uniformitarianism. FRSL.",
+        "id": "person_162"
       }
     ],
     "places": [
@@ -460,18 +460,18 @@
   "49": {
     "persons": [
       {
-        "name": "JohnPlayfair",
-        "birth": "",
-        "death": "",
-        "description": "Professor of Natural Philosophy at Edinburgh University. His Illustrations of the Huttonian Theory of the Earth (1802) gave strong support to James Hutton's theory of uniformitarianism. FRSL.",
-        "id": "person_162"
-      },
-      {
         "name": "JamesHall",
         "birth": "",
         "death": "",
         "description": "Scottish baronet (1776) and MP. Chemist and geologist who supported of James Hutton's theories of uniformitarian geology. FRSL.",
         "id": "person_164"
+      },
+      {
+        "name": "JohnPlayfair",
+        "birth": "",
+        "death": "",
+        "description": "Professor of Natural Philosophy at Edinburgh University. His Illustrations of the Huttonian Theory of the Earth (1802) gave strong support to James Hutton's theory of uniformitarianism. FRSL.",
+        "id": "person_162"
       }
     ]
   },
@@ -504,6 +504,11 @@
   "58": {
     "places": [
       {
+        "name": "Nether Stowey",
+        "description": "A village in Somerset, home of the tanner Thomas Poole and formerly Samuel Taylor Coleridge.",
+        "id": "place_302"
+      },
+      {
         "name": "Somerset",
         "description": "A county in south-west England.",
         "id": "place_160"
@@ -512,11 +517,6 @@
         "name": "Cornwall",
         "description": "Cornwall is a county in south-west England, birthplace of Humphry Davy.",
         "id": "place_021"
-      },
-      {
-        "name": "Nether Stowey",
-        "description": "A village in Somerset, home of the tanner Thomas Poole and formerly Samuel Taylor Coleridge.",
-        "id": "place_302"
       }
     ]
   },

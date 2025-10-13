@@ -28,7 +28,7 @@ try:
 except:
     pass
 
-# Configure logging
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -169,7 +169,6 @@ class GreedyStringTiling:
             'seq2_length': 0,
             'matches': []
         }
-
 
 class LibraryBasedGSTDetector:
     """GST-based text reuse detector for 18th-century historical texts."""
@@ -639,20 +638,16 @@ class LibraryBasedGSTDetector:
             f.write("\nEND OF DETAILED REPORT\n")
             f.write("=" * 80 + "\n")
 
-
 def get_available_notebooks(base_dir: Path):
     try:
         return sorted([d.name for d in base_dir.iterdir() if d.is_dir()])
     except Exception:
         return []
 
-
 def parse_notebooks_arg(notebooks_arg: str, base_dir: Path):
     if notebooks_arg.strip() == '*':
         return get_available_notebooks(base_dir)
     return [nb.strip() for nb in notebooks_arg.split(',') if nb.strip()]
-
-
 
 def main():
     """Main function for GST-based text reuse analysis."""

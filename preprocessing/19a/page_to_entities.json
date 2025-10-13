@@ -34,14 +34,14 @@
     ],
     "places": [
       {
-        "name": "Egypt",
-        "description": "",
-        "id": "place_475"
-      },
-      {
         "name": "Greece",
         "description": "",
         "id": "place_167"
+      },
+      {
+        "name": "Egypt",
+        "description": "",
+        "id": "place_475"
       }
     ],
     "works": [
@@ -55,26 +55,21 @@
   "19": {
     "persons": [
       {
-        "name": "DiodorusSiculus",
-        "birth": "",
-        "death": null,
-        "description": "Of Sicily was an ancient Greek historian. He is known for writing the monumental universal history Bibliotheca historica, in forty books, fifteen of which survive intact, between 60 and 30 BCE.",
-        "id": "person_448"
-      },
-      {
         "name": "Jupiter",
         "birth": null,
         "death": null,
         "description": "Also known as Jove, the god of the sky and thunder, and king of the gods in ancient Roman religion and mythology.",
         "id": "person_843"
+      },
+      {
+        "name": "DiodorusSiculus",
+        "birth": "",
+        "death": null,
+        "description": "Of Sicily was an ancient Greek historian. He is known for writing the monumental universal history Bibliotheca historica, in forty books, fifteen of which survive intact, between 60 and 30 BCE.",
+        "id": "person_448"
       }
     ],
     "places": [
-      {
-        "name": "Egypt",
-        "description": "",
-        "id": "place_475"
-      },
       {
         "name": "Italy",
         "description": "",
@@ -84,6 +79,11 @@
         "name": "Greece",
         "description": "",
         "id": "place_167"
+      },
+      {
+        "name": "Egypt",
+        "description": "",
+        "id": "place_475"
       }
     ]
   },
@@ -161,14 +161,14 @@
         "id": "place_531"
       },
       {
-        "name": "Libya",
-        "description": "Libya, officially the State of Libya, is a country in the Maghreb region of North Africa.",
-        "id": "place_978"
-      },
-      {
         "name": "Red Sea",
         "description": "A seawater inlet of the Indian Ocean, lying between Africa and Asia.",
         "id": "place_979"
+      },
+      {
+        "name": "Libya",
+        "description": "Libya, officially the State of Libya, is a country in the Maghreb region of North Africa.",
+        "id": "place_978"
       }
     ]
   },
@@ -296,18 +296,18 @@
   "35": {
     "persons": [
       {
-        "name": "Jupiter",
-        "birth": null,
-        "death": null,
-        "description": "Also known as Jove. The god of the sky and thunder, and king of the gods in ancient Roman religion and mythology.",
-        "id": "person_795"
-      },
-      {
         "name": "DiodorusSiculus",
         "birth": "",
         "death": null,
         "description": "Of Sicily was an ancient Greek historian. He is known for writing the monumental universal history Bibliotheca historica, in forty books, fifteen of which survive intact, between 60 and 30 BCE.",
         "id": "person_448"
+      },
+      {
+        "name": "Jupiter",
+        "birth": null,
+        "death": null,
+        "description": "Also known as Jove. The god of the sky and thunder, and king of the gods in ancient Roman religion and mythology.",
+        "id": "person_795"
       }
     ]
   },
@@ -403,14 +403,14 @@
   "48": {
     "places": [
       {
-        "name": "China",
-        "description": "",
-        "id": "place_019"
-      },
-      {
         "name": "Balkh",
         "description": "Balkh is a town in the Balkh Province of Afghanistan.",
         "id": "place_580"
+      },
+      {
+        "name": "China",
+        "description": "",
+        "id": "place_019"
       }
     ]
   },
@@ -444,6 +444,13 @@
   "51": {
     "persons": [
       {
+        "name": "Jean Joseph MarieAmiot",
+        "birth": "",
+        "death": "",
+        "description": "French Jesuit priest, who worked in Qing China, during the reign of the Qianlong Emperor.",
+        "id": "person_440"
+      },
+      {
         "name": "ChinYen",
         "birth": null,
         "death": null,
@@ -456,13 +463,6 @@
         "death": "",
         "description": "Prominent English natural philosopher and mathematician greatly admired by Davy who once under the influence of several litres of nitrous oxide wrote in his notebook 'Davy & Newton' in one inch letters. FRSL.",
         "id": "person_036"
-      },
-      {
-        "name": "Jean Joseph MarieAmiot",
-        "birth": "",
-        "death": "",
-        "description": "French Jesuit priest, who worked in Qing China, during the reign of the Qianlong Emperor.",
-        "id": "person_440"
       }
     ],
     "works": [
@@ -494,9 +494,9 @@
   "53": {
     "places": [
       {
-        "name": "China",
+        "name": "Egypt",
         "description": "",
-        "id": "place_019"
+        "id": "place_475"
       },
       {
         "name": "Chaldea",
@@ -504,9 +504,9 @@
         "id": "place_983"
       },
       {
-        "name": "Egypt",
+        "name": "China",
         "description": "",
-        "id": "place_475"
+        "id": "place_019"
       }
     ]
   },
@@ -547,6 +547,11 @@
   "59": {
     "places": [
       {
+        "name": "Egypt",
+        "description": "",
+        "id": "place_475"
+      },
+      {
         "name": "India",
         "description": "",
         "id": "place_531"
@@ -555,11 +560,6 @@
         "name": "Greece",
         "description": "",
         "id": "place_167"
-      },
-      {
-        "name": "Egypt",
-        "description": "",
-        "id": "place_475"
       }
     ]
   },
@@ -600,14 +600,14 @@
     ],
     "works": [
       {
-        "name": "The Iliad",
-        "author": "Homer",
-        "id": "otherwork_211"
-      },
-      {
         "name": "Odyssey",
         "author": "Homer",
         "id": "otherwork_111"
+      },
+      {
+        "name": "The Iliad",
+        "author": "Homer",
+        "id": "otherwork_211"
       }
     ]
   },
@@ -652,6 +652,11 @@
     ],
     "places": [
       {
+        "name": "Greece",
+        "description": "",
+        "id": "place_167"
+      },
+      {
         "name": "Egypt",
         "description": "",
         "id": "place_475"
@@ -660,11 +665,6 @@
         "name": "Phoenicia",
         "description": "An ancient civilization originating in the coastal strip of the Levant region of the eastern Mediterranean, primarily located in modern Lebanon.",
         "id": "place_1085"
-      },
-      {
-        "name": "Greece",
-        "description": "",
-        "id": "place_167"
       },
       {
         "name": "Ionia",
@@ -721,18 +721,18 @@
   "68": {
     "persons": [
       {
-        "name": "Euclid",
-        "birth": "",
-        "death": "",
-        "description": "An ancient Greek mathematician, geometer and logician. Considered the \"father of geometry\", he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century.",
-        "id": "person_861"
-      },
-      {
         "name": "Thales",
         "birth": "",
         "death": "",
         "description": "Ancient Greek pre-Socratic philosopher from Miletus in Ionia, Asia Minor.",
         "id": "person_609"
+      },
+      {
+        "name": "Euclid",
+        "birth": "",
+        "death": "",
+        "description": "An ancient Greek mathematician, geometer and logician. Considered the \"father of geometry\", he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century.",
+        "id": "person_861"
       }
     ],
     "works": [
@@ -775,13 +775,6 @@
   "71": {
     "persons": [
       {
-        "name": "Decimius MagnusAusonius",
-        "birth": "",
-        "death": "",
-        "description": "Roman poet and teacher of rhetoric.",
-        "id": "person_309"
-      },
-      {
         "name": "Amasis II",
         "birth": "",
         "death": "",
@@ -794,6 +787,13 @@
         "death": "",
         "description": "Ancient Greek pre-Socratic philosopher from Miletus in Ionia, Asia Minor.",
         "id": "person_609"
+      },
+      {
+        "name": "Decimius MagnusAusonius",
+        "birth": "",
+        "death": "",
+        "description": "Roman poet and teacher of rhetoric.",
+        "id": "person_309"
       }
     ],
     "places": [
@@ -807,18 +807,18 @@
   "72": {
     "persons": [
       {
-        "name": "Plutarch",
-        "birth": "",
-        "death": "",
-        "description": "Greek writer most famous for his parallel lives of Greek and Roman statesmen and military leaders.",
-        "id": "person_602"
-      },
-      {
         "name": "Amasis II",
         "birth": "",
         "death": "",
         "description": "A pharaoh of the Twenty-sixth Dynasty of Egypt, the successor of Apries at Sais. He was the last great ruler of Egypt before the Persian conquest.",
         "id": "person_862"
+      },
+      {
+        "name": "Plutarch",
+        "birth": "",
+        "death": "",
+        "description": "Greek writer most famous for his parallel lives of Greek and Roman statesmen and military leaders.",
+        "id": "person_602"
       },
       {
         "name": "Thales",
@@ -839,13 +839,6 @@
   "73": {
     "persons": [
       {
-        "name": "JesusChrist",
-        "birth": "",
-        "death": "",
-        "description": "The central figure of Christianity; a first-century Jewish preacher and religious leader.",
-        "id": "person_951"
-      },
-      {
         "name": "Anaximander",
         "birth": "",
         "death": "",
@@ -858,6 +851,13 @@
         "death": "",
         "description": "Ancient Greek pre-Socratic philosopher from Miletus in Ionia, Asia Minor.",
         "id": "person_609"
+      },
+      {
+        "name": "JesusChrist",
+        "birth": "",
+        "death": "",
+        "description": "The central figure of Christianity; a first-century Jewish preacher and religious leader.",
+        "id": "person_951"
       }
     ]
   },
@@ -921,11 +921,6 @@
         "id": "place_873"
       },
       {
-        "name": "Athens",
-        "description": "Athens is the capital city of Greece.",
-        "id": "place_208"
-      },
-      {
         "name": "Klazomenai",
         "description": "An ancient Greek city on the coast of Ionia.",
         "id": "place_404"
@@ -934,6 +929,11 @@
         "name": "Greece",
         "description": "",
         "id": "place_167"
+      },
+      {
+        "name": "Athens",
+        "description": "Athens is the capital city of Greece.",
+        "id": "place_208"
       },
       {
         "name": "Ionia",
@@ -945,18 +945,18 @@
   "77": {
     "persons": [
       {
-        "name": "Socrates",
-        "birth": "",
-        "death": "",
-        "description": "Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.",
-        "id": "person_140"
-      },
-      {
         "name": "Archelaus",
         "birth": "",
         "death": "",
         "description": "an Ancient Greek philosopher, a pupil of Anaxagoras, and may have been a teacher of Socrates.",
         "id": "person_887"
+      },
+      {
+        "name": "Socrates",
+        "birth": "",
+        "death": "",
+        "description": "Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.",
+        "id": "person_140"
       },
       {
         "name": "Euripides",
@@ -966,18 +966,18 @@
         "id": "person_608"
       },
       {
-        "name": "Pericles",
-        "birth": "",
-        "death": "",
-        "description": "Athenian general and politician who supported the arts and literature.",
-        "id": "person_606"
-      },
-      {
         "name": "Anaxagoras",
         "birth": "",
         "death": null,
         "description": "Greek Presocratic philosopher.",
         "id": "person_605"
+      },
+      {
+        "name": "Pericles",
+        "birth": "",
+        "death": "",
+        "description": "Athenian general and politician who supported the arts and literature.",
+        "id": "person_606"
       }
     ]
   },
@@ -1002,11 +1002,11 @@
   "79": {
     "persons": [
       {
-        "name": "Plutarch",
+        "name": "Lucretius",
         "birth": "",
         "death": "",
-        "description": "Greek writer most famous for his parallel lives of Greek and Roman statesmen and military leaders.",
-        "id": "person_602"
+        "description": "Roman poet and philosopher. His only known work is the materialist philosophical poem De rerum natura.",
+        "id": "person_508"
       },
       {
         "name": "Aristotle",
@@ -1014,13 +1014,6 @@
         "death": "",
         "description": "A pupil of Plato's whose philosophical idealism he came to reject, arguing instead for the primacy of observations of natural phenomena. He thus established the divide between theory and experiment in science that can still be detected today. Aristotle's writings became the main way the natural world was understood from the Middle Ages to the seventeenth century, especially in the universities.",
         "id": "person_138"
-      },
-      {
-        "name": "Lucretius",
-        "birth": "",
-        "death": "",
-        "description": "Roman poet and philosopher. His only known work is the materialist philosophical poem De rerum natura.",
-        "id": "person_508"
       },
       {
         "name": "Epicurus",
@@ -1035,6 +1028,13 @@
         "death": null,
         "description": "Greek Presocratic philosopher.",
         "id": "person_605"
+      },
+      {
+        "name": "Plutarch",
+        "birth": "",
+        "death": "",
+        "description": "Greek writer most famous for his parallel lives of Greek and Roman statesmen and military leaders.",
+        "id": "person_602"
       }
     ]
   },
@@ -1052,25 +1052,11 @@
   "81": {
     "persons": [
       {
-        "name": "Plutarch",
-        "birth": "",
-        "death": "",
-        "description": "Greek writer most famous for his parallel lives of Greek and Roman statesmen and military leaders.",
-        "id": "person_602"
-      },
-      {
         "name": "Daimachus",
         "birth": "",
         "death": null,
         "description": "Probably: Daimachus, Greek diplomat and writer.",
         "id": "person_601"
-      },
-      {
-        "name": "Lysander",
-        "birth": "",
-        "death": "",
-        "description": "A Spartan military and political leader. He destroyed the Athenian fleet at the Battle of Aegospotami in 405 BCE, forcing Athens to capitulate and bringing the Peloponnesian War to an end.",
-        "id": "person_756"
       },
       {
         "name": "Aristotle",
@@ -1080,6 +1066,20 @@
         "id": "person_138"
       },
       {
+        "name": "SilenusCalatinus",
+        "birth": "",
+        "death": "",
+        "description": "Sicilian Greek historian of Magna Graecia who wrote a history in Greek of Hannibal's campaign in Italy from 218 to 204 BC. His work is known only from fragments and borrowings by other authors.",
+        "id": "person_604"
+      },
+      {
+        "name": "Lysander",
+        "birth": "",
+        "death": "",
+        "description": "A Spartan military and political leader. He destroyed the Athenian fleet at the Battle of Aegospotami in 405 BCE, forcing Athens to capitulate and bringing the Peloponnesian War to an end.",
+        "id": "person_756"
+      },
+      {
         "name": "Anaxagoras",
         "birth": "",
         "death": null,
@@ -1087,23 +1087,23 @@
         "id": "person_605"
       },
       {
-        "name": "SilenusCalatinus",
+        "name": "Plutarch",
         "birth": "",
         "death": "",
-        "description": "Sicilian Greek historian of Magna Graecia who wrote a history in Greek of Hannibal's campaign in Italy from 218 to 204 BC. His work is known only from fragments and borrowings by other authors.",
-        "id": "person_604"
+        "description": "Greek writer most famous for his parallel lives of Greek and Roman statesmen and military leaders.",
+        "id": "person_602"
       }
     ],
     "places": [
       {
-        "name": "Gos",
-        "description": "Aegospotami is the ancient Greek name for a small river issuing into the Hellespont northeast of Sestos. According to Pliny and Aristotle, a meteor landed here in 467 BC after reports of a comet.",
-        "id": "place_868"
-      },
-      {
         "name": "Thrace",
         "description": "Thrace is a geographical and historical region in Southeast Europe. Bounded by the Balkan Mountains to the north, the Aegean Sea to the south, and the Black Sea to the east, it comprises present-day southeastern Bulgaria, northeastern Greece, and the European part of Turkey, roughly the Roman Province of Thrace.",
         "id": "place_867"
+      },
+      {
+        "name": "Gos",
+        "description": "Aegospotami is the ancient Greek name for a small river issuing into the Hellespont northeast of Sestos. According to Pliny and Aristotle, a meteor landed here in 467 BC after reports of a comet.",
+        "id": "place_868"
       }
     ]
   },
@@ -1128,13 +1128,6 @@
   "83": {
     "persons": [
       {
-        "name": "Marcus TuilliusCicero",
-        "birth": "",
-        "death": "",
-        "description": "a Roman statesman, lawyer, scholar, philosopher, writer and Academic skeptic",
-        "id": "person_877"
-      },
-      {
         "name": "Plato",
         "birth": "",
         "death": "",
@@ -1154,24 +1147,31 @@
         "death": null,
         "description": "Greek Presocratic philosopher.",
         "id": "person_605"
+      },
+      {
+        "name": "Marcus TuilliusCicero",
+        "birth": "",
+        "death": "",
+        "description": "a Roman statesman, lawyer, scholar, philosopher, writer and Academic skeptic",
+        "id": "person_877"
       }
     ]
   },
   "84": {
     "persons": [
       {
-        "name": "Pericles",
-        "birth": "",
-        "death": "",
-        "description": "Athenian general and politician who supported the arts and literature.",
-        "id": "person_606"
-      },
-      {
         "name": "Anaxagoras",
         "birth": "",
         "death": null,
         "description": "Greek Presocratic philosopher.",
         "id": "person_605"
+      },
+      {
+        "name": "Pericles",
+        "birth": "",
+        "death": "",
+        "description": "Athenian general and politician who supported the arts and literature.",
+        "id": "person_606"
       }
     ],
     "places": [
@@ -1203,6 +1203,13 @@
   "86": {
     "persons": [
       {
+        "name": "Socrates",
+        "birth": "",
+        "death": "",
+        "description": "Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.",
+        "id": "person_140"
+      },
+      {
         "name": "Plato",
         "birth": "",
         "death": "",
@@ -1215,13 +1222,6 @@
         "death": "",
         "description": "A Greek military leader, historian and philosopher, who was a student of Socrates. He recorded some of Socrates' philosophy. He is mainly remembered for his book Anabasis.",
         "id": "person_490"
-      },
-      {
-        "name": "Socrates",
-        "birth": "",
-        "death": "",
-        "description": "Greek philosopher whose work survives mostly through the writings of his pupil Plato. Executed by the democratic Athenian state for sedition.",
-        "id": "person_140"
       },
       {
         "name": "Anaxagoras",

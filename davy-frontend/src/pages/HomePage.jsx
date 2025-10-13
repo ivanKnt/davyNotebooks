@@ -54,7 +54,7 @@ export default function HomePage() {
           <div className="grid gap-10 lg:grid-cols-[minmax(0,_1fr)_320px] items-center">
             <div className="space-y-6">
               <span className="inline-flex items-center gap-2 rounded-full bg-indigo-50 px-3 py-1 text-sm font-medium text-indigo-600 ring-1 ring-indigo-100">
-                Humphry Davy Digital Humanities Project
+                Author : Ivan Kounte
               </span>
               <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-slate-900">
                 Mapping the intellectual works of  <span className="text-indigo-600">Sir Humphry Davy</span> .

@@ -218,6 +218,285 @@ The complete data processing pipeline follows this sequence:
 
 ---
 
+## Data Quality & Known Issues
+
+### 🚨 Important: Current State of the Data
+
+**This section documents real-world data problems we've encountered and what still needs to be fixed.** If you're picking up this project, understanding these issues will save you hours of debugging.
+
+#### Missing and Incomplete Files
+
+Based on the latest file availability scan (see `file_scan_output/scan_summary.txt`), here's what's actually missing:
+
+**Overall Statistics:**
+- **Total notebooks scanned**: 134
+- **TEI XML files**: 134/134 (100% - all present!)
+- **Metadata XML**: 134/134 (100%)
+- **Valid text files**: 133/134 (99.3%)
+- **Tagged text files**: 133/134 (99.3%)
+- **Zooniverse files**: 133/134 (99.3%)
+- **Classification files**: 128/134 (95.5%)
+
+**Notebooks with Missing Files:**
+
+1. **Notebook 08** - Multiple missing files:
+   - ❌ Missing: `valid_text` (processed text)
+   - ❌ Missing: `tagged_text` (annotated text)
+   - ❌ Missing: `zoo_files` (Zooniverse transcription data)
+   - ❌ Missing: `classifications` (volunteer classification CSV)
+   - ✅ Has: TEI XML and metadata
+   - **Impact**: Cannot preprocess this notebook at all - no text extraction possible
+   - **Action needed**: Obtain Zooniverse export files for notebook 08
+
+2. **gs61, gs62, gs63, gs64, gs65** - Missing classification data:
+   - ❌ Missing: `classifications` (volunteer classification CSV)
+   - ✅ Has: TEI XML, valid_text, tagged_text, zoo_files, metadata
+   - **Impact**: Can preprocess (extract text), but cannot classify content or detect poetry
+   - **Action needed**: 
+     - Check if these notebooks were classified on Zooniverse
+     - If yes, export classification data
+     - If no, run a classification campaign for these 5 notebooks
+
+**Why This Matters:**
+
+**Notebook 08:**
+- This is a complete gap in the data - we have the TEI file but nothing else
+- Text reuse analysis cannot include this notebook
+- Any analysis results are missing whatever content notebook 08 contains
+
+**GS Series (gs61-gs65):**
+- These are recently added Kresen Kernow notebooks
+- We CAN extract text and analyze text reuse
+- We CANNOT classify content types (Electrochemistry, Poetry, etc.) or include in poetry analysis
+- This limits researcher's ability to understand what these notebooks contain
+
+**Action Items:**
+
+**High Priority:**
+1. **Fix notebook 08**:
+   - Contact Davy Notebooks Project team about missing files
+   - Check if notebook 08 was ever transcribed on Zooniverse
+   - If not transcribed, it may need to be added to the transcription queue
+
+2. **Get classifications for gs61-gs65**:
+   - Check Zooniverse project for classification data
+   - If available, export and add to repository
+   - If not available, create classification workflow for these pages
+
+**Medium Priority:**
+3. Run `checkFilesAvailability.py` regularly to detect any new missing files
+4. Document which notebooks are used in each analysis (e.g., "text reuse analysis of 133 notebooks, excluding 08")
+
+**Low Priority:**
+5. Investigate if there are additional notebooks beyond the current 134 that should be added
+
+---
+
+#### Classification Data Inconsistencies
+
+As documented in detail in the preprocessing section, the **volunteer classification data from Zooniverse is highly inconsistent**. Here are the specific problems:
+
+**Problem 1: Multiple Export Formats**
+
+The classification CSV files use at least 5 different formats:
+- Some have individual vote rows (`page_num,classification`)
+- Some have pre-aggregated percentages in columns
+- Some have vote counts (`page_num,classification,count`)
+- Some embed JSON strings in CSV cells
+- Some use wide format with X marks or 1s
+
+**Impact:** The preprocessing script has complex format detection logic, but new format variants may break it.
+
+**Current Solution:** We handle the formats we've seen, but each new notebook may require code updates.
+
+**Proposed Long-term Solution:**
+- Standardize Zooniverse exports to a single format before importing
+- Create a data validation script that checks CSV structure before processing
+- Document the expected format in a schema file
+
+**Problem 2: Inconsistent Classification Categories**
+
+Volunteers used slightly different labels over time:
+- "Poetry" vs "Poem" vs "Poetic content"
+- "Electrochemistry" vs "Electro-chemistry" vs "Electrochemical"
+- "Other electric" vs "Electricity (not electrochemistry)"
+- Free-text entries that don't match any category
+
+**Impact:** `classifyPoetry.py` uses keyword matching which might miss variations.
+
+**Current Solution:** Case-insensitive substring matching catches most variations.
+
+**Proposed Long-term Solution:**
+- Create a classification normalization mapping (e.g., {"Poem": "Poetry", "Poetic": "Poetry"})
+- Add fuzzy string matching for close variants
+- Manually review and standardize the original CSV exports
+
+**Problem 3: Missing Classification Data**
+
+Some notebooks have complete TEI XML but no classification CSV:
+- **14e**: Has TEI but classification file is empty
+- **Some gs series**: Classification CSV files are missing entirely
+
+**Impact:** These notebooks get preprocessed but classification/poetry scripts skip them.
+
+**Proposed Solution:**
+- Re-export classification data from Zooniverse for affected notebooks
+- If data was never collected, recruit volunteers to classify these pages
+- Mark notebooks without classifications clearly in the documentation
+
+**Problem 4: Incomplete Page Coverage**
+
+Some classification CSVs skip pages:
+- Page numbers jump (e.g., pages 1, 2, 5, 8 - where are 3, 4, 6, 7?)
+- Early or late pages in notebooks often have fewer volunteer classifications
+- Some pages have only 1 volunteer classification (not enough for consensus)
+
+**Impact:** Analysis results are incomplete for these notebooks.
+
+**Proposed Solution:**
+- Identify pages with <3 volunteer classifications
+- Re-run these pages through Zooniverse to get more votes
+- Document which notebooks have incomplete coverage
+
+---
+
+#### Data Homogeneity Issues
+
+**The Problem:**
+
+For reliable analysis, we need **homogeneous data** - meaning all notebooks should have:
+- Same metadata structure
+- Same classification format
+- Same entity annotation standards
+- Same TEI XML schema version
+
+Currently, this is NOT the case:
+
+**Issue 1: TEI XML Schema Drift**
+
+Notebooks transcribed at different times use different TEI schemas:
+- **Early notebooks (2020-2021)**: Simpler entity markup, fewer `<rs>` tags
+- **Later notebooks (2022-2023)**: More detailed entity annotations, consistent `<standOff>` structure
+- **Recent notebooks (2024)**: Additional metadata fields
+
+**Impact:** Entity extraction works differently for old vs. new notebooks.
+
+**Proposed Solution:**
+- Upgrade old TEI files to match the current schema
+- Create a TEI validation script that checks for required elements
+- Document which schema version each notebook uses
+
+**Issue 2: Transcription Quality Variations**
+
+Some notebooks have:
+- Better character recognition (fewer `[unclear]` markers)
+- More consistent spelling
+- Complete page coverage vs. partial transcriptions
+
+**Impact:** Text reuse algorithms may miss matches due to transcription errors.
+
+**Proposed Solution:**
+- Run spell-checking and normalization on extracted text
+- Flag low-confidence transcriptions for review
+- Add transcription quality metrics to preprocessing output
+
+**Issue 3: Entity Annotation Inconsistency**
+
+Entity markup varies wildly:
+- **Notebook 01a2**: 150 entities annotated
+- **Notebook 01a3**: Only 12 entities annotated (similar length!)
+- **Notebook 14e**: Extensive chemical annotations
+- **Notebook 14f**: Almost no chemical annotations (but discusses chemistry!)
+
+**Impact:** Entity-based analysis is unreliable when some notebooks are under-annotated.
+
+**Proposed Solution:**
+- Use NER (Named Entity Recognition) to automatically annotate under-annotated notebooks
+- Standardize entity annotation guidelines
+- Re-process notebooks with <20 entities
+
+---
+
+#### What Needs to Be Fixed (Priority Order)
+
+**High Priority (Blocks Analysis):**
+
+1. **Standardize classification CSV format**
+   - Choose one canonical format
+   - Write converter scripts for other formats
+   - Re-export all data in standard format
+
+2. **Complete missing notebook series**
+   - Obtain TEI files for series 05, 09, remaining 08
+   - Process through preprocessing pipeline
+   - Verify classifications are available
+
+3. **Fix format detection bugs**
+   - Test preprocessing on ALL notebooks
+   - Document which notebooks cause errors
+   - Add error handling for edge cases
+
+**Medium Priority (Improves Quality):**
+
+4. **Normalize classification categories**
+   - Create mapping file: `{"Poem": "Poetry", "Poetic": "Poetry", ...}`
+   - Apply normalization in `process_classifications()`
+   - Re-run classification aggregation
+
+5. **Validate TEI XML**
+   - Write schema validation script
+   - Check all notebooks for required elements
+   - Report notebooks that don't meet standards
+
+6. **Add transcription quality metrics**
+   - Count `[unclear]` markers
+   - Calculate confidence scores
+   - Flag low-quality transcriptions
+
+**Low Priority (Nice to Have):**
+
+7. **Entity annotation enhancement**
+   - Run automated NER on all notebooks
+   - Compare with manual annotations
+   - Fill gaps in under-annotated notebooks
+
+8. **Cross-notebook consistency checks**
+   - Verify entity names are consistent (e.g., "Davy" vs "H. Davy" vs "Humphry Davy")
+   - Standardize place names (e.g., "London" vs "london")
+   - Create authority files for common entities
+
+---
+
+#### Recommendations for Data Collection Going Forward
+
+If you're adding new notebooks or re-processing existing ones, follow these guidelines:
+
+**For Zooniverse Exports:**
+1. Use the latest export format (dictionary with percentages)
+2. Ensure at least 5 volunteers classify each page
+3. Export with page numbers, not workflow IDs
+4. Include timestamp data for audit trails
+
+**For TEI XML:**
+1. Use the latest TEI schema (check with Davy Notebooks Project team)
+2. Ensure consistent entity markup (`<rs type="person">`, `<rs type="place">`, etc.)
+3. Include `<standOff>` section with complete entity metadata
+4. Validate XML against schema before committing
+
+**For Preprocessing:**
+1. Always run `checkFilesAvailability.py` first
+2. Process notebooks in series order (helps spot patterns)
+3. Save error logs for debugging
+4. Verify outputs before running downstream scripts
+
+**For Documentation:**
+1. Document any format variants you encounter
+2. Note which notebooks have issues
+3. Update this README with new solutions
+4. Maintain a changelog of data fixes
+
+---
+
 ## Directory Documentation
 
 ### `scripts/preprocessing_scripts/` - Where Everything Starts

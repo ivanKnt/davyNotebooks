@@ -18,7 +18,7 @@
 
 ## Project Overview
 
-The **Davy Notebooks Project** is a digital humanities research platform for analyzing the notebooks of Sir Humphry Davy. This repository contains:
+The **Davy Notebooks Project** is a digital humanities research project for analyzing the notebooks of Sir Humphry Davy. This repository contains:
 
 1. **Data Processing Pipeline**: Extract and preprocess text from TEI XML files
 2. **Content Classification**: Analyze notebook pages by subject matter
@@ -117,6 +117,7 @@ theDavyNotebooksProjectPython/
 
 ---
 
+
 ## Getting Started
 
 ### Prerequisites
@@ -153,7 +154,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # Install dependencies
-pip install -r requirements.txt  # If available, or install manually
+pip install -r requirements.txt
 ```
 
 3. **Download NLTK data** (required for text processing)
@@ -219,106 +220,237 @@ The complete data processing pipeline follows this sequence:
 
 ## Directory Documentation
 
-### Root Level Scripts
+### `scripts/preprocessing_scripts/` - Where Everything Starts
 
-#### `poetry_filter/`
+**📋 What This Section Is About**
 
-Contains scripts for identifying and classifying poetry content in the notebooks.
+This is where everything begins. Before you can classify content, detect poetry, or analyze text reuse, you need clean, structured data. These preprocessing scripts are responsible for taking the raw TEI XML files (which are complex, marked-up historical documents) and volunteer classification CSV exports, then transforming them into simple JSON files that all other parts of the project can easily read and use.
 
-##### `classifyPoetry.py`
-**Purpose**: Identify poetry content at page and notebook level
+Think of preprocessing as translating the notebooks from their archival format into a format that computers can work with efficiently.
 
-**Core Methods**:
-- `load_classification_data(notebook_id, classifications_dir)` - Load classification JSON for a notebook
-- `is_poetry_classification(classification)` - Determine if text is poetry using keywords
-- `extract_poetry_notebooks_and_pages(classifications_dir)` - Scan all notebooks for poetry
-- `save_results_to_csv(poetry_pages, poetry_notebooks, output_dir)` - Export results
-- `generate_summary_report(poetry_pages, poetry_notebooks, output_dir)` - Create text report
+**Important Note:** These scripts are located in `scripts/preprocessing_scripts/` directory.
 
-**Input Files**:
-- `classifications/<notebook_id>/classifications_page.json` - Classification percentages per page
+**Why You Must Start Here:**
+- The TEI XML files contain all sorts of markup tags (`<pb>`, `<lb>`, `<rs>`, etc.) that need to be parsed
+- Entity annotations (people, places, chemicals) are embedded in the XML and need to be extracted
+- Volunteer classification data comes in CSV format and needs to be standardized
+- Without these preprocessing outputs, none of the other scripts have anything to analyze
 
-**Output Files**:
-- `poetry_files/poetry_pages.csv` - All pages containing poetry
-- `poetry_files/poetry_pages.txt` - Human-readable list
-- `poetry_files/overall_poetry_notebooks.csv` - Notebooks with overall poetry consensus
-- `poetry_files/overall_poetry_notebooks.txt` - Summary report
-
-**Usage**:
-```bash
-python poetry_filter/classifyPoetry.py
-```
+**What These Scripts Produce:**
+For each notebook, you'll get four JSON files that contain:
+1. Clean text for every page (no XML tags, just the actual words)
+2. A catalog of entities mentioned on each page (who, what, where)
+3. Complete metadata about all entities in the notebook
+4. Normalized volunteer classification votes
 
 ---
 
-##### `classifyContents.py`
-**Purpose**: Process and aggregate volunteer classification data
+#### `preprocess_files.py`
 
-**Core Methods**:
-- `load_classifications(notebook_path)` - Load raw classification data
-- `process_page_classifications(page_data)` - Convert volunteer votes to percentages
-- `calculate_book_consensus(pages_data)` - Determine overall notebook classification
-- `process_all_notebooks(preprocessing_dir, output_dir)` - Batch process all notebooks
-- `save_classifications(notebook_id, data, output_dir)` - Save results as JSON and TXT
+**Purpose**: This is the main workhorse script that extracts and processes everything from the TEI XML files.
 
-**Input Files**:
-- `preprocessing/<notebook_id>/classifications.json` - Raw volunteer classifications
+**How It Works - Step by Step:**
 
-**Output Files**:
-- `classifications/<notebook_id>/classifications_page.json` - Structured classification data
-- `classifications/<notebook_id>/summary.txt` - Human-readable summary
+When you run this script, it goes through each notebook you specify and performs several operations:
 
-**Data Format Example**:
+1. **Parse the TEI XML**: The script opens the TEI file at `items/<notebook_id>/tei/doc` and uses BeautifulSoup to parse the XML structure. TEI (Text Encoding Initiative) is a standardized way of marking up historical texts, and it includes special tags for page breaks, line breaks, entity references, and more.
+
+2. **Extract Text by Page**: As it reads through the XML, it looks for `<pb>` (page break) tags to know when a new page starts. All the text between page breaks gets collected and cleaned. The script respects `<lb>` (line break) tags to preserve the document's structure.
+
+3. **Handle Entities**: When the script encounters `<rs ref="#entity_id">` tags (these mark references to people, places, chemicals, etc.), it looks up the entity details in the `<standOff>` section of the XML and records which entities appear on which pages.
+
+4. **Clean the Text**: Sometimes transcriptions contain accidental duplications like "the the experiment". The `deduplicate_successive_words()` function removes these while being careful not to remove intentional repetitions.
+
+5. **Process Classifications**: The script also reads the volunteer classification CSV file that contains how volunteers labeled each page (e.g., "Electrochemistry", "Poetry", "Lecture notes") and converts this into a structured JSON format.
+
+6. **Save Everything**: Finally, all the extracted data gets saved as four separate JSON files in the `preprocessing/<notebook_id>/` directory.
+
+**🚨 Critical: Handling Messy Classification Data (The Hard Part!)**
+
+This is one of the most important things to understand about the preprocessing pipeline, because we spent considerable time working around data format inconsistencies. **The volunteer classification data does NOT come in a single, clean format** - it varies wildly from notebook to notebook, and we had to build very robust handling to deal with all the variations.
+
+**The Problem We Faced:**
+
+When volunteers classified pages on Zooniverse, the CSV export format changed depending on:
+- When the notebook was transcribed (different time periods = different export formats)
+- How many volunteers classified each page
+- The specific Zooniverse project workflow settings at the time
+- Whether project administrators pre-processed the data before exporting
+- Different versions of the Zooniverse export tool
+
+This means when you open classification CSV files from different notebooks, you'll find completely different structures!
+
+**Real Format Examples We Encountered:**
+
+**Format 1: Raw Individual Vote Lists**
+```csv
+page_num,classification
+5,Electrochemistry
+5,Electrochemistry
+5,Lecture notes
+5,Philosophy
+```
+This is the cleanest format - each row is one volunteer's vote for one page.
+
+**Format 2: Pre-aggregated Percentage Columns**
+```csv
+page_num,Electrochemistry,Lecture notes,Philosophy,Poetry
+5,0.50,0.33,0.17,0.00
+6,0.20,0.80,0.00,0.00
+```
+Some notebooks came with percentages already calculated.
+
+**Format 3: Vote Count Columns**
+```csv
+page_num,classification,vote_count
+5,Electrochemistry,3
+5,Lecture notes,2
+5,Philosophy,1
+```
+Instead of repeating rows, some files had explicit counts.
+
+**Format 4: JSON Strings Embedded in CSV**
+```csv
+page_num,classification_data
+5,"{\"Electrochemistry\": 3, \"Lecture notes\": 2, \"Philosophy\": 1}"
+6,"{\"Poetry\": 5, \"Lecture notes\": 1}"
+```
+Yes, really - JSON strings inside CSV fields that need double-parsing!
+
+**Format 5: Wide Format with Empty Cells**
+```csv
+page,Electrochemistry,Lecture notes,Philosophy,Poetry,Geology,Other
+5,X,X,,X,,,
+6,,X,X,,,,
+```
+Some used "X" marks, some used "1", some used the classification name repeated.
+
+**Our Solution:**
+
+The `process_classifications()` function includes sophisticated detection and normalization logic:
+
+```python
+def process_classifications(notebook_id):
+    # 1. Try to open and read the CSV
+    # 2. Detect which format it's in by:
+    #    - Checking column names
+    #    - Looking at first few rows
+    #    - Identifying data types (strings vs numbers vs JSON)
+    # 3. Parse accordingly
+    # 4. Normalize into our standard format
+    # 5. Handle edge cases (missing pages, empty classifications, etc.)
+```
+
+The output is **always** saved in one of two consistent formats:
+
+**List Format** (when we have individual votes):
 ```json
 {
-  "notebook_title": "Notebook 01A2",
-  "consensus_book": "lecture notes",
-  "1": {
-    "Lecture notes": 0.5,
-    "Electrochemistry": 0.333,
-    "Other electric": 0.167,
-    "page_consensus": "lecture notes"
-  }
+  "1": ["Electrochemistry", "Lecture notes", "Electrochemistry", "Philosophy"],
+  "2": ["Poetry", "Poetry", "Poem"]
 }
 ```
 
-**Usage**:
-```bash
-python poetry_filter/classifyContents.py
+**Dictionary Format** (when we have percentages):
+```json
+{
+  "1": {"Electrochemistry": 0.50, "Lecture notes": 0.33, "Philosophy": 0.17},
+  "2": {"Poetry": 0.90, "Poem": 0.10}
+}
 ```
 
----
+**Why We Keep Both Formats:**
 
-### `scripts/`
+You might wonder why we don't convert everything to one format. The reason is that **both formats contain valuable information**:
+- List format preserves the number of individual votes (useful for confidence analysis)
+- Dictionary format preserves pre-calculated percentages (useful when source data lost individual votes)
 
-Main processing scripts organized by function.
+The downstream `classifyContents.py` script is smart enough to handle BOTH formats, so we preserve whatever the source data provided.
 
-#### `scripts/preprocessing_scripts/`
+**What Happens in classifyContents.py:**
 
-##### `preprocess_files.py`
-**Purpose**: Extract and clean text from TEI XML files, process volunteer classifications
+This is where the real magic happens. The `process_page_classifications()` function handles both input formats:
 
-**Core Methods**:
-- `extract_text_from_tei(notebook_id)` - Parse TEI XML and extract text by page
-- `deduplicate_successive_words(text)` - Remove accidental word duplications
-- `load_entity_metadata(soup)` - Extract entity definitions from `<standOff>` section
-- `extract_page_entities(page_element, entity_map)` - Map entities to pages
-- `process_classifications(notebook_id)` - Load and structure volunteer classification data
-- `main()` - Batch process specified notebooks or all available
+```python
+def process_page_classifications(page_data):
+    if isinstance(page_data, list):
+        # Handle list format: count votes and calculate percentages
+        counts = Counter(page_data)
+        total = len(page_data)
+        percentages = {classification: count/total for classification, count in counts.items()}
+        
+    elif isinstance(page_data, dict):
+        # Handle dict format: already have percentages, just validate
+        percentages = page_data
+        # Normalize if values are > 1 (might be counts, not percentages)
+        if any(v > 1 for v in percentages.values()):
+            total = sum(percentages.values())
+            percentages = {k: v/total for k, v in percentages.items()}
+    
+    # Determine consensus (highest percentage)
+    consensus = max(percentages.keys(), key=lambda x: percentages[x])
+    
+    return {
+        **percentages,
+        "page_consensus": consensus
+    }
+```
 
-**Input Files**:
-- `items/<notebook_id>/tei/doc` - TEI XML file
-- `items/<notebook_id>/transcription/source/classifications` - Volunteer classification CSV
+**Edge Cases We Handle:**
 
-**Output Files**:
-- `preprocessing/<notebook_id>/page_to_text.json` - Clean text per page
+1. **Empty pages**: Some pages have no classifications → stored as empty dict `{}`
+2. **Tie votes**: When two classifications tie, we pick one deterministically (alphabetical)
+3. **Single votes**: Pages with only one volunteer classification → 100% for that classification
+4. **Invalid entries**: Sometimes volunteers entered free text or typos → we try to map them to known categories
+5. **Missing page numbers**: Some CSVs skip pages → we mark them as unclassified
+
+**Why This Matters for YOU:**
+
+If you're adding a new notebook and get errors like:
+- `KeyError` when processing classifications
+- `TypeError: 'str' object is not iterable`
+- `ValueError: could not convert string to float`
+
+It probably means you've encountered a format variant we haven't handled yet. Here's what to do:
+
+1. **Open the CSV file** in a text editor and examine its structure
+2. **Check the first 10-20 rows** to understand the pattern
+3. **Look at the `process_classifications()` function** in `preprocess_files.py`
+4. **Add detection logic** for your new format variant
+5. **Convert it** to either list or dict format
+6. **Test thoroughly** with multiple notebooks
+
+This data format handling was honestly one of the hardest technical challenges in the project. The volunteer export data is messy, inconsistent, and changes over time. But now you know why the code might seem more complex than expected - it's because it has to handle all these real-world variations!
+
+**Core Methods and What They Do:**
+
+- `extract_text_from_tei(notebook_id)` - This is the main function that orchestrates the entire extraction process for one notebook. It opens the TEI XML file, parses it, extracts text page by page, handles entities, and saves all the outputs.
+
+- `deduplicate_successive_words(text)` - A utility function that cleans up text by removing consecutive duplicate words. For example, "the the experiment" becomes "the experiment". It's case-sensitive, so "The the" won't be deduplicated.
+
+- `load_entity_metadata(soup)` - Parses the `<standOff>` section of the TEI XML, which contains definitions of all entities (persons, places, chemicals, events, organizations, works) mentioned in the notebook. Returns a dictionary mapping entity IDs to their metadata.
+
+- `extract_page_entities(page_element, entity_map)` - For a given page in the XML, finds all `<rs>` (referencing string) tags and looks up the corresponding entities, organizing them by type (persons, places, etc.).
+
+- `process_classifications(notebook_id)` - Loads the volunteer classification CSV file and converts it into a structured JSON format that's easier for other scripts to work with.
+
+- `main()` - The entry point of the script. Here you'll find a `notebook_ids` list that you can edit to specify which notebooks to process. The function loops through each ID and runs the extraction pipeline.
+
+**Input Files:**
+- `items/<notebook_id>/tei/doc` - The TEI XML file containing the marked-up notebook text
+- `items/<notebook_id>/transcription/source/classifications` - CSV file with volunteer classification data
+
+**Output Files:**
+- `preprocessing/<notebook_id>/page_to_text.json` - Clean text for each page
   ```json
   {
     "1": "Page 1 text content...",
-    "2": "Page 2 text content..."
+    "2": "Page 2 text content...",
+    "3": "Page 3 text content..."
   }
   ```
-- `preprocessing/<notebook_id>/page_to_entities.json` - Entities appearing on each page
+  
+- `preprocessing/<notebook_id>/page_to_entities.json` - Entities mentioned on each page
   ```json
   {
     "1": {},
@@ -326,125 +458,487 @@ Main processing scripts organized by function.
       "persons": [
         {"name": "Aristotle", "id": "person_138", "description": "..."}
       ],
-      "places": [...],
-      "chemicals": [...]
+      "places": [],
+      "chemicals": [{"name": "Oxygen", "id": "chem_42"}]
     }
   }
   ```
-- `preprocessing/<notebook_id>/all_entities_metadata.json` - Complete entity catalog
-- `preprocessing/<notebook_id>/classifications.json` - Raw classification data
+  
+- `preprocessing/<notebook_id>/all_entities_metadata.json` - Complete catalog of all entities in the notebook
 
-**TEI Structure Handled**:
-- `<pb>` (page breaks) - Define page boundaries
-- `<lb>` (line breaks) - Preserve line structure
-- `<rs ref="#entity_id">` - Entity references
-- `<standOff>` - Entity metadata
-- `<note>` - Editorial notes (removed from text)
+- `preprocessing/<notebook_id>/classifications.json` - Structured volunteer classification data
 
-**Usage**:
+**How to Use It:**
 ```bash
-# Process specific notebooks
 python scripts/preprocessing_scripts/preprocess_files.py
-
-# Modify notebook_ids in main() to select notebooks
 ```
 
-**Command-line Arguments**: Currently hardcoded; modify `notebook_ids` list in `main()` function.
+Before running, open the file and edit the `notebook_ids` list in the `main()` function to specify which notebooks you want to process. For example:
+```python
+notebook_ids = ['01a2', '01a3', '14e']  # Process these three notebooks
+```
 
 ---
 
-##### `checkFilesAvailability.py`
-**Purpose**: Scan repository for file availability and generate reports
+#### `checkFilesAvailability.py`
 
-**Core Methods**:
-- `get_notebook_list()` - List all notebook directories
-- `check_file_availability(notebooks)` - Check which files exist for each notebook
-- `generate_report(results)` - Create availability summary
+**Purpose**: A diagnostic utility that scans your entire repository and tells you which notebooks have which files.
 
-**Input Files**: 
-- Scans `items/` directory structure
+**Why This Is Useful:**
 
-**Output Files**:
-- `file_scan_output/file_scan_results.txt` - Detailed file availability
-- `file_scan_output/scan_summary.txt` - Summary statistics
+When you're working with 100+ notebooks, it's easy to lose track of which ones you've preprocessed, which have classification results, which have been analyzed for text reuse, etc. This script gives you a bird's-eye view of your data pipeline status.
 
-**Usage**:
+It's especially helpful when:
+- You're setting up the project for the first time and want to know which notebooks have source data
+- You've run some preprocessing and want to confirm the outputs were created
+- You're debugging why a downstream script can't find data for a particular notebook
+- You want to generate a report for documentation purposes
+
+**How It Works:**
+
+The script is organized as a class called `DavyNotebooksFileScanner` that encapsulates all the scanning logic.
+
+**Key Methods:**
+
+- `run_file_scan()` - This is the main controller method that orchestrates the entire scan. It discovers notebooks, checks file availability, generates reports, and saves everything to disk.
+
+- `get_notebook_list()` - Scans the `items/` directory to find all notebook folders. Returns a list of notebook IDs sorted alphabetically.
+
+- `check_file_availability(notebooks)` - For each notebook, checks whether specific files exist:
+  - TEI XML file (`items/<id>/tei/doc`)
+  - Transcription CSV (`items/<id>/transcription/source/classifications`)
+  - Preprocessing outputs (`preprocessing/<id>/page_to_text.json`, etc.)
+  - Classification results (`classifications/<id>/classifications_page.json`)
+  - Poetry files (`poetry_files/*.csv`)
+  - Text reuse results (`results_text_reuse/*/`)
+  
+- `generate_report(results)` - Creates human-readable text summaries showing which notebooks have which files, organized by category.
+
+- `save_results(...)` - Writes the detailed file availability matrix and summary statistics to text files in `file_scan_output/`.
+
+**Output Files:**
+- `file_scan_output/file_scan_results.txt` - Detailed report showing file-by-file availability for every notebook
+- `file_scan_output/scan_summary.txt` - Summary statistics (e.g., "85 of 100 notebooks have preprocessing outputs")
+
+**How to Use It:**
 ```bash
 python scripts/preprocessing_scripts/checkFilesAvailability.py
 ```
 
+The script will print a summary to the console and save detailed reports to the `file_scan_output/` directory.
+
 ---
 
-#### `scripts/text_reuse/`
+### `poetry_filter/` - Classification Scripts (Root Directory)
 
-Text reuse detection using multiple algorithms.
+**📋 What This Section Is About**
 
-##### `ngram_code.py`
-**Purpose**: Detect text reuse using N-gram overlap analysis
+**Location:** These scripts are in the root-level `poetry_filter/` directory (NOT in `scripts/`).
 
-**Core Methods**:
-- `__init__(n_gram_size, similarity_threshold, use_stemming, remove_stopwords)` - Configure detector
-- `load_texts(base_dir, notebooks, filenames)` - Load preprocessed text
-- `preprocess_text_advanced(text)` - Clean and normalize historical text
-- `generate_ngrams(text)` - Create n-gram sequences
-- `compare_ngrams(ngrams1, ngrams2)` - Calculate similarity via Jaccard coefficient
-- `detect_reuse_with_context(texts, metadata)` - Find reuse instances with surrounding context
-- `save_results(results, output_dir, config_name)` - Export JSON, CSV, and text reports
+After preprocessing extracts the raw data, these scripts make sense of what volunteers labeled in the notebooks. Davy's notebooks aren't just chemistry experiments - they contain poetry, philosophy, lecture notes, personal reflections, and more. Understanding what type of content is on each page helps researchers find what they're looking for and reveals patterns in how Davy organized his work.
 
-**Algorithm**: 
-1. Tokenize text into words
-2. Generate overlapping n-grams (e.g., 2-grams: "the experiment" → ["the experiment", "experiment was"])
-3. Calculate Jaccard similarity: `|ngrams1 ∩ ngrams2| / |ngrams1 ∪ ngrams2|`
-4. Report matches above threshold
+This folder contains two scripts that work in sequence:
+1. First, `classifyContents.py` takes the volunteer votes and determines consensus
+2. Then, `classifyPoetry.py` focuses specifically on finding poetry
 
-**Configuration Options**:
-- `n_gram_size`: Size of n-grams (2, 3, 4, etc.)
-- `use_stemming`: Apply Porter stemmer to reduce words to roots
-- `remove_stopwords`: Filter common words (the, and, of, etc.)
-- `similarity_threshold`: Minimum similarity to report (0.0-1.0)
+**Why Classification Matters:**
 
-**Input Files**:
-- `preprocessing/<notebook_id>/page_to_text.json`
-- `preprocessing/<notebook_id>/page_to_entities.json`
+When volunteers transcribed these notebooks on Zooniverse, they also classified each page's content. But raw volunteer data can be messy - some volunteers might say "Poetry", others might say "Poem", and you need to aggregate their votes to determine what the page actually contains. That's what these scripts do.
 
-**Output Files**:
-- `results_text_reuse/results_ngram/config_X/<filename>_ngram_results.json` - Main results
-- `results_text_reuse/results_ngram/config_X/<filename>_ngram_instances.csv` - Specific matches
-- `results_text_reuse/results_ngram/config_X/<filename>_detailed_report.txt` - Human-readable
+The classification categories include:
+- Electrochemistry
+- Lecture notes
+- Philosophy
+- Poetry / Poems
+- Geology
+- References to other writers/their works
+- Other electric (static electricity, electromagnetism, etc.)
+- Other (anything that doesn't fit elsewhere)
 
-**Output Format Example**:
-```json
-{
-  "01a2_page_5": {
-    "01a3_page_7": {
-      "similarity": 0.67,
-      "shared_ngrams": 42,
-      "total_ngrams_1": 120,
-      "total_ngrams_2": 115
+---
+
+#### `classifyContents.py`
+
+**Purpose**: Transform volunteer classification votes into structured, consensus-based page and notebook classifications.
+
+**The Problem This Solves:**
+
+When volunteers classified pages, each page might have been labeled by multiple people, and they might not always agree. For example, page 5 of notebook 01a2 might have been classified by 7 volunteers like this:
+- 4 said "Lecture notes"
+- 2 said "Electrochemistry"  
+- 1 said "Philosophy"
+
+This script calculates that page 5 is 57% "Lecture notes", 29% "Electrochemistry", and 14% "Philosophy", then determines the consensus is "Lecture notes" (the most common classification).
+
+It also looks at all the pages in a notebook and determines what the notebook as a whole is primarily about.
+
+**How It Uses Preprocessing Data:**
+
+This script directly depends on `preprocess_files.py`. It reads the `preprocessing/<notebook_id>/classifications.json` file that was generated during preprocessing, which contains the normalized volunteer vote data.
+
+After processing, it saves results to `classifications/<notebook_id>/` where both the poetry detection script and the web frontend will look for them.
+
+**Core Functions and What They Do:**
+
+- `load_classifications(notebook_path)` - Opens and reads the `classifications.json` file from the preprocessing directory. Returns the raw volunteer data for all pages in a notebook.
+
+- `process_page_classifications(page_data)` - This is where the magic happens. It handles two possible input formats:
+  - **List format**: `['Electrochemistry', 'Lecture notes', 'Electrochemistry']` - raw votes from individual volunteers
+  - **Dictionary format**: `{"Electrochemistry": 0.857, "Poetry": 0.143}` - pre-aggregated percentages
+  
+  **Why two formats?** See the detailed explanation in the preprocessing section above - the source CSV data comes in wildly different formats, and we preserve both list and dict formats in the intermediate JSON files. This function handles BOTH so it works regardless of which format the preprocessing script produced.
+  
+  The function counts votes (for lists), calculates or normalizes percentages (for both), and determines which classification won (the "consensus"). Returns a standardized dictionary with percentages and consensus label.
+
+- `calculate_book_consensus(pages_data)` - After processing all individual pages, this function looks at the entire notebook and determines what it's primarily about. It counts how many pages have each classification as their consensus and picks the most common one.
+
+- `summarise_page_classifications(page_results)` - Generates human-readable summaries for the text report. For example: "Page 5: Lecture notes (57%), Electrochemistry (29%), Philosophy (14%)".
+
+- `process_all_notebooks(preprocessing_dir, output_dir)` - The orchestrator function. It:
+  1. Scans the preprocessing directory to find all notebooks
+  2. Loads classifications for each notebook
+  3. Processes page-by-page classifications
+  4. Calculates notebook-level consensus
+  5. Saves both JSON and text outputs
+
+- `save_classifications(notebook_id, data, output_dir)` - Writes two files:
+  - A JSON file with structured data (used by other scripts)
+  - A TXT file with human-readable summaries (used by researchers)
+
+- `main()` - Entry point that sets up logging and calls `process_all_notebooks()`.
+
+**Input Files:**
+- `preprocessing/<notebook_id>/classifications.json` - Raw volunteer classification data (created by `preprocess_files.py`)
+
+**Output Files:**
+- `classifications/<notebook_id>/classifications_page.json` - Structured classification data with percentages and consensus labels
+
+  Example structure:
+  ```json
+  {
+    "notebook_title": "Notebook 01A2 (T6, 2023; lecture notes)",
+    "consensus_book": "lecture notes",
+    "1": {
+      "Lecture notes": 0.5,
+      "Electrochemistry": 0.333,
+      "Other electric": 0.167,
+      "page_consensus": "lecture notes"
+    },
+    "2": {
+      "Lecture notes": 0.571,
+      "Philosophy": 0.143,
+      "page_consensus": "lecture notes"
     }
   }
-}
-```
+  ```
 
-**Usage**:
+- `classifications/<notebook_id>/summary.txt` - Human-readable summary report
+
+  Example content:
+  ```
+  Notebook 01A2
+  Overall Classification: lecture notes
+  
+  Page 1: Lecture notes (50%), Electrochemistry (33%), Other electric (17%)
+  Page 2: Lecture notes (57%), Philosophy (14%)
+  ...
+  ```
+
+**How to Use It:**
 ```bash
-# Edit configuration in main()
-python scripts/text_reuse/ngram_code.py
+python poetry_filter/classifyContents.py
 ```
 
-**Key Parameters to Adjust**:
+The script will automatically process all notebooks it finds in the `preprocessing/` directory and save results to `classifications/`.
+
+---
+
+#### `classifyPoetry.py`
+
+**Purpose**: Identify which notebooks and pages contain poetry using the classification data generated by `classifyContents.py`.
+
+**Why This Script Exists:**
+
+The Davy Notebooks Project revealed that Humphry Davy wasn't just a scientist - he was also a poet and literary figure. His notebooks contain poetry alongside scientific observations, and researchers wanted an easy way to find all poetry-related content.
+
+While `classifyContents.py` gives you all classification data, this script specifically filters for poetry and creates dedicated reports that make it easy to answer questions like:
+- Which notebooks are primarily poetry notebooks?
+- Which pages in any notebook contain poetry?
+- How much poetry is there across the entire corpus?
+
+**How It Depends on classifyContents.py:**
+
+This script reads the `classifications/<notebook_id>/classifications_page.json` files that were created by `classifyContents.py`. It cannot run until those files exist. This is why you must run `classifyContents.py` first.
+
+The workflow is:
+1. `preprocess_files.py` → creates `preprocessing/<id>/classifications.json`
+2. `classifyContents.py` → reads preprocessing output, creates `classifications/<id>/classifications_page.json`
+3. `classifyPoetry.py` → reads classifications output, creates `poetry_files/*.csv`
+
+**Core Functions and What They Do:**
+
+- `load_classification_data(notebook_id, classifications_dir)` - Opens and reads the `classifications_page.json` file for a specific notebook. Returns the structured classification data with consensus labels.
+
+- `is_poetry_classification(classification)` - A simple but important keyword matcher. It checks if a classification string contains poetry-related terms like:
+  - "poetry"
+  - "poem"
+  - "verse"
+  - "poetic"
+  
+  The check is case-insensitive, so "Poetry", "POETRY", and "poetry" all match. It also works with compound labels like "Poetry and Philosophy".
+
+- `extract_poetry_notebooks_and_pages(classifications_dir)` - The main analysis function. It:
+  1. Scans all notebooks in the classifications directory
+  2. For each notebook, checks if the overall consensus is poetry (making it a "poetry notebook")
+  3. Also checks each individual page to find any page with poetry, even in non-poetry notebooks
+  4. Returns two lists:
+     - Poetry notebooks (where the whole notebook is primarily poetry)
+     - Poetry pages (every page that contains poetry, grouped by notebook)
+
+- `save_results_to_csv(poetry_pages, poetry_notebooks, output_dir)` - Exports the findings as CSV files for easy analysis in spreadsheet programs or data science tools.
+
+- `generate_summary_report(poetry_pages, poetry_notebooks, output_dir)` - Creates human-readable text reports with statistics like:
+  - Total number of poetry notebooks found
+  - Total number of poetry pages found
+  - List of poetry pages organized by notebook
+
+- `main()` - Entry point that:
+  1. Sets up logging
+  2. Calls the extraction function
+  3. Saves CSV and text reports
+  4. Prints summary statistics to the console
+
+**Input Files:**
+- `classifications/<notebook_id>/classifications_page.json` - Classification data with consensus labels (created by `classifyContents.py`)
+
+**Output Files:**
+- `poetry_files/poetry_pages.csv` - Machine-readable list of all pages containing poetry
+  ```csv
+  notebook_id,page_num,classification
+  13a,15,Poetry
+  14e,42,Poetry
+  14e,43,Poem
+  ```
+
+- `poetry_files/poetry_pages.txt` - Human-readable list organized by notebook
+  ```
+  Poetry Pages Found:
+  
+  Notebook 13a:
+    - Page 15: Poetry
+  
+  Notebook 14e:
+    - Page 42: Poetry
+    - Page 43: Poem
+  ```
+
+- `poetry_files/overall_poetry_notebooks.csv` - Notebooks where the overall consensus is poetry
+  ```csv
+  notebook_id,notebook_title,consensus
+  13a,Notebook 13A (Poetry),poetry
+  ```
+
+- `poetry_files/overall_poetry_notebooks.txt` - Human-readable summary with statistics
+  ```
+  Poetry Notebooks Summary
+  
+  Total poetry notebooks found: 1
+  Total pages with poetry: 3
+  
+  Poetry Notebooks:
+  - 13a: Notebook 13A (Poetry)
+  ```
+
+**How to Use It:**
+```bash
+python poetry_filter/classifyPoetry.py
+```
+
+The script will automatically process all notebooks it finds in the `classifications/` directory and save poetry-specific reports to `poetry_files/`.
+
+---
+
+### `scripts/text_reuse/` - Text Reuse Detection Algorithms
+
+**📋 What This Section Is About**
+
+**Location:** These scripts are in `scripts/text_reuse/` directory.
+
+Text reuse detection is all about finding when Davy copied, adapted, or reused text from one notebook to another. This is fascinating for researchers because it reveals:
+- How Davy's ideas evolved over time
+- When he refined lecture material across multiple iterations
+- Connections between notebooks that aren't obvious from dates or titles
+- How scientific concepts developed through repeated writing and experimentation
+
+Think of it like plagiarism detection, but instead of catching cheating, we're tracing the evolution of scientific thought!
+
+**Why Multiple Algorithms?**
+
+You'll notice we have three different scripts for text reuse detection. This isn't redundancy - each algorithm has different strengths and weaknesses, and researchers often run all three to get a complete picture:
+
+1. **N-gram Analysis** (`ngram_code.py`) - Fast and good at finding scattered similarities
+2. **Greedy String Tiling (GST)** (`gst_code.py`) - Best at finding continuous, exact copying
+3. **TF-IDF** (`tf_idf_code.py`) - Best at finding semantic similarity and paraphrasing
+
+**Important Prerequisites:**
+
+All these scripts depend on the preprocessing pipeline. They read the `preprocessing/<notebook_id>/page_to_text.json` files that contain clean text. **You must run `preprocess_files.py` before using any text reuse scripts.**
+
+---
+
+#### `ngram_code.py`
+
+**Purpose**: Detect text reuse by breaking text into overlapping word sequences (n-grams) and comparing them.
+
+**What Are N-grams?**
+
+An n-gram is simply a sequence of n words. For example, from the sentence "the experiment was successful":
+- **2-grams (bigrams)**: ["the experiment", "experiment was", "was successful"]
+- **3-grams (trigrams)**: ["the experiment was", "experiment was successful"]  
+- **4-grams**: ["the experiment was successful"]
+
+By comparing which n-grams appear in multiple notebooks, we can detect text reuse.
+
+**How This Algorithm Works:**
+
+1. **Tokenize**: Break text into individual words
+2. **Clean** (optional): Apply stemming (`running` → `run`) and/or remove stopwords (`the`, `and`, `of`, etc.)
+3. **Generate N-grams**: Create overlapping word sequences of length n
+4. **Compare**: For each pair of pages, calculate how many n-grams they share
+5. **Calculate Similarity**: Use the Jaccard coefficient: `shared n-grams / total unique n-grams`
+6. **Report**: Save matches above the similarity threshold
+
+**Example:**
+
+Page 5 of notebook 01a2:
+> "The experiment with oxygen was successful in demonstrating the principle"
+
+Page 3 of notebook 01a4:
+> "The experiment with nitrogen was successful in proving the theory"
+
+With 3-grams, they share:
+- "the experiment with"
+- "was successful in"
+
+Similarity = `2 shared / 10 total unique` = 0.20 (20% similarity)
+
+**Class: `LibraryBasedNgramDetector`**
+
+This is the main class that encapsulates all n-gram detection logic.
+
+**Core Methods and What They Do:**
+
+- `__init__(n_gram_size, similarity_threshold, use_stemming, remove_stopwords, min_segment_length, min_words)` - Initialize the detector with configuration parameters. This is where you set:
+  - `n_gram_size`: How many words per n-gram (2, 3, 4, etc.)
+  - `similarity_threshold`: Minimum similarity to report (0.0 to 1.0)
+  - `use_stemming`: Whether to reduce words to root forms
+  - `remove_stopwords`: Whether to filter common words
+  - `min_segment_length`: Minimum characters for text segments
+  - `min_words`: Minimum word count for segments
+
+- `load_texts(base_dir, notebooks, filenames)` - Load preprocessed text from the `preprocessing/` directory. Opens `page_to_text.json` for each specified notebook and also loads entity metadata from `page_to_entities.json` for context.
+
+- `preprocess_text_advanced(text)` - Clean and normalize 18th-century historical text. This function:
+  - Normalizes whitespace
+  - Handles special characters common in historical texts
+  - Fixes encoding issues
+  - Applies stemming if configured
+  - Removes stopwords if configured
+  
+- `generate_ngrams(text)` - Takes preprocessed text and generates all n-grams. Returns a set of tuples (for efficient comparison).
+
+- `compare_ngrams(ngrams1, ngrams2)` - Calculate Jaccard similarity between two sets of n-grams:
+  ```python
+  similarity = len(ngrams1 & ngrams2) / len(ngrams1 | ngrams2)
+  ```
+  
+- `detect_reuse_with_context(texts, metadata)` - Main analysis function that:
+  1. Compares all possible page pairs
+  2. Identifies matches above threshold
+  3. Extracts surrounding context for each match
+  4. Associates entity mentions with reused passages
+  
+- `save_results(results, output_dir, config_name)` - Export three types of files:
+  - JSON with full similarity data
+  - CSV with specific reuse instances
+  - TXT with human-readable report
+
+**Configuration Options:**
+
+You configure the detector when creating an instance:
+
 ```python
 detector = LibraryBasedNgramDetector(
-    n_gram_size=2,              # 2-grams
-    similarity_threshold=0.2,    # 20% similarity minimum
-    use_stemming=True,          # Use stemming
-    remove_stopwords=True        # Remove stopwords
+    n_gram_size=2,              # Use 2-grams (bigrams)
+    similarity_threshold=0.2,    # Report matches above 20% similarity
+    use_stemming=True,          # Apply Porter stemmer
+    remove_stopwords=True        # Remove common words
 )
 ```
 
+**Common Configurations:**
+
+- **Fast, broad search**: `n_gram_size=2`, `similarity_threshold=0.1`, `remove_stopwords=True`
+- **Precise matching**: `n_gram_size=4`, `similarity_threshold=0.3`, `remove_stopwords=False`
+- **Semantic overlap**: `n_gram_size=3`, `similarity_threshold=0.2`, `use_stemming=True`
+
+**Input Files:**
+- `preprocessing/<notebook_id>/page_to_text.json` - Clean text per page
+- `preprocessing/<notebook_id>/page_to_entities.json` - Entity metadata (optional, for context)
+
+**Output Files:**
+- `results_text_reuse/results_ngram/config_X/<filename>_ngram_results.json` - Complete similarity matrix
+  ```json
+  {
+    "01a2_page_5": {
+      "01a4_page_3": {
+        "similarity": 0.45,
+        "shared_ngrams": 42,
+        "total_ngrams_1": 120,
+        "total_ngrams_2": 115,
+        "context": "...experiment with oxygen..."
+      }
+    }
+  }
+  ```
+
+- `results_text_reuse/results_ngram/config_X/<filename>_ngram_instances.csv` - Specific instances for easy filtering
+  ```csv
+  notebook1,page1,notebook2,page2,similarity,shared_ngrams,context1,context2
+  01a2,5,01a4,3,0.45,42,"...oxygen...","...nitrogen..."
+  ```
+
+- `results_text_reuse/results_ngram/config_X/<filename>_detailed_report.txt` - Human-readable summary with statistics
+
+**How to Use It:**
+
+1. Open the script and find the `main()` function
+2. Edit the configuration:
+```python
+notebooks_to_compare = ['01a2', '01a3', '14e']  # Which notebooks
+n_gram_size = 2  # Bigrams
+similarity_threshold = 0.2  # 20% minimum
+```
+
+3. Run:
+```bash
+python scripts/text_reuse/ngram_code.py
+```
+
+**Performance Tips:**
+
+- Smaller n-grams = faster but more false positives
+- Larger n-grams = slower but more precise
+- Removing stopwords = fewer n-grams to compare = faster
+- Comparing many notebooks = O(n²) comparisons = slow!
+
+For 10 notebooks with ~100 pages each, expect:
+- 2-grams, stopwords removed: ~5-10 minutes
+- 4-grams, all words: ~30-60 minutes
+
 ---
 
-##### `gst_code.py`
+#### `gst_code.py`
 **Purpose**: Detect text reuse using Greedy String Tiling (GST) algorithm
 
 **Core Methods**:
@@ -597,7 +1091,46 @@ detector = LibraryBasedTFIDFDetector(
 
 #### `scripts/poetry_filter/`
 
-**Status**: Not fully implemented - reserved for future LLM-based poetry detection
+**📋 OVERVIEW - What This Folder Will Do (Future Implementation)**
+
+This folder is reserved for **next-generation poetry detection** using Large Language Models (LLMs) like GPT-4, Claude, or fine-tuned models. This will be more sophisticated than the keyword-based approach in the root `poetry_filter/` folder.
+
+**Why LLM-Based Detection?**
+
+The current keyword-based approach (`poetry_filter/classifyPoetry.py`) works well but has limitations:
+- ❌ Can miss poetry that doesn't get labeled as "Poetry" by volunteers
+- ❌ Can't distinguish between actual poems and references to poetry
+- ❌ Struggles with mixed content (prose with poetic elements)
+- ❌ Doesn't detect quality or style of poetry
+
+**What LLM-Based Detection Will Offer:**
+- ✅ Understand context and nuance (is this a poem or a quote about poetry?)
+- ✅ Detect poetic prose and literary language
+- ✅ Classify poetry by style (Romantic, Classical, etc.)
+- ✅ Identify partial poems, excerpts, and paraphrases
+- ✅ Recognize poetry even without explicit "Poetry" labels
+
+**Planned Workflow:**
+```bash
+# Future implementation:
+# 1. Load preprocessed text
+# 2. Send pages to LLM API with prompt: "Is this poetry?"
+# 3. Get structured response with confidence scores
+# 4. Compare with keyword-based results for validation
+python scripts/poetry_filter/identifyPoem.py
+```
+
+**Current Status:** Placeholder files only - not yet implemented
+
+**To Contribute:**
+If you want to implement this feature:
+1. Choose an LLM API (OpenAI, Anthropic, local model, etc.)
+2. Design prompts for poetry detection
+3. Implement batch processing with rate limiting
+4. Add confidence scoring and validation
+5. Create comparison reports vs. keyword method
+
+---
 
 ##### `identifyPoem.py` and `identifyPoem2.py`
 **Purpose**: Identify poetry using Large Language Models (LLMs)

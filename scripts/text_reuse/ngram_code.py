@@ -48,10 +48,6 @@ logger = logging.getLogger(__name__)
 
 
 class LibraryBasedNgramDetector:
-    """
-    Library-based N-gram text reuse detector using NLTK, scikit-learn, and spaCy.
-    Designed for experimental comparison with LCS, TF-IDF, and GST methods.
-    """
 
     def __init__(self, n_gram_size=3, similarity_threshold=0.2,
                  use_stemming=False, remove_stopwords=True,
@@ -76,7 +72,7 @@ class LibraryBasedNgramDetector:
 
         # Initialize NLP tools
         self.stemmer = PorterStemmer() if use_stemming else None
-        self.stop_words = set(stopwords.words('english')) if remove_stopwords else set()
+        self.stop_words = self._load_historical_stopwords() if remove_stopwords else set()
 
         # Metrics tracking
         self.metrics = {
@@ -87,6 +83,65 @@ class LibraryBasedNgramDetector:
             'ngram_generation_time': 0,
             'similarity_calculation_time': 0
         }
+
+    def _load_historical_stopwords(self):
+        """
+        Load stopwords suitable for 18th/19th century English historical texts.
+        Combines modern English stopwords with archaic forms and historical variations.
+        
+        Returns:
+            set: Combined set of modern and historical stopwords
+        """
+        # Start with modern NLTK English stopwords as base
+        modern_stopwords = set(stopwords.words('english'))
+        
+        # Historical English stopwords (18th-19th century)
+        # These include archaic pronouns, verb forms, and common historical terms
+        historical_stopwords = {
+            # Archaic pronouns and possessives
+            'thee', 'thy', 'thine', 'thou', 'thyself', 'ye', 'yon', 'yonder',
+            
+            # Archaic verb forms
+            'hath', 'doth', 'dost', 'didst', 'shalt', 'wilt', 'wouldst', 'shouldst',
+            'mayst', 'mightst', 'couldst', 'art', 'wert', 'tis', 'twas', 'twere',
+            'twixt', 'betwixt', 'amongst', 'whilst', 'unto', 'upon', 'wherein',
+            'whereof', 'whereby', 'wherefore', 'whence', 'whither', 'hither',
+            'thither', 'thence', 'hence', 'henceforth', 'heretofore', 'herein',
+            'hereof', 'hereby', 'therein', 'thereof', 'thereby', 'thereupon',
+            
+            # Archaic negations and affirmations
+            'nay', 'yea', 'verily', 'forsooth', 'methinks', 'perchance', 'mayhap',
+            
+            # Common contractions and shortened forms in historical texts
+            'tho', 'thro', 'altho', 'shd', 'wd', 'cd', 'wch', 'yr', 'mr', 'mrs',
+            
+            # Historical conjunctions and prepositions
+            'withal', 'notwithstanding', 'inasmuch', 'forasmuch', 'insomuch',
+            
+            # Common Latin phrases used in historical English texts
+            'viz', 'videlicet', 'et', 'etc', 'ie', 'eg', 'cf', 'ibid', 'id',
+            'op', 'cit', 'loc', 'sic', 'passim', 'circa', 'ca',
+            
+            # Historical spellings and variations of common words
+            'shew', 'shewed', 'shewn',  # old spelling of "show"
+            'connexion',  # old spelling of "connection"
+            'publick',  # old spelling of "public"
+            'musick',  # old spelling of "music"
+            'critick',  # old spelling of "critic"
+            'phisick',  # old spelling of "physic"
+            
+            # Additional historical discourse markers
+            'moreover', 'furthermore', 'likewise', 'howbeit', 'albeit',
+            'nevertheless', 'notwithstanding', 'hitherto', 'heretofore',
+        }
+        
+        # Combine modern and historical stopwords
+        combined_stopwords = modern_stopwords.union(historical_stopwords)
+        
+        logger.info(f"Loaded {len(combined_stopwords)} stopwords "
+                   f"({len(modern_stopwords)} modern + {len(historical_stopwords)} historical)")
+        
+        return combined_stopwords
 
     def load_texts(self, base_dir, notebooks, filenames):
         """Load texts and metadata using improved error handling."""
@@ -181,16 +236,6 @@ class LibraryBasedNgramDetector:
         return ' '.join(words)
 
     def generate_ngrams_nltk(self, text, n):
-        """
-        Generate n-grams using NLTK.
-
-        Args:
-            text (str): Preprocessed text
-            n (int): N-gram size
-
-        Returns:
-            list: List of n-gram tuples
-        """
         start_time = time.time()
         words = text.split()
 

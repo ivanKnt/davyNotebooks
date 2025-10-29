@@ -18,7 +18,7 @@
 
 ## Project Overview
 
-The **Davy Notebooks Project** is a digital humanities research project for analyzing the notebooks of Sir Humphry Davy. This repository contains:
+The Davy Notebooks Project analyzes the scientific and literary notebooks of Sir Humphry Davy through digital humanities techniques. This repository provides a complete pipeline for:
 
 1. **Data Processing Pipeline**: Extract and preprocess text from TEI XML files
 2. **Content Classification**: Analyze notebook pages by subject matter
@@ -257,7 +257,6 @@ Based on the latest file availability scan (see `file_scan_output/scan_summary.t
      - If yes, export classification data
      - If no, run a classification campaign for these 5 notebooks
 
-**Why This Matters:**
 
 **Notebook 08:**
 - This is a complete gap in the data - we have the TEI file but nothing else
@@ -340,8 +339,6 @@ Some notebooks have complete TEI XML but no classification CSV:
 **Impact:** These notebooks get preprocessed but classification/poetry scripts skip them.
 
 **Proposed Solution:**
-- Re-export classification data from Zooniverse for affected notebooks
-- If data was never collected, recruit volunteers to classify these pages
 - Mark notebooks without classifications clearly in the documentation
 
 **Problem 4: Incomplete Page Coverage**
@@ -360,66 +357,10 @@ Some classification CSVs skip pages:
 
 ---
 
-#### Data Homogeneity Issues
-
-**The Problem:**
-
-For reliable analysis, we need **homogeneous data** - meaning all notebooks should have:
-- Same metadata structure
-- Same classification format
-- Same entity annotation standards
-- Same TEI XML schema version
-
-Currently, this is NOT the case:
-
-**Issue 1: TEI XML Schema Drift**
-
-Notebooks transcribed at different times use different TEI schemas:
-- **Early notebooks (2020-2021)**: Simpler entity markup, fewer `<rs>` tags
-- **Later notebooks (2022-2023)**: More detailed entity annotations, consistent `<standOff>` structure
-- **Recent notebooks (2024)**: Additional metadata fields
-
-**Impact:** Entity extraction works differently for old vs. new notebooks.
-
-**Proposed Solution:**
-- Upgrade old TEI files to match the current schema
-- Create a TEI validation script that checks for required elements
-- Document which schema version each notebook uses
-
-**Issue 2: Transcription Quality Variations**
-
-Some notebooks have:
-- Better character recognition (fewer `[unclear]` markers)
-- More consistent spelling
-- Complete page coverage vs. partial transcriptions
-
-**Impact:** Text reuse algorithms may miss matches due to transcription errors.
-
-**Proposed Solution:**
-- Run spell-checking and normalization on extracted text
-- Flag low-confidence transcriptions for review
-- Add transcription quality metrics to preprocessing output
-
-**Issue 3: Entity Annotation Inconsistency**
-
-Entity markup varies wildly:
-- **Notebook 01a2**: 150 entities annotated
-- **Notebook 01a3**: Only 12 entities annotated (similar length!)
-- **Notebook 14e**: Extensive chemical annotations
-- **Notebook 14f**: Almost no chemical annotations (but discusses chemistry!)
-
-**Impact:** Entity-based analysis is unreliable when some notebooks are under-annotated.
-
-**Proposed Solution:**
-- Use NER (Named Entity Recognition) to automatically annotate under-annotated notebooks
-- Standardize entity annotation guidelines
-- Re-process notebooks with <20 entities
-
----
 
 #### What Needs to Be Fixed (Priority Order)
 
-**High Priority (Blocks Analysis):**
+**High Priority :**
 
 1. **Standardize classification CSV format**
    - Choose one canonical format
@@ -434,7 +375,6 @@ Entity markup varies wildly:
 3. **Fix format detection bugs**
    - Test preprocessing on ALL notebooks
    - Document which notebooks cause errors
-   - Add error handling for edge cases
 
 **Medium Priority (Improves Quality):**
 
@@ -443,69 +383,17 @@ Entity markup varies wildly:
    - Apply normalization in `process_classifications()`
    - Re-run classification aggregation
 
-5. **Validate TEI XML**
-   - Write schema validation script
-   - Check all notebooks for required elements
-   - Report notebooks that don't meet standards
-
-6. **Add transcription quality metrics**
-   - Count `[unclear]` markers
-   - Calculate confidence scores
-   - Flag low-quality transcriptions
-
-**Low Priority (Nice to Have):**
-
-7. **Entity annotation enhancement**
-   - Run automated NER on all notebooks
-   - Compare with manual annotations
-   - Fill gaps in under-annotated notebooks
-
-8. **Cross-notebook consistency checks**
-   - Verify entity names are consistent (e.g., "Davy" vs "H. Davy" vs "Humphry Davy")
-   - Standardize place names (e.g., "London" vs "london")
-   - Create authority files for common entities
 
 ---
 
-#### Recommendations for Data Collection Going Forward
-
-If you're adding new notebooks or re-processing existing ones, follow these guidelines:
-
-**For Zooniverse Exports:**
-1. Use the latest export format (dictionary with percentages)
-2. Ensure at least 5 volunteers classify each page
-3. Export with page numbers, not workflow IDs
-4. Include timestamp data for audit trails
-
-**For TEI XML:**
-1. Use the latest TEI schema (check with Davy Notebooks Project team)
-2. Ensure consistent entity markup (`<rs type="person">`, `<rs type="place">`, etc.)
-3. Include `<standOff>` section with complete entity metadata
-4. Validate XML against schema before committing
-
-**For Preprocessing:**
-1. Always run `checkFilesAvailability.py` first
-2. Process notebooks in series order (helps spot patterns)
-3. Save error logs for debugging
-4. Verify outputs before running downstream scripts
-
-**For Documentation:**
-1. Document any format variants you encounter
-2. Note which notebooks have issues
-3. Update this README with new solutions
-4. Maintain a changelog of data fixes
-
----
 
 ## Directory Documentation
 
-### `scripts/preprocessing_scripts/` - Where Everything Starts
+### `scripts/preprocessing_scripts/` - Starting point 
 
-**📋 What This Section Is About**
+**📋 About This section**
 
 This is where everything begins. Before you can classify content, detect poetry, or analyze text reuse, you need clean, structured data. These preprocessing scripts are responsible for taking the raw TEI XML files (which are complex, marked-up historical documents) and volunteer classification CSV exports, then transforming them into simple JSON files that all other parts of the project can easily read and use.
-
-Think of preprocessing as translating the notebooks from their archival format into a format that computers can work with efficiently.
 
 **Important Note:** These scripts are located in `scripts/preprocessing_scripts/` directory.
 
@@ -526,7 +414,7 @@ For each notebook, you'll get four JSON files that contain:
 
 #### `preprocess_files.py`
 
-**Purpose**: This is the main workhorse script that extracts and processes everything from the TEI XML files.
+**Purpose**: This is the main  script that extracts and processes everything from the TEI XML files.
 
 **How It Works - Step by Step:**
 
@@ -640,7 +528,7 @@ The output is **always** saved in one of two consistent formats:
 
 **Why We Keep Both Formats:**
 
-You might wonder why we don't convert everything to one format. The reason is that **both formats contain valuable information**:
+The reason is that **both formats contain valuable information**:
 - List format preserves the number of individual votes (useful for confidence analysis)
 - Dictionary format preserves pre-calculated percentages (useful when source data lost individual votes)
 
@@ -752,26 +640,11 @@ This data format handling was honestly one of the hardest technical challenges i
 python scripts/preprocessing_scripts/preprocess_files.py
 ```
 
-Before running, open the file and edit the `notebook_ids` list in the `main()` function to specify which notebooks you want to process. For example:
-```python
-notebook_ids = ['01a2', '01a3', '14e']  # Process these three notebooks
-```
-
 ---
 
 #### `checkFilesAvailability.py`
 
 **Purpose**: A diagnostic utility that scans your entire repository and tells you which notebooks have which files.
-
-**Why This Is Useful:**
-
-When you're working with 100+ notebooks, it's easy to lose track of which ones you've preprocessed, which have classification results, which have been analyzed for text reuse, etc. This script gives you a bird's-eye view of your data pipeline status.
-
-It's especially helpful when:
-- You're setting up the project for the first time and want to know which notebooks have source data
-- You've run some preprocessing and want to confirm the outputs were created
-- You're debugging why a downstream script can't find data for a particular notebook
-- You want to generate a report for documentation purposes
 
 **How It Works:**
 
@@ -814,7 +687,7 @@ The script will print a summary to the console and save detailed reports to the 
 
 **Location:** These scripts are in the root-level `poetry_filter/` directory (NOT in `scripts/`).
 
-After preprocessing extracts the raw data, these scripts make sense of what volunteers labeled in the notebooks. Davy's notebooks aren't just chemistry experiments - they contain poetry, philosophy, lecture notes, personal reflections, and more. Understanding what type of content is on each page helps researchers find what they're looking for and reveals patterns in how Davy organized his work.
+After preprocessing extracts the raw data, these scripts make sense of what volunteers labeled in the notebooks. the Notebooks  contain poetry, philosophy, lecture notes, personal reflections, and more. Understanding what type of content is on each page helps researchers find what they're looking for and reveals patterns in how Davy organized his work.
 
 This folder contains two scripts that work in sequence:
 1. First, `classifyContents.py` takes the volunteer votes and determines consensus
@@ -861,7 +734,7 @@ After processing, it saves results to `classifications/<notebook_id>/` where bot
 
 - `load_classifications(notebook_path)` - Opens and reads the `classifications.json` file from the preprocessing directory. Returns the raw volunteer data for all pages in a notebook.
 
-- `process_page_classifications(page_data)` - This is where the magic happens. It handles two possible input formats:
+- `process_page_classifications(page_data)` -  It handles two possible input formats:
   - **List format**: `['Electrochemistry', 'Lecture notes', 'Electrochemistry']` - raw votes from individual volunteers
   - **Dictionary format**: `{"Electrochemistry": 0.857, "Poetry": 0.143}` - pre-aggregated percentages
   
@@ -1049,11 +922,9 @@ Text reuse detection is all about finding when Davy copied, adapted, or reused t
 - Connections between notebooks that aren't obvious from dates or titles
 - How scientific concepts developed through repeated writing and experimentation
 
-Think of it like plagiarism detection, but instead of catching cheating, we're tracing the evolution of scientific thought!
 
-**Why Multiple Algorithms?**
+**Multiple Algorithms?**
 
-You'll notice we have three different scripts for text reuse detection. This isn't redundancy - each algorithm has different strengths and weaknesses, and researchers often run all three to get a complete picture:
 
 1. **N-gram Analysis** (`ngram_code.py`) - Fast and good at finding scattered similarities
 2. **Greedy String Tiling (GST)** (`gst_code.py`) - Best at finding continuous, exact copying
@@ -1203,18 +1074,6 @@ similarity_threshold = 0.2  # 20% minimum
 ```bash
 python scripts/text_reuse/ngram_code.py
 ```
-
-**Performance Tips:**
-
-- Smaller n-grams = faster but more false positives
-- Larger n-grams = slower but more precise
-- Removing stopwords = fewer n-grams to compare = faster
-- Comparing many notebooks = O(n²) comparisons = slow!
-
-For 10 notebooks with ~100 pages each, expect:
-- 2-grams, stopwords removed: ~5-10 minutes
-- 4-grams, all words: ~30-60 minutes
-
 ---
 
 #### `gst_code.py`
@@ -1359,7 +1218,7 @@ detector = LibraryBasedTFIDFDetector(
 ##### `common_instances.py`
 **Purpose**: Compare results across different text reuse algorithms
 
-**Status**: Placeholder/stub file (1 line) - not yet implemented
+**Status**: Placeholder/stub file (1 line) - not yet implemented  (TI BE IMPLEMENTED)
 
 **Intended Purpose**: 
 - Load results from N-gram, GST, and TF-IDF
@@ -1746,148 +1605,7 @@ results_text_reuse/
 
 ---
 
-## Development Guide
 
-### Adding a New Notebook
-
-1. **Add source files to `items/<notebook_id>/`**
-   - TEI XML file at `items/<notebook_id>/tei/doc`
-   - Classifications CSV at `items/<notebook_id>/transcription/source/classifications`
-
-2. **Run preprocessing**:
-```bash
-python scripts/preprocessing_scripts/preprocess_files.py
-# Edit notebook_ids list in main() to include new notebook
-```
-
-3. **Run classification**:
-```bash
-python poetry_filter/classifyContents.py
-```
-
-4. **Run poetry detection** (if applicable):
-```bash
-python poetry_filter/classifyPoetry.py
-```
-
-5. **Run text reuse analysis** (optional):
-```bash
-python scripts/text_reuse/ngram_code.py
-# etc.
-```
-
-### Adding a New Text Reuse Algorithm
-
-1. Create `scripts/text_reuse/your_algorithm.py`
-2. Follow the pattern of existing scripts:
-   - Load texts from `preprocessing/`
-   - Implement comparison logic
-   - Save results to `results_text_reuse/results_<algorithm>/`
-3. Add API endpoint in `davy_web/app.py`
-4. Add frontend interface in `davy-frontend/src/pages/`
-
-### Modifying Classification Categories
-
-1. Update volunteer classification categories in source CSV files
-2. Modify `classifyContents.py` if new aggregation logic needed
-3. Update `classifyPoetry.py` if poetry detection keywords need changes
-4. Update frontend display in `ClassificationPage.jsx`
-
-### Running Tests
-
-```bash
-# Backend tests (if available)
-python -m pytest
-
-# Frontend tests
-cd davy-frontend
-npm test
-```
-
-### Code Style
-
-- **Python**: PEP 8
-- **JavaScript**: ESLint + Prettier (configuration in `davy-frontend/`)
-
----
-
-## Common Workflows
-
-### Full Pipeline Execution
-
-```bash
-# 1. Preprocess all notebooks
-python scripts/preprocessing_scripts/preprocess_files.py
-
-# 2. Generate classifications
-python poetry_filter/classifyContents.py
-
-# 3. Detect poetry
-python poetry_filter/classifyPoetry.py
-
-# 4. Run text reuse analysis (example: N-gram)
-python scripts/text_reuse/ngram_code.py
-```
-
-### Analyzing Specific Notebooks
-
-1. Edit `main()` in `preprocess_files.py`:
-```python
-notebook_ids = ['01a2', '01a3', '14e']  # Your selected notebooks
-```
-
-2. Run preprocessing and subsequent steps
-
-3. Configure text reuse script to compare only those notebooks:
-```python
-notebooks_to_compare = ['01a2', '01a3', '14e']
-```
-
-### Comparing Text Reuse Methods
-
-1. Run all three algorithms on the same notebooks:
-```bash
-python scripts/text_reuse/ngram_code.py
-python scripts/text_reuse/gst_code.py
-python scripts/text_reuse/tf_idf_code.py
-```
-
-2. Compare results in `results_text_reuse/` subdirectories
-
-3. Use `common_instances.py` (when implemented) for cross-method comparison
-
----
-
-## Troubleshooting
-
-### Common Issues
-
-**Issue**: `NLTK data not found`
-```bash
-python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
-```
-
-**Issue**: `Module not found` errors
-```bash
-pip install -r requirements.txt  # or manually install missing packages
-```
-
-**Issue**: Frontend can't connect to backend
-- Check backend is running on port 5001
-- Check CORS is enabled in `davy_web/app.py`
-- Verify `API_BASE` in `davy-frontend/src/services/api.js`
-
-**Issue**: Preprocessing fails for a notebook
-- Check TEI XML file exists at `items/<notebook_id>/tei/doc`
-- Check XML is well-formed (use XML validator)
-- Check for encoding issues (should be UTF-8)
-
-**Issue**: Text reuse takes too long
-- Reduce number of notebooks being compared
-- Increase `similarity_threshold` to filter more aggressively
-- Use smaller `n_gram_size` for faster N-gram analysis
-
----
 
 ## Future Enhancements
 
@@ -1909,21 +1627,6 @@ pip install -r requirements.txt  # or manually install missing packages
 
 ---
 
-## Contributing
-
-### Code Contributions
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes with clear commit messages
-4. Test thoroughly
-5. Submit a pull request
-
-### Data Contributions
-- Report errors in TEI XML files
-- Improve entity annotations
-- Validate classification results
-
----
 
 ## Contact & Resources
 
@@ -1937,19 +1640,16 @@ pip install -r requirements.txt  # or manually install missing packages
 
 ---
 
-## License
-
-[Specify license - typically MIT, GPL, or Creative Commons for data]
-
----
 
 ## Acknowledgments
 
 This project is built on the work of the Davy Notebooks Project team and the volunteer transcribers on Zooniverse.
 
+Special Thanks to Dr Paul Rayson, Prof Sharon Ruston and Andy Hartland
+
 ---
 
-**Last Updated**: 2025  
+**Last Updated**: 29/10/2025
 **Version**: 2.0  
-**Maintainer**: [Your name/team]
+**Maintainer**: [Ivan Kounte]
 

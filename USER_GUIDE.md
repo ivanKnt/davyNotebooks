@@ -1,354 +1,200 @@
-# Davy Notebooks Project - Quick Start Guide for Beginners
+# Davy Notebooks - User Guide for the Web Interface
 
-**👋 Welcome!** This guide will help you get the Davy Notebooks web application running on your computer, even if you're not a programmer.
-
-## What Is This Project?
-
-The Davy Notebooks Project lets you explore the scientific notebooks of Sir Humphry Davy (a famous 18th-century chemist). You can:
-- Search for specific types of content (poetry, chemistry experiments, lecture notes, etc.)
-- Find where Davy reused or copied text between different notebooks
-- See which notebooks contain poetry
-- Analyze patterns in his writing
+**👋 Welcome!** This guide will help you use the Davy Notebooks web application to explore Sir Humphry Davy's scientific notebooks.
 
 ---
 
-## 🚀 Quick Setup (5 Steps)
+## What Can You Do With This App?
 
-### Step 1: Install Python
+The Davy Notebooks web application lets you:
+- 📖 Browse and classify notebook content (poetry, chemistry, lecture notes, etc.)
+- 🎭 Find all the poetry Davy wrote
+- 🔄 Discover where he reused or copied text between notebooks
+- 📊 View statistics and visualizations about the notebooks
+- 🔍 Search and explore 134 historical notebooks
 
-**What's Python?** It's a programming language. The backend (server) of this project is written in Python.
+**No coding required!** Everything is done through the web interface.
 
-1. Go to [python.org/downloads](https://www.python.org/downloads/)
-2. Download Python 3.8 or newer
-3. **Important**: During installation, check the box that says "Add Python to PATH"
-4. Verify it worked:
-   - Open Command Prompt (Windows) or Terminal (Mac/Linux)
-   - Type: `python --version`
-   - You should see something like `Python 3.11.0`
+---
 
-### Step 2: Install Node.js
+## 🚀 Starting the Application (Quick Setup)
 
-**What's Node.js?** It's a JavaScript runtime. The frontend (user interface) needs it to run.
+### Prerequisites
 
-1. Go to [nodejs.org](https://nodejs.org/)
-2. Download the "LTS" (Long Term Support) version
-3. Install it (default settings are fine)
-4. Verify it worked:
-   - Open Command Prompt/Terminal
-   - Type: `node --version`
-   - You should see something like `v18.17.0`
+You need:
+- **Python 3.8+** installed ([download here](https://python.org/downloads))
+- **Node.js** installed ([download here](https://nodejs.org))
+- The project files on your computer
 
-### Step 3: Get the Project Files
+### Starting the Servers
 
-**Option A: If you have Git:**
-```bash
-git clone https://github.com/ivanKnt/davyNotebooks.git
-cd davyNotebooks
-git checkout dev
-```
+You need to run **two things** - a backend server and a frontend interface.
 
-**Option B: If you don't have Git:**
-1. Go to the GitHub repository
-2. Click the green "Code" button
-3. Click "Download ZIP"
-4. Extract the ZIP file
-5. Open Command Prompt/Terminal and navigate to the folder
+**Step 1: Start the Backend**
 
-### Step 4: Install Backend Dependencies
-
-**What are dependencies?** Think of them as ingredients. Your project needs specific Python packages to work.
+Open a terminal/command prompt and run:
 
 ```bash
-# Create a virtual environment (keeps things organized)
-python -m venv venv
-
-# Activate it
-# On Windows:
+# Windows
+cd path\to\theDavyNotebooksProjectPython
 venv\Scripts\activate
-# On Mac/Linux:
+cd davy_web
+python app.py
+
+# Mac/Linux
+cd path/to/theDavyNotebooksProjectPython
 source venv/bin/activate
-
-# Install the required packages
-pip install -r requirements.txt
-
-# Download language data (for text analysis)
-python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('punkt_tab')"
-```
-
-### Step 5: Install Frontend Dependencies
-
-```bash
-cd davy-frontend
-npm install
-```
-
----
-
-## 📦 Important: About the Data Files
-
-**⚠️ The notebook data files are NOT included in this repository!**
-
-The actual notebook files (TEI XML files, transcriptions, etc.) are in the `items/` folder, but this folder is listed in `.gitignore`, which means it's not pushed to GitHub because:
-- The files are very large (several GB)
-- They contain original research data
-- They're available from the official Davy Notebooks Project
-
-**To get the data:**
-1. Contact the [Davy Notebooks Project team](https://wp.lancs.ac.uk/davynotebooks)
-2. Request access to the TEI XML files and transcription data
-3. Place the files in the `items/` directory following this structure:
-   ```
-   items/
-     01a1/
-       tei/doc
-       transcription/source/classifications
-     01a2/
-       tei/doc
-       transcription/source/classifications
-     ...
-   ```
-
-**Without the data files, you can:**
-- ✅ Run the user interface
-- ✅ See the application layout
-- ❌ Cannot run actual analyses (no data to analyze)
-
----
-
-## 🎯 Running the Application
-
-You need to run TWO things: the backend (server) and the frontend (user interface).
-
-### Start the Backend Server
-
-Open a terminal/command prompt:
-
-```bash
-# Make sure you're in the project root directory
-cd theDavyNotebooksProjectPython
-
-# Activate your virtual environment
-# Windows:
-venv\Scripts\activate
-# Mac/Linux:
-source venv/bin/activate
-
-# Start the backend
 cd davy_web
 python app.py
 ```
 
-You should see:
-```
-* Running on http://127.0.0.1:5001
-```
+You should see: `Running on http://127.0.0.1:5001`
 
-**Leave this terminal window open!** The backend needs to keep running.
+**Keep this window open!**
 
-### Start the Frontend
+**Step 2: Start the Frontend**
 
-Open a **NEW** terminal/command prompt (keep the backend running in the first one):
+Open a **NEW** terminal/command prompt and run:
 
 ```bash
-# Navigate to the frontend folder
-cd davy-frontend
-
-# Start the frontend
+cd path/to/theDavyNotebooksProjectPython/davy-frontend
 npm run dev
 ```
 
-You should see:
-```
-Local: http://localhost:5173
-```
+You should see: `Local: http://localhost:5173`
 
-### Open the Application
+**Step 3: Open Your Browser**
 
-Open your web browser and go to: **http://localhost:5173**
-
-You should see the Davy Notebooks homepage!
+Go to: **http://localhost:5173**
 
 ---
 
-## 🧭 Navigating the User Interface
+## 🏠 The Home Page
 
-### Home Page
+When you first open the app, you'll see the **Home Page** with several cards:
 
-This is your starting point. You'll see cards for different features:
-
-- **Preprocessing** - Prepare raw notebook files for analysis
-- **Classification** - See what type of content each page contains
-- **Poetry Detection** - Find notebooks and pages with poetry
-- **Text Reuse Analysis** - Find where text was copied between notebooks
-- **Inventory** - See which notebooks and files you have
-
-### 1. Preprocessing Page - Getting Your Data Ready
-
-**What is preprocessing?** 
-
-Think of the original notebook files like a book written in a complex language with lots of formatting marks, footnotes, and annotations. Before you can analyze the actual words, you need to translate them into plain text that the computer can understand. That's what preprocessing does.
-
-**What you'll see when you open this page:**
-
-At the top, you'll see a big header that says "Preprocessing" and some explanation text. Below that, you'll see:
-
-1. **A list of all notebooks** - These are displayed in rows, each with:
-   - The notebook ID (like "01a2", "14e", "gs61")
-   - A checkbox next to each one
-   - Maybe a status indicator showing if it's already been preprocessed
-
-2. **Two buttons**:
-   - "Select All" / "Deselect All" - Quick shortcuts to check/uncheck everything
-   - "Run Preprocessing" - The main action button (usually in a bold color like blue or green)
-
-3. **A results area** - This is empty at first, but after you run preprocessing, you'll see:
-   - Progress messages scrolling by
-   - Success/error messages for each notebook
-   - A final summary
-
-**Step-by-Step: How to Use It**
-
-**Step 1**: Look at the list of notebooks. If you're just starting, you probably haven't preprocessed any yet, so they'll all show as "Not Processed" or similar.
-
-**Step 2**: Decide which notebooks to process:
-   - **First time?** Start with just 2-3 notebooks to see how it works
-   - **Processing everything?** Click "Select All" to check all boxes
-   - **Specific notebooks?** Manually check the boxes for the ones you want
-
-**Step 3**: Click the "Run Preprocessing" button. What happens next:
-
-- The button might turn gray and say "Processing..." so you know it's working
-- You'll see messages appear like:
-  - "Processing notebook 01a2..."
-  - "Extracting text from TEI XML..."
-  - "Processing classifications..."
-  - "Saving results to preprocessing/01a2/"
-  - "✓ Successfully processed 01a2"
-
-**Step 4**: Wait for it to finish. For each notebook, preprocessing does these things:
-
-1. **Opens the TEI XML file** - This is the complex formatted version of the notebook
-2. **Extracts the text** - Pulls out the actual words, page by page, removing all the markup
-3. **Identifies entities** - Finds mentions of people (like "Aristotle"), places (like "London"), chemicals (like "oxygen")
-4. **Processes classifications** - Reads the volunteer data about what type of content is on each page
-5. **Saves 4 JSON files** to `preprocessing/<notebook_id>/`:
-   - `page_to_text.json` - The clean text for each page
-   - `page_to_entities.json` - Which entities appear on which pages
-   - `all_entities_metadata.json` - Details about all entities mentioned
-   - `classifications.json` - The volunteer classification votes
-
-**What the results mean:**
-
-After preprocessing finishes, you'll see a summary like:
 ```
-Successfully processed: 3 notebooks
-Failed: 0 notebooks
-Total time: 45 seconds
+┌─────────────────────────────────────────────┐
+│  Davy Notebooks Project                     │
+├─────────────────────────────────────────────┤
+│                                             │
+│  [📝 Preprocessing]  [📊 Classification]   │
+│                                             │
+│  [🎭 Poetry]         [🔄 Text Reuse]       │
+│                                             │
+│  [📋 Inventory]                             │
+└─────────────────────────────────────────────┘
 ```
 
-If any fail, you'll see error messages explaining why (usually missing source files).
+**What each card does:**
 
-**When to use this:** 
+- **📝 Preprocessing** - Prepare notebooks for analysis (run this first!)
+- **📊 Classification** - See what type of content is on each page
+- **🎭 Poetry** - Find all the poetry in the notebooks
+- **🔄 Text Reuse** - Find where text was copied between notebooks
+- **📋 Inventory** - Check which notebooks and files you have
 
-This is **ALWAYS your first step**! None of the other features work until you've preprocessed the notebooks. The good news is you only need to do it once per notebook - the results are saved, so you can close the app and come back later without re-preprocessing.
+Click any card to go to that feature.
 
-**Pro tip:** If you get an error, check the Inventory page to see if the source files exist for that notebook.
+---
 
-### 2. Classification Page - Understanding What's In Each Notebook
+## 📝 Page 1: Preprocessing
 
-**What is classification?**
+**When to use:** First time setup - you must do this before anything else works.
 
-When the Davy Notebooks were transcribed, volunteers on Zooniverse didn't just type out the words - they also classified what type of content each page contained. Is it about chemistry experiments? Poetry? Lecture notes? Personal reflections? This page shows you those classifications and helps you understand what each notebook contains.
+### What You'll See
 
-**What you'll see when you open this page:**
+The page shows:
+- A list of all available notebooks (01a2, 14e, gs61, etc.)
+- Checkboxes next to each notebook
+- "Select All" and "Run Preprocessing" buttons
 
-The page has several sections:
+### How to Use It
 
-1. **At the very top**: A big button that says "Process Classifications"
-   - This button is how you generate the classification summaries
-   - You'll only see this button if you haven't run classification processing yet
+1. **Select notebooks:**
+   - Check the boxes for notebooks you want to process
+   - OR click "Select All" to process everything
+   - **First time? Start with 2-3 notebooks to test**
 
-2. **Once processed, a dropdown menu** labeled "Select Notebook"
-   - Lists all your notebooks (01a2, 14e, gs61, etc.)
-   - Click on it to see the full list
-   - Currently selected notebook is shown in the dropdown
+2. **Click "Run Preprocessing"**
+   - The button turns gray and says "Processing..."
+   - You'll see messages scrolling:
+     ```
+     Processing notebook 01a2...
+     Extracting text...
+     Processing classifications...
+     ✓ Successfully processed 01a2
+     ```
 
-3. **Notebook Overview Section** showing:
-   - The full notebook title (e.g., "Notebook 01A2 (T6, 2023; lecture notes)")
-   - **Overall Classification** - What the entire notebook is primarily about
-   - A big, colorful pie chart showing the content breakdown
+3. **Wait for completion**
+   - Progress messages show what's happening
+   - Green checkmarks (✓) mean success
+   - Red X marks mean errors (usually missing files)
 
-4. **Page-by-Page Details Section** at the bottom:
-   - A table or list of every page in the notebook
-   - Each page shows its classification percentages
-   - Color-coded for easy reading
+4. **Done!**
+   - You'll see: "Successfully processed: 3 notebooks"
+   - Now you can use the other features
 
-**Step-by-Step: How to Use It**
+**💡 Tip:** You only need to preprocess each notebook once. Results are saved!
 
-**FIRST TIME SETUP:**
+---
 
-Before you can view anything, you need to process the classifications. Here's how:
+## 📊 Page 2: Classification
 
-**Step 1**: Click the "Process Classifications" button at the top
+**When to use:** After preprocessing - see what type of content is in each notebook.
 
-What happens:
-- The system reads the raw volunteer data from `preprocessing/<notebook>/classifications.json`
-- It counts up how many volunteers said each classification for each page
-- It calculates percentages (e.g., if 5 out of 7 volunteers said "Electrochemistry", that's 71%)
-- It determines the "consensus" (the most common answer) for each page
-- It figures out what the whole notebook is mostly about
-- It saves everything to `classifications/<notebook>/classifications_page.json`
+### First Time Setup
 
-You'll see messages like:
-- "Processing classifications..."
-- "Processed notebook 01a2"
-- "Processed notebook 14e"
-- "✓ Classification processing complete!"
+1. Click the **"Process Classifications"** button at the top
+2. Wait 30-60 seconds while it processes
+3. You'll see: "✓ Classification processing complete!"
 
-This might take 30 seconds to a minute depending on how many notebooks you have.
+### Using the Page
 
-**Step 2**: Once processing is done, the page refreshes and shows:
-- The dropdown menu with all your notebooks
-- The first notebook is automatically selected and displayed
+Once processing is done, you'll see:
 
-**VIEWING A NOTEBOOK:**
+#### 1. Notebook Selector (Dropdown Menu)
 
-**Step 3**: Click on the dropdown menu to select a notebook. Let's say you choose "01a2". Here's what you'll see:
-
-**The Notebook Title Bar:**
 ```
+┌─────────────────────────────┐
+│ Select Notebook ▼           │
+│  01a2                        │
+│  01a3                        │
+│  14e                         │
+│  ...                         │
+└─────────────────────────────┘
+```
+
+**Click the dropdown** to see all notebooks. Select one to view it.
+
+#### 2. Notebook Overview
+
+After selecting a notebook, you'll see:
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Notebook 01A2 (T6, 2023; lecture notes)
 Overall Classification: Lecture notes
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-This tells you:
-- The notebook ID (01a2)
-- Its cataloging reference (T6, 2023)
-- What it's primarily about (lecture notes)
+This tells you what the notebook is primarily about.
 
-**The Pie Chart:**
+#### 3. Pie Chart - Content Breakdown
 
-You'll see a circular chart divided into colored slices, like:
-- 🔵 Blue slice (50%): "Lecture notes"
-- 🟢 Green slice (30%): "Electrochemistry"
-- 🟡 Yellow slice (15%): "Philosophy"
-- 🔴 Red slice (5%): "Poetry"
+You'll see a colorful pie chart showing:
 
-This shows you the overall content breakdown of the notebook. The bigger the slice, the more pages of that type.
+![Pie Chart Example]
+- 🔵 **Blue**: Lecture notes (50%)
+- 🟢 **Green**: Electrochemistry (30%)
+- 🟡 **Yellow**: Philosophy (15%)
+- 🔴 **Red**: Poetry (5%)
 
-**How the percentages are calculated:**
-- The system looks at every page's consensus
-- If 10 out of 20 pages are "Lecture notes", that's 50%
-- The pie chart shows you the proportions visually
+**Hover over any slice** with your mouse to see exact numbers!
 
-**Hovering over the chart:**
-- Move your mouse over a slice
-- A tooltip appears showing the exact percentage and number of pages
-- Example: "Lecture notes: 50% (10 pages)"
+#### 4. Page-by-Page Results
 
-**The Page-by-Page Table:**
-
-Scroll down and you'll see something like this:
+Scroll down to see individual pages:
 
 ```
 Page 1:
@@ -369,153 +215,74 @@ Page 3:
   → Consensus: Poetry
 ```
 
-**Understanding what you're seeing:**
+**Understanding the percentages:**
+- Shows what volunteers labeled each page as
+- Higher percentage = more volunteers agreed
+- The "Consensus" is what most people said
 
-Each page shows:
-- **The classification categories** that volunteers chose
-- **Percentages** showing how many volunteers chose each
-- **The consensus** (marked with an arrow →) - the most popular choice
+**Classification Types You'll See:**
+- **Electrochemistry** - Chemistry experiments with electricity
+- **Lecture notes** - Lecture materials
+- **Philosophy** - Philosophical thoughts
+- **Poetry** - Poems and verses
+- **Geology** - Geological notes
+- **Other electric** - Electricity (not electrochemistry)
+- **Refers to other writers** - Quotes and references
+- **Other** - Everything else
 
-**What the percentages mean:**
+### How to Use This Information
 
-Let's say Page 1 shows "Lecture notes: 50%":
-- This means 50% of volunteers who classified this page said it was "Lecture notes"
-- If 6 volunteers classified the page, 3 of them said "Lecture notes"
+- **Looking for specific content?** Use the pie chart to see if it's in this notebook
+- **High percentages** (70%+) = reliable classification
+- **Low percentages** (40-60%) = mixed content or volunteers disagreed
+- **Try different notebooks** using the dropdown to explore
 
-**Why multiple categories?**
+---
 
-Volunteers sometimes disagreed! Page 1 might have:
-- 50% saying "Lecture notes" (3 volunteers)
-- 33% saying "Electrochemistry" (2 volunteers)  
-- 17% saying "Other electric" (1 volunteer)
+## 🎭 Page 3: Poetry Detection
 
-The system keeps all this information so you can see:
-- How confident the classification is (80% = very confident, 40% = uncertain)
-- What else the page might contain (mixed content)
+**When to use:** Find all the poetry across all notebooks.
 
-**Using the Classifications:**
+### What You'll See
 
-Now that you can see what's in each notebook, you can:
+The page has:
+1. A **"Detect Poetry"** button at the top
+2. Two result sections (after detecting):
+   - "Overall Poetry Notebooks"
+   - "Poetry Pages"
 
-1. **Find specific content types**:
-   - Want to study Davy's poetry? Look for high "Poetry" percentages
-   - Researching electrochemistry? Find pages with high "Electrochemistry" scores
+### How to Use It
 
-2. **Assess classification confidence**:
-   - High percentage (70%+) = volunteers agreed, classification is reliable
-   - Low percentage (40-60%) = volunteers disagreed, might be mixed content
-   - Very low (20-30%) = very mixed or ambiguous content
+**Step 1: Click "Detect Poetry"**
+- The system scans all notebooks for poetry
+- Takes 5-10 seconds
+- You'll see: "✓ Poetry detection complete!"
 
-3. **Understand notebook structure**:
-   - Is it a specialized notebook (all one type) or mixed?
-   - Where do topic changes happen?
-   - Are certain types of content grouped together?
+**Step 2: View Results**
 
-4. **Plan further analysis**:
-   - Use high-confidence pages for detailed study
-   - Investigate low-confidence pages to see why volunteers disagreed
+#### Overall Poetry Notebooks
 
-**Common Classification Categories You'll See:**
-
-- **Electrochemistry** - Experiments with electricity and chemical reactions
-- **Lecture notes** - Material prepared for or from lectures
-- **Philosophy** - Philosophical musings and reflections
-- **Poetry** - Poems, verse, literary content
-- **Geology** - Geological observations and theories
-- **Other electric** - Electricity topics that aren't electrochemistry (static electricity, etc.)
-- **Refers to other writers/their works** - Quotations, references, discussions of other authors
-- **Other** - Anything that doesn't fit the above categories
-
-**Troubleshooting:**
-
-- **"No notebooks found"**: Run preprocessing first, then run classification processing
-- **"Some notebooks missing from dropdown"**: They might not have classification data (check Inventory page)
-- **"All pages show 0%"**: The classification file might be empty - check the source data
-
-### 3. Poetry Detection Pages - Finding Davy's Literary Side
-
-One fascinating discovery from the Davy Notebooks Project is that Humphry Davy wasn't just a scientist - he was also a poet! His notebooks contain poetry alongside scientific observations. This feature helps you find all that poetry quickly.
-
-#### Traditional Poetry Detection - Keyword-Based Search
-
-**What does this do?**
-
-This feature scans through all the classification data (remember the volunteer classifications from the previous page?) and pulls out every page and notebook that was classified as containing poetry. It's like having someone read through all 134 notebooks and bookmark every poem for you!
-
-**What you'll see on this page:**
-
-1. **A "Detect Poetry" button** at the top
-   - This runs the poetry detection process
-   - You only need to click it once (results are saved)
-
-2. **Two main result sections:**
-   - "Overall Poetry Notebooks" - Entire notebooks that are primarily poetry
-   - "Poetry Pages" - Individual pages with poetry (even if the notebook isn't mainly poetry)
-
-3. **Summary statistics** showing:
-   - Total number of poetry notebooks found
-   - Total number of poetry pages found
-   - Percentage of notebooks containing some poetry
-
-**Step-by-Step: How to Use It**
-
-**Step 1**: Make sure you've run classification processing first
-- Go to the Classification page
-- Click "Process Classifications"
-- Wait for it to finish
-- Then come back here
-
-**Step 2**: Click the "Detect Poetry" button
-
-What happens behind the scenes:
-- The system opens each notebook's classification file
-- It looks for keywords like "poetry", "poem", "verse", "poetic"
-- It checks both individual page classifications AND overall notebook classifications
-- It separates findings into two categories:
-  - **Poetry Notebooks**: Where the consensus for the entire notebook is "poetry"
-  - **Poetry Pages**: Any individual page classified as poetry (even in non-poetry notebooks)
-- It saves the results to `poetry_files/` (4 files: 2 CSV, 2 TXT)
-
-You'll see progress messages:
-```
-Scanning notebooks for poetry...
-Found poetry in notebook 13a
-Found poetry in notebook 14e
-✓ Poetry detection complete!
-Found 2 poetry notebooks
-Found 15 poetry pages across 8 notebooks
-```
-
-**Step 3**: View the "Overall Poetry Notebooks" section
-
-This shows notebooks where **most or all pages are poetry**. You'll see something like:
+Shows notebooks that are **primarily poetry**:
 
 ```
-Overall Poetry Notebooks (2 found):
-
 📓 Notebook 13a
    Title: Notebook 13A (Poetry)
    Overall Classification: Poetry
-   View details →
+   [View Details →]
 
-📓 Notebook 14e  
+📓 Notebook 14e
    Title: Notebook 14E (Mixed content)
    Overall Classification: Poetry
-   View details →
+   [View Details →]
 ```
 
-**What this means:**
-- These notebooks are dedicated poetry collections or heavily poetic
-- If you're studying Davy's literary work, start here
-- Click "View details" to see which specific pages
+**What this means:** These entire notebooks are poetry collections.
 
-**Step 4**: Scroll down to the "Poetry Pages" section
+#### Poetry Pages
 
-This shows **every single page** classified as poetry, organized by notebook:
+Shows **every page** with poetry, organized by notebook:
 
 ```
-Poetry Pages (15 pages found across 8 notebooks):
-
 Notebook 01a2:
   → Page 15: Poetry (80% confidence)
   → Page 23: Poem (100% confidence)
@@ -531,419 +298,449 @@ Notebook 14e:
   → Page 43: Poetry (65% confidence)
 ```
 
-**Understanding the confidence scores:**
-- **100%**: All volunteers agreed it's poetry
-- **80-90%**: Most volunteers agreed (high confidence)
-- **65-75%**: Majority agreed but some disagreed (moderate confidence)
-- **50-60%**: Mixed opinions (might be borderline)
+**Understanding confidence:**
+- **100%**: All volunteers agreed
+- **80-90%**: Most agreed (high confidence)
+- **65-75%**: Majority agreed (moderate)
+- **Below 60%**: Mixed opinions
 
-**How to use these results:**
+### What You Can Do
 
-1. **For literary research**:
-   - Export the poetry pages list
-   - Go through each page systematically
-   - Compare poetic style across different notebooks
+- **Count**: See how many poetry pages total
+- **Locate**: Find specific page numbers with poetry
+- **Explore**: Click different notebooks to see their poetry
+- **Research**: Note which notebooks mix poetry with science
 
-2. **Finding specific poems**:
-   - Note the notebook and page numbers
-   - Go to the Classification page to see that notebook
-   - View the actual text in the preprocessing files
-
-3. **Understanding Davy's work habits**:
-   - Are poetry pages clustered together or scattered?
-   - Do certain notebooks mix poetry with science?
-   - When did he write poetry (check notebook dates)?
-
-4. **Download the results**:
-   - Look in the `poetry_files/` folder
-   - `poetry_pages.csv` - Spreadsheet format for analysis
-   - `poetry_pages.txt` - Human-readable list
-   - `overall_poetry_notebooks.csv` - Poetry notebooks only
-   - `overall_poetry_notebooks.txt` - Summary report
-
-**Why some notebooks might be missing:**
-
-If a notebook doesn't appear in the results, it could mean:
-- It genuinely contains no poetry
-- It hasn't been classified yet (check notebook 08, gs61-gs65)
-- Volunteers classified it differently (maybe as "Refers to other writers")
-
-**Pro tip:** Cross-reference with the Classification page
-- If you see a notebook with poetry here, go view it on the Classification page
-- Look at the percentages - maybe there's more poetry than you thought!
-- Pages with low confidence might be worth manual inspection
-
-#### Advanced Poetry Detection (Future Feature)
-
-This will use AI (Large Language Models like GPT or Claude) to detect poetry more accurately. 
-
-**Why would this be better?**
-- Current method relies on volunteer classifications
-- AI could detect poetic language even if volunteers didn't label it as "poetry"
-- Could identify different poetry styles (sonnets, ballads, etc.)
-- Could find "poetic prose" - literary language that isn't technically poetry
-
-**Status**: Not yet implemented - this is a placeholder for future development.
-
-### 4. Text Reuse Analysis Pages
-
-**What is text reuse?** When Davy copied, adapted, or reused text from one notebook to another. This helps researchers see how his ideas evolved.
-
-#### Traditional Text Reuse
-
-This page lets you use three different algorithms to find text reuse. Let's explain each in simple terms:
+**💡 Tip:** Cross-reference with the Classification page to see more details about any specific page!
 
 ---
 
-### 📊 Understanding the Algorithms
+## 🔄 Page 4: Text Reuse Analysis
 
-#### **N-gram Analysis** - "Matching Word Sequences"
+**When to use:** Find where Davy copied or reused text between notebooks.
 
-**Simple explanation:** Breaks text into overlapping word groups and finds which groups appear in multiple notebooks.
+### What Is Text Reuse?
+
+Text reuse is when the same or similar text appears in multiple notebooks. This shows:
+- How ideas evolved across time
+- When he refined lecture materials
+- Connections between different notebooks
+
+### The Three Analysis Methods
+
+The page offers three different ways to find text reuse:
+
+```
+┌─────────────────────────────────┐
+│  N-gram Analysis                │
+│  [Configure] [Run Analysis]     │
+├─────────────────────────────────┤
+│  GST (Greedy String Tiling)     │
+│  [Configure] [Run Analysis]     │
+├─────────────────────────────────┤
+│  TF-IDF Similarity              │
+│  [Configure] [Run Analysis]     │
+└─────────────────────────────────┘
+```
+
+Let me explain each in simple terms:
+
+---
+
+### Method 1: N-gram Analysis
+
+**What it does:** Finds pages that share the same word sequences.
+
+**Think of it like:** Comparing pages by breaking them into small word groups and seeing how many groups match.
 
 **Example:**
-- Text A: "The oxygen experiment was successful"
-- Text B: "The nitrogen experiment was successful"
+- Page A: "The experiment was successful in demonstrating"
+- Page B: "The experiment was successful in proving"
+- They share: "The experiment was", "experiment was successful", "was successful in"
 
-Using 2-word groups (2-grams):
-- Shared: "the experiment", "experiment was", "was successful"
-- Different: "oxygen" vs "nitrogen"
+#### How to Use N-gram
 
-**When to use:**
-- When you want a quick overview of similarities
-- When you're okay with scattered matches (not necessarily continuous copying)
-- When you want to find general thematic overlap
+**1. Click "Configure" to see settings:**
 
-**Configuration options:**
+```
+N-gram Size: [2 ▼]
+Similarity Threshold: [0.2 ▼]
+☑ Use Stemming
+☑ Remove Stopwords
+Notebooks to Compare: [Select ▼]
+```
 
-- **N-gram Size** (recommended: 2-4):
-  - `2-grams`: Very fast, finds lots of matches (including common phrases)
-  - `3-grams`: Balanced - good precision and recall
-  - `4-grams`: Slower, but very precise (only substantial matches)
-  - **Tip**: Start with 2-grams for a quick scan, then use 4-grams for precise matching
+**What each setting means:**
 
-- **Similarity Threshold** (recommended: 0.2-0.4):
-  - `0.1` (10%): Finds almost everything (may include false positives)
-  - `0.2` (20%): Good starting point - finds meaningful similarities
-  - `0.4` (40%): Very strict - only strong matches
-  - **Tip**: Use 0.2 for exploration, 0.4 for confident copying
+- **N-gram Size** (choose 2, 3, or 4):
+  - **2**: Fast, finds lots of matches
+  - **3**: Balanced (recommended for beginners)
+  - **4**: Slower, but very precise
 
-- **Use Stemming** (recommended: Yes):
-  - **Yes**: Treats "experiment", "experiments", "experimenting" as the same
-  - **No**: Requires exact word forms
-  - **Tip**: Turn this ON unless you care about exact word forms
+- **Similarity Threshold** (0.1 to 1.0):
+  - **0.2** = Find anything 20% similar or more (recommended)
+  - **0.4** = Only strong matches (50%+ similar)
+  - Lower = more results, higher = fewer but stronger results
 
-- **Remove Stopwords** (recommended: Yes):
-  - **Yes**: Ignores common words like "the", "and", "of"
-  - **No**: Includes all words
-  - **Tip**: Turn this ON for faster processing and more meaningful matches
+- **Use Stemming**: 
+  - ☑ Checked = "experiment", "experiments", "experimenting" count as same word
+  - ☐ Unchecked = Requires exact word forms
+
+- **Remove Stopwords**:
+  - ☑ Checked = Ignores common words like "the", "and", "of" (faster)
+  - ☐ Unchecked = Includes all words
+
+**2. Select Notebooks:**
+- Click the dropdown
+- Check boxes for notebooks to compare
+- **Tip:** Start with 2-3 notebooks (comparing many takes time!)
+
+**3. Click "Run Analysis"**
+- You'll see: "Running N-gram analysis..."
+- Progress bar shows completion
+- Takes 1-5 minutes depending on how many notebooks
+
+**4. View Results:**
+
+You'll see a table like:
+
+```
+╔══════════════════════════════════════════════════╗
+║ Notebook 1 │ Page │ Notebook 2 │ Page │ Similarity ║
+╠══════════════════════════════════════════════════╣
+║ 01a2      │  5   │ 01a4      │  3   │   45%     ║
+║ 01a2      │  12  │ 14e       │  8   │   67%     ║
+║ 14e       │  42  │ 14g       │  15  │   89%     ║
+╚══════════════════════════════════════════════════╝
+```
+
+**What it means:**
+- Each row shows two pages that are similar
+- Higher percentage = more similar
+- **Click a row** to see the actual text side-by-side
 
 ---
 
-#### **GST (Greedy String Tiling)** - "Finding Exact Copying"
+### Method 2: GST (Greedy String Tiling)
 
-**Simple explanation:** Finds the longest matching sections of text, then marks them as "used" and finds the next longest match. Great for detecting plagiarism or direct copying.
+**What it does:** Finds continuous sections of exact matching text.
 
-**Example:**
-- Text A: "The experiment with oxygen was conducted carefully and showed promising results"
-- Text B: "The experiment with nitrogen was conducted carefully and proved the hypothesis"
+**Think of it like:** Looking for copy-paste sections - where he literally copied chunks of text.
 
-GST finds:
-- Match 1: "The experiment with" (4 words)
-- Match 2: "was conducted carefully and" (4 words)
+**Best for:** Finding direct copying (not just similar topics).
 
-**When to use:**
-- When you suspect direct copying (not just similar topics)
-- When you want to find continuous passages that match
-- When word order matters
+#### How to Use GST
 
-**Configuration options:**
+**1. Click "Configure":**
 
-- **Minimum Match Length** (recommended: 3-5):
-  - `3`: Finds many short matches (may include common phrases)
-  - `4`: Balanced - substantial matches
-  - `5` or more: Only long, deliberate copying
-  - **Tip**: Use 3 for exploratory analysis, 5 for proven copying
+```
+Minimum Match Length: [4 ▼]
+☐ Use Stemming
+☐ Remove Stopwords
+Notebooks to Compare: [Select ▼]
+```
 
-- **Use Stemming** (recommended: No):
-  - **No**: Requires exact words (better for detecting direct copying)
-  - **Yes**: Allows word variations
-  - **Tip**: Turn this OFF to find exact copying
+**Settings explained:**
 
-- **Remove Stopwords** (recommended: No):
-  - **No**: Includes all words (even "the", "and") for exact matching
-  - **Yes**: Focuses on content words only
-  - **Tip**: Turn this OFF unless you're only interested in content words
+- **Minimum Match Length**:
+  - **3**: Finds short matches (may include common phrases)
+  - **4**: Balanced (recommended)
+  - **5+**: Only long, deliberate copying
+
+- **Use Stemming**: Usually leave ☐ unchecked for GST (finds exact copying)
+- **Remove Stopwords**: Usually leave ☐ unchecked (includes all words)
+
+**2. Select notebooks and Click "Run Analysis"**
+
+**3. View Results:**
+
+Results show:
+```
+╔══════════════════════════════════════════════════════╗
+║ Match │ Length │ Notebook 1 │ Notebook 2 │ Similarity ║
+╠══════════════════════════════════════════════════════╣
+║   1   │  42    │ 01a2, p5   │ 01a4, p3   │    45%     ║
+║   2   │  85    │ 14e, p42   │ 14g, p15   │    78%     ║
+╚══════════════════════════════════════════════════════╝
+```
+
+- **Length**: How many words matched in a row
+- Longer length = more substantial copying
+- **Click to see** the exact matching text
 
 ---
 
-#### **TF-IDF** - "Finding Thematic Similarity"
+### Method 3: TF-IDF Similarity
 
-**Simple explanation:** Weighs words by how unique they are. Common words like "the" have low importance, while unique words like "electrochemistry" have high importance.
+**What it does:** Finds pages about the same topics, even if worded differently.
 
-**Example:**
-- Text A: "The electrochemical experiment with oxygen"
-- Text B: "The chemical reaction using nitrogen"
+**Think of it like:** Smart topic matching - understands "electrochemistry" and "chemical reactions" are related.
 
-TF-IDF notices:
-- "electrochemical" and "chemical" are related (semantic similarity)
-- Both discuss chemistry even without exact word matches
-- Ignores common words like "the"
+**Best for:** Finding thematically similar pages (not exact copying).
 
-**When to use:**
-- When you want to find passages about the same topic (even if worded differently)
-- When you're looking for thematic connections, not exact copying
-- When paraphrasing might be involved
+#### How to Use TF-IDF
 
-**Configuration options:**
+**1. Click "Configure":**
 
-- **N-gram Range** (recommended: 1-3):
-  - `(1, 1)`: Only individual words
-  - `(1, 2)`: Words and 2-word phrases
-  - `(1, 3)`: Words, 2-word phrases, and 3-word phrases
-  - **Tip**: Use (1, 3) for best results - captures both single terms and phrases
+```
+N-gram Range: [1-3 ▼]
+Similarity Threshold: [0.3 ▼]
+Similarity Metric: [cosine ▼]
+☑ Use Stemming
+☑ Remove Stopwords
+Notebooks to Compare: [Select ▼]
+```
 
-- **Similarity Threshold** (recommended: 0.3-0.5):
-  - `0.2`: Finds distant thematic connections
-  - `0.3`: Good balance
-  - `0.5`: Only very similar topics
-  - **Tip**: Start with 0.3 and adjust based on results
+**Settings explained:**
 
-- **Similarity Metric** (recommended: cosine):
-  - `cosine`: Most common, works well for text (recommended)
-  - `euclidean`: Different distance measure
-  - `manhattan`: Another distance measure
-  - **Tip**: Stick with cosine unless you have a specific reason to change
+- **N-gram Range**: Keep at **1-3** (default is fine)
+- **Similarity Threshold**: **0.3** is a good starting point
+- **Similarity Metric**: Keep at **cosine** (recommended)
+- **Use Stemming**: ☑ Check this (helps find related words)
+- **Remove Stopwords**: ☑ Check this (focuses on meaningful words)
 
-- **Use Stemming** (recommended: Yes):
-  - **Yes**: Groups word variations
-  - **No**: Exact words only
-  - **Tip**: Turn this ON for better semantic matching
+**2. Select notebooks and Click "Run Analysis"**
 
-- **Remove Stopwords** (recommended: Yes):
-  - **Yes**: Focuses on meaningful words
-  - **No**: Includes all words
-  - **Tip**: Turn this ON (stopwords don't help TF-IDF)
+**3. View Results:**
+
+Shows pages about similar topics, even if the exact words differ.
 
 ---
 
-### 🎓 Which Algorithm Should You Use?
+### 📊 Understanding Your Results
 
-**Use N-gram when:**
-- ✅ You want a quick first pass
-- ✅ You're looking for general similarity
-- ✅ You don't mind scattered matches
+After running any analysis, you'll see:
 
-**Use GST when:**
-- ✅ You suspect direct copying
-- ✅ You want to find continuous matching passages
-- ✅ Word order is important
+**1. Results Table** - Lists all matches found
 
-**Use TF-IDF when:**
-- ✅ You're looking for thematic similarity
-- ✅ The text might be paraphrased
-- ✅ You want to find conceptually related passages
+**2. Details View** - Click any row to see:
+- The two pages side-by-side
+- Highlighted matching sections
+- Similarity percentage
+- Context around the match
 
-**Best practice:** Run all three! They complement each other:
-1. Start with N-gram (fast overview)
-2. Use GST for suspected copying
-3. Use TF-IDF for thematic connections
+**3. Download Options** - Export results as:
+- CSV (open in Excel)
+- JSON (for further analysis)
+- TXT (human-readable report)
 
----
+### Which Method Should You Use?
 
-### 💡 Recommended Configurations for Beginners
-
-#### Quick Exploration
-```
-N-gram Analysis:
-- N-gram Size: 2
-- Similarity Threshold: 0.2
-- Use Stemming: Yes
-- Remove Stopwords: Yes
-```
-
-#### Finding Direct Copying
-```
-GST Analysis:
-- Minimum Match Length: 4
-- Use Stemming: No
-- Remove Stopwords: No
-```
-
-#### Finding Related Topics
-```
-TF-IDF Analysis:
-- N-gram Range: (1, 3)
-- Similarity Threshold: 0.3
-- Similarity Metric: cosine
-- Use Stemming: Yes
-- Remove Stopwords: Yes
-```
+- **Just exploring?** Start with **N-gram** (fast and easy)
+- **Looking for copying?** Use **GST**
+- **Finding related topics?** Use **TF-IDF**
+- **Best approach:** Try all three and compare!
 
 ---
 
-### 5. Inventory Page - Your Data Health Check
+## 📋 Page 5: Inventory
 
-**What does this show?**
+**When to use:** Check which notebooks and files you have before running analyses.
 
-Think of this as a diagnostic tool - it tells you exactly which notebooks you have, which files exist for each one, and what might be missing. It's like checking your cupboard to see what ingredients you have before cooking!
+### What You'll See
 
-**What you'll see on this page:**
+The Inventory page shows you the "health status" of your data.
 
-1. **A "Run File Scan" button** at the top
-2. **Overall Statistics panel** showing:
-   - Total notebooks found
-   - How many have TEI XML files (the source data)
-   - How many have preprocessing outputs
-   - How many have classification data
-   - Percentages for each file type
+### How to Use It
 
-3. **Detailed notebook list** showing each notebook with checkmarks and X marks:
-   ```
-   01a2:
-     ✓ TEI XML
-     ✓ Valid Text
-     ✓ Tagged Text  
-     ✓ Zooniverse Files
-     ✓ Classifications
-     Status: Complete
-   
-   08:
-     ✓ TEI XML
-     ✗ Valid Text
-     ✗ Tagged Text
-     ✗ Zooniverse Files
-     ✗ Classifications
-     Status: Missing files
-   
-   gs61:
-     ✓ TEI XML
-     ✓ Valid Text
-     ✓ Tagged Text
-     ✓ Zooniverse Files
-     ✗ Classifications
-     Status: Missing classifications
-   ```
+**1. Click "Run File Scan"**
+- Takes 5-10 seconds
+- Checks all notebooks and files
 
-**Step-by-Step: How to Use It**
+**2. View Overall Statistics**
 
-**Step 1**: Click "Run File Scan"
+You'll see a summary:
 
-The system checks:
-- `items/` folder for source files (TEI XML, transcriptions)
-- `preprocessing/` folder for preprocessed outputs
-- `classifications/` folder for classification results
-- `poetry_files/` folder for poetry detection results
-
-This takes about 5-10 seconds.
-
-**Step 2**: Review the overall statistics
-
-You'll see something like:
 ```
-Total Notebooks: 134
-TEI XML files: 134/134 (100%)
-Preprocessing complete: 128/134 (95.5%)
-Classifications available: 128/134 (95.5%)
+╔═════════════════════════════════════╗
+║ Total Notebooks: 134                ║
+║ TEI XML files: 134/134 (100%)      ║
+║ Preprocessing: 128/134 (95.5%)     ║
+║ Classifications: 128/134 (95.5%)   ║
+╚═════════════════════════════════════╝
 ```
 
-This tells you:
-- You have all the source TEI XML files (good!)
-- Most notebooks are preprocessed (128 out of 134)
-- 6 notebooks need preprocessing or are missing files
+**What this tells you:**
+- ✅ Green percentages (95%+) = Most notebooks ready
+- ⚠️ Yellow percentages (80-95%) = Some missing
+- ❌ Red percentages (<80%) = Many missing
 
-**Step 3**: Scroll through the detailed list
+**3. Scroll Through Detailed List**
 
-Look for notebooks marked "Missing files" or "Incomplete":
-- These are the ones blocking your analysis
-- Note which files are missing (shown with ✗)
-- Cross-reference with the "Data Quality & Known Issues" section in README2.md
+Each notebook shows checkmarks or X marks:
 
-**What each file type means:**
+```
+01a2:
+  ✓ Source Files
+  ✓ Preprocessing Done
+  ✓ Classifications Available
+  Status: ✅ Complete
 
-- **TEI XML**: The original formatted notebook file (required for everything)
-- **Valid Text**: Cleaned text file (created during preprocessing)
-- **Tagged Text**: Text with annotations (created during preprocessing)
-- **Zooniverse Files**: Transcription data from volunteers (required for preprocessing)
-- **Classifications**: Volunteer classification data (required for classification/poetry features)
+08:
+  ✓ Source Files
+  ✗ Preprocessing Done
+  ✗ Classifications Available
+  Status: ⚠️ Incomplete
 
-**Using this information:**
+gs61:
+  ✓ Source Files
+  ✓ Preprocessing Done
+  ✗ Classifications Available
+  Status: ⚠️ Missing Classifications
+```
 
-**Before preprocessing:**
-- Check that notebooks have TEI XML and Zooniverse files
-- If missing, you can't preprocess them
+**Status indicators:**
+- ✅ **Complete**: Everything available, ready to analyze
+- ⚠️ **Incomplete**: Missing some files, limited functionality
+- ❌ **Missing**: Can't process this notebook yet
 
-**Before classification:**
-- Check that notebooks have Classifications marked with ✓
-- Notebooks without this can be preprocessed but not classified
+### What to Do About Missing Files
 
-**Troubleshooting:**
-- **"Only 128 notebooks show up"**: Check if you have data files in `items/`
-- **"Notebook X is missing Zooniverse files"**: Contact Davy Notebooks Project team
-- **"Everything shows ✗"**: Make sure data files are in the correct folder structure
+**If you see incomplete notebooks:**
 
-**Pro tip:** Run this scan after:
-- Adding new notebooks to `items/`
-- Running preprocessing
-- Getting errors in other features (check what's missing here!)
+1. **Missing Preprocessing**: Go to Preprocessing page and process that notebook
+2. **Missing Classifications**: Go to Classification page and run processing
+3. **Missing Source Files**: Need to get data files from Davy Notebooks Project team
+
+**💡 Tip:** Run this scan before doing big analyses to know which notebooks will work!
 
 ---
 
-## ❓ Common Questions
+## 💡 Tips for Using the Application
 
-### "The backend isn't starting!"
-- Make sure you activated the virtual environment
-- Check if port 5001 is already in use
-- Look at the error message for clues
+### Getting Started
+1. ✅ Always run **Preprocessing** first
+2. ✅ Then run **Classification** processing
+3. ✅ Now you can use **Poetry** and **Text Reuse**
+4. ✅ Check **Inventory** if something doesn't work
 
-### "The frontend shows errors!"
-- Make sure the backend is running first
-- Check that you're going to http://localhost:5173 (not 5174 or other port)
-- Look at the browser console (F12) for error messages
+### Best Practices
+- **Start small**: Process 2-3 notebooks first to learn
+- **Check results**: View one notebook in detail before processing all
+- **Save work**: Results are saved automatically
+- **Be patient**: Text reuse analysis takes time with many notebooks
+
+### Navigation Tips
+- Use your browser's **Back button** to return to previous pages
+- Click the **Home** link (usually top-left) to return to the main menu
+- Keep both terminal windows **open** while using the app
+- **Refresh the page** (F5) if something looks stuck
+
+### Performance Tips
+- **Text Reuse Analysis** is slow with many notebooks:
+  - Comparing 2 notebooks: ~1 minute
+  - Comparing 10 notebooks: ~5-10 minutes  
+  - Comparing 50 notebooks: ~30-60 minutes
+  
+- **Start with fewer notebooks** if it's too slow
+
+- **Close other programs** if your computer is slow
+
+---
+
+## ❓ Troubleshooting
 
 ### "I don't see any notebooks!"
-- Make sure you have data files in the `items/` folder
-- Run the preprocessing first
-- Check the Inventory page to see what's available
+- ✅ Make sure you have data files in the `items/` folder
+- ✅ Go to Inventory page and run File Scan to check
 
-### "Analysis is taking forever!"
-- Text reuse analysis can be slow (especially with many notebooks)
-- Start with just 2-3 notebooks to test
-- Use larger n-grams for faster (but less sensitive) matching
+### "Preprocessing button does nothing"
+- ✅ Check that backend is running (look at terminal window)
+- ✅ Check browser console (press F12, look for errors)
+- ✅ Try refreshing the page
 
-### "I don't understand the results!"
-- High similarity (>50%) = very similar text
-- Medium similarity (20-50%) = some shared content
-- Low similarity (<20%) = minimal overlap
-- Check the detailed report (TXT file) for human-readable explanations
+### "No results in Classification page"
+- ✅ Did you click "Process Classifications" first?
+- ✅ Did you preprocess the notebooks?
+- ✅ Check Inventory to see if classification files exist
 
----
+### "Text Reuse is taking forever"
+- ✅ This is normal! It's comparing lots of text
+- ✅ Try selecting fewer notebooks (2-3 instead of 10+)
+- ✅ Wait patiently - don't close the browser
 
-## 🆘 Getting Help
+### "The page looks broken"
+- ✅ Make sure both backend AND frontend are running
+- ✅ Go to correct URL: http://localhost:5173 (not 5001)
+- ✅ Try refreshing the page (F5)
+- ✅ Try a different browser
 
-**If you're stuck:**
-
-1. **Check the logs**: Look at the terminal windows where backend/frontend are running
-2. **Read error messages carefully**: They often tell you exactly what's wrong
-3. **Check the detailed README2.md**: For technical details
-4. **Contact the Davy Notebooks Project team**: [davynotebooks@lancaster.ac.uk](mailto:davynotebooks@lancaster.ac.uk)
-
----
-
-## 🎉 You're Ready!
-
-Now you know:
-- ✅ How to start the application
-- ✅ What each page does
-- ✅ How to configure text reuse algorithms
-- ✅ How to interpret results
-
-**Happy exploring!** The Davy Notebooks contain fascinating insights into 18th-century science and literature. Enjoy discovering Davy's work!
+### "Backend crashed / error messages"
+- ✅ Look at the backend terminal window for error details
+- ✅ Restart the backend (close and run `python app.py` again)
+- ✅ Check that you have all required Python packages
 
 ---
 
-**Next Steps:**
-- Read the detailed documentation in `README2.md` for technical information
-- Contact the Davy Notebooks Project to get the full dataset
-- Start with small analyses and work your way up to larger ones
+## 🎯 Common Tasks
 
+### Task: "Find all poetry in the notebooks"
+1. Go to **Preprocessing** → Process all notebooks
+2. Go to **Classification** → Click "Process Classifications"
+3. Go to **Poetry Detection** → Click "Detect Poetry"
+4. Review the list of poetry pages
+
+### Task: "See what notebook 14e contains"
+1. Go to **Preprocessing** → Check box for 14e → Run Preprocessing
+2. Go to **Classification** → Click "Process Classifications"
+3. Select "14e" from dropdown
+4. View the pie chart and page details
+
+### Task: "Find if text was copied between notebooks 01a2 and 14e"
+1. Make sure both are preprocessed
+2. Go to **Text Reuse**
+3. Choose **N-gram Analysis**
+4. Select notebooks 01a2 and 14e
+5. Click "Run Analysis"
+6. Review results table
+
+### Task: "Check which notebooks I can analyze"
+1. Go to **Inventory**
+2. Click "Run File Scan"
+3. Look for ✅ Complete notebooks
+4. Note any ⚠️ Incomplete ones
+
+---
+
+## 🆘 Getting More Help
+
+**Need assistance?**
+
+1. **Technical issues**: Check the backend terminal for error messages
+2. **Missing data**: Contact the Davy Notebooks Project team for access to notebook files
+3. **Questions about results**: Refer to the detailed technical documentation (README2.md)
+
+**Contact:**
+- Davy Notebooks Project: [davynotebooks@lancaster.ac.uk](mailto:davynotebooks@lancaster.ac.uk)
+- Project website: [https://wp.lancs.ac.uk/davynotebooks](https://wp.lancs.ac.uk/davynotebooks)
+
+---
+
+## 🎉 You're Ready to Explore!
+
+You now know how to:
+- ✅ Navigate all 5 main pages
+- ✅ Process and classify notebooks
+- ✅ Find poetry content
+- ✅ Analyze text reuse
+- ✅ Check data status
+
+**Happy exploring!** The Davy Notebooks contain fascinating insights into 18th-century science, literature, and the mind of one of history's great scientists.
+
+---
+
+**Quick Reference Card:**
+
+```
+┌─────────────────────────────────────────────┐
+│  Page          │  What It Does              │
+├─────────────────────────────────────────────┤
+│  Preprocessing │  Extract text from files   │
+│  Classification│  Show content types        │
+│  Poetry        │  Find poetry pages         │
+│  Text Reuse    │  Find copied text          │
+│  Inventory     │  Check data status         │
+└─────────────────────────────────────────────┘
+
+First time: Preprocessing → Classification → Explore!
+```
